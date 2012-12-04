@@ -22,7 +22,7 @@
 .. i18n: ++++++++++++++++++++++++++++++++++++
 ..
 
-更新Minor/补丁发行版
+更新次版本/补丁发行版
 ++++++++++++++++++++++++++++++++++++
 
 .. i18n: OpenERP's release policy states that minor/patch releases of the stable
@@ -31,7 +31,7 @@
 .. i18n: and do not require any migration process.
 ..
 
-OpenERP的发布策略是 通常每个月发布稳定版本的Minor/补丁。 这些建议部署在生产环
+OpenERP的发布策略是 通常每个月发布稳定版本的次版本/补丁。 这些建议部署在生产环
 境,因为它们包括最新的安全更新和错误修正,并且需要任何迁移过程。 
 
 .. i18n: Of course you should always test these updates on a staging environment
