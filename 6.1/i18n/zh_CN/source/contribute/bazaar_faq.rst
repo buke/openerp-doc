@@ -12,7 +12,7 @@ Bazaar 版本控制的常见问题(F.A.Q)
 .. i18n: .. contents::
 ..
 
-.. contents::
+.. 目录::
 
 .. i18n: How to install bazaar ?
 .. i18n: +++++++++++++++++++++++
@@ -26,7 +26,7 @@ Bazaar安装
 .. i18n:   apt-get install bzr
 ..
 
-To install bazaar on any ubuntu distribution, you can use::
+在Ubuntu系统上使用下面命令安装 Bazaar::
 
   apt-get install bzr
 
@@ -35,21 +35,20 @@ To install bazaar on any ubuntu distribution, you can use::
 .. i18n:   bzr --version
 ..
 
-To work correctly, bzr version must be at least 1.3. Check it with the command::
+最好安装Bazaar版本>=1.3。下面的命令可以查看当前Bazaar的版本::
 
   bzr --version
 
 .. i18n: If you have an older version check this url: http://bazaar-vcs.org/Download
 ..
 
-If you have an older version check this url: http://bazaar-vcs.org/Download
+如果Bazaar版本过低， 请到 http://bazaar-vcs.org/Download 下载最新版本
 
 .. i18n: On debian, in any distribution, the 1.5 version is working, you can get it on
 .. i18n: this url: http://backports.org/debian/pool/main/b/bzr/bzr_1.5-1~bpo40+1_i386.deb
 ..
 
-On debian, in any distribution, the 1.5 version is working, you can get it on
-this url: http://backports.org/debian/pool/main/b/bzr/bzr_1.5-1~bpo40+1_i386.deb
+Debian分发的系统可以使用1.5版本的Bazaar，下载地址为: http://backports.org/debian/pool/main/b/bzr/bzr_1.5-1~bpo40+1_i386.deb
 
 .. i18n: How to create a login on launchpad ?
 .. i18n: ++++++++++++++++++++++++++++++++++++
@@ -61,12 +60,12 @@ Launchpad 帐号
 .. i18n: Before you can commit on launchpad, you need to create a login.
 ..
 
-Before you can commit on launchpad, you need to create a login.
+要在Launchpad上提交代码，你肯定是需要去注册一下的。
 
 .. i18n: Go to: https://launchpad.net --> log in / register on top right.
 ..
 
-Go to: https://launchpad.net --> log in / register on top right.
+在 https://launchpad.net 首页的右上方的 Login/Register 就是咱注册的地儿了。
 
 .. i18n: Enter your e-mail address and wait for an e-mail which will guide you through the process needed to create your login.
 ..
