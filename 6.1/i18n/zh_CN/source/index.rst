@@ -8,12 +8,12 @@
    contain the root `toctree` directive.
 
 .. i18n: ==========================
-.. i18n: OpenERP 文档 v6.1
+.. i18n: OpenERP Documentation v6.1
 .. i18n: ==========================
 ..
 
 ==========================
-OpenERP Documentation v6.1
+OpenERP 文档 v6.1
 ==========================
 
 .. i18n: .. tip:: The online OpenERP books present a new integrated approach to enterprise
