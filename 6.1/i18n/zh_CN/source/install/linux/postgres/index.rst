@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; PostgreSQL
 .. i18n:    single: PostgreSQL; Installation
@@ -18,7 +17,7 @@
 
 .. _installation-postgresql-server:
 
-PostgreSQL Server Installation and Configuration
+PostgreSQL 数据库安装和配置
 ================================================
 
 .. i18n: .. tip:: Methods
@@ -28,13 +27,13 @@ PostgreSQL Server Installation and Configuration
 
 .. tip:: Methods
 
-        The `PostgreSQL download page <http://www.postgresql.org/download/linux>`__ lists the available installation methods. Choose the one that best suits your needs.
+         `PostgreSQL 下载页 <http://www.postgresql.org/download/linux>`__ 列出可用的安装方法. 选择适合你的需要的一种.
 
 .. i18n: Example on Ubuntu
 .. i18n: -----------------
 ..
 
-Example on Ubuntu
+Ubuntu 上的列子
 -----------------
 
 .. i18n: Use the following command at your system's command prompt to install the **postgresql** package: ::
@@ -42,7 +41,7 @@ Example on Ubuntu
 .. i18n:   sudo apt-get install postgresql
 ..
 
-Use the following command at your system's command prompt to install the **postgresql** package: ::
+在系统命令行提示符下使用下面的命令安装 **postgresql** 包: ::
 
   sudo apt-get install postgresql
 
