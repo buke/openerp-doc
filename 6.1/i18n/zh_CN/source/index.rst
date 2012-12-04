@@ -1,4 +1,3 @@
-
 .. i18n: .. openobject-doc documentation master file, created by sphinx-quickstart on Tue Dec  9 11:16:22 2008.
 .. i18n:    You can adapt this file completely to your liking, but it should at least
 .. i18n:    contain the root `toctree` directive.
@@ -91,7 +90,7 @@ OpenERP 文档 v6.1
 
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`Developer Book <book-develop-link>`             |
+  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`开发手册 <book-develop-link>`             |
   |                                                           |                                                        |
   |  A functional overview of OpenERP                         |  Technical reference for creating your own modules     |
   |                                                           |  (see also technical memento |techmem|)                |
