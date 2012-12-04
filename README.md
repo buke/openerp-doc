@@ -6,6 +6,8 @@ OpenERP 中文文档翻译计划
 -----------
 这是一个OpenERP 的官方文档 http://doc.openerp.com 的中文翻译计划，目标是让 OpenERP 官方文档也出现我们的方块字。本翻译计划由OpenERP 开发群的资深同学定期与LP同步，翻译结果也会提交到官方LP中去。
 
+文档预览：http://oedoc601.mrshelly.com/
+
 
 参与说明
 -----------
