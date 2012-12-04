@@ -97,7 +97,7 @@ OpenERP 文档 v6.1
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  :ref:`Installation Manuals <installation-link>`          |  :ref:`Community Book <how-to-contribute-link>`        |
+  |  :ref:`安装手册 <installation-link>`                      |  :ref:`Community Book <how-to-contribute-link>`        |
   |                                                           |                                                        |
   |  Step-by-step installation manuals                        |  OpenERP Community guidelines and organisation         |
   |                                                           |                                                        |
@@ -110,7 +110,7 @@ OpenERP 文档 v6.1
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  :ref:`Usability Book <usability-link>`                   |  :ref:`FAQ <faqs-link>`                                |
+  |  :ref:`Usability Book <usability-link>`                   |  :ref:`常见问题 <faqs-link>`                           |
   |                                                           |                                                        |
   |  Usability guidelines for creating OpenERP Applications   |  Frequently asked questions                            |
   |                                                           |                                                        |
