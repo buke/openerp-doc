@@ -41,6 +41,7 @@ https://github.com/buke/openerp-doc/wiki/%E6%9C%AF%E8%AF%AD%E8%A1%A8
 
 参阅
 -----------
-1. OpenERP 官方文档 http://doc.openerp.com
-2. 维基百科: 科技条目翻译指引 http://zh.wikipedia.org/wiki/Wikipedia:%E7%A7%91%E6%8A%80%E6%9D%A1%E7%9B%AE%E7%BF%BB%E8%AF%91%E6%8C%87%E5%BC%95
-3. CNKI 翻译助手 http://dict.cnki.net/
+1. reStructuredText简明教程 https://github.com/buke/openerp-doc/wiki/reStructuredText%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B
+2. OpenERP 官方文档 http://doc.openerp.com
+3. 维基百科: 科技条目翻译指引 http://zh.wikipedia.org/wiki/Wikipedia:%E7%A7%91%E6%8A%80%E6%9D%A1%E7%9B%AE%E7%BF%BB%E8%AF%91%E6%8C%87%E5%BC%95
+4. CNKI 翻译助手 http://dict.cnki.net/
