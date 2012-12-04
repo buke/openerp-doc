@@ -19,11 +19,9 @@
 .. i18n: OpenERP.
 ..
 
-OpenERP uses a `three-tier architecture
-<http://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture>`_.
-The application tier itself is written as a core and multiple additional
-modules that can be installed or not to create a particular configuration of
-OpenERP.
+OpenERP 采用 `三层架构
+<http://en.wikipedia.org/wiki/Multitier_architecture#Three-tier_architecture>`_。
+应用层本身被设计成核心和多个附加的模块，这些模块可以安装，不用OpenERP创建一个特殊的配置。
 
 .. i18n: The core of OpenERP and its different modules are written in `Python
 .. i18n: <http://python.org/>`_. The functionality of a module is exposed through
@@ -33,26 +31,20 @@ OpenERP.
 .. i18n: installation by providing XML (or CSV or YML) files.
 ..
 
-The core of OpenERP and its different modules are written in `Python
-<http://python.org/>`_. The functionality of a module is exposed through
-XML-RPC (and/or NET-RPC depending on the server's configuration). Modules also
-typically make use of OpenERP ORM to persist their data in a relational
-database (PostgreSQL). Modules can insert data in the database during
-installation by providing XML (or CSV or YML) files.
+OpenERP的核心和其他不同的模块都是用 `Python
+<http://python.org/>`_写的。 模块的功能通过XML-RPC（或是NET-RPC，这取决于服务器端的配置）显示出来。模块也采用OpenERP ORM在关系型数据库（PostgreSQL）中来持久化数据。当模块安装好后通过提供XML文件就可以在数据库中插入数据。
 
 .. i18n: Although  modules are a simple way to structure a complex application,
 .. i18n: OpenERP modules also extend the system. Modules are
 .. i18n: also called addons (they could also have been called plugins).
 ..
 
-Although  modules are a simple way to structure a complex application,
-OpenERP modules also extend the system. Modules are
-also called addons (they could also have been called plugins).
+尽管使用模块是构建一个复杂应用的简单方式，在OpenERP中模块同样可以扩展系统。事实上，模块也被称为addons（它们有时也被称为plugins）。
 
 .. i18n: In a typical configuration of OpenERP, the following modules can be found:
 ..
 
-In a typical configuration of OpenERP, the following modules can be found:
+在OpenERP的典型配置中，以下模块是必须的：
 
 .. i18n:     * base: the most basic module; it is always installed and can be thought
 .. i18n:       as being part of the core of OpenERP. It defines ``ir.property``,
@@ -63,13 +55,12 @@ In a typical configuration of OpenERP, the following modules can be found:
 .. i18n:     * mrp: Manufacturing Resource Planning. 
 ..
 
-    * base: the most basic module; it is always installed and can be thought
-      as being part of the core of OpenERP. It defines ``ir.property``,
+    * base: 最基本的模块。它无论何种情况下都必须安装，被认为是OpenERP核心的一部分。定义了 ``ir.property``,
       ``res.company``, ``res.request``, ``res.currency``, ``res.users``,
-      ``res.partner``, and so on.
-    * crm: Customer & Supplier Relationship management.
-    * sale: Sales management.
-    * mrp: Manufacturing Resource Planning. 
+      ``res.partner``, 等等。
+    * crm: 客户关系管理和供应商关系管理。
+    * sale: 销售管理。
+    * mrp: 制造资源管理。 
 
 .. i18n: By using Python, XML files, and relying on OpenERP's ORM and its extensibility
 .. i18n: mechanisms, new modules can be written easily and quickly. OpenERP's open
@@ -77,10 +68,7 @@ In a typical configuration of OpenERP, the following modules can be found:
 .. i18n: new development.
 ..
 
-By using Python, XML files, and relying on OpenERP's ORM and its extensibility
-mechanisms, new modules can be written easily and quickly. OpenERP's open
-source nature and its numerous modules also provide a lot of examples for any
-new development.
+通过使用Python, XML files，依赖OpenERP的ORM和它的延伸机制，新的模块可以很容易快速的写出。OpenERP的开源特性和它众多的模块也为新模块的开发提供很多的例子。
 
 .. i18n: Module Structure
 .. i18n: ----------------
@@ -113,11 +101,11 @@ new development.
          #. __openerp__.py
          #. __init__.py
          #. XML 文件
-               #. Actions
-               #. Menu Entries
-               #. Reports
-               #. Wizards
-   #. Profiles
+               #. 操作
+               #. 菜单
+               #. 报表
+               #. 向导
+   #. 配置文件
 
 .. i18n: Modules - Files and Directories
 .. i18n: +++++++++++++++++++++++++++++++
@@ -153,15 +141,14 @@ new development.
 .. i18n: """""""""""""""""""""""""""""""""""""""""""""""
 ..
 
-The Modules - Files And Directories - XML Files
+模块 - 文件和目录 - XML 文件
 """""""""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: XML files located in the module directory are used to modify the structure of
 .. i18n: the database. They are used for many purposes, among which we can cite :
 ..
 
-XML files located in the module directory are used to modify the structure of
-the database. They are used for many purposes, among which we can cite :
+模块目录里的XML文件用于修改数据库结构，他们有很多的用途，我们可以列出来：
 
 .. i18n:     * initialization and demonstration data declaration,
 .. i18n:     * views declaration,
