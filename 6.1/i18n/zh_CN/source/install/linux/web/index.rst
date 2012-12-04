@@ -79,4 +79,4 @@ all-in-one 版本可以从 `OpenERP 网站的下载页面 <http://www.openerp.co
  #. Opera 10.0 以及更新的
  #. Internet Explorer 8.0 以及更新的 (强烈建议更新的版本)
  
-.. 注意:: 从OpenERP 6.1, 访问web接口不再需要flash 插件。
+.. note:: 从OpenERP 6.1, 访问web接口不再需要flash 插件。
