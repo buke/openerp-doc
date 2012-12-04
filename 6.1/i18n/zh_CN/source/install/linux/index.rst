@@ -1,17 +1,15 @@
-
 .. i18n: OpenERP Installation on Linux
 .. i18n: =============================
 ..
 
-OpenERP Installation on Linux
+OpenERP 在 Linux 的安装
 =============================
 
 .. i18n: The installation procedure for OpenERP 6.1 under Linux is explained in this chapter. This procedure is well tested on Ubuntu
 .. i18n: version 10.04 LTS. For those familiar with earlier OpenERP versions, the 6.1 series has a different architecture:
 ..
 
-The installation procedure for OpenERP 6.1 under Linux is explained in this chapter. This procedure is well tested on Ubuntu
-version 10.04 LTS. For those familiar with earlier OpenERP versions, the 6.1 series has a different architecture:
+这章介绍了 OpenERP 6.1 在 Linux 下的安装过程。这个过程是在 Ubuntu version 10.04 LTS 测试的. 对于熟悉 OpenERP 早期版本的用户， 6.1 系列有一下不一样的架构:
 
 .. i18n: * The web client is now embedded in the main OpenERP Server, and does not require separate deployment
 .. i18n: * The native GTK client is preserved as a legacy component, but the recommended way to use OpenERP is
@@ -19,10 +17,8 @@ version 10.04 LTS. For those familiar with earlier OpenERP versions, the 6.1 ser
 .. i18n:   at all.
 ..
 
-* The web client is now embedded in the main OpenERP Server, and does not require separate deployment
-* The native GTK client is preserved as a legacy component, but the recommended way to use OpenERP is
-  the web interface, as for all modern applications. There is usually no need to install the GTK client
-  at all.
+* web 客户端已经内置在 OpenERP 服务器中，不再要求单独安装。
+* 原生 GTK 客户端保存为遗留组件，但是使用 OpenERP 的建议方法是 web 界面 , 就像所有的现代应用程序. 通常，完全不需要安装GTK 客户端。
 
 .. i18n: For **Debian-based distributions**, OpenERP is available as an All-In-One application package (``.deb``), that
 .. i18n: can be installed with a simple click. The package is available on the `OpenERP website's download page <http://www.openerp.com/downloads>`_ 
@@ -30,7 +26,7 @@ version 10.04 LTS. For those familiar with earlier OpenERP versions, the 6.1 ser
 
 For **Debian-based distributions**, OpenERP is available as an All-In-One application package (``.deb``), that
 can be installed with a simple click. The package is available on the `OpenERP website's download page <http://www.openerp.com/downloads>`_ 
-
+对于
 .. i18n: For **RedHat-based platforms**, an experimental RPM distribution is available in our nightly builds. See the `downloads page <http://www.openerp.com/downloads>`_ for more details. 
 ..
 
