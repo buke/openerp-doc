@@ -90,29 +90,29 @@ OpenERP 文档 v6.1
 
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`开发手册 <book-develop-link>`                   |
+  |  :ref:`OpenERP 用户手册 <books-link>`                     |  :ref:`开发手册 <book-develop-link>`                   |
   |                                                           |                                                        |
-  |  A functional overview of OpenERP                         |  Technical reference for creating your own modules     |
-  |                                                           |  (see also technical memento |techmem|)                |
-  |                                                           |                                                        |
-  +-----------------------------------------------------------+--------------------------------------------------------+
-  |                                                           |                                                        |
-  |  :ref:`安装手册 <installation-link>`                      |  :ref:`Community Book <how-to-contribute-link>`        |
-  |                                                           |                                                        |
-  |  Step-by-step installation manuals                        |  OpenERP Community guidelines and organisation         |
+  |  OpenERP 主要功能概览                                     |  模块开发技术指南                                      |
+  |                                                           |  (常见技术白皮书 |techmem|)                            |
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  `OpenERP Apps <http://apps.openerp.com>`_                |  :ref:`OpenERP Licenses <legal-link>`                  |
+  |  :ref:`安装手册 <installation-link>`                      |  :ref:`社区参与指南 <how-to-contribute-link>`          |
   |                                                           |                                                        |
-  |  Library of all known OpenERP Applications                |  Software and documentation licenses                   |
+  |  一步一步的安装指南                                       |  如何贡献代码及参与社区                                |
+  |                                                           |                                                        |
+  +-----------------------------------------------------------+--------------------------------------------------------+
+  |                                                           |                                                        |
+  |  `OpenERP Apps <http://apps.openerp.com>`_                |  :ref:`OpenERP 协议 <legal-link>`                      |
+  |                                                           |                                                        |
+  |  Library of all known OpenERP Applications                |  OpenERP 代码与文档协议                                |
   |  (Official ones and Community ones)                       |                                                        |
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
   |  :ref:`Usability Book <usability-link>`                   |  :ref:`常见问题 <faqs-link>`                           |
   |                                                           |                                                        |
-  |  Usability guidelines for creating OpenERP Applications   |  Frequently asked questions                            |
+  |  Usability guidelines for creating OpenERP Applications   |  常见问题                                              |
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
 
