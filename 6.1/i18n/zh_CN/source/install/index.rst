@@ -17,7 +17,7 @@
 .. i18n: This chapter contains the general installation procedure for deploying OpenERP on the main supported platforms.
 ..
 
-本章包含部署openerp的主要支持平台的一般安装程序。
+本章包含部署openerp的主要支持平台的一般安装过程。
 
 .. i18n: For **OpenERP Online (SaaS mode)** the installation is as simple as creating a new account on https://www.openerp.com/online.
 .. i18n: The first section in this chapter provides the answer to Frequently Asked Questions for SaaS usage.
