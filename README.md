@@ -12,7 +12,7 @@ OpenERP 中文文档翻译计划
 
 *  本翻译计划不设门槛，人人都可以参与。
 *  翻译者可以直接在 github 上直接编辑，或用git commit ，建议直接在github 上直接编辑。
-*  参与翻译需要一个github 帐号，有帐号的同学直接将github 帐号发给 wangbuke。
+*  参与翻译需要一个github 帐号，有帐号的同学直接将github 帐号发给 wangbuke，来获取编辑权限。
 
 翻译说明
 -----------
