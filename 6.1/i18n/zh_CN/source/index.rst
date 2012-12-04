@@ -16,7 +16,7 @@
 OpenERP 文档 v6.1
 ==========================
 
-.. i18n: .. tip:: The online OpenERP books present a new integrated approach to enterprise
+.. i18n: .. 小窍门:: The online OpenERP books present a new integrated approach to enterprise
 .. i18n:   management and development best-practices. You can have a look at our 
 .. i18n:   `printed books`_ or `PDF versions`_.
 .. i18n:   
