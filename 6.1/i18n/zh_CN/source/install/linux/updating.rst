@@ -22,7 +22,7 @@
 .. i18n: ++++++++++++++++++++++++++++++++++++
 ..
 
-更新新的Minor/补丁发行版
+更新Minor/补丁发行版
 ++++++++++++++++++++++++++++++++++++
 
 .. i18n: OpenERP's release policy states that minor/patch releases of the stable
@@ -109,49 +109,39 @@ OpenERP的小版本/补丁发行版用增加第3个发行号来标识，例如 v
 .. i18n:        by simply reinstalling the latest version over the previous one.
 ..
 
-    #. Make a fresh backup of all existing databases, as well as a backup of the files 
-       of your OpenERP installation (server and addons), just in case.
-    #. Locate the executable file to start the Server, it should be named
-       ``openerp-server.py``. You may want to have a look at the running processes
-       to find out the command-line parameters that are passed to the server (needed below).
-    #. Stop the OpenERP server.
-    #. Update the source files to the latest release, or simply install the new releases
-       over the previous ones.
-    #. Start the server manually (directly call the executable you located above), with
-       the following additional parameters, to trigger an update of all module data and
-       views in the database, based on the new source files (include your usual startup
-       parameters, if any, and replace ``DB_NAME`` with the name of the OpenERP database you wish
-       to update)::
+    #. 为所有数据库制作一个新的备份, 而且要备份你的Openerp安装的全部文件（服务器和addons），以防万一。
+    #. 找到启动服务器的执行文件,通常是``openerp-server.py``。 你可能要看一下运行过程，找出传递给服务器的命
+       令行参数(下面需要).
+    #. 停止 OpenERP 服务器.
+    #. 升级最新发布的源文件e,或者简单地按一个新的发布覆盖以前的一个。
+    #. 用下来附加参数手动启动服务器 (直接调用上面找到的执行文件), 基于新的源文件，升级数据库中所有 
+       模块数据和视图 (包括你常用的启动参数,并且用你要升级的数据库名称替换 ``DB_NAME``)::
 
          openerp-server.py -d DB_NAME -u all
 
-    #. Let the server complete its startup (watch the log for the final message that says
-       ``OpenERP server is running, waiting for connections`` or wait until you can connect
-       to that database with a GTK client), then stop the server with :kbd:`Ctrl+C` and repeat the
-       previous step for each database on this OpenERP installation (any database not updated
-       will use the latest business logic but might have errors or missing improvements in
-       the views until you update it using this procedure).
-    #. Stop the server again with :kbd:`Ctrl+C` and restart it normally (no extra parameters anymore).
-    #. You can now proceed with the update of the GTK clients,
-       by simply reinstalling the latest version over the previous one.
+    #. 让服务器完成他的启动 (查看日志的最后一条消息： ``OpenERP server is running, waiting for connections`` 或者
+       等到你能用GTK客户端连接到数据库 ), 然后用 :kbd:`Ctrl+C` 停止服务器 ，并且为OpenERP安装的每个数据库重复上述
+       步骤 (任何数据库没有更新，将使用最新的业务逻辑，但是可能有错误或者在视图中丢失改进的东西，直到你用这个步骤更新).
+    #. 再次用 :kbd:`Ctrl+C` 停止服务器 并且正常重启(不需要额外参数).
+    #. 现在可以更新 GTK 客户端，简单地重新安装一个最新版覆盖前面版本即可。
 
 .. i18n: .. note:: Server
 .. i18n: 
 .. i18n:         As an alternative to restarting the server in update mode for each database, as described above, you may try to start the server normally, and then connect to each database as the *Administrator* user, open the list of modules and manually trigger an update of the *base* module. Because all modules depend on *base* they will be updated too. However this requires the *Administrator* password of each database and may not work for some updates, specifically when the update prevents you from logging into the system.
 ..
 
-.. note:: Server
+.. note:: 服务器
 
-        As an alternative to restarting the server in update mode for each database, as described above, you may try to start the server normally, and then connect to each database as the *Administrator* user, open the list of modules and manually trigger an update of the *base* module. Because all modules depend on *base* they will be updated too. However this requires the *Administrator* password of each database and may not work for some updates, specifically when the update prevents you from logging into the system.
+        作为一个选中，在更新模式为每个数据重启服务器，如上面所述，你可以横穿启动服务器，然后作为*Administrator* 用户连接到每个数据库, 打开模块列表，手工触发 *base* 模块的升级.因为所有的模块依赖于 *base*，他们也将被升级。然而这要求每个数据库的 *Administrator* 密码，特别是当这些更新阻止你的系统.
 
 .. i18n: .. tip:: Developer Book
 .. i18n: 
 .. i18n:         For more technical details on the actual operations accomplished by the server during such an update, you may refer to the corresponding section in the Developer Book: :ref:`technical_update_procedure`.
 ..
 
-.. tip:: Developer Book
+.. tip:: 开发指南
 
-        For more technical details on the actual operations accomplished by the server during such an update, you may refer to the corresponding section in the Developer Book: :ref:`technical_update_procedure`.
+        为了更多在真实的譬如完成服务器升级的技术信息, 你尅参考开发指南的相关章节: :ref:`technical_update_procedure`.
 
 .. i18n: Going to a Newer Major Release
 .. i18n: ++++++++++++++++++++++++++++++
