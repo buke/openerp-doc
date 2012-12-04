@@ -38,9 +38,7 @@ OpenERP 在 Linux 的安装
 .. i18n: itself. These steps are described in the following sections:
 ..
 
-For **other Linux distributions** and for those who prefer a **manual installation**, there are only two steps
-to deploy OpenERP under Linux: install PostgreSQL, the database engine used by OpenERP, then install OpenERP
-itself. These steps are described in the following sections:
+对于**其它的 Linux 发行版** ，已经那些更喜欢**手工安装的**的人,在linux下面部署Openerp 有两个步骤 : 安装 Openerp使用的数据库引擎, 然后安装 OpenERP 自身. 这些步骤在下列章节描述:
 
 .. i18n: .. toctree::
 .. i18n:     :glob:
