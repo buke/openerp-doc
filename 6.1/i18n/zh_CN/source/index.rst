@@ -91,7 +91,7 @@ OpenERP 文档 v6.1
 
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`开发手册 <book-develop-link>`             |
+  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`Developer Book <book-develop-link>`             |
   |                                                           |                                                        |
   |  A functional overview of OpenERP                         |  Technical reference for creating your own modules     |
   |                                                           |  (see also technical memento |techmem|)                |
@@ -104,7 +104,7 @@ OpenERP 文档 v6.1
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  `OpenERP 应用模块 <http://apps.openerp.com>`_                |  :ref:`OpenERP Licenses <legal-link>`                  |
+  |  `OpenERP Apps <http://apps.openerp.com>`_                |  :ref:`OpenERP Licenses <legal-link>`                  |
   |                                                           |                                                        |
   |  Library of all known OpenERP Applications                |  Software and documentation licenses                   |
   |  (Official ones and Community ones)                       |                                                        |
@@ -162,7 +162,7 @@ OpenERP 文档 v6.1
 .. i18n: ..  |  About our company                      |  Software and documentation copyrights             |
 ..
 
-..  |  :ref:`关于 OpenERP <about-link>`              |  :ref:`版权申明 <copyright-link>`                 |
+..  |  :ref:`About <about-link>`              |  :ref:`Copyright <copyright-link>`                 |
 ..  |                                         |                                                    |
 ..  |  About our company                      |  Software and documentation copyrights             |
 
