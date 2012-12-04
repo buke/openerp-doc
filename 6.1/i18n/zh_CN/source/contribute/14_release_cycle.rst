@@ -1,4 +1,3 @@
-
 .. i18n: .. _release_cycle:
 .. i18n: 
 .. i18n: OpenERP Release Policy FAQ
@@ -7,7 +6,7 @@
 
 .. _release_cycle:
 
-OpenERP Release Policy FAQ
+OpenERP 发布政策常见问题
 --------------------------
 
 .. i18n: OpenERP is available in two different series: the *Stable* series (5.0, 6.0, 6.1, ...), suitable for production deployment, and the *Trunk* series, which is the under-development version to prepare the next stable series.
