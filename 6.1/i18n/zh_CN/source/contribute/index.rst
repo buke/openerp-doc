@@ -1,4 +1,3 @@
-
 .. i18n: .. _how-to-contribute-link:
 .. i18n: 
 .. i18n: How To Contribute
@@ -7,7 +6,7 @@
 
 .. _how-to-contribute-link:
 
-How To Contribute
+如何回赠社区
 =================
 
 .. i18n: .. toctree::
