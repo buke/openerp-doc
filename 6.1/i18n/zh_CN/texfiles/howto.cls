@@ -21,7 +21,7 @@
 \thispagestyle{empty}
 \renewcommand{\maketitle}{
   \rule{\textwidth}{1pt}
-  \ifsphinxpdfoutput
+  \ifsphinxpdfoutput  汉字
     \begingroup
     % This \def is required to deal with multi-line authors; it
     % changes \\ to ', ' (comma-space), making it pass muster for
