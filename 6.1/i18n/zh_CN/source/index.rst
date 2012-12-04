@@ -168,7 +168,7 @@ OpenERP 文档 v6.1
 .. i18n: This documentation is based on version 6.1 of OpenERP and was last updated |today|
 ..
 
-This documentation is based on version 6.1 of OpenERP and was last updated |today|
+本文档基于 OpenERP 6.1 , 最后更新日期 |today|
 
 .. i18n: .. _printed books: http://www.openerp.com/catalog/150
 .. i18n: .. _PDF versions: http://www.openerp.com/download/ebook
