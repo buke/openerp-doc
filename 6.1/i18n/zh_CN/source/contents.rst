@@ -1,4 +1,3 @@
-
 .. i18n: .. _contents-link:
 .. i18n: 
 .. i18n: =================
@@ -9,7 +8,7 @@
 .. _contents-link:
 
 =================
-Table of Contents
+目录
 =================
 
 .. i18n: .. toctree::
