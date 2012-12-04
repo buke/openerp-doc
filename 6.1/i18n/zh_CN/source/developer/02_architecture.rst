@@ -17,7 +17,7 @@ MVC 架构
 .. i18n: According to `Wikipedia <http://en.wikipedia.org/wiki/Model-view-controller>`_, "a Model-view-controller (MVC) is an architectural pattern used in software engineering". In complex computer applications presenting lots of data to the user, one often wishes to separate data (model) and user interface (view) concerns. Changes to the user interface does therefore not impact data management, and data can be reorganized without changing the user interface. The model-view-controller solves this problem by decoupling data access and business logic from data presentation and user interaction, by introducing an intermediate component: the controller.
 ..
 
-According to `Wikipedia <http://en.wikipedia.org/wiki/Model-view-controller>`_, "a Model-view-controller (MVC) is an architectural pattern used in software engineering". In complex computer applications presenting lots of data to the user, one often wishes to separate data (model) and user interface (view) concerns. Changes to the user interface does therefore not impact data management, and data can be reorganized without changing the user interface. The model-view-controller solves this problem by decoupling data access and business logic from data presentation and user interaction, by introducing an intermediate component: the controller.
+在 `Wikipedia <http://zh.wikipedia.org/zh/MVC>`_, "MVC模式（三层架构模式）（Model-View-Controller）是软件工程中的一种软件架构模式". 一个复杂的电脑应用程序会展示大量的数据给用户, 人们希望将数据(model)和界面(view)分离。 改变用户界面并不会影响数据管理，在不改变用户界面的基础上，数据可以得以重新整理。 MVC模式（三层架构模式）通过引入控制器来解耦数据读取和商业逻辑，同时解决数据呈现和用户交互的问题。
 
 .. i18n: .. figure::  images/MVCDiagram.png
 .. i18n:    :scale: 100
