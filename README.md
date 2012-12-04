@@ -16,7 +16,7 @@ OpenERP v7 中文文档
 -----------
 
 *  只有 openerp-doc / 6.1 / i18n / zh_CN / source  目录下的文档是需要翻译的，其他文档请勿修改！
-
+* 下面是个超链格式  ``下载页 <http://www.openerp.com/downloads>``__  不要修改
 * 请注意 rst 文件中. 以 ".. i18n " 打头的 严禁修改. 不小心修改的, 请及时改回.
 
 
