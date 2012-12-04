@@ -1,36 +1,34 @@
-
 .. i18n: =============
 .. i18n: Collaboration
 .. i18n: =============
 ..
 
 =============
-Collaboration
+开发平台
 =============
 
 .. i18n: Launchpad and bazaar
 .. i18n: --------------------
 ..
 
-Launchpad and bazaar
+Launchpad站点及 bazaar工具
 --------------------
 
 .. i18n: Before you can commit on launchpad, you have to create a login. This login is needed if you intend to commit on openerp-comiter or on your own branch via bazaar. Go to: https://launchpad.net --> log in / register on top right.
 ..
 
-Before you can commit on launchpad, you have to create a login. This login is needed if you intend to commit on openerp-comiter or on your own branch via bazaar. Go to: https://launchpad.net --> log in / register on top right.
+在你给launchpad提交贡献之前，你需要先去launchpad注册并登陆，同时也是你提交代码及你自己的开发分支。URL: https://launchpad.net 
 
 .. i18n: Enter your e-mail address and wait for an e-mail which will guide you trough the login creation process.
 ..
 
-Enter your e-mail address and wait for an e-mail which will guide you trough the login creation process.
+输入你的Email地址，并在收到一封确认邮件并完成相关注册步骤。
 
 .. i18n: You can then refer to this link :
 .. i18n: https://help.launchpad.net/YourAccount/NewAccount
 ..
 
-You can then refer to this link :
-https://help.launchpad.net/YourAccount/NewAccount
+在 https://help.launchpad.net/YourAccount/NewAccount 完成:
 
 .. i18n: Any contributor who is interested to become a committer must show his interest
 .. i18n: on working for openerp project and ability to do it properly as
@@ -50,7 +48,7 @@ tracker <bug-tracker-link>` system.
 .. i18n: You can contribute or join OpenERP team, : https://help.launchpad.net/Teams/Joining
 ..
 
-You can contribute or join OpenERP team, : https://help.launchpad.net/Teams/Joining
+你可以在 https://help.launchpad.net/Teams/Joining 加入一些开发团队。
 
 .. i18n: Contributors are people who want to help the project improve, add
 .. i18n: functionality and improve stability. Anyone can contribute to the project
@@ -66,7 +64,7 @@ posting patches.
 .. i18n: The community team is available on launchpad: https://launchpad.net/~openerp-community
 ..
 
-The community team is available on launchpad: https://launchpad.net/~openerp-community
+OpenERP 社区团队地址: https://launchpad.net/~openerp-community
 
 .. i18n: Members of the quality and committer team are automatically members of the community.
 ..
@@ -76,7 +74,7 @@ Members of the quality and committer team are automatically members of the commu
 .. i18n: Once you have configured your Launchpad account, get Bazaar version control to pull the source from Launchpad.
 ..
 
-Once you have configured your Launchpad account, get Bazaar version control to pull the source from Launchpad.
+第一次配置时，还需要使用 Bazaar 版本控制从 Launchpad 获取源代码。
 
 .. i18n: NoteThib: viré les explications sur comment installer bazaar, je propos de mettre le lien vers le site qui expliquera comment l'installer si besoin est
 ..
@@ -92,7 +90,7 @@ If you experience problems with Bazaar, please read the :ref:`bazaar-faq-link` b
 .. i18n: -------------------
 ..
 
-Working with Branch
+工作分支
 -------------------
 
 .. i18n: The combination of Bazaar branch hosting and Launchpad's teams infrastructure gives you a very powerful capability to collaborate on code. Essentially, you can push a branch into a shared space and anyone on that team can then commit to the branch.
@@ -114,7 +112,7 @@ This is the official and proposed way to contribute on OpenERP and OpenObject.
 .. i18n: +++++++++++++
 ..
 
-Quick Summary
+快捷参考
 +++++++++++++
 
 .. i18n: To download the latest sources and create your own local branches of OpenERP, do this::
@@ -130,7 +128,7 @@ Quick Summary
 .. i18n:   bzr branch lp:~openerp-community/openobject-doc/6.1 doc
 ..
 
-To download the latest sources and create your own local branches of OpenERP, do this::
+获取最新源码及创建你自己的OpenERP分支，可以按下面的命令操作::
 
   mkdir openerp
   cd openerp
@@ -200,7 +198,7 @@ done this, your commit will be applied on launchpad directly (unless you use ``-
 .. i18n:   bzr ci --fixes=lp:453123   # Where 453123 is a bug ID
 ..
 
-If your changes fix a public bug on launchpad, you can use this to mark the bug as fixed by your branch::
+如果你是针对某个公开BUG的修正提交，你可以在提交给你自己分支的时候提交一个bug的ID标记::
 
   bzr ci --fixes=lp:453123   # Where 453123 is a bug ID
 
@@ -216,13 +214,13 @@ by a committer and then the quality team to be merged into the official release.
 .. i18n: [Read more about :ref:`OpenERP Team <openerp-team>`]
 ..
 
-[Read more about :ref:`OpenERP Team <openerp-team>`]
+[更多请参见:ref:`OpenERP 团队 <openerp-team>`]
 
 .. i18n: Pushing a new branch
 .. i18n: ++++++++++++++++++++
 ..
 
-Pushing a new branch
+发布一个新分支
 ++++++++++++++++++++
 
 .. i18n: If you want to contribute on OpenERP or OpenObject, here is the proposed method:
@@ -508,7 +506,7 @@ Member of the quality and committer team are automatically members of the commun
 .. i18n: +++++++++++++++++
 ..
 
-Installing Bazaar
+安装 Bazaar
 +++++++++++++++++
 
 .. i18n: .. index::
