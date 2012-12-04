@@ -119,7 +119,7 @@ OpenERP 文档 v6.1
 .. i18n: **Indices and tables:**
 ..
 
-**Indices and tables:**
+**索引和目录:**
 
 .. i18n: .. table::
 .. i18n:   :class: main-content-presentation
