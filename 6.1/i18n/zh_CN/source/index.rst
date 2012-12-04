@@ -90,7 +90,7 @@ OpenERP 文档 v6.1
 
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`开发手册 <book-develop-link>`             |
+  |  :ref:`OpenERP Tutorial <books-link>`                     |  :ref:`开发手册 <book-develop-link>`                   |
   |                                                           |                                                        |
   |  A functional overview of OpenERP                         |  Technical reference for creating your own modules     |
   |                                                           |  (see also technical memento |techmem|)                |
