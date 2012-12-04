@@ -1,18 +1,17 @@
-
 .. i18n: ============
 .. i18n: Search Views
 .. i18n: ============
 ..
 
 ============
-Search Views
+搜索视图
 ============
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
-Introduction
+简介
 ------------
 
 .. i18n: As previously  mentioned, OpenERP is developing within a business framework and vision. OpenERP's users can find business applications, in which they can surf on some of the business oriented views. In this search view they will also find that it facilitates the work and the search of the user. 
@@ -43,7 +42,7 @@ The terminology used to qualify each element of the search view are related to b
 .. i18n: --------------------------
 ..
 
-Components of search views
+搜索视图组件
 --------------------------
 
 .. i18n: Many options are given to users to optimize their searches. Buttons are used to quickly filter groups of important documents. Usually, a button is chosen following the importance of the document's type. We can take a look at an example, in sale order, it is important that the user can quickly see only the quotations that he needs. 
