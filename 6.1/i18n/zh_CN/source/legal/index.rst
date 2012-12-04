@@ -1,4 +1,3 @@
-
 .. i18n: .. _legal-link:
 .. i18n: 
 .. i18n: Licenses and copyrights
@@ -7,7 +6,7 @@
 
 .. _legal-link:
 
-Licenses and copyrights
+许可与版权
 =======================
 
 .. i18n: .. toctree::
