@@ -1,16 +1,15 @@
-
 .. i18n: Module development
 .. i18n: ==================
 ..
 
-Module development
+模块开发
 ==================
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
-Introduction
+简介
 ------------
 
 .. i18n: OpenERP uses a `three-tier architecture
@@ -87,14 +86,14 @@ new development.
 .. i18n: ----------------
 ..
 
-Module Structure
+模块结构
 ----------------
 
 .. i18n: The Modules
 .. i18n: +++++++++++
 ..
 
-The Modules
+模块
 +++++++++++
 
 .. i18n:    #. Introduction
@@ -109,11 +108,11 @@ The Modules
 .. i18n:    #. Profiles
 ..
 
-   #. Introduction
-   #. Files & Directories
+   #. 介绍
+   #. 文件和文件夹结构
          #. __openerp__.py
          #. __init__.py
-         #. XML Files
+         #. XML 文件
                #. Actions
                #. Menu Entries
                #. Reports
@@ -124,18 +123,18 @@ The Modules
 .. i18n: +++++++++++++++++++++++++++++++
 ..
 
-Modules - Files and Directories
+模块 - 文件和文件夹结构
 +++++++++++++++++++++++++++++++
 
 .. i18n: All the modules are located in the server/addons directory.
 ..
 
-All the modules are located in the server/addons directory.
+所有模块都应放到 server/addons 文件夹下。
 
 .. i18n: The following steps are necessary to create a new module:
 ..
 
-The following steps are necessary to create a new module:
+按下面步骤创建新模块：
 
 .. i18n:     * create a subdirectory in the server/addons directory
 .. i18n:     * create a module description file: **__openerp__.py**
@@ -144,11 +143,11 @@ The following steps are necessary to create a new module:
 .. i18n:     * optionally create **reports**, **wizards** or **workflows**.
 ..
 
-    * create a subdirectory in the server/addons directory
-    * create a module description file: **__openerp__.py**
-    * create the **Python** file containing the **objects**
-    * create **.xml files** that download the data (views, menu entries, demo data, ...)
-    * optionally create **reports**, **wizards** or **workflows**.
+    * 在 server/addons 文件夹下面创建模块子文件夹
+    * 创建模块定义文件: **__openerp__.py**
+    * 创建定义 **objects** 的 **Python** 文件
+    * 创建包括(初始数据, 视图, 菜单, 演示数据)的 **.xml 文件**
+    * 创建包含 **reports**, **wizards** 及  **workflows** 的 xml文件(可选)
 
 .. i18n: The Modules - Files And Directories - XML Files
 .. i18n: """""""""""""""""""""""""""""""""""""""""""""""
