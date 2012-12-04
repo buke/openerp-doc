@@ -21,12 +21,12 @@ stable 系列是属于维护状态，意味着不再接受新需求改进或新�
 .. i18n: Here is a list of the most common questions we get about the release policy.
 ..
 
-Here is a list of the most common questions we get about the release policy.
+以下是关于版本发布常见问题列表。
 
 .. i18n: 1. When are new stable/major versions released and how are they numbered?
 ..
 
-1. When are new stable/major versions released and how are they numbered?
+1. 什么时候发布新的 稳定版/主分支？ 还有版本号是如何命名？
 
 .. i18n: The frequency of major stable releases has fluctuated in the past, but the current policy is to release a new stable version every 6 months on average, with one out of three stable versions being a Long Term Support (LTS) version. An LTS version is normal stable version, but one that is supported for an extended time under the OpenERP Publisher's Warranty (OPW).
 .. i18n: Stable versions are labelled as a decimal number with 2 components (e.g. 6.1), where the leftmost part indicates the corresponding Long Term Support (LTS) version, and the second digit indicates successive stable releases between two LTS versions.
