@@ -1,0 +1,13 @@
+
+/*
+ * didn't found a way to hide certain levels in sidebar
+ * toctree.maxdepth didn't work
+ * */
+
+/*div.sphinxsidebarwrapper ul li ul li ul li a.reference {
+  display: none;
+}
+
+TODO: Should be completely removed from rst once safe to do so.
+*/
+
