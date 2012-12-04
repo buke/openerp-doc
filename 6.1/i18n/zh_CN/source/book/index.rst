@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: OpenERP Book
 .. i18n: ..
@@ -18,7 +17,7 @@
 .. _books-link:
 
 :::::::::::::
-OpenERP Book
+OpenERP 用户手册
 :::::::::::::
 
 .. i18n: .. toctree::
