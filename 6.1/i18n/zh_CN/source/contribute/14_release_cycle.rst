@@ -6,7 +6,7 @@
 
 .. _release_cycle:
 
-OpenERP 发布政策常见问题
+OpenERP 版本发布常见问题
 --------------------------
 
 .. i18n: OpenERP is available in two different series: the *Stable* series (5.0, 6.0, 6.1, ...), suitable for production deployment, and the *Trunk* series, which is the under-development version to prepare the next stable series.
@@ -14,9 +14,9 @@ OpenERP 发布政策常见问题
 .. i18n: Conversely, the trunk series is where all the new features and improvements are being introduced, and therefore it is usually not suitable for production deployment.
 ..
 
-OpenERP is available in two different series: the *Stable* series (5.0, 6.0, 6.1, ...), suitable for production deployment, and the *Trunk* series, which is the under-development version to prepare the next stable series.
-The stable series are initially in maintenance stage, which indicates that they receive no further improvement or features, but only bug corrections.
-Conversely, the trunk series is where all the new features and improvements are being introduced, and therefore it is usually not suitable for production deployment.
+OpenERP 主要有2个系列：*Stable* 系列（5.0, 6.0, 6.1, ...）这个系列适合生产部署，*Trunk* 系列 这是一个开发中的版本，准备演化到下一个稳定版。
+stable 系列是属于维护状态，意味着不再接受新需求改进或新的功能，但仍会继续修正BUG。
+相反, trunk 系列可能会有新的功能和改进，因而通常不适合生产部署。
 
 .. i18n: Here is a list of the most common questions we get about the release policy.
 ..
