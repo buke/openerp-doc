@@ -25,7 +25,7 @@ PostgreSQL 数据库安装和配置
 .. i18n:         The `PostgreSQL download page <http://www.postgresql.org/download/linux>`__ lists the available installation methods. Choose the one that best suits your needs.
 ..
 
-.. tip:: Methods
+.. 小贴士:: 方法
 
          `PostgreSQL 下载页 <http://www.postgresql.org/download/linux>`__ 列出可用的安装方法. 选择适合你的需要的一种.
 
