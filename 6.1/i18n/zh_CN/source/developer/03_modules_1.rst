@@ -157,11 +157,11 @@ OpenERP的核心和其他不同的模块都是用 `Python
 .. i18n:     * workflows declaration.
 ..
 
-    * initialization and demonstration data declaration,
-    * views declaration,
-    * reports declaration,
-    * wizards declaration,
-    * workflows declaration.
+    * 初始化，实例化（demonstration）数据声明（declaration）
+    * 视图声明
+    * 报表声明
+    * 向导声明
+    * 工作流声明
 
 .. i18n: General structure of OpenERP XML files is more detailed in the 
 .. i18n: :ref:`xml-serialization` section. Look here if you are interested in learning 
@@ -170,23 +170,22 @@ OpenERP的核心和其他不同的模块都是用 `Python
 .. i18n: reports, wizards* and *workflows* declaration.
 ..
 
-General structure of OpenERP XML files is more detailed in the 
-:ref:`xml-serialization` section. Look here if you are interested in learning 
-more about *initialization* and *demonstration data declaration* XML files. The 
+OpenERP XML文件主要结构的更多细节在
+:ref:`xml-serialization` 部分，如果你想学习更多关于*初始化* 和 *示例数据* XML文件，可以查看这里。 下面的部分只是关于特定的XML文件，如
 following section are only related to XML specific to *actions, menu entries, 
-reports, wizards* and *workflows* declaration.
+*操作、菜单、报表、向导* 和 *工作流* 定义。
 
 .. i18n: Python Module Descriptor File __init__.py
 .. i18n: """""""""""""""""""""""""""""""""""""""""
 ..
 
-Python Module Descriptor File __init__.py
+Python 模块描述文件 __init__.py
 """""""""""""""""""""""""""""""""""""""""
 
 .. i18n: **The __init__.py file**
 ..
 
-**The __init__.py file**
+** __init__.py 文件**
 
 .. i18n: The __init__.py file is, like any Python module, executed at the start of the program. It needs to import the Python files that need to be loaded.
 ..
