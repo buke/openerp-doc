@@ -1,4 +1,3 @@
-
 .. i18n: .. _button-icon-list-link:
 .. i18n: 
 .. i18n: =====================
@@ -9,7 +8,7 @@
 .. _button-icon-list-link:
 
 =====================
-Icons
+图标
 =====================
 
 .. i18n: Most of the icons are laid in search view. All of the buttons  have to have an icon relevant to the function. OpenERP uses a range of predefined icons. Here are the most frequent icons (all icons are in annexe) : 
@@ -91,23 +90,23 @@ Most of the icons are laid in search view. All of the buttons  have to have an i
 ..
 
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a Human Resources| .. figure:: Pictures/personal.png               |
+| * 关联为人力资源的按钮                   | .. figure:: Pictures/personal.png               |
 |                                          |     :align: center                              |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a date           | .. figure:: Pictures/go-month.png               |
+| * 关联为日期的按钮                       | .. figure:: Pictures/go-month.png               |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a product        | .. figure:: Pictures/accessories-archiver.png   |
+| * 关联为商品的按钮                       | .. figure:: Pictures/accessories-archiver.png   |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to  states :        |                                                 |
+| * 状态按钮:                              |                                                 |
 +------------------------------------------+-------------------------------------------------+
 |                                          |                                                 |
-|      - Draft                             | .. figure:: Pictures/document-new.png           |
+|      - 草稿                              | .. figure:: Pictures/document-new.png           |
 |                                          |    :align: center                               |
-|      - Open                              | .. figure:: Pictures/camera_test.png            |
+|      - 确认                              | .. figure:: Pictures/camera_test.png            |
 |                                          |    :align: center                               |
-|      - Pending                           | .. figure:: Pictures/gtk-media-pause.png        |
+|      - 处理中                            | .. figure:: Pictures/gtk-media-pause.png        |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
 | * When buttons refer to a today,meeting, | .. figure:: Pictures/go-today.png               |
