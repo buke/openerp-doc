@@ -1,11 +1,10 @@
-
 .. i18n: =========================================
 .. i18n: Getting starting with OpenERP development
 .. i18n: =========================================
 ..
 
 =========================================
-Getting starting with OpenERP development
+OpenERP 开发入门
 =========================================
 
 .. i18n: .. toctree::
@@ -19,14 +18,14 @@ Getting starting with OpenERP development
 .. i18n: ============
 ..
 
-Installation
+安装
 ============
 
 .. i18n: Windows
 .. i18n: -------
 ..
 
-Windows
+Windows下安装
 -------
 
 .. i18n: Windows install:
@@ -34,27 +33,27 @@ Windows
 .. i18n:  - howto
 ..
 
-Windows install:
- - executable location
- - howto
+Windows 下安装:
+ - 执行位置
+ - 步骤
 
 .. i18n: Debian/Ubuntu
 .. i18n: -------------
 ..
 
-Debian/Ubuntu
+Debian/Ubuntu安装
 -------------
 
 .. i18n: How to get .deb packages
 ..
 
-How to get .deb packages
+ .deb packages安装包下载
 
 .. i18n: Sources
 .. i18n: -------
 ..
 
-Sources
+源码
 -------
 
 .. i18n: In order to get the sources, you will need Bazaar version control to pull the source from Launchpad. Check how to get Bazaar according to your development environment. After having installed and configured Bazaar, setup your development environment by typing::
@@ -129,7 +128,7 @@ Testing your installation can be done on http://localhost:8069/
 .. i18n: -------------------
 ..
 
-Development version
+开发版
 -------------------
 
 .. i18n: Location of development version + specifics if necessary to precise
@@ -141,7 +140,7 @@ Location of development version + specifics if necessary to precise
 .. i18n: =============
 ..
 
-Configuration
+配置
 =============
 
 .. i18n: .. _configuration-files-link:
@@ -168,7 +167,7 @@ Those files follow the convention used by python's ConfigParser module.
 .. i18n: Lines beginning with "#" or ";" are comments.
 ..
 
-Lines beginning with "#" or ";" are comments.
+以"#"或者";"进行行注释。
 
 .. i18n: The client configuration file is automatically generated upon the first start. The one of the server can automatically be created using the command: ::
 .. i18n: 
@@ -187,7 +186,7 @@ If they are not found, the server and the client will start with the default con
 .. i18n: **Server Configuration File**
 ..
 
-**Server Configuration File**
+**Server 配置文件**
 
 .. i18n: The server configuration file .openerp_serverrc is used to save server startup options. Here is the list of the available options:
 ..
@@ -199,28 +198,28 @@ The server configuration file .openerp_serverrc is used to save server startup o
 ..
 
 :interface:
-    Address to which the server will be bound 
+    绑定监听IP地址
 
 .. i18n: :port:
 .. i18n:     Port the server will listen on 
 ..
 
 :port:
-    Port the server will listen on 
+    监听端口
 
 .. i18n: :database:
 .. i18n:     Name of the database to use 
 ..
 
 :database:
-    Name of the database to use 
+    数据库名称
 
 .. i18n: :user:
 .. i18n:     Username used when connecting to the database 
 ..
 
 :user:
-    Username used when connecting to the database 
+    数据库连接帐号用户名
 
 .. i18n: :translate_in:
 .. i18n:     File used to translate OpenERP to your language 
@@ -248,56 +247,56 @@ The server configuration file .openerp_serverrc is used to save server startup o
 ..
 
 :verbose:
-    Enable debug output 
+    开启调试输出
 
 .. i18n: :init:
 .. i18n:     init a module (use "all" for all modules) 
 ..
 
 :init:
-    init a module (use "all" for all modules) 
+    初始化模块("all"为所有模块)
 
 .. i18n: :update:
 .. i18n:     update a module (use "all" for all modules) 
 ..
 
 :update:
-    update a module (use "all" for all modules) 
+    更新模块("all"为所有模块)
 
 .. i18n: :upgrade:
 .. i18n:     Upgrade/install/uninstall modules 
 ..
 
 :upgrade:
-    Upgrade/install/uninstall modules 
+    升级/安装/卸载 模块
 
 .. i18n: :db_name:
 .. i18n:     specify the database name 
 ..
 
 :db_name:
-    specify the database name 
+    指定数据库名称
 
 .. i18n: :db_user:
 .. i18n:     specify the database user name 
 ..
 
 :db_user:
-    specify the database user name 
+    指定数据库用户名
 
 .. i18n: :db_password:
 .. i18n:     specify the database password 
 ..
 
 :db_password:
-    specify the database password 
+    指定数据库用户密码
 
 .. i18n: :pg_path:
 .. i18n:     specify the pg executable path 
 ..
 
 :pg_path:
-    specify the pg executable path 
+    指定PostgreSQL数据库维护可执行文件路径
 
 .. i18n: :db_host:
 .. i18n:     specify the database host 
