@@ -1,18 +1,17 @@
-
 .. i18n: ========================================
 .. i18n: Architecture
 .. i18n: ========================================
 ..
 
 ========================================
-Architecture
+架构
 ========================================
 
 .. i18n: MVC architecture
 .. i18n: ================
 ..
 
-MVC architecture
+MVC 架构
 ================
 
 .. i18n: According to `Wikipedia <http://en.wikipedia.org/wiki/Model-view-controller>`_, "a Model-view-controller (MVC) is an architectural pattern used in software engineering". In complex computer applications presenting lots of data to the user, one often wishes to separate data (model) and user interface (view) concerns. Changes to the user interface does therefore not impact data management, and data can be reorganized without changing the user interface. The model-view-controller solves this problem by decoupling data access and business logic from data presentation and user interaction, by introducing an intermediate component: the controller.
@@ -31,7 +30,7 @@ According to `Wikipedia <http://en.wikipedia.org/wiki/Model-view-controller>`_, 
    :scale: 100
    :align: center
 
-   MVC Diagram
+   MVC 图解
 
 .. i18n: For example in the diagram above, the solid lines for the arrows starting from the controller and going to both the view and the model mean that the controller has a complete access to both the view and the model. The dashed line for the arrow going from the view to the controller means that the view has a limited access to the controller. The reasons of this design are :
 ..
@@ -49,7 +48,7 @@ For example in the diagram above, the solid lines for the arrows starting from t
 .. i18n: --------------------
 ..
 
-MVC Model in OpenERP
+OpenERP MVC 模型
 --------------------
 
 .. i18n: In OpenERP, we can apply this model-view-controller semantic with
