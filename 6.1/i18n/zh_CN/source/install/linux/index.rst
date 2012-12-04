@@ -24,13 +24,14 @@ OpenERP 在 Linux 的安装
 .. i18n: can be installed with a simple click. The package is available on the `OpenERP website's download page <http://www.openerp.com/downloads>`_ 
 ..
 
-For **Debian-based distributions**, OpenERP is available as an All-In-One application package (``.deb``), that
-can be installed with a simple click. The package is available on the `OpenERP website's download page <http://www.openerp.com/downloads>`_ 
-对于
+对于**基于 Debian 发行版**，OpenERP已经有了All-In-One应用程序包(``.deb``)，能够简单地一键安装。该包可在`OpenERP 站点的下载页<http://www.openerp.com/downloads>`找到。
+
 .. i18n: For **RedHat-based platforms**, an experimental RPM distribution is available in our nightly builds. See the `downloads page <http://www.openerp.com/downloads>`_ for more details. 
 ..
 
-For **RedHat-based platforms**, an experimental RPM distribution is available in our nightly builds. See the `downloads page <http://www.openerp.com/downloads>`_ for more details. 
+对于**基于 RedHat 的平台**，有个试验性的 RPM 发布在 nightly builds. 看 `下载页 <http://www.openerp.com/downloads>`_ 获取更多信息. 
+
+
 
 .. i18n: For **other Linux distributions** and for those who prefer a **manual installation**, there are only two steps
 .. i18n: to deploy OpenERP under Linux: install PostgreSQL, the database engine used by OpenERP, then install OpenERP
