@@ -105,8 +105,8 @@ OpenERP 文档 v6.1
   |                                                           |                                                        |
   |  `OpenERP Apps <http://apps.openerp.com>`_                |  :ref:`OpenERP 版权协议 <legal-link>`                  |
   |                                                           |                                                        |
-  |  Library of all known OpenERP Applications                |  OpenERP 代码与文档版权协议                            |
-  |  (Official ones and Community ones)                       |                                                        |
+  |  OpenERP 模块应用中心                                     |  OpenERP 代码与文档版权协议                            |
+  |  (官方APP 和 社区 APP )                                   |                                                        |
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
@@ -144,15 +144,15 @@ OpenERP 文档 v6.1
 
   +---------------------------------------------------------+-----------------------------------------------+
   |                                                         |                                               |
-  |  :ref:`Complete Table of Contents <contents-link>`      |  :ref:`search`                                |
+  |  :ref:`目录 <contents-link>`                            |  :ref:`search`                                |
   |                                                         |                                               |
-  |  List of all sections and subsections                   |  Search this documentation                    |
+  |  全部内容列表                                           |  搜索本文档                                   |
   |                                                         |                                               |
   +---------------------------------------------------------+-----------------------------------------------+
   |                                                         |                                               |
   |  :ref:`genindex`                                        |                                               |
   |                                                         |                                               |
-  |  All terms from this documentation                      |                                               |
+  |  文档术语表                                             |                                               |
   |                                                         |                                               |
   +---------------------------------------------------------+-----------------------------------------------+
 
