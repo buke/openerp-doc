@@ -1,18 +1,17 @@
-
 .. i18n: =========
 .. i18n: Forewords
 .. i18n: =========
 ..
 
 =========
-Forewords
+序
 =========
 
 .. i18n: Introduction
 .. i18n: ============
 ..
 
-Introduction
+简介
 ============
 
 .. i18n: OpenERP is a rich development environment. Thanks to its Python and PostgreSQL
@@ -28,14 +27,14 @@ any arbitrary complex module in OpenERP.
 .. i18n: ======================
 ..
 
-Who is this book for ?
+本书目标读者
 ======================
 
 .. i18n: Content of the book
 .. i18n: ===================
 ..
 
-Content of the book
+目录
 ===================
 
 .. i18n: :ref:`Book Contents <book-develop-link>`
@@ -47,7 +46,7 @@ Content of the book
 .. i18n: ===================
 ..
 
-About the author(s)
+可爱的作者们
 ===================
 
 .. i18n: .. note::
