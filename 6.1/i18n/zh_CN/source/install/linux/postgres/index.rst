@@ -140,7 +140,7 @@ Ubuntu 上的列子
 .. i18n:     password: XXXXXXXXXX
 ..
 
-PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户登录 ::
+PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户登录: ::
 
     openerp@openerp-desktop:/$ sudo su postgres
     password: XXXXXXXXXX
@@ -151,7 +151,7 @@ PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户�
 .. i18n: 	Shall the new role be a superuser? (y/n) y
 ..
 
-Now create PostgreSQL user **openerp** using the following command: ::
+现在用下列命令创建PostgreSQL 用户 **openerp** : ::
 
 	postgres@openerp-desktop:/$ createuser openerp
 	Shall the new role be a superuser? (y/n) y
@@ -161,16 +161,15 @@ Now create PostgreSQL user **openerp** using the following command: ::
 .. i18n: of all the tables created by OpenERP Client.
 ..
 
-Make this new user a superuser. Only then you can create a database using OpenERP Client.
-In short, **openerp** is the new user created in PostgreSQL for OpenERP. This user is the owner
-of all the tables created by OpenERP Client.
+使新用户为超级用户。这样你才能用OpenERP客户端创建数据库.
+总之, **openerp** 一个在PostgreSQL为OpenERP创建的新用户.这个用户是OpenERP客户端创建的所有表的所有者。
 
 .. i18n: Now check the list of databases created in PostgreSQL using the following command: ::
 .. i18n: 
 .. i18n: 	postgres@openerp-desktop:/$ psql -l
 ..
 
-Now check the list of databases created in PostgreSQL using the following command: ::
+现在用下列命令列出在PostgreSQL中已经创建的数据库列表: ::
 
 	postgres@openerp-desktop:/$ psql -l
 
@@ -179,7 +178,7 @@ Now check the list of databases created in PostgreSQL using the following comman
 .. i18n: 	postgres@openerp-desktop:/$ psql template1
 ..
 
-You can find the database **template1**, run the following command to use this database: ::
+能找到数据库 **template1**, 运行下列命令使用这个数据库 : ::
 
 	postgres@openerp-desktop:/$ psql template1
 
@@ -190,8 +189,7 @@ You can find the database **template1**, run the following command to use this d
 .. i18n: 	ALTER ROLE
 ..
 
-To apply access rights to the role **openerp** for the database which will be created from OpenERP Client,
-use the following command: ::
+要在OpenERP客户端创建的数据库中应用访问权限给角色 **openerp** ，使用下列命令: ::
 
 	template1=# alter role openerp with password 'postgres';
 	ALTER ROLE
@@ -200,7 +198,7 @@ use the following command: ::
 .. i18n: +++++++++++++
 ..
 
-Second Method
+第二个方法
 +++++++++++++
 
 .. i18n: Another option to create and configure a PostgreSQL user for OpenERP is shown below: ::
@@ -213,7 +211,7 @@ Second Method
 .. i18n:     CREATE ROLE
 ..
 
-Another option to create and configure a PostgreSQL user for OpenERP is shown below: ::
+为OpenERP创建和配置一个PostgreSQL用户的其它方法显示如下: ::
 
     postgres@openerp-desktop:/$ createuser --createdb --username postgres --no-createrole
     --pwprompt openerp
@@ -227,14 +225,14 @@ Another option to create and configure a PostgreSQL user for OpenERP is shown be
 .. i18n:         Note that the password is *postgres*.
 ..
 
-.. note:: Password
+.. note:: 密码
 
-        Note that the password is *postgres*.
+        注意密码是*postgres*.
 
 .. i18n: Option explanations:
 ..
 
-Option explanations:
+选项说明:
 
 .. i18n:   * ``--createdb`` : the new user will be able to create new databases
 .. i18n:   * ``--username postgres`` : *createuser* will use the *postgres* user (superuser)
@@ -243,16 +241,16 @@ Option explanations:
 .. i18n:   * ``openerp`` : the new user's name
 ..
 
-  * ``--createdb`` : the new user will be able to create new databases
-  * ``--username postgres`` : *createuser* will use the *postgres* user (superuser)
-  * ``--no-createrole`` : the new user will not be able to create new users
-  * ``--pwprompt`` : *createuser* will ask you the new user's password
-  * ``openerp`` : the new user's name
+  * ``--createdb`` : 新用户能创建新数据库
+  * ``--username postgres`` : *createuser* 将使用 *postgres* 用户 (超级用户)
+  * ``--no-createrole`` :  此用户不允许创建新用户
+  * ``--pwprompt`` : *createuser* 将询问你新用户的密码
+  * ``openerp`` : 新用户的名称
 
 .. i18n: To access your database using **pgAdmin III**, you must configure the database connection as shown in the following figure:
 ..
 
-To access your database using **pgAdmin III**, you must configure the database connection as shown in the following figure:
+要使用 **pgAdmin III** 访问你的数据库，你必须如下图所示配置你的数据库连接:
 
 .. i18n: .. figure:: ../../img/new_server_registration.png
 .. i18n:    :scale: 50
@@ -268,15 +266,13 @@ To access your database using **pgAdmin III**, you must configure the database c
 .. i18n: located in ``~/.openerprc``.
 ..
 
-You can now start OpenERP Server. You will probably need to modify the
-OpenERP configuration file according to your needs which is normally
-located in ``~/.openerprc``.
+你能启动你的 OpenERP 服务器.你可能要根据你的需要修改OpenERP 配置文件，该文件通常在 ``~/.openerprc``.
 
 .. i18n: .. tip:: Developer Book
 .. i18n: 
 .. i18n:         You can find information on configuration files in the Developer Book, section :ref:`Configuration <configuration-files-link>`
 ..
 
-.. tip:: Developer Book
+.. tip:: 开发手册
 
-        You can find information on configuration files in the Developer Book, section :ref:`Configuration <configuration-files-link>`
+        你能在开发手册找到配置文件有关的信息, 章节:ref:`Configuration <configuration-files-link>`
