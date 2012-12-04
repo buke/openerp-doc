@@ -26,7 +26,7 @@
 	这种安装最方便快捷。会自动安装OpenERP6.1需要的(OpenERP Server 以及 PostgreSQL数据库)并做一些简单配置。如果你没有进行一些特殊的要求，推荐使用这种方式进行安装。
  
 * 各部分独立安装
-	If you choose this mode of installation, all the components required to run OpenERP will have to be downloaded and installed separately. You will have to opt for an independent installation if you plan to install the components on separate machines. This mode is also practical if you are already working with, or plan to use, a different version of PostgreSQL than the one provided with the All-In-One installer.
+	这种方式安装,你就需要下载并安装 OpenERP 环境所需的扩展。但这种方式可以让你可以选择将 PostgreSQL 数据安装到其它服务器上，也可以很方便地让你可以在运行时进行维护安装以及源码的升级。
 
 .. i18n: .. toctree::
 .. i18n:     :glob:
