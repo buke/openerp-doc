@@ -1,9 +1,8 @@
-
 .. i18n: Database Setup
 .. i18n: ==============
 ..
 
-Database Setup
+帐套配置
 ==============
 
 .. i18n: You will create all the elements in the database that you need to carry out the use case. These are
@@ -23,7 +22,7 @@ specified in the functional requirements.
 .. index::
    single: accounts; configuring
    
-Configuring Accounts
+配置会计科目
 --------------------
 
 .. i18n: You need to start off with a minimal set of accounts, and to do that you will need a couple of
@@ -48,7 +47,7 @@ structure them into several additional charts at the same time as you will see i
 .. i18n: ^^^^^^^^^^^^^
 ..
 
-Account Types
+科目类型
 ^^^^^^^^^^^^^
 
 .. i18n: Create account types using :menuselection:`Accounting --> Configuration --> 
@@ -77,7 +76,7 @@ in figure :ref:`fig-oech03accty`.
 .. table:: Defining Account Types
 
    ============== ======== ================================= ===============
-   Acc. Type Name Code     P&L / BS Category                 Deferral Method
+   科目类型       类型CODE     P&L / BS Category                 Deferral Method
    ============== ======== ================================= ===============
    View           view     /                                 None           
    Income         income   Profit & Loss (Income Accounts)   Unreconciled   
@@ -105,7 +104,7 @@ in figure :ref:`fig-oech03accty`.
 
    *New Account Type*
    
-Accounts
+科目
 ^^^^^^^^
 
 .. i18n: Create accounts using :menuselection:`Accounting --> Configuration --> 
@@ -113,7 +112,7 @@ Accounts
 .. i18n: :guilabel:`New` button. 
 ..
 
-Create accounts using :menuselection:`Accounting --> Configuration --> 
+新建科目 :menuselection:`Accounting --> Configuration --> 
 Financial Accounting --> Accounts --> Accounts` and then clicking the
 :guilabel:`New` button. 
 
@@ -284,7 +283,7 @@ You may have switch to ``Extended`` view to be able to access this menu.
 .. i18n: --------------------
 ..
 
-Configuring Journals
+配置账簿
 --------------------
 
 .. i18n: You will also need to configure some journals, which are used to record the transactions from one account
@@ -363,7 +362,7 @@ Financial Accounting --> Journals --> Journals` and then click the :guilabel:`Ne
 .. i18n: ----------------------------
 ..
 
-Configuring the Main Company
+配置公司信息
 ----------------------------
 
 .. i18n: In case you had chosen to :guilabel:`Skip Configuration Wizards` when you first created the database, you may configure your company information in the following manner.
@@ -526,7 +525,7 @@ change it in this Company and the two default Pricelists (:menuselection:`Sales 
 .. i18n: --------------------------------------------------------
 ..
 
-Creating Partner Categories, Partners and their Contacts
+新建业务伙伴,伙伴分类及伙伴联系人
 --------------------------------------------------------
 
 .. i18n: You will now create a suppliers category and a customers category. Partner categories are useful for
@@ -712,7 +711,7 @@ and click on each category in turn to see the companies in the category.
 
 .. _log-product:
 
-Creating Products and their Categories
+新建商品信息及其分类
 --------------------------------------
 
 .. i18n: Unlike partner categories and their assigned partners, product categories do have an effect on the
@@ -895,7 +894,7 @@ Now create a new product through the :menuselection:`Warehouse` or :menuselectio
 
 .. _log-loc:
 
-Stock Locations
+配置库位信息
 ---------------
 
 .. i18n: Click :menuselection:`Warehouse --> Inventory Control --> Location Structure` to see the hierarchy of stock
@@ -1068,7 +1067,7 @@ hierarchical structure of the accounts.
 .. i18n: -----------------------------
 ..
 
-Make a Backup of the Database
+备份数据库帐套
 -----------------------------
 
 .. i18n: If you know the super-administrator password, make a backup of your database using the procedure
