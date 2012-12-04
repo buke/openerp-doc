@@ -1,11 +1,10 @@
-
 .. i18n: ===============
 .. i18n: OpenERP's Views
 .. i18n: ===============
 ..
 
 ===============
-OpenERP's Views
+OpenERP 视图
 ===============
 
 .. i18n: .. toctree::
