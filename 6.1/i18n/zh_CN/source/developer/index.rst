@@ -1,4 +1,3 @@
-
 .. i18n: .. _book-develop-link:
 .. i18n: 
 .. i18n: Developer Book
@@ -7,7 +6,7 @@
 
 .. _book-develop-link:
 
-Developer Book
+开发手册
 ==============
 
 .. i18n: .. toctree::
