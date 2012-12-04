@@ -288,7 +288,7 @@ OpenERP 服务器可从这里下
 .. i18n: -----------------------------
 ..
 
-Installing the OpenERP Server
+安装 OpenERP 服务器
 -----------------------------
 
 .. i18n: The OpenERP Server can be installed very easily using the *setup.py* file: ::
@@ -318,8 +318,7 @@ OpenERP 服务器能非常容易地使用 *setup.py* 文件安装: ::
 .. i18n: :ref:`installation-postgresql-server`.
 ..
 
-如果你还没有启动 PostgreSQL 服务器并运行，请参阅
-:ref:`installation-postgresql-server`.
+如果你还没有启动 PostgreSQL 服务器并运行，请参阅 :ref:`installation-postgresql-server`.
 
 .. i18n: Creating a configuration file for OpenERP Server
 .. i18n: ------------------------------------------------
