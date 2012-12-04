@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; OpenERP Server (Linux)
 .. i18n:    single: OpenERP Server; Installation (Linux)
@@ -19,22 +18,22 @@
 .. i18n: ===========================
 ..
 
-OpenERP Server Installation
+OpenERP 服务器安装
 ===========================
 
 .. i18n: Installing the required packages
 .. i18n: --------------------------------
 ..
 
-Installing the required packages
+安装所需要的包
 --------------------------------
 
 .. i18n: Python 2.6 or later is required for OpenERP 6.1. It is built-in in Ubuntu version 10.04 and above.
 .. i18n: A few Python libraries are also required, as listed below.
 ..
 
-Python 2.6 or later is required for OpenERP 6.1. It is built-in in Ubuntu version 10.04 and above.
-A few Python libraries are also required, as listed below.
+OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上.
+还需有几个Python库，已经列表于下.
 
 .. i18n: On a Debian-based Linux distribution you can install all required dependencies with this single
 .. i18n: command::
@@ -46,8 +45,7 @@ A few Python libraries are also required, as listed below.
 .. i18n:         python-werkzeug python-xlwt python-yaml python-zsi
 ..
 
-On a Debian-based Linux distribution you can install all required dependencies with this single
-command::
+在基于Debian 的 Linux 发行版，你能用下面一条指令安装所有依赖::
 
     apt-get install python-dateutil python-feedparser python-gdata python-ldap \
         python-libxslt1 python-lxml python-mako python-openid python-psycopg2 \
@@ -148,19 +146,19 @@ command::
 .. i18n:                     sudo apt-get install python-zsi
 ..
 
-* :guilabel:`dateutil` : provides powerful extensions to the standard datetime module, available in Python 2.3+. ::
+* :guilabel:`dateutil` : 此模块提供了强大的扩展以处理标准日期时间，用于 Python 2.3+. ::
 
                     sudo apt-get install python-dateutil
 
-* :guilabel:`feedparser` : universal Feed Parser for Python ::
+* :guilabel:`feedparser` : 用于Python 的通用聚合解析器 ::
 
                     sudo apt-get install python-feedparser
 
-* :guilabel:`gdata` : Google Data Python client library ::
+* :guilabel:`gdata` : Google Data Python 客户端库 ::
 
                     sudo apt-get install python-gdata
 
-* :guilabel:`ldap` : LDAP interface module ::
+* :guilabel:`ldap` : LDAP 接口 module ::
 
                     sudo apt-get install python-ldap
 
@@ -168,19 +166,19 @@ command::
 
                     sudo apt-get install python-libxslt1
 
-* :guilabel:`lxml` : lxml is the most feature-rich and easy-to-use library for working with XML and HTML in the Python language. ::
+* :guilabel:`lxml` : lxml 是个具有丰富特性且易用的库， 用于 Python 语言处理 XML 和 HTML. ::
 
 					sudo apt-get install python-lxml
 
-* :guilabel:`mako` : fast and lightweight templating for the Python platform. ::
+* :guilabel:`mako` : 用于 python平台的快速、轻量的模版. ::
 
 					sudo apt-get install python-mako
 
-* :guilabel:`openid` : OpenID authentication support for servers and consumers  ::
+* :guilabel:`openid` : OpenID 身份认证，支持服务器和消费者 ::
 
                     sudo apt-get install python-openid
 
-* :guilabel:`psycopg2` : the most popular PostgreSQL adapter for the Python programming language. ::
+* :guilabel:`psycopg2` : 最大众化的PostgreSQL 接口. ::
 
 					sudo apt-get install python-psycopg2
 
