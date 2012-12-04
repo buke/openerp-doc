@@ -1,4 +1,3 @@
-
 .. i18n: .. _contribute-translations:
 .. i18n: 
 .. i18n: ====================================
@@ -9,20 +8,20 @@
 .. _contribute-translations:
 
 ====================================
-Translating OpenERP in your language
+将OpenERP翻译为你的本地语言
 ====================================
 
 .. i18n: There are two main areas where translations are needed in OpenERP:
 ..
 
-There are two main areas where translations are needed in OpenERP:
+要将OpenERP翻译为本地语言, 主要要处理下面两块的翻译:
 
 .. i18n:     * Terms used in the software itself
 .. i18n:     * The online book and documentation
 ..
 
-    * Terms used in the software itself
-    * The online book and documentation
+    * OpenERP 软件的翻译
+    * OpenERP 在线文档的翻译
 
 .. i18n: These two areas are organised differently in terms of translations,
 .. i18n: and as a consequence the contribution process differs too, and is
