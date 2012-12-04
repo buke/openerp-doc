@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; OpenERP Client (Linux)
 .. i18n:    single: OpenERP Client; Installation (Linux)
@@ -19,27 +18,26 @@
 .. i18n: ===============================
 ..
 
-OpenERP GTK Client Installation
+OpenERP GTK 客户端安装
 ===============================
 
 .. i18n: The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
 ..
 
-The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
+原生GTK 客户端作为遗留界面，留给任然需要的用户, 但是访问OpenERP的推荐方法是内置的WEB 界面.
 
 .. i18n: Installing the required packages
 .. i18n: --------------------------------
 ..
 
-Installing the required packages
+安装需要的包
 --------------------------------
 
 .. i18n: Python 2.6 or later is required for OpenERP 6.1. It is built-in in Ubuntu version 10.04 and above.
 .. i18n: A few Python libraries are also required, as listed below.
 ..
-
-Python 2.6 or later is required for OpenERP 6.1. It is built-in in Ubuntu version 10.04 and above.
-A few Python libraries are also required, as listed below.
+ 
+OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上. 还需有几个Python库，已经列表于下.
 
 .. i18n: On a Debian-based Linux distribution you can install all required dependencies with this single
 .. i18n: command::
@@ -48,8 +46,7 @@ A few Python libraries are also required, as listed below.
 .. i18n:         python-lxml python-tz python-hippocanvas python-pydot
 ..
 
-On a Debian-based Linux distribution you can install all required dependencies with this single
-command::
+在基于 Debian的Linux 发行版中，能用下面的单个命令安装所有的要求的依赖::
 
     apt-get install python-gtk2 python-glade2 python-matplotlib python-dateutil \
         python-lxml python-tz python-hippocanvas python-pydot
@@ -122,8 +119,8 @@ command::
 
                     sudo apt-get install python-pydot
 
-* Any PDF viewer, properly registered in your system to automatically open PDF files (e.g. xpdf, kpdf, acroread, evince, etc..).
-  See the :ref:`configure-pdf-viewer-link` section.
+* 任意的 PDF 浏览器，在系统中适度注册，以便能自动打开 PDF 文件 (例如 xpdf, kpdf, acroread, evince, 等等)。
+  请看 :ref:`configure-pdf-viewer-link` 一节.
 
 .. i18n: .. note:: RedHat-based distributions
 .. i18n: 
@@ -134,10 +131,10 @@ command::
 .. i18n:             python-lxml python-hippo-canvas python-tz
 ..
 
-.. note:: RedHat-based distributions
+.. note:: 基于RedHat的发行版
 
-    As an alternative to the above commands meant for Debian-based distributions, the
-    following command should install the required dependencies for RedHat-based systems::
+    替代上面用在 基于Debian发行版的命令,
+    下面的命令将安装基于RedHat 的系统所需要的依赖 ::
 
         yum install pygtk2 glade3 pydot python-dateutil python-matplotlib \
             python-lxml python-hippo-canvas python-tz
@@ -153,8 +150,8 @@ command::
 
 .. note:: Mandriva
 
-    As an alternative to the above commands meant for Debian-based distributions, the
-    following command should install the required dependencies for Mandriva::
+    替代上面用在 基于Debian发行版的命令,
+    下面的命令将安装Mandriva系统所需要的依赖  ::
 
         yum install pygtk2 glade3 pydot python-dateutil python-matplotlib \
             python-lxml python-hippo-canvas python-tz
@@ -163,21 +160,20 @@ command::
 .. i18n: ------------------------------
 ..
 
-Downloading the OpenERP Client
+下载 OpenERP 客户端
 ------------------------------
 
 .. i18n: The OpenERP client can be downloaded from
 .. i18n: the `OpenERP website's download page <http://www.openerp.com/downloads>`_
 ..
 
-The OpenERP client can be downloaded from
-the `OpenERP website's download page <http://www.openerp.com/downloads>`_
+OpenERP 客户端能从 `OpenERP 网站的下载页面 <http://www.openerp.com/downloads>`_  下载。
 
 .. i18n: Testing the OpenERP Client
 .. i18n: --------------------------
 ..
 
-Testing the OpenERP Client
+测试 OpenERP 客户端
 --------------------------
 
 .. i18n: If you only want to test the client, you do not need to install it. Just unpack the
@@ -188,8 +184,7 @@ Testing the OpenERP Client
 .. i18n:         ./openerp-client.py
 ..
 
-If you only want to test the client, you do not need to install it. Just unpack the
-archive and start the openerp-client executable: ::
+如果你只是要测试客户端, 你不必安装，只要解包并启动 openerp客户端的执行文件: ::
 
         tar -xzf openerp-client-6.1-latest.tar.gz
         cd openerp-client-6.1-*/bin
@@ -201,8 +196,7 @@ archive and start the openerp-client executable: ::
 .. i18n:     ./openerp-client.py -h
 ..
 
-The list of available command line parameters can be obtained with the ``-h``
-command-line switch: ::
+使用 ``-h`` 命令行开关能获得一个可用的命令行参数的列表: ::
 
     ./openerp-client.py -h
 
@@ -210,7 +204,7 @@ command-line switch: ::
 .. i18n: -----------------------------
 ..
 
-Installing the OpenERP Client
+安装OpenERP 客户端
 -----------------------------
 
 .. i18n: The client can be installed very easily using the *setup.py* file: ::
@@ -220,7 +214,7 @@ Installing the OpenERP Client
 .. i18n:   sudo python setup.py install
 ..
 
-The client can be installed very easily using the *setup.py* file: ::
+客户端可以非常容易地用 *setup.py* 文件安装: ::
 
   tar -xzf openerp-client-6.1-latest.tar.gz
   cd openerp-client-6.1-*
@@ -231,7 +225,7 @@ The client can be installed very easily using the *setup.py* file: ::
 .. i18n:   openerp-client
 ..
 
-You can now run the client using the following command: ::
+你能用下列命令运行客户端: ::
 
   openerp-client
 
@@ -254,7 +248,7 @@ You can now run the client using the following command: ::
 
 .. _configure-pdf-viewer-link:
 
-Configuring a PDF Viewer
+配置 PDF 浏览器
 ------------------------
 
 .. i18n: By default the OpenERP Client will use your default PDF application
@@ -262,9 +256,8 @@ Configuring a PDF Viewer
 .. i18n: a different default PDF application on your system.
 ..
 
-By default the OpenERP Client will use your default PDF application
-for displaying PDF files  You may customize this behavior by configuring
-a different default PDF application on your system.
+默认时， OpenERP 客户端将使用默认的 PDF 应用程序来显
+示 PDF 文件。你可以在系统中配置一个不一样的默认PDF应用来定制此行为。
 
 .. i18n: Alternatively, you may also specify explicitly the PDF command to use to
 .. i18n: display PDF files in the OpenERP configuration file, normally located in your
@@ -275,10 +268,9 @@ a different default PDF application on your system.
 .. i18n:     softpath = kpdf
 ..
 
-Alternatively, you may also specify explicitly the PDF command to use to
-display PDF files in the OpenERP configuration file, normally located in your
-HOME directory, and named ``'.openerprc'``.
-Find the ``[printer]`` section and edit the ``softpath`` parameter. For example: ::
+作为选择，你也能在配置文件明确指定一个 PDF 指令用来显示PDF 文件，
+通常此文件保存在HOME目录，命名为 ``'.openerprc'`` 。
+找到 ``[printer]`` 节并编辑 ``softpath`` 参数。例如: ::
 
     [printer]
     softpath = kpdf
