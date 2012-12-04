@@ -25,7 +25,7 @@ PostgreSQL 数据库安装和配置
 .. i18n:         The `PostgreSQL download page <http://www.postgresql.org/download/linux>`__ lists the available installation methods. Choose the one that best suits your needs.
 ..
 
-.. 小贴士:: 方法
+.. .. tip:: Methods
 
          `PostgreSQL 下载页 <http://www.postgresql.org/download/linux>`__ 列出可用的安装方法. 选择适合你的需要的一种.
 
@@ -50,7 +50,7 @@ Ubuntu 上的列子
 .. i18n:   openerp@openerp-desktop:/$ sudo apt-get install postgresql
 ..
 
-For example: ::
+示例: ::
 
   openerp@openerp-desktop:/$ sudo apt-get install postgresql
 
@@ -59,7 +59,7 @@ For example: ::
 .. i18n:   sudo apt-get install pgadmin3
 ..
 
-For a graphical user interface of **postgresql**, use the following command: ::
+对于 **postgresql** GUI用户 , 使用下面的命令: ::
 
   sudo apt-get install pgadmin3
 
@@ -68,7 +68,7 @@ For a graphical user interface of **postgresql**, use the following command: ::
 .. i18n:   openerp@openerp-desktop:/$ sudo apt-get install pgadmin3
 ..
 
-For example: ::
+示例: ::
 
   openerp@openerp-desktop:/$ sudo apt-get install pgadmin3
 
@@ -76,7 +76,7 @@ For example: ::
 .. i18n: :menuselection:`Applications --> Programming --> pgAdmin III`.
 ..
 
-You can find the new menu item **pgAdmin III** in your Ubuntu system menu from
+你能在Ubuntu系统菜单找到新的菜单项 **pgAdmin III** 
 :menuselection:`Applications --> Programming --> pgAdmin III`.
 
 .. i18n: .. index::
@@ -94,7 +94,7 @@ You can find the new menu item **pgAdmin III** in your Ubuntu system menu from
 .. i18n: -----------------------------------
 ..
 
-Setup a PostgreSQL user for OpenERP
+为Openerp设置一个 PostgreSQL 用户
 -----------------------------------
 
 .. i18n: When the installations of the required software are done, you must create a
@@ -102,9 +102,7 @@ Setup a PostgreSQL user for OpenERP
 .. i18n: connect to PostgreSQL.
 ..
 
-When the installations of the required software are done, you must create a
-PostgreSQL user. This user must be the same as your system user. OpenERP will use this user to
-connect to PostgreSQL.
+当需要的软件安装完成后，你必须创建一个PostgreSQL用户。这个用户必须和你的系统用户同名. OpenERP 将使用这个用户来链接PostgreSQL.
 
 .. i18n: .. figure:: ../../img/openerp_postgresql.png
 .. i18n:    :scale: 75
@@ -117,7 +115,7 @@ connect to PostgreSQL.
    :scale: 75
    :align: center
 
-   *Figure demonstrating how OpenERP uses the PostgreSQL user to interact with it*
+   *图示 演示了OpenERP用户如何使用PostgreSQL 用户与其交互*
 
 .. i18n: .. tip:: Database
 .. i18n: 
