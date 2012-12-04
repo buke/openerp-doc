@@ -190,40 +190,39 @@ Python 模块描述文件 __init__.py
 .. i18n: The __init__.py file is, like any Python module, executed at the start of the program. It needs to import the Python files that need to be loaded.
 ..
 
-The __init__.py file is, like any Python module, executed at the start of the program. It needs to import the Python files that need to be loaded.
+这个文件就像任何的Python模块中一样，在程序的开始运行。它负责导入程序所需的Python文件。
 
 .. i18n: So, if you create a "module.py" file, containing the description of your objects, you have to write one line in __init__.py::
 .. i18n: 
 .. i18n:     import module
 ..
 
-So, if you create a "module.py" file, containing the description of your objects, you have to write one line in __init__.py::
-
+所以，如果你想创建一个“module.py”文件，它包括你的对象的描述，在这种情况下，你需要在__init__.py文件中写一行：
     import module
 
 .. i18n: OpenERP Module Descriptor File __openerp__.py
 .. i18n: """""""""""""""""""""""""""""""""""""""""""""
 ..
 
-OpenERP Module Descriptor File __openerp__.py
+OpenERP 模块描述文件 __openerp__.py
 """""""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: In the created module directory, you must add a **__openerp__.py** file. This file, which must be in Python format, is responsible to
 ..
 
-In the created module directory, you must add a **__openerp__.py** file. This file, which must be in Python format, is responsible to
+在已经创建的模块目录中，我们需要添加这样一个文件__openerp__.py。这个文件必须是Python的格式书写，用于：
 
 .. i18n:    1. determine the *XML files that will be parsed* during the initialization of the server, and also to
 .. i18n:    2. determine the *dependencies* of the created module.
 ..
 
-   1. determine the *XML files that will be parsed* during the initialization of the server, and also to
-   2. determine the *dependencies* of the created module.
+    1.确定所需的XML文件，server在进行初始化时将从语法上分析这些文件。
+    2.确定该创建模块的依赖模块。
 
 .. i18n: This file must contain a Python dictionary with the following values:
 ..
 
-This file must contain a Python dictionary with the following values:
+这个文件包括下面的值：
 
 .. i18n: **name**
 ..
@@ -233,7 +232,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The (Plain English) name of the module.
 ..
 
-    The (Plain English) name of the module.
+    (英文) 模块名称。
 
 .. i18n: **version**
 ..
@@ -243,7 +242,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The version of the module, on 2 digits (1.2 or 2.0).
 ..
 
-    The version of the module, on 2 digits (1.2 or 2.0).
+    模块版本号， 2 位 (1.2 或 2.0).
 
 .. i18n: **description**
 ..
@@ -253,7 +252,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The module description (text) including documentation on how to use your modules.
 ..
 
-    The module description (text) including documentation on how to use your modules.
+    模块的描述，包含模块的使用文档。
 
 .. i18n: **author**
 ..
@@ -263,7 +262,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The author of the module.
 ..
 
-    The author of the module.
+    模块编者
 
 .. i18n: **website**
 ..
@@ -273,7 +272,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The website of the module.
 ..
 
-    The website of the module.
+    模块的网址
 
 .. i18n: **license**
 ..
@@ -283,7 +282,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The license of the module (default:GPL-2).
 ..
 
-    The license of the module (default:GPL-2).
+    模块的许可证（默认是GPL）
 
 .. i18n: **depends**
 ..
@@ -292,8 +291,7 @@ This file must contain a Python dictionary with the following values:
 
 .. i18n:     List of modules on which this module depends. The base module must almost always be in the dependencies because some necessary data for the views, reports, ... are in the base module.
 ..
-
-    List of modules on which this module depends. The base module must almost always be in the dependencies because some necessary data for the views, reports, ... are in the base module.
+    列出该模块所依赖的其他模块，因为base模块包括模块必须的视图，报表等数据，所以base模块应该在其他所有模块的依赖中。
 
 .. i18n: **init**
 ..
@@ -333,7 +331,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     True or False. Determines if the module is installable or not.
 ..
 
-    True or False. Determines if the module is installable or not.
+    True或是False，决定这个模块是否可安装。
 
 .. i18n: **images**
 ..
@@ -353,7 +351,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     True or False (default: False). Determines the modules that are installed on the database creation.
 ..
 
-    True or False (default: False). Determines the modules that are installed on the database creation.
+    True或是False（默认是False），决定这个模块在数据库创建时是否安装。
 
 .. i18n: **test**
 ..
@@ -373,7 +371,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n: Here is an example of __openerp__.py file for the product module
 ..
 
-Here is an example of __openerp__.py file for the product module
+以product模块中的__openerp__.py为例：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -411,24 +409,24 @@ Here is an example of __openerp__.py file for the product module
 .. i18n: The files that must be placed in init_xml are the ones that relate to the workflow definition, data to load at the installation of the software and the data for the demonstrations.
 ..
 
-The files that must be placed in init_xml are the ones that relate to the workflow definition, data to load at the installation of the software and the data for the demonstrations.
+放置在init_xml中的文件必须要么是和工作流定义相关，要么是安装软件时装载数据相关，或是和示例数据相关。
 
 .. i18n: The files in **update_xml** concern: views, reports and wizards.
 ..
 
-The files in **update_xml** concern: views, reports and wizards.
+update_xml中的文件涉及到视图，报表和向导。
 
 .. i18n: Objects
 .. i18n: """""""
 ..
 
-Objects
+对象
 """""""
 
 .. i18n: All OpenERP resources are objects: menus, actions, reports, invoices, partners, ... OpenERP is based on an object relational mapping of a database to control the information. Object names are hierarchical, as in the following examples:
 ..
 
-All OpenERP resources are objects: menus, actions, reports, invoices, partners, ... OpenERP is based on an object relational mapping of a database to control the information. Object names are hierarchical, as in the following examples:
+所有OpenERP的资源都是对象，如menus，actions，reports，invoices，partners... OpenERP通过数据库的对象关系映射(ORM,object relational mapping of a database)来控制信息存储。OpenERP的对象名是层次结构的，例如：
 
 .. i18n:     * account.transfer : a money transfer
 .. i18n:     * account.invoice : an invoice
@@ -442,12 +440,12 @@ All OpenERP resources are objects: menus, actions, reports, invoices, partners, 
 .. i18n: Generally, the first word is the name of the module: account, stock, sale.
 ..
 
-Generally, the first word is the name of the module: account, stock, sale.
+总之，第一个单词是模块的名字：account，stock，sale
 
 .. i18n: Other advantages of an ORM;
 ..
 
-Other advantages of an ORM;
+ORM的其他优点有：
 
 .. i18n:     * simpler relations : invoice.partner.address[0].city
 .. i18n:     * objects have properties and methods: invoice.pay(3400 EUR),
@@ -461,7 +459,7 @@ Other advantages of an ORM;
 .. i18n: It is easier to manipulate one object (example, a partner) than several tables (partner address, categories, events, ...)
 ..
 
-It is easier to manipulate one object (example, a partner) than several tables (partner address, categories, events, ...)
+操作一个对象比很多表要容易些。
 
 .. i18n: .. figure::  images/pom_3_0_3.png
 .. i18n:    :scale: 50
@@ -488,18 +486,14 @@ PostgreSQL
 .. i18n: using SQL statements.
 ..
 
-The ORM of OpenERP is constructed over PostgreSQL. It is thus possible to
-query the object used by OpenERP using the object interface or by directly
-using SQL statements.
+OpenERP的ORM是在PostgreSQL上构造的。在OpenERP上通过对象接口或是直接使用SQL语句查询一个对象是可行的。
 
 .. i18n: But it is dangerous to write or read directly in the PostgreSQL database, as
 .. i18n: you will shortcut important steps like constraints checking or workflow
 .. i18n: modification.
 ..
 
-But it is dangerous to write or read directly in the PostgreSQL database, as
-you will shortcut important steps like constraints checking or workflow
-modification.
+在PostgreSQL数据库中直接进行读写是非常危险的，因为可能会漏掉重要的步骤如约束检查或是工作流的修改。
 
 .. i18n: .. note::
 .. i18n: 
@@ -522,9 +516,7 @@ Pre-Installed Data
 .. i18n: is as follows:
 ..
 
-Data can be inserted or updated into the PostgreSQL tables corresponding to the
-OpenERP objects using XML files. The general structure of an OpenERP XML file
-is as follows:
+PostgreSQL表中的数据可以使用XML文件来进行插入或更新，使得于OpenERP对象数据一致。OpenERP XML文件的主要结构是：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -577,7 +569,7 @@ Fields content are strings that must be encoded as *UTF-8* in XML files.
 .. i18n: Let's review an example taken from the OpenERP source (base_demo.xml in the base module):
 ..
 
-Let's review an example taken from the OpenERP source (base_demo.xml in the base module):
+让我们回顾一下另一个例子（base模块中的base_demo.xml）：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -628,14 +620,14 @@ Let's review an example taken from the OpenERP source (base_demo.xml in the base
 .. i18n: This last record defines the admin user :
 ..
 
-This last record defines the admin user :
+上面的这个record定义了admin user：
 
 .. i18n:     * The fields login, password, etc are straightforward.
 .. i18n:     * The ref attribute allows to fill relations between the records :
 ..
 
-    * The fields login, password, etc are straightforward.
-    * The ref attribute allows to fill relations between the records :
+    * 	明确定义了login，password等
+	*   ref属性用于在records之间建立关系
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -649,16 +641,16 @@ This last record defines the admin user :
 .. i18n: The field **company_id** is a many-to-one relation from the user object to the company object, and **main_company** is the id of to associate.
 ..
 
-The field **company_id** is a many-to-one relation from the user object to the company object, and **main_company** is the id of to associate.
+字段company_id是一个从user object到company object的many-to-one的关系，main_company是相关联的id。
 
 .. i18n:     * The **eval** attribute allows to put some python code in the xml: here the groups_id field is a many2many. For such a field, "[(6,0,[group_admin])]" means : Remove all the groups associated with the current user and use the list [group_admin] as the new associated groups (and group_admin is the id of another record).
 .. i18n: 
 .. i18n:     * The **search** attribute allows to find the record to associate when you do not know its xml id. You can thus specify a search criteria to find the wanted record. The criteria is a list of tuples of the same form than for the predefined search method. If there are several results, an arbitrary one will be chosen (the first one):
 ..
 
-    * The **eval** attribute allows to put some python code in the xml: here the groups_id field is a many2many. For such a field, "[(6,0,[group_admin])]" means : Remove all the groups associated with the current user and use the list [group_admin] as the new associated groups (and group_admin is the id of another record).
+    * eval字段使得XML中有很多python代码：这里的groups_id字段是many2many的。“[(6,0,[group_admin])]”的意思是：移除与当前用户相关的所有groups，使用list[group_admin]作为新的相关groups（并且group_admin is the id of another record）。
 
-    * The **search** attribute allows to find the record to associate when you do not know its xml id. You can thus specify a search criteria to find the wanted record. The criteria is a list of tuples of the same form than for the predefined search method. If there are several results, an arbitrary one will be chosen (the first one):
+    * Search字段是当你不知道它的XML id时，用来查找相关记录（record）。当你查找所需记录时可以特别指定一个查找标准。这个标准相对于预定义的查找方法最好是一个相同形式元祖的列表（The criteria is a list of tuples of the same form than for the predefined search method.）。如果有很多查找记录，程序自动选择任意一个（第一个）：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -672,7 +664,7 @@ The field **company_id** is a many-to-one relation from the user object to the c
 .. i18n: This is a classical example of the use of **search** in demo data: here we do not really care about which partner we want to use for the test, so we give an empty list. Notice the **model** attribute is currently mandatory.
 ..
 
-This is a classical example of the use of **search** in demo data: here we do not really care about which partner we want to use for the test, so we give an empty list. Notice the **model** attribute is currently mandatory.
+这是个在demo数据中使用search的典型例子。在这里我们并不是真正想知道是哪个partner，所以我们给出了一个空的list。注意model属性是在一般情况下必须要写的。
 
 .. i18n: Record Tag
 .. i18n: //////////
@@ -689,12 +681,12 @@ Record Tag
 .. i18n: The addition of new data is made with the record tag. This one takes a mandatory attribute : model. Model is the object name where the insertion has to be done. The tag record can also take an optional attribute: id. If this attribute is given, a variable of this name can be used later on, in the same file, to make reference to the newly created resource ID.
 ..
 
-The addition of new data is made with the record tag. This one takes a mandatory attribute : model. Model is the object name where the insertion has to be done. The tag record can also take an optional attribute: id. If this attribute is given, a variable of this name can be used later on, in the same file, to make reference to the newly created resource ID.
+T新数据的添加是通过record标签实现的。它利用一个必备的属性：model。Model是一个对象名称，可以用来实现插入数据。record标签内还有一个可选择的属性：id。如果使用了这个属性，那么在相同文件中，这个名字可以代替新创建的资源ID。
 
 .. i18n: A record tag may contain field tags. They indicate the record's fields value. If a field is not specified the default value will be used.
 ..
 
-A record tag may contain field tags. They indicate the record's fields value. If a field is not specified the default value will be used.
+record标签中包含field标签。他们指出record的字段值（record’s fields value）。如果这个field没有详细说明，那么它会使用默认值。
 
 .. i18n: **Example**
 ..
@@ -732,14 +724,13 @@ Field tag
 .. i18n: The attributes for the field tag are the following:
 ..
 
-The attributes for the field tag are the following:
+field标签包含的属性如下所示：
 
 .. i18n: name : mandatory
 .. i18n:   the field name
 ..
 
-name : mandatory
-  the field name
+name : （必须有的）field name
 
 .. i18n: eval : optional
 .. i18n:   python expression that indicating the value to add
@@ -748,25 +739,21 @@ name : mandatory
 .. i18n:   reference to an id defined in this file
 ..
 
-eval : optional
-  python expression that indicating the value to add
+eval : （可选）将指定值进行添加的python表达式
   
-ref
-  reference to an id defined in this file
+ref  :  这个文件中涉及到已定义的id
 
 .. i18n: model
 .. i18n:   model to be looked up in the search
 ..
 
-model
-  model to be looked up in the search
+model ：用于查找的model
 
 .. i18n: search
 .. i18n:   a query
 ..
 
-search
-  a query
+search ：查询
 
 .. i18n: Function tag
 .. i18n: ////////////
@@ -778,28 +765,27 @@ Function tag
 .. i18n: A function tag can contain other function tags.
 ..
 
-A function tag can contain other function tags.
+一个功能标签包含其他的功能标签。
 
 .. i18n: model : mandatory
 .. i18n:   The model to be used
 ..
 
-model : mandatory
-  The model to be used
+
+model ：（必须有的）要调用的model
 
 .. i18n: name : mandatory
 .. i18n:   the function given name
 ..
 
-name : mandatory
-  the function given name
+name ：（必需）function的名称
 
 .. i18n: eval
 .. i18n:   should evaluate to the list of parameters of the method to be called, excluding cr and uid
 ..
 
 eval
-  should evaluate to the list of parameters of the method to be called, excluding cr and uid
+  eval ：估值（evaluate）要调用的方法的参数列表，不计cr和uid
 
 .. i18n: **Example**
 ..
@@ -825,21 +811,20 @@ Getitem tag
 .. i18n: Takes a subset of the evaluation of the last child node of the tag.
 ..
 
-Takes a subset of the evaluation of the last child node of the tag.
+得到该标签最近子节点估值的子集
 
 .. i18n: type : mandatory
 .. i18n:   int or list
 ..
 
-type : mandatory
-  int or list
+type ：（必需）int 或 list
 
 .. i18n: index : mandatory
 .. i18n:   int or string (a key of a dictionary)
 ..
 
-index : mandatory
-  int or string (a key of a dictionary)
+
+index ：（必需）int or string
 
 .. i18n: **Example**
 ..
@@ -875,7 +860,7 @@ i18n
 .. i18n: //////////////////////
 ..
 
-Improving Translations
+改进翻译
 //////////////////////
 
 .. i18n: .. describe:: Translating in launchpad
@@ -888,14 +873,12 @@ Improving Translations
 .. i18n: find the list of translatable projects.
 ..
 
-Translations are managed by
-the `Launchpad Web interface <https://translations.launchpad.net/openobject>`_. Here, you'll
-find the list of translatable projects.
+翻译由“Launchpad Web interface”管理。在这里你会找到可译项目的清单。
 
 .. i18n: Please read the `FAQ <https://answers.launchpad.net/rosetta/+faqs>`_ before asking questions.
 ..
 
-Please read the `FAQ <https://answers.launchpad.net/rosetta/+faqs>`_ before asking questions.
+请在问问题前阅读 `FAQ <https://answers.launchpad.net/rosetta/+faqs>`_
 
 .. i18n: .. describe:: Translating your own module
 ..
@@ -916,13 +899,7 @@ Please read the `FAQ <https://answers.launchpad.net/rosetta/+faqs>`_ before aski
 .. i18n: module.
 ..
 
-Contrary to the 4.2.x version, the translations are now done by module. So,
-instead of an unique ``i18n`` folder for the whole application, each module has
-its own ``i18n`` folder. In addition, OpenERP can now deal with ``.po`` [#f_po]_
-files as import/export format. The translation files of the installed languages
-are automatically loaded when installing or updating a module. OpenERP can also
-generate a .tgz archive containing well organised ``.po`` files for each selected
-module.
+和之前4.2.x的版本不同，现在翻译都是通过模块来做。所以和之前整个系统中有一个特殊i18n文件夹不同的是，现在每一个模块都有自己的i18n文件夹。此外，OpenERP可以处理.po文件作为导入导出格式。当我们安装或是更新一个模块时，安装语言的翻译文件可以自动装入系统中。OpenERP也可以产生一个.tgz文件归档，里面包括为每个选中模块组织很好的.po文件。
 
 .. i18n: .. [#f_po] http://www.gnu.org/software/autoconf/manual/gettext/PO-Files.html#PO-Files
 ..
@@ -947,8 +924,7 @@ Defining the process
 .. i18n: Then, put the generated XML in your own module.
 ..
 
-Through the interface and module recorder.
-Then, put the generated XML in your own module.
+通过界面（interface）或是模块recorder来定义进程。然后放置生成的XML文件在自己的模块中。
 
 .. i18n: Views
 .. i18n: """""
@@ -967,39 +943,39 @@ Technical Specifications - Architecture - Views
 .. i18n: Views are a way to represent the objects on the client side. They indicate to the client how to lay out the data coming from the objects on the screen.
 ..
 
-Views are a way to represent the objects on the client side. They indicate to the client how to lay out the data coming from the objects on the screen.
+视图是一种在客户端显示对象的方式。他们指示客户端如何在屏幕上显示对象数据。
 
 .. i18n: There are two types of views:
 ..
 
-There are two types of views:
+视图有两种表现形式：
 
 .. i18n:     * form views
 .. i18n:     * tree views
 ..
 
-    * form views
-    * tree views
+    * 表单视图
+    * 列表视图
 
 .. i18n: Lists are simply a particular case of tree views.
 ..
 
-Lists are simply a particular case of tree views.
+Lists是tree views中的特殊情形。
 
 .. i18n: A same object may have several views: the first defined view of a kind (*tree, form*, ...) will be used as the default view for this kind. That way you can have a default tree view (that will act as the view of a one2many) and a specialized view with more or less information that will appear when one double-clicks on a menu item. For example, the products have several views according to the product variants.
 ..
 
-A same object may have several views: the first defined view of a kind (*tree, form*, ...) will be used as the default view for this kind. That way you can have a default tree view (that will act as the view of a one2many) and a specialized view with more or less information that will appear when one double-clicks on a menu item. For example, the products have several views according to the product variants.
+同一个对象有几种视图：首先定义的视图样式（tree，form，…）将会做为它默认的样式。那样的话，当你双击一个菜单项时，就有一个默认的tree view和一个特定的view显示差不多的信息。例如，products针对product变量有几种视图。
 
 .. i18n: Views are described in XML.
 ..
 
-Views are described in XML.
+视图都是在XML文件中进行描述的。
 
 .. i18n: If no view has been defined for an object, the object is able to generate a view to represent itself. This can limit the developer's work but results in less ergonomic views.
 ..
 
-If no view has been defined for an object, the object is able to generate a view to represent itself. This can limit the developer's work but results in less ergonomic views.
+如果一个对象没有定义视图，那么这个对象可以自己产生一个视图来显示它自己。这会限制开发者的工作，但是会导致较少的人们自己的视图设计（ergonomic views）。
 
 .. i18n: Usage example
 .. i18n: /////////////
@@ -1011,16 +987,16 @@ Usage example
 .. i18n: When you open an invoice, here is the chain of operations followed by the client:
 ..
 
-When you open an invoice, here is the chain of operations followed by the client:
+当我们打开一张发票时，接下来是在客户端上的操作：
 
 .. i18n:     * An action asks to open the invoice (it gives the object's data (account.invoice), the view, the domain (e.g. only unpaid invoices) ).
 .. i18n:     * The client asks (with XML-RPC) to the server what views are defined for the invoice object and what are the data it must show.
 .. i18n:     * The client displays the form according to the view
 ..
 
-    * An action asks to open the invoice (it gives the object's data (account.invoice), the view, the domain (e.g. only unpaid invoices) ).
-    * The client asks (with XML-RPC) to the server what views are defined for the invoice object and what are the data it must show.
-    * The client displays the form according to the view
+    *   一个动作请求打开发票（它给出了一个对象的数据（account.invoice）,视图，域（例如仅仅是还未付款的发票））
+    * 客户端请求server，什么样的视图由发票对象定义，哪些数据要显示。
+    * 客户端通过视图显示表单
 
 .. i18n: .. figure::  images/arch_view_use.png
 .. i18n:    :scale: 50
@@ -1041,7 +1017,7 @@ To develop new objects
 .. i18n: The design of new objects is restricted to the minimum: create the objects and optionally create the views to represent them. The PostgreSQL tables do not have to be written by hand because the objects are able to automatically create them (or adapt them in case they already exist).
 ..
 
-The design of new objects is restricted to the minimum: create the objects and optionally create the views to represent them. The PostgreSQL tables do not have to be written by hand because the objects are able to automatically create them (or adapt them in case they already exist).
+对新对象的设计限制到最低限度：创建对象并且有选择的创建视图来显示他们。PostgreSQL的table数据不用手写，因为对象会自动创建它们（除非它们已经存在）。
 
 .. i18n: Reports
 .. i18n: """""""
@@ -1053,12 +1029,12 @@ Reports
 .. i18n: OpenERP uses a flexible and powerful reporting system. Reports are generated either in PDF or in HTML. Reports are designed on the principle of separation between the data layer and the presentation layer.
 ..
 
-OpenERP uses a flexible and powerful reporting system. Reports are generated either in PDF or in HTML. Reports are designed on the principle of separation between the data layer and the presentation layer.
+OpenERP使用一个非常灵活和强大的报表系统。报表以PDF或是HTML的形式生成。报表是以数据层和表现层分开的原理进行设计的。
 
 .. i18n: Reports are described more in details in the `Reporting <http://openobject.com/wiki/index.php/Developers:Developper%27s_Book/Reports>`_ chapter.
 ..
 
-Reports are described more in details in the `Reporting <http://openobject.com/wiki/index.php/Developers:Developper%27s_Book/Reports>`_ chapter.
+关于报表更多的细节在 `Reporting <http://openobject.com/wiki/index.php/Developers:Developper%27s_Book/Reports>`_ 章节。
 
 .. i18n: Wizards
 .. i18n: """""""
@@ -1070,7 +1046,7 @@ Wizards
 .. i18n: Here's an example of a .XML file that declares a wizard.
 ..
 
-Here's an example of a .XML file that declares a wizard.
+这里有个描述向导的.xml文件的例子：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1100,12 +1076,12 @@ Here's an example of a .XML file that declares a wizard.
 .. i18n: A wizard is declared using a wizard tag. See "Add A New Wizard" for more information about wizard XML.
 ..
 
-A wizard is declared using a wizard tag. See "Add A New Wizard" for more information about wizard XML.
+向导的声明是通过使用wizard标签。想要知道更多关于向导XML文件的信息可以查看“Add A New Wizard”部分。
 
 .. i18n: also you can add wizard in menu using following xml entry
 ..
 
-also you can add wizard in menu using following xml entry
+或者你可以在菜单中通过使用下面的XML entry添加向导。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1152,29 +1128,28 @@ Workflow
 .. i18n: The objects and the views allow you to define new forms very simply, lists/trees and interactions between them. But that is not enough, you must define the dynamics of these objects.
 ..
 
-The objects and the views allow you to define new forms very simply, lists/trees and interactions between them. But that is not enough, you must define the dynamics of these objects.
-
+通过对象和视图，我们可以很简单的定义新的表单，lists/trees和它们间的交互。但是这还不够：你还得定义这些对象间的动态关系。
 .. i18n: A few examples:
 ..
 
-A few examples:
+举个例子：
 
 .. i18n:     * a confirmed sale order must generate an invoice, according to certain conditions
 .. i18n:     * a paid invoice must, only under certain conditions, start the shipping order
 ..
 
-    * a confirmed sale order must generate an invoice, according to certain conditions
-    * a paid invoice must, only under certain conditions, start the shipping order
+    * 在一般的情况下，一个已确定的销售订单必须生成一张发货单。
+    * 只是在确认发货单已付款的前提下，才会开出运送清单。
 
 .. i18n: The workflows describe these interactions with graphs. One or several workflows may be associated to the objects. Workflows are not mandatory; some objects don't have workflows.
 ..
 
-The workflows describe these interactions with graphs. One or several workflows may be associated to the objects. Workflows are not mandatory; some objects don't have workflows.
+工作流使用图表描述这些交互，一个或几个工作流相关到对象。工作流是非必须的；一些对象就没有工作流。
 
 .. i18n: Below is an example workflow used for sale orders. It must generate invoices and shipments according to certain conditions.
 ..
 
-Below is an example workflow used for sale orders. It must generate invoices and shipments according to certain conditions.
+下面的工作流用于销售订单的例子。在一定的条件下，它必须产生发货单和出货。
 
 .. i18n: .. figure::  images/arch_workflow_sale.png
 .. i18n:    :scale: 85
@@ -1188,42 +1163,42 @@ Below is an example workflow used for sale orders. It must generate invoices and
 .. i18n: In this graph, the nodes represent the actions to be done:
 ..
 
-In this graph, the nodes represent the actions to be done:
+在这张图表中节点代表着要做的动作。
 
 .. i18n:     * create an invoice,
 .. i18n:     * cancel the sale order,
 .. i18n:     * generate the shipping order, ...
 ..
 
-    * create an invoice,
-    * cancel the sale order,
-    * generate the shipping order, ...
+    * 创建发票
+    * 取消销售订单
+    * 生成装货单, ...
 
 .. i18n: The arrows are the conditions;
 ..
 
-The arrows are the conditions;
+上面的箭头代表条件：
 
 .. i18n:     * waiting for the order validation,
 .. i18n:     * invoice paid,
 .. i18n:     * click on the cancel button, ...
 ..
 
-    * waiting for the order validation,
-    * invoice paid,
-    * click on the cancel button, ...
+     1.等待订单获得批准
+     2.发票支付
+     3.点击取消按钮，。。。
 
 .. i18n: The squared nodes represent other Workflows;
 ..
 
-The squared nodes represent other Workflows;
+方格样式的节点代表其他的工作流：
 
 .. i18n:     * the invoice
 .. i18n:     * the shipping
 ..
 
-    * the invoice
-    * the shipping
+    * 发票
+    * 发货
 
 .. i18n: OpenERP Module Descriptor File : __openerp__.py
 .. i18n: -----------------------------------------------
