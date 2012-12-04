@@ -141,25 +141,24 @@ OpenERP的小版本/补丁发行版用增加第3个发行号来标识，例如 v
 
 .. tip:: 开发指南
 
-        为了更多在真实的譬如完成服务器升级的技术信息, 你尅参考开发指南的相关章节: :ref:`technical_update_procedure`.
+        为了更多在真实的譬如完成服务器升级的技术信息, 你参考开发指南的相关章节: :ref:`technical_update_procedure`.
 
 .. i18n: Going to a Newer Major Release
 .. i18n: ++++++++++++++++++++++++++++++
 ..
 
-Going to a Newer Major Release
+更新到一个新的主发行版
 ++++++++++++++++++++++++++++++
 
 .. i18n: The frequency of major stable releases has fluctuated in the past, but the current policy is to release a new stable version every 6 months on average, with one out of three stable versions being a Long Term Support (LTS) version. An LTS version is a normal stable version, but one that is supported for an extended time under the OpenERP Publisher’s Warranty (OPW). Stable versions are labelled as a decimal number with 2 components (e.g. 6.1), where the leftmost part indicates the corresponding Long Term Support (LTS) version, and the second digit indicates successive stable releases between two LTS versions.
 ..
 
-The frequency of major stable releases has fluctuated in the past, but the current policy is to release a new stable version every 6 months on average, with one out of three stable versions being a Long Term Support (LTS) version. An LTS version is a normal stable version, but one that is supported for an extended time under the OpenERP Publisher’s Warranty (OPW). Stable versions are labelled as a decimal number with 2 components (e.g. 6.1), where the leftmost part indicates the corresponding Long Term Support (LTS) version, and the second digit indicates successive stable releases between two LTS versions.
+在过去，主要的稳定发行版的频率是波动的, 但是当前策略是平均每6个月发布一个新的稳定版本, 三个稳定版之间有个一个是长期支持版（LTS）.一个LTS版本通常是正常稳定的版, 是在 OpenERP Publisher’s Warranty (OPW)下面支持长时间。稳定版用两个部件标记为一个小数(例如 6.1),在最左边的部分显示相应的长期支持(LTS)版本,第二个数字指示了在两个LTS版之间的连续稳定版本。
 
 .. i18n: Transitioning to the next major release implies a lot more changes than jumping to another minor release.
 .. i18n: As the underlying OpenERP data structures usually evolve quite a bit from one major release to the next, a full migration of the existing data is needed.
 .. i18n: Each major release will be published with specific recommendations and procedures for upgrading an existing OpenERP system to the next major version.
 ..
 
-Transitioning to the next major release implies a lot more changes than jumping to another minor release.
-As the underlying OpenERP data structures usually evolve quite a bit from one major release to the next, a full migration of the existing data is needed.
-Each major release will be published with specific recommendations and procedures for upgrading an existing OpenERP system to the next major version.
+过渡到下个主发行版意味着比小发行版多得多的变化。从主发行版到下一个，因为基础的Openerp数据结构的演进非常大,对已有的数据，需要一个完整的迁移。
+每个主发行版，将发布具体建议和过程，以升级一个已有的Openerp系统到下一个主版本。
