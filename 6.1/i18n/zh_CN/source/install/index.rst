@@ -17,23 +17,21 @@
 .. i18n: This chapter contains the general installation procedure for deploying OpenERP on the main supported platforms.
 ..
 
-本章包含一般安装程序部署openerp的主要支持平台。
+本章包含部署openerp的主要支持平台的一般安装程序。
 
 .. i18n: For **OpenERP Online (SaaS mode)** the installation is as simple as creating a new account on https://www.openerp.com/online.
 .. i18n: The first section in this chapter provides the answer to Frequently Asked Questions for SaaS usage.
 ..
 
-For **OpenERP Online (SaaS mode)** the installation is as simple as creating a new account on https://www.openerp.com/online.
-The first section in this chapter provides the answer to Frequently Asked Questions for SaaS usage.
+对于 **OpenERP Online (SaaS mode)** ，安装只是简单地在 https://www.openerp.com/online 创建一个新帐号.
+本章的第一节，提供了SaaS使用的常见问题的答案。
 
 .. i18n: For **OpenERP on-site**, the installation mainly consists of installing PostgreSQL (the database engine used by OpenERP), 
 .. i18n: Python (built-in on most platforms) and then installing OpenERP itself, as an all-in-one package.
 ..
-
-
  
 对于 **OpenERP on-site**, 作为一个AllinOne安装包，安装主要包括 PostgreSQL (openerp使用的数据库引擎), 
-Python (多数平台内置) 已经安装 OpenERP 自身.
+Python (多数平台内置) 以及安装 OpenERP 自身.
 
 .. i18n: .. note:: For those familiar with earlier OpenERP versions, the 6.1 series has a different architecture, and only requires the installation of a single OpenERP package.
 ..
