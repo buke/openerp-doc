@@ -103,9 +103,9 @@ OpenERP 文档 v6.1
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
   |                                                           |                                                        |
-  |  `OpenERP Apps <http://apps.openerp.com>`_                |  :ref:`OpenERP 协议 <legal-link>`                      |
+  |  `OpenERP Apps <http://apps.openerp.com>`_                |  :ref:`OpenERP 版权协议 <legal-link>`                  |
   |                                                           |                                                        |
-  |  Library of all known OpenERP Applications                |  OpenERP 代码与文档协议                                |
+  |  Library of all known OpenERP Applications                |  OpenERP 代码与文档版权协议                            |
   |  (Official ones and Community ones)                       |                                                        |
   |                                                           |                                                        |
   +-----------------------------------------------------------+--------------------------------------------------------+
