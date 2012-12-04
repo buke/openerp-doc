@@ -162,7 +162,7 @@ PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户�
 ..
 
 使新用户为超级用户。这样你才能用OpenERP客户端创建数据库.
-总之, **openerp** 是一个在PostgreSQL中为OpenERP创建的新用户。这个用户将是OpenERP客户端创建的所有表的所有者。
+总之, **openerp** 是一个在PostgreSQL中为OpenERP创建的新用户。这个用户将是OpenERP客户端创建的全部表的所有者。
 
 .. i18n: Now check the list of databases created in PostgreSQL using the following command: ::
 .. i18n: 
