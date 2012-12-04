@@ -124,13 +124,13 @@ Ubuntu 上的列子
 
 .. tip:: Database
 
-        Without creating and configuring a PostgreSQL user for OpenERP as described below, you cannot create a database using OpenERP Client.
+        没有按如下所述为openerp创建和配置一个 PostgreSQL 用户, 你就不能用openerp客户端创建数据库。
 
 .. i18n: First Method
 .. i18n: ++++++++++++
 ..
 
-First Method
+第一个方法
 ++++++++++++
 
 .. i18n: The default superuser for PostgreSQL is called **postgres**. You may need to login as this
@@ -140,8 +140,7 @@ First Method
 .. i18n:     password: XXXXXXXXXX
 ..
 
-The default superuser for PostgreSQL is called **postgres**. You may need to login as this
-user first. ::
+PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户登录 ::
 
     openerp@openerp-desktop:/$ sudo su postgres
     password: XXXXXXXXXX
