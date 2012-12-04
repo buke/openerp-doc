@@ -1,6 +1,5 @@
-
-OpenERP Installation on Windows
-===============================
+在Windows上安装OpenERP
+======================
 
 In this chapter, you will see the installation of OpenERP 6.1 on a Windows system. This procedure is well-tested on Windows 7.
 
