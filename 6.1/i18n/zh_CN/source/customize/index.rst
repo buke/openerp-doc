@@ -1,4 +1,3 @@
-
 .. i18n: .. _book-customize-link:
 .. i18n: 
 .. i18n: Customization
@@ -7,5 +6,5 @@
 
 .. _book-customize-link:
 
-Customization
+定制
 =============
