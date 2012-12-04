@@ -24,7 +24,7 @@ OpenERP 在 Linux 的安装
 .. i18n: can be installed with a simple click. The package is available on the `OpenERP website's download page <http://www.openerp.com/downloads>`_ 
 ..
 
-对于**基于 Debian 发行版**，OpenERP已经有了All-In-One应用程序包(``.deb``)，能够简单地一键安装。该包可在`OpenERP 站点的下载页<http://www.openerp.com/downloads>`_  找到。
+对于**基于 Debian 发行版**，OpenERP已经有了All-In-One应用程序包(``.deb``)，能够简单地一键安装。该包可在`OpenERP 站点的下载页 <http://www.openerp.com/downloads>`_  找到。
 
 .. i18n: For **RedHat-based platforms**, an experimental RPM distribution is available in our nightly builds. See the `downloads page <http://www.openerp.com/downloads>`_ for more details. 
 ..
