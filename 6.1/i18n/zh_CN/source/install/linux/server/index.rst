@@ -178,35 +178,35 @@ OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上
 
                     sudo apt-get install python-openid
 
-* :guilabel:`psycopg2` : 最大众化的PostgreSQL 接口. ::
+* :guilabel:`psycopg2` : 最大众化的python PostgreSQL 接口. ::
 
 					sudo apt-get install python-psycopg2
 
-* :guilabel:`babel` : tools for internationalizing Python applications ::
+* :guilabel:`babel` : Python 应用的国际化工具 ::
 
                     sudo apt-get install python-pybabel
 
-* :guilabel:`pychart` : library for creating high quality Encapsulated Postscript, PDF, PNG, or SVG charts. ::
+* :guilabel:`pychart` :  封装了 Postscript, PDF, PNG, or SVG charts 的高质量的库. ::
 
 					sudo apt-get install python-pychart
 
-* :guilabel:`pydot` : provides a full interface to create, handle, modify and process graphs in Graphviz's dot language. ::
+* :guilabel:`pydot` :  提供了 Graphviz's dot language的完整的特性，包括创建，保存，修改，处理图像. ::
 
 					sudo apt-get install python-pydot
 
-* :guilabel:`pyparsing` : library for parsing Python code ::
+* :guilabel:`pyparsing` : 解析 Python 代码的库 ::
 
                     sudo apt-get install python-pyparsing
 
-* :guilabel:`reportlab` : The ReportLab Toolkit is the time-proven, ultra-robust, open-source engine for programmatically creating PDF documents and forms the foundation of RML. It also contains a library for creating platform-independent vector graphics. It is a fast, flexible, cross-platform solution written in Python. ::
+* :guilabel:`reportlab` : ReportLab 工具是个经时间证明，超强，开源的引擎，以 RML 为基础，用于 编程创建 PDF 文档和 and 表格L. 也包括了一个创建平台无关的向量图像的库.是用 python 写成的一个快速、灵活、可伸缩、交叉平台解决方案。 ::
 
                     sudo apt-get install python-reportlab
 
-* :guilabel:`simplejson` : simple, fast, extensible JSON encoder/decoder ::
+* :guilabel:`simplejson` : 简单，快速，可扩展的 JSON 编码和解码器 ::
 
                     sudo apt-get install python-simplejson
 
-* :guilabel:`vatnumber` :  module to validate VAT numbers for European countries ::
+* :guilabel:`vatnumber` :  用于欧洲国家的检查 VAT（增值税号）的模块 ::
 
                     sudo apt-get install python-vatnumber
 
@@ -214,27 +214,27 @@ OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上
 
                     sudo apt-get install python-vobject
 
-* :guilabel:`pytz` : World Timezone Definitions for Python ::
+* :guilabel:`pytz` : 用于的 世界时区定义 ::
 
 					sudo apt-get install python-tz
 
-* :guilabel:`webdav` : WebDAV server implementation in Python ::
+* :guilabel:`webdav` : 用python 实现的 WebDAV 服务器 ::
 
                     sudo apt-get install python-webdav
 
-* :guilabel:`werkzeug` : collection of utilities for WSGI applications ::
+* :guilabel:`werkzeug` : WSGI应用程序 工具集合 ::
 
                     sudo apt-get install python-werkzeug
 
-* :guilabel:`yaml` : YAML parser and emitter for Python. ::
+* :guilabel:`yaml` : 用于 Python 的 YAML 解析器和发射器。 ::
 
 					sudo apt-get install python-yaml
 
-* :guilabel:`xlwt` : module for reading/writing Microsoft Excel spreadsheet files ::
+* :guilabel:`xlwt` : 读写 Microsoft Excel 电子表格文件的模块 ::
 
                     sudo apt-get install python-xlwt
 
-* :guilabel:`zsi` :  Zolera Soap client infrastructure ::
+* :guilabel:`zsi` :  Zolera Soap 客户端基础 ::
 
                     sudo apt-get install python-zsi
 
@@ -242,21 +242,21 @@ OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上
 .. i18n: ------------------------------
 ..
 
-Downloading the OpenERP Server
+下载 OpenERP 服务器
 ------------------------------
 
 .. i18n: The OpenERP server can be downloaded from
 .. i18n: the `OpenERP website's download page <http://www.openerp.com/downloads>`_
 ..
 
-The OpenERP server can be downloaded from
-the `OpenERP website's download page <http://www.openerp.com/downloads>`_
+OpenERP 服务器可从这里下
+载 `OpenERP 网站的下载页面 <http://www.openerp.com/downloads>`_
 
 .. i18n: Testing the OpenERP Server
 .. i18n: --------------------------
 ..
 
-Testing the OpenERP Server
+测试 OpenERP 服务器
 --------------------------
 
 .. i18n: If you only want to test the server, you do not need to install it. Just unpack the archive and start
@@ -267,8 +267,8 @@ Testing the OpenERP Server
 .. i18n:         ./openerp-server
 ..
 
-If you only want to test the server, you do not need to install it. Just unpack the archive and start
-the openerp-server executable: ::
+如果你只想测试服务器, 你不需要安装它.仅仅解包并
+启动  openerp-server 执行文件即可: ::
 
         tar -xzf openerp-6.1-latest.tar.gz
         cd openerp-6.1-*
@@ -280,8 +280,7 @@ the openerp-server executable: ::
 .. i18n:     openerp-server -h
 ..
 
-The list of available command line parameters can be obtained with the ``-h``
-command-line switch: ::
+可用的下面的命令行参数列表能通过 命令行开关 ``-h`` 获得: ::
 
     openerp-server -h
 
@@ -299,7 +298,7 @@ Installing the OpenERP Server
 .. i18n:     sudo python setup.py install
 ..
 
-The OpenERP Server can be installed very easily using the *setup.py* file: ::
+OpenERP 服务器能非常容易地使用 *setup.py* 文件安装: ::
 
     tar -xzf openerp-6.1-latest.tar.gz
     cd openerp-6.1-*
@@ -311,8 +310,7 @@ The OpenERP Server can be installed very easily using the *setup.py* file: ::
 .. i18n:     openerp-server
 ..
 
-If your PostgreSQL server is up and running, you can now run the server using
-the following command: ::
+如果 PostgreSQL 服务器已经启动并正在运行，你能用下列命令运行OpenERP 服务器: ::
 
     openerp-server
 
@@ -320,14 +318,14 @@ the following command: ::
 .. i18n: :ref:`installation-postgresql-server`.
 ..
 
-If you do not already have a PostgreSQL server up and running, you can read
+如果你还没有启动 PostgreSQL 服务器并运行，请参阅
 :ref:`installation-postgresql-server`.
 
 .. i18n: Creating a configuration file for OpenERP Server
 .. i18n: ------------------------------------------------
 ..
 
-Creating a configuration file for OpenERP Server
+创建 OpenERP 服务器配置文件
 ------------------------------------------------
 
 .. i18n: You can start the OpenERP server with the ``-s`` option to create a configuration file
@@ -344,17 +342,16 @@ Creating a configuration file for OpenERP Server
 .. i18n:     ./openerp-server -c <config_file_path>
 ..
 
-You can start the OpenERP server with the ``-s`` option to create a configuration file
-with default options, then modify it. The configuration parameters are similar to
-the server startup parameters, so have a look at the output of ``openerp -h`` if
-you're not sure what a given parameter does::
+你能用 ``-s`` 选项启动OpenERP服务器 用默认的选项 创建一个配置文件，然后进行修改。 
+配置文件参数类似服务器的启动参数。如果你不能确定一个参数是干啥的，可以用命
+令 ``openerp -h`` 看看该参数是干啥的 ::
 
     ./openerp-server -s -c <config_file_path>
-    # now edit the config file at <config_file_path>
-    # and check the -h output for more details...
+    # 现在编辑 <config_file_path> 中的配置文件
+    # 用 -h 选项输出更多的明细说明...
     ./openerp-server -h
     (...)
-    # finally start the server with the desired config file
+    # 最后，用所需的配置文件启动服务器
     ./openerp-server -c <config_file_path>
 
 .. i18n: Default Configuration file
@@ -365,9 +362,8 @@ you're not sure what a given parameter does::
 .. i18n: This is the default value for the ``-c`` startup parameter. 
 ..
 
-Default Configuration file
+默认的配置文件
 ++++++++++++++++++++++++++
-The default OpenERP configuration file is located in ``$HOME/.openerp_serverrc``,
-that is a file named ``.openerp_serverrc`` in the home directory of the
-system user under which OpenERP runs.
-This is the default value for the ``-c`` startup parameter. 
+默认的OpenerpERP文件存放于 ``$HOME/.openerp_serverrc``,
+是运行OpenERP的系统用户的Home 目录中，其名称为 ``.openerp_serverrc`` 。
+这是 ``-c`` 启动参数的默认值。
