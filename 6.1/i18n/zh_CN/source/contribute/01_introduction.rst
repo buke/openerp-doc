@@ -1,4 +1,3 @@
-
 .. i18n: .. _contrib_intro:
 .. i18n: 
 .. i18n: Introduction
@@ -7,7 +6,7 @@
 
 .. _contrib_intro:
 
-Introduction
+绪言
 ------------
 
 .. i18n: The Contribution Guide is intended as an overview and sometimes
@@ -19,13 +18,8 @@ Introduction
 .. i18n: updated to follow the latest evolutions in the Community.
 ..
 
-The Contribution Guide is intended as an overview and sometimes
-even a reference on the organization of the OpenERP Community
-and eco-system.
-It serves as a quick start helper document for new members
-of the OpenERP Community, but should prove quite useful to
-more experienced members as well, as it is frequently
-updated to follow the latest evolutions in the Community.
+本社区指南让你对于OpenERP社区的组织以及其生态系统有一个概览。
+它既是一个给新的OpenERP社区成员的快速帮助手册，而且对于有经验的社区成员也是大有裨益的，因为它会根据社区的最新消息同步更新。
 
 .. i18n: A few examples of the important topics you will find in the Contribution
 .. i18n: Guide:
