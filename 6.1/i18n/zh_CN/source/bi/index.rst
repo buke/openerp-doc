@@ -1,4 +1,3 @@
-
 .. i18n: .. _book-bi-link:
 .. i18n: 
 .. i18n: Business Intelligence
@@ -7,14 +6,14 @@
 
 .. _book-bi-link:
 
-Business Intelligence
+BI(Business Intelligence)商业智能
 =====================
 
 .. i18n: Part 1 : Introduction
 .. i18n: ---------------------
 ..
 
-Part 1 : Introduction
+Part 1 : 简介
 ---------------------
 
 .. i18n: .. sidebar:: Experimental Application
@@ -55,7 +54,7 @@ Part 1 : Introduction
 .. i18n: ---------------------
 ..
 
-Part 2 : Architecture
+Part 2 : BI架构
 ---------------------
 
 .. i18n: .. toctree::
@@ -95,7 +94,7 @@ Part 3 : MDXAlchemy
 .. i18n: ---------------------
 ..
 
-Part 4 : Installing
+Part 4 : 安装
 ---------------------
 
 .. i18n: .. toctree::
@@ -113,7 +112,7 @@ Part 4 : Installing
 .. i18n: ----------------------
 ..
 
-Part 5 : Configuration 
+Part 5 : 配置 
 ----------------------
 
 .. i18n: .. toctree::
@@ -137,7 +136,7 @@ Part 5 : Configuration
 .. i18n: ------------------------------------------
 ..
 
-Part 6 : Using CommandLine Interface (CLI)
+Part 6 : CLI(CommandLine Interface)命令行交互工具
 ------------------------------------------
 
 .. i18n: .. toctree::
@@ -161,7 +160,7 @@ Part 6 : Using CommandLine Interface (CLI)
 .. i18n: ----------------------------
 ..
 
-Part 7 : Using Cube Browser
+Part 7 : Cube 浏览器
 ----------------------------
 
 .. i18n: .. toctree::
@@ -191,7 +190,7 @@ Part 7 : Using Cube Browser
 .. i18n: ----------------------------
 ..
 
-Part 8 : Using Cube Designer
+Part 8 : Cube 设计器
 ----------------------------
 
 .. i18n: .. toctree::
