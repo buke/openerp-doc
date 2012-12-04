@@ -2,18 +2,18 @@
 .. i18n: ===============================
 ..
 
-在Windows操作系统下安装OpenERP
-===============================
+在Windows上安装OpenERP
+======================
 
 .. i18n: In this chapter, you will see the installation of OpenERP 6.1 on a Windows system. This procedure is well-tested on Windows 7.
 ..
 
-本节会引导你在 Windows 系统下安装OpenERP 6.1。并且同样适用于Windows 7。
+在本章，你将看到OpenERP v6.0在Windows系统上的安装。这个流程在Windows 7上很好地测过。
 
 .. i18n: You have two options for the installation of OpenERP on a Windows system:
 ..
 
-在Windows下面，你可以有两种方式进行安装:
+在Windows系统上安装OpenERP有两个选择：
 
 .. i18n: * All-In-One Installation
 .. i18n: 	This is the easiest and quickest way to install OpenERP. It installs all components (OpenERP Server and PostgreSQL database) pre-configured on one computer. This installation is recommended if you do not have any major customizations.
@@ -23,10 +23,10 @@
 ..
 
 * All-In-One 安装
-	这种安装最方便快捷。会自动安装OpenERP6.1需要的(OpenERP Server 以及 PostgreSQL数据库)并做一些简单配置。如果你没有进行一些特殊的要求，推荐使用这种方式进行安装。
+	这是安装OpenERP最快捷的方式。在计算机上安装并配置所有的组件（OpenERP服务器，客户端，WEB以及PostgreSQL数据库）。如果没有很大的系统定制，推荐这种安装方式。
  
-* 各部分独立安装
-	这种方式安装,你就需要下载并安装 OpenERP 环境所需的扩展。但这种方式可以让你可以选择将 PostgreSQL 数据安装到其它服务器上，也可以很方便地让你可以在运行时进行维护安装以及源码的升级。
+* 独立安装
+	如果选择这种安装模式，运行OpenERP所需的组件需要分别下载和安装。如果计划在不同机器上安装这些组件，须选择独立安装方式。如果已经在用或者计划使用不同于完整安装版本的PostgreSQL，这个模式也比较可行。
 
 .. i18n: .. toctree::
 .. i18n:     :glob:
