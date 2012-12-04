@@ -1,4 +1,3 @@
-
 .. i18n: .. _bazaar-faq-link:
 .. i18n: 
 .. i18n: F.A.Q on Bazaar version control system
@@ -7,7 +6,7 @@
 
 .. _bazaar-faq-link:
 
-F.A.Q on Bazaar version control system
+Bazaar 版本控制的常见问题(F.A.Q)
 --------------------------------------
 
 .. i18n: .. contents::
@@ -19,7 +18,7 @@ F.A.Q on Bazaar version control system
 .. i18n: +++++++++++++++++++++++
 ..
 
-How to install bazaar ?
+Bazaar安装
 +++++++++++++++++++++++
 
 .. i18n: To install bazaar on any ubuntu distribution, you can use::
@@ -56,7 +55,7 @@ this url: http://backports.org/debian/pool/main/b/bzr/bzr_1.5-1~bpo40+1_i386.deb
 .. i18n: ++++++++++++++++++++++++++++++++++++
 ..
 
-How to create a login on launchpad ?
+Launchpad 帐号
 ++++++++++++++++++++++++++++++++++++
 
 .. i18n: Before you can commit on launchpad, you need to create a login.
@@ -83,7 +82,7 @@ This login is only needed if you intend to commit on bazaar on openerp-commiter 
 .. i18n: +++++++++++++++
 ..
 
-How to commit ?
+代码提交
 +++++++++++++++
 
 .. i18n: Once your login is created, you need to create some ssh keys and insert them on
@@ -106,7 +105,7 @@ ssh keys: https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
 .. i18n: +++++++++++++++++++
 ..
 
-How to use Bazaar ?
+Bazaar使用指导
 +++++++++++++++++++
 
 .. i18n: There are two ways to work on bzr. Either you make a checkout or create a local branch.
@@ -162,7 +161,7 @@ or ``bzr help <command>``. e.g.::
 .. i18n: +++++++++++++
 ..
 
-Some problems
+常见问题
 +++++++++++++
 
 .. i18n: Checkout does not work, I have this message error::
