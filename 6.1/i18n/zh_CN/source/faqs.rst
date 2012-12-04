@@ -1,4 +1,3 @@
-
 .. i18n: .. _faqs-link:
 .. i18n: 
 .. i18n: List of Frequently Asked Questions
@@ -7,7 +6,7 @@
 
 .. _faqs-link:
 
-List of Frequently Asked Questions
+常见问题(FAQ)
 ==================================
 
 .. i18n: .. toctree::
