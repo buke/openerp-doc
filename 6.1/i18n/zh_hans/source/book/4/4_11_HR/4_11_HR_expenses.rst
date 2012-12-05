@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: expense
 .. i18n: ..
@@ -12,7 +11,7 @@
 .. i18n: =========================
 ..
 
-Keeping Track of Expenses
+管理各种费用开支
 =========================
 
 .. i18n: Employee expenses are charges incurred on behalf of the company. The company then reimburses these
@@ -221,7 +220,7 @@ period. At the end of the period (week or month), the employee can confirm his e
 .. i18n: -------------------------------------
 ..
 
-Track the approval management process
+完善审批审核流程
 -------------------------------------
 
 .. i18n: At the end of the period, the department manager can access the list of expense forms awaiting
