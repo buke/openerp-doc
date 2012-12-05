@@ -50,7 +50,7 @@ A goal for this manual is to include the opinions, advice and help of the commun
 .. i18n: ------------------------------
 ..
 
-Continuous improvement process
+持续改进流程
 ------------------------------
 
 .. i18n: With about 200 full time developers, OpenERP is evolving every day. The usability team continuously looks for ideas to simplify OpenERP for new users.
