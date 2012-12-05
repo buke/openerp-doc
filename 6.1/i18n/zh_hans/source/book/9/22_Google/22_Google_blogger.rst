@@ -1,44 +1,43 @@
-
 .. i18n: **************
 .. i18n: Google Blogger
 .. i18n: **************
 ..
 
 **************
-Google Blogger
+Google 博客
 **************
 
 .. i18n: Name of the module:
 .. i18n: ``google_blogger``
 ..
 
-Name of the module:
+模块名:
 ``google_blogger``
 
 .. i18n: This module integrates Google Blogger and OpenERP Task Management, which exports task to blogger and one can get comments on their activity on mentioned tasks in blogger.
 ..
 
-This module integrates Google Blogger and OpenERP Task Management, which exports task to blogger and one can get comments on their activity on mentioned tasks in blogger.
+本模块将 Google博客与 OpenERP 任务管理做了集成, 以便可以将任务更新到博客中,更好地将OpenERP任务在博客中进行互动.
 
 .. i18n: A very useful feature of blogger, that is open discussion will be enhanced the development efforts. 
 ..
 
-A very useful feature of blogger, that is open discussion will be enhanced the development efforts. 
+一个非常有用的功能是, 将任务公示到博客会激发完成任务的动力.
 
 .. i18n: This feature helps manage large projects with many tasks and many users working on different task (simultaneously).  All users can share their progress for the task with others and give their comments for the same.
 ..
 
-This feature helps manage large projects with many tasks and many users working on different task (simultaneously).  All users can share their progress for the task with others and give their comments for the same.
+还可以用于简化多任务,多用户并行管理.有利于在任务进行中共同兴趣点的用户进行分享交流.
 
 .. i18n: Check the screenshots below which send OpenERP tasks to blogger.
 ..
 
-Check the screenshots below which send OpenERP tasks to blogger.
+下面的图例中演示了如何将 OpenERP 的任务 发送到 Google 博客平台.
 
 .. i18n: **Blogger**
 ..
 
-**Blogger**
+**Google 博客**
 
 .. i18n: .. figure::  images/google_blog.jpg
 .. i18n:    :align: center
@@ -50,7 +49,7 @@ Check the screenshots below which send OpenERP tasks to blogger.
 .. i18n: **Openerp Tasks**
 ..
 
-**Openerp Tasks**
+**Openerp 任务**
 
 .. i18n: .. figure::  images/tiny_blog.jpg
 .. i18n:    :align: center
