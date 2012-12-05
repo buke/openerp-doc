@@ -8,7 +8,7 @@
 .. i18n: In this chapter, you will see the installation of OpenERP 6.1 on a Windows system. This procedure is well-tested on Windows 7.
 ..
 
-在本章，你将看到OpenERP v6.0在Windows系统上的安装。这个流程在Windows 7上很好地测过。
+在本章，你将看到OpenERP v6.1在Windows系统上的安装。这个流程在Windows 7上很好地测过。
 
 .. i18n: You have two options for the installation of OpenERP on a Windows system:
 ..
