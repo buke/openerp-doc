@@ -1,4 +1,3 @@
-
 .. i18n: .. _part1-steps:
 .. i18n: 
 .. i18n: ########################
@@ -45,7 +44,7 @@ First steps with OpenERP
 .. i18n:    *Options for reading this part of the book*
 ..
 
- The first chapter, :ref:`ch-inst`, gives detailed guidance for installing it.
+ 第一部分, :ref:`ch-inst` , gives detailed guidance for installing it.
  If you are not a system administrator, or if you have already installed
  OpenERP, or if you are planning to use an online SaaS provider, then you can skip this chapter and
  move straight to the next chapter, :ref:`ch-guided`. 
