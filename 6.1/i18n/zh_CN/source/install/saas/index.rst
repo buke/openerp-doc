@@ -1,9 +1,8 @@
-
 .. i18n: Get started with the OpenERP Online Offer (SAAS)
 .. i18n: ================================================
 ..
 
-Get started with the OpenERP Online Offer (SAAS)
+使用OpenERP做SaaS(Software as a Service)服务
 ================================================
 
 .. i18n: .. toctree::
