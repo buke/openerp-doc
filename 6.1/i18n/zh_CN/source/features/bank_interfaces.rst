@@ -1,9 +1,8 @@
-
 .. i18n: Bank interfaces
 .. i18n: ===============
 ..
 
-Bank interfaces
+银行接口
 ===============
 
 .. i18n: OpenERP supports electronic banking and invoicing through different modules.
@@ -11,16 +10,15 @@ Bank interfaces
 .. i18n: and receive bank statements automatically.
 ..
 
-OpenERP supports electronic banking and invoicing through different modules.
-It allows you to communicate automatically with banks to send payment orders
-and receive bank statements automatically.
+OpenERP 通过不同的模块支持电子银行和电子发票.
+可以自动地将付款单提交给银行,银行自动的将结算单传回.
 
 .. i18n: It currently supports CODA (Belgium+Luxemburg),
 .. i18n: BVR/V11/DTA (Switzerland), Check printing (US), EDI (with SAP).
 ..
 
-It currently supports CODA (Belgium+Luxemburg),
-BVR/V11/DTA (Switzerland), Check printing (US), EDI (with SAP).
+目前支持 CODA (比利时+卢森堡),
+BVR/V11/DTA (瑞士), Check printing (美国), EDI (和 SAP).
 
 .. i18n: .. raw:: html
 .. i18n:  
@@ -35,21 +33,21 @@ BVR/V11/DTA (Switzerland), Check printing (US), EDI (with SAP).
 .. i18n: -----------
 ..
 
-Key Points:
+关键词:
 -----------
 
 .. i18n: * Payment preparation system (advances, prioritizes, treasury management),
 .. i18n: * Automatic reconciliation of entries
 ..
 
-* Payment preparation system (advances, prioritizes, treasury management),
-* Automatic reconciliation of entries
+* 付款准备系统 (预付, 优先级, 出纳),
+* 自动对账入口
 
 .. i18n: Integration Benefits:
 .. i18n: ---------------------
 ..
 
-Integration Benefits:
+整合益处:
 ---------------------
 
 .. i18n: * Fully integrated with accounting so that you never have to encode anything,
@@ -57,18 +55,18 @@ Integration Benefits:
 .. i18n: * Visibility of payments from any module: CRM, sales management, etc.
 ..
 
-* Fully integrated with accounting so that you never have to encode anything,
-* It prepares the propositions of payments according to purchases, sales, invoices, etc.
-* Visibility of payments from any module: CRM, sales management, etc.
+* 财务一体化使你不必录入任何其他东西,
+* 依据采购、销售、发票等生成付款案,
+* 支付的来源可以是CRM,销售等模块.
 
 .. i18n: Links:
 .. i18n: ------
 ..
 
-Links:
+链接:
 ------
 
 .. i18n: * Module:   account_coda, account_coda_2_1_d
 ..
 
-* Module:   account_coda, account_coda_2_1_d
+* 模块:   account_coda, account_coda_2_1_d
