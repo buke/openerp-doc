@@ -1,4 +1,3 @@
-
 .. i18n: .. _install-web-interface:
 .. i18n: 
 .. i18n: Installing Web Interface
@@ -7,27 +6,27 @@
 
 .. _install-web-interface:
 
-Installing Web Interface
+Web 服务安装
 ========================
 
 .. i18n: To install the BI Web Interface you need:
 ..
 
-To install the BI Web Interface you need:
+要安装 BI 的Web服务，需要准备下面这些来搭建运行环境:
 
 .. i18n: #. The latest version of Turbogears_
 .. i18n: 
 .. i18n: #. The BI-web Client source code
 ..
 
-#. The latest version of Turbogears_
+#. Turbogears 扩展的最新版本_
 
-#. The BI-web Client source code
+#. BI-Web服务的源代码
 
 .. i18n: To use the Web Client the server must be running.
 ..
 
-To use the Web Client the server must be running.
+ 　
 
 .. i18n: .. _Turbogears: http://www.turbogears.org/
 ..
