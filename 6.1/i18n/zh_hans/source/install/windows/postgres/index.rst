@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; PostgreSQL (Windows)
 .. i18n:    single: PostgreSQL; Installation (Windows)
@@ -18,7 +17,7 @@
 
 .. _installation-windows-postgresql-server:
 
-PostgreSQL Server Installation and Configuration
+PostgreSQL 数据库安装与配置
 ================================================
 
 .. i18n: In this chapter, you will see how to configure PostgreSQL for its use with OpenERP. The following procedure is well-tested on PostgreSQL v9.0.
@@ -30,7 +29,7 @@ In this chapter, you will see how to configure PostgreSQL for its use with OpenE
 .. i18n: ----------------------------
 ..
 
-Installing PostgreSQL Server
+PostgreSQL 数据库安装
 ----------------------------
 
 .. i18n: You can download the Windows installer from
@@ -62,7 +61,7 @@ Depending on your need, choose either the *One Click Installer* or the
 .. i18n: -----------------------
 ..
 
-Setup a PostgreSQL User
+配置PostgreSQL角色用户
 -----------------------
 
 .. i18n: When the required software installations are complete, you must create a
@@ -76,7 +75,7 @@ PostgreSQL user. OpenERP will use this user to connect to PostgreSQL.
 .. i18n: ++++++++++
 ..
 
-Add a User
+新增用户
 ++++++++++
 
 .. i18n: Start a Windows console (run the ``cmd`` command in the *Search programs and files* text box of the *Start* menu).
