@@ -408,7 +408,7 @@ process and fall into oblivion - use wisely.
 
 .. _translations_code:
 
-Translating in the source code
+源代码中的翻译
 ++++++++++++++++++++++++++++++
 
 .. i18n: As an alternative to Launchpad, translations may also be done in directly in the
@@ -490,7 +490,7 @@ We recommend you follow these steps to ensure the best result with this techniqu
 
 .. _translation_files_structure:
 
-Translation files structure
+翻译文件目录结构
 +++++++++++++++++++++++++++
 
 .. i18n: .. versionchanged:: 5.0 and 6.0
