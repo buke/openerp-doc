@@ -1,34 +1,33 @@
-
 .. i18n: ***************
 .. i18n: Google Calendar
 .. i18n: ***************
 ..
 
 ***************
-Google Calendar
+Google 日历
 ***************
 
 .. i18n: Name of the module:
 .. i18n: ``google_calendar``
 ..
 
-Name of the module:
+模块名:
 ``google_calendar``
 
 .. i18n: This module synchronizes Google Calender repeating and non-repeating events with OpenERP events. So, now get updates of calendar schedules from Google calendar in OpenERP and vice versa. A user can change the event schedule from anywhere, through his Google calendar which updates Events in OpenERP.
 ..
 
-This module synchronizes Google Calender repeating and non-repeating events with OpenERP events. So, now get updates of calendar schedules from Google calendar in OpenERP and vice versa. A user can change the event schedule from anywhere, through his Google calendar which updates Events in OpenERP.
+本模块可以同步 Google日期中的事件同 OpenERP 事件. 用户可以在任何地点从Google日历上更新 OpenERP事件 或者 从OpenERP 事件中 更新 Google日历项.
 
 .. i18n: You can find the menu here: Event Organization/ Google Import Export/ Synchronize Events
 ..
 
-You can find the menu here: Event Organization/ Google Import Export/ Synchronize Events
+菜单项: Event Organization/ Google Import Export/ Synchronize Events
 
 .. i18n: **Google Calendar Event**
 ..
 
-**Google Calendar Event**
+**Google 日历项**
 
 .. i18n: .. figure::  images/google_event.jpg
 .. i18n:    :align: center
@@ -40,7 +39,7 @@ You can find the menu here: Event Organization/ Google Import Export/ Synchroniz
 .. i18n: **OpenERP Event**
 ..
 
-**OpenERP Event**
+**OpenERP 事件**
 
 .. i18n: .. figure::  images/tiny_event.jpg
 .. i18n:    :align: center
