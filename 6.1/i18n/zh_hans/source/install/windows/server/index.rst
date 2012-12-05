@@ -289,7 +289,7 @@ You can initialize the database with OpenERP Server to:
 .. i18n: ++++++++++++++++++++++++++
 ..
 
-With modules and demo data
+指定安装模块及示例数据
 ++++++++++++++++++++++++++
 
 .. i18n: If you execute the sample command above, you will get a database with only base modules installed and loaded with demo data.
@@ -328,7 +328,7 @@ To install more than one module, specify a comma-separated module list at the co
 .. i18n: ++++++++++++++++++++++++++++++++++++++++
 ..
 
-Without demo data (or new clean version)
+不带示例数据
 ++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Execute the command with an option excluding the demo data: ::
