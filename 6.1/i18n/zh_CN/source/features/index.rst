@@ -21,7 +21,7 @@
 .. i18n: +++++++++++++++++++++
 ..
 
-Enterprise management
+企业管理
 +++++++++++++++++++++
 
 .. i18n: .. toctree::
@@ -75,7 +75,7 @@ Logistic
 .. i18n: ++++++++++++++++++++++
 ..
 
-Accounting and Finance
+财务会计
 ++++++++++++++++++++++
 
 .. i18n: .. toctree::
@@ -103,7 +103,7 @@ Accounting and Finance
 .. i18n: ++++++++++++++++
 ..
 
-Human Resources
+人力资源
 ++++++++++++++++
 
 .. i18n: .. toctree::
@@ -131,7 +131,7 @@ Human Resources
 .. i18n: +++++++++
 ..
 
-CRM & SRM
+CRM(客户关系管理) & SRM(供应商关系管理)
 +++++++++
 
 .. i18n: .. toctree::
@@ -157,7 +157,7 @@ CRM & SRM
 .. i18n: ++++++++++++++++++
 ..
 
-Project Management
+项目管理
 ++++++++++++++++++
 
 .. i18n: .. toctree::
