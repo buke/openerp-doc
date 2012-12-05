@@ -41,7 +41,7 @@
 .. i18n: =================================================
 ..
 
-Open Source software at the Service of Management
+企业管理之开源软件
 =================================================
 
 .. i18n: Risks and integration costs are important barriers to all the advantages you gain from such systems.
@@ -135,7 +135,7 @@ And OpenERP offers great performance in all these areas!
 .. i18n: ====================
 ..
 
-The OpenERP Solution
+OpenERP 解决方案
 ====================
 
 .. i18n: Because of its modularity, collaborative developments in OpenERP have been cleanly integrated,
@@ -221,7 +221,7 @@ factory on some remote industrial estate.
 .. i18n: --------------
 ..
 
-Why this book?
+本书的意义？
 --------------
 
 .. i18n: Many books set out to tell readers about the management of enterprise, and equally many aim to
@@ -257,8 +257,8 @@ an advanced management system into place.
 .. i18n: --------------
 ..
 
-Who is it for?
---------------
+谁是本书的读者？
+-----------------
 
 .. i18n: Written by two CEOs who have been successful with new technologies, this book is aimed at directors
 .. i18n: and managers who have an ambition to improve the performance of their whole company's management
@@ -284,7 +284,7 @@ analyzed and involved in change. The same principles also apply to larger compan
 .. i18n: ======================
 ..
 
-Structure of this book
+本书结构
 ======================
 
 .. i18n: Part One, :ref:`part1-steps`, starts with the installation of OpenERP. If you have already installed OpenERP you
@@ -498,7 +498,7 @@ Finally Part Eight, :ref:`part-config`, structured in two chapters, explains fir
 .. i18n: ==========
 ..
 
-Dedication
+献辞
 ==========
 
 .. i18n:         *From Geoff Gardiner*
