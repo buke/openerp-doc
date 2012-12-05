@@ -38,4 +38,4 @@ It gives you a quick access to your application through internet and a total sec
 .. i18n: You can get the manual for OpenERP here: :ref:`OpenERP Tutorial <books-link>`
 ..
 
-You can get the manual for OpenERP here: :ref:`OpenERP Tutorial <books-link>`
+你可以使用在线手册: :ref:`OpenERP 用户手册 <books-link>`
