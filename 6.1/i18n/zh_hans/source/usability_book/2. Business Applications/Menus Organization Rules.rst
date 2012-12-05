@@ -1,11 +1,10 @@
-
 .. i18n: ========================
 .. i18n: Menus Organization Rules
 .. i18n: ========================
 ..
 
 ========================
-Menus Organization Rules
+菜单组织规则
 ========================
 
 .. i18n: All menus have to be suited to one business application. Each user must see all menus linked to their job. They should perform their workload in one menu only. This is the goal of all the applications. The user should be able to navigate through all his workflow from a single menu to make his work easier, faster and user friendly.
