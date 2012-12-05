@@ -37,13 +37,13 @@
     * 社区工具的使用说明 ;
     * 社区角色和团队的说明 ;
     * 目前社区推进的流程 ;
-    * 一组关于各个主要贡献区的增量说明信息。
+    * 一组关于各个主要贡献区的增量说明。
 
 .. i18n: Of course this documentation is not frozen, and one of the first areas
 .. i18n: everyone is invited to contribute to is the documentation itself!
 ..
 
-当然此文档并不是停止更新的，相反更新此文档是大家贡献的第一步！
+当然此文档并不是已经停止更新，相反更新此文档应该是大家做贡献的第一步！
 
 .. i18n: In order to build the best enterprise management software ever created,
 .. i18n: we need to foster a perfect collaboration between all OpenERP actors.
@@ -54,13 +54,9 @@
 .. i18n: OpenERP's development and business model.
 ..
 
-In order to build the best enterprise management software ever created,
-we need to foster a perfect collaboration between all OpenERP actors.
-By joining the contributions and feedback from the Community, with
-the market knowledge and experience of Partners and the quality control
-and vision of the Publisher, we get the benefits of all worlds and
-create a great product for the Customers. This is the recipe of
-OpenERP's development and business model.
+为了打造有史以来创造最好的企业管理软件，我们需要社区成员的通力合作。
+随着各个领域的市场专家以及质量流程控制的高手加入到贡献者的行列并不断作出反馈，
+我们将一起为客户创造最有价值的产品。这就是OpenERP发展方向和业务模式。
 
 .. i18n: .. _community_platform:
 .. i18n: 
