@@ -6,7 +6,7 @@
 
 .. _contrib_intro:
 
-序
+介绍
 ------------
 
 .. i18n: The Contribution Guide is intended as an overview and sometimes
