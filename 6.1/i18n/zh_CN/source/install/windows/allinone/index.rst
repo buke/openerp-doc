@@ -126,13 +126,13 @@ OpenERP完整（All-In-One）安装
 .. i18n: ---------------------------------
 ..
 
-Installing the OpenERP All-In-One
+安装OpenERP完整包（All-In-One）
 ---------------------------------
 
 .. i18n: To install OpenERP and its database, you must be signed in as an Administrator on your PC. 
 ..
 
-To install OpenERP and its database, you must be signed in as an Administrator on your PC. 
+要安装OpenERP及其数据库，你必须以管理员身份登录你的PC。 
 
 .. i18n: If you have previously tried to install the All-In-One version of OpenERP, you will have to uninstall
 .. i18n: that first, because various elements of a previous installation could interfere with your new installation.
@@ -140,17 +140,13 @@ To install OpenERP and its database, you must be signed in as an Administrator o
 .. i18n: you are likely to have to restart your PC to finish removing all traces of them.
 ..
 
-If you have previously tried to install the All-In-One version of OpenERP, you will have to uninstall
-that first, because various elements of a previous installation could interfere with your new installation.
-Make sure that all Tiny ERP, OpenERP and PostgreSQL applications are removed:
-you are likely to have to restart your PC to finish removing all traces of them.
+如果你之前曾经安装过OpenERP完整版，你先需要卸载掉它，因为之前安装的各种元素可能会与新的安装冲突。确保所有Tiny ERP，OpenERP以及PostgreSQL应用已经移除：你极可能需要重启你的PC完成所有残余的移除。
 
 .. i18n: Double-click the installer file to install OpenERP and accept the default parameters on each dialog box as you go.
 .. i18n: The All-In-One installer is the simplest mode of installation and has the following steps:
 ..
 
-Double-click the installer file to install OpenERP and accept the default parameters on each dialog box as you go.
-The All-In-One installer is the simplest mode of installation and has the following steps:
+双击安装文件安装OpenERP并接受接下来每个对话框的默认参数。完整安装包是最简单的安装模式，有如下步骤：
 
 .. i18n: * 1. Select installation language
 .. i18n: 	The default is ``English``. The other option is ``French``.
@@ -159,11 +155,11 @@ The All-In-One installer is the simplest mode of installation and has the follow
 .. i18n: 	Carefully follow the recommendations given in this step.
 ..
 
-* 1. Select installation language
-	The default is ``English``. The other option is ``French``.
+* 1. 选择安装语言
+	默认语言是英文；其他选项有法语。
 
-* 2. Welcome message
-	Carefully follow the recommendations given in this step.
+* 2. 欢迎信息
+	小心仔细遵循这步给出的推荐。
 
 .. i18n:   .. figure:: ../../img/a2_welcome.png
 .. i18n:         :scale: 50
@@ -176,7 +172,7 @@ The All-In-One installer is the simplest mode of installation and has the follow
         :scale: 50
         :align: center
 
-        *Welcome to OpenERP*
+        *欢迎安装OpenERP*
 
 .. i18n: * 3. Licence Agreement
 .. i18n: 	It is important that you accept the GNU General Public License to proceed with installation.
@@ -215,35 +211,35 @@ The All-In-One installer is the simplest mode of installation and has the follow
 .. i18n:      *End of setup wizard*
 ..
 
-* 3. Licence Agreement
-	It is important that you accept the GNU General Public License to proceed with installation.
+* 3. 许可证协议
+	你要接受GNU公共许可才能继续安装，这很重要。
 
-* 4. Select components to install
-	You can proceed with the default install type ``All In One``, which will install the OpenERP Server, GTK Desktop Client and PostgreSQL Database (version 8.3, at the time of writing). Or, you may customize your installation by selecting only the components you require.
+* 4. 选择安装组件
+	你可以以默认安装方式，完整安装OpERP服务器，GTK桌面客户端，WEB客户端以及PostgreSQL数据库（撰写此书的时候版本是8.3）或者你可以定制安装你需要的组件。
   
   .. figure:: ../../img/a4_components.png
         :scale: 50
         :align: center
 
-        *Customize component installation*
+        *组件定制安装*
   
-* 5. Configure PostgreSQL connection
-	The installer will suggest default parameters to complete your PostgreSQL connection configuration. You may accept the defaults, or change it according to your requirement.
+* 5. 配置PostgreSQL链接
+	安装包将建议默认参数，完成你的PostgreSQL链接配置。你可以接受默认配置或者按照你的需要变更。
 
   .. figure:: ../../img/a6_config_postgres.png
         :scale: 50
         :align: center
 
-        *PostgreSQL configuration*
+        *PostgreSQL 配置*
 
-* 6. Select folder for installation
-	By default, OpenERP is installed in ``C:\Program Files\OpenERP 6.0``. To install in a different folder, browse for a different location(folder) in this step.
+* 6. 选择安装目录
+	默认情况下，OpenERP安装在 ''C:\ProgramFiles\OpenERP 6.0''。要安装到不同的目录，在这步浏览不同的位置。
 
-* 7. Install
-	The automatic installation of OpenERP begins and you can view its progress.
+* 7. 安装
+	OpenERP自动安装开始，你能看到安装进度。
 
-* 8. Finish
-	On successful installation of OpenERP, you will get an appropriate confirmation. You can click `Finish` to close the setup wizard.
+* 8. 完成
+	成功安装OpenERP，你会得到一个适当的确认。你可以点击完成结束安装向导。
 
   .. figure:: ../../img/a9_finish.png
      :scale: 50
@@ -255,7 +251,7 @@ The All-In-One installer is the simplest mode of installation and has the follow
 .. i18n: ---------------------
 ..
 
-Connecting to OpenERP
+连接到 OpenERP
 ---------------------
 
 .. i18n: You do not need to manually start the OpenERP Server, because it is installed as a Windows service and automatically started.
@@ -263,15 +259,11 @@ Connecting to OpenERP
 .. i18n: preferred browser to web interface, by default available on ``http://localhost:8069``
 ..
 
-You do not need to manually start the OpenERP Server, because it is installed as a Windows service and automatically started.
-You may however access it from the shortcuts created in the `Start` menu for `OpenERP`, or simply by connecting with your
-preferred browser to web interface, by default available on ``http://localhost:8069``
+你不需要手工启动OpenERP服务器，OpenERP服务器安装为Windows服务，会自动启动。不过，你还可以开始菜单的OpenERP快捷方式进入，或者用你喜欢的浏览器连接web接口，默认情况下接口在``http://localhost:8069``。
 
 .. i18n: Use the database list at the top-right corner to choose a database to connect to.
 .. i18n: As this would be the first time you are using OpenERP since its installation, your database list will be empty.
 .. i18n: You can create a new database through the ``Manage databases`` link on the login page.
 ..
 
-Use the database list at the top-right corner to choose a database to connect to.
-As this would be the first time you are using OpenERP since its installation, your database list will be empty.
-You can create a new database through the ``Manage databases`` link on the login page.
+用右上角的数据库列表选择要连接的数据库。如果你是安装后第一次使用的话，你的数据库列表是空的。你可以通过登录界面的''管理数据库''链接创建新的数据库。
