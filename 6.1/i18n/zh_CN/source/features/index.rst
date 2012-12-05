@@ -1,4 +1,3 @@
-
 .. i18n: .. _features-link:
 .. i18n: 
 .. i18n: Features
@@ -7,7 +6,7 @@
 
 .. _features-link:
 
-Features
+功能
 ========
 
 .. i18n: You will find here a list of the most important features of OpenERP and
@@ -15,9 +14,8 @@ Features
 .. i18n: of some of them.
 ..
 
-You will find here a list of the most important features of OpenERP and
-Open Object. More than 350 modules are available, so this is just a summary
-of some of them.
+打开对象模块，你会在这里发现OpenERP重要的功能列表
+超过350个可用的模块，下面仅仅总结了其中的一些。
 
 .. i18n: Enterprise management
 .. i18n: +++++++++++++++++++++
