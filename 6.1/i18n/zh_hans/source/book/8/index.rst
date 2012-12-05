@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-config:
 .. i18n: 
 .. i18n: ########################################
@@ -9,7 +8,7 @@
 .. _part-config:
 
 ########################################
-System Administration and Implementation
+系统管理与实施
 ########################################
 
 .. i18n:  After you have tested and evaluated OpenERP, you will need to configure it to match the software to your company's needs.
