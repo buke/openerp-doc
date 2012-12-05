@@ -266,4 +266,4 @@ OpenERP完整（All-In-One）安装
 .. i18n: You can create a new database through the ``Manage databases`` link on the login page.
 ..
 
-用右上角的数据库列表选择要连接的数据库。如果你是安装后第一次使用的话，你的数据库列表是空的。你可以通过登录界面的''管理数据库''链接创建新的数据库。
+用右上角的数据库列表选择要连接的数据库。如果你是安装后第一次使用的话，你的数据库列表是空的。你可以通过登录界面的 ''管理数据库'' 链接创建新的数据库。
