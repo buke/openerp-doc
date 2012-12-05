@@ -1,4 +1,3 @@
-
 .. i18n: Views and Events
 .. i18n: ================
 ..
@@ -16,27 +15,27 @@ Introduction to Views
 .. i18n: As all program data is stored in objects, as explained in the Objects section, how are these objects exposed to the user ? We will try to answer this question in this section.
 ..
 
-As all program data is stored in objects, as explained in the Objects section, how are these objects exposed to the user ? We will try to answer this question in this section.
+因为程序中所有数据存储在对象中，这个在对象的部分已经解释过了，这些对象如何显示给用户的呢？我们将在这个部分解释这个问题。
 
 .. i18n: First of all, let's note that every resource type uses its own interface. For example, the screen to modify a partner's data is not the same as the one to modify an invoice.
 ..
 
-First of all, let's note that every resource type uses its own interface. For example, the screen to modify a partner's data is not the same as the one to modify an invoice.
+首先注意每个资源类型有自己的界面。例如，修改一个合作伙伴数据的显示不同于修改invoice。
 
 .. i18n: Then, you should know that the OpenERP user interface is dynamic, which means it is not described "statically" by some code, but is dynamically built from XML descriptions of the client screens.
 ..
 
-Then, you should know that the OpenERP user interface is dynamic, which means it is not described "statically" by some code, but is dynamically built from XML descriptions of the client screens.
+然后，你应该知道Openerp用户界面是动态变化的，这意味着它不是有“静态”代码来描述，而是由XML动态描述用户界面。
 
 .. i18n: From now on, we will call these screen descriptions views.
 ..
 
-From now on, we will call these screen descriptions views.
+从现在起，我们称这些为screen descriptions views。
 
 .. i18n: A notable characteristic of these views is that they can be edited at any time (even during program execution). After modifying a displayed view you simply need to close the tab corresponding to that 'view' and re-open it for the changes to appear. 
 ..
 
-A notable characteristic of these views is that they can be edited at any time (even during program execution). After modifying a displayed view you simply need to close the tab corresponding to that 'view' and re-open it for the changes to appear. 
+这些视图的显著特征是可以在任何时刻被修改（即使是在程序执行时刻）。如果对一个已经显示的视图进行修改后，你只需要关闭这个视图的标签，并且再打开，修改后的视图就会显示。
 
 .. i18n: Views principles
 .. i18n: ++++++++++++++++
@@ -48,12 +47,12 @@ Views principles
 .. i18n: Views describe how each object (type of resource) is displayed. More precisely, for each object, we can define one (or several) view(s) to describe which fields should be drawn and how.
 ..
 
-Views describe how each object (type of resource) is displayed. More precisely, for each object, we can define one (or several) view(s) to describe which fields should be drawn and how.
+视图描述了每个对象是如何显示的。更准确的说，对每个对象，我们可以定义一个或几个视图来描述哪个字段要显示和如何显示。
 
 .. i18n: There are two types of views:
 ..
 
-There are two types of views:
+视图有两种:
 
 .. i18n:    #. form views
 .. i18n:    #. tree views 
@@ -77,16 +76,16 @@ Form views
 .. i18n: The field disposition in a form view always follows the same principle. Fields are distributed on the screen following the rules below:
 ..
 
-The field disposition in a form view always follows the same principle. Fields are distributed on the screen following the rules below:
+在表单视图中，字段配置一致遵守相同的准则。显示的字段遵守以下的准则：
 
 .. i18n:     * By default, each field is preceded by a label, with its name.
 .. i18n:     * Fields are placed on the screen from left to right, and from top to bottom, according to the order in which they are declared in the view.
 .. i18n:     * Every screen is divided into 4 columns, each column being able to contain either a label, or an "edition" field. As every edition field is preceded (by default) by a label with its name, there will be two fields (and their respective labels) on each line of the screen. The green and red zones on the screen-shot below illustrate those 4 columns. They designate respectively the labels and their corresponding fields. 
 ..
 
-    * By default, each field is preceded by a label, with its name.
-    * Fields are placed on the screen from left to right, and from top to bottom, according to the order in which they are declared in the view.
-    * Every screen is divided into 4 columns, each column being able to contain either a label, or an "edition" field. As every edition field is preceded (by default) by a label with its name, there will be two fields (and their respective labels) on each line of the screen. The green and red zones on the screen-shot below illustrate those 4 columns. They designate respectively the labels and their corresponding fields. 
+    * 默认情况下，每个字段由label开始，以字段名称代表该字段。
+    * 字段在屏幕上按照从左到右，从上到下的顺序显示，是依照他们在视图中的显示顺序。
+    * 每个屏幕分成4列，每一列要么是一个label，要么是“edition”字段。每个edition字段由label开始（默认情况下），以字段名称代表该字段，在屏幕的每一行将有两个字段。下面的截图中，绿色和红色的区域正好举例说明了这4列，他们分别代表着labels和他们相关的字段。
 
 .. i18n: .. figure::  images/sale_order.png
 .. i18n:    :scale: 50
@@ -100,12 +99,12 @@ The field disposition in a form view always follows the same principle. Fields a
 .. i18n: Views also support more advanced placement options:
 ..
 
-Views also support more advanced placement options:
+视图支持更多的高级选项：
 
 .. i18n:     * A view field can use several columns. For example, on the screen-shot below, the zone in the blue frame is, in fact, the only field of a "one to many". We will come back later on this note, but let's note that it uses the whole width of the screen and not only one column. 
 ..
 
-    * A view field can use several columns. For example, on the screen-shot below, the zone in the blue frame is, in fact, the only field of a "one to many". We will come back later on this note, but let's note that it uses the whole width of the screen and not only one column. 
+    * 一个视图字段可以有多列。例如，下面的截图中，蓝框的区域事实上是一个“one to many”的字段。我们注意到该字段是整个屏幕的宽度，而不是一列。
 
 .. i18n:       .. figure::  images/sale_order_sale_order_lines.png
 .. i18n:         :scale: 50
@@ -118,12 +117,12 @@ Views also support more advanced placement options:
         :scale: 50
         :align: center
 
-    * We can also make the opposite operation: take a columns group and divide it in as many columns as desired. The surrounded green zones of the screen above are good examples. Precisely, the green framework up and on the right side takes the place of two columns, but contains 4 columns. 
+    * 我们同样可以做相反的操作：将一列分成任意的多列。上图中的绿框区域正好就说明这个情况。更准确的说，绿框看着是两列，其实包括着4列。
 
 .. i18n: As we can see below in the purple zone of the screen, there is also a way to distribute the fields of an object on different tabs.
 ..
 
-As we can see below in the purple zone of the screen, there is also a way to distribute the fields of an object on different tabs.
+下面截图中蓝色的区域，是将对象的字段分成不同的标签。
 
 .. i18n: .. figure::  images/sale_order_notebook.png
 .. i18n:    :scale: 50
@@ -144,7 +143,7 @@ Tree views
 .. i18n: These views are used when we work in list mode (in order to visualise several resources at once) and in the search screen. These views are simpler than the form views and thus have less options.
 ..
 
-These views are used when we work in list mode (in order to visualise several resources at once) and in the search screen. These views are simpler than the form views and thus have less options.
+当我们工作在一个list样式下（想要同时看到很多资源）和查询界面时，这些视图就会用到。这些视图比form views简单，有较少的选项。
 
 .. i18n: .. figure::  images/tree_view.png
 .. i18n:    :scale: 50
@@ -165,7 +164,7 @@ Graph views
 .. i18n: A graph is a new mode of view for all views of type form. If, for example, a sale order line must be visible as list or as graph, define it like this in the action that opens this sale order line. Do not set the view mode as "tree,form,graph" or "form,graph" - it must be "graph,tree" to show the graph first or "tree,graph" to show the list first. (This view mode is extra to your "form,tree" view and should have a separate menu item):
 ..
 
-A graph is a new mode of view for all views of type form. If, for example, a sale order line must be visible as list or as graph, define it like this in the action that opens this sale order line. Do not set the view mode as "tree,form,graph" or "form,graph" - it must be "graph,tree" to show the graph first or "tree,graph" to show the list first. (This view mode is extra to your "form,tree" view and should have a separate menu item):
+graph对所有的表单视图来说是一种新形式的视图。例如，如果一个销售订单线作为list或graph必须是可见的，将它定义为打开这个销售订单线的动作。不要将视图形式设置为“tree，form，graph”或“form，graph”，必须设置为“graph，tree”来首先显示graph或者设置为“tree，graph”来首先显示list。（这个视图形式是你的“form，tree”视图的额外形式并且应该有个分开的菜单选项）。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -199,7 +198,7 @@ view_mode::
 .. i18n: Then, the user will be able to switch from one view to the other. Unlike forms and trees, OpenERP is not able to automatically create a view on demand for the graph type. So, you must define a view for this graph:
 ..
 
-Then, the user will be able to switch from one view to the other. Unlike forms and trees, OpenERP is not able to automatically create a view on demand for the graph type. So, you must define a view for this graph:
+接下来，用户可以从一个视图转换到另一个视图。不像表单和列表视图一样，OpenERP不能自动按需创建graph视图，所以你必须自己定义graph视图：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -238,7 +237,7 @@ The graph view
 .. i18n: A view of type graph is just a list of fields for the graph.
 ..
 
-A view of type graph is just a list of fields for the graph.
+graph类型的视图只是graph的字段列表。
 
 .. i18n: Graph tag
 .. i18n: ++++++++++
@@ -250,12 +249,12 @@ Graph tag
 .. i18n: The default type of the graph is a pie chart - to change it to a barchart change **<graph string="Sales Order Lines">** to **<graph string="Sales Order Lines" type="bar">** You also may change the orientation.
 ..
 
-The default type of the graph is a pie chart - to change it to a barchart change **<graph string="Sales Order Lines">** to **<graph string="Sales Order Lines" type="bar">** You also may change the orientation.
+graph的默认类型是圆形分格统计图表（pie chart），要将它转换成条形图（barchart），就需要将<graph string=”Sales Order Lines”> 转换成 <graph string=”Sales Order Lines” type=”bar”>，你也可以改变方向。
 
 .. i18n: :Example : 
 ..
 
-:Example : 
+:例如 : 
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -276,14 +275,14 @@ Field tag
 .. i18n: The first field is the X axis. The second one is the Y axis and the optional third one is the Z axis for 3 dimensional graphs. You can apply a few attributes to each field/axis:
 ..
 
-The first field is the X axis. The second one is the Y axis and the optional third one is the Z axis for 3 dimensional graphs. You can apply a few attributes to each field/axis:
+第一个字段是x轴，第二个是y轴，第三个是z轴，这个是可选择的三维图字段。你可以运用一些属性到每个field/axis。
 
 .. i18n:     * **group**: if set to true, the client will group all item of the same value for this field. For every other field, it will apply an operator
 .. i18n:     * **operator**: the operator to apply if another field is grouped. By default it is '+'. Allowed values are:
 ..
 
-    * **group**: if set to true, the client will group all item of the same value for this field. For every other field, it will apply an operator
-    * **operator**: the operator to apply if another field is grouped. By default it is '+'. Allowed values are:
+    * **group**: 如果设置为true，客户端会组合这个字段相同值的所有项。对于相互的字段，它会应用operator。
+    * **operator**: operator的应用是由另一个字段决定的，默认是“+”，允许的值是：
 
 .. i18n:           + +: addition
 .. i18n:           + \*: multiply
@@ -306,14 +305,14 @@ The first field is the X axis. The second one is the Y axis and the optional thi
 .. i18n: The easiest method to compute real statistics on objects is:
 ..
 
-The easiest method to compute real statistics on objects is:
+定义真正的对象数据统计：
 
 .. i18n:    1. Define a statistic object which is a postgresql view
 .. i18n:    2. Create a tree view and a graph view on this object 
 ..
 
-   1. Define a statistic object which is a postgresql view
-   2. Create a tree view and a graph view on this object 
+   1. 定义一个统计对象，它是PostgreSQL视图
+   2. 在这个对象上创建一个tree view和graph view
 
 .. i18n: You can get an example in all modules of the form: report\_.... Example: report_crm. 
 ..
@@ -332,9 +331,7 @@ Search views
 .. i18n: except that the view type and root element change to ``search`` instead of ``form``.
 ..
 
-Search views are a new feature of OpenERP supported as of version 6.0.
-It creates a customized search panel, and is declared quite similarly to a form view,
-except that the view type and root element change to ``search`` instead of ``form``.
+search views是Openerp 6.0版本支持的一个新特性。它创建一个自定义的查找面板，它的显示和表单视图非常相似，除了将视图的类型和根元素由form改为search。
 
 .. i18n: .. image:: images/search.png
 .. i18n:    :scale: 50
@@ -348,7 +345,7 @@ except that the view type and root element change to ``search`` instead of ``for
 .. i18n: Following is the list of new elements and features supported in search views.
 ..
 
-Following is the list of new elements and features supported in search views.
+下面是search视图中要用到的新的元素和特性列表。
 
 .. i18n: Group tag
 .. i18n: +++++++++
@@ -361,8 +358,7 @@ Group tag
 .. i18n: in a row (no automatic line wrapping), and only use the following attributes:
 ..
 
-Unlike form group elements, search view groups support unlimited number of widgets (fields or filters)
-in a row (no automatic line wrapping), and only use the following attributes:
+不像表单元素组，search view groups支持一行中不限数量的widget（fields或filters），并且只是使用下面的属性：
 
 .. i18n:     + ``expand``: turns on the expander icon on the group (1 for expanded by default, 0 for collapsed)
 .. i18n:     + ``string``: label for the group
@@ -393,7 +389,7 @@ in a row (no automatic line wrapping), and only use the following attributes:
 .. i18n: In the screenshot above the green area is an expandable group.
 ..
 
-In the screenshot above the green area is an expandable group.
+以上的截图是个扩展group。
 
 .. i18n: Filter tag
 .. i18n: +++++++++++
@@ -405,17 +401,13 @@ In the screenshot above the green area is an expandable group.
 
 Filter tag
 +++++++++++
-Filters are displayed as a toggle button on search panel 
-Filter elements can add new values in the current domain or context of the search view.
-Filters can be added as a child element of field too, to indicate that they apply specifically
-to that field (in this case the button's icon will smaller)
+Filters在查找面板作为一个触发按钮方式显示，可以添加新的过滤元素在当前域或是查询视图的上下文。Filters可以作为一个字段子元素添加进去，来表示他们专门用于该字段（这种情况下button按钮会变小些）。
 
 .. i18n: In the picture above the red area contains filters at the top of the form while
 .. i18n: the blue area highlights a field and its child filter.
 ..
 
-In the picture above the red area contains filters at the top of the form while
-the blue area highlights a field and its child filter.
+在图中表单上部红色区域包含着filters，而蓝色区域是一个字段，并且是child filter。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -454,10 +446,7 @@ Group By
 .. i18n: fields currently displayed in the view are replaced by the sum of the values in that group.
 ..
 
-Above filters groups records sharing the same ``project_id`` value. Groups are loaded
-lazily, so the inner records are only loaded when the group is expanded.
-The group header lines contain the common values for all records in that group, and all numeric
-fields currently displayed in the view are replaced by the sum of the values in that group.
+以上的filters groups records都用相同的project_id值。groups懒加载，所以，inner records只在group扩展时加载。group header lines包含这个group中所有记录的共同值，并且所有数字型的字段一般先是在视图中，来代替值的和。
 
 .. i18n: It is also possible to group on multiple values by specifying a list of fields instead of a single string.
 .. i18n: In this case nested groups will be displayed::
@@ -465,8 +454,7 @@ fields currently displayed in the view are replaced by the sum of the values in 
 .. i18n:     <filter string="Project" icon="terp-project" domain="[]" context="{'group_by': ['project_id', 'user_id'] }"/>
 ..
 
-It is also possible to group on multiple values by specifying a list of fields instead of a single string.
-In this case nested groups will be displayed::
+将指定的a list of fields的很多值分组来代替a single string是可能的。这种情况下，嵌套分组就会显示出来::
 
     <filter string="Project" icon="terp-project" domain="[]" context="{'group_by': ['project_id', 'user_id'] }"/>
 
@@ -482,23 +470,19 @@ Fields
 .. i18n: different than form view's fields:
 ..
 
-Field elements in search views are used to get user-provided values
-for searches. As a result, as for group elements, they are quite
-different than form view's fields:
+search view里面的字段元素用来为搜索得到user-provided值。其结果是，对于组元素（group elements），它们和表单视图的字段大不相同：
 
 .. i18n: * a search field can contain filters, which generally indicate that
 .. i18n:   both field and filter manage the same field and are related.
 ..
 
-* a search field can contain filters, which generally indicate that
-  both field and filter manage the same field and are related.
+* 一个搜索字段可以包含过滤（filters），通常表明字段和过滤管理相同的字段并且二者相关。
 
 .. i18n:   Those inner filters are rendered as smaller buttons, right next to
 .. i18n:   the field, and *must not* have a ``string`` attribute.
 ..
 
-  Those inner filters are rendered as smaller buttons, right next to
-  the field, and *must not* have a ``string`` attribute.
+  那些内部的过滤器渲染为小buttons，紧挨着字段，肯定没有string属性。
 
 .. i18n: * a search field really builds a domain composed of ``[(field_name,
 .. i18n:   operator, field_value)]``. This domain can be overridden in two
@@ -515,9 +499,7 @@ different than form view's fields:
 .. i18n:   wider context (as with a ``filter`` element).
 ..
 
-* a search field really builds a domain composed of ``[(field_name,
-  operator, field_value)]``. This domain can be overridden in two
-  ways:
+  * 一个search字段确实构造了一个由[(field_name, operator, field_value)]构成的domain。这个domain在两种情况下无效：
 
   * ``@operator`` replaces the default operator for the field (which
     depends on its type)
@@ -525,16 +507,13 @@ different than form view's fields:
   * ``@filter_domain`` lets you provide a fully custom domain, which
     will replace the default domain creation
 
-* a search field does not create a context by default, but you can
-  provide an ``@context`` which will be evaluated and merged into the
-  wider context (as with a ``filter`` element).
+* 一个search字段不能默认创建上下文，但是你可以提供一个context，来评估和合并进wider context。
 
 .. i18n: To get the value of the field in your ``@context`` or
 .. i18n: ``@filter_domain``, you can use the variable ``self``:
 ..
 
-To get the value of the field in your ``@context`` or
-``@filter_domain``, you can use the variable ``self``:
+为了在你的context或filter_domain中获得字段值，你可以使用可变的self：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -574,13 +553,12 @@ Range fields (date, datetime, time)
 .. i18n: instead of just one.
 ..
 
-The range fields are composed of two input widgets (from and to)
-instead of just one.
+range字段由两个input widgets组成，而不是之前的一个。
 
 .. i18n: This leads to peculiarities (compared to non-range search fields):
 ..
 
-This leads to peculiarities (compared to non-range search fields):
+这导致了它的特殊性（相比于non-range search fields来说）：
 
 .. i18n: * It is not possible to override the operator of a range field via
 .. i18n:   ``@operator``, as the domain is built of two sections and each
@@ -590,9 +568,7 @@ This leads to peculiarities (compared to non-range search fields):
 .. i18n:   for use in ``@filter_domain`` and ``@context`` is a ``dict``.
 ..
 
-* It is not possible to override the operator of a range field via
-  ``@operator``, as the domain is built of two sections and each
-  section uses a different operator.
+* 由于domain由两个section构成，每个section使用不同的operator，但通过@operator重写range field是不可能的。
 
 * Instead of being a simple value (integer, string, float) ``self``
   for use in ``@filter_domain`` and ``@context`` is a ``dict``.
@@ -604,11 +580,7 @@ This leads to peculiarities (compared to non-range search fields):
 .. i18n:   ``False``.
 ..
 
-  Because each input widget of a range field can be empty (and the
-  field itself will still be valid), care must be taken when using
-  ``self``: it has two string keys ``"from"`` and ``"to"``, but any of
-  these keys can be either missing entirely or set to the value
-  ``False``.
+  因为range field的每个input widget可以为空（并且字段本身始终有效），必须谨慎使用self：它有两个string keys“from”和“to”，这些keys任意一个可以不使用或设置其值为False。
 
 .. i18n: Actions for Search view
 .. i18n: +++++++++++++++++++++++
@@ -623,10 +595,7 @@ Actions for Search view
 .. i18n: ``search_view_id`` field of the action.
 ..
 
-After declaring a search view, it will be used automatically for all tree views on the same model.
-If several search views exist for a single model, the one with the highest priority (lowest sequence) will
-be used. Another option is to explicitly select the search view you want to use, by setting the
-``search_view_id`` field of the action.
+在声明一个search view后，它会被自动用在相同model的所有tree view中。如果一个model有几个search view，那它会使用拥有最高优先级的那个。另一个选择就是通过设置action中的search_view_id字段来明确选择想要使用的search view。
 
 .. i18n: In addition to being able to pass default form values in the context of the action, OpenERP 6.0 now
 .. i18n: supports passing initial values for search views too, via the context. The context keys need to match the
@@ -636,12 +605,7 @@ be used. Another option is to explicitly select the search view you want to use,
 .. i18n: simply a boolean value for filters, to toggle them 
 ..
 
-In addition to being able to pass default form values in the context of the action, OpenERP 6.0 now
-supports passing initial values for search views too, via the context. The context keys need to match the
-``search_default_XXX`` format. ``XXX`` may refer to the ``name`` of a ``<field>`` or ``<filter>``
-in the search view (as the ``name`` attribute is not required on filters, this only works for filters that have
-an explicit ``name`` set). The value should be either the initial value for search fields, or
-simply a boolean value for filters, to toggle them 
+除了能够传递在action上下文中的默认表单值外，OpenERP 6.0现在支持通过上下文来传递search views的初始值。这个上下文keys需要匹配search_default_XXX格式。在search view中XXX是指<field>或<filter>的名字（其实对于filters，name属性并不是必须的，当它必须要有个明确的name值时才起作用）。这个值要么是search fields的初始值，要么是filter的布尔值，现在来切换它们：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -684,11 +648,7 @@ Custom Filters
 .. i18n: at any time. Filters can also be turned into Shortcuts directly available in the User's homepage.
 ..
 
-As of v6.0, all search views feature custom search filters, as shown below.
-Users can define their own custom filters using any of the fields available on the current model,
-combining them with AND/OR operators. It is also possible to save any search context (the combination
-of all currently applied domain and context values) as a personal filter, which can be recalled
-at any time. Filters can also be turned into Shortcuts directly available in the User's homepage.
+对于V6.0，search view都可以进行自定义search filters，向下面显示的那样。用户可以使用当前模块的任意字段来定义自己的filters，并且用AND/OR operator来合并他们。将任何的search context作为个人过滤器都是可以的，还可以在任何时候重新调用。过滤器可以在用户主页直接转换成快捷键。
 
 .. i18n: .. image:: images/filter.png
 .. i18n:    :scale: 50
@@ -703,13 +663,12 @@ at any time. Filters can also be turned into Shortcuts directly available in the
 .. i18n: We can save this search criteria as a Shortcut or save as Filter.
 ..
 
-In above screenshot we filter Partner where Salesman = Demo user and Country = Belgium,
-We can save this search criteria as a Shortcut or save as Filter.
+在以上的截图中，我们过滤Partner用Salesman = Demo user 和Country = Belgium，我们将这个搜索标准作为快捷键或是保存为过滤器。
 
 .. i18n: Filters are user specific and can be modified via the Manage Filters option in the filters drop-down.
 ..
 
-Filters are user specific and can be modified via the Manage Filters option in the filters drop-down.
+过滤器是用户特定的，可以通过在filters 下拉菜单中管理过滤器选项来进行修改。
 
 .. i18n: Calendar Views
 .. i18n: --------------
@@ -721,7 +680,7 @@ Calendar Views
 .. i18n: Calendar view provides timeline/schedule view for the data.
 ..
 
-Calendar view provides timeline/schedule view for the data.
+Calendar 视图为数据提供时间线（timeline）/日程表（schedule）视图。
 
 .. i18n: View Specification
 .. i18n: ++++++++++++++++++
@@ -733,7 +692,7 @@ View Specification
 .. i18n: Here is an example view:
 ..
 
-Here is an example view:
+这有一个视图例子：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -753,14 +712,14 @@ Here is an example view:
 .. i18n: Here is the list of supported attributes for ``calendar`` tag:
 ..
 
-Here is the list of supported attributes for ``calendar`` tag:
+下面是该视图标签的属性:
 
 .. i18n:     ``string``
 .. i18n:         The title string for the view.
 ..
 
     ``string``
-        The title string for the view.
+        该视图的标题
 
 .. i18n:     ``date_start``
 .. i18n:         A ``datetime`` field to specify the starting date for the calendar item. This 
@@ -792,27 +751,12 @@ Here is the list of supported attributes for ``calendar`` tag:
 .. i18n: +++++++++++
 ..
 
-    ``date_start``
-        A ``datetime`` field to specify the starting date for the calendar item. This 
-        attribute is required.
-        
-    ``date_stop``
-        A ``datetime`` field to specify the end date. Ignored if ``date_delay`` 
-        attribute is specified.
-        
-    ``date_delay``
-        A ``numeric`` field to specify time in hours for a record. This attribute
-        will get preference over ``date_stop`` and ``date_stop`` will be ignored.
-        
-    ``day_length``
-        An ``integer`` value to specify working day length. Default is ``8`` hours.
-        
-    ``color``
-        A field, generally ``many2one``, to colourise calendar/gantt items.
-        
-    ``mode``
-        A string value to set default view/zoom mode. For ``calendar`` view, this can be
-        one of following (default is ``month``):
+date_start  ：表示开始时间的属性，该字段是必须的。
+date_stop  ：表示结束时间的属性，如果指定了date_delay属性就可以忽视该属性。
+date_delay  ：A numeric field to specify time in hours for a record. This attribute will get preference over date_stop and date_stop will be ignored.
+day_length  ：显示工作时间长度的数字值，默认为8小时
+color  ：A field, generally many2one, to colorize calendar/gantt items.        
+mode  ：A string value to set default view/zoom mode. For calendar view, this can be one of following (default is month):
         
         * ``day``
         * ``week``
@@ -859,38 +803,34 @@ Gantt Views
 .. i18n: project tasks and resource allocation.
 ..
 
-Gantt view provides timeline view for the data. Generally, it can be used to display
-project tasks and resource allocation.
+Gantt view为数据提供时间线视图，总体来说，它用于显示项目任务和资源分配。
 
 .. i18n: A Gantt chart is a graphical display of all the tasks that a project is composed of.
 .. i18n: Each bar on the chart is a graphical representation of the length of time the task is
 .. i18n: planned to take.
 ..
 
-A Gantt chart is a graphical display of all the tasks that a project is composed of.
-Each bar on the chart is a graphical representation of the length of time the task is
-planned to take.
+甘特图是这个项目所有任务的图形显示。图的每一条显示该任务花费时间的长度。
 
 .. i18n: A resource allocation summary bar is shown on top of all the grouped tasks,
 .. i18n: representing how effectively the resources are allocated among the tasks.
 ..
 
-A resource allocation summary bar is shown on top of all the grouped tasks,
-representing how effectively the resources are allocated among the tasks.
+资源分配总条在图中所有任务的上面显示，代表着任务中资源的有效利用情况。
 
 .. i18n: Color coding of the summary bar is as follows:
 ..
 
-Color coding of the summary bar is as follows:
+颜色使用情况是：
 
 .. i18n:     * `Gray` shows that the resource is not allocated to any task at that time    	
 .. i18n:     * `Blue` shows that the resource is fully allocated at that time.
 .. i18n:     * `Red` shows that the resource is overallocated
 ..
 
-    * `Gray` shows that the resource is not allocated to any task at that time    	
-    * `Blue` shows that the resource is fully allocated at that time.
-    * `Red` shows that the resource is overallocated
+    * `Gray` 显示是指这个时候资源没有分配给任何任务。
+    * `Blue` 显示是指这个时候资源完全分配了。
+    * `Red` 显示是指这个时候资源overallocated。
 
 .. i18n: View Specification
 .. i18n: ++++++++++++++++++
@@ -926,14 +866,12 @@ Here is an example view:
 .. i18n: one level is supported.
 ..
 
-The ``attributes`` accepted by the ``gantt`` tag are similar to ``calendar`` view tag. The
-``level`` tag is used to group the records by some ``many2one`` field. Currently, only
-one level is supported.
+甘特图标签的属性和calendar图标签的属性类似。level标签用于将一些many2one字段的记录分组。目前仅支持one level。
 
 .. i18n: Here is the list of supported attributes for ``gantt`` tag:
 ..
 
-Here is the list of supported attributes for ``gantt`` tag:
+下面是gantt标签的属性：
 
 .. i18n:     ``string``
 .. i18n:         The title string for the view.
@@ -1017,21 +955,21 @@ The ``level`` tag supports following attributes:
 ..
 
     ``object``
-        An openerp object having many2one relationship with view object.
+        一个openerp对象和视图object有many2one的关系。
 
 .. i18n:     ``link``
 .. i18n:         The field name in current object that links to the given ``object``.
 ..
 
     ``link``
-        The field name in current object that links to the given ``object``.
+        链接到给定对象的当前对象的字段名
 
 .. i18n:     ``domain``
 .. i18n:         The domain to be used to filter the given ``object`` records.
 ..
 
     ``domain``
-        The domain to be used to filter the given ``object`` records.
+        这个domain用于过滤给定的对象记录。
 
 .. i18n: Drag and Drop
 .. i18n: +++++++++++++
@@ -1044,24 +982,20 @@ Drag and Drop
 .. i18n: You can reorder or change the group of any records by dragging them.
 ..
 
-The left side pane displays list of the tasks grouped by the given ``level`` field.
-You can reorder or change the group of any records by dragging them.
+左边的窗格显示由level分组的任务列表。你可以重新排序或是通过拖动他们来更改记录的分组。
 
 .. i18n: The main content pane displays horizontal bars plotted on a timeline grid. A group
 .. i18n: of bars are summarised with a top summary bar displaying resource allocation of all
 .. i18n: the underlying tasks.
 ..
 
-The main content pane displays horizontal bars plotted on a timeline grid. A group
-of bars are summarised with a top summary bar displaying resource allocation of all
-the underlying tasks.
+主要内容窗格显示在时间格中绘制的水平条。一组水平条概要汇总了所有任务资源分配条。
 
 .. i18n: You can change the task start time by dragging the tasks horizontally. While
 .. i18n: end time can be changed by dragging right end of a bar.
 ..
 
-You can change the task start time by dragging the tasks horizontally. While
-end time can be changed by dragging right end of a bar.
+你可以通过水平拖动任务来更改任务开始时间，当然也可以通过拖动右侧条来更改结束时间。
 
 .. i18n: .. note::
 .. i18n: 
@@ -1098,7 +1032,7 @@ Design Elements
 .. i18n: The files describing the views are of the form:
 ..
 
-The files describing the views are of the form:
+文件中的视图描述形式如下：
 
 .. i18n: :Example:
 ..
@@ -1127,28 +1061,27 @@ The files describing the views are of the form:
 .. i18n: The view definitions contain mainly three types of tags:
 ..
 
-The view definitions contain mainly three types of tags:
+视图定义包含了以下三种类型的标签：
 
 .. i18n:     * **<record>** tags with the attribute model="ir.ui.view", which contain the view definitions themselves
 .. i18n:     * **<record>** tags with the attribute model="ir.actions.act_window", which link actions to these views
 .. i18n:     * **<menuitem>** tags, which create entries in the menu, and link them with actions
 ..
 
-    * **<record>** tags with the attribute model="ir.ui.view", which contain the view definitions themselves
-    * **<record>** tags with the attribute model="ir.actions.act_window", which link actions to these views
-    * **<menuitem>** tags, which create entries in the menu, and link them with actions
+    * **<record>** 标签有属性model=“ir.ui.view”，它包含本身的视图定义
+    * **<record>** 标签有属性model=“ir.actions.act_window”，它将动作和这些视图链接起来。
+    * **<menuitem>** 标签，在菜单中创建记录，将他们和动作链接起来。
 
 .. i18n: New : You can specify groups for whom the menu is accessible using the groups 
 .. i18n: attribute in the `menuitem` tag.
 ..
 
-New : You can specify groups for whom the menu is accessible using the groups 
-attribute in the `menuitem` tag.
+New：你可以指定组，菜单在menuitem标签中用组属性来访问这些组。
 
 .. i18n: New : You can now add shortcut using the `shortcut` tag.
 ..
 
-New : You can now add shortcut using the `shortcut` tag.
+New：你可以使用shortcut标签来加快捷键。
 
 .. i18n: :Example:
 ..
@@ -1176,8 +1109,7 @@ New : You can now add shortcut using the `shortcut` tag.
 .. i18n: menu attribute.
 ..
 
-Note that you should add an id attribute on the `menuitem` which is referred by 
-menu attribute.
+你应该加一个id属性在menuitem上
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1209,7 +1141,7 @@ menu attribute.
 .. i18n: Default value for the priority field : 16. When not specified the system will use the view with the lower priority.
 ..
 
-Default value for the priority field : 16. When not specified the system will use the view with the lower priority.
+priority字段的默认值为16，在没有特别规定的前提下，系统的视图都是最低优先级。
 
 .. i18n: View Types
 .. i18n: ++++++++++
@@ -1227,9 +1159,7 @@ View Types
 
 Tree View
 """""""""
-You can specify the columns to include in the list, along with some details of
-the list's appearance. The search fields aren't specified here, they're 
-specified by the `select` attribute in the form view fields.
+你可以指定列表中包含的列元素和一些细节在列的显示中。search字段不能在这指定，他们显示在form视图中。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1283,9 +1213,7 @@ specified by the `select` attribute in the form view fields.
 .. i18n: you specify must contain a list of all **child** entries.
 ..
 
-That example is just a flat list, but you can also display a real tree structure
-by specifying a `field_parent`. The name is a bit misleading, though; the field
-you specify must contain a list of all **child** entries.
+这个例子是一个二维列表，但是你可以通过指点field_parent来显示树结构。这个名字尽管有些误导人，但是该字段必须包含一列所有的child记录。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1319,7 +1247,7 @@ you specify must contain a list of all **child** entries.
 .. i18n: On the `tree` element, the following attributes are supported:
 ..
 
-On the `tree` element, the following attributes are supported:
+在tree元素中包含下面的属性：
 
 .. i18n: colors
 .. i18n: 	Conditions for applying different colours to items in the list. The default
@@ -1331,14 +1259,8 @@ On the `tree` element, the following attributes are supported:
 .. i18n: 	for flat lists.
 ..
 
-colors
-	Conditions for applying different colours to items in the list. The default
-	is black.
-toolbar
-	Set this to 1 if you want a tree structure to list the top level entries
-	in a separate toolbar area. When you click on an entry in the toolbar, all
-	its descendants will be displayed in the main tree. The value is ignored
-	for flat lists.
+colors：在列表中根据不同情况不同的颜色来记录，默认为黑。
+toolbar：如果你想要一个树结构在单独工具栏区域列出上层的记录，那就把给属性值设为1。当你点击工具栏上的一个记录时，它的所有的后代都会显示在main tree中。二维列表中该值可以忽略
 
 .. i18n: Grouping Elements
 .. i18n: +++++++++++++++++
@@ -1357,7 +1279,7 @@ Separator
 .. i18n: Adds a separator line
 ..
 
-Adds a separator line
+加个分隔线
 
 .. i18n: :Example:
 ..
@@ -1376,7 +1298,7 @@ Adds a separator line
 .. i18n: The string attribute defines its label and the colspan attribute defines his horizontal size (in number of columns).
 ..
 
-The string attribute defines its label and the colspan attribute defines his horizontal size (in number of columns).
+string属性定义了它的标签，colspan属性定义了他的水平大小（列的个数）。
 
 .. i18n: Notebook
 .. i18n: """"""""
@@ -1388,7 +1310,7 @@ Notebook
 .. i18n: <notebook>: With notebooks you can distribute the view fields on different tabs (each one defined by a page tag). You can use the tabpos properties to set tab at: up, down, left, right.
 ..
 
-<notebook>: With notebooks you can distribute the view fields on different tabs (each one defined by a page tag). You can use the tabpos properties to set tab at: up, down, left, right.
+<notebook>: 用notebooks你可以分配视图字段在不同的标签上（每个由page tag定义）。你可以使用tabpos属性来设置tab：up，down，left，right。
 
 .. i18n: :Example:
 ..
@@ -1414,7 +1336,7 @@ Group
 .. i18n: <group>: groups several columns and split the group in as many columns as desired.
 ..
 
-<group>: groups several columns and split the group in as many columns as desired.
+<group>: 对几个列进行分组。
 
 .. i18n:     * **colspan**: the number of columns to use
 .. i18n:     * **rowspan**: the number of rows to use
@@ -1461,7 +1383,7 @@ Page
 .. i18n: Defines a new notebook page for the view.
 ..
 
-Defines a new notebook page for the view.
+为视图定义新的notebook
 
 .. i18n: :Example:
 ..
@@ -1480,7 +1402,7 @@ Defines a new notebook page for the view.
 .. i18n: * **string**: defines the name of the page.
 ..
 
-* **string**: defines the name of the page.
+* **string**: 定义page的名称
 
 .. i18n: Data Elements
 .. i18n: +++++++++++++
@@ -1631,7 +1553,7 @@ Example
 .. i18n: Here's the source code of the view of a sale order object. This is the object shown on the screen shots of the presentation.
 ..
 
-Here's the source code of the view of a sale order object. This is the object shown on the screen shots of the presentation.
+这有销售订单对象视图的源代码。这是相同对象作为对象在截图中的显示。
 
 .. i18n: :Example:
 ..
@@ -1818,13 +1740,12 @@ The eval attribute
 .. i18n: allows you to define values that are not strings.
 ..
 
-The **eval** attribute evaluates its content as if it was Python code. This
-allows you to define values that are not strings.
+eval属性评估它的内容像Python代码似地。这就允许你定义不是字符串的值。
 
 .. i18n: Normally, content inside *<field>* tags are always evaluated as strings.
 ..
 
-Normally, content inside *<field>* tags are always evaluated as strings.
+一般情况下，内容中<field>标签一直作为字符串来计算。
 
 .. i18n: .. describe:: Example 1:
 ..
@@ -1843,7 +1764,7 @@ Normally, content inside *<field>* tags are always evaluated as strings.
 .. i18n: This will evaluate to the string ``'2.3'`` and not the float ``2.3``
 ..
 
-This will evaluate to the string ``'2.3'`` and not the float ``2.3``
+2.3不是float 2.3而是字符串2.3
 
 .. i18n: .. describe:: Example 2:
 ..
@@ -1865,8 +1786,7 @@ This will evaluate to the string ``'2.3'`` and not the float ``2.3``
 .. i18n: end up storing the opposite of what is desired. 
 ..
 
-This will evaluate to the string ``'False'`` and not the boolean
-``False``. This is especially tricky because Python's conversion rules
+False不是布尔值False，而是字符串’False’。 This is especially tricky because Python's conversion rules
 consider any non-empty string to be ``True``, so the above code will
 end up storing the opposite of what is desired. 
 
@@ -1874,8 +1794,7 @@ end up storing the opposite of what is desired.
 .. i18n: type, except string, you need to use the **eval** attribute:
 ..
 
-If you want to evaluate the value to a float, a boolean or another
-type, except string, you need to use the **eval** attribute:
+如果你想要计算float，boolean或是其他类型，除了string，可以使用eval属性：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1899,25 +1818,24 @@ Button
 .. i18n: actions on the current record.
 ..
 
-Adds a button to the current view. Allows the user to perform various
-actions on the current record.
+加button到当前视图中。允许用户在当前记录上执行各种动作。
 
 .. i18n: After a button has been clicked, the record should always be reloaded.
 ..
 
-After a button has been clicked, the record should always be reloaded.
+点击button按钮后，记录会重新装载。
 
 .. i18n: Buttons have the following attributes:
 ..
 
-Buttons have the following attributes:
+Buttons有以下的属性：
 
 .. i18n: ``@type``
 .. i18n:   Defines the type of action performed when the button is activated:
 ..
 
 ``@type``
-  Defines the type of action performed when the button is activated:
+  定义button按钮激活后action执行类型。
 
 .. i18n:   ``workflow`` (default)
 .. i18n:     The button will send a workflow signal [#]_ on the current model
@@ -1926,16 +1844,13 @@ Buttons have the following attributes:
 ..
 
   ``workflow`` (default)
-    The button will send a workflow signal [#]_ on the current model
-    using the ``@name`` of the button as workflow signal name and
-    providing the record id as parameter (in a list).
+    button会在当前model上发送workflow signal，使用button的name作为workflow signal name并且提供记录id作为参数（in a list）。
 
 .. i18n:     The workflow signal may return an :ref:`action descriptor <window-action>`,
 .. i18n:     which should be executed. Otherwise it will return ``False``.
 ..
 
-    The workflow signal may return an :ref:`action descriptor <window-action>`,
-    which should be executed. Otherwise it will return ``False``.
+   workflow signal会返回一个动作描述符，已执行的。否则会返回False。
 
 .. i18n:   ``object``
 .. i18n:     The button will execute the method of name ``@name`` on the
@@ -1945,10 +1860,7 @@ Buttons have the following attributes:
 ..
 
   ``object``
-    The button will execute the method of name ``@name`` on the
-    current model, providing the record id as parameter (in a
-    list). This call may return an :ref:`action descriptor <window-action>`,
-    which should be executed. Otherwise it will return ``False``.
+    button会在当前model上执行@name的方法，提供一个记录id作为参数（in a list）。该调用会返回一个动作描述符来执行。
 
 .. i18n:   ``action``
 .. i18n:     The button will trigger the execution of an action
@@ -1957,9 +1869,7 @@ Buttons have the following attributes:
 ..
 
   ``action``
-    The button will trigger the execution of an action
-    (``ir.actions.actions``). The ``id`` of this action is the
-    ``@name`` of the button.
+    button会触发action（ir.actions.actions）来执行。这个动作的id是button的@name。
 
 .. i18n:     From there, follows the normal action-execution workflow. One extra action
 .. i18n:     type is to just close the window.
@@ -1984,9 +1894,7 @@ Buttons have the following attributes:
 ..
 
 ``@special``
-  Only has one possible value currently: ``cancel``, which indicates
-  that the popup should be closed without performing any RPC call or
-  action resolution.
+  当前仅有一个可能值：cancel，popup在没有RPC调用或是action执行时就会关闭。
 
 .. i18n:   .. note::
 .. i18n:      Only meaningful within a popup-type window (e.g. a
@@ -2011,8 +1919,7 @@ Buttons have the following attributes:
 ..
 
 ``@name``
-  The button's identifier, used to indicate which method should be
-  called, which signal sent or which action executed.
+  button的标识符，用于指出调用哪个方法，发送哪个signal，执行哪个动作。
 
 .. i18n: ``@confirm``
 .. i18n:   A confirmation popup to display before executing the button's
@@ -2021,16 +1928,14 @@ Buttons have the following attributes:
 ..
 
 ``@confirm``
-  A confirmation popup to display before executing the button's
-  task. If the confirmation is dismissed the button's task *must not*
-  be executed.
+  当执行button的任务前，确认对话框会显示。当确认取消后，button的任务不会执行。
 
 .. i18n: ``@string``
 .. i18n:   The label which should be displayed on the button [#]_.
 ..
 
 ``@string``
-  The label which should be displayed on the button [#]_.
+  button上会显示的标签。 [#]_.
 
 .. i18n: ``@icon``
 .. i18n:   Display an icon on the button, if absent the button is text-only
@@ -2038,7 +1943,7 @@ Buttons have the following attributes:
 ..
 
 ``@icon``
-  Display an icon on the button, if absent the button is text-only
+  显示button图表，如果没有这个button就是text-only
   [#]_.
 
 .. i18n: ``@states``, ``@attrs``, ``@invisible``
@@ -2046,7 +1951,7 @@ Buttons have the following attributes:
 ..
 
 ``@states``, ``@attrs``, ``@invisible``
-  Standard OpenERP meaning for those view attributes
+  OpenERP这些视图属性的标准含义。
 
 .. i18n: ``@default_focus``
 .. i18n:   If set to a truthy value (``1``), automatically selects that button
@@ -2054,13 +1959,12 @@ Buttons have the following attributes:
 ..
 
 ``@default_focus``
-  If set to a truthy value (``1``), automatically selects that button
-  so it is used if ``RETURN`` is pressed while on the form.
+  如果设置为确认值（1）时，当点击RETURN时就会自动搜索按钮。
 
 .. i18n:   May be ignored by the client.
 ..
 
-  May be ignored by the client.
+  client端会忽视这个属性。
 
 .. i18n:   .. versionadded:: 6.0
 ..
@@ -2093,7 +1997,7 @@ Label
 .. i18n: Adds a simple label using the string attribute as caption.
 ..
 
-Adds a simple label using the string attribute as caption.
+用label来加个标题。
 
 .. i18n: :Example:
 ..
@@ -2119,7 +2023,7 @@ New Line
 .. i18n: Force a return to the line even if all the columns of the view are not filled in.
 ..
 
-Force a return to the line even if all the columns of the view are not filled in.
+如果视图的所有列不能全部放进一行是强制换行。
 
 .. i18n: :Example:
 ..
@@ -2162,7 +2066,7 @@ Inheritance in Views
 .. i18n: When you create and inherit objects in some custom or specific modules, it is better to inherit (than to replace) from an existing view to add/modify/delete some fields and preserve the others.
 ..
 
-When you create and inherit objects in some custom or specific modules, it is better to inherit (than to replace) from an existing view to add/modify/delete some fields and preserve the others.
+当你要在一些自定义或是特定的模块上创建和继承对象时，在已经存在的视图上通过继承来添加/修改/删除一些字段相比于替换更好些。
 
 .. i18n: :Example:
 ..
@@ -2204,13 +2108,12 @@ When you create and inherit objects in some custom or specific modules, it is be
 .. i18n: base module.
 ..
 
-This will add a page to the notebook of the ``res.partner.form`` view in the 
-base module.
+这是要在base模块上给res.partner.form的notebook里面加一个page。
 
 .. i18n: The inheritance engine will parse the existing view and search for the root nodes of
 ..
 
-The inheritance engine will parse the existing view and search for the root nodes of
+继承engine会分析已存在的视图并且搜索的根节点。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2226,14 +2129,12 @@ The inheritance engine will parse the existing view and search for the root node
 .. i18n: position).
 ..
 
-It will append or edit the content of this tag. If this tag has some attributes, 
-it will look in the parent view for a node with matching attributes (except 
-position).
+它会添加或是修改这个标签的内容。如果这个标签有很多属性，它会查找父类视图来匹配这些属性。
 
 .. i18n: You can use these values in the position attribute:
 ..
 
-You can use these values in the position attribute:
+在位置属性上你可以使用以下的值：
 
 .. i18n:     * inside (default): your values will be appended inside the tag
 .. i18n:     * after: add the content after the tag
@@ -2283,12 +2184,12 @@ Replacing Content
 .. i18n: Will replace the content of the Extra Info tab of the notebook with the ``relation_ids`` field.
 ..
 
-Will replace the content of the Extra Info tab of the notebook with the ``relation_ids`` field.
+可用relation_ids字段来替换notebook的额外信息标签的内容。
 
 .. i18n: The parent and the inherited views are correctly updated with ``--update=all`` argument like any other views.
 ..
 
-The parent and the inherited views are correctly updated with ``--update=all`` argument like any other views.
+父类和子类的视图可像其他视图一样通过—update=all来进行更新。
 
 .. i18n: Deleting Content
 .. i18n: ++++++++++++++++
@@ -2300,7 +2201,7 @@ Deleting Content
 .. i18n: To delete a field from a form, an empty element with ``position="replace"`` attribute is used. Example:
 ..
 
-To delete a field from a form, an empty element with ``position="replace"`` attribute is used. Example:
+想要删除表单视图中的一个字段，可使用position="replace"属性。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2335,7 +2236,7 @@ Inserting Content
 .. i18n: To add a field into a form before the specified tag use ``position="before"`` attribute. 
 ..
 
-To add a field into a form before the specified tag use ``position="before"`` attribute. 
+想要加一个字段到form中在特定标签前的话，使用position=’before’属性。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2366,12 +2267,12 @@ To add a field into a form before the specified tag use ``position="before"`` at
 	    </field>
 	</record>
 	
-Will add ``relation_ids`` field before the ``lang`` field.	
+在lang字段前加relation_ids字段。	
 
 .. i18n: To add a field into a form after the specified tag use ``position="after"`` attribute. 
 ..
 
-To add a field into a form after the specified tag use ``position="after"`` attribute. 
+想要加一个字段到form中在指定标签后的话，使用position=’before’属性。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2402,7 +2303,7 @@ To add a field into a form after the specified tag use ``position="after"`` attr
 	    </field>
 	</record>
 	
-Will add ``relation_ids`` field after the ``lang`` field.
+在lang字段后加relation_ids字段。
 
 .. i18n: Multiple Changes
 .. i18n: ++++++++++++++++
@@ -2414,7 +2315,7 @@ Multiple Changes
 .. i18n: To make changes in more than one location, wrap the fields in a data element.
 ..
 
-To make changes in more than one location, wrap the fields in a data element.
+想要在多个位置进行更改，在数据元素中包裹多个字段。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2453,8 +2354,7 @@ To make changes in more than one location, wrap the fields in a data element.
 .. i18n: the ``website`` field.
 ..
 
-Will delete the ``lang`` field from its usual location, and display it after
-the ``website`` field.
+在平常位置删除lang字段，在website后显示它。
 
 .. i18n: .. _xpath-element-inheritance:
 .. i18n: 
@@ -2473,10 +2373,7 @@ XPath Element
 .. i18n: placed. 
 ..
 
-Sometimes a view is too complicated to let you simply identify a target field
-by name. For example, the field might appear in two places. When that happens,
-you can use an ``xpath`` element to describe where your changes should be 
-placed. 
+有时视图因为太复杂了而不能让你简单的通过name找到字段。例如，字段显示在两个地方。在这种情况下，你可以使用xpath元素来描述想要进行更改的位置。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2526,8 +2423,7 @@ placed.
         </field>
     </record>
     
-Will add the ``age`` field after the ``email`` field in both the form and tree 
-view of the address list.       
+在表单视图和列表视图中添加age字段在email字段后。      
 
 .. i18n: Replacing Attributes
 .. i18n: ++++++++++++++++++++
@@ -2584,16 +2480,15 @@ Specify the views you want to use
 .. i18n: There are some cases where you would like to specify a view other than the default:
 ..
 
-There are some cases where you would like to specify a view other than the default:
+在几种情况下你相比于默认的视图更想用指定的视图：
 
 .. i18n: - If there are several form or tree views for an object.
 .. i18n: - If you want to change the form or tree view used by a relational field 
 .. i18n:   (one2many for example).
 ..
 
-- If there are several form or tree views for an object.
-- If you want to change the form or tree view used by a relational field 
-  (one2many for example).
+- 如果一个对象有好几种表单或是列表视图。
+- 如果你想要通过使用关系字段（如one2many）来更改表单或是列表视图。
 
 .. i18n: Using the priority field
 .. i18n: ++++++++++++++++++++++++
@@ -2610,12 +2505,7 @@ Using the priority field
 .. i18n: the lastname first.
 ..
 
-This field is available in the view definition, and is 16 by default. By 
-default, OpenERP will display a model using the view with the highest priority
-(the smallest number). For example, imagine we have two views for a simple model.
-The model *client* with two fields : **firstname** and **lastname**. We will define
-two views, one which shows the firstname first, and the other one which shows 
-the lastname first.
+这个字段在视图定义中是可用的，默认为16。在默认情况下，OpenERP用最高优先级（更小的值）的视图来显示model。比如，想象我们的一个model有两个视图。model client有两个字段：firstname和lastname。我们将会定义两个视图，一个用于首先显示firstname，另一个用于首先显示lastname。
 
 .. i18n: .. code-block:: xml
 .. i18n:     :linenos:
@@ -2688,8 +2578,7 @@ the lastname first.
 .. i18n: **It will always use the second one, because it has a higher priority !** Unless you tell it to use the first one !
 ..
 
-Now, each time OpenERP will have to show a form view for our object *client*, it will have the choice between two views.
-**It will always use the second one, because it has a higher priority !** Unless you tell it to use the first one !
+现在，OpenERP每次为对象client显示表单视图，它都有两个视图选择。它一直选择的是第二个，因为这个有高优先级。除非你告诉它选择第一个。
 
 .. i18n: Specify per-action view
 .. i18n: +++++++++++++++++++++++
@@ -2701,7 +2590,7 @@ Specify per-action view
 .. i18n: To illustrate this point, we will create 2 menus which show a form view for this *client* object :
 ..
 
-To illustrate this point, we will create 2 menus which show a form view for this *client* object :
+为了说明这一点，我们将会创建2个菜单来为client对象显示表单视图。
 
 .. i18n: .. code-block:: xml
 .. i18n:     :linenos:
@@ -2787,9 +2676,7 @@ To illustrate this point, we will create 2 menus which show a form view for this
 .. i18n: of its priority.
 ..
 
-As you can see on line *19*, we can specify a view. That means that when we open 
-the second menu, OpenERP will use the form view *client_form_view_1*, regardless
-of its priority.
+你可以看到第19行，我们特定了一个视图。这意味着当我们打开第二个菜单时，OpenERP将会使用视图client_form_view_1，而不管它的优先级。
 
 .. i18n: .. note::
 .. i18n: 
@@ -2821,9 +2708,7 @@ Using the context
 .. i18n: you click on the add button (**in red**).
 ..
 
-The *view_id* method works very well for menus/actions, but how can you specify the view to use for a one2many
-field, for example? When you have a one2many field, two views are used, a tree view (**in blue**), and a form view when
-you click on the add button (**in red**).
+view_id方法对于menus/actions效果很好，但是你如何为one2many字段特定视图呢？当你有一个one2many字段时，将会使用两个视图，一个列表视图（蓝色的），和一个表单视图（红色的，当你点击添加按钮时就会显示出）。
 
 .. i18n: .. figure::  images/one2many_views.png
 .. i18n:     :scale: 70%
@@ -2837,7 +2722,7 @@ you click on the add button (**in red**).
 .. i18n: When you add a one2many field in a form view, you do something like this :
 ..
 
-When you add a one2many field in a form view, you do something like this :
+当你添加一个one2many字段在表单视图中时，你会这么做：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2853,9 +2738,7 @@ When you add a one2many field in a form view, you do something like this :
 .. i18n: *view_id* attribute:
 ..
 
-If you want to specify the views to use, you can add a *context* attribute, and
-specify a view id for each type of view supported, exactly like the action's 
-*view_id* attribute:
+当你想要使用指定的视图时，你可以添加一个context属性，并且为每个支持的视图类型指定一个view id，就像action的view_id属性：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2871,16 +2754,16 @@ specify a view id for each type of view supported, exactly like the action's
 .. i18n: If you don't specify the views, OpenERP will choose one in this order :
 ..
 
-If you don't specify the views, OpenERP will choose one in this order :
+如果你不想指定视图，OpenERP将会在以下的order中选择一个：
 
 .. i18n: 1. It will use the <form> or <tree> view defined **inside** the field (see below)
 .. i18n: 2. Else, it will use the views with the highest priority for this object.
 .. i18n: 3. Finally, it will generate default empty views, with all fields.
 ..
 
-1. It will use the <form> or <tree> view defined **inside** the field (see below)
-2. Else, it will use the views with the highest priority for this object.
-3. Finally, it will generate default empty views, with all fields.
+1．它会使用定义了inside字段的<form>和<tree>视图。
+2．不然，它会使用这个对象最高优先级的视图。
+3．最后，它会产生拥有所有字段的默认空视图。
 
 .. i18n: .. note::
 .. i18n: 
@@ -2902,11 +2785,7 @@ If you don't specify the views, OpenERP will choose one in this order :
 
 .. note::
 
-    By default, OpenERP will never use a view that is not defined for your object. If you have two models, with the
-    same fields, but a different model name, OpenERP will never use the view of one for the other,
-    even if one model inherit an other.
-
-    You can force this by manually specifying the view, either in the action or in the context.
+默认情况下，OpenERP不会使用不是为自己对象定义的视图。如果你有两个model，有相同的字段，但是不同的model名称，OpenERP不会混乱使用，即使一个model继承自另一个。你可以更改这个通过手动指定视图，在动作中或是上下文中。
 
 .. i18n: Using subviews
 .. i18n: """"""""""""""
@@ -2918,7 +2797,7 @@ Using subviews
 .. i18n: In the case of relational fields, you can create a view directly inside a field :
 ..
 
-In the case of relational fields, you can create a view directly inside a field :
+对于相关的字段，你可以直接在一个字段中创建一个视图：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2971,10 +2850,7 @@ In the case of relational fields, you can create a view directly inside a field 
 .. i18n: to describe exactly where to place your new fields.
 ..
 
-If you or another developer want to inherit from this view in another module,
-you need to inherit from the parent view and then modify the child fields.
-With child views, you'll often need to use an :ref:`xpath-element-inheritance`
-to describe exactly where to place your new fields.
+如果你或是其他的开发人员想要在其他的module中继承这个视图，你需要继承父类视图并且修改子类字段。对于子类视图，你需要使用XPath Element来直接描述想要在哪里存放你的新字段。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -3027,10 +2903,7 @@ to describe exactly where to place your new fields.
 .. i18n: view to use as part of the one2many field.
 ..
 
-One down side of defining a subview like this is that it can't be inherited on
-its own, it can only be inherited with the parent view. Your views will be more
-flexible if you define the child views separately and then specify which child
-view to use as part of the one2many field.
+像这样定义一个subview的副作用是，它不能继承自它自己，它只能继承自父类视图。如果你单独定义了子类视图并且指定哪个子类视图来作为one2many字段的一部分使用，这样你的视图将会非常灵活。
 
 .. i18n: Events
 .. i18n: ------
@@ -3053,7 +2926,7 @@ On Change
 .. i18n: The on_change attribute defines a method that is called when the content of a view field has changed.
 ..
 
-The on_change attribute defines a method that is called when the content of a view field has changed.
+当一个字段的内容发生改变时，on_change属性定义个方法就会被调用。
 
 .. i18n: This method takes at least arguments: cr, uid, ids, which are the three classical arguments and also the context dictionary. You can add parameters to the method. They must correspond to other fields defined in the view, and must also be defined in the XML with fields defined this way::
 .. i18n: 
@@ -3062,7 +2935,7 @@ The on_change attribute defines a method that is called when the content of a vi
 .. i18n:             on_change="name_of_method(other_field_1, ..., other_field_n)"/> 
 ..
 
-This method takes at least arguments: cr, uid, ids, which are the three classical arguments and also the context dictionary. You can add parameters to the method. They must correspond to other fields defined in the view, and must also be defined in the XML with fields defined this way::
+这个方法至少有几个参数：cr，uid，ids，这是三个传统的参数并且也在上下文字典中。你需要给方法添加参数。他们必须符合在视图中定义的其他字段，并且必须在XML中以以下的方式定义：::
 
         <field 
             name="name_of_field" 
@@ -3071,14 +2944,14 @@ This method takes at least arguments: cr, uid, ids, which are the three classica
 .. i18n: The example below is from the sale order view.
 ..
 
-The example below is from the sale order view.
+下面的是来自销售订单视图中的例子。
 
 .. i18n: You can use the 'context' keyword to access data in the context that can be used as params of the function.::
 .. i18n: 
 .. i18n:         <field name="shop_id" on_change="onchange_shop_id(shop_id)"/>
 ..
 
-You can use the 'context' keyword to access data in the context that can be used as params of the function.::
+你可以使用‘context’关键字来访问上下文中的数据，这个上下文可以被用作函数中的参数：::
 
         <field name="shop_id" on_change="onchange_shop_id(shop_id)"/>
 
@@ -3120,7 +2993,7 @@ You can use the 'context' keyword to access data in the context that can be used
 .. i18n: When editing the shop_id form field, the onchange_shop_id method of the sale_order object is called and returns a dictionary where the 'value' key contains a dictionary of the new value to use in the 'project_id', 'pricelist_id' and 'payment_default_id' fields.
 ..
 
-When editing the shop_id form field, the onchange_shop_id method of the sale_order object is called and returns a dictionary where the 'value' key contains a dictionary of the new value to use in the 'project_id', 'pricelist_id' and 'payment_default_id' fields.
+当编辑shop_id表单字段时，sale_order对象的onchange_shop_id方法会被调用，并且返回一个字典，其中‘value’关键字包含在’project_id’, ‘pricelist_id’, ‘payment_default_id’字段中新值来使用的字典。
 
 .. i18n: Note that it is possible to change more than just the values of
 .. i18n: fields. For example, it is possible to change the value of some fields
@@ -3128,29 +3001,25 @@ When editing the shop_id form field, the onchange_shop_id method of the sale_ord
 .. i18n: return {'domain': d, 'value': value}
 ..
 
-Note that it is possible to change more than just the values of
-fields. For example, it is possible to change the value of some fields
-and the domain of other fields by returning a value of the form:
-return {'domain': d, 'value': value}
+我们注意到除了字段值，更改更多的东西是可能的。例如，可以更改字段值和其他字段的domain，这个更改通过表单的返回值：return {‘domain’: d, ‘value’: value}
 
 .. i18n: :returns: a dictionary with any mix of the following keys:
 ..
 
-:returns: a dictionary with any mix of the following keys:
+:returns: 一个字典有以下关键字任意的混合：
 
 .. i18n:     ``domain``
 .. i18n:       A mapping of ``{field: domain}``.
 ..
 
     ``domain``
-      A mapping of ``{field: domain}``.
+      {field: domain}的一个映射
 
 .. i18n:       The returned domains should be set on the fields instead of the
 .. i18n:       default ones.
 ..
 
-      The returned domains should be set on the fields instead of the
-      default ones.
+      这个返回的domains在字段上设置，而不是之前默认的。
 
 .. i18n:     ``value``
 .. i18n:       A mapping of ``{field: value}}``, the values will be set on the
@@ -3159,15 +3028,11 @@ return {'domain': d, 'value': value}
 ..
 
     ``value``
-      A mapping of ``{field: value}}``, the values will be set on the
-      corresponding fields and may trigger new onchanges or attrs
-      changes
+      field: value}的映射，这个值将会在相对应的字段上设置，可能触发新的改变或是属性的改变。
 
 .. i18n:     ``warning`` A dict with the keys ``title`` and ``message``. Both
 .. i18n:       are mandatory. Indicate that an error message should be
 .. i18n:       displayed to the user.
 ..
 
-    ``warning`` A dict with the keys ``title`` and ``message``. Both
-      are mandatory. Indicate that an error message should be
-      displayed to the user.
+    ``warning`` 有关键字title和message（两个是必须的）的字典。指出显示给用户的错误信息。
