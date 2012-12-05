@@ -1,11 +1,10 @@
-
 .. i18n: *********************
 .. i18n: What's New in OpenERP
 .. i18n: *********************
 ..
 
 *********************
-What's New in OpenERP
+OpenERP 6.1 新改进
 *********************
 
 .. i18n: .. index::
@@ -21,7 +20,7 @@ What's New in OpenERP
 .. i18n: ================
 ..
 
-General Features
+软件改进
 ================
 
 .. i18n: * OpenERP has been structured as Business Applications and its menu has been changed to match this,
@@ -101,13 +100,13 @@ General Features
 .. i18n: =====================================
 ..
 
-Business Application-related Features
+业务流程改进
 =====================================
 
 .. i18n: *Sales Management*
 ..
 
-*Sales Management*
+*销售管理*
 
 .. i18n: * CRM has been integrated in the Sales Management Business Application,
 .. i18n: 
@@ -145,7 +144,7 @@ Business Application-related Features
 .. i18n: *Warehouse Management*
 ..
 
-*Warehouse Management*
+*仓储管理*
 
 .. i18n: * Push & Pull rules for stock locations have been extended and integrated with multicompany,
 .. i18n: 
@@ -163,7 +162,7 @@ Business Application-related Features
 .. i18n: *Accounting & Financial Management*
 ..
 
-*Accounting & Financial Management*
+*财务管理*
 
 .. i18n: * By default, only one Entry Sequence is available for a journal. If you want to use two sequences for your journal numbering, please install the :mod:`account_sequence` module,
 .. i18n: 
@@ -213,7 +212,7 @@ Business Application-related Features
 .. i18n: *Project Management*
 ..
 
-*Project Management*
+*项目管理*
 
 .. i18n: * Improved Gantt chart in the Web version,
 .. i18n: 
@@ -231,7 +230,7 @@ Business Application-related Features
 .. i18n: *Manufacturing Management*
 ..
 
-*Manufacturing Management*
+*生产管理*
 
 .. i18n: * Scrap consumed or finished goods and have the related stock moves automatically,
 .. i18n: 
@@ -245,7 +244,7 @@ Business Application-related Features
 .. i18n: *Human Resources Management*
 ..
 
-*Human Resources Management*
+*人力资源管理*
 
 .. i18n: * Manage your evaluation process,
 .. i18n: 
