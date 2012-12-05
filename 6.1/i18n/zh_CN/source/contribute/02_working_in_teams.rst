@@ -27,7 +27,7 @@ Who are the different actors in the community of OpenERP?
 .. i18n: """"""""""""
 ..
 
-Contributors
+贡献者
 """"""""""""
 
 .. i18n: .. index::
@@ -65,7 +65,7 @@ The community team is available on launchpad: https://launchpad.net/~openerp-com
 
 .. _community_contrib_teams:
 
-Community Contributor Teams
+社区贡献团队
 """""""""""""""""""""""""""
 
 .. i18n: .. index::
@@ -188,7 +188,7 @@ extra-addons shared repository.
 .. i18n: """""""""""""""""
 ..
 
-OpenERP Core Team
+OpenERP 核心团队
 """""""""""""""""
 
 .. i18n: .. index::
@@ -220,7 +220,7 @@ The OpenERP Core Team is available on Launchpad: https://launchpad.net/~openerp
 .. i18n: """"""""""""
 ..
 
-Expert Teams
+专家团队
 """"""""""""
 
 .. i18n: .. index::
@@ -309,7 +309,7 @@ feature. The team will improve your specifications directly in your blueprint.
 .. i18n: """"""""""""""""
 ..
 
-Translators team
+翻译团队
 """"""""""""""""
 
 .. i18n: .. index::
@@ -341,7 +341,7 @@ please see the :ref:`translating_software` section.
 .. i18n: """"""""""""""
 ..
 
-Merge Proposal
+合并提案
 """"""""""""""
 
 .. i18n: Making a merge proposal of your own code is the way to integrate your work in the OpenERP project. You can request a merge proposal either on OpenERP's branch or OpenERP community's branch. In every project the process is the same and you can get the basic documentation here: https://help.launchpad.net/Code/Review
