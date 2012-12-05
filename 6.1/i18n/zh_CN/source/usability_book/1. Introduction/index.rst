@@ -29,7 +29,7 @@ OpenERP 是一个全功能的商业软件套装，超过700模块。无论技术
 .. i18n: That's one of our main challenges: provide tons of features while remaining easy to use.
 ..
 
-That's one of our main challenges: provide tons of features while remaining easy to use.
+我们最大的挑战是：在提供大量的功能同时又要保证易于使用。
 
 .. i18n: OpenERP SA has setup a usability team whose role is to continuously simplify the software, its installation and its configuration. This team is responsible for maintaining this document that covers all usability guidelines for OpenERP developers.
 ..
