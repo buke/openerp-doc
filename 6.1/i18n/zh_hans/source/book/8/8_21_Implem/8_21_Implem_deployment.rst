@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: deployment
 ..
@@ -10,7 +9,7 @@
 .. i18n: ==========
 ..
 
-Deployment
+系统部署
 ==========
 
 .. i18n: As you have seen, the complete architecture of OpenERP includes the following elements:
@@ -67,7 +66,7 @@ As you have seen, the complete architecture of OpenERP includes the following el
 .. i18n: ------------------
 ..
 
-Deployment Options
+部署环境
 ------------------
 
 .. i18n: To deploy OpenERP in your company, several options are available to you:
@@ -114,7 +113,7 @@ The first two approaches are the most commonly used.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-The SaaS (Software as a Service) Offer
+以SaaS(Software as a Service)方式部署
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: SaaS is a complete package hosted at a supplier, that includes the following services: server
@@ -190,7 +189,7 @@ So this server is recommended for small companies with fewer than about fifteen 
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Hosting by a Supplier
+服务器托管
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: At first sight, a hosted OpenERP system appears similar to SaaS: it provides OpenERP from a
@@ -310,7 +309,7 @@ extension modules that are not in the stable version released by Tiny.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Internal Installation
+内部安装
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Large and medium-large companies typically install OpenERP using their own internal company
@@ -394,7 +393,7 @@ least partly.
 .. i18n: --------------------
 ..
 
-Deployment Procedure
+部署过程
 --------------------
 
 .. i18n: The deployment of a version of OpenERP is quite simple when your server has been configured in
