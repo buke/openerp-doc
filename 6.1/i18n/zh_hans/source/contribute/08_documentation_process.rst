@@ -2,14 +2,14 @@
 .. i18n: ---------------------
 ..
 
-文档编写流程
+文档处理
 ---------------------
 
 .. i18n: Books
 .. i18n: +++++
 ..
 
-书
+书籍
 +++++
 
 .. i18n: The main documentation of OpenERP is composed of a set of books according to
@@ -38,7 +38,7 @@ and translator according to their effort.
 .. i18n: """""""""""""""
 ..
 
-编写一本书
+创建数据
 """""""""""""""
 
 .. i18n: We have contracts with several editors to publish books in different countries.
@@ -60,7 +60,7 @@ Books are first published in a paper version. Three months after, we release it 
 .. i18n: ..  """"""""""
 ..
 
-..  指南
+..  Guidelines
 ..  """"""""""
 
 .. i18n: .. See the documentation-guidelines-link_ section.
@@ -72,7 +72,7 @@ Books are first published in a paper version. Three months after, we release it 
 .. i18n: """""""""""""
 ..
 
-作者权利
+著作权
 """""""""""""
 
 .. i18n: The typical author rights are between 8% and 10% on the public price, according
@@ -147,7 +147,7 @@ according to what we can do with editors)
 .. i18n: ++++++
 ..
 
-人
+个人
 ++++++
 
 .. i18n: Authors
@@ -193,14 +193,14 @@ author rights are computed slightly differently:
 .. i18n: ..  """""""""""
 ..
 
-..  翻译者
+..  Translators
 ..  """""""""""
 
 .. i18n: ..  Reviewers
 .. i18n: ..  """""""""
 ..
 
-..  审稿人
+..  Reviewers
 ..  """""""""
 
 .. i18n: .. _building_documentation:
@@ -215,9 +215,9 @@ author rights are computed slightly differently:
 
 .. _building_documentation:
 
-编译文档
+建立文档
 ++++++++++++++++++++++++++
-The Sources for the documentation can be downloaded from:
+文档能从下面的源里下载到:
 ::   
  
   bzr branch lp:openobject-doc
@@ -227,9 +227,8 @@ The Sources for the documentation can be downloaded from:
 .. i18n: know how to use it.
 ..
 
-We use Sphinx_, a documentation generator, to build
-the documentation. So, Sphinx should be installed on your system and you should
-know how to use it.
+我们使用 Sphinx_, 一个用来建立文档的生成器, 因此，将被安装在你的系统里。
+你后面将了解如何使用它.
 
 .. i18n: You can install it with easy_install_. For example, on Ubuntu: ::
 .. i18n: 
@@ -370,7 +369,7 @@ For example, if you want to build the *OpenERP for Retail and Industrial Managem
 .. i18n: ++++++++++++++++++++++++++++++++++++
 ..
 
-链接到源代码的字符
+Linking to docstrings in source code
 ++++++++++++++++++++++++++++++++++++
 
 .. i18n: Some of the pages include links to classes in the project's source code. One
