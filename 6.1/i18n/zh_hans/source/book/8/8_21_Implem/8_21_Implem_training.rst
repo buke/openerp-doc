@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: 
 .. i18n:    single: training
 .. i18n:    
@@ -9,7 +8,7 @@
 .. index:: 
    single: training
    
-User Training
+用户培训
 =============
 
 .. i18n: Two types of training are provided by the Tiny company and its partners:
