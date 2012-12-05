@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: 
 .. i18n:    single: requirements analysis
 .. i18n:    single: planning
@@ -11,7 +10,7 @@
    single: requirements analysis
    single: planning
    
-Requirements Analysis and Planning
+需求分析和规划
 ==================================
 
 .. i18n: Requirements analysis and planning are the keys to the success of an implementation. At this stage,
@@ -86,7 +85,7 @@ with its redundancy, backed-up servers, and separation of authentication and dat
 .. i18n: ----------------
 ..
 
-Planning Methods
+规划方法
 ----------------
 
 .. i18n: Planning methods vary in their degree of complexity, formality and level of automation. It is not the
