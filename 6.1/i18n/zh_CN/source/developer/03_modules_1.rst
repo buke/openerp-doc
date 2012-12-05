@@ -32,7 +32,7 @@ OpenERP 采用 `三层架构
 ..
 
 OpenERP的核心和其他不同的模块都是用 `Python
-<http://python.org/>`_写的。 模块的功能通过XML-RPC（或是NET-RPC，这取决于服务器端的配置）显示出来。模块也采用OpenERP ORM在关系型数据库（PostgreSQL）中来持久化数据。当模块安装好后通过提供XML文件就可以在数据库中插入数据。
+<http://python.org/>`_  写的。 模块的功能通过XML-RPC（或是NET-RPC，这取决于服务器端的配置）显示出来。模块也采用OpenERP ORM在关系型数据库（PostgreSQL）中来持久化数据。当模块安装好后通过提供XML文件就可以在数据库中插入数据。
 
 .. i18n: Although  modules are a simple way to structure a complex application,
 .. i18n: OpenERP modules also extend the system. Modules are
