@@ -1,4 +1,3 @@
-
 .. index::
    single: Configuration
    single: Administration
@@ -6,27 +5,22 @@
 .. _ch-config:
 
 ******************************
-Configuration & Administration
+配置和系统管理
 ******************************
 
- *This chapter is for the administrators of an OpenERP system.
- You will learn to configure OpenERP to match it to your company's needs and
- those of each individual user of the system.*
+ *本章的对象为OpenERP系统管理员.
+ 你将学会如何配置, 使它适应公司及所有用户的需求.*
 
-OpenERP gives you great flexibility in configuring and using it, letting you modify
-its appearance, the general way it functions and the different analysis tools chosen to match your
-company's needs most closely. These configuration changes are carried out through the user
-interface.
+OpenERP通过用户界面提供极大灵活性来配置系统,可以定义界面外观,以
+普通操作模式或多种查询功能友好的满足用户操作习惯.
 
-Users can each arrange their own welcome page and their own menu, and you can also personalize
-OpenERP by assigning each user their own dashboard on their welcome page to provide them with the
-most up to date information. Then, they can immediately see the information most relevant to them
-each time they sign in.
+每个用户可以自行安排他们的欢迎页面和他们自己的菜单，（OpenERP的
+主菜单可以完全重组）。你还可以通过在欢迎页面为每个用户指定他们自己的控制台来实现个性的OpenERP，提供他们最新的信息。每次登录，他们马上就可以看到最相关的信息。
 
-And OpenERP's main menu can be entirely reorganized. The management of access rights lets you
-assign certain functions to specific system users. You can also assign groups to the user,
-which lets him move system documents from state to state (such as
-the ability to approve employee expense requests).
+访问权限的管理让您指定某些功能给特定的系统用户。你也可以把用
+户加入到组中，通过管理组，可以更方便的管理多个权限相同的用户。
+你也能指派组给用户，让他们能切换系统单据的状态 (比如
+用来批准员工的报销请求)。
 
 .. index::
    single: configuration
@@ -36,42 +30,34 @@ the ability to approve employee expense requests).
    single: configuration; setup
 ..
 
-.. note:: Configuration, Parametrization, Personalization, Customization
+.. note:: 设置，参数化，个性化，自定义
 
-	The word *personalization* is sometimes used in this book where you might expect to find
-	*configuration* or *customization*.
+	词语*个性化*有时被用来在这本书里你希望找到*配置*或*自定义*的地方。.
 
-	*Customization* generally refers to something that requires a bit of technical effort
-	(such as creating specialized code modules) and creates a non-standard system.
+	*自定义*一般是指一些需要相当多的技术工作的事情（如建立专门的代码模块）和创建一个非标准的系统。
 
-	*Configuration* is less radical – it is the general process of setting all
-	the parameters of the software to fit the needs of your system (often called *parametrization* or *setup*).
-	Configuration is also, by convention, the name of the sub-menu below each of OpenERP's top-level menus that
-	is accessible only to the administrative user for that section.
+	*配置*是不太激进的 - 这是设置该软件的所有参数来适合你的系统需求的一
+        般流程（通常被称为*参数化*或*设置*）。按照惯例，配置也是OpenERP的每个
+        顶层菜单下面的子菜单的名称，只有该部分的管理员用户能够访问。
 
-	*Personalization* is just that subset of configuration options that shapes the system to the
-	particular operational and/or stylistic wishes of a person or company.
+	*个性化*只是 为个人或公司的具体运作和/或 格式上的愿望 形成系统的配置设置选项的子集。.
 
-Using the *OpenOffice Report Designer* module (:mod:`base_report_designer`), you can change any part of any of the reports
-produced by the system. The system administrator can configure each report to modify its layout and
-style, or even the data that is provided there.
+使用*OpenOffice Report Designer* 模块(:mod:`base_report_designer`),，你可以改变由系统产生的任何报告的任何部分。系统管理设置员可以配置设置每个报告，修改它的布局和风格，甚至包括系统提供的数据。
 
 .. note::  The OpenOffice Report Designer
 
-	The OpenOffice Report Designer plug-in enables you not only to configure the reports of the basic products in
-	OpenERP, but also to create entirely new report templates.
-	When the user uses OpenERP's client interface, OpenOffice can create a report template 
-	that has access to all the data available to any OpenERP document type.
 
-	You can easily create fax documents, quotations, or any other commercial document.
-	This functionality enables you to considerably extend the productivity of your salespeople who have
-	to send many proposals to customers.
+         OpenOffice的在报表设计器插件，使你不仅仅配置设置OpenERP的基本产品的报告，也能建
+         立全新的报表模板。当用户使用OpenERP的客户界面，OpenOffice可以创建一个报表模板来访
+         问OpenERP文档类型的所有可用的数据。
 
-Finally, you will see how to import your data into OpenERP automatically, to migrate all of your
-data in one single go.
+         你可以轻松地创建传真文件、报价单，或任何其他的商业文件。此功能对于需要发送很多
+         提案给客户的销售人员非常有用，它可大大提高你的销售人员的工作效率。
 
-For this chapter, you should start with a fresh database that includes demo data,
-with :mod:`sale` and its dependencies installed and no particular chart of accounts configured. 
+最后，你将看到如何自动导入你的数据到OpenERP，只通过很简单的步骤。
+
+在本章你将一个包含演示数据的全新的数据库开始，这个数据库已安装了销售 :mod:`sale` 和它依赖的模块，另外还没有进行特别的账户配置设置。
+
 
 .. raw:: html
 
