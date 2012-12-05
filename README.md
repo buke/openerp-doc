@@ -20,8 +20,8 @@ OpenERP 中文文档翻译计划
 -----------
 
 *  只有 openerp-doc / 6.1 / i18n / zh_CN / source  目录下的文档是需要翻译的，其他文档请勿修改！
-* 下面是个超链格式 （请到 Code 方式查看）
-  ``下载页 <http://www.openerp.com/downloads>``__    ':'. 
+* 下面是个超链格式,下划线后面的空格必须保留 （请到 Code、RAW 方式查看）
+  `下载页 <http://www.openerp.com/downloads>`_    ':'. 
 
 不要修改
 * 请注意 rst 文件中. 以 ".. i18n " 打头的 严禁修改. 不小心修改的, 请及时改回.
