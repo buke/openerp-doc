@@ -25,20 +25,17 @@
 .. i18n: everyone else you should have a common understanding of your problems.
 ..
 
-The standard response to a need for responsiveness, reliability, and rapidly
-increasing expectations is to create an organization based on departments with
-a clear linear structure, integrated around your operating processes.  To
-increase efficiency amongst salespeople, accountants, logistics staff and
-everyone else you should have a common understanding of your problems.
+建立一个具有清晰的线性部门组织结构，快速反应作为反应的标准是必须的，
+可靠的, 快速增长的预期，集成了你企业的运作流程。为了提高效率，包括销
+售人员，会计人员，后勤人员和其他人，应该有一个共同的认识问题的平台。
 
 .. i18n: For this you need a common language for shared references, policies and communication.
 .. i18n: An ERP (Enterprise Resource Planning) system provides the ideal platform for this common reference
 .. i18n: point.
 ..
 
-For this you need a common language for shared references, policies and communication.
-An ERP (Enterprise Resource Planning) system provides the ideal platform for this common reference
-point.
+对于这一点，你需要共享参考、策略和沟通的共同语言。ERP（企业资源规划）系统
+提供了这一理想的平台，为这一共享的参考点。
 
 .. i18n: Open Source software at the Service of Management
 .. i18n: =================================================
