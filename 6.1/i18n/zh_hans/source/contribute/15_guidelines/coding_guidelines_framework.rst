@@ -1,4 +1,3 @@
-
 .. i18n: .. sectnum::
 .. i18n:     :start: 2
 ..
@@ -10,7 +9,7 @@
 .. i18n: +++++++++++++++++++++++++++
 ..
 
-OpenERP Specific Guidelines
+OpenERP 指引
 +++++++++++++++++++++++++++
 
 .. i18n: Bazaar is your historian
@@ -20,7 +19,7 @@ OpenERP Specific Guidelines
 .. i18n: the file history.
 ..
 
-Bazaar is your historian
+Bazaar 是你的历史信息
 ------------------------
 Do not comment out code if you want to disable it. The code is versioned in
 Bazaar, and regardless of your opinion about Bazaar, it does not lose
@@ -54,7 +53,7 @@ worry about making your changes obvious, that's the purpose of ``diff``::
 .. i18n:     selected_fields = {}
 ..
 
-Call your fish a fish
+命名要言之有物
 ---------------------
 Always give your variables a meaningful name.
 You may know what it is referring to now, but you won't in 2 months, and
@@ -77,7 +76,7 @@ expressions and loop indices, or perhaps in pure maths expressions
 .. i18n: possibly the transactions, access rights and so on.
 ..
 
-Do not bypass the ORM
+不要绕过ORM
 ---------------------
 You should never use the database cursor directly when the ORM can do the
 same thing! By doing so you are bypassing all the ORM features,
@@ -135,7 +134,7 @@ probably less secure (see also next guideline)::
 .. i18n: **UPDATE** or **DELETE** commands).
 ..
 
-No SQL injections, please!
+请不要SQL注入
 --------------------------
 Care must be taken not to introduce SQL injections vulnerabilities when using
 manual SQL queries.  The vulnerability is present when user input is either
@@ -244,7 +243,7 @@ to learn of to use it properly:
 .. i18n:         raise Exception('The module %s does not contain a description file!')
 ..
 
-Factor out the code
+合理抽象
 -------------------
 If you are writing the same code over and over and it is more than one line,
 then you must factor it out into a reusable function or method::
@@ -283,7 +282,7 @@ then you must factor it out into a reusable function or method::
 .. i18n:        #...
 ..
 
-The infamous context
+警惕context
 --------------------
 Do not use mutable objects as default values for functions, because they are
 created as constants (evaluated only once), so you will have possible
@@ -362,7 +361,7 @@ See also `launchpad bug 525808 <https://bugs.launchpad.net/openobject-server/+bu
 .. i18n:     partner_tuples = map(itemgetter('id', 'name'), partners)
 ..
 
-There is better than lambda, sometimes
+有时候这比 lambda 好
 --------------------------------------
 Instead of writing trivial lambda expression to extract items or attributes
 from a list of data structures, learn to use list comprehension
@@ -460,7 +459,7 @@ The most frequent error is with timestamps, as in the following example::
 .. i18n: large and complex methods. A good rule of thumb is to split a method as soon as:
 ..
 
-Keep your methods short/simple when possible
+保持您的方法尽量简洁/简单
 --------------------------------------------
 Functions and methods should not contain too much logic: having a lot of small and simple methods is more advisable than having few
 large and complex methods. A good rule of thumb is to split a method as soon as:
@@ -503,7 +502,7 @@ This recommendation is also relevant for classes, files, modules and packages. (
 .. i18n:         return res
 ..
 
-Never commit the transaction
+不要提交事务
 ----------------------------
 The OpenERP/OpenObject framework is in charge of providing the transactional context for all RPC calls.
 The principle is that a new database cursor is opened at the beginning of each RPC call, and committed
@@ -618,7 +617,7 @@ And another very simple rule:
 .. i18n: --------------------------------
 ..
 
-Use the gettext method correctly
+正确使用 gettext 方法
 --------------------------------
 
 .. i18n: OpenERP uses a GetText-like method named "underscore" ``_( )`` to indicate that a static
