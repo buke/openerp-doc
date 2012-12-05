@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: database; create
 .. i18n:    single: database
@@ -16,7 +15,7 @@
 
 .. _sect-dbcreate:
 
-Database Creation
+数据库创建
 =================
 
 .. i18n: Use the technique outlined in this section to create a new database, \ ``openerp_ch01`` \. This
@@ -101,7 +100,7 @@ you will have to find somebody who does have it to create this database.
 
 .. _sect-creatingdb:
 
-Creating the Database
+创建数据库
 ---------------------
 
 .. i18n: If you are using the GTK client, choose :menuselection:`File --> Databases --> New database`  in
@@ -154,7 +153,7 @@ database quite secure because you can ensure that it is unique from the outset.
 .. i18n: ---------------------
 ..
 
-Database openerp_ch01
+数据库 openerp_ch01
 ---------------------
 
 .. i18n: .. index::
@@ -301,7 +300,7 @@ but this is sufficient to demonstrate that your installation is working.
 
 .. _sect-dbmanage:
 
-Managing Databases
+管理数据库
 ------------------
 
 .. i18n: As a super-administrator, you do not only have rights to create new databases, but also to:
@@ -450,7 +449,7 @@ administration and use of OpenERP.
 .. i18n: =========================
 ..
 
-New OpenERP Functionality
+进一步 OpenERP 功能
 =========================
 
 .. i18n: The database you have created and managed so far is based on the core OpenERP functionality that you
@@ -498,8 +497,8 @@ OpenERP application server.
 .. i18n: -----------------
 ..
 
-Extending OpenERP
------------------
+扩展 OpenERP 功能
+-------------------
 
 .. i18n: To extend OpenERP you will need to copy modules into the \ ``addons`` \ directory. That is in
 .. i18n: your server's \ ``openerp-server`` \ directory (which differs between Windows, Mac and some of the
