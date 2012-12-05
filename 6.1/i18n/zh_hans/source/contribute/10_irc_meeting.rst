@@ -1,4 +1,3 @@
-
 .. i18n: .. _irc-meeting-link:
 .. i18n: 
 .. i18n: Monthly IRC Meeting
@@ -7,7 +6,7 @@
 
 .. _irc-meeting-link:
 
-Monthly IRC Meeting
+每月IRC会议
 -------------------
 
 .. i18n: .. contents::
@@ -19,7 +18,7 @@ Monthly IRC Meeting
 .. i18n: ++++++++++++
 ..
 
-Introduction
+介绍
 ++++++++++++
 
 .. i18n: Once a month, we will organize a community IRC meeting. All topics related to
@@ -44,7 +43,7 @@ or the organisation of the project.
 .. i18n: ++++++++++++++++++++++++++
 ..
 
-Preparation of the Meeting
+会议筹备
 ++++++++++++++++++++++++++
 
 .. i18n: The community meeting should be planned in the calendar of the OpenERP
@@ -87,7 +86,7 @@ at least:
 .. i18n: +++++++++++++++++++++++++++
 ..
 
-Organisation of the Meeting
+会议组织
 +++++++++++++++++++++++++++
 
 .. i18n: The meeting is organized at the official OpenERP IRC channel:
@@ -131,14 +130,14 @@ The phases of a meeting:
 .. i18n: +++++++++++++++++++++++++
 ..
 
-The phases of the meeting
+会议的阶段
 +++++++++++++++++++++++++
 
 .. i18n: Introduction
 .. i18n: ~~~~~~~~~~~~
 ..
 
-Introduction
+首先
 ~~~~~~~~~~~~
 
 .. i18n: At the beginning of each meeting, we will select:
@@ -172,7 +171,7 @@ the different elements are added in the list of topics, in the right section.
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-Presentations
+标识
 ~~~~~~~~~~~~~
 
 .. i18n: People can write their names and the company they work for.
@@ -184,7 +183,7 @@ People can write their names and the company they work for.
 .. i18n: ~~~~~~~~~~~~~~~~~~~~
 ..
 
-Discussion on topics
+讨论的题目
 ~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: The responsible of the meeting announces the topics one by one. Each new topics
@@ -223,7 +222,7 @@ if needed, ask a new date to discuss this topic specifically.
 .. i18n: ~~~~~~~~~~
 ..
 
-Conclusion
+总结
 ~~~~~~~~~~
 
 .. i18n: The responsible to write the summary copy/paste his summary in the IRC
@@ -253,7 +252,7 @@ people, the IRC log is accessible for this.
 .. i18n: ~~~~~~~~~~~~
 ..
 
-Summary Post
+展示小结
 ~~~~~~~~~~~~
 
 .. i18n: The responsible of the summary writes a post in the planet with the summary
