@@ -1,4 +1,3 @@
-
 .. i18n: ****************************
 .. i18n: Getting Started with OpenERP
 .. i18n: ****************************
@@ -152,7 +151,7 @@ Basic Concepts
 .. i18n: ^^^^^^^^^^^^^^^^^^^
 ..
 
-Partners & Contacts
+业务伙伴及其联系人
 ^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To get familiar with the OpenERP user interface, you will start working with information about
@@ -175,7 +174,7 @@ automatically loaded when you created the database with :guilabel:`Load Demonstr
 .. i18n: ^^^^^^^^^^^^^^^^^^^^
 ..
 
-Search for a Partner
+快速定位业务伙伴
 ^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Above the partner list you will see a search form that enables you to quickly filter the partners.
@@ -250,7 +249,7 @@ Edit mode and :guilabel:`Edit` when in Read-Only mode.
 .. i18n: ^^^^^^^^^^^^
 ..
 
-Partner Form
+业务伙伴信息窗口
 ^^^^^^^^^^^^
 
 .. i18n: The partner form contains several tabs, all referring to the current record:
@@ -308,7 +307,7 @@ It is possible to add events manually which directly relate to the corresponding
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Possible Partner Actions
+与业务伙伴操作交互
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To the right of the partner form is a toolbar containing a list of possible :guilabel:`Reports` ,
@@ -444,7 +443,7 @@ They contain some of the demonstration data that you installed when you created 
 .. i18n: --------
 ..
 
-Products
+产品
 --------
 
 .. i18n: In OpenERP, `product` is used to define a raw material, a stockable product, a consumable or a service. You can
@@ -675,7 +674,7 @@ All of the above modules are found in ``extra-addons``, except for the :mod:`mem
 .. i18n: ================
 ..
 
-Boost your Sales
+提升销售能力
 ================
 
 .. i18n: OpenERP provides many tools for managing relationships with partners. These are available through
@@ -804,7 +803,7 @@ The management of customer relationships is detailed in the second section of th
 .. i18n: =================
 ..
 
-Manage your Books
+管理各种账本
 =================
 
 .. i18n: The chapters in :ref:`part-genacct` in this book are dedicated to general and analytic accounting.
@@ -881,7 +880,7 @@ Keep track of your Cash Moves by using the new OpenERP Cash Box.
 .. i18n: ==========================
 ..
 
-Lead & Inspire your People
+管理提升员工士气
 ==========================
 
 .. i18n: OpenERP's Human Resources Management Business Application provides functionality such as:
@@ -952,7 +951,7 @@ organization and to the management of a services business.
 .. i18n: ===================
 ..
 
-Drive your Projects
+掌控项目管理
 ===================
 
 .. i18n: OpenERP's project management tools enable you to define tasks and specify requirements for those tasks, efficient allocation of resources to the requirements, project planning, scheduling and automatic communication with partners.
@@ -1001,7 +1000,7 @@ Project management is described in :ref:`ch-projects`.
 .. i18n: ==================
 ..
 
-Driving your Sales
+掌控销售管理
 ==================
 
 .. i18n: The :menuselection:`Sales` menu gives you roughly the same functionality as the
@@ -1038,7 +1037,7 @@ Delivery charges can be managed using a grid of tariffs for different carriers.
 .. i18n: ======================
 ..
 
-Driving your Purchases
+掌控采购管理
 ======================
 
 .. i18n: :menuselection:`Purchases` enables you to track your suppliers' price quotations and convert them into
@@ -1084,7 +1083,7 @@ You can also manage purchase requisitions to keep track of quotations sent to a 
 .. i18n: =======================
 ..
 
-Organise your Warehouse
+优化仓库管理
 =======================
 
 .. i18n: The various sub-menus under :menuselection:`Warehouse` together provide operations you need to manage stock.
@@ -1174,7 +1173,7 @@ various levels of detail.
 .. i18n: ======================
 ..
 
-Get Manufacturing Done
+提升生产能力
 ======================
 
 .. i18n: OpenERP's production management capabilities enable companies to plan, automate and track manufacturing and product assembly. OpenERP supports multi-level bills of materials and lets you substitute sub-assemblies dynamically, at the time of sales ordering. You can create virtual sub-assemblies for re-use on several products with phantom bills of materials.
@@ -1253,7 +1252,7 @@ and ranges. You can test the system using this data.
 .. i18n: ===========================================================================
 ..
 
-Share your Knowledge through Efficient Document Management and Being Mobile
+随时随时分享各种管理文档
 ===========================================================================
 
 .. i18n: OpenERP integrates a complete document management system that not only
@@ -1292,7 +1291,7 @@ The Knowledge system is also well-integrated with e-mail clients such as Thunder
 .. i18n: =================================
 ..
 
-Measure your Business Performance
+衡量您的业务性能
 =================================
 
 .. i18n: To measure your business performance OpenERP, provides two interesting features:
@@ -1379,7 +1378,7 @@ from the menu :menuselection:`Sales --> Reporting --> Sales Analysis`. You can s
 .. i18n: ========================
 ..
 
-Track your Process Flows
+工艺流程跟踪
 ========================
 
 .. i18n: Many documents have a workflow of their own, and also take part in cross-functional processes.
@@ -1450,7 +1449,7 @@ far better for documentation than similar systems.
 .. i18n: ==========
 ..
 
-Need More?
+还不满足？
 ==========
 
 .. i18n: You have been guided through a brisk, brief overview of many of the main functional areas of OpenERP.
@@ -1493,7 +1492,7 @@ it out on, just download and install the modules that appear interesting.
 .. i18n: =============
 ..
 
-Tips & Tricks
+提示与技巧
 =============
 
 .. i18n: Overview of Shortcut Keys
