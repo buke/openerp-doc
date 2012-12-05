@@ -124,24 +124,22 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 .. index:: 
    single: welcome page
    
-Personalizing the Welcome Page for Each User
+为每个用户个性化欢迎页面
 --------------------------------------------
 
 .. i18n: The administrator can change both the welcome page and the main menu page individually for each user
 .. i18n: of the system, and can adapt OpenERP to each role in the company to best fit the needs of everyone.
 ..
 
-The administrator can change both the welcome page and the main menu page individually for each user
-of the system, and can adapt OpenERP to each role in the company to best fit the needs of everyone.
+管理员能为每个用户设置欢迎页面和主菜单,以满足不同角色的需求.
 
 .. i18n: To make modifications for a particular user, edit the user configuration again in
 .. i18n: :menuselection:`Administration --> Users --> Users`. Open the form for a particular user, and select
 .. i18n: different menu entries for the two fields :guilabel:`Home Action` and :guilabel:`Menu Action`.
 ..
 
-To make modifications for a particular user, edit the user configuration again in
-:menuselection:`Administration --> Users --> Users`. Open the form for a particular user, and select
-different menu entries for the two fields :guilabel:`Home Action` and :guilabel:`Menu Action`.
+使用 :menuselection:`设置 --> 用户 --> 用户`  为特定用户修改设置.打开特定用户的表单,
+为 :guilabel:`主页动作` 和 :guilabel:`菜单动作` 字段选择不同的菜单项目。
 
 .. i18n: .. figure::  images/new_home.png
 .. i18n:    :scale: 75
@@ -167,9 +165,18 @@ different menu entries for the two fields :guilabel:`Home Action` and :guilabel:
 The :guilabel:`Home Action` is the menu item that is automatically opened when you first sign on,
 and is also reached when you click the :guilabel:`Home` link in the top right toolbar of the web
 client. There you can choose any page that you would reach through any menu – one of the dashboards
-could be most useful. The :guilabel:`Menu Action` is the one you reach through the menu
+could be most useful.
+
+
+The :guilabel:`Menu Action` is the one you reach through the menu
 :menuselection:`Form --> Menu` in the GTK client. You can choose the
 main menu and the dashboards there.
+
+
+:guilabel:`主页动作`  是当你第一次登陆是自动打开的菜单项目。当你在在WEB客户端的右上角工具条的 :guilabel:`Home` 链接上面点击时，
+也能到达。你这里能选择能通过菜单到达的任意页面 – 一个控制台是最有用的。
+在GTK 客户端，通过菜单 :menuselection:`表单 --> 菜单` ， :guilabel:`菜单动作` 可以是你能通过菜单到达的任意一个。
+
 
 .. i18n: .. tip:: Actions on the Administrator's Menu
 .. i18n: 
