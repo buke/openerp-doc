@@ -1,9 +1,8 @@
-
 .. i18n: Feature Requests
 .. i18n: ----------------
 ..
 
-Feature Requests
+新功能要求
 ----------------
 
 .. i18n: If you want to suggest or request some additional modules or functionality, you use the
