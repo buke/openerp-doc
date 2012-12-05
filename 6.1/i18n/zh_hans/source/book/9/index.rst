@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Google
 ..
@@ -12,18 +11,18 @@
 ..
 
 **************
-Google Modules
+Google 模块
 **************
 
 .. i18n: We have integrated some Google applications with OpenERP, which allow users to view OpenERP data on Google. Please take a look at the module descriptions.
 ..
 
-We have integrated some Google applications with OpenERP, which allow users to view OpenERP data on Google. Please take a look at the module descriptions.
+OpenERP集成了谷歌应用, 可以在Google上访问OpenERP数据, 请参考模块描述.
 
 .. i18n: Path to get Modules: lp:~openerp-commiter/openobject-addons/trunk-extra-addons
 ..
 
-Path to get Modules: lp:~openerp-commiter/openobject-addons/trunk-extra-addons
+请移步到: lp:~openerp-commiter/openobject-addons/trunk-extra-addons 下载模块.
 
 .. i18n: .. raw:: html
 .. i18n: 
