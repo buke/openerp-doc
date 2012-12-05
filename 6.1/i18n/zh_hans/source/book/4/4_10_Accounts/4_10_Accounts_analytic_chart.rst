@@ -400,7 +400,7 @@ The same data can be used for automatic recharging of the services to the client
 .. i18n: ---------------------------
 ..
 
-Case 3: IT服务行业
+案例 3: IT服务行业
 ---------------------------
 
 .. i18n: Most IT service companies face the following problems:
