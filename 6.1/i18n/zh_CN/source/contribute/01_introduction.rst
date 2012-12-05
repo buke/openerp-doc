@@ -66,7 +66,7 @@
 
 .. _community_platform:
 
-Launchpad, 社区协作平台
+Launchpad 社区协作平台
 -----------------------------
 
 .. i18n: We use `Launchpad.net <https://launchpad.net>`_, an open source project
