@@ -1,4 +1,3 @@
-
 .. i18n: .. _openerp-team:
 .. i18n: 
 .. i18n: Working in teams
@@ -7,7 +6,7 @@
 
 .. _openerp-team:
 
-Working in teams
+如何在团队中工作
 ----------------
 
 .. i18n: .. index::
