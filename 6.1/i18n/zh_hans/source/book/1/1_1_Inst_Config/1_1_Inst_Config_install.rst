@@ -3,7 +3,7 @@
 .. i18n: ===========================
 ..
 
-The Installation of OpenERP
+安装 OpenERP
 ===========================
 
 .. i18n: Whether you are from a small company investigating how OpenERP works, or you are part of the IT staff of a
@@ -27,10 +27,10 @@ sections.
 .. i18n:    :widths: 20,15,15,30
 .. i18n: 
 .. i18n:    "OpenERP Demo","No installation","Simple","Very useful for quick evaluations because no need to install anything."
-.. i18n:    "All-in-one Windows Installer","A few minutes","Simple","Very useful for quick evaluations because it installs all of the components pre-configured on one computer (using the GTK client)."
-.. i18n:    "Independent installation on Windows","Half an hour","Medium","Enables you to install the components on different computers. Can be put into production use."
-.. i18n:    "Ubuntu Linux packages","A few minutes","Simple","Simple and quick but the Ubuntu packages are not always up to date."
-.. i18n:    "From source, for all Linux systems","More than half an hour","Medium to slightly difficult","This is the method recommended for production environments because it is easy to keep it up to date."
+.. i18n:    "All-in-one Windows Installer","A few minutes","Simple","Very useful for quick evaluations because it installs all of the components pre-configured on one computer (using the GTK client)."
+.. i18n:    "Independent installation on Windows","Half an hour","Medium","Enables you to install the components on different computers. Can be put into production use."
+.. i18n:    "Ubuntu Linux packages","A few minutes","Simple","Simple and quick but the Ubuntu packages are not always up to date."
+.. i18n:    "From source, for all Linux systems","More than half an hour","Medium to slightly difficult","This is the method recommended for production environments because it is easy to keep it up to date."
 ..
 
 .. csv-table:: Comparison of the different methods of installation on Windows or Linux
@@ -38,10 +38,10 @@ sections.
    :widths: 20,15,15,30
 
    "OpenERP Demo","No installation","Simple","Very useful for quick evaluations because no need to install anything."
-   "All-in-one Windows Installer","A few minutes","Simple","Very useful for quick evaluations because it installs all of the components pre-configured on one computer (using the GTK client)."
-   "Independent installation on Windows","Half an hour","Medium","Enables you to install the components on different computers. Can be put into production use."
-   "Ubuntu Linux packages","A few minutes","Simple","Simple and quick but the Ubuntu packages are not always up to date."
-   "From source, for all Linux systems","More than half an hour","Medium to slightly difficult","This is the method recommended for production environments because it is easy to keep it up to date."
+   "All-in-one Windows Installer","A few minutes","Simple","Very useful for quick evaluations because it installs all of the components pre-configured on one computer (using the GTK client)."
+   "Independent installation on Windows","Half an hour","Medium","Enables you to install the components on different computers. Can be put into production use."
+   "Ubuntu Linux packages","A few minutes","Simple","Simple and quick but the Ubuntu packages are not always up to date."
+   "From source, for all Linux systems","More than half an hour","Medium to slightly difficult","This is the method recommended for production environments because it is easy to keep it up to date."
 
 .. i18n: Each time a new release of OpenERP is made, OpenERP supplies a complete Windows auto-installer for
 .. i18n: it. This contains all of the components you need – the PostgreSQL database server, the OpenERP
@@ -188,7 +188,7 @@ of setting up the database, and is covered in the final section of this chapter 
 .. i18n: -----------------------------------
 ..
 
-Independent Installation on Windows
+Windows 独立安装
 -----------------------------------
 
 .. i18n: System administrators can have very good reasons for wanting to install the various components of a
@@ -226,7 +226,7 @@ full and current details.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Connecting Users on Other PCs to the OpenERP Server
+从其它计算机访问 OpenERP Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To connect other computers to the OpenERP server, you must set the server up so that it is
@@ -363,7 +363,7 @@ you have **successfully connected** to an OpenERP server containing, as yet, no 
 	NET-RPC is quite a bit quicker, although you may not notice that on the GTK client in normal use.
 	OpenERP can run XML-RPC, but not NET-RPC, as a secure connection.
 	
-Resolving Errors with a Windows Installation
+解决 Windows 安装中的错误
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: If you cannot get OpenERP to work after installing your Windows system you will find some ideas for
@@ -379,7 +379,7 @@ resolving this below:
 .. i18n: 
 .. i18n: #. Is the OpenERP Server set up correctly? Signed in to the server as
 .. i18n:    Administrator, open the file \ ``openerp-server.conf``\  in \
-.. i18n:    ``C:\Program Files\OpenERP AllInOne``\  and check its content. This file is generated during
+.. i18n:    ``C:\Program Files\OpenERP AllInOne``\  and check its content. This file is generated during
 .. i18n:    installation with information derived from the database. If you see something strange it is best to
 .. i18n:    entirely reinstall the server from the demonstration installer rather than try to work out what is
 .. i18n:    happening.
@@ -391,7 +391,7 @@ resolving this below:
 
 #. Is the OpenERP Server set up correctly? Signed in to the server as
    Administrator, open the file \ ``openerp-server.conf``\  in \
-   ``C:\Program Files\OpenERP AllInOne``\  and check its content. This file is generated during
+   ``C:\Program Files\OpenERP AllInOne``\  and check its content. This file is generated during
    installation with information derived from the database. If you see something strange it is best to
    entirely reinstall the server from the demonstration installer rather than try to work out what is
    happening.
@@ -434,7 +434,7 @@ resolving this below:
 .. i18n:    number of the server must be 8069 using the protocol XML-RPC.
 .. i18n: 
 .. i18n: #. Is there anything else in the server's history that can help you identify the problem? Open the file
-.. i18n:    \ ``openerp-server.log``\  in \ ``C:\Program Files\OpenERP AllInOne``\  
+.. i18n:    \ ``openerp-server.log``\  in \ ``C:\Program Files\OpenERP AllInOne``\  
 .. i18n:    (which you can only do when the server is stopped) and scan through the
 .. i18n:    history for ideas. If something looks strange there, contributors to the OpenERP forums can often
 .. i18n:    help identify the reason.
@@ -465,7 +465,7 @@ resolving this below:
    number of the server must be 8069 using the protocol XML-RPC.
 
 #. Is there anything else in the server's history that can help you identify the problem? Open the file
-   \ ``openerp-server.log``\  in \ ``C:\Program Files\OpenERP AllInOne``\  
+   \ ``openerp-server.log``\  in \ ``C:\Program Files\OpenERP AllInOne``\  
    (which you can only do when the server is stopped) and scan through the
    history for ideas. If something looks strange there, contributors to the OpenERP forums can often
    help identify the reason.
@@ -481,7 +481,7 @@ resolving this below:
 .. i18n: ------------------------------
 ..
 
-Installation on Linux (Ubuntu)
+Linux (Ubuntu) 安装
 ------------------------------
 
 .. i18n: This section guides you through installing the OpenERP server and client on Ubuntu, one of the
@@ -531,7 +531,7 @@ more up to date instructions for the Ubuntu distribution as well.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Technical Procedure: Initial Installation and Configuration
+技术过程: 初始化安装和配置
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Upgrade of Ubuntu packages and installation of OpenERP and pgadmin::
@@ -845,7 +845,7 @@ likely to be far more up to date than that available from a Linux distribution.
 	and the latest version.
 	
 	
-Manual Installation of the OpenERP Server
+手动安装 OpenERP Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: In this section you will see how to install OpenERP by downloading it from the site
@@ -972,7 +972,7 @@ seconds or so, which indicates that the server is waiting for a client to connec
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Manual Installation of OpenERP GTK Clients
+手动安装 OpenERP GTK 客户端
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To install an OpenERP GTK client, follow the steps outlined in the website installation document for
@@ -1012,7 +1012,7 @@ database on the server.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Creating the Database
+创建数据库
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: You can connect other GTK clients over the network to your Linux server. Before you leave your
@@ -1129,7 +1129,7 @@ the network – your browser should be set to http://<server_address>:8069 for t
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Verifying your Linux Installation
+检查您的 Linux 安装
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: .. index::
