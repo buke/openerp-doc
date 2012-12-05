@@ -37,7 +37,7 @@ Google 翻译
 .. i18n: **Before Translation**
 ..
 
-**Before Translation**
+**翻译前**
 
 .. i18n: .. figure::  images/translate.png
 .. i18n:    :scale: 50
@@ -51,7 +51,7 @@ Google 翻译
 .. i18n: **After Translation**
 ..
 
-**After Translation**
+**翻译后**
 
 .. i18n: .. figure::  images/translate_dest.png
 .. i18n:    :scale: 50
