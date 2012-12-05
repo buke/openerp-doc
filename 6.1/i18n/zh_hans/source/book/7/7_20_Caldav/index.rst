@@ -1,4 +1,3 @@
-
 .. i18n: .. _ch-sync:
 .. i18n: 
 .. i18n: Synchronizing your Calendars (CalDAV)
@@ -7,7 +6,7 @@
 
 .. _ch-sync:
 
-Synchronizing your Calendars (CalDAV)
+同步日历(CalDAV)
 =====================================
 
 .. i18n: As from OpenERP Version 6.0, :mod:`document_webdav` v2.2, the iPhone has been thoroughly
@@ -35,7 +34,7 @@ accessible through the GTK or Web OpenERP clients cannot be included into Calend
 .. i18n: Some modules need to be installed on the OpenERP server. These are:
 ..
 
-OpenERP Server Setup
+OpenERP Server 配置
 --------------------
 Some modules need to be installed on the OpenERP server. These are:
 
@@ -68,9 +67,9 @@ The OpenERP administrator can add more calendars and (re)structure if needed.
 .. i18n: .. To be documented.
 ..
 
-.. DNS Server Setup
+.. DNS Server 配置
 .. ----------------
-.. To be documented.
+.. 相关配置文档筹备中.
 
 .. i18n: SSL Setup
 .. i18n: ---------
@@ -83,7 +82,7 @@ The OpenERP administrator can add more calendars and (re)structure if needed.
 .. i18n: one of the "big" certificate authorities).
 ..
 
-SSL Setup
+SSL 配置
 ---------
 It is highly advisable that you also set up SSL to work for the OpenERP
 server. HTTPS is a server-wide feature in OpenERP, which means a 
@@ -97,7 +96,7 @@ one of the "big" certificate authorities).
 .. i18n: -------------------
 ..
 
-Calendars on iPhone
+iPhone 设备日历
 -------------------
 
 .. i18n: To set up the calendars, proceed as follows:
@@ -206,7 +205,7 @@ you will first need to let the iPhone trust the certificate. Follow these steps:
 .. i18n: --------------------
 ..
 
-Calendars on Android
+Android 设备日历
 --------------------
 
 .. i18n: Prerequisites
@@ -216,7 +215,7 @@ Calendars on Android
 .. i18n: from Hypermatix Software (for now, it is the only one).
 ..
 
-Prerequisites
+使用条件
 *************
 There is no built-in way to synchronize calendars with CalDAV.
 So you need to install a third party software: Calendar (CalDav) Sync BETA 
@@ -226,7 +225,7 @@ from Hypermatix Software (for now, it is the only one).
 .. i18n: *****************
 ..
 
-How to Configure?
+配置步骤
 *****************
 
 .. i18n: 1. Open the ``Calendar Sync`` application.
@@ -235,10 +234,10 @@ How to Configure?
 .. i18n: 2. On the `Connection` tab, in CalDAV Calendar URL, type a URL such as http://my.server.ip:8069/webdav/dbname/calendars/users/demo/c/Meetings.
 ..
 
-1. Open the ``Calendar Sync`` application.
-   You get an interface with 2 tabs.
+1. 打开 ``Calendar Sync`` 应用.
+   打开后，界面上应该会有两个页面.
    
-2. On the `Connection` tab, in CalDAV Calendar URL, type a URL such as http://my.server.ip:8069/webdav/dbname/calendars/users/demo/c/Meetings.
+2. 在 `Connection` 页面中, 找到 CalDAV 日历链接, 输入你的OpenERP 日历地址 "http://my.server.ip:8069/webdav/dbname/calendars/users/demo/c/Meetings" 。
 
 .. i18n:    .. tip:: Go to :menuselection:`Sales --> Meetings --> Synchronize this Calendar` and select ``Android``. Then the Caldav server link will be shown. Make sure to use the correct XML-RPC port, it may differ from 8069.
 ..
@@ -252,9 +251,9 @@ How to Configure?
 .. i18n: 5. Then you can synchronize manually or customize the settings (`Sync` tab) to synchronize every X minutes.
 ..
 
-3. Type your OpenERP username and password.
+3. 输入你的OpenERP帐户及密码.
 
-4. If your server does not use SSL, you will get a warning. Answer ``Yes``.
+4. 如果你的OpenERP没有配置SSL，会接受一个关于SSL的警告，请选择 ``Yes``.
 
 5. Then you can synchronize manually or customize the settings (`Sync` tab) to synchronize every X minutes.
 
@@ -262,7 +261,7 @@ How to Configure?
 .. i18n: ----------------------
 ..
 
-Calendars in Evolution
+Evolution 日历
 ----------------------
 
 .. i18n: 1. Go to Calendar View.
@@ -314,7 +313,7 @@ Calendars in Evolution
 .. i18n: ------------------------------
 ..
 
-Calendars in Sunbird/Lightning
+Sunbird/Lightning 日历
 ------------------------------
 
 .. i18n: Prerequisites
@@ -323,7 +322,7 @@ Calendars in Sunbird/Lightning
 .. i18n: http://www.mozilla.org/projects/calendar/lightning/
 ..
 
-Prerequisites
+使用条件
 *************
 If you are using Thunderbird, first install the Lightning module
 http://www.mozilla.org/projects/calendar/lightning/
@@ -332,7 +331,7 @@ http://www.mozilla.org/projects/calendar/lightning/
 .. i18n: *************
 ..
 
-Configuration
+配置
 *************
 
 .. i18n: 1. Go to Calendar View.
