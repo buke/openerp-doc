@@ -461,11 +461,6 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 .. i18n: You then have the choice of translating:
 ..
 
-You can also change labels and other screen items on screen in the web client. 
-To do that, open the form that you want to translate, then click the 
-:guilabel:`Translate` icon to its bottom right. 
-You then have the choice of translating:
-
 你还能通过客户端界面在WEB客户端改变标签和其它屏幕上的项目。要做到这一点，打开你要翻译的表单，然后点击其右下角的
 :guilabel:`翻译`  图标。
 然后，你有的翻译选择：
