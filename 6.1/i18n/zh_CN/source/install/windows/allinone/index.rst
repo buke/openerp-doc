@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; OpenERP All-In-One (Windows)
 .. i18n:    single: OpenERP All-In-One; Installation (Windows)
@@ -19,7 +18,7 @@
 .. i18n: ===============================
 ..
 
-OpenERP All-In-One Installation
+OpenERP完整（All-In-One）安装
 ===============================
 
 .. i18n: Each time a new release of OpenERP is made, OpenERP supplies a complete Windows auto-installer for
@@ -27,9 +26,7 @@ OpenERP All-In-One Installation
 .. i18n: application server and the GTK application client.
 ..
 
-Each time a new release of OpenERP is made, OpenERP supplies a complete Windows auto-installer for
-it. This contains all of the components you need – the PostgreSQL database server, the OpenERP
-application server and the GTK application client.
+每当有新的版本的时候，OpenERP都会提供一个完整的Windows自动安装包。安装包包含你需要的所有组件 – PostgreSQL数据库服务器，OpenERP应用服务器，GTK应用客户端以及WEB客户端。
 
 .. i18n: This auto-installer enables you to install the whole system in just a few mouse clicks. The initial
 .. i18n: configuration is set up during installation, making it possible to start using it very quickly, as
@@ -38,17 +35,13 @@ application server and the GTK application client.
 .. i18n: well.
 ..
 
-This auto-installer enables you to install the whole system in just a few mouse clicks. The initial
-configuration is set up during installation, making it possible to start using it very quickly, as
-long as you do not want to change the underlying code. It is aimed at the installation of everything
-on a single PC, but you can later connect GTK clients from other PCs, Macs and Linux boxes to it as
-well.
+这个自动安装包能够让你仅仅点击几次鼠标就可以安装整个系统。在安装过程中完成初步配置，系统可以很快好用，无需改变底层代码。虽然安装包倾向于在单机上安装所有的东西，你还可以从其它的PC机、Mac机、Linux盒子连接GTK客户端。
 
 .. i18n: Downloading OpenERP All-In-One
 .. i18n: ------------------------------
 ..
 
-Downloading OpenERP All-In-One
+下载OpenERP完整安装包
 ------------------------------
 
 .. i18n: The first step is to download the OpenERP All-In-One installer. At this stage, you must choose which version
@@ -56,9 +49,7 @@ Downloading OpenERP All-In-One
 .. i18n: into production we strongly advise you to choose the stable version.
 ..
 
-The first step is to download the OpenERP All-In-One installer. At this stage, you must choose which version
-to install – the stable version or the development version. If you are planning to put it straight
-into production we strongly advise you to choose the stable version.
+第一步是下载OpenERP完整安装包。在这个阶段，必须选择哪个版本 – 稳定版或开发版。如果你想直接用于生产，那么我们强烈推荐你选择稳定版。
 
 .. i18n: .. index::
 .. i18n:    single: OpenERP versions
@@ -81,18 +72,13 @@ into production we strongly advise you to choose the stable version.
 .. i18n: 	released through the year on the stable branch.
 ..
 
-.. note::  Stable Versions and Development Versions
+.. note::  稳定版和开发版
 
-	OpenERP development proceeds in two parallel tracks: stable versions and development versions.
+	OpenERP开发双轨平行进行有稳定版和开发版。
 
-	New functionality is integrated into the development branch. This branch is more advanced than the
-	stable branch, but it can contain undiscovered and unfixed faults. A new development release is
-	made every month or so, and OpenERP has made the code repository available so you can download the
-	very latest revisions if you want.
+	新功能整合到开发分支。这个分支比稳定版分支先进，但是可能还有未发现和未解决的问题。开发版约每月发布一次，你可以从OpenERP代码库下载最新的版本。
 
-	The stable branch is designed for production environments. Here, releases of new functionality are
-	made only about once a year after a long period of testing and validation. Only bug fixes are
-	released through the year on the stable branch.
+	稳定版是为生产环境设计的。新功能版本要经过长期测试和验证后（大概）一年发布一次；  这个当中仅仅发布BUG补丁。
 
 .. i18n: .. index::
 .. i18n:    single: installation; Windows (all-in-one)
@@ -104,7 +90,7 @@ into production we strongly advise you to choose the stable version.
 .. i18n: To download OpenERP for Windows, follow these steps:
 ..
 
-To download OpenERP for Windows, follow these steps:
+按照以下步骤下载用于Windows的OpenERP：
 
 .. i18n: #. Navigate to the site http://www.openerp.com.
 .. i18n: 
@@ -119,17 +105,15 @@ To download OpenERP for Windows, follow these steps:
 .. i18n:    the PostgreSQL database system (version 8.3, at the time of writing), so it will take some time.
 ..
 
-#. Navigate to the site http://www.openerp.com.
+#. 访问站点：http://www.openerp.com。
 
-#. Click the :menuselection:`Downloads` button at the right, then, under :guilabel:`Windows Auto-Installer`, select
-   **All-In-One**.
+#. 点击右边 :menuselection:`Downloads` 按钮，然后在 :guilabel:`Windows Auto-Installer`下面选择 **All-In-One**.
 
-#. Before you can proceed with the download, you will be asked to fill an online form with your contact and company details and information regarding your interest in OpenERP.
+#. 在可以下载之前，你将被要求填写一个在线表格：你的联系方式和公司详情以及有关你对OpenERP兴趣的信息。
 
-#. Once you submit the online form, the All-In-One Windows installer is automatically downloaded.
+#. 提交在线表格之后，Windows完整安装包就可自动下载了。
 
-#. Save the file on your PC - it is quite a substantial size because it downloads everything including
-   the PostgreSQL database system (version 8.3, at the time of writing), so it will take some time.
+#. 在你的PC上保存文件 – 因为要下载包含PostSQL数据库系统（撰写此文的时候版本是8.3）的所有东西，尺寸确实有些大，下载要费点时间。
 
 .. i18n: .. index::
 .. i18n:    single:  installation; administrator
