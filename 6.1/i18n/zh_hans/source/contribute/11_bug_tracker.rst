@@ -1,4 +1,3 @@
-
 .. i18n: .. _bug_management:
 .. i18n: 
 .. i18n: Bug Reports and Bug Processing
@@ -7,7 +6,7 @@
 
 .. _bug_management:
 
-Bug Reports and Bug Processing
+Bug 的提交和 Bug 的处理
 ------------------------------
 
 .. i18n: .. _bug-tracker-link:
@@ -18,7 +17,7 @@ Bug Reports and Bug Processing
 
 .. _bug-tracker-link:
 
-Bug Tracker
+Bug 跟踪
 +++++++++++
 
 .. i18n: As described in the :ref:`community_platform` section, OpenERP uses
@@ -119,7 +118,7 @@ each OpenERP project:
 
 .. _bug_definition:
 
-Definition of a bug
+Bug 的定义
 +++++++++++++++++++
 At the risk of stating the obvious, here are a few key points to keep in mind
 concerning the definition of an OpenERP bug.
@@ -183,7 +182,7 @@ a blueprint for change/improvement.
 
 .. _bug_processing:
 
-Bug Processing
+Bug 的处理
 ++++++++++++++
 
 .. i18n: The following figure depicts the generic Bug Handling Process currently applied
@@ -236,7 +235,7 @@ The processing of bugs is divided up into several successive main stages:
 .. i18n: properly set:
 ..
 
-Bug Qualification
+Bug 的信息
 *****************
 In order to properly qualify each bug, the following attributes must be
 properly set:
@@ -430,7 +429,7 @@ or by the R&D team to indicate when they plan to release the fix.
 
 .. _bug_policy:
 
-Bug Management Policy
+Bug 管理策略
 +++++++++++++++++++++
 
 .. i18n: .. topic:: OpenERP Bug Policy
@@ -626,7 +625,7 @@ implement continuous improvement, with distinct **goals**!
 
 .. _bug_policy_faq:
 
-Bug Management FAQ
+Bug 管理 FAQ
 ******************
 .. topic:: 1. What is the policy regarding bugs encountered by users of the OpenERP Online Offer?
 
