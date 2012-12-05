@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Guided Tour
 ..
@@ -85,9 +84,9 @@
 
 .. _ch-guided: 
 
-***********
-Guided Tour
-***********
+*****************
+OpenERP 漫游指南
+*****************
 
  *Starting to discover OpenERP, using demonstration data supplied with the system, is a good way to
  familiarize yourself with the user interface.
