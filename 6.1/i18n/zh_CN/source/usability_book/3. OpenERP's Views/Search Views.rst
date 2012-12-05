@@ -65,7 +65,7 @@ The terminology used to qualify each element of the search view are related to b
 .. i18n: Some buttons allow users to group by elements, for example, salesman can group by customer and see, for each customer, all the sale orders they have made. 
 ..
 
-有些按钮允许用户按元素分，例如，销售员能根据客户分组和查看他们所制作的每个客户的所有销售单。 
+有些按钮允许用户按元素分组，例如，销售员能根据客户分组和查看他们所制作的每个客户的所有销售单。 
 
 .. i18n: .. figure:: Pictures/3.2group_by.png
 .. i18n:    :align: center
