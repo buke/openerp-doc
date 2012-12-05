@@ -1,4 +1,3 @@
-
 .. i18n: .. _module-technical-guide-link:
 .. i18n: 
 .. i18n: Module Technical Guide: Introspection report on objects
@@ -7,7 +6,7 @@
 
 .. _module-technical-guide-link:
 
-Module Technical Guide: Introspection report on objects
+模块技术指南: Introspection report on objects
 =======================================================
 
 .. i18n: .. toctree::
