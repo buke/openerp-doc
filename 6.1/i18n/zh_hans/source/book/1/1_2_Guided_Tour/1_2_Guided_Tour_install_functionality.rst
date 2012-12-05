@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:   single: module; new functionality
 ..
@@ -10,7 +9,7 @@
 .. i18n: ============================
 ..
 
-Installing New Functionality
+添加系统新业务
 ============================
 
 .. i18n: All of OpenERP's functionality is contained in its many and various modules. Many of these, the
@@ -46,7 +45,7 @@ installation. Then you will install a CRM module to complete your existing datab
 .. i18n: -------------------------
 ..
 
-Updating the Modules list
+更新模块列表
 -------------------------
 
 .. i18n: Click :menuselection:`Administration --> Modules --> Update Modules List` to start the
@@ -122,7 +121,7 @@ and how many existing modules were updated. Click :guilabel:`Open Modules` to re
 .. i18n: --------------------------------------
 ..
 
-The Configuration / Reconfigure Wizard
+配置及重运行配置向导
 --------------------------------------
 
 .. i18n: One of the new features of OpenERP is the :guilabel:`Configuration` wizard. Once run, the :guilabel:`Reconfigure` shortcut will appear. This wizard provides an easy way to install modules, thanks to its user-friendly and easy-to-use interface. The user may invoke this wizard at his own convenience using the shortcut :guilabel:`Reconfigure`, found just below the database and user name in the web interface or in the Shortcut menu in the GTK client. The same Configuration dialog box appears that you may have encountered at the time of installing a new database. Why did we call it the :guilabel:`Reconfigure` wizard? Indeed, because it allows the user to review installed applications and install related additional features or simply to install new applications on the fly.
@@ -166,7 +165,7 @@ load your system with additional features, you may invoke the :guilabel:`Reconfi
 .. i18n: --------------------------------------------------------
 ..
 
-Installing an Application / Module from the Modules list
+安装新模块及应用
 --------------------------------------------------------
 
 .. i18n: .. index::
@@ -253,7 +252,7 @@ see the new menu :menuselection:`Products` has become available.
 .. i18n: -----------------------------------------
 ..
 
-Installing a Module with its Dependencies
+安装模块及其依赖模块
 -----------------------------------------
 
 .. i18n: .. index::
@@ -391,7 +390,7 @@ installing because you have to handle existing system data.
 .. i18n: -----------------------------------
 ..
 
-Installing Additional Functionality
+安装附加功能
 -----------------------------------
 
 .. i18n: To discover the full range of OpenERP's possibilities, you can install many additional modules.
