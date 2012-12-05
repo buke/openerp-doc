@@ -1,16 +1,15 @@
-
 .. i18n: Communication
 .. i18n: -------------
 ..
 
-Communication
+交流
 -------------
 
 .. i18n: Forums
 .. i18n: ++++++
 ..
 
-Forums
+论坛
 ++++++
 
 .. i18n: .. index::
@@ -32,7 +31,7 @@ Forums
 
 .. _users-forum-link:
 
-Users - Forum
+用户 - 论坛
 """""""""""""
 
 .. i18n: URL: http://openerp.com/forum/general-discussion-f11.html
@@ -61,7 +60,7 @@ forum.
 
 .. _developers-forum-link:
 
-Developers - Forum
+开发者 - 论坛
 """"""""""""""""""
 
 .. i18n: URL: http://openerp.com/forum/general-questions-f37.html
@@ -96,14 +95,14 @@ IRC
 .. i18n: +++++++++++++
 ..
 
-Mailing Lists
+邮件列表
 +++++++++++++
 
 .. i18n: Users Mailing List
 .. i18n: """"""""""""""""""
 ..
 
-Users Mailing List
+用户邮件列表
 """"""""""""""""""
 
 .. i18n: This mailing list serves the same purpose as the :ref:`Users Forum <users-forum-link>`
@@ -120,7 +119,7 @@ http://tiny.be/mailman/listinfo/tinyerp-users: the web interface to manage your 
 .. i18n: """"""""""""""""""""""
 ..
 
-Technical Mailing List
+技术邮件列表
 """"""""""""""""""""""
 
 .. i18n: This mailing list serves the same purpose as the :ref:`Developers Forum <developers-forum-link>`
@@ -137,7 +136,7 @@ http://tiny.be/mailman/listinfo/tinyerp-devel: the web interface to manage your 
 .. i18n: """""""""""""""""""""
 ..
 
-Partners Mailing List
+合作伙伴邮件列表
 """""""""""""""""""""
 
 .. i18n: This is the partner communication canal. It is used to ask about skills or
@@ -203,7 +202,7 @@ To keep you aware about what is improved on this wiki, use this RSS feed:
 .. i18n: ++++
 ..
 
-Blog
+博客
 ++++
 
 .. i18n: .. describe:: Where is Planet OpenERP located ?
