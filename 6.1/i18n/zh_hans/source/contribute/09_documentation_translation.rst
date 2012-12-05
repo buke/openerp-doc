@@ -1,4 +1,3 @@
-
 .. i18n: .. _documentation_translation:
 .. i18n: 
 .. i18n: OpenERP Documentation Translation
@@ -7,14 +6,14 @@
 
 .. _documentation_translation:
 
-OpenERP Documentation Translation
+OpenERP 文档翻译
 =================================
 
 .. i18n: Prerequisite
 .. i18n: ------------
 ..
 
-Prerequisite
+先决条件
 ------------
 
 .. i18n: You should be able to build the untranslated documentation. So `Sphinx
@@ -47,7 +46,7 @@ You can download the sources of the documentation from launchpad:
 .. i18n: -------------------------------------
 ..
 
-Understanding the directory structure
+理解目录结构
 -------------------------------------
 
 .. i18n: We are supposing that **<openobject-doc>** is the root of the Open Object
@@ -80,7 +79,7 @@ in **<openobject-doc>/i18n/fr/build/html** for example.
 .. i18n: +++++++
 ..
 
-Summary
+总览
 +++++++
 
 .. i18n: .. csv-table::
@@ -104,7 +103,7 @@ Summary
 .. i18n: --------------------------------------------
 ..
 
-Creating the translation directory structure
+创建翻译目录结构
 --------------------------------------------
 
 .. i18n: Use the **make** command (with target **i18n**) to create the translation
@@ -165,7 +164,7 @@ This command will do several things:
 .. i18n: ---------------------
 ..
 
-Translation templates
+翻译模版
 ---------------------
 
 .. i18n: The template structure for a given file is very simple. Each text section is
@@ -225,7 +224,7 @@ And here is the translated section: ::
 .. i18n: -----------------------
 ..
 
-Managing source changes
+源文件更改管理
 -----------------------
 
 .. i18n: If someone adds or changes something in the documentation, that section will
@@ -250,7 +249,7 @@ when you will rebuild the translation with *make i18n LANG=fr*.
 .. i18n: -------------------------------------------
 ..
 
-Building the documentation in your language
+以您的语言生成文档
 -------------------------------------------
 
 .. i18n: That is very simple because the directory and file structure is exactly the
@@ -288,7 +287,7 @@ And the html documentation will be built in *i18n/fr/build/html*.
 .. i18n: ----------------------
 ..
 
-Uploading to Launchpad
+上传到Launchpad
 ----------------------
 
 .. i18n: Once you have translated a few pages, you should commit back to launchpad.
@@ -318,7 +317,7 @@ To upload your modifications, you should commit on launchpad:
 .. i18n: ------
 ..
 
-Status
+状态
 ------
 
 .. i18n: At the moment, this script is in alpha status and has not been thoroughly
