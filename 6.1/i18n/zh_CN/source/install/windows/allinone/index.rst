@@ -245,7 +245,7 @@ OpenERP完整（All-In-One）安装
      :scale: 50
      :align: center
 
-     *End of setup wizard*
+     *结束安装向导*
 
 .. i18n: Connecting to OpenERP
 .. i18n: ---------------------
