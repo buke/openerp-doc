@@ -1,9 +1,8 @@
-
 .. i18n: Developing modules
 .. i18n: -------------------
 ..
 
-Developing modules
+开发模块
 -------------------
 
 .. i18n: .. index::
@@ -19,7 +18,7 @@ Developing modules
 .. i18n: ++++++++++++
 ..
 
-Introduction
+序
 ++++++++++++
 
 .. i18n: Here you will find information about the organisation of the community in
@@ -107,7 +106,7 @@ Our projects on launchpad are currently organised like this:
 .. i18n: +++++++++++++++
 ..
 
-Getting Sources
+获取源码
 +++++++++++++++
 
 .. i18n: Please refer to :ref:`how-to-get-the-latest-trunk-source-code-link` in the Bazaar section
@@ -124,7 +123,7 @@ If you don't know the Bazaar version control system, please read the :ref:`docum
 .. i18n: ++++++++++++++++
 ..
 
-Community Addons
+社区模块
 ++++++++++++++++
 
 .. i18n: OpenERP modules developed by the community were historically published in a shared source
@@ -326,21 +325,21 @@ If some refuse to open the projects to the community, it is always possibel to c
 .. i18n: +++++++++++++++
 ..
 
-Misc Guidelines
+其他规则
 +++++++++++++++
 
 .. i18n: Modules
 .. i18n: ^^^^^^^
 ..
 
-Modules
+模块
 ^^^^^^^
 
 .. i18n: Organisation of files in modules
 .. i18n: ################################
 ..
 
-Organisation of files in modules
+模块中的文件组织
 ################################
 
 .. i18n: .. === Organisation of files in modules ===
@@ -417,7 +416,7 @@ The structure of a module should be::
 .. i18n: ########
 ..
 
-Security
+权限
 ########
 
 .. i18n: Each object defined in your module must have at least one security rule
@@ -431,7 +430,7 @@ defined on it to make it accessible.
 .. i18n: #################
 ..
 
-Coding Guidelines
+编码指南
 #################
 
 .. i18n: Follow Python PEP 8: http://www.python.org/dev/peps/pep-0008/
@@ -450,7 +449,7 @@ Reporting
 .. i18n: #############
 ..
 
-General Style
+总体风格
 #############
 
 .. i18n:   * use the Helvetica font everywhere
@@ -590,14 +589,14 @@ General Style
 .. i18n: """""""
 ..
 
-Modules
+模块
 """""""
 
 .. i18n: Naming Convention
 .. i18n: ^^^^^^^^^^^^^^^^^
 ..
 
-Naming Convention
+命名惯例
 ^^^^^^^^^^^^^^^^^
 
 .. i18n: The name of the module are all lowercase, each word separated by underscores.
@@ -623,7 +622,7 @@ Example:
 .. i18n: ^^^^^^^^^^^^^^^^^^^^
 ..
 
-Information Required
+必要信息
 ^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Each module must contain at least:
@@ -642,14 +641,14 @@ Each module must contain at least:
 .. i18n: ^^^^^^^^^^^^^^^^^^^
 ..
 
-Modules Description
+模块描述
 ^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Dependencies
 .. i18n: ^^^^^^^^^^^^
 ..
 
-Dependencies
+描述
 ^^^^^^^^^^^^
 
 .. i18n: Each module must contain:
@@ -670,7 +669,7 @@ Each module must contain:
 .. i18n: ^^^^^^^^^^^^^^
 ..
 
-Module Content
+模块内容
 ^^^^^^^^^^^^^^
 
 .. i18n: Each module must contain demo data for every object defined in the module.
@@ -691,14 +690,14 @@ build such demo data.
 .. i18n: ^^^^^
 ..
 
-Menus
+菜单
 ^^^^^
 
 .. i18n: Naming Menus
 .. i18n: ############
 ..
 
-Naming Menus
+菜单命名
 ############
 
 .. i18n:   * Use plural forms: *Customer Invoice*, should be *Customer Invoices*
@@ -712,7 +711,7 @@ Naming Menus
 .. i18n: ##################
 ..
 
-Order of the menus
+菜单的顺序
 ##################
 
 .. i18n: The *Reporting* menu is at the bottom of the list, use a sequence=50.
@@ -724,7 +723,7 @@ The *Reporting* menu is at the bottom of the list, use a sequence=50.
 .. i18n: ###############
 ..
 
-Common Mistakes
+常见错误
 ###############
 
 .. i18n:   * Edit Categories -> Categories
@@ -738,7 +737,7 @@ Common Mistakes
 .. i18n: #################
 ..
 
-Search Criteria
+搜索条件
 #################
 
 .. i18n: Search criteria: search available on all columns of the list view
@@ -750,7 +749,7 @@ Search criteria: search available on all columns of the list view
 .. i18n: ^^^^^^^^^^^^^^^^
 ..
 
-Default Language
+默认语言
 ^^^^^^^^^^^^^^^^
 
 .. i18n: The default language for every development must be U.S. English.
@@ -772,7 +771,7 @@ For menus and fields, use uppercase for all first letters, excluding conjections
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Field Naming Conventions
+字段命名惯例
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n:   * many2one fields should respect this regex: '.*_id'
@@ -796,7 +795,7 @@ Field Naming Conventions
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Model Naming Conventions
+模型命名惯例
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: * All objects must start with the name of the module they are defined in.
@@ -810,7 +809,7 @@ Model Naming Conventions
 .. i18n: ^^^^^^^^^^^
 ..
 
-Terminology
+术语
 ^^^^^^^^^^^
 
 .. i18n:   * All Tree of resources are called *XXX's Structure*, unless a dedicated term exist for the concept
