@@ -1,11 +1,10 @@
-
 .. i18n: =======
 .. i18n: Reports
 .. i18n: =======
 ..
 
 =======
-Reports
+报表
 =======
 
 .. i18n: There are mainly three types of reports in OpenERP:
