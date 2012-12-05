@@ -1204,32 +1204,32 @@ Workflow
 .. i18n: -----------------------------------------------
 ..
 
-OpenERP Module Descriptor File : __openerp__.py
+OpenERP 模块描述文件 : __openerp__.py
 -----------------------------------------------
 
 .. i18n: Normal Module
 .. i18n: +++++++++++++
 ..
 
-Normal Module
+一般模块
 +++++++++++++
 
 .. i18n: In the created module directory, you must add a **__openerp__.py** file. This file, which must be in Python format, is responsible to
 ..
 
-In the created module directory, you must add a **__openerp__.py** file. This file, which must be in Python format, is responsible to
+在已创建模块的目录下，你必须添加一个__openerp__.py文件。这个文件必须在Python的格式下，负责：
 
 .. i18n:    1. determine the XML files that will be parsed during the initialization of the server, and also to
 .. i18n:    2. determine the dependencies of the created module.
 ..
 
-   1. determine the XML files that will be parsed during the initialization of the server, and also to
-   2. determine the dependencies of the created module.
+   1. 确定所需的XML文件，server在进行初始化时将从语法上分析这些文件。
+   2. 1.确定已创建模块的依赖。
 
 .. i18n: This file must contain a Python dictionary with the following values:
 ..
 
-This file must contain a Python dictionary with the following values:
+这个文件包括下面的值：
 
 .. i18n: **name**
 ..
@@ -1239,7 +1239,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The (Plain English) name of the module.
 ..
 
-    The (Plain English) name of the module.
+    (英文)名称.
 
 .. i18n: **version**
 ..
@@ -1249,7 +1249,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The version of the module.
 ..
 
-    The version of the module.
+    版本
 
 .. i18n: **description**
 ..
@@ -1259,7 +1259,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The module description (text).
 ..
 
-    The module description (text).
+    描述
 
 .. i18n: **author**
 ..
@@ -1269,8 +1269,8 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The author of the module.
 ..
 
-    The author of the module.
-
+    模块的作者
+	
 .. i18n: **website**
 ..
 
@@ -1279,7 +1279,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The website of the module.
 ..
 
-    The website of the module.
+    模块的网站
 
 .. i18n: **license**
 ..
@@ -1289,7 +1289,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     The license of the module (default:GPL-2).
 ..
 
-    The license of the module (default:GPL-2).
+    模块的授权协议(默认AGPL).
 
 .. i18n: **depends**
 ..
@@ -1299,7 +1299,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     List of modules on which this module depends. The base module must almost always be in the dependencies because some necessary data for the views, reports, ... are in the base module.
 ..
 
-    List of modules on which this module depends. The base module must almost always be in the dependencies because some necessary data for the views, reports, ... are in the base module.
+    列出该模块所依赖的其他模块，因为base模块包括模块必须的视图，报表等数据，所以base模块应该在其他所有模块的依赖中。
 
 .. i18n: **init_xml**
 ..
@@ -1329,7 +1329,7 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     True or False. Determines if the module is installable or not.
 ..
 
-    True or False. Determines if the module is installable or not.
+    True或是False，决定这个模块是否可安装。
 
 .. i18n: **active**
 ..
@@ -1339,19 +1339,19 @@ This file must contain a Python dictionary with the following values:
 .. i18n:     True or False (default: False). Determines the modules that are installed on the database creation.
 ..
 
-    True or False (default: False). Determines the modules that are installed on the database creation.
+    True或是False（默认是False），决定这个模块在数据库创建时是否安装。
 
 .. i18n: Example
 .. i18n: """""""
 ..
 
-Example
+示例
 """""""
 
 .. i18n: Here is an example of __openerp__.py file for the *product* module:
 ..
 
-Here is an example of __openerp__.py file for the *product* module:
+以product模块中的__openerp__.py为例：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1387,29 +1387,29 @@ Here is an example of __openerp__.py file for the *product* module:
 .. i18n: The files that must be placed in init_xml are the ones that relate to the workflow definition, data to load at the installation of the software and the data for the demonstrations.
 ..
 
-The files that must be placed in init_xml are the ones that relate to the workflow definition, data to load at the installation of the software and the data for the demonstrations.
+放置在init_xml中的文件必须要么是和工作流相关，要么是安装软件时装载数据相关，或是和示例数据相关。
 
 .. i18n: The files in **update_xml** concern: views, reports and wizards.
 ..
 
-The files in **update_xml** concern: views, reports and wizards.
+update_xml中的文件涉及到视图，报表和向导。
 
 .. i18n: Profile Module
 .. i18n: ++++++++++++++
 ..
 
-Profile Module
+Profile 模块
 ++++++++++++++
 
 .. i18n: The purpose of a profile is to initialize OpenERP with a set of modules directly after the database has been created. A profile is a special kind of module that contains no code, only *dependencies on other modules*.
 ..
 
-The purpose of a profile is to initialize OpenERP with a set of modules directly after the database has been created. A profile is a special kind of module that contains no code, only *dependencies on other modules*.
+一个profile的目的是在数据库创建后直接使用一组模块来初始化OpenERP。这个profile是一种特殊的模块，它不包含代码，只是 *依赖于其他的模块* 。
 
 .. i18n: In order to create a profile, you only have to create a new directory in server/addons (you *should* call this folder profile_modulename), in which you put an *empty* __init__.py file (as every directory Python imports must contain an __init__.py file), and a __openerp__.py whose structure is as follows :
 ..
 
-In order to create a profile, you only have to create a new directory in server/addons (you *should* call this folder profile_modulename), in which you put an *empty* __init__.py file (as every directory Python imports must contain an __init__.py file), and a __openerp__.py whose structure is as follows :
+为了创建一个新的profile，你需要在server/addons里建一个新目录（可以给它取名为profile_modulename）。在新目录里放一个空的__init__.py文件和__openerp__.py。这个文件的结构是：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1444,7 +1444,7 @@ In order to create a profile, you only have to create a new directory in server/
 .. i18n: """""""
 ..
 
-Example
+示例
 """""""
 
 .. i18n: Here's the code of the file
@@ -1452,9 +1452,7 @@ Example
 .. i18n: manufacturing industry profile in OpenERP.
 ..
 
-Here's the code of the file
-server/bin/addons/profile_manufacturing/__openerp__.py, which corresponds to the
-manufacturing industry profile in OpenERP.
+我们以文件server/bin/addons/profile_manufacturing/__openerp__.py中的代码为例，它对应着OpenERP中的manufacturing industry profile。
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1489,7 +1487,7 @@ manufacturing industry profile in OpenERP.
 .. i18n: ---------------
 ..
 
-Module creation
+创建模块
 ---------------
 
 .. i18n: Getting the skeleton directory
@@ -1502,7 +1500,7 @@ Getting the skeleton directory
 .. i18n: You can copy __openerp__.py and __init__.py from any other module to create a new module into a new directory.
 ..
 
-You can copy __openerp__.py and __init__.py from any other module to create a new module into a new directory.
+你可以从其他任意模块中复制文件__openerp__.py和__init__.py到一个新目录来创建一个新模块。
 
 .. i18n: As an example on Ubuntu:
 .. i18n: ::
@@ -1513,7 +1511,7 @@ You can copy __openerp__.py and __init__.py from any other module to create a ne
 .. i18n: 	sudo cp ~/workspace/stable/stable_addons_5.0/hr/__init__.py ~/workspace/stable/stable_addons_5.0/travel
 ..
 
-As an example on Ubuntu:
+Ubuntu中一个例子：
 ::
 
 	$ cd ~/workspace/stable/stable_addons_5.0/
@@ -1527,8 +1525,7 @@ As an example on Ubuntu:
 .. i18n:     $ sudo chown -R `whoami` travel
 ..
 
-You will need to give yourself permissions over that new directory if you want
-to be able to modify it: ::
+你如果想修改这个目录，你需要设置自己的权限在这个目录上: ::
 
     $ sudo chown -R `whoami` travel
 
@@ -1537,9 +1534,7 @@ to be able to modify it: ::
 .. i18n: definition...
 ..
 
-You got yourself the directory for a new module there, and a skeleton
-structure, but you still need to change a few things inside the module's
-definition...
+进入新模块的目录，里面有个框架结构，你仍需要去更改模块定义里面的东西。
 
 .. i18n: Changing the default definition
 .. i18n: +++++++++++++++++++++++++++++++
@@ -1556,9 +1551,7 @@ Changing the default definition
 .. i18n:     $ gedit __openerp__.py
 ..
 
-To change the default settings of the "travel" module,
-get yourself into the "travel" directory and edit *__openerp__.py* (with *gedit*,
-for example, a simple text editor. Feel free to use another one) ::
+为了更改模块“travel”里面的默认设置，我们需要进入“travel”目录，编辑__openerp__.py文件。 ::
 
     $ cd travel
     $ gedit __openerp__.py
@@ -1566,7 +1559,7 @@ for example, a simple text editor. Feel free to use another one) ::
 .. i18n: The file looks like this:
 ..
 
-The file looks like this:
+文件里面类似下面：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1638,7 +1631,7 @@ The file looks like this:
 .. i18n: You will want to change whichever settings you feel right and get something like this:
 ..
 
-You will want to change whichever settings you feel right and get something like this:
+你可能会更改任意你觉得正确的东西，像下面这样：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1676,7 +1669,7 @@ You will want to change whichever settings you feel right and get something like
 .. i18n: Note the "active" field becomes true.
 ..
 
-Note the "active" field becomes true.
+注意“active”字段变成了true。
 
 .. i18n: Changing the main module file
 .. i18n: +++++++++++++++++++++++++++++
@@ -1693,9 +1686,7 @@ Changing the main module file
 .. i18n:     so just consider them as a help and head towards the next two pages first...
 ..
 
-Now you need to update the travel.py script to suit the needs of your module.
-We suggest you follow the Flash tutorial for this or download the travel agency
-module from the 20 minutes tutorial page.  ::
+现在你需要更新travel.py脚本以满足你自己的模块的需要。我们建议你遵循Flash教程，或是从20minutes教程页面来下载travel agent模块。  ::
 
     The documentation below is overlapping the two next step in this wiki tutorial,
     so just consider them as a help and head towards the next two pages first...
@@ -1703,7 +1694,7 @@ module from the 20 minutes tutorial page.  ::
 .. i18n: The travel.py file should initially look like this:
 ..
 
-The travel.py file should initially look like this:
+travel.py文件应该看起来是这样：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1743,11 +1734,7 @@ The travel.py file should initially look like this:
 .. i18n: system structure for you when you install the module.
 ..
 
-Ideally, you would copy that bunch of code several times to create all the
-entities you need (travel_airport, travel_room, travel_flight). This is what
-will hold the database structure of your objects, but you don't really need to
-worry too much about the database side. Just filling this file will create the
-system structure for you when you install the module.
+理想情况下，你会拷贝那些代码几次来创建你所需要的实体（travel_airport, travel_room, travel_flight）。这就是你的对象的数据库结构，但是你真的不需要担心数据库端。当你安装模块时，这个文件会为你创建系统架构。
 
 .. i18n: Customizing the view
 .. i18n: ++++++++++++++++++++
@@ -1759,7 +1746,7 @@ Customizing the view
 .. i18n: You can now move on to editing the views. To do this, edit the custom_view.xml file. It should first look like this:
 ..
 
-You can now move on to editing the views. To do this, edit the custom_view.xml file. It should first look like this:
+接下来你可以编辑视图。编辑custom_view.xml文件，像这样：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1796,8 +1783,7 @@ You can now move on to editing the views. To do this, edit the custom_view.xml f
 .. i18n: people call accounting "comptabilité", which explains the compta bit).
 ..
 
-This is, as you can see, an example taken from an accounting system (French
-people call accounting "comptabilité", which explains the compta bit).
+就像你看到的，这是个accounting系统的例子。
 
 .. i18n: Defining a view is defining the interfaces the user will get when accessing
 .. i18n: your module. Just defining a bunch of fields here should already get you
@@ -1805,17 +1791,13 @@ people call accounting "comptabilité", which explains the compta bit).
 .. i18n: right, we recommend, once again, that download the travel agency module example from this link http://www.openerp.com/download/modules/5.0/.
 ..
 
-Defining a view is defining the interfaces the user will get when accessing
-your module. Just defining a bunch of fields here should already get you
-started on a complete interface. However, due to the complexity of doing it
-right, we recommend, once again, that download the travel agency module example from this link http://www.openerp.com/download/modules/5.0/.
+定义视图就是定义访问你的模块时的用户界面。这里定义的这些字段已经是一个完整的界面。然而，由于做这个的复杂性，我们建议，再一次，从链接http://www.openerp.com/download/modules/5.0/下载travel agent模块。
 
 .. i18n: Next you should be able to create different views using other files to separate
 .. i18n: them from your basic/admin view.
 ..
 
-Next you should be able to create different views using other files to separate
-them from your basic/admin view.
+下次你可以使用其他的文件来定义不同的视图，并且在你的basic/admin视图中分开它们。
 
 .. i18n: Action creation
 .. i18n: ---------------
@@ -1833,7 +1815,7 @@ Linking events to action
 .. i18n: The available type of events are:
 ..
 
-The available type of events are:
+可用类型的事件是：
 
 .. i18n:     * **client_print_multi** (print from a list or form)
 .. i18n:     * **client_action_multi** (action from a list or form)
@@ -1849,7 +1831,7 @@ The available type of events are:
 .. i18n: To map an events to an action:
 ..
 
-To map an events to an action:
+从事件到动作的映射是：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1875,12 +1857,12 @@ To map an events to an action:
 .. i18n: If you double click on a journal/period (object: account.journal.period), this will open the selected wizard. (id="action_move_journal_line_form_select").
 ..
 
-If you double click on a journal/period (object: account.journal.period), this will open the selected wizard. (id="action_move_journal_line_form_select").
+如果你双击journal/period (object: account.journal.period),将会打开一个选中的向导(id=”action_move_journal_line_form_select”).
 
 .. i18n: You can use a res_id field to allow this action only if the user click on a specific object.
 ..
 
-You can use a res_id field to allow this action only if the user click on a specific object.
+只是当用户点击特定的对象时，你可以使用res_id字段来允许这个动作。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1908,12 +1890,12 @@ You can use a res_id field to allow this action only if the user click on a spec
 .. i18n: The action will be triggered if the user clicks on the account.journal.period n°3.
 ..
 
-The action will be triggered if the user clicks on the account.journal.period n°3.
+当用户点击account.journal.period n°3时，这个动作将会触发。
 
 .. i18n: When you declare wizard, report or menus, the ir.values creation is automatically made with these tags:
 ..
 
-When you declare wizard, report or menus, the ir.values creation is automatically made with these tags:
+当你声明向导，报表或是菜单时，ir.values的创建会自动由下面的标签完成：
 
 .. i18n:   * <wizard... />
 .. i18n:   * <menuitem... />
@@ -1927,4 +1909,4 @@ When you declare wizard, report or menus, the ir.values creation is automaticall
 .. i18n: So you usually do not need to add the mapping by yourself.
 ..
 
-So you usually do not need to add the mapping by yourself.
+所以一般不需要自己加映射。
