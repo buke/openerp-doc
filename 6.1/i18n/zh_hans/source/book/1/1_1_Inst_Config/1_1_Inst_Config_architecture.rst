@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: architecture; OpenERP
 ..
@@ -10,7 +9,7 @@
 .. i18n: ===========================
 ..
 
-The Architecture of OpenERP
+OpenERP 架构
 ===========================
 
 .. i18n: To access OpenERP you can:
