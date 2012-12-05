@@ -58,12 +58,12 @@ OpenERP SA 为此专门成立了一个界面交互团队，持续改进易用性
 .. i18n: With about 200 full time developers, OpenERP is evolving every day. The usability team continuously looks for ideas to simplify OpenERP for new users.
 ..
 
-With about 200 full time developers, OpenERP is evolving every day. The usability team continuously looks for ideas to simplify OpenERP for new users.
+在大约200个全职开发人员的努力下，OpenERP 每天都在改进。界面交互团队也在不断寻找让OpenERP的新用户更容易使用的方法。
 
 .. i18n: These ideas are discussed between OpenERP SA, the official partners and members of the community. In order to discuss about ideas, we have setup an open `usability team on Launchpad`_ to discuss every proposition.
 ..
 
-These ideas are discussed between OpenERP SA, the official partners and members of the community. In order to discuss about ideas, we have setup an open `usability team on Launchpad`_ to discuss every proposition.
+OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为此，我们还建立了 `usability team on Launchpad`_ .  来专门讨论。
 
 .. i18n: You can also subscribe to the `usability mailing list`_ to be part of the main discussions about how to improve OpenERP's usability.
 ..
