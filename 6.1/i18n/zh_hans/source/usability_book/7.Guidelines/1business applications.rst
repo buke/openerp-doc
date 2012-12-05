@@ -1,18 +1,17 @@
-
 .. i18n: =====================
 .. i18n: Business Applications
 .. i18n: =====================
 ..
 
 =====================
-Business Applications
+业务应用
 =====================
 
 .. i18n: Defining new applications or completing existing ones
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Defining new applications or completing existing ones
+定义新的应用或完成已存在的应用
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: We usually try to define new business applications related to job positions in the enterprise. These are good examples of applications: Purchase, Sales, Accounting and Project. Don't create business application by features. These are bad examples of business applications: lunch orders management, expenses sheets, etc.
@@ -29,7 +28,7 @@ If you have specific features that don't belong in the existing business applica
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Configuration wizards of business applications.
+业务应用的配置向导
 +++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Each application must create an entry in the main base_setup wizard that shows all the possible business applications defined in quality certified modules only.
@@ -60,7 +59,7 @@ You can also create one configuration wizard dedicated to your business applicat
 .. i18n: ++++++++++++++++++++++++++++++++++++++
 ..
 
-Business Applications must be complete
+业务应用必须是完整的
 ++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Each user/role must be able to perform most of their tasks from one business application. For example, a salesman should see in his menu: Leads, Opportunities, Meetings, Sales Orders, Sales to Invoice, etc. He should not be forced to go to the accounting application to invoice the sales.
