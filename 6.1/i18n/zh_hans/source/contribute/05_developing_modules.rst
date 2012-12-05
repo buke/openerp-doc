@@ -18,7 +18,7 @@
 .. i18n: ++++++++++++
 ..
 
-序
+介绍
 ++++++++++++
 
 .. i18n: Here you will find information about the organisation of the community in
