@@ -1,4 +1,3 @@
-
 .. i18n: .. _translating_software:
 .. i18n: 
 .. i18n: OpenERP Translations
@@ -7,7 +6,7 @@
 
 .. _translating_software:
 
-OpenERP Translations
+OpenERP 翻译
 --------------------
 
 .. i18n: Within the OpenERP source code, all translatable terms are written in international
@@ -112,7 +111,7 @@ These two solutions also have different access rights requirements, as explained
 
 .. _translations_rosetta:
 
-Translating with Launchpad
+在Launchpad上翻译
 ++++++++++++++++++++++++++
 
 .. i18n: Launchpad provides a web-based translation interface, which can be
@@ -195,7 +194,7 @@ and `FAQ <https://answers.launchpad.net/rosetta/+faqs>`_.
 .. i18n: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ..
 
-Permissions for Translations on Launchpad
+Launchpad上的翻译权限
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: OpenERP uses `structured permissions <https://help.launchpad.net/Translations/YourProject/PermissionPolicies>`_ 
