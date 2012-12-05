@@ -1,39 +1,38 @@
-
 .. i18n: ****************
 .. i18n: Google Translate
 .. i18n: ****************
 ..
 
 ****************
-Google Translate
+Google 翻译
 ****************
 
 .. i18n: Name of the module:
 .. i18n: ``google_translate``
 ..
 
-Name of the module:
+模块名:
 ``google_translate``
 
 .. i18n: This module translates OpenERP terms/fields/objects etc. into any language using Google Translate.
 ..
 
-This module translates OpenERP terms/fields/objects etc. into any language using Google Translate.
+本模块可以将OpenERP 中terms/fields/objects等数据通过 Google 翻译服务翻译成Google翻译服务支持的其它语言。
 
 .. i18n: You can find the menu here: Administration/Translation/Application terms/Translation Terms and Need review terms.
 ..
 
-You can find the menu here: Administration/Translation/Application terms/Translation Terms and Need review terms.
+可以在菜单 Administration/Translation/Application terms/下找到 Translation Terms 和 Need review terms 翻译入口。
 
 .. i18n: Check the screenshots below which translate the phrase "how are you" into Chinese.
 ..
 
-Check the screenshots below which translate the phrase "how are you" into Chinese.
+下面的图例演示了模块如何将 "how are you" 翻译为简体中文:
 
 .. i18n: .. note:: If the Need Review field is True then it will translate the source value to destination by given language.
 ..
 
-.. note:: If the Need Review field is True then it will translate the source value to destination by given language.
+.. 注意:: 如果你设置了 Need Review 项 就能按给定的语言翻译。
 
 .. i18n: **Before Translation**
 ..
