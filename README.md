@@ -30,6 +30,17 @@ OpenERP 中文文档翻译计划
 * 冲突的情况。翻译的时候，难免会遇到大家同时编辑一个页面，提交编辑就会提示冲突。这时请勿惊慌，赶紧复制您翻译的文字，以免丢失，然后重新进入您要编辑的页面，点击编辑，在这里要注意看有么有与您翻译部分不同的地方，如果没有就大胆提交吧。
 
 
+初次参与翻译请看（高手跳过）
+------------------------------
+* 需要翻译的文件都是 reStructuredText (rst) 文件，翻译前请花几分钟看看 reStructuredText简明教程 https://github.com/buke/openerp-doc/wiki/reStructuredText%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B
+* 您可以直接在web 界面编辑翻译，在https://github.com/buke/openerp-doc 上选择要翻译的文件，比如 https://github.com/buke/openerp-doc/blob/master/6.1/i18n/zh_hans/source/faqs.rst 
+* 选择好文件之后，正常您会进入到 source view 模式，这时文件内容右上角 有个 Edit/Raw/Blame/History 按钮，点击 "Edit" 即可进入编辑模式。
+* 好了，您已经进入 编辑模式，这时候可以就可以对RST 文件进行翻译了。翻译时注意不要删除或修改 rst 的格式代码。
+* 仔细检查有没有破坏 rst 格式，检查无误后，点击页面右下方的 “Commit Changes”
+* 如果没有出错提示，那么恭喜您轻松搞定！如果有提示冲突，请按照上面的 “翻译说明” 进行操作。
+* 如果有任何疑问，可以进入OpenERP-开发群(qq) 69195329 或 212904 咨询 。
+
+
 翻译进度管理
 --------------
 https://github.com/buke/openerp-doc/wiki/%E7%BF%BB%E8%AF%91%E8%BF%9B%E5%BA%A6
