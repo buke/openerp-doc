@@ -497,7 +497,7 @@ When you look at the `Processes` tab, you will see ``OpenERPServerService.exe`` 
 .. i18n: ---------------------------------------------------------------
 ..
 
-Congratulations, you have successfully installed OpenERP Server
+恭喜，您的OpenERP Server已经安装成功啦！
 ---------------------------------------------------------------
 
 .. i18n: For more information, please take a look at
