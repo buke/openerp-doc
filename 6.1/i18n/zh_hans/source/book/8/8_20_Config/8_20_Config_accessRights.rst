@@ -123,17 +123,9 @@ OpenERP 管理权限的方法非常灵活，每个用户可以属于一个或多
 .. i18n: given membership of other groups.
 ..
 
-For example, the group  may only be given access to some of the menus in
-:menuselection:`Warehouse`, and may have no access to any of the accounting information. Each system user who works in
-stores is given membership of the ``Warehouse / User`` group. If some users also work elsewhere, they would also be
-given membership of other groups.
-
-
-例如，组\ ``仓库/用户`` \只能访问仓库中一些菜单，可能没有任何权限访问财务信息。
+例如，组\ ``仓库/用户`` \只能访问 :menuselection:`仓库` 中一些菜单，可能没有任何权限访问财务信息。
 在商店工作的仓库的每个系统用户被指派为\ ``仓库/用户`` \ 组的成员。如果有些用户有其它的工作
 内容,他们也会被指派为其它组的成员。
-
-
 
 .. i18n: .. index::
 .. i18n:    pair: user; group
@@ -161,7 +153,7 @@ given membership of other groups.
 .. i18n: assigned to this user in practice. This gives you flexibility for the future.
 ..
 
- 
+
 因此，如果您的财务总监，也是您的销售总监，你应该创建既是一个财务总监组和销售总监组，即使它们都是同一个人，实际都应包含该用户.
 这给你在未来很大的灵活性。
 
@@ -175,18 +167,6 @@ given membership of other groups.
 .. i18n: maintain consistency.
 ..
 
-You should also create groups within departmental areas that have different levels of access
-rights. For example, if you create a \ ``Sales Director`` \ group and a \ ``Sales`` \ group avoid
-assigning exactly the same rights to each group. The first could see all the of reports, while the
-second could be restricted to seeing quotations. You could either make the Sales Director a
-member of both groups, and give the \ ``Sales Director`` \ group a limited set of extra rights, or give the
-\ ``Sales Director`` \ group all the rights it needs for a Sales Director to belong only to this one
-group. You should choose the scheme that gives you most flexibility and then stick with it to
-maintain consistency.
-
-
-
-
 你还应该创建组内有不同级别访问权限的部门区域。例如，如果你创建一个销售总监\ ``Sales Director`` \ 组和
 销售\ ``Sales`` \ 组，避免不同组别被
 赋予相同的权限.
@@ -194,9 +174,6 @@ maintain consistency.
 你可以使销售总监是两个组的成员，并且销售总监组 \ ``Sales Director`` \ 有限制的额外权力，或者给销售总监
 组\ ``Sales Director`` \ 需要的全部权力，如果销
 售总监只属于这一个组。你应该选择为你提供了最大的灵活性的方案，然后坚持下去，以保持一致性。
-
-
-
 
 .. i18n: .. index::
 .. i18n:    pair:  system; administrator
@@ -237,11 +214,6 @@ maintain consistency.
 .. i18n: of the \ ``Stock1`` \  group.
 ..
 
-To get a feel for rights management in OpenERP, you will create a new \ ``Stock1`` \  group, with
-access to the *Warehouse* menu items. You will then create a stores person user who is a member
-of the \ ``Stock1`` \  group.
-
-
 为了感受OpenERP的权限管理, 你可以创建一个新的 \ ``Stock1`` \  用户组,此用户组拥有*仓库*菜单下的项目. 然后你再
 创建一个仓库用户,并设置为 \ ``Stock1`` \  组的成员.
 
@@ -277,9 +249,9 @@ of the \ ``Stock1`` \  group.
 .. i18n: just created.
 ..
 
-In the :guilabel:`Groups` section of the user form, add the \ ``Stock1`` \ group that you
-just created.
+
 在用户表单中 :guilabel:`访问权限`  的部分，增加你刚刚创建的  \ ``Stock1`` \  组。
+
 .. i18n: .. figure::  images/menu_access.png
 .. i18n:    :scale: 75
 .. i18n:    :align: center
@@ -299,13 +271,6 @@ just created.
 .. i18n: the \ ``Warehouse / Manager`` \, \ ``Warehouse / User`` \ and \ ``Stock1`` \ group will be able to see
 .. i18n: this menu item in their main menu list.
 ..
-
-Save the user, then go into the menu :menuselection:`Administration --> Customization --> User
-Interface --> Menu Items` to get a list of menus. Filter this list using the search field :guilabel:`Menu` to
-get the  menu item. In the form describing the menu, add \ ``Stock1`` \ into the :guilabel:`Groups` field. From now on, only members of
-the \ ``Warehouse / Manager`` \, \ ``Warehouse / User`` \ and \ ``Stock1`` \ group will be able to see
-this menu item in their main menu list.
-
 
 保存这个用户，然后进入 菜单  :menuselection:`设置 --> 自定义 --> 用户界面 --> 菜单项目` ，
 取得菜单的列表，使用搜索 :guilabel:`菜单` 字段过滤列表获得 :menuselection:`仓库`菜
@@ -360,23 +325,11 @@ this menu item in their main menu list.
 
 .. note:: 初始的访问设置
 
-	In the initial configuration, OpenERP'suser, a member of the \ ``Administration / Configuration`` \
-	group, is given access to the Configuration menu
-	in each section of the main menu. This is a general convention.
-	For example, :menuselection:`Sales --> Configuration` is visible in the administrator's menu
-	amongst the other Sales menu items.
-	But only the menu items other than :menuselection:`Sales --> Configuration` are visible to other users.
-	Similarly, the main menu item :menuselection:`Administration` is, by convention, visible only to
-	users who are members of thegroup.
-
- 
          在初始设置中,作为 \ ``系统管理 / 设置`` \  组一员，OpenERP的 \ ``管理`` \ 级别用户拥有主菜单下
          所有部分的设置菜单权限。这是惯例。
          例如, :menuselection:`销售 --> 设置` ，出现在管理员的菜单中。对
          其他用户，只有:menuselection:`销售 --> 设置` 以外的菜单可见。
          同样，主菜单中的 :menuselection:`设置` ，按照惯例，只有  \ ``设置 / 设置`` \ 组的成员的用户可见。
-
-
 
 .. i18n: .. index::
 .. i18n:    single: access; objects
@@ -389,24 +342,21 @@ this menu item in their main menu list.
 .. i18n: ------------------------
 ..
 
-Access Rights to Objects
+对象的访问权限
 ------------------------
 
 .. i18n: The menu access rights determine who can access which menu, but does not define what you can do once
 .. i18n: you are in the menu.
 ..
 
-The menu access rights determine who can access which menu, but does not define what you can do once
-you are in the menu.
+菜单访问权限决定了谁能访问哪个菜单，但是没有定义你能够在菜单里能做什么.
 
 .. i18n: Access controls on the objects give you the possibility of defining what your users have the right
 .. i18n: to do with your data when they get access to it. Access control of objects is structured the same
 .. i18n: way as access to menus.
 ..
 
-Access controls on the objects give you the possibility of defining what your users have the right
-to do with your data when they get access to it. Access control of objects is structured the same
-way as access to menus.
+对象的权限管理,让你能够定义用户对数据的操作类别.对象的权限管理方式跟菜单权限管理有相同的结构。
 
 .. i18n: .. note:: Object
 .. i18n: 
@@ -416,33 +366,30 @@ way as access to menus.
 .. i18n:    behavior.
 ..
 
-.. note:: Object
+.. note:: 对象
 
-   An object represents a document in the system.
-   Objects are linked to database tables, and also have additional concepts,
-   such as the functions of fields, inheritance from other objects, and class methods that give them
-   behavior.
+    一个对象类似系统中的一个文档. 对象被关联到数据库的表,或者是其它概念,比如字段函数,其它对象的继承,
+    或者赋予他们行为的类方法
+
 
 .. i18n: If no group is assigned to an object, all users can access it without any restriction of any sort.
 .. i18n: Conversely, when an access control is defined for an object, a user must be a member of a group
 .. i18n: owning appropriate access rights to have any sort of access to that object.
 ..
 
-If no group is assigned to an object, all users can access it without any restriction of any sort.
-Conversely, when an access control is defined for an object, a user must be a member of a group
-owning appropriate access rights to have any sort of access to that object.
+如果对象没有被指派给任何组,所有用户是有无限制的权限访问.相反地,一个对象被设定了访问控制,用户必须成为组成员
+才可以拥有适当的权限.
 
 .. i18n: You must always ensure that you do not lock the \ ``Administration / Access Rights`` \ group out of any object
 .. i18n: that controls administration and configuration options, such as the \ ``ir.model.access`` \ model.
 ..
 
-You must always ensure that you do not lock the \ ``Administration / Access Rights`` \ group out of any object
-that controls administration and configuration options, such as the \ ``ir.model.access`` \ model.
+你必须始终确保你没有锁定  \ ``系统管理/访问权限组`` \  对任何对象的”管理和设置”的权限,例如 \ ``ir.model.access`` \ 模型
 
 .. i18n: You can manage four access modes on objects independently:
 ..
 
-You can manage four access modes on objects independently:
+你能独立管理4种访问模式：
 
 .. i18n: *  :guilabel:`Read access` : members of the group can read the data in the object,
 .. i18n: 
@@ -453,13 +400,13 @@ You can manage four access modes on objects independently:
 .. i18n: *  :guilabel:`Delete access` : members of the group can delete records from the object.
 ..
 
-*  :guilabel:`Read access` : members of the group can read the data in the object,
+*  :guilabel:`读访问` : 组成员能读取对象数据,
 
-*  :guilabel:`Create access` : members of the group can create a new record in the object,
+*  :guilabel:`创建` : 组成员能在对象里创建一个新纪录,
 
-*  :guilabel:`Write access` : members of the group can modify the contents of records in the object,
+*  :guilabel:`写入` : 组成员能修改对象中记录的内容,
 
-*  :guilabel:`Delete access` : members of the group can delete records from the object.
+*  :guilabel:`删除` : 组成员能删除对象中的记录.
 
 .. i18n: .. figure::  images/access_control.png
 .. i18n:    :scale: 75
@@ -472,7 +419,7 @@ You can manage four access modes on objects independently:
    :scale: 75
    :align: center
 
-   *Access control to invoices for the Accounting / Invoice group*
+   *会计/管理员 组的发票访问控制*
 
 .. i18n: To configure access rights on an OpenERP object, use the menu :menuselection:`Administration -->
 .. i18n: Security --> Access Controls List` and click :guilabel:`New` or choose an existing one
@@ -487,12 +434,26 @@ and click :guilabel:`Edit`.
 You give a :guilabel:`Name` to the access control, select a :guilabel:`Group`, and
 the :guilabel:`Object`, then check the checkbox corresponding to each of the four :guilabel:`Access` modes.
 
+
+要设置OpenERP 对象的访问权限，使用菜单 :menuselection:`Administration -->
+安全设定 --> 访问控制列表` ，然后点击  :guilabel:`新建` 或者选
+择已经存在的一个再点击:guilabel:`编辑` 按钮（ 在每一行的前面）。
+你要给出一个访问控制的 :guilabel:`名称` ，选择一
+个 :guilabel:` :guilabel:`Group`` 组和:guilabel:`对象` ，然后为四种 :guilabel:`访问` 模式逐一点击相应的复选框。
+编辑完成后，点击尾部的“保存”图标按钮 。
+
+
 .. i18n: If you do not specify any group in the access rules, the rule is applied to all groups. So to remove
 .. i18n: access to an object for all users you could create a rule:
 ..
 
 If you do not specify any group in the access rules, the rule is applied to all groups. So to remove
 access to an object for all users you could create a rule:
+
+
+如果你在访问规则不指定任何组，该规则将应用到所有的组。因此要去掉所有用户对一个对象的访问权限，你要建立这样的一条规则： 
+
+
 
 .. i18n: * which is defined for a specific object,
 .. i18n: 
@@ -501,11 +462,12 @@ access to an object for all users you could create a rule:
 .. i18n: * for which none of the four access options is checked.
 ..
 
-* which is defined for a specific object,
+* 定义指定对象,
 
-* which is linked to no group,
+* 没有关联至任何组,
 
-* for which none of the four access options is checked.
+* 然后，你能对同样的对象创建附加的规则给某些特定组特别的权限
+.
 
 .. i18n: You can then create additional rules on the same object to give specific rights to certain groups.
 ..
