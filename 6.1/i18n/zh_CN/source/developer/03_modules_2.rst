@@ -1,4 +1,3 @@
-
 .. i18n: Objects, Fields and Methods
 .. i18n: ===========================
 ..
@@ -27,7 +26,7 @@ OpenERP Objects
 .. i18n: All the ERP's pieces of data are accessible through "objects". As an example, there is a res.partner object to access the data concerning the partners, an account.invoice object for the data concerning the invoices, etc...
 ..
 
-All the ERP's pieces of data are accessible through "objects". As an example, there is a res.partner object to access the data concerning the partners, an account.invoice object for the data concerning the invoices, etc...
+我们可以通过“对象”访问所有ERP的数据。举个例子，可以通过“res.parnter”对象访问“partners”相关的数据，通过“account.invoice”对象访问“invoices”相关的数据。
 
 .. i18n: Please note that there is an object for every type of resource, and not an
 .. i18n: object per resource. We have thus a res.partner object to manage all the
@@ -35,56 +34,53 @@ All the ERP's pieces of data are accessible through "objects". As an example, th
 .. i18n: oriented" terms, we could also say that there is an object per level.
 ..
 
-Please note that there is an object for every type of resource, and not an
-object per resource. We have thus a res.partner object to manage all the
-partners and not a *res.partner* object per partner. If we talk in "object
-oriented" terms, we could also say that there is an object per level.
+请注意的是，每种类型的资源是一个对象，而不是每个资源是一个对象。我们可以使用res.parnter对象来管理所有的parnters，而不是每个parnter用一个res.parnter对象来表示。当我们说“object oriented”术语时，其实说的是每级有个对象（an object per level）。
 
 .. i18n: The direct consequences is that all the methods of objects have a common parameter: the "ids" parameter. This specifies on which resources (for example, on which partner) the method must be applied. Precisely, this parameter contains a list of resource ids on which the method must be applied.
 ..
 
-The direct consequences is that all the methods of objects have a common parameter: the "ids" parameter. This specifies on which resources (for example, on which partner) the method must be applied. Precisely, this parameter contains a list of resource ids on which the method must be applied.
+直接的后果是，对象的所有方法都有一个共同的参数：参数“ids”。这个资源特别指定的方法必须被使用。准确的是，必须使用的这个方法的参数包括着资源ids的列表。
 
 .. i18n: For example, if we have two partners with the identifiers 1 and 5, and we want to call the res_partner method "send_email", we will write something like::
 .. i18n: 
 .. i18n:         res_partner.send_email(... , [1, 5], ...)
 ..
 
-For example, if we have two partners with the identifiers 1 and 5, and we want to call the res_partner method "send_email", we will write something like::
+例如，我们有两个标识为1和5的合作伙伴，当我们想要调用res_partner的方法“send_email”时，我们应该这样写：::
 
         res_partner.send_email(... , [1, 5], ...)
 
 .. i18n: We will see the exact syntax of object method calls further in this document.
 ..
 
-We will see the exact syntax of object method calls further in this document.
+我们在这份文档中将会看到更多具体的对象方法调用的语法。
 
 .. i18n: In the following section, we will see how to define a new object. Then, we will check out the different methods of doing this.
 ..
 
-In the following section, we will see how to define a new object. Then, we will check out the different methods of doing this.
+在下面的章节中，我们将会看到如何定义一个新对象。然后，我们会检验定义新对象所使用的不同方法。
 
 .. i18n: For developers:
 ..
 
-For developers:
+对于开发者来说：
 
 .. i18n: * OpenERP "objects" are usually called classes in object oriented programming.
 .. i18n: * A OpenERP "resource" is usually called an object in OO programming, instance of a class. 
 ..
 
-* OpenERP "objects" are usually called classes in object oriented programming.
-* A OpenERP "resource" is usually called an object in OO programming, instance of a class. 
+* OpenERP “object”在面向对象编程中经常被成为类（class）。
+* 一个OpenERP “resource”在面向对象编程中经常被称为一个对象，一个类的实例。
 
 .. i18n: It's a bit confusing when you try to program inside OpenERP, because the language used is Python, and Python is a fully object oriented language, and has objects and instances ...
 ..
 
-It's a bit confusing when you try to program inside OpenERP, because the language used is Python, and Python is a fully object oriented language, and has objects and instances ...
+当你试图在OpenERP中编程时会有些困惑，因为使用的是Python语言，而Python语言是一种完全的面向对象语言。它有对象和实例…
 
 .. i18n: Luckily, an OpenERP "resource" can be converted magically into a nice Python object using the "browse" class method (OpenERP object method).
 ..
 
-Luckily, an OpenERP "resource" can be converted magically into a nice Python object using the "browse" class method (OpenERP object method).
+我们感到幸运的是，OpenERP“resource”当使用“browse”类方法（OpenERP object method）时，可以神奇的转变成一个Python对象。
 
 .. i18n: The ORM - Object-relational mapping - Models
 .. i18n: --------------------------------------------
@@ -96,7 +92,7 @@ The ORM - Object-relational mapping - Models
 .. i18n: The ORM, short for Object-Relational Mapping, is a central part of OpenERP.
 ..
 
-The ORM, short for Object-Relational Mapping, is a central part of OpenERP.
+ORM是Object-Relational Mapping（对象关系映射）的简称，是OpenERP的中心部分。
 
 .. i18n: In OpenERP, the data model is described and manipulated through Python classes
 .. i18n: and objects. It is the ORM job to bridge the gap -- as transparently as
@@ -105,11 +101,7 @@ The ORM, short for Object-Relational Mapping, is a central part of OpenERP.
 .. i18n: objects.
 ..
 
-In OpenERP, the data model is described and manipulated through Python classes
-and objects. It is the ORM job to bridge the gap -- as transparently as
-possible for the developer -- between Python and the underlying relational
-database (PostgreSQL), which will provide the persistence we need for our
-objects.
+在OpenERP中，数据模型的描述和操纵都是通过Python的类和对象。ORM的作用是为python文件和底层的关系型数据库（PostgreSQL）消除隔阂（bridge the gap）（尽可能的透明的为开发人员），为对象提供持久性。
 
 .. i18n: OpenERP Object Attributes
 .. i18n: -------------------------
@@ -128,7 +120,7 @@ Objects Introduction
 .. i18n: To define a new object, you must define a new Python class then instantiate it. This class must inherit from the osv class in the osv module.
 ..
 
-To define a new object, you must define a new Python class then instantiate it. This class must inherit from the osv class in the osv module.
+想要定义一个新对象，你就要先定义一个新的Python类，然后实例化它。这个类必须继承自osv模块的osv类。
 
 .. i18n: Object definition
 .. i18n: +++++++++++++++++
@@ -146,7 +138,7 @@ Object definition
 .. i18n:         name_of_the_object()
 ..
 
-The first line of the object definition will always be of the form::
+对象定义的前几行如下：::
 
         class name_of_the_object(osv.osv):
                 _name = 'name.of.the.object'
@@ -159,9 +151,7 @@ The first line of the object definition will always be of the form::
 .. i18n: The predefined fields are:
 ..
 
-An object is defined by declaring some fields with predefined names in the
-class. Two of them are required (_name and _columns), the rest are optional.
-The predefined fields are:
+一个对象可以通过一些字段来定义，而这些字段在类中已经预定义了名称。其中有两个是必须的（_name和_columns），其他都是可选的。预定义的字段是：
 
 .. i18n: Predefined fields
 .. i18n: +++++++++++++++++
@@ -178,38 +168,35 @@ Predefined fields
 ..
 
 `_auto`
-  Determines whether a corresponding PostgreSQL table must be generated
-  automatically from the object. Setting _auto to False can be useful in case
-  of OpenERP objects generated from PostgreSQL views. See the "Reporting From
-  PostgreSQL Views" section for more details.
+  是否自动创建对象对应的Table，如果OpenERP的对象从PostgreSQL views中产生时，将_auto设为False比较好。想要知道更多的细节可以查看“Reporting From PostgreSQL Views”。
 
 .. i18n: `_columns (required)`
 .. i18n:   The object fields. See the :ref:`fields <fields-link>` section for further details.
 ..
 
 `_columns (required)`
-  The object fields. See the :ref:`fields <fields-link>` section for further details.
+  对象字段，可在field章节了解更多。
 
 .. i18n: `_constraints`
 .. i18n:   The constraints on the object. See the constraints section for details.
 ..
 
 `_constraints`
-  The constraints on the object. See the constraints section for details.
+  定义对象上的约束，可在“constraints”章节了解更多。
 
 .. i18n: `_sql_constraints`
 .. i18n:   The SQL Constraint on the object. See the SQL constraints section for further details.
 ..
 
 `_sql_constraints`
-  The SQL Constraint on the object. See the SQL constraints section for further details.
+   定义对象中SQL约束，可在“SQL constraints”章节了解更多。
 
 .. i18n: `_defaults`
 .. i18n:   The default values for some of the object's fields. See the default value section for details.
 ..
 
 `_defaults`
-  The default values for some of the object's fields. See the default value section for details.
+  定义一些字段的缺省值，可在“default value”章节了解更多。
 
 .. i18n: `_inherit`
 .. i18n:   The name of the osv object which the current object inherits from. See the :ref:`object inheritance section<inherit-link>`
@@ -217,8 +204,8 @@ Predefined fields
 ..
 
 `_inherit`
-  The name of the osv object which the current object inherits from. See the :ref:`object inheritance section<inherit-link>`
-  (first form) for further details.
+  当前对象继承自哪里，可在 :ref:`object inheritance section<inherit-link>`
+  (first form) 了解更多。
 
 .. i18n: `_inherits`
 .. i18n:   The list of osv objects the object inherits from. This list must be given in
@@ -228,10 +215,8 @@ Predefined fields
 ..
 
 `_inherits`
-  The list of osv objects the object inherits from. This list must be given in
-  a python dictionary of the form: {'name_of_the_parent_object':
-  'name_of_the_field', ...}. See the :ref:`object inheritance section<inherits-link>` 
-  (second form) for further details. Default value: {}.
+  
+  当前对象继承的对象列表，这个列表必须是下面的形式：{‘name_of_the_parent_object’: ‘name_of_the_field’, ...}。可在“object inheritance section”了解更多。缺省值是：{}
 
 .. i18n: `_log_access`
 .. i18n:   Determines whether or not the write access to the resource must be logged.
@@ -243,31 +228,26 @@ Predefined fields
 ..
 
 `_log_access`
-  Determines whether or not the write access to the resource must be logged.
-  If true, four fields will be created in the SQL table: create_uid,
-  create_date, write_uid, write_date. Those fields represent respectively the
-  id of the user who created the record, the creation date of record, the id
-  of the user who last modified the record, and the date of that last
-  modification. This data may be obtained by using the perm_read method.
+  定义对资源的写访问是否应写入日志，如果是true，那将自动在对应的数据表中增加create_uid, create_date, write_uid, write_date四个字段，缺省值为True，即字段增加。这四个字段分布记录record的创建人，创建日期，修改人，修改日期。这四个字段值可以用对象的方法（perm_read）读取。
 
 .. i18n: `_name (required)`
 .. i18n:   Name of the object. Default value: None.
 ..
 
 `_name (required)`
-  Name of the object. Default value: None.
+  定义对象的名称，缺省值为None。
 
 .. i18n: `_order`
 .. i18n:   Name of the fields used to sort the results of the search and read methods.
 ..
 
 `_order`
-  Name of the fields used to sort the results of the search and read methods.
+  定义search和read方法的结果记录排序规则。
 
 .. i18n:   Default value: 'id'.
 ..
 
-  Default value: 'id'.
+  缺省值：“id”
 
 .. i18n:   Examples::
 .. i18n: 
@@ -275,7 +255,7 @@ Predefined fields
 .. i18n:     _order = "date_order desc"
 ..
 
-  Examples::
+  例如::
 
     _order = "name"  
     _order = "date_order desc"
@@ -287,23 +267,21 @@ Predefined fields
 ..
 
 `_rec_name`
-  Name of the field in which the name of every resource is stored. Default
-  value: 'name'. Note: by default, the name_get method simply returns the
-  content of this field.
+  标识每个已被存储的资源的名称字段。缺省值是：“name”，缺省情况（name_get没被重载的话）方法name_get()返回本字段值。
 
 .. i18n: `_sequence`
 .. i18n:   Name of the SQL sequence that manages the ids for this object. Default value: None.
 ..
 
 `_sequence`
-  Name of the SQL sequence that manages the ids for this object. Default value: None.
+  数据库表的id字段的序列采集器，缺省值为: None。
 
 .. i18n: `_sql`
 .. i18n:  SQL code executed upon creation of the object (only if _auto is True). It means this code gets executed after the table is created.
 ..
 
 `_sql`
- SQL code executed upon creation of the object (only if _auto is True). It means this code gets executed after the table is created.
+ SQL代码执行在对象的创建之上，意思就是说在表格创建后代码执行。
 
 .. i18n: `_table`
 .. i18n:   Name of the SQL table. Default value: the value of the _name field above
@@ -311,8 +289,7 @@ Predefined fields
 ..
 
 `_table`
-  Name of the SQL table. Default value: the value of the _name field above
-  with the dots ( . ) replaced by underscores ( _ ). 
+   数据库表名，缺省值是和_name一样，只是将"."替换成"_"。
 
 .. i18n: .. _inherit-link:
 .. i18n: 
@@ -336,8 +313,7 @@ Introduction
 .. i18n: inherit an object to add/modify some fields.
 ..
 
-Objects may be inherited in some custom or specific modules. It is better to
-inherit an object to add/modify some fields.
+对象可能继承于很多定制的或是特定的模块。这比继承一个对象增加或修改某方面更好。
 
 .. i18n: It is done with::
 .. i18n: 
@@ -361,26 +337,20 @@ Extension of an object
 .. i18n: consequences.
 ..
 
-There are two possible ways to do this kind of inheritance. Both ways result in
-a new class of data, which holds parent fields and behaviour as well as
-additional fields and behaviour, but they differ in heavy programatical
-consequences.
+这里继承有两种方式：他们都产生一个新的数据类，它将父类的字段和行为做为自己额外的字段和行为，但是他们在heavy programatical consequences上不同。
 
 .. i18n: While Example 1 creates a new subclass "custom_material" that may be "seen" or
 .. i18n: "used" by any view or tree which handles "network.material", this will not be
 .. i18n: the case for Example 2.
 ..
 
-While Example 1 creates a new subclass "custom_material" that may be "seen" or
-"used" by any view or tree which handles "network.material", this will not be
-the case for Example 2.
+例子1中产生一个新的子类叫“custom_material”，当操作network.material的视图或是列表时可以看到或是使用它。这和例子2不同。
 
 .. i18n: This is due to the table (other.material) the new subclass is operating on,
 .. i18n: which will never be recognized by previous "network.material" views or trees.
 ..
 
-This is due to the table (other.material) the new subclass is operating on,
-which will never be recognized by previous "network.material" views or trees.
+这是由于这个新类操作的表格（other.material）是不能被之前的对象“network.material”的视图或列表所识别的。
 
 .. i18n: Example 1::
 .. i18n: 
@@ -396,7 +366,7 @@ which will never be recognized by previous "network.material" views or trees.
 .. i18n:         custom_material()
 ..
 
-Example 1::
+例子1::
 
     class custom_material(osv.osv):
         _name = 'network.material'
@@ -423,18 +393,14 @@ Example 1::
 .. i18n: views or trees operating on the superclasses table 'network.material'.
 ..
 
-In this example, the 'custom_material' will add a new field 'manuf_warranty' to
-the object 'network.material'. New instances of this class will be visible by
-views or trees operating on the superclasses table 'network.material'.
+这个例子，“custom_material”增加了一个新的字段“manuf_warranty”到对象“network.material”中。这个类的新的实例对运行在父类“network.material”上的视图或列表是可见的。
 
 .. i18n: This inheritancy is usually called "class inheritance" in Object oriented
 .. i18n: design. The child inherits data (fields) and behavior (functions) of his
 .. i18n: parent.
 ..
 
-This inheritancy is usually called "class inheritance" in Object oriented
-design. The child inherits data (fields) and behavior (functions) of his
-parent.
+在面向对象的设计中，这种继承通常称为“类继承（class inheritance）”。子类继承父类的字段和函数。
 
 .. i18n: Example 2::
 .. i18n: 
@@ -450,7 +416,7 @@ parent.
 .. i18n:         other_material()
 ..
 
-Example 2::
+例子2::
 
     class other_material(osv.osv):
         _name = 'other.material'
@@ -479,11 +445,7 @@ Example 2::
 .. i18n: superclasses table 'network.material'.
 ..
 
-In this example, the 'other_material' will hold all fields specified by
-'network.material' and it will additionally hold a new field 'manuf_warranty'.
-All those fields will be part of the table 'other.material'. New instances of
-this class will therefore never been seen by views or trees operating on the
-superclasses table 'network.material'.
+在这个例子中，“other_material”会继承“network.material”的所有字段，它另外会加入一个新的字段“manuf_warranty”。所有这些字段都在表格“other.material”中。这个类的新的实例对运行在父类“network.material”上的视图或列表是不可见的。
 
 .. i18n: This type of inheritancy is known as "inheritance by prototyping" (e.g.
 .. i18n: Javascript), because the newly created subclass "copies" all fields from the
@@ -491,10 +453,7 @@ superclasses table 'network.material'.
 .. i18n: (functions) of his parent.
 ..
 
-This type of inheritancy is known as "inheritance by prototyping" (e.g.
-Javascript), because the newly created subclass "copies" all fields from the
-specified superclass (prototype). The child inherits data (fields) and behavior
-(functions) of his parent.
+这种类型的继承被称为“原型继承（inheritance by prototyping）”。因为新创建的子类拷贝了父类的所有字段。子类继承父类的字段和方法。
 
 .. i18n: .. _inherits-link:
 .. i18n: 
@@ -538,8 +497,7 @@ Inheritance by Delegation - _inherits
 .. i18n: the n objects 'tiny.object_a', ..., 'tiny.object_n'.
 ..
 
-The object 'tiny.object' inherits from all the columns and all the methods from
-the n objects 'tiny.object_a', ..., 'tiny.object_n'.
+对象“tiny.object”继承n个对象“tiny.object_a, ...,tiny.object_n”的所有的字段和方法。
 
 .. i18n: To inherit from multiple tables, the technique consists in adding one column to
 .. i18n: the table tiny_object per inherited object. This column will store a foreign
@@ -548,18 +506,13 @@ the n objects 'tiny.object_a', ..., 'tiny.object_n'.
 .. i18n: which the foreign keys from 'tiny.object_a', ..., 'tiny.object_n' are stored.
 ..
 
-To inherit from multiple tables, the technique consists in adding one column to
-the table tiny_object per inherited object. This column will store a foreign
-key (an id from another table). The values *'object_a_id' 'object_b_id' ...
-'object_n_id'* are of type string and determine the title of the columns in
-which the foreign keys from 'tiny.object_a', ..., 'tiny.object_n' are stored.
+为了继承多种表格，每继承一个对象就加一列到表格中。这个列存储继承表格的外键。值‘object_a_id’ ‘object_b_id’ ... ‘object_n_id’ 是字符串类型，定义列头，它里面放着存储对象‘tiny.object_a’, ..., ‘tiny.object_n’的外键。
 
 .. i18n: This inheritance mechanism is usually called " *instance inheritance* "  or  "
 .. i18n: *value inheritance* ". A resource (instance) has the VALUES of its parents.
 ..
 
-This inheritance mechanism is usually called " *instance inheritance* "  or  "
-*value inheritance* ". A resource (instance) has the VALUES of its parents.
+这种继承称为“对象继承（instance inheritance）”或是“值继承（value inheritance）”。对象有它父类的值（values）。
 
 .. i18n: .. _fields-link:
 .. i18n: 
@@ -580,12 +533,7 @@ Fields Introduction
 .. i18n: the database but calculated in real time given other fields of the view.
 ..
 
-Objects may contain different types of fields. Those types can be divided into
-three categories: simple types, relation types and functional fields. The
-simple types are integers, floats, booleans, strings, etc ... ; the relation
-types are used to represent relations between objects (one2one, one2many,
-many2one). Functional fields are special fields because they are not stored in
-the database but calculated in real time given other fields of the view.
+对象包括不同类型的字段，分为三类：simple types，relation types，functional fields。simple types是integers, floats, booleans, strings, etc ...；relation types是表示对象间的关系（one2one, one2many, many2one）。Functional fields是特殊的字段，因为它们不是存储在数据库中，而是实时计算视图给定的其他字段。
 
 .. i18n: Here's the header of the initialization method of the class any field defined
 .. i18n: in OpenERP inherits (as you can see in server/bin/osv/fields.py)::
@@ -595,8 +543,7 @@ the database but calculated in real time given other fields of the view.
 .. i18n:                  ondelete="set null", translate=False, select=False, **args) :
 ..
 
-Here's the header of the initialization method of the class any field defined
-in OpenERP inherits (as you can see in server/bin/osv/fields.py)::
+这是OpenERP继承类方法初始化的头文件。（Here’s the header of the initialization method of the class any field defined in OpenERP inherits）。::
 
     def __init__(self, string='unknown', required=False, readonly=False,
                  domain=None, context="", states=None, priority=0, change_default=False, size=None,
@@ -606,8 +553,7 @@ in OpenERP inherits (as you can see in server/bin/osv/fields.py)::
 .. i18n: types:
 ..
 
-There are a common set of optional parameters that are available to most field
-types:
+这里有一套通用的可选参数，它对大多数的字段类型是可用的：
 
 .. i18n: :change_default: 
 .. i18n: 	Whether or not the user can define default values on other fields depending 
@@ -639,39 +585,21 @@ types:
 .. i18n: 	`False`.
 ..
 
-:change_default: 
-	Whether or not the user can define default values on other fields depending 
-	on the value of this field. Those default values need to be defined in
-	the ir.values table.
-:help: 
-	A description of how the field should be used: longer and more descriptive
-	than `string`. It will appear in a tooltip when the mouse hovers over the 
-	field.
-:ondelete: 
-	How to handle deletions in a related record. Allowable values are: 
-	'restrict', 'no action', 'cascade', 'set null', and 'set default'.
-:priority: Not used?
-:readonly: `True` if the user cannot edit this field, otherwise `False`.
-:required:
-	`True` if this field must have a value before the object can be saved, 
-	otherwise `False`.
-:size: The size of the field in the database: number characters or digits.
-:states:
-	Lets you override other parameters for specific states of this object. 
-	Accepts a dictionary with the state names as keys and a list of name/value 
-	tuples as the values. For example: `states={'posted':[('readonly',True)]}`
-:string: 
-	The field name as it should appear in a label or column header. Strings
-	containing non-ASCII characters must use python unicode objects. 
-	For example: `'tested': fields.boolean(u'Testé')` 
-:translate:
-	`True` if the *content* of this field should be translated, otherwise 
-	`False`.
+change_default：别的字段的缺省值是否可依赖于本字段。这些缺省值定义在ir.values表格中。
+help：用于描述这个字段如何使用：更长的描述文字。当鼠标滑过该字段时将会显示在一个提示框中。
+ondelete：如何处理相关记录的删除。允许的值有：‘restrict’, ‘no action’, ‘cascade’, ‘set null’, and ‘set default’。
+priority：Not used？
+readonly：当值为True时，该字段只读不可修改，缺省值：False
+required：当值为True时，在对象存储前，该字段必须有个值，缺省值：False
+size：数据库中该字段的size：number characters or digits.
+states：让我们为这个对象特定的states重写其他参数，Accepts a dictionary with the state names as keys and a list of name/value tuples as the values. For example: states={‘posted’:[(‘readonly’,True)]} 
+string：The field name as it should appear in a label or column header. Strings containing non-ASCII characters must use python unicode objects. For example: ‘tested’: fields.boolean(u’Testé’)
+translate：值为True的话应该翻译这个字段的content，为False的话就不翻。
 
 .. i18n: There are also some optional parameters that are specific to some field types:
 ..
 
-There are also some optional parameters that are specific to some field types:
+对于一些字段类型，下面也是可选的参数：
 
 .. i18n: :context: 
 .. i18n: 	Define a variable's value visible in the view's context or an on-change 
@@ -680,11 +608,8 @@ There are also some optional parameters that are specific to some field types:
 .. i18n:     Domain restriction on a relational field.
 ..
 
-:context: 
-	Define a variable's value visible in the view's context or an on-change 
-	function. Used when searching child table of `one2many` relationship?
-:domain: 
-    Domain restriction on a relational field.
+context：Define a variable’s value visible in the view’s context or an on-change function. Used when searching child table of one2many relationship?
+domain：相关字段的Domain restriction
 
 .. i18n:     Default value: []. 
 ..
@@ -706,19 +631,11 @@ There are also some optional parameters that are specific to some field types:
 .. i18n: 	and 2 means advanced search.
 ..
 
-    Example: domain=[('field','=',value)])
-:invisible: Hide the field's value in forms. For example, a password.
-:on_change:
-	Default value for the `on_change` attribute in the view. This will launch
-	a function on the server when the field changes in the client. For example,
-	`on_change="onchange_shop_id(shop_id)"`. 
-:relation:
-	Used when a field is an id reference to another table. This is the name of
-	the table to look in. Most commonly used with related and function field
-	types.
-:select: 
-	Default value for the `select` attribute in the view. 1 means basic search,
-	and 2 means advanced search.
+    示例: domain=[('field','=',value)])
+invisible：在表单中隐藏该字段的值，例如输入密码区
+on_change：Default value for the on_change attribute in the view. This will launch a function on the server when the field changes in the client. For example, on_change=”onchange_shop_id(shop_id)”.
+relation：当某个字段是另张表的id reference时就使用它。This is the name of the table to look in. Most commonly used with related and function field types.
+select：视图中select 属性的默认值，1指basic search，2指advanced search.
 
 .. i18n: Type of Fields
 .. i18n: --------------
@@ -811,8 +728,7 @@ Basic Types
 
     .. note::
 
-            The optional parameter digits defines the precision and scale of the
-            number. The scale being the number of digits after the decimal point
+            digits定义整数部分和小数部分的位数。 The scale being the number of digits after the decimal point
             whereas the precision is the total number of significant digits in the
             number (before and after the decimal point). If the parameter digits is
             not present, the number will be a double precision floating point number.
@@ -835,7 +751,7 @@ Basic Types
 .. i18n:   A string of limited length. The required size parameter determines its size.
 ..
 
-  A string of limited length. The required size parameter determines its size.
+  限定长度的字符串，size属性定义字符串长度。
 
 .. i18n:   Syntax::
 .. i18n: 
@@ -868,7 +784,7 @@ Basic Types
 .. i18n:   A text field with no limit in length.
 ..
 
-  A text field with no limit in length.
+  没有长度限制的text field
 
 .. i18n:   Syntax::
 .. i18n: 
@@ -935,7 +851,7 @@ Basic Types
 .. i18n:   A field which allows the user to make a selection between various predefined values.
 ..
 
-  A field which allows the user to make a selection between various predefined values.
+  这个字段让用户对之前定义的值进行选择
 
 .. i18n:   Syntax::
 .. i18n: 
@@ -1044,8 +960,7 @@ Relational Types
 .. i18n:   deprecated. Use many2one instead.
 ..
 
-  A one2one field expresses a one:to:one relation between two objects. It is
-  deprecated. Use many2one instead.
+  表示有两个对象是一对一的关系。现在用many2one来代替。
 
 .. i18n:   Syntax::
 .. i18n: 
@@ -1066,9 +981,7 @@ Relational Types
 .. i18n:   belong to a Department
 ..
 
-  Associates this object to a parent object via this Field. For example
-  Department an Employee belongs to would Many to one. i.e Many employees will
-  belong to a Department
+  通过这个字段一个对象与它的父对象关联。例如，员工和部门的关系就是多对一的关系。
 
 .. i18n:   Syntax::
 .. i18n: 
@@ -1101,11 +1014,11 @@ Relational Types
 			'Field Name', 
 			optional parameters)
 
-  Optional parameters:
+  可选的参数:
   
-    - ondelete: What should happen when the resource this field points to is deleted.
-            + Predefined value: "cascade", "set null", "restrict", "no action", "set default"
-            + Default value: "set null"
+    - ondelete: 当该字段指示的资源被删除时会发生些什么
+            + 预先定义的值: "cascade", "set null", "restrict", "no action", "set default"
+            + 缺省值: "set null"
     - required: True
     - readonly: True
     - select: True - (creates an index on the Foreign Key field)
@@ -1156,7 +1069,7 @@ Relational Types
                 	'Fieldname', 
                 	optional parameter)
 
-  Optional parameters:
+  可选的参数：
                 - invisible: True/False
                 - states: ?
                 - readonly: True/False
@@ -1239,9 +1152,9 @@ Relational Types
                                  'Field Name')
 
         Where:
-                - other.object.name is the other object which belongs to the relation
-                - relation object is the table that makes the link
-                - actual.object.id and other.object.id are the fields' names used in the relation table
+                - other.object.name是属于这个关系的其他对象。
+                - relation object做该关系链接的表格
+                - actual.object.id和other.object.id是用于关系表格的字段名称。
 
         Example::
 
@@ -1307,9 +1220,7 @@ Relational Types
 .. i18n:   	  reference in.
 ..
 
-  Sometimes you need to refer to the relation of a relation. For example,
-  supposing you have objects: City -> State -> Country, and you need to refer to
-  the Country from a City, you can define a field as below in the City object::
+  有时候你需要考虑关联中的关联。例如，假设你有这样的对象：City -> State -> Country，你需要从一个城市名得到一个国家名，你可以在City对象中定义::
 
         'country_id': fields.related(
             'state_id', 
@@ -1322,7 +1233,7 @@ Relational Types
   Where:
   	- The first set of parameters are the chain of reference fields to
   	  follow, with the desired field at the end.
-  	- :guilabel:`type` is the type of that desired field.
+  	- :guilabel:type是期望字段的类型。
   	- Use :guilabel:`relation` if the desired field is still some kind of
   	  reference. :guilabel:`relation` is the table to look up that
   	  reference in.
@@ -1338,7 +1249,7 @@ Functional Fields
 .. i18n: than being stored in the database).
 ..
 
-A functional field is a field whose value is calculated by a function (rather
+功能字段是通过函数计算了值的字段。 (rather
 than being stored in the database).
 
 .. i18n: **Parameters:** ::
@@ -1414,15 +1325,14 @@ otherwise (if it is a global function), its signature must be::
 .. i18n: **{id'_1_': value'_1_', id'_2_': value'_2_',...}.**
 ..
 
-Either way, it must return a dictionary of values of the form
+不管哪种形式，它的返回值形式是：
 **{id'_1_': value'_1_', id'_2_': value'_2_',...}.**
 
 .. i18n: The values of the returned dictionary must be of the type specified by the type 
 .. i18n: argument in the field declaration.
 ..
 
-The values of the returned dictionary must be of the type specified by the type 
-argument in the field declaration.
+返回值必须是之前定义的类型。
 
 .. i18n: If *multi* is set, then *field_name* is replaced by *field_names*: a list
 .. i18n: of the field names that should be calculated. Each value in the returned 
@@ -1438,12 +1348,7 @@ argument in the field declaration.
 .. i18n:     }
 ..
 
-If *multi* is set, then *field_name* is replaced by *field_names*: a list
-of the field names that should be calculated. Each value in the returned 
-dictionary is also a dictionary from field name to value. For example, if the
-fields `'name'`, and `'age'` are both based on the `vital_statistics` function,
-then the return value of `vital_statistics` might look like this when `ids` is
-`[1, 2, 5]`::
+如果multi是set，则field_name将会被field_names代替：a list of the field names会被计算。Each value in the returned dictionary is also a dictionary from field name to value.例如，如果字段’name’和’age’都基于函数vital_statistics，那么该函数的返回值应该是这样（当ids是[1,2,5]）：::
 
     {
         1: {'name': 'Bob', 'age': 23}, 
@@ -1461,7 +1366,7 @@ then the return value of `vital_statistics` might look like this when `ids` is
 
 fnct_inv parameter
 """"""""""""""""""
-If *method* is true, the signature of the method must be::
+如果method是True，那么method声明是：::
 
     def fnct(self, cr, uid, ids, field_name, field_value, arg, context):
     
@@ -1471,7 +1376,7 @@ If *method* is true, the signature of the method must be::
 .. i18n:     def fnct(cr, table, ids, field_name, field_value, arg, context):
 ..
 
-otherwise (if it is a global function), it should be::
+不然（如果是全局函数），声明是::
 
     def fnct(cr, table, ids, field_name, field_value, arg, context):
 
@@ -1502,7 +1407,7 @@ otherwise (if it is a global function), it should be::
 .. i18n:     return [('id','in',[1,3,5])]
 ..
 
-The return value is a list containing 3-part tuples which are used in search function::
+在查找函数中，返回值是三元祖的列表。
 
     return [('id','in',[1,3,5])]
 
@@ -1511,18 +1416,16 @@ The return value is a list containing 3-part tuples which are used in search fun
 .. i18n: function may be called separately for each tuple.
 ..
 
-*obj* is the same as *self*, and *name* receives the field name. *args* is a list
-of 3-part tuples containing search criteria for this field, although the search
-function may be called separately for each tuple.
+obj和self相同，name接受字段名。args是三元祖的列表，包含这个字段的查询规范，即使每个元祖分别调用该查询函数。
 
 .. i18n: Example
 .. i18n: """""""
 .. i18n: Suppose we create a contract object which is :
 ..
 
-Example
+例子
 """""""
-Suppose we create a contract object which is :
+我们创建这样一个contract对象：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1552,7 +1455,7 @@ Suppose we create a contract object which is :
 .. i18n: If we want to add a field that retrieves the function of an employee by looking its current contract, we use a functional field. The object hr_employee is inherited this way:
 ..
 
-If we want to add a field that retrieves the function of an employee by looking its current contract, we use a functional field. The object hr_employee is inherited this way:
+如果添加一个字段要通过看它的current contract来检索员工，我们使用functional field。对象hr_employee这样继承：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1601,7 +1504,7 @@ If we want to add a field that retrieves the function of an employee by looking 
 .. i18n:           code of this method is:
 ..
 
-.. note:: three points
+.. 注意有三点：
 
         * :guilabel:`type` ='many2one' is because the function field must create
           a many2one field; function is declared as a many2one in hr_contract also.
@@ -1667,10 +1570,7 @@ If we want to add a field that retrieves the function of an employee by looking 
 .. i18n: and the client) doesn't allow to transmit this value.
 ..
 
-The id of the function is retrieved using a SQL query. Note that if the query 
-returns no result, the value of sql_res['func_id'] will be None. We force the
-False value in this case value because XML:RPC (communication between the server 
-and the client) doesn't allow to transmit this value.
+在SQL query中使用函数的id来检索。如果这个查询没有结果返回，那么sql_res[‘func_id’]的值为None。我们必须将值设为False，因为XML:RPC不允许传送该值。
 
 .. i18n: store Parameter
 .. i18n: """""""""""""""
@@ -1681,9 +1581,7 @@ and the client) doesn't allow to transmit this value.
 
 store Parameter
 """""""""""""""
-It will calculate the field and store the result in the table. The field will be
-recalculated when certain fields are changed on other objects. It uses the
-following syntax:
+它会计算该字段的值，并且将结果存储在表中。当其他对象中相应该字段的值发生变化时会重新计算它。它使用一下句法：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1711,9 +1609,7 @@ following syntax:
 .. i18n:     def function_name(self, cr, uid, ids, context=None):
 ..
 
-It will call function function_name when any changes are written to fields in the
-list ['field1','field2'] on object 'object_name'. The function should have the
-following signature::
+当对象object_name中列表[‘field1’,’field2’]中的字段发生变化时，会调用函数function_name。函数声明如下：
 
     def function_name(self, cr, uid, ids, context=None):
 
@@ -1723,15 +1619,12 @@ following signature::
 .. i18n: will be sent as a parameter for the main function of the field.
 ..
 
-Where `ids` will be the ids of records in the other object's table that have
-changed values in the watched fields. The function should return a list of ids
-of records in its own table that should have the field recalculated. That list 
-will be sent as a parameter for the main function of the field.
+ids是其他对象表中记录的ids，这些对象有些字段值已被更改。这个函数在自己表中返回a list of ids of records 并且有些值已被更改。这个list作为main函数的参数字段。
 
 .. i18n: Here's an example from the membership module:
 ..
 
-Here's an example from the membership module:
+下面是一个membership模块的例子：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1785,7 +1678,7 @@ Property Fields
 .. i18n: A property is a special field: fields.property.
 ..
 
-A property is a special field: fields.property.
+property是一个特定的字段：fields.property
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1825,7 +1718,7 @@ A property is a special field: fields.property.
 .. i18n: Then you have to create the default value in a .XML file for this property:
 ..
 
-Then you have to create the default value in a .XML file for this property:
+你要在.xml文件中为这个property创建一个默认值：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1872,12 +1765,12 @@ Then you have to create the default value in a .XML file for this property:
 .. i18n: To add properties in forms, just put the <properties/> tag in your form. This will automatically add all properties fields that are related to this object. The system will add properties depending on your rights. (some people will be able to change a specific property, others won't).
 ..
 
-To add properties in forms, just put the <properties/> tag in your form. This will automatically add all properties fields that are related to this object. The system will add properties depending on your rights. (some people will be able to change a specific property, others won't).
+想要在表单中添加属性，就要放<properties/>标签在表单中。这会自动添加与该对象相关的所有属性字段。你有权添加想要的属性。
 
 .. i18n: Properties are displayed by section, depending on the group_name attribute. (It is rendered in the client like a separator tag).
 ..
 
-Properties are displayed by section, depending on the group_name attribute. (It is rendered in the client like a separator tag).
+属性值以部分的形式显示，依赖于group_name属性（这个在客户端像分隔符标签的样子渲染）。
 
 .. i18n: **How does this work ?**
 ..
@@ -1887,22 +1780,22 @@ Properties are displayed by section, depending on the group_name attribute. (It 
 .. i18n: The fields.property class inherits from fields.function and overrides the read and write method. The type of this field is many2one, so in the form a property is represented like a many2one function.
 ..
 
-The fields.property class inherits from fields.function and overrides the read and write method. The type of this field is many2one, so in the form a property is represented like a many2one function.
+fields.property类继承自fields.function，重写了读写方法。这个字段的type是many2one，所以在表单中，property像many2one方法那样显示。
 
 .. i18n: But the value of a property is stored in the ir.property class/table as a complete record. The stored value is a field of type reference (not many2one) because each property may point to a different object. If you edit properties values (from the administration menu), these are represented like a field of type reference.
 ..
 
-But the value of a property is stored in the ir.property class/table as a complete record. The stored value is a field of type reference (not many2one) because each property may point to a different object. If you edit properties values (from the administration menu), these are represented like a field of type reference.
+但是property的值作为一个完全的记录存储在ir.property class/table中。已存储的值是一个字段类型参考（不是many2one），因为每个property指向一个不同的对象。如果你要编辑properties values（从administration menu），这些代表着字段类型参考。
 
 .. i18n: When you read a property, the program gives you the property attached to the instance of object you are reading. If this object has no value, the system will give you the default property.
 ..
 
-When you read a property, the program gives you the property attached to the instance of object you are reading. If this object has no value, the system will give you the default property.
+当你读取一个property时，程序会给你链接该property附属的对象实例。如果该对象没有值，系统会给你缺省值。
 
 .. i18n: The definition of a property is stored in the ir.model.fields class like any other fields. In the definition of the property, you can add groups that are allowed to change to property.
 ..
 
-The definition of a property is stored in the ir.model.fields class like any other fields. In the definition of the property, you can add groups that are allowed to change to property.
+property的定义像其他字段一样存储在ir.model.fields类中。在property的定义中，你可以添加groups来更改property。
 
 .. i18n: **Using properties or normal fields**
 ..
@@ -1912,31 +1805,31 @@ The definition of a property is stored in the ir.model.fields class like any oth
 .. i18n: When you want to add a new feature, you will have to choose to implement it as a property or as normal field. Use a normal field when you inherit from an object and want to extend this object. Use a property when the new feature is not related to the object but to an external concept.
 ..
 
-When you want to add a new feature, you will have to choose to implement it as a property or as normal field. Use a normal field when you inherit from an object and want to extend this object. Use a property when the new feature is not related to the object but to an external concept.
+当你想要添加一个新feature，你会选择是作为property还是normal field来实现它。当你继承自对象并想要扩展它时，应该选择作为normal field。当新feature和对象不相关，只是一个外部概念时，应该选择作为property。
 
 .. i18n: Here are a few tips to help you choose between a normal field or a property:
 ..
 
-Here are a few tips to help you choose between a normal field or a property:
+下面有些技巧来帮助你在normal field和property之间做选择：
 
 .. i18n: Normal fields extend the object, adding more features or data.
 ..
 
-Normal fields extend the object, adding more features or data.
+Normal field扩展对象，增加很多features或是数据。
 
 .. i18n: A property is a concept that is attached to an object and have special features:
 ..
 
-A property is a concept that is attached to an object and have special features:
+A property是附属于对象的概念，有着特定的属性：
 
 .. i18n: * Different value for the same property depending on the company
 .. i18n: * Rights management per field
 .. i18n: * It's a link between resources (many2one)
 ..
 
-* Different value for the same property depending on the company
-* Rights management per field
-* It's a link between resources (many2one)
+* 由公司决定相同的property有不同的值。
+* 每个字段权限管理
+* 资源之间的链接 (many2one)
 
 .. i18n: **Example 1: Account Receivable**
 ..
@@ -1946,7 +1839,7 @@ A property is a concept that is attached to an object and have special features:
 .. i18n: The default "Account Receivable" for a specific partner is implemented as a property because:
 ..
 
-The default "Account Receivable" for a specific partner is implemented as a property because:
+对于一个特定partner的默认“Account Receivable”作为property执行是因为：
 
 .. i18n:     * This is a concept related to the account chart and not to the partner, so it is an account property that is visible on a partner form. Rights have to be managed on this fields for accountants, these are not the same rights that are applied to partner objects. So you have specific rights just for this field of the partner form: only accountants may change the account receivable of a partner.
 .. i18n: 
@@ -1955,11 +1848,11 @@ The default "Account Receivable" for a specific partner is implemented as a prop
 .. i18n:     * The default account receivable is the same for all partners and is configured from the general property menu (in administration).
 ..
 
-    * This is a concept related to the account chart and not to the partner, so it is an account property that is visible on a partner form. Rights have to be managed on this fields for accountants, these are not the same rights that are applied to partner objects. So you have specific rights just for this field of the partner form: only accountants may change the account receivable of a partner.
+    * 这是个关系到account chart而不是partner的概念，所以account property在合作伙伴表单上是可见。会计人员有权管理这个字段。这不是相同的权限应用于partner对象。所以你对于partner表单的这个字段有特定的权限：只有会计人员可以更改the account receivable of a partner。
 
-    * This is a multi-company field: the same partner may have different account receivable values depending on the company the user belongs to. In a multi-company system, there is one account chart per company. The account receivable of a partner depends on the company it placed the sale order.
+    * 1．这是个多公司字段：相同的partner有不同的account receivable values取决于这个用户属于哪个公司。在多公司系统中，每个公司有一个account chart。一个合作伙伴的account receivable取决于该公司的销售订单。
 
-    * The default account receivable is the same for all partners and is configured from the general property menu (in administration).
+    * 1．对于所有合作伙伴的默认account receivable是相同的，由（administration中）主要property menu来配置。
 
 .. i18n: .. note::
 .. i18n:         One interesting thing is that properties avoid "spaghetti" code. The account module depends on the partner (base) module. But you can install the partner (base) module without the accounting module. If you add a field that points to an account in the partner object, both objects will depend on each other. It's much more difficult to maintain and code (for instance, try to remove a table when both tables are pointing to each others.)
@@ -1976,12 +1869,12 @@ The default "Account Receivable" for a specific partner is implemented as a prop
 .. i18n: The product expiry module implements all delays related to products: removal date, product usetime, ... This module is very useful for food industries.
 ..
 
-The product expiry module implements all delays related to products: removal date, product usetime, ... This module is very useful for food industries.
+生产到期模块实现所有相关产品的逾期：搬运日期，生产所用时间…这个模块对于食品生产非常有用。
 
 .. i18n: This module inherits from the product.product object and adds new fields to it:
 ..
 
-This module inherits from the product.product object and adds new fields to it:
+这个模块继承自product.product，并且添加新字段到其中：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -2024,14 +1917,14 @@ This module inherits from the product.product object and adds new fields to it:
 .. i18n: This module adds simple fields to the product.product object. We did not use properties because:
 ..
 
-This module adds simple fields to the product.product object. We did not use properties because:
+这个模块添加简单的字段到product.product对象中。我们不使用properties的原因是：
 
 .. i18n:     * We extend a product, the life_time field is a concept related to a product, not to another object.
 .. i18n:     * We do not need a right management per field, the different delays are managed by the same people that manage all products.
 ..
 
-    * We extend a product, the life_time field is a concept related to a product, not to another object.
-    * We do not need a right management per field, the different delays are managed by the same people that manage all products.
+    * 我们扩展一个product，life_time字段是相关到product而不是另一个对象的概念
+    * 我们不需要一个字段有个权限管理，不同的延迟被管理所有产品的人管理着。
 
 .. i18n: ORM methods
 .. i18n: -----------
@@ -2052,9 +1945,7 @@ Keeping the context in ORM methods
 .. i18n: etc.
 ..
 
-In OpenObject, the context holds very important data such as the language in
-which a document must be written, whether function field needs updating or not,
-etc.
+在OpenObject中，上下文保留重要数据类似文档必须被写入的语言等，无论function field是否需要更新等。
 
 .. i18n: When calling an ORM method, you will probably already have a context - for
 .. i18n: example the framework will provide you with one as a parameter of almost 
@@ -2063,18 +1954,14 @@ etc.
 .. i18n: to every single method you call.
 ..
 
-When calling an ORM method, you will probably already have a context - for
-example the framework will provide you with one as a parameter of almost 
-every method.
-If you do have a context, it is very important that you always pass it through
-to every single method you call.
+当调用ORM方法时，你已经拥有一个上下文，例如，框架提供给你一个几乎每个方法的参数。如果你有一个上下文，那么你一直带它通过你调用的每个单独的方法是很重要的。
+
 
 .. i18n: This rule also applies to writing ORM methods. You should expect to receive a
 .. i18n: context as parameter, and always pass it through to every other method you call.. 
 ..
 
-This rule also applies to writing ORM methods. You should expect to receive a
-context as parameter, and always pass it through to every other method you call.. 
+这个规则适用于写ORM方法。你应该希望接受一个上下文作为参数，让它一直通过你调用的其他方法。 
 
 .. i18n: ORM methods
 .. i18n: +++++++++++
