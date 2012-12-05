@@ -9,7 +9,7 @@
 .. i18n: =====================================================
 ..
 
-To Each Enterprise its own Analytic Chart of Accounts
+公司辅助核算科目表
 =====================================================
 
 .. i18n: To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
