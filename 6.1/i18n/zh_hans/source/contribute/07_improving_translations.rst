@@ -370,7 +370,7 @@ For example, if you want to build the *OpenERP for Retail and Industrial Managem
 .. i18n: ++++++++++++++++++++++++++++++++++++
 ..
 
-Linking to docstrings in source code
+链接到源代码的字符串
 ++++++++++++++++++++++++++++++++++++
 
 .. i18n: Some of the pages include links to classes in the project's source code. One
