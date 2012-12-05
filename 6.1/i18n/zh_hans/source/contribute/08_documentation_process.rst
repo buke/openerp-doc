@@ -1,16 +1,15 @@
-
 .. i18n: Documentation Process
 .. i18n: ---------------------
 ..
 
-Documentation Process
+文档编写流程
 ---------------------
 
 .. i18n: Books
 .. i18n: +++++
 ..
 
-Books
+书
 +++++
 
 .. i18n: The main documentation of OpenERP is composed of a set of books according to
@@ -39,7 +38,7 @@ and translator according to their effort.
 .. i18n: """""""""""""""
 ..
 
-Building a Book
+编写一本书
 """""""""""""""
 
 .. i18n: We have contracts with several editors to publish books in different countries.
@@ -61,7 +60,7 @@ Books are first published in a paper version. Three months after, we release it 
 .. i18n: ..  """"""""""
 ..
 
-..  Guidelines
+..  指南
 ..  """"""""""
 
 .. i18n: .. See the documentation-guidelines-link_ section.
@@ -73,7 +72,7 @@ Books are first published in a paper version. Three months after, we release it 
 .. i18n: """""""""""""
 ..
 
-Author Rights
+作者权利
 """""""""""""
 
 .. i18n: The typical author rights are between 8% and 10% on the public price, according
@@ -148,14 +147,14 @@ according to what we can do with editors)
 .. i18n: ++++++
 ..
 
-People
+人
 ++++++
 
 .. i18n: Authors
 .. i18n: """""""
 ..
 
-Authors
+作者
 """""""
 
 .. i18n: Anyone can be an author and write a complete book or just one or several
@@ -169,7 +168,7 @@ chapters on particular aspects of OpenERP. Chapters are then review
 .. i18n: """""""""""""""""
 ..
 
-Authors from Tiny
+来自 Tiny 的作者
 """""""""""""""""
 
 .. i18n: At Tiny (the editor of OpenERP), each employee can write a few chapters based
@@ -194,14 +193,14 @@ author rights are computed slightly differently:
 .. i18n: ..  """""""""""
 ..
 
-..  Translators
+..  翻译者
 ..  """""""""""
 
 .. i18n: ..  Reviewers
 .. i18n: ..  """""""""
 ..
 
-..  Reviewers
+..  审稿人
 ..  """""""""
 
 .. i18n: .. _building_documentation:
@@ -216,7 +215,7 @@ author rights are computed slightly differently:
 
 .. _building_documentation:
 
-Building the documentation
+编译文档
 ++++++++++++++++++++++++++
 The Sources for the documentation can be downloaded from:
 ::   
@@ -371,7 +370,7 @@ For example, if you want to build the *OpenERP for Retail and Industrial Managem
 .. i18n: ++++++++++++++++++++++++++++++++++++
 ..
 
-Linking to docstrings in source code
+链接到源代码的字符
 ++++++++++++++++++++++++++++++++++++
 
 .. i18n: Some of the pages include links to classes in the project's source code. One
