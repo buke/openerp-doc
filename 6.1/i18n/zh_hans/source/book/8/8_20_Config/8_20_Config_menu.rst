@@ -152,7 +152,7 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
    :scale: 75
    :align: center
 
-   *Selecting a new welcome page*
+   *选择一个新的欢迎页*
 
 .. i18n: The :guilabel:`Home Action` is the menu item that is automatically opened when you first sign on,
 .. i18n: and is also reached when you click the :guilabel:`Home` link in the top right toolbar of the web
@@ -161,17 +161,6 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 .. i18n: :menuselection:`Form --> Menu` in the GTK client. You can choose the
 .. i18n: main menu and the dashboards there.
 ..
-
-The :guilabel:`Home Action` is the menu item that is automatically opened when you first sign on,
-and is also reached when you click the :guilabel:`Home` link in the top right toolbar of the web
-client. There you can choose any page that you would reach through any menu – one of the dashboards
-could be most useful.
-
-
-The :guilabel:`Menu Action` is the one you reach through the menu
-:menuselection:`Form --> Menu` in the GTK client. You can choose the
-main menu and the dashboards there.
-
 
 :guilabel:`主页动作`  是当你第一次登陆是自动打开的菜单项目。当你在在WEB客户端的右上角工具条的 :guilabel:`Home` 链接上面点击时，
 也能到达。你这里能选择能通过菜单到达的任意页面 – 一个控制台是最有用的。
@@ -185,11 +174,9 @@ main menu and the dashboards there.
 .. i18n: 	completely inaccessible by mistake.
 ..
 
-.. tip:: Actions on the Administrator's Menu
+.. tip:: 管理员菜单的动作
 
-	It is very easy to change the welcome page and the menu of the different users.
-	However, you should not change the main administrator's menu because you could make certain menus
-	completely inaccessible by mistake.
+	非常容易改变不同用户的欢迎页面和菜单。然而，你不能改变管理员的菜单，因为你可以错误地使某些菜单完全无法访问
 
 .. i18n: .. index:: 
 .. i18n:    single: field; default value
@@ -201,7 +188,7 @@ main menu and the dashboards there.
 .. index:: 
    single: field; default value
    
-Assigning Default Values to Fields
+为字段指定默认值
 ----------------------------------
 
 .. i18n: You can quite easily configure the system to put default values in various fields as you open new
@@ -210,10 +197,10 @@ Assigning Default Values to Fields
 .. i18n: with :guilabel:`Country` set as :guilabel:`New Zealand`
 ..
 
-You can quite easily configure the system to put default values in various fields as you open new
-forms. This enables you to pre-complete the fields with default data to simplify your users' work in
-entering new documents. Let us use the Customer form to demonstrate this feature. Create a new customer
-with :guilabel:`Country` set as :guilabel:`New Zealand`
+你能很容易地设置系统在打开新表单时的各个字段的默认值。用默认数据预先完成这些字段，可简
+化用户在输入新单据的工作。
+
+让我们用“客户”表单来演示这个特性。创建一个新客户时 将:guilabel:`国家` 字段设置为  :guilabel:`新西兰` 
 
 .. i18n: * If you are using the web client, click the small button at the right of the :guilabel:`Country`
 .. i18n:   field.
@@ -225,14 +212,12 @@ with :guilabel:`Country` set as :guilabel:`New Zealand`
 .. i18n: An administrator has the choice of making the default work just for that user, or for all users of the database.
 ..
 
-* If you are using the web client, click the small button at the right of the :guilabel:`Country`
-  field.
+* 如果你使用web 客户端。单击 :guilabel:`国家` 字段右边的小按钮。
 
-* If you are using the GTK client, you just need to right-click the mouse while the pointer is in the
-  field.
+* 如果你使用 GTK 客户端，鼠标右击字段。
   
-Select \ ``Set as default`` \ from the pop-up menu.
-An administrator has the choice of making the default work just for that user, or for all users of the database.
+从弹出菜单选择 \ ``设置默认值`` \ 。
+管理能选择默认值是对指定用户有效还是对数据库中的所有用户有效.
 
 .. i18n: .. figure::  images/set_default.png
 .. i18n:    :scale: 75
@@ -245,14 +230,14 @@ An administrator has the choice of making the default work just for that user, o
    :scale: 75
    :align: center
 
-   *Inserting a new default value*
+   *插入一个新的默认值*
 
 .. i18n: To check this new configuration, open a new partner form: the field :guilabel:`Country` should now
 .. i18n: contain the entry \ ``New Zealand``\  .
 ..
 
-To check this new configuration, open a new partner form: the field :guilabel:`Country` should now
-contain the entry \ ``New Zealand``\  .
+要测试这个新的配置，打开一个合作伙伴表单，在字段 :guilabel:`国家` 现在有了\ ``新西兰``\ 
+
 
 .. i18n: This is a very powerful feature! An administrator can use this functionality to redefine the
 .. i18n: behavior of your whole system. You can test that in database \ ``openerp_ch13`` \ by opening up a
@@ -261,11 +246,11 @@ contain the entry \ ``New Zealand``\  .
 .. i18n: default.
 ..
 
-This is a very powerful feature! An administrator can use this functionality to redefine the
-behavior of your whole system. You can test that in database \ ``openerp_ch13`` \ by opening up a
-new :guilabel:`Purchase Order` form, clicking the second tab :guilabel:`Delivery & Invoicing`,
-selecting \ ``From Picking`` \ in the :guilabel:`Invoicing Control` field and then making that the
-default.
+这是一个非常强大的特性，管理员能用这个功能重新定义整个系统的行为。你能在数据库  \ ``openerp_ch13`` \  
+测试这个，通过打开一
+个新的:guilabel:`采购订单` ，点击第二个选项卡  :guilabel:`交付和开发票` ， 在  \ ``开票方式`` \  
+字段选择  \ ``从收货`` \ 为默认值。
+
 
 .. i18n: From that moment on, you would automatically create draft purchase invoices only when goods are
 .. i18n: received, so you could very easily restrict your accountants from paying any invoices that turn up
@@ -273,16 +258,16 @@ default.
 .. i18n: method of invoice control, but they would start with the default definition.
 ..
 
-From that moment on, you would automatically create draft purchase invoices only when goods are
-received, so you could very easily restrict your accountants from paying any invoices that turn up
-until you were sure you had received the goods. It would not stop anyone from selecting another
-method of invoice control, but they would start with the default definition.
+从这一刻起，只有当货物被收到时，你将自动创建采购发票草稿，所以你可以很容易地限制你的会计师支付任何发票，
+直到你确信你已经收到货物。他不会阻止选择其它的发票控制方法，但他们将从定义的默认值开始
+
+   *（译注：测试中发现开票方式字段 并不能设置默认值，该字段右边没有小按钮）*
 
 .. i18n: Changing the Terminology
 .. i18n: ------------------------
 ..
 
-Changing the Terminology
+更改术语
 ------------------------
 
 .. i18n: You can use OpenERP's language translation functionality to substitute its standard terminology
