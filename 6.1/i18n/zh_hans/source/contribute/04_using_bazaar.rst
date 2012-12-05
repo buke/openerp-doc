@@ -1,4 +1,3 @@
-
 .. i18n: .. _bazaar-link:
 .. i18n: 
 .. i18n: Bazaar, the version control system
@@ -7,7 +6,7 @@
 
 .. _bazaar-link:
 
-Bazaar, the version control system
+Bazaar 版本控制工具
 ----------------------------------
 
 .. i18n: .. index::
@@ -157,7 +156,7 @@ branch.
 .. i18n: +++++++++++++++++
 ..
 
-Installing Bazaar
+安装 Bazaar
 +++++++++++++++++
 
 .. i18n: .. index::
@@ -209,7 +208,7 @@ and put these lines in it:
 .. i18n: Then, do the following
 ..
 
-Then, do the following
+接下来要做的
 
 .. i18n: ::
 .. i18n: 
@@ -250,7 +249,7 @@ If you experience problems with Bazaar, please read the :ref:`bazaar-faq-link` b
 .. i18n: +++++++++++++
 ..
 
-Quick Summary
+快速摘要
 +++++++++++++
 
 .. i18n: .. index::
@@ -371,7 +370,7 @@ by a committer and then the quality team to be merged in the official release.
 
 .. _how-to-get-the-latest-trunk-source-code-link:
 
-How to get the latest trunk source code
+怎么获取最新的主干代码
 +++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Get a clone of each repository::
@@ -445,7 +444,7 @@ be given preference over the ``bin/addons`` (default path).
 .. i18n: +++++++++++++++++++++++
 ..
 
-How to commit Your Work
+怎样提交你的成果
 +++++++++++++++++++++++
 
 .. i18n: If you want to contribute on OpenERP or OpenObject, here is the proposed method:
