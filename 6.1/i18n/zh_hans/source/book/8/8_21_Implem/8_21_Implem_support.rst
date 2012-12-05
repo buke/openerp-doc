@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: maintenance
 .. i18n:    single: support
@@ -12,7 +11,7 @@
 .. i18n: =======================
 ..
 
-Support and Maintenance
+支持和维护
 =======================
 
 .. i18n: It is when you actually use your ERP that you will obtain value from your investment. For that reason,
@@ -78,7 +77,7 @@ become too old, you may eventually need a new development according to your spec
    single: update
    single: upgrade
    
-Updates and Upgrades
+更新与升级
 --------------------
 
 .. i18n: There are four sources of code change for OpenERP:
@@ -163,7 +162,7 @@ and after the upgrade can be a little different.
 .. i18n: -----------------
 ..
 
-Version Migration
+版本升级
 -----------------
 
 .. i18n: OpenERP has a system to manage migrations semi-automatically. To update specific modules, or the whole
