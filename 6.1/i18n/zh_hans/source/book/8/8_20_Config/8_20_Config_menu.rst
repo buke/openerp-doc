@@ -276,15 +276,13 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 .. i18n: OpenERP system, because everybody will be able to retain their usual vocabulary.
 ..
 
-You can use OpenERP's language translation functionality to substitute its standard terminology
-with terminology that fits your company better. It is quite straightforward to adapt the software
-with different terms specific to your industry. Moreover, this can strengthen acceptance of your new
-OpenERP system, because everybody will be able to retain their usual vocabulary.
+你可以使用OpenERP的语言翻译功能，用更好适合你的公司的术语来取代标准术语。这是很简单的，软件以适应不同的条款
+针对具体的行业。此外，这可以增强新的OpenERP系统的接受程度，因为每个人都将能够保持其一贯的词汇。
 
 .. i18n: You can do this one of two ways:
 ..
 
-You can do this one of two ways:
+你有两条途径做这些：:
 
 .. i18n: * translate them in a CSV file, which gives you a global overview of all of the system terms so that
 .. i18n:   you can search and replace specific occurrences everywhere,
@@ -293,20 +291,16 @@ You can do this one of two ways:
 .. i18n:   context, and that can be helpful to you while you are translating.
 ..
 
-* translate them in a CSV file, which gives you a global overview of all of the system terms so that
-  you can search and replace specific occurrences everywhere,
+* 在CSV文件里翻译他们，他给你一个全局的概况，这样你能搜索和替换各处的特定术语。
+* 直接在客户端翻译短语，意味你能在上下文里修改他们，当你翻译的时候给你很好的帮助。
 
-* translate the phrases directly in the client, which means that you can change them in their
-  context, and that can be helpful to you while you are translating.
 
 .. i18n: The same approach is used to translate terms that have not been created yet. This can be useful, for
 .. i18n: example, with modules that have not yet been translated into English or any other language that you
 .. i18n: want.
 ..
 
-The same approach is used to translate terms that have not been created yet. This can be useful, for
-example, with modules that have not yet been translated into English or any other language that you
-want.
+同样的方法用来翻译那些尚未创建的术语。这是有用的，例如，那些模块还没有被翻译为英语或者其它任何你要的语言
 
 .. i18n: .. index::
 .. i18n:    single: translation
@@ -319,7 +313,7 @@ want.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Translation through a CSV File
+通过CSV文件翻译
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To translate or modify all of the system's phrases, you first have to export a translation file in
@@ -329,11 +323,10 @@ Translation through a CSV File
 .. i18n: choose a language and then click :guilabel:`Load`.
 ..
 
-To translate or modify all of the system's phrases, you first have to export a translation file in
-CSV form. And to do that, you have to install a language into OpenERP. To load a translation
-that already exists in OpenERP, use
-:menuselection:`Administration --> Translations --> Load an Official Translation`,
-choose a language and then click :guilabel:`Load`.
+
+要翻译或者修改所有系统短语，你首先要导出一个翻译文件到CSV表单。要做这些，你需要安装
+一个语言进入OpenERP。要装入一个OpenERP已存在的翻译，
+使用:menuselection:`设置 --> 翻译 --> 装入一个官方翻译` ，选择语言，然后点击  :guilabel:`装入`。
 
 .. i18n: Then export it using 
 .. i18n: :menuselection:`Administration --> Translations --> Import/Export --> Export Translation`. 
@@ -342,11 +335,10 @@ choose a language and then click :guilabel:`Load`.
 .. i18n: :guilabel:`Save As` icon to save the file somewhere.
 ..
 
-Then export it using 
-:menuselection:`Administration --> Translations --> Import/Export --> Export Translation`. 
-Select the language, then the :guilabel:`CSV File` format, then one or more (or all) modules.
-Click :guilabel:`Export` to start the export process, then click the small 
-:guilabel:`Save As` icon to save the file somewhere.
+然后导出它，使用 :menuselection:`设置 --> 翻译 --> 导入/导出--> 导出 翻译` ，选择语言，CSV 文件格式，
+然后选择 一个或多个（或全部）模块。点击:guilabel:`导出` 开始导出过程，
+然后点击 小的 :guilabel:`保存为` ，保存文件到某个地方。
+
 
 .. i18n: .. note:: UTF-8 Format
 .. i18n: 
@@ -356,12 +348,10 @@ Click :guilabel:`Export` to start the export process, then click the small
 .. i18n: 	characters.
 ..
 
-.. note:: UTF-8 Format
+.. note:: UTF-8 格式
 
-	The CSV file is encoded in the UTF-8 format.
-	Make sure that you retain this format when you open the file in a spreadsheet program, because
-	if you **do not** retain it, you risk seeing strange character strings in place of accented
-	characters.
+	这个CSV文件用UTF-8格式编码。要确保你在电子表格程序中打开这个文件是保留这个格式，因为你如果**不保留**，
+        你可能会看到奇怪的乱码（重音符）
 
 .. i18n: .. figure::  images/csv_transl.png
 .. i18n:    :scale: 75
@@ -374,7 +364,7 @@ Click :guilabel:`Export` to start the export process, then click the small
    :scale: 75
    :align: center
 
-   *CSV translation file with a translation in view*
+   *在CSV文件的翻译视图*
 
 .. i18n: The file contains six columns: :guilabel:`module` , 
 .. i18n: :guilabel:`type` , :guilabel:`name`, :guilabel:`res_id`,
@@ -382,10 +372,9 @@ Click :guilabel:`Export` to start the export process, then click the small
 .. i18n: these column names, remains untouched. 
 ..
 
-The file contains six columns: :guilabel:`module` , 
+这个文件包含了6列：: :guilabel:`module` , 
 :guilabel:`type` , :guilabel:`name`, :guilabel:`res_id`,
-:guilabel:`src`, and :guilabel:`value`. You have to ensure that the first line, which specifies
-these column names, remains untouched. 
+:guilabel:`src`, and :guilabel:`value`. 你必须确保第一行包含了这些列名，保持不变。
 
 .. i18n: The :guilabel:`src` field contains the base text in English,
 .. i18n: and the :guilabel:`value` field contains a translation into another conventional language or into a
@@ -398,6 +387,10 @@ and the :guilabel:`value` field contains a translation into another conventional
 specialist technical phrase. If there is nothing at all in the :guilabel:`value` field then the
 English translation will automatically be used on the form you see.
 
+
+:guilabel:`src`  字段包含了英语的基础文本，:guilabel:`value`  字段包含了翻译成另一个传统的语言或专业技术短语。
+如果 :guilabel:`value`  字段没有内容,英语基础文本将会做为默认显示。
+
 .. i18n: .. tip:: Where Should you Modify the Text?
 .. i18n: 
 .. i18n:    Most of the time, you will find the text that you want to modify in several lines of the CSV
@@ -409,24 +402,26 @@ English translation will automatically be used on the form you see.
 .. i18n:    see this entry in a drop-down menu.
 ..
 
-.. tip:: Where Should you Modify the Text?
+.. tip:: 你应该在哪里修改文本？?
 
-   Most of the time, you will find the text that you want to modify in several lines of the CSV
-   file.
-   Which line should you modify?
-   Refer to the two columns :guilabel:`type` (in column B) and :guilabel:`name` (in column C).
-   Some lines have the name :guilabel:`ir.ui.menu` in the :guilabel:`name` column, which shows that this is a menu entry.
-   Others have :guilabel:`selection` in the :guilabel:`type` column, which indicates that you would
-   see this entry in a drop-down menu.
+   大部分时间，你会发现要修改的文字在CSV文件中的好几行。
+   你应该修改哪一行？
+   参考这两列：:guilabel:`type`（B列）
+   和:guilabel:`name` （C列）。有些行在 :guilabel:`name` 列有名称 :guilabel:`ir.ui.menu`，表明这是
+   一个菜单项的名。
+   另外在:guilabel:`type`列有:guilabel:`selection` ，这表明，你会在一个下拉菜单项看到这个项目。
+
+
 
 .. i18n: You should then load the new file into your OpenERP system using the menu
 .. i18n: :menuselection:`Administration --> Translations --> Import/Export --> Import Translation`. 
 .. i18n: You have then got two ways forward:
 ..
+  
 
-You should then load the new file into your OpenERP system using the menu
-:menuselection:`Administration --> Translations --> Import/Export --> Import Translation`. 
-You have then got two ways forward:
+然后你要装入这个新文件到你的OpenERP系统中，使用菜单 :menuselection:`设置 --> 翻译 --> 导入/导出 --> 导入翻译`
+。之后你有两种方法：
+
 
 .. i18n: * you can overwrite the previous translation by using the same name as before (so you could have a
 .. i18n:   special 'standard French' translation by reusing the :guilabel:`Name` \ ``Français``\   and
@@ -435,20 +430,22 @@ You have then got two ways forward:
 .. i18n: * you could create a new translation file which users can select in their :guilabel:`Preferences`.
 ..
 
-* you can overwrite the previous translation by using the same name as before (so you could have a
-  special 'standard French' translation by reusing the :guilabel:`Name` \ ``Français``\   and
-  :guilabel:`Code` \ ``fr_FR``\  ),
 
-* you could create a new translation file which users can select in their :guilabel:`Preferences`.
+* 你能使用相同的名称覆盖以前的翻译（所以，重新使用名称 :guilabel:`Name` \ ``Français``\  和代码 :guilabel:`Code` \ ``fr_FR``\  ，你能有一个特殊的‘standard French’翻译）
+
+* 你能创建一个新的翻译文件，用户可以在“用户喜好”中选择。
 
 .. i18n: If you are not connected to the translated language, click :guilabel:`Edit Preferences`, select the
 .. i18n: language in :guilabel:`Language` from the :guilabel:`Preferences` tab, and finally click :guilabel:`Save`
 .. i18n: to load the new language with its new terminology.
 ..
 
-If you are not connected to the translated language, click :guilabel:`Edit Preferences`, select the
-language in :guilabel:`Language` from the :guilabel:`Preferences` tab, and finally click :guilabel:`Save`
+If you are not connected to the translated language, click , select the
+language in from the tab, and finally click 
 to load the new language with its new terminology.
+
+如果您没有连接到翻译的语言，单击  :guilabel:`编辑首选项` “”，从 :guilabel:`Preferences` 标签的 :guilabel:`语言` 字段选择语言，最后点击:guilabel:`保存` ，装入新的语言，用新的术语。
+
 
 .. i18n: .. tip:: Partial Translations
 .. i18n: 
@@ -457,17 +454,15 @@ to load the new language with its new terminology.
 .. i18n:    and leaves the original ones alone.
 ..
 
-.. tip:: Partial Translations
+.. tip:: 部分翻译
 
-   You can load a selection of the lines in a translation file by deleting most of the lines in the
-   file and then loading back only the changed ones. OpenERP then changes only the uploaded lines
-   and leaves the original ones alone.
+   你可以选择翻译部分行，删去文件中的大部分行，然后只装入改变后的行。OpenERP只修改上传的行，其它的保留原样。
 
 .. i18n: Changes through the Client Interface
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Changes through the Client Interface
+通过客户端界面修改
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: You can also change labels and other screen items on screen in the web client. 
@@ -481,6 +476,10 @@ To do that, open the form that you want to translate, then click the
 :guilabel:`Translate` icon to its bottom right. 
 You then have the choice of translating:
 
+你还能通过客户端界面在WEB客户端改变标签和其它屏幕上的项目。要做到这一点，打开你要翻译的表单，然后点击其右下角的
+:guilabel:`翻译`  图标。
+然后，你有的翻译选择：
+
 .. i18n: * the data in the system (contained in the :guilabel:`Fields`),
 .. i18n: 
 .. i18n: * the field titles (the :guilabel:`Labels`),
@@ -490,37 +489,35 @@ You then have the choice of translating:
 .. i18n: * the terms used in the form :guilabel:`View`.
 ..
 
-* the data in the system (contained in the :guilabel:`Fields`),
+* 系统中的数据(包含在:guilabel:`字段`里) 
 
-* the field titles (the :guilabel:`Labels`),
+* 字段标题 ( :guilabel:`标签`),
 
-* all of the :guilabel:`Action` buttons to the right of the form (the :guilabel:`Relates` option),
+* 表单右侧所有的:guilabel:`动作`按钮（:guilabel:`关联`的选项）
 
-* the terms used in the form :guilabel:`View`.
+* 在表单 :guilabel:`视图` 中的术语。
 
 .. i18n: You can modify any of these.
 ..
 
-You can modify any of these.
+你能修改这些中任意一项。
 
 .. i18n: The procedure is slightly different using the GTK client. In this you just right-click on a label or button
 .. i18n: with the mouse. You can choose to translate the item itself or the whole view.
 ..
 
-The procedure is slightly different using the GTK client. In this you just right-click on a label or button
-with the mouse. You can choose to translate the item itself or the whole view.
+使用GTK的客户端的过程略有不同。在此，你只是一个选项卡或按钮，用鼠标右键单击。你可以选择翻译项目本身或整个视图。
 
 .. i18n: This method is simple and quick when you only have a few entries to modify, but it can become
 .. i18n: tiresome and you can lose a lot of time if you have got to change some terms across the whole system.
 ..
 
-This method is simple and quick when you only have a few entries to modify, but it can become
-tiresome and you can lose a lot of time if you have got to change some terms across the whole system.
+当你只有几个项目要修改，这个方法是简单和快速的。但是如果要修改贯穿于整个系统中的术语，这将变得厌烦，要花费很多时间。
 
 .. i18n: In that case it would be better to use the translation method that employs a CSV file.
 ..
 
-In that case it would be better to use the translation method that employs a CSV file.
+这种情况下，更好的方法就是采用CSV文件的翻译方法。
 
 .. i18n: .. tip:: Taking account of Translations
 .. i18n: 
@@ -529,11 +526,10 @@ In that case it would be better to use the translation method that employs a CSV
 .. i18n:    form.
 ..
 
-.. tip:: Taking account of Translations
+.. tip:: 译文的考虑
 
-   In the GTK client, the modified terms are not updated immediately.
-   To see the effects of the modifications, you must close the current window and then reopen the
-   form.
+   在 GTK 客户端，修改的属于并不会立即生效,
+   要看到修改的效果，必须关掉当前的窗口，并且再次打开表单。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
