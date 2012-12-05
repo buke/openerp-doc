@@ -1,11 +1,10 @@
-
 .. i18n: ===============================
 .. i18n: Creating Wizard - (The Process)
 .. i18n: ===============================
 ..
 
 ===============================
-Creating Wizard - (The Process)
+创建向导 - (The Process)
 ===============================
 
 .. i18n: Introduction
