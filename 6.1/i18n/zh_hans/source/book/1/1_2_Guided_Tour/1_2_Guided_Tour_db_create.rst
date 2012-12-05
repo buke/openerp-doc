@@ -1,9 +1,8 @@
-
 .. i18n: Database Creation
 .. i18n: =================
 ..
 
-Database Creation
+创建数据库
 =================
 
 .. i18n: Use the technique outlined in :ref:`ch-inst` to create a new database, \ ``openerp_ch02``\  . This
