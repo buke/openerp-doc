@@ -15,7 +15,7 @@
 .. i18n: install any additional modules to enable the multi-company environment. All components are included in the base modules. All you have to do to work in a multi-company environment, is add the Useability/Multi-Companies group to your user.
 ..
 
-书的这部分的主要介绍OpenERP的多公司环境下的应用。OpenERP从6.0版本起，应用多公司的环境你不必安装任何额外的模块。所有的组件都包括在基本模块。您的多公司的环境所要做的工作，是添加 易用性/multi-companies组给您的用户。
+书的这部分的主要介绍OpenERP的多公司环境下的应用。OpenERP从6.0版本起，应用多公司的环境你不必安装任何额外的模块。所有的组件都包括在基本模块。您的多公司的环境所要做的工作，是添加 易用性/multi-companies 组给您的用户。
 
 .. i18n: The multi-company environment allows you to manage operations from different companies with different warehouses, customers and suppliers, products, ...
 ..
