@@ -65,7 +65,7 @@ release = '6.0.0'
 # non-false value, then it is used:
 #today = ''
 # Else, today_fmt is used as the format for a strftime call.
-today_fmt = '%Y-%m-%d %H:%M:%S'
+today_fmt = '%Y-%m-%d'
 
 # List of documents that shouldn't be included in the build.
 unused_docs = [
@@ -144,7 +144,7 @@ html_static_path = ['.static']
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%Y-%m-%d'
+html_last_updated_fmt = '%Y-%m-%d %H:%M:%S'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
