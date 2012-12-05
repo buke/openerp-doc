@@ -1,9 +1,8 @@
-
 .. i18n: To Connect to OpenERP
 .. i18n: =====================
 ..
 
-To Connect to OpenERP
+连接到 OpenERP
 =====================
 
 .. i18n: Since this is the first time you have connected to OpenERP, you will be given the opportunity
@@ -128,7 +127,7 @@ Two menus are available at the moment:
 .. i18n: -------------------
 ..
 
-Preferences Toolbar
+工具栏首选项
 -------------------
 
 .. i18n: When you are connected to OpenERP, the topmost toolbar indicates which user you are connected as.
@@ -275,7 +274,7 @@ access to the super-administrator functions for managing databases on this serve
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Installing a New Language
+安装新的语言
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Each user of the system can work in his or her own language. More than twenty languages are
@@ -369,7 +368,7 @@ new language.
 .. i18n: ^^^^^^^^
 ..
 
-Requests
+站内信
 ^^^^^^^^
 
 .. i18n: Requests have been removed in OpenERP 6.1 - a new internal communication system will be added in 7.0.
@@ -388,7 +387,7 @@ Requests have been removed in OpenERP 6.1 - a new internal communication system 
 .. i18n: -----------------
 ..
 
-Configuring Users
+配置用户
 -----------------
 
 .. i18n: The database you created contains minimal functionality but can be extended to include all of the
@@ -522,7 +521,7 @@ Management defines these access rights as described in :ref:`ch-config`.
 .. i18n: -----------------
 ..
 
-Managing Partners
+管理业务伙伴
 -----------------
 
 .. i18n: In OpenERP, a partner represents an entity that you do business with. That can be a prospect, a
@@ -536,7 +535,7 @@ customer, a supplier, or even an employee of your company.
 .. i18n: ^^^^^^^^^^^^^^^^
 ..
 
-List of Partners
+业务伙伴列表
 ^^^^^^^^^^^^^^^^
 
 .. i18n: Click :menuselection:`Sales --> Address Book --> Customers` in the main menu to open the list of partners who are customers. Then click the name of the first partner to get hold of the details – a form appears with 
@@ -629,7 +628,7 @@ them to get a feel for their use.
 .. i18n: ^^^^^^^^^^^^^^^^^^
 ..
 
-Partner Categories
+业务伙伴分类
 ^^^^^^^^^^^^^^^^^^
 
 .. i18n: You can list your partners by category using the menu :menuselection:`Sales --> Configuration -->
