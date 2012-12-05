@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation
 .. i18n:    single: Initial Setup
@@ -20,7 +19,7 @@
 .. _ch-inst:
 
 ******************************
-Installation and Initial Setup
+安装与初始配置
 ******************************
 
 .. i18n:  *Installing OpenERP under Windows or Linux to get familiar with the software should take you only half an
