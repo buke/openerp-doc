@@ -1,15 +1,14 @@
-
 .. i18n: Installation of BI
 .. i18n: ==================
 ..
 
-Installation of BI
+BI 安装
 ==================
 
 .. i18n: BI requires OpenERP Server and (preferably) OpenERP GTK client on the user system.
 ..
 
-BI requires OpenERP Server and (preferably) OpenERP GTK client on the user system.
+BI 需要安装 OpenERP Server 并且最好使用 OpenERP GTK 客户端。
 
 .. i18n: .. toctree::
 .. i18n: 	:maxdepth: 2
