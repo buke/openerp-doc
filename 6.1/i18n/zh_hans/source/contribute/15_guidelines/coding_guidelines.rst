@@ -1,4 +1,3 @@
-
 .. i18n: .. _coding-guidelines-link:
 .. i18n: 
 .. i18n: =================
@@ -13,7 +12,7 @@
 .. _coding-guidelines-link:
 
 =================
-Coding Guidelines
+编码指南
 =================
 This list is populated incrementally by the OpenERP Quality Team as part of the code review process.
 It contains a set of OpenERP specific
