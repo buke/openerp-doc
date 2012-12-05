@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; OpenERP Server (Windows)
 .. i18n:    single: OpenERP Server; Installation (Windows)
@@ -19,15 +18,14 @@
 .. i18n: ===========================
 ..
 
-OpenERP Server Installation
+OpenERP服务器安装
 ===========================
 
 .. i18n: The OpenERP Server 6.1 installation works with disks formatted in NTFS (not a FAT or FAT32 partition).
 .. i18n: The following installation procedure has been well-tested on Windows 7.
 ..
 
-The OpenERP Server 6.1 installation works with disks formatted in NTFS (not a FAT or FAT32 partition).
-The following installation procedure has been well-tested on Windows 7.
+OpenERP 服务器6.1安装运行于NTFS格式硬盘（而非FAT或FAT32分区）。以下安装流程在Windows 7上很好地测试过。
 
 .. i18n: .. note:: Windows Versions
 .. i18n: 
@@ -35,42 +33,39 @@ The following installation procedure has been well-tested on Windows 7.
 .. i18n:    for obvious reasons -- these cannot be formatted using NTFS.
 ..
 
-.. note:: Windows Versions
+.. note:: Windows 版本
 
-   OpenERP Server does not work on Windows 98 or ME;
-   for obvious reasons -- these cannot be formatted using NTFS.
+   OpenERP服务器不行运行于Windows 98或者ME；原因很显然，这些版本不能用NTFS格式化。
 
 .. i18n: You will need a PostgreSQL server up and running. If it is not the case,
 .. i18n: you can read the :ref:`installation-windows-postgresql-server` section.
 ..
 
-You will need a PostgreSQL server up and running. If it is not the case,
-you can read the :ref:`installation-windows-postgresql-server` section.
+你需要一个运行的PostgreSQL服务器。如果没有，你可以阅读PostgreSQL服务器安装和配置部分 :ref:`installation-windows-postgresql-server` 。
 
 .. i18n: Downloading the OpenERP Server
 .. i18n: ------------------------------
 ..
 
-Downloading the OpenERP Server
+下载 OpenERP 服务器
 ------------------------------
 
 .. i18n: The OpenERP Server can be downloaded from
 .. i18n: `OpenERP website's download page <http://www.openerp.com/downloads>`_.
 ..
 
-The OpenERP Server can be downloaded from
-`OpenERP website's download page <http://www.openerp.com/downloads>`_.
+OpenERP服务器可以从OpenERP网站下载页面下载 <http://www.openerp.com/downloads>`_.
 
 .. i18n: Under `Windows Auto-Installer`, choose **All-In-One** to download OpenERP.
 ..
 
-Under `Windows Auto-Installer`, choose **All-In-One** to download OpenERP.
+在 `Windows Auto-Installer` 下面, 选择 **All-In-One** 来下载 OpenERP。
 
 .. i18n: Installing the OpenERP Server
 .. i18n: -----------------------------
 ..
 
-Installing the OpenERP Server
+安装 OpenERP 服务器
 -----------------------------
 
 .. i18n: Execute the installer you have just downloaded. It has the following stages:
@@ -185,7 +180,7 @@ session.
 
 .. _sect-custconf:
 
-Customized Configuration
+定制配置
 ------------------------
 
 .. i18n: To initialize the server with configurations of your choice, you have to invoke it at the Windows Command prompt with the options you wish to override.
@@ -273,7 +268,7 @@ When you execute the initialization command, if you specify a logfile, the serve
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Deciding about the purpose of the database
+决定数据库目的
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: You can initialize the database with OpenERP Server to:
@@ -370,7 +365,7 @@ a new database and execute the above command on it.
 .. i18n: +++++++++++++++++++
 ..
 
-Update the database
+更新数据库
 +++++++++++++++++++
 
 .. i18n: Execute the command with an option that updates the data structures: ::
@@ -397,7 +392,7 @@ Sample command usage: ::
 .. i18n: Administrative Tools.
 ..
 
-Monitoring the OpenERP Server
+监控 OpenERP 服务器
 -----------------------------
 The service and some runtime information is accessible through the Computer Management console in
 Administrative Tools.
