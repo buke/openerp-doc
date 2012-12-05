@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; OpenERP Web (Windows)
 .. i18n:    single: OpenERP Web; Installation (Windows)
@@ -19,26 +18,25 @@
 .. i18n: ========================
 ..
 
-OpenERP Web Installation
+OpenERP Web 安装
 ========================
 
 .. i18n: As of OpenERP 6.1, the web client is included as part of the standard
 .. i18n: all-in-one installation, so no extra step is required to install it.
 ..
 
-As of OpenERP 6.1, the web client is included as part of the standard
-all-in-one installation, so no extra step is required to install it.
+从6.1开始，web 客户端已经作为标准的安装包一部分包含在all-in-one 安装内，不需要另外安装了。
 
 .. i18n: The all-in-one version may be downloaded from the `OpenERP website's download page <http://www.openerp.com/downloads>`_
 ..
 
-The all-in-one version may be downloaded from the `OpenERP website's download page <http://www.openerp.com/downloads>`_
+all-in-one 版本可从`OpenERP 网站的下载页面 <http://www.openerp.com/downloads>`_下载。
 
 .. i18n: Running the OpenERP Web Client
 .. i18n: ------------------------------
 ..
 
-Running the OpenERP Web Client
+运行 OpenERP Web 客户端
 ------------------------------
 
 .. i18n: The OpenERP 6.1 web client is automatically available as soon as the
@@ -58,7 +56,7 @@ by default ``http://localhost:8069``.
 .. i18n: ------------------
 ..
 
-Supported Browsers
+支持的浏览器
 ------------------
 
 .. i18n: The OpenERP Web Client is known to work best with the latest version of Google Chrome or Mozilla Firefox.
