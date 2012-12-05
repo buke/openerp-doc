@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Analytic Accounts
 ..
@@ -16,7 +15,7 @@
 .. _ch-accts:
 
 *****************
-Analytic Accounts
+辅助核算
 *****************
 
 .. i18n:  *Sitting at the heart of your company's processes, analytic accounts (or cost accounts) are
