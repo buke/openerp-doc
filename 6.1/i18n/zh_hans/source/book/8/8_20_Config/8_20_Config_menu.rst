@@ -382,12 +382,6 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 .. i18n: English translation will automatically be used on the form you see.
 ..
 
-The :guilabel:`src` field contains the base text in English,
-and the :guilabel:`value` field contains a translation into another conventional language or into a
-specialist technical phrase. If there is nothing at all in the :guilabel:`value` field then the
-English translation will automatically be used on the form you see.
-
-
 :guilabel:`src`  字段包含了英语的基础文本，:guilabel:`value`  字段包含了翻译成另一个传统的语言或专业技术短语。
 如果 :guilabel:`value`  字段没有内容,英语基础文本将会做为默认显示。
 
@@ -439,10 +433,6 @@ English translation will automatically be used on the form you see.
 .. i18n: language in :guilabel:`Language` from the :guilabel:`Preferences` tab, and finally click :guilabel:`Save`
 .. i18n: to load the new language with its new terminology.
 ..
-
-If you are not connected to the translated language, click , select the
-language in from the tab, and finally click 
-to load the new language with its new terminology.
 
 如果您没有连接到翻译的语言，单击  :guilabel:`编辑首选项` “”，从 :guilabel:`Preferences` 标签的 :guilabel:`语言` 字段选择语言，最后点击:guilabel:`保存` ，装入新的语言，用新的术语。
 
