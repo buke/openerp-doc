@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: access rights
 .. i18n:    single: access; user
@@ -12,7 +11,7 @@
 .. i18n: ==========
 ..
 
-User Login
+用户登陆
 ==========
 
 .. i18n: .. tip:: Managing Passwords
@@ -25,10 +24,8 @@ User Login
 
 .. tip:: Managing Passwords
 
-   If you let users change their passwords for themselves, you will have no direct control over the
-   password they choose.
-   You should have a written policy about password strength to try to maintain a level of security in
-   your system.
+   如果你让用户有权更改自己的密码，你将无法直接控制他们的密码。
+   你应该有一个书面的关于密码强度的政策，以保证系统的安全。
 
 .. i18n: .. index::
 .. i18n:    single: module; users_ldap
@@ -47,14 +44,15 @@ User Login
 .. i18n: 	their first connection to OpenERP.
 ..
 
-.. tip:: Managing Users through LDAP
+.. tip:: 通过LDAP管理用户
 
-	With the :mod:`users_ldap` module, user accounts can be managed through an LDAP directory that can be
-	made common to various different company resources.
 
-	Connection parameters for the LDAP directory are then registered with the company definition.
-	You can provide a user profile template there from which new users are automatically created during
-	their first connection to OpenERP.
+        使用:mod:`users_ldap`模块，用户帐户可通过LDAP目录，共同管理各种不同的公司资源。
+        LDAP目录中的连接参数，根据公司定义进行注册。你可以提供一个用户设置文件的模板，
+        新用户在第一次连接到OpenERP自动创建。
+
+
+
 
 .. i18n: .. index::
 .. i18n:    single: LDAP
@@ -74,11 +72,10 @@ User Login
 
 .. note:: LDAP
 
-	The LDAP protocol (Lightweight Directory Access Protocol) enables you to manage common directories
-	for various different resources through your standard TCP/IP network.
+	LDAP协议（Lightweight Directory Access Protocol），使您通过标准的TCP/IP网络
+        为各种不同的资源管理公共目录这使得该公司的用户有相同的用户名和密码来访问所有
+        的应用程序（如Email和Intranet）。
 
-	This enables users in the company to have the same username and password to access all
-	their applications (such as email and intranet).
 
 .. i18n: Managing Access Rights
 .. i18n: ======================
