@@ -1,10 +1,6 @@
 OpenERP 中文文档翻译计划
 ================
 
-.. _fig_0101:
-.. figure:: http://shine-it.net/index.php?action=dlattach;topic=4533.0;attach=1978;image
-
-   WE WANT YOU
 
 简介
 -----------
