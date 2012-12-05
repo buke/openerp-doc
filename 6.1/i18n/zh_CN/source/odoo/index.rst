@@ -1,4 +1,3 @@
-
 .. i18n: .. _odoo-link:
 .. i18n: 
 .. i18n: Odoo: Manage Your Business "On Demand" !
@@ -7,7 +6,7 @@
 
 .. _odoo-link:
 
-Odoo: Manage Your Business "On Demand" !
+Odoo: 随时随地在线管理
 ========================================
 
 .. i18n: Odoo is a complete offer, inclusive of: software at special price, maintenance, hosting and support.
@@ -21,19 +20,19 @@ It gives you a quick access to your application through internet and a total sec
 .. i18n: +++++++++++++
 ..
 
-Documentation
+文档
 +++++++++++++
 
 .. i18n: The documentation is still under construction and will be available soon.
 ..
 
-The documentation is still under construction and will be available soon.
+文档很快就就绪了，有点儿耐心嘛亲……
 
 .. i18n: Manual
 .. i18n: ++++++
 ..
 
-Manual
+手册
 ++++++
 
 .. i18n: You can get the manual for OpenERP here: :ref:`OpenERP Tutorial <books-link>`
