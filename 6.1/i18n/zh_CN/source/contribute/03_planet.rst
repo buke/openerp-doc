@@ -1,4 +1,3 @@
-
 .. i18n: .. _planet-link:
 .. i18n: 
 .. i18n: The Planets and announcements
@@ -7,7 +6,7 @@
 
 .. _planet-link:
 
-The Planets and announcements
+博客集聚和公告
 -----------------------------
 
 .. i18n: .. contents::
@@ -19,7 +18,7 @@ The Planets and announcements
 .. i18n: ++++++++++++++++++++++
 ..
 
-What are the planets ?
+什么是博客集聚 ?
 ++++++++++++++++++++++
 
 .. i18n: The planets are places where partners, developers and contributors express
@@ -67,7 +66,7 @@ a press release based on our article.
 .. i18n: ++++++++++++++++++
 ..
 
-Writing Guidelines
+撰写指南
 ++++++++++++++++++
 
 .. i18n: To post on the Open Object planet, you must:
