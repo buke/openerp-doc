@@ -63,12 +63,12 @@ OpenERP SA 为此专门成立了一个界面交互团队，持续改进易用性
 .. i18n: These ideas are discussed between OpenERP SA, the official partners and members of the community. In order to discuss about ideas, we have setup an open `usability team on Launchpad`_ to discuss every proposition.
 ..
 
-OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为此，我们还建立了 `usability team on Launchpad`_ .  来专门讨论。
+OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为此，我们还在 Launchpad 建立了 `usability team on Launchpad`_ .  来专门讨论。
 
 .. i18n: You can also subscribe to the `usability mailing list`_ to be part of the main discussions about how to improve OpenERP's usability.
 ..
 
-You can also subscribe to the `usability mailing list`_ to be part of the main discussions about how to improve OpenERP's usability.
+您可以通过订阅邮件列表 `usability mailing list`_ 来参与讨论如何提高 OpenERP 的界面友好度。
 
 .. i18n: Once an improvement is approved by the usability managers, the community of OpenERP SA develops the software according to the proposed improvements. You can check the `developer guide`_ and `documentation process`_ for more information on how to contribute to OpenERP. 
 ..
