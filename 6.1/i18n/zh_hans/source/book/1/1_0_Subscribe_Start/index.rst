@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Subscribe Start
 ..
@@ -16,7 +15,7 @@
 .. _ch-ss:
 
 *****************
-Subscribe & Start
+在线订购 & 开始
 *****************
 
 .. i18n: Whether you want to test OpenERP or put it into full production, you have at least two possible starting
@@ -80,7 +79,7 @@ In this chapter, the easy-to-use *OpenERP Online* solution will be briefly expla
 .. i18n: ------------------
 ..
 
-Use OpenERP Online
+OpenERP 在线使用
 ------------------
 
 .. i18n: .. index::
