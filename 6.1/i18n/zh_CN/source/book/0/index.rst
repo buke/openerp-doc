@@ -1,11 +1,10 @@
-
 .. i18n: ########
 .. i18n: Foreword
 .. i18n: ########
 ..
 
 ########
-Foreword
+前言
 ########
 
 .. i18n: Information Systems have played an increasingly visible role over the past several years in
@@ -15,11 +14,10 @@ Foreword
 .. i18n: key source of significant competitive advantage.
 ..
 
-Information Systems have played an increasingly visible role over the past several years in
-improving the competitiveness of business.
-More than just tools for handling repetitive tasks, they are used to guide and advance
-all of a company's' daily activities. Integrated management software is today very often a
-key source of significant competitive advantage.
+近些年来，信息系统日益发挥着显着的作用，提高企业的竞争力。
+作为处理重复性的任务的工具，它们被用来指导并促进
+所有公司的日常活动。现在集成的管理软件往往是
+具有显著竞争优势的主要来源。
 
 .. i18n: The standard response to a need for responsiveness, reliability, and rapidly
 .. i18n: increasing expectations is to create an organization based on departments with
