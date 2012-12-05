@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: 
 .. i18n:    single: menu; configuring
 ..
@@ -10,7 +9,7 @@
 .. i18n: ====================
 ..
 
-Configuring the Menu
+设置菜单
 ====================
 
 .. i18n: OpenERP's menu organization is not subject to any restriction, so you can modify the whole
@@ -21,21 +20,17 @@ Configuring the Menu
 .. i18n: subsequent versions of the software.
 ..
 
-OpenERP's menu organization is not subject to any restriction, so you can modify the whole
-structure, the terminology and all access rights to it to meet your specific needs in the best
-possible way. However, before you do all that and just as you would for any other customizable
-software, you should balance both the benefits you see in such changes and the costs, such as the
-need to train users, to maintain new documentation and to continue the alterations through
-subsequent versions of the software.
+OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、术语和所有访问权限，它尽最大可能满足您的特定需求。
+然而，你做这一切之前，就像任何其他的可自定义的软件，你应该平衡考虑这种变化的好处和成本，比如需要培训用户，
+要维护新的文件，以及继续修改这个软件的后续版本。
 
 .. i18n: This section describes how to proceed to change the structure of the menu and the welcome page, to
 .. i18n: configure the terminology of the menus and forms in the user interface, and for managing users'
 .. i18n: access rights to the menus and the various underlying business objects.
 ..
 
-This section describes how to proceed to change the structure of the menu and the welcome page, to
-configure the terminology of the menus and forms in the user interface, and for managing users'
-access rights to the menus and the various underlying business objects.
+本节介绍如何更改菜单结构和欢迎页面，设置在用户界面中菜单和表单的术语，管理用户的菜单访问权限的以及各项
+基础业务对象。
 
 .. i18n: .. index::
 .. i18n:    single: menu; duplicating
@@ -48,7 +43,7 @@ access rights to the menus and the various underlying business objects.
 .. i18n: -----------------
 ..
 
-Changing the Menu
+修改菜单
 -----------------
 
 .. i18n: You can change the way menu items appear and the actions they trigger by using the menu
@@ -58,11 +53,14 @@ Changing the Menu
 .. i18n: parent menu name in :guilabel:`Parent Menu`.
 ..
 
-You can change the way menu items appear and the actions they trigger by using the menu
-:menuselection:`Administration --> Customization --> User Interface --> Menu Items`. This
-opens a search view where you may locate the menu item to be edited by entering its entire
-name (specified as menu hierarchy) in the :guilabel:`Menu` field or specifying its immediate
-parent menu name in :guilabel:`Parent Menu`.
+
+你可以改变菜单项出现的方式和他们触发的动作，使用菜单
+:menuselection:`设置 --> 自定义 --> 用户界面 --> 菜单项` “设置→自定义→用户界面→菜单项”,来变更菜单的显
+示方式及触发动作。
+在搜索视图中, 在:guilabel:`菜单` 字段输入整个名称找到你要编辑的菜单项目（如菜单层次结构中
+指定），或在 :guilabel:`上级菜单` 指定上级菜单名称.
+
+
 
 .. i18n: As an example, locate the menu item \ ``Administration/Translations/Import / Export/Export Translation`` \
 .. i18n: and click on this entry to open its corresponding form.
@@ -73,13 +71,13 @@ parent menu name in :guilabel:`Parent Menu`.
 .. i18n: (but this would lose the point of this particular exercise).
 ..
 
-As an example, locate the menu item \ ``Administration/Translations/Import / Export/Export Translation`` \
-and click on this entry to open its corresponding form.
-You could now edit this form (**but do not do that, read the next paragraph first!**) – change 
-its :guilabel:`Parent Menu`, which moves the entry to a
-different part of the menu system; edit its :guilabel:`Menu` name to change how it appears in the
-menu tree, or give it a new :guilabel:`Icon`. Or you could give it a new :guilabel:`Action` entirely
-(but this would lose the point of this particular exercise).
+
+例如: 找到菜单项  \ ``设置/翻译/导入/导出 翻译`` \ 
+点击该项打开响应的表单,你能编辑这个表单 (**请先不要这样操作,请先阅读下
+一段**), 改变它的 :guilabel:`上级菜单` ，并移动至菜单系统任何一个位置; 编辑 :guilabel:`菜单`  可以改变
+菜单树显示的内容，或者给一个新的 :guilabel:`图标` 。或者你能给一个全新的 :guilabel:`动作` (但会导致错误的操作)
+
+
 
 .. i18n: Instead of editing this form, which is the original menu entry, duplicate it. With the web
 .. i18n: client you must first make the form read-only by clicking the :guilabel:`Cancel` button, then you
@@ -88,11 +86,10 @@ menu tree, or give it a new :guilabel:`Icon`. Or you could give it a new :guilab
 .. i18n: original.
 ..
 
-Instead of editing this form, which is the original menu entry, duplicate it. With the web
-client you must first make the form read-only by clicking the :guilabel:`Cancel` button, then you
-click the :guilabel:`Duplicate` button that appears (in the GTK client, click :menuselection:`Form
---> Duplicate`  from the top menu). The form that remains is now the duplicate entry, not the
-original.
+在编辑原始表单内容前,请先复制。在WEB客户端,你点击:guilabel:`取消` 按钮使得表单只读,然后点击”复制”按钮
+（在GTK客户端，单击从顶部的菜单 :menuselection:`表单
+--> 复制` ）.你看到是复制后的,而不是原来的菜单内容.
+
 
 .. i18n: To move this duplicate entry, change the :guilabel:`Parent Menu` field by deleting what is there and
 .. i18n: replacing it with another menu that everyone can see, such as :guilabel:`Tools` or :guilabel:`Human
@@ -101,11 +98,11 @@ original.
 .. i18n: then reload the page to see the results.
 ..
 
-To move this duplicate entry, change the :guilabel:`Parent Menu` field by deleting what is there and
-replacing it with another menu that everyone can see, such as :guilabel:`Tools` or :guilabel:`Human
-Resources`, and make sure that the entry moves to the end of the menu list by replacing the
-:guilabel:`Sequence` with \ ``99``\  . You can experiment with icons if you like. Save the form and
-then reload the page to see the results.
+为了移动复制项, 通过删除或者用其它每人能看到的菜单（比如 :guilabel:`工具` 或者   :guilabel:`人力资源`）
+替换的方式改变 :guilabel:`上级菜单` 字段 。
+并确保该项目移动到菜单的尾部,用 \ ``99``\   替换 :guilabel:`序列`  字段。你
+可尝试修改你喜欢的图标并保存,并刷新页面查看结果.
+
 
 .. i18n: .. tip:: Duplicating the Menu
 .. i18n: 
@@ -113,10 +110,9 @@ then reload the page to see the results.
 .. i18n:    In this way you will always keep a link to the original menu that works if you need it to.
 ..
 
-.. tip:: Duplicating the Menu
+.. tip:: 复制菜单
 
-   If you are planning to modify a menu, you should duplicate it first.
-   In this way you will always keep a link to the original menu that works if you need it to.
+   如果你打算修改菜单,请先复制. 这可以保证你找回原始的菜单信息.
 
 .. i18n: .. index:: 
 .. i18n:    single: welcome page
