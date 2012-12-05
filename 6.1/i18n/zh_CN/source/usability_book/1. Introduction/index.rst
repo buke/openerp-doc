@@ -1,11 +1,10 @@
-
 .. i18n: ==============
 .. i18n: Introduction
 .. i18n: ==============
 ..
 
 ==============
-Introduction
+介绍
 ==============
 
 .. i18n: .. toctree::
@@ -19,13 +18,13 @@ Introduction
 .. i18n: --------------------
 ..
 
-Usability book goals
+本章目标
 --------------------
 
 .. i18n: OpenERP is a full-featured business application suite, with more than 700 modules. Despite the complexity of technical work and the importance of the community members in the development of such a huge project, our goal is to make software that is easy to use, user friendly, and consistent while remaining fully open.
 ..
 
-OpenERP is a full-featured business application suite, with more than 700 modules. Despite the complexity of technical work and the importance of the community members in the development of such a huge project, our goal is to make software that is easy to use, user friendly, and consistent while remaining fully open.
+OpenERP 是一个全功能的商业软件套装，超过700模块。无论技术有多复杂、还有众多的社区成员仍在不断开发如此巨大的项目，我们的目标是让软件容易使用、用户友好和保持完全开源。
 
 .. i18n: That's one of our main challenges: provide tons of features while remaining easy to use.
 ..
