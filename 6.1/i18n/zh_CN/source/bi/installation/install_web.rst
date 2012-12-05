@@ -19,7 +19,7 @@ Web 服务安装
 .. i18n: #. The BI-web Client source code
 ..
 
-#. Turbogears 扩展的最新版本_
+#. Turbogears 扩展的最新版本
 
 #. BI-Web服务的源代码
 
