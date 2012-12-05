@@ -34,17 +34,19 @@ OpenERP 是一个全功能全业务软件套装，超过700模块。无论技术
 .. i18n: OpenERP SA has setup a usability team whose role is to continuously simplify the software, its installation and its configuration. This team is responsible for maintaining this document that covers all usability guidelines for OpenERP developers.
 ..
 
-OpenERP SA has setup a usability team whose role is to continuously simplify the software, its installation and its configuration. This team is responsible for maintaining this document that covers all usability guidelines for OpenERP developers.
+OpenERP SA 为此专门成立了一个界面交互团队，持续改进易用性，让安装和配置变的更简单。同时该团队也为开发者维护界面开发指南文档。
 
 .. i18n: The guide is in two parts: one description of every concept of OpenERP and their impacts on usability and a set of guidelines at the end of the book.
 ..
 
-The guide is in two parts: one description of every concept of OpenERP and their impacts on usability and a set of guidelines at the end of the book.
+本指南主要有2部分：一部分是阐述 OpenERP 的界面设计，另外一部分是本章最后部分的各种指南。
 
 .. i18n: A goal for this manual is to include the opinions, advice and help of the community. Indeed, everyone can contribute to the writing of the usability manual thanks to the tools used to write it. The notes of the Usability team will be inserted on the web site and in the manual. The community can also add notes or send its ideas.
 ..
 
-A goal for this manual is to include the opinions, advice and help of the community. Indeed, everyone can contribute to the writing of the usability manual thanks to the tools used to write it. The notes of the Usability team will be inserted on the web site and in the manual. The community can also add notes or send its ideas.
+
+本指南的另外一个目标是，汇集社区成员的各种观点、意见和建议。实际上，每个人都可以自由贡献、编写本指南。 界面交互团队的备注可以在 web 上插入，或是添加到手册中。社区成员同样也可以提出意见或建议。
+
 
 .. i18n: Continuous improvement process
 .. i18n: ------------------------------
