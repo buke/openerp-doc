@@ -95,10 +95,6 @@
 .. i18n: what, and how do you manage that?
 ..
 
-You are planning to put everything significant to your business into the system, but most of your
-staff need see only part of it, and may need to change even less of it. Who should have rights to
-what, and how do you manage that?
-
 你打算把你具有重要意义的业务全部投入系统，但你的员工只需要看到的只是它的一部分，并可能需要改变， 甚至很少。
 谁应该有什么样的权利，你如何管理？
 
@@ -485,13 +481,15 @@ You can then create additional rules on the same object to give specific rights 
 .. i18n: ------------------------
 ..
 
-Record Rules For Objects
+对象的记录规则
 ------------------------
 
 .. i18n: Record rules determine who can access the objects, depending on the rules set for the particular object. A record rule has some tests to be performed on objects.
 ..
 
-Record rules determine who can access the objects, depending on the rules set for the particular object. A record rule has some tests to be performed on objects.
+记录规则决定了谁能访问这个对象，依赖于针对特定对象的规则集合。
+你能管理四种独立的对象访问模式：
+
 
 .. i18n: You can manage four access modes on objects independently, depending on the test:
 ..
@@ -507,13 +505,15 @@ You can manage four access modes on objects independently, depending on the test
 .. i18n:     * :guilabel:`Delete access` : can delete records from the object.
 ..
 
-    * :guilabel:`Read access` : can read the data in the object,
+  
+     *  :guilabel:`读访问` : 组成员能读取对象数据,
 
-    * :guilabel:`Create access` : can create a new record in the object,
+     *  :guilabel:`创建` : 组成员能在对象里创建一个新纪录,
 
-    * :guilabel:`Write access` : can modify the contents of records in the object,
+     *  :guilabel:`写入` : 组成员能修改对象中记录的内容,
 
-    * :guilabel:`Delete access` : can delete records from the object.
+     *  :guilabel:`删除` : 组成员能删除对象中的记录.
+
 
 .. i18n: To configure a rule on an object, use the menu :menuselection:`Administration -->
 .. i18n: Security --> Record Rules`. The fields in the ``ir.rule`` object describe:
@@ -521,6 +521,11 @@ You can manage four access modes on objects independently, depending on the test
 
 To configure a rule on an object, use the menu :menuselection:`Administration -->
 Security --> Record Rules`. The fields in the ``ir.rule`` object describe:
+
+
+要设置对象上的规则，使用菜单:menuselection:`Administration -->
+安全设定 --> 记录规则` 。 ``ir.rule`` 对象中的字段领域描述：
+
 
 .. i18n:     * :guilabel:`Object` : Object on which to have the rule
 .. i18n: 
@@ -541,28 +546,31 @@ Security --> Record Rules`. The fields in the ``ir.rule`` object describe:
 .. i18n:             * If all of them are checked, then all the access modes would be applied
 ..
 
-    * :guilabel:`Object` : Object on which to have the rule
+    * :guilabel:`对象` : 规则在哪个对象上
 
-    * :guilabel:`Name` : Name of the rule
+    * :guilabel:`名称` : 规则的名称
 
-    * :guilabel:`Global` : If global is checked, then that rule would be applied for all the groups; and if it is unchecked, then that rule would be applied only for the groups selected for it
+    * :guilabel:`全局` : 如果全局 被选中，这条规则将应用到所有的组，如果未选中，这条规则只应用到为此选择的组。
 
-    * :guilabel:`Domain` : A list of all the tests for the object. It is specified through a Python expression as a list of tuples.
+    * :guilabel:`过滤条件` : 对象上所有验证条件的列表。通过一组 元组列表作为python表达式进行设定。
 
-            * If there are multiple tests on same object, then all of them are joined using ``AND`` operator, and depending on the result the rule would be satisfied
+            * 如果有多个测试在相同对象上面，他们将用 ``AND`` 操作符组合，根据规则得到满意结果。
 
-            * If there are multiple rules on same object, then all of them are joined using ``OR`` operator
+            * 如果对象上有多个验证条件,可能根据需要设置关联方式为and的操作符组合如果有多个
+              规则在在相同对象上面，将使用``OR``  操作符组合
 
-    * :guilabel:`Access Modes` : Read, Write, Create, Delete as described earlier
+    * :guilabel:`访问模式` : 读，写，创建，删除如前所述
 
-            * If only one access mode is checked, then only that mode would be applied
+            * 如果只有一个访问模式被选中，只有这个模式被应用
 
-            * If all of them are checked, then all the access modes would be applied
+            * 如果他们都被选中，所有的访问模式都将被应用
 
+ 
 .. i18n:         But at least one access mode has to be checked, all of them cannot be unchecked. If all of them are unchecked, it would raise an exception.
 ..
 
-        But at least one access mode has to be checked, all of them cannot be unchecked. If all of them are unchecked, it would raise an exception.
+        它们都可以不选中，但至少有一个访问模式被选中。如果所有这些都未选中，将抛出一个异常。
+
 
 .. i18n: .. .. figure:: images/security_rule.png
 .. i18n: ..    :scale: 75
@@ -578,10 +586,21 @@ Security --> Record Rules`. The fields in the ``ir.rule`` object describe:
 
 *For example :* We can have a rule defined on ``res.partner`` object, which tests if the user is the dedicated salesman of the partner ``[('user_id', '=', user.id)]``. We check only the create and write access modes and keep other access modes unchecked.
 
+*例如*：如果``res.partner``对象上有个规则，测验用户是不是业务伙伴的专职销售员， ``[('user_id', '=', user.id)]``。我们只检测创建和写访问模式，保持另外的访问模式为不选中。
+
+
 .. i18n: This would mean that a user in the group for which the rule is applied can only create/write records where he himself serves as the dedicated salesman, and cannot create/write records where he is not the dedicated salesman. As other access modes are unchecked, the user can read/delete the records of partners where he is not the dedicated salesman.
 ..
 
 This would mean that a user in the group for which the rule is applied can only create/write records where he himself serves as the dedicated salesman, and cannot create/write records where he is not the dedicated salesman. As other access modes are unchecked, the user can read/delete the records of partners where he is not the dedicated salesman.
+
+这就意味着 ，在他自己的服务器里，作为专职销售员，被应用这条规则的组里的用户 只能创建和写他自己的记录。
+那些不是专门的销售人员就不能创建/写入记录。
+这意味着这个规则只允许组中为专职销售员的用户进行创建与写入,组中非专职销售员则不能创建/写入记录。至于其它模式的用户(不是一个专职销售员)能进行读和删除的操作.
+记录规则也可以在用户-组表单中的 访问权限进行定义（只能为指定的组定义）。
+
+
+
 
 .. i18n: .. index::
 .. i18n:    single: modification history
@@ -594,7 +613,7 @@ This would mean that a user in the group for which the rule is applied can only 
 .. i18n: --------------------
 ..
 
-Modification History
+修改历史记录
 --------------------
 
 .. i18n: .. _fig-log:
@@ -612,7 +631,7 @@ Modification History
    :scale: 75
    :align: center
 
-   *Partner Record History*
+   *供应商历史记录*
 
 .. i18n: Each record in an OpenERP database carries a note of its history. You can find out who it was
 .. i18n: created by and when that occurred, and who last modified it and when that occurred. Click the
@@ -629,6 +648,17 @@ to display a dialog box showing this information, as shown in the
 figure :ref:`fig-log`. It can help you identify who to contact if there are any problems with the
 data in the records.
 
+
+OpenERP数据库的每一条记录带有其历史的说明。能找出什么时候由谁创建的，以及谁什么时候最后修改了。
+查看历史记录，首先要进入开发者模式（点击右上角的感叹号按钮“关于”，再点击 激活开发者模式），在任意表单窗口标题右侧的调试视图选择框中点击“查看日志”项目，出现一个对话框显示这些信息。如图 :ref:`fig-log`. 
+    *译注这段根据实际情况重写了* 
+
+“供应商历史记录”所示。如果记录的数据有任何问题，它能帮你识别跟谁有联系 。
+
+
+
+
+
 .. i18n: .. index::
 .. i18n:    single: module; audittrail
 ..
@@ -644,12 +674,11 @@ data in the records.
 .. i18n:    tool.
 ..
 
-.. tip:: Audit Trail
+.. tip:: 审计跟踪
 
-   OpenERP has an Audit Trail module :mod:`audittrail`, which can be used to track any or
-   all of the changes to one or more objects. It should be used with care, because it
-   can generate huge amounts of data in the live database, but can be an invaluable
-   tool.
+   OpenERP有一个审计跟踪模块（模块名称是：:mod:`audittrail`）跟踪线索，可以用来跟踪一
+   个或多个对象的任何或所有的变化。这是很有用的工具,但应谨慎使用,因为它会在数据库中产
+   生巨量的数据.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
