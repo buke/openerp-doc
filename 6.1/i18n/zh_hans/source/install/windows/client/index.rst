@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; OpenERP Client (Windows)
 .. i18n:    single: OpenERP Client; Installation (Windows)
@@ -19,7 +18,7 @@
 .. i18n: ===========================
 ..
 
-OpenERP Client Installation
+OpenERP GTK 客户端安装
 ===========================
 
 .. i18n: The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
@@ -42,15 +41,14 @@ network.
 .. i18n: ------------------------------
 ..
 
-Downloading the OpenERP Client
+下载 OpenERP GTK 客户端
 ------------------------------
 
 .. i18n: The OpenERP Client can be downloaded from
 .. i18n: `OpenERP website's download page <http://www.openerp.com/downloads>`_.
 ..
 
-The OpenERP Client can be downloaded from
-`OpenERP website's download page <http://www.openerp.com/downloads>`_.
+您可以从  `OpenERP 官网下载 <http://www.openerp.com/downloads>`_  OpenERP GTK 客户端安装文件.
 
 .. i18n: Under `Windows Auto-Installer`, choose **Client** to download the OpenERP Client standalone.
 ..
@@ -61,7 +59,7 @@ Under `Windows Auto-Installer`, choose **Client** to download the OpenERP Client
 .. i18n: -----------------------------
 ..
 
-Installing the OpenERP Client
+安装 OpenERP GTK 客户端
 -----------------------------
 
 .. i18n: Click the executable installation file you have just downloaded, and proceed with the following steps:
@@ -85,19 +83,19 @@ Click the executable installation file you have just downloaded, and proceed wit
 .. i18n: 	Select a folder in the `Start` menu where you would like to create the program's shortcuts.
 ..
 
-* 1. Select installation language
+* 1. 选择安装语言
 	The default is ``English``. The other option is ``French``.
 
-* 2. Welcome message
+* 2. 欢迎页面
 	Carefully follow the recommendations given in this step.
 
-* 3. Licence Agreement
+* 3. 版权协议
 	It is important that you accept the GNU General Public License to proceed with installation.
 
-* 4. Select folder for installation
+* 4. 选择安装路径
 	By default, OpenERP Client is installed in ``C:\Program Files\OpenERP 6.0\Client``. To install in a different folder, browse for a different location(folder) in this step.
 
-* 5. Create shortcuts
+* 5. 创建快捷方式
 	Select a folder in the `Start` menu where you would like to create the program's shortcuts.
 
 .. i18n:   .. figure:: ../../img/c5_shortcuts.png
@@ -120,10 +118,10 @@ Click the executable installation file you have just downloaded, and proceed wit
 .. i18n: 	On successful installation of OpenERP Client, you will get an appropriate confirmation. Click `Finish` to close the setup wizard.
 ..
 
-* 6. Install
+* 6. 开始安装
 	The automatic installation of OpenERP Client begins and you can view its progress.
 
-* 7. Finish
+* 7. 安装完成
 	On successful installation of OpenERP Client, you will get an appropriate confirmation. Click `Finish` to close the setup wizard.
 
 .. i18n:   .. figure:: ../../img/c7_finish.png
@@ -143,7 +141,7 @@ Click the executable installation file you have just downloaded, and proceed wit
 .. i18n: ---------------------------
 ..
 
-Starting the OpenERP Client
+启动 OpenERP GTK Client
 ---------------------------
 
 .. i18n: The installation program creates shortcuts in the main program menu and on the desktop, which you can use to start the client.
