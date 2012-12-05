@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    pair: chart of accounts; analytic
 ..
@@ -35,7 +34,7 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 .. i18n: -------------------------------------------
 ..
 
-Case 1: Industrial Manufacturing Enterprise
+案例 1: 制造行业企业
 -------------------------------------------
 
 .. i18n: In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
@@ -231,7 +230,7 @@ The examples above are based on a breakdown of the costs of the company. Analyti
 .. i18n: -----------------
 ..
 
-Case 2:  Law Firm
+案例 2:  律师事务所
 -----------------
 
 .. i18n: Law firms generally adopt management by case, where each case represents a current client file. All of the expenses and products are then attached to a given file.
@@ -401,7 +400,7 @@ The same data can be used for automatic recharging of the services to the client
 .. i18n: ---------------------------
 ..
 
-Case 3: IT Services Company
+Case 3: IT服务行业
 ---------------------------
 
 .. i18n: Most IT service companies face the following problems:
