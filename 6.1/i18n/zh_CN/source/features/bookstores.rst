@@ -1,9 +1,8 @@
-
 .. i18n: Book Stores
 .. i18n: ===========
 ..
 
-Book Stores
+书店
 ===========
 
 .. i18n: OpenERP provides modules that automatically configure the system for
@@ -12,10 +11,8 @@ Book Stores
 .. i18n: by quotation or phone.
 ..
 
-OpenERP provides modules that automatically configure the system for
-a book store company. It helps manage books, authors, editors and suppliers.
-It manages barcodes and sales from the website, from a point of sale,
-by quotation or phone.
+OpenERP 提供一个已经配置好为卖书商店的模块. 它提供书、作者、编辑、供应商的管理功能.
+销售方式为网站销售和销售点销售，并使用条形码进行管理.
 
 .. i18n: .. raw:: html
 .. i18n:  
@@ -30,38 +27,38 @@ by quotation or phone.
 .. i18n: -----------
 ..
 
-Key Points:
+关键词:
 -----------
 
 .. i18n: * Integrates all the requirements of a book store
 .. i18n: * Ready to use, out-of-the-box.
 ..
 
-* Integrates all the requirements of a book store
-* Ready to use, out-of-the-box.
+* 整合一个销售书的商店的所有功能
+* 开箱即用.
 
 .. i18n: Integration Benefits:
 .. i18n: ---------------------
 ..
 
-Integration Benefits:
+整合的益处:
 ---------------------
 
 .. i18n: * Integrated with invoicing and accounting
-.. i18n: * Integrated with Joomla website
+.. i18n: * 和Joomla 
 ..
 
-* Integrated with invoicing and accounting
-* Integrated with Joomla website
+* 整合开具发票和财务处理
+* 整合Joomla 
 
 .. i18n: Links:
 .. i18n: ------
 .. i18n: * Module : bookstore
 ..
 
-Links:
+链接:
 ------
-* Module : bookstore
+* 模块 : 卖书的商店
 
 .. i18n: *  .. raw:: html
 .. i18n:   
