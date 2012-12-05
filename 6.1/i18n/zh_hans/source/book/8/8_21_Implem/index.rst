@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Implementation
 .. i18n:    single: Methodology
@@ -18,7 +17,7 @@
 .. _ch-impl:
 
 **************************
-Implementation Methodology
+实施方法
 **************************
 
 .. i18n:  *You may have mastered the technical aspects of administering and using your enterprise management
