@@ -370,7 +370,7 @@ by a committer and then the quality team to be merged in the official release.
 
 .. _how-to-get-the-latest-trunk-source-code-link:
 
-怎么获取最新的主干代码
+怎么获取最新的代码
 +++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Get a clone of each repository::
@@ -531,7 +531,7 @@ easily integrate and share the work done between the different projects.
 .. i18n: ++++++++++++++++++++
 ..
 
-Use Case Developers
+案例
 ++++++++++++++++++++
 
 .. i18n: This page presents the approach you should follow on how to contribute in
@@ -649,7 +649,7 @@ your work and merge it to the official branch if it's good enough.
 .. i18n: +++++++++++++++++
 ..
 
-Commit Guidelines
+提交指南
 +++++++++++++++++
 
 .. i18n: When committing your work to Launchpad, please respect these policies:
@@ -714,7 +714,7 @@ from community.
 .. i18n: """"""""""""""""""""""""""""""
 ..
 
-Write a helpful commit message
+写上有用的提交信息
 """"""""""""""""""""""""""""""
 
 .. i18n: Use a *commit tag* in **each** message. This tag should be one of:
@@ -835,7 +835,7 @@ Use a *commit tag* in **each** message. This tag should be one of:
 .. i18n: """""""""""""""""
 ..
 
-Avoid big commits
+避免大提交
 """""""""""""""""
 
 .. i18n: Don't make a commit that will impact lots of modules. Try to split it into
