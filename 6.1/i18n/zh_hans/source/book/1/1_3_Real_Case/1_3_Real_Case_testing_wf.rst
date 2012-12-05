@@ -1,9 +1,8 @@
-
 .. i18n: Driving a Purchase / Sales Flow
 .. i18n: ===============================
 ..
 
-Driving a Purchase / Sales Flow
+优化 采购/销售 业务流程
 ===============================
 
 .. i18n: To familiarize yourself with the system workflow, you will test a purchase-sale workflow in two phases.
@@ -67,7 +66,7 @@ Following this, you will sell some of these products, using this sequence:
 
 .. _sect-PO:
 
-Purchase Order
+采购
 --------------
 
 .. i18n: To place a Purchase Order with your supplier, use the menu :menuselection:`Purchases --> Purchase Management -->
@@ -199,7 +198,7 @@ group to activate it.
 .. i18n: ---------------
 ..
 
-Receiving Goods
+收货
 ---------------
 
 .. i18n: After confirming the order, you would wait for the delivery of the products from your supplier. Typically
@@ -295,7 +294,7 @@ report to see the inventory valuation per location.
 .. i18n: ---------------
 ..
 
-Invoice Control
+开票管理
 ---------------
 
 .. i18n: When you have received an invoice from your supplier (which would usually be sent to your Accounts department),
@@ -354,7 +353,7 @@ the ``Payable`` account.
 .. i18n: -------------------
 ..
 
-Paying the Supplier
+支付货款
 -------------------
 
 .. i18n: Select the menu :menuselection:`Accounting --> Suppliers --> Supplier Invoices` and click on the :guilabel:`Unpaid` button
@@ -434,7 +433,7 @@ accounting transactions, one in each of the ``Purchase`` Journal and ``Bank`` Jo
 .. i18n: ----------------------------------
 ..
 
-From Sales Proposal to Sales Order
+商机产生销售
 ----------------------------------
 
 .. i18n: In OpenERP, sales proposals and sales orders are managed using documents that are based on the
@@ -545,7 +544,7 @@ products: just the one, \ ``Titanium Alloy Radiator``\  , currently exists in th
 .. i18n: -----------------------------------------
 ..
 
-Preparing Goods for Shipping to Customers
+发货备货
 -----------------------------------------
 
 .. i18n: The stores manager selects the menu :menuselection:`Warehouse --> Warehouse Management -->
@@ -626,7 +625,7 @@ To analyze stock movements that you have made during these operations, use
 .. i18n: ---------------
 ..
 
-Invoicing Goods
+进销存
 ---------------
 
 .. i18n: Use the menu :menuselection:`Accounting --> Customers --> Customer Invoices`
@@ -682,7 +681,7 @@ the new revenue line from the invoice.
 .. i18n: ----------------
 ..
 
-Customer Payment
+客户收款
 ----------------
 
 .. i18n: Registering an invoice payment by a customer is essentially the same as the process of paying a
