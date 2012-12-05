@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation; Windows installation quirks
 .. i18n: .. 
@@ -16,21 +15,21 @@
 
 .. _troubleshooting-and-windows-complementary-install-information:
 
-Troubleshooting and Windows Complementary Install Information
+问题解决和Windows补充安装信息
 =============================================================
 
 .. i18n: PostgreSQL Administration
 .. i18n: +++++++++++++++++++++++++
 ..
 
-PostgreSQL Administration
+PostgreSQL 管理
 +++++++++++++++++++++++++
 
 .. i18n: OpenERP Server Connection Error with PostgreSQL
 .. i18n: """""""""""""""""""""""""""""""""""""""""""""""
 ..
 
-OpenERP Server Connection Error with PostgreSQL
+OpenERP Server 链接 PostgreSQL 错误
 """""""""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: If you are initializing a database from the command-line with a custom username/role (-r) and password (-w), ensure that you have created a corresponding PostgreSQL user for the same.
