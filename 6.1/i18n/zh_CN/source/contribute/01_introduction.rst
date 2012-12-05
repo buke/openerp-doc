@@ -43,8 +43,7 @@
 .. i18n: everyone is invited to contribute to is the documentation itself!
 ..
 
-Of course this documentation is not frozen, and one of the first areas
-everyone is invited to contribute to is the documentation itself!
+当然此文档并不是停止更新的，相反更新此文档是大家贡献的第一步！
 
 .. i18n: In order to build the best enterprise management software ever created,
 .. i18n: we need to foster a perfect collaboration between all OpenERP actors.
