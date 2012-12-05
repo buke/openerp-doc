@@ -81,15 +81,14 @@
 .. i18n: ======================
 ..
 
-Managing Access Rights
+管理访问权限
 ======================
 
 .. i18n: One of the most important areas in configuring OpenERP is how to manage access rights to the
 .. i18n: information in it.
 ..
 
-One of the most important areas in configuring OpenERP is how to manage access rights to the
-information in it.
+如何管理访问信息的权限，是设置OpenERP的最重要领域之一
 
 .. i18n: You are planning to put everything significant to your business into the system, but most of your
 .. i18n: staff need see only part of it, and may need to change even less of it. Who should have rights to
@@ -100,21 +99,23 @@ You are planning to put everything significant to your business into the system,
 staff need see only part of it, and may need to change even less of it. Who should have rights to
 what, and how do you manage that?
 
+你打算把你具有重要意义的业务全部投入系统，但你的员工只需要看到的只是它的一部分，并可能需要改变， 甚至很少。
+谁应该有什么样的权利，你如何管理？
+
 .. i18n: OpenERP's approach to rights management is highly flexible. Each user can belong to one or more
 .. i18n: groups, and the group(s) you belong to determine(s):
 ..
 
-OpenERP's approach to rights management is highly flexible. Each user can belong to one or more
-groups, and the group(s) you belong to determine(s):
+OpenERP 管理权限的方法非常灵活，每个用户可以属于一个或多个组，你属于哪个组决定了:
 
 .. i18n: * the visibility of each menu item and
 .. i18n: 
 .. i18n: * the accessibility of each table in the database.
 ..
 
-* the visibility of each menu item and
+* 每个菜单项的可见性
 
-* the accessibility of each table in the database.
+* 数据库中的每个表的可访问性
 
 .. i18n: For example, the group \ ``Warehouse / User`` \ may only be given access to some of the menus in
 .. i18n: :menuselection:`Warehouse`, and may have no access to any of the accounting information. Each system user who works in
@@ -122,10 +123,17 @@ groups, and the group(s) you belong to determine(s):
 .. i18n: given membership of other groups.
 ..
 
-For example, the group \ ``Warehouse / User`` \ may only be given access to some of the menus in
+For example, the group  may only be given access to some of the menus in
 :menuselection:`Warehouse`, and may have no access to any of the accounting information. Each system user who works in
 stores is given membership of the ``Warehouse / User`` group. If some users also work elsewhere, they would also be
 given membership of other groups.
+
+
+例如，组\ ``仓库/用户`` \只能访问仓库中一些菜单，可能没有任何权限访问财务信息。
+在商店工作的仓库的每个系统用户被指派为\ ``仓库/用户`` \ 组的成员。如果有些用户有其它的工作
+内容,他们也会被指派为其它组的成员。
+
+
 
 .. i18n: .. index::
 .. i18n:    pair: user; group
@@ -138,24 +146,24 @@ given membership of other groups.
 .. i18n: ================
 ..
 
-Groups and Users
+组和用户
 ================
 
 .. i18n: To configure access rights, you would start by defining the groups. It is important for the groups to
 .. i18n: be representative of your company's job functions rather than of its individual employees.
 ..
 
-To configure access rights, you would start by defining the groups. It is important for the groups to
-be representative of your company's job functions rather than of its individual employees.
+要设置权限，你将从组的定义开始。
+它是重要的，组应该是贵公司工作岗位职能的代表，而不是个别员工。
 
 .. i18n: So if your finance director is also your sales director, you should create both a Finance Director
 .. i18n: group and a Sales Director group, even though they are both the same person, and would both be
 .. i18n: assigned to this user in practice. This gives you flexibility for the future.
 ..
 
-So if your finance director is also your sales director, you should create both a Finance Director
-group and a Sales Director group, even though they are both the same person, and would both be
-assigned to this user in practice. This gives you flexibility for the future.
+ 
+因此，如果您的财务总监，也是您的销售总监，你应该创建既是一个财务总监组和销售总监组，即使它们都是同一个人，实际都应包含该用户.
+这给你在未来很大的灵活性。
 
 .. i18n: You should also create groups within departmental areas that have different levels of access
 .. i18n: rights. For example, if you create a \ ``Sales Director`` \ group and a \ ``Sales`` \ group avoid
@@ -176,6 +184,20 @@ member of both groups, and give the \ ``Sales Director`` \ group a limited set o
 group. You should choose the scheme that gives you most flexibility and then stick with it to
 maintain consistency.
 
+
+
+
+你还应该创建组内有不同级别访问权限的部门区域。例如，如果你创建一个销售总监\ ``Sales Director`` \ 组和
+销售\ ``Sales`` \ 组，避免不同组别被
+赋予相同的权限.
+第一个可以看到所有的报表，第二个被限制看到报价单。
+你可以使销售总监是两个组的成员，并且销售总监组 \ ``Sales Director`` \ 有限制的额外权力，或者给销售总监
+组\ ``Sales Director`` \ 需要的全部权力，如果销
+售总监只属于这一个组。你应该选择为你提供了最大的灵活性的方案，然后坚持下去，以保持一致性。
+
+
+
+
 .. i18n: .. index::
 .. i18n:    pair:  system; administrator
 ..
@@ -191,12 +213,10 @@ maintain consistency.
 .. i18n: 	and is authorized by the management to carry out specific tasks for people.
 ..
 
-.. tip:: Flexibility in Managing Access
+.. tip:: 管理访问的灵活性
 
-	To give yourself flexibility, you can ensure that a trusted staff member
-	(perhaps a director or someone in accounts, or even the system administrator) is given wide rights
-	to use the system,
-	and is authorized by the management to carry out specific tasks for people.
+        为了给你自己灵活性，你可以确保一个可信任的工作人员（可能是董事，或者财务部
+        门工作的某人，甚至是设置员）广泛权利以使用该系统，并因管理需求授权予指定人。
 
 .. i18n: .. index::
 .. i18n:    single: access; menu
@@ -209,7 +229,7 @@ maintain consistency.
 .. i18n: -----------------------
 ..
 
-Access Rights for Menus
+菜单的访问权限 
 -----------------------
 
 .. i18n: To get a feel for rights management in OpenERP, you will create a new \ ``Stock1`` \  group, with
@@ -221,19 +241,20 @@ To get a feel for rights management in OpenERP, you will create a new \ ``Stock1
 access to the *Warehouse* menu items. You will then create a stores person user who is a member
 of the \ ``Stock1`` \  group.
 
+
+为了感受OpenERP的权限管理, 你可以创建一个新的 \ ``Stock1`` \  用户组,此用户组拥有*仓库*菜单下的项目. 然后你再
+创建一个仓库用户,并设置为 \ ``Stock1`` \  组的成员.
+
 .. i18n: To create a new group, use the menu :menuselection:`Administration --> Users --> Groups`. Enter the
 .. i18n: group name ``Stock1``.
 ..
 
-To create a new group, use the menu :menuselection:`Administration --> Users --> Groups`. Enter the
-group name ``Stock1``.
+要创建新组，使用菜单 :menuselection:`设置 --> 用户 --> Groups` 。点击新建，输入组名 Stock1，然后保存。
 
 .. i18n: Then to create a new user linked to this, use :menuselection:`Administration --> Users --> Users` to
 .. i18n: enter the following:
 ..
-
-Then to create a new user linked to this, use :menuselection:`Administration --> Users --> Users` to
-enter the following:
+然后创建一个新用户关联到这里，使用 :menuselection:`设置 --> 用户 --> Users` ，输入如下：
 
 .. i18n: *  :guilabel:`User Name` : \ ``Stores Person`` \ ,
 .. i18n: 
@@ -244,13 +265,13 @@ enter the following:
 .. i18n: *  :guilabel:`Menu Action` : \ ``Menu`` \ .
 ..
 
-*  :guilabel:`User Name` : \ ``Stores Person`` \ ,
+*  :guilabel:`用户姓名` : \ ``Stores Person`` \ ,
 
-*  :guilabel:`Login` : \ ``stores`` \ ,
+*  :guilabel:`登录名` : \ ``stores`` \ ,
 
-*  :guilabel:`Password` : \ ``stores`` \ ,
+*  :guilabel:`密码` : \ ``stores`` \ ,
 
-*  :guilabel:`Menu Action` : \ ``Menu`` \ .
+*  :guilabel:`菜单动作` : \ ``Menu`` \ .
 
 .. i18n: In the :guilabel:`Groups` section of the user form, add the \ ``Stock1`` \ group that you
 .. i18n: just created.
@@ -258,7 +279,7 @@ enter the following:
 
 In the :guilabel:`Groups` section of the user form, add the \ ``Stock1`` \ group that you
 just created.
-
+在用户表单中 :guilabel:`访问权限`  的部分，增加你刚刚创建的  \ ``Stock1`` \  组。
 .. i18n: .. figure::  images/menu_access.png
 .. i18n:    :scale: 75
 .. i18n:    :align: center
@@ -270,7 +291,7 @@ just created.
    :scale: 75
    :align: center
 
-   *Groups that have access to the Warehouse menu*
+   *可以访问仓库菜单的组*
 
 .. i18n: Save the user, then go into the menu :menuselection:`Administration --> Customization --> User
 .. i18n: Interface --> Menu Items` to get a list of menus. Filter this list using the search field :guilabel:`Menu` to
@@ -281,9 +302,18 @@ just created.
 
 Save the user, then go into the menu :menuselection:`Administration --> Customization --> User
 Interface --> Menu Items` to get a list of menus. Filter this list using the search field :guilabel:`Menu` to
-get the :menuselection:`Warehouse` menu item. In the form describing the menu, add \ ``Stock1`` \ into the :guilabel:`Groups` field. From now on, only members of
+get the  menu item. In the form describing the menu, add \ ``Stock1`` \ into the :guilabel:`Groups` field. From now on, only members of
 the \ ``Warehouse / Manager`` \, \ ``Warehouse / User`` \ and \ ``Stock1`` \ group will be able to see
 this menu item in their main menu list.
+
+
+保存这个用户，然后进入 菜单  :menuselection:`设置 --> 自定义 --> 用户界面 --> 菜单项目` ，
+取得菜单的列表，使用搜索 :guilabel:`菜单` 字段过滤列表获得 :menuselection:`仓库`菜
+单项目。
+在这个表单的菜单明细里，增加  \ ``Stock1`` \ 进入:guilabel:`组`  
+字段。
+从现在开始，只有 \ ``仓库管理/主管`` \, \ ``仓库管理/用户 `` \ and \ ``Stock1`` \  组的成员能
+够在他们的主菜单列表中看到这个菜单项。
 
 .. i18n: .. tip:: Menu Hierarchy
 .. i18n: 
@@ -292,11 +322,10 @@ this menu item in their main menu list.
 .. i18n: 	members of other groups.
 ..
 
-.. tip:: Menu Hierarchy
+.. tip:: 菜单结构
 
-	Since menus are hierarchical, there is no need to hide access to lower menus:
-	once you have configured :menuselection:`Warehouse` this way, all lower-level menus become invisible to
-	members of other groups.
+         由于菜单是分层的，这样就不需要隐藏下级菜单：一旦你用这样的方式设置仓库，所有低级菜单对其它的组变得不可见。
+
 
 .. i18n: .. tip:: Security
 .. i18n: 
@@ -309,15 +338,13 @@ this menu item in their main menu list.
 .. i18n: 	presented in the following section.
 ..
 
-.. tip:: Security
+.. tip:: 安全
 
-	This method of managing access to menus does not guarantee that users are prevented from reaching
-	hidden business objects in the system in other ways.
-	For example, hiding the :guilabel:`Invoices` menu will not prevent people reaching invoices through purchase and
-	sales orders, or by guessing the URL.
+             这种管理菜单访问的方法并不能保证阻止用户用其它的方式到达系统中隐藏的业务对象。
+             例如，隐藏发票菜单不会阻止用户通过采购和销售订单的发票到达，或者通过猜测URL。
 
-	For effective security management, you must use the methods for managing access rights to objects
-	presented in the following section.
+             为了有效的安全管理，您必须使用在下一节介绍的对象的访问权限管理的方法。
+
 
 .. i18n: .. note:: Initial Access Configuration
 .. i18n: 
@@ -331,16 +358,25 @@ this menu item in their main menu list.
 .. i18n: 	users who are members of the \ ``Administration / Configuration`` \ group.
 ..
 
-.. note:: Initial Access Configuration
+.. note:: 初始的访问设置
 
-	In the initial configuration, OpenERP's \ ``admin`` \ user, a member of the \ ``Administration / Configuration`` \
+	In the initial configuration, OpenERP'suser, a member of the \ ``Administration / Configuration`` \
 	group, is given access to the Configuration menu
 	in each section of the main menu. This is a general convention.
 	For example, :menuselection:`Sales --> Configuration` is visible in the administrator's menu
 	amongst the other Sales menu items.
 	But only the menu items other than :menuselection:`Sales --> Configuration` are visible to other users.
 	Similarly, the main menu item :menuselection:`Administration` is, by convention, visible only to
-	users who are members of the \ ``Administration / Configuration`` \ group.
+	users who are members of thegroup.
+
+ 
+         在初始设置中,作为 \ ``系统管理 / 设置`` \  组一员，OpenERP的 \ ``管理`` \ 级别用户拥有主菜单下
+         所有部分的设置菜单权限。这是惯例。
+         例如, :menuselection:`销售 --> 设置` ，出现在管理员的菜单中。对
+         其他用户，只有:menuselection:`销售 --> 设置` 以外的菜单可见。
+         同样，主菜单中的 :menuselection:`设置` ，按照惯例，只有  \ ``设置 / 设置`` \ 组的成员的用户可见。
+
+
 
 .. i18n: .. index::
 .. i18n:    single: access; objects
