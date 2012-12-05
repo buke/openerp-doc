@@ -8,7 +8,7 @@
 .. _part1-steps:
 
 ########################
-First steps with OpenERP
+OpenERP 第一步
 ########################
 
 .. i18n:  OpenERP is an impressive software system, being easy to use and yet providing great benefits
