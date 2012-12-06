@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
@@ -10,7 +9,7 @@
 .. i18n: ==================
 ..
 
-Accounting Entries
+会计分录 
 ==================
 
 .. i18n: Various methods can be used to create accounting entries. You have already seen how an invoice
@@ -56,7 +55,7 @@ Here we will show you how to enter financial transactions. In OpenERP, you can h
 .. i18n: ------------------------
 ..
 
-Managing Bank Statements
+管理银行对账单
 ------------------------
 
 .. i18n: OpenERP provides a visual tool for managing bank statements that simplifies data entry into
@@ -158,7 +157,7 @@ You have two ways of entering financial transactions: manually or through the :g
 .. i18n: a positive sign for a cash payment or deposit.
 ..
 
-Manual Entry
+手工分录
 ------------
 When you type the Partner name, OpenERP automatically proposes the corresponding centralisation account. The total amount due for the customer or supplier is pre-completed (:guilabel:`Amount`). This gives you a simple indication of the effective payment. You
 must then enter the amount that appears on your statement line: a negative sign for a withdrawal and
@@ -177,7 +176,7 @@ entry or entries to be paid.
 .. i18n: which your payment will have to be reconciled. Click OK to confirm your selection; the statement line will automatically be added with the corresponding reconciliation.
 ..
 
-Import Invoices
+导入发票
 ---------------
 Click the `Import Invoices` button, then click Add to select the invoices for
 which your payment will have to be reconciled. Click OK to confirm your selection; the statement line will automatically be added with the corresponding reconciliation.
@@ -296,7 +295,7 @@ accounts to use and must have mastered the ideas of credit and debit.
 .. i18n: ---------------
 ..
 
-Cash Management
+现金管理
 ---------------
 
 .. i18n: To manage cash, you can use the menu :menuselection:`Accounting -->
@@ -345,7 +344,7 @@ generate the corresponding accounting entries. Note that the :guilabel:`Calculat
 .. i18n: -------------------------
 ..
 
-Manual Entry in a Journal
+管理账簿中的分录
 -------------------------
 
 .. i18n: Invoices and statements produce accounting entries in different journals. But you could also
@@ -467,7 +466,7 @@ entries to you, based on the credit entries.
 .. i18n: ----------------------
 ..
 
-Reconciliation Process
+核销过程
 ----------------------
 
 .. i18n: The reconciliation operation consists of matching entries in different accounts to indicate that
@@ -545,7 +544,7 @@ here.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Automatic Reconciliation
+自动核销
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: For automatic reconciliation, you will be asking OpenERP to search for entries to
@@ -686,7 +685,7 @@ off account.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Manual Reconciliation
+手工核销
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: For manual reconciliation, open the entries for reconciling an account through the menu :menuselection:`Accounting --> Periodical Processing --> Reconciliation --> Manual Reconciliation`.
