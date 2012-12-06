@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: accounts; chart
 .. i18n:    single: chart of accounts
@@ -12,7 +11,7 @@
 .. i18n: =================
 ..
 
-Chart of Accounts
+会计科目表
 =================
 
 .. i18n: .. index::
@@ -33,7 +32,7 @@ When configuring the software, OpenERP allows you to choose predefined charts of
 .. i18n: ---------------------------------------
 ..
 
-Using a Preconfigured Chart of Accounts
+使用预配置的会计科目表
 ---------------------------------------
 
 .. i18n: On installation, the software allows you to select a default chart of accounts from a huge list of predefined charts. To install the chart of accounts as well as the tax definitions for your own country (in most cases), select the chart corresponding to your country from the ``Installation Wizard``.
@@ -97,7 +96,7 @@ Some of these pre-defined charts of accounts are comprehensive and accurate, oth
 .. i18n: ----------------------------
 ..
 
-Creating a Chart of Accounts
+建立会计科目表
 ----------------------------
 
 .. i18n: .. index::
@@ -312,7 +311,7 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 .. i18n: --------------------------
 ..
 
-Virtual Charts of Accounts
+虚拟会计科目表
 --------------------------
 
 .. i18n: The structure of a chart of accounts is imposed by the legislation in effect in the country concerned. Unfortunately, that structure does not always correspond to the view that a company needs.
