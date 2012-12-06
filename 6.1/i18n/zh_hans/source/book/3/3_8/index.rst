@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Financial Analysis
 .. i18n:    single: taxation
@@ -20,7 +19,7 @@
 .. _ch-financial:
 
 ******************
-Financial Analysis
+财务分析
 ******************
 
 .. i18n:  *This chapter is dedicated to statutory taxation and financial reporting from OpenERP.
