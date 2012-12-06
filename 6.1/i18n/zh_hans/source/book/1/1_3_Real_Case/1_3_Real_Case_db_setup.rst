@@ -197,7 +197,7 @@ with the entry by clicking the :guilabel:`Search` icon to the right of the field
 .. i18n: ^^^^^^^^^^
 ..
 
-Properties
+属性
 ^^^^^^^^^^
 
 .. i18n: You now define some default properties, so that you do not have to think about
@@ -1000,7 +1000,7 @@ stock on your behalf.
 .. i18n: ------------------------------
 ..
 
-Setting up a Chart of Accounts
+设置会计科目表
 ------------------------------
 
 .. i18n: You can set up a chart of accounts during the creation of a database, but for this exercise you will
