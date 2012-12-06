@@ -73,27 +73,27 @@ OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为
 .. i18n: Once an improvement is approved by the usability managers, the community of OpenERP SA develops the software according to the proposed improvements. You can check the `developer guide`_ and `documentation process`_ for more information on how to contribute to OpenERP. 
 ..
 
-一旦某项改善建议被易用性团队经理确认，OpenERP SA 社区开发人员，会根据改善建议开始开发。您可以查阅 `developer guide`_ 与 `documentation process`_  开发指南和相关文档来获知如何为OpenERP 贡献。
+一旦某项改善建议被界面交互团队经理确认，OpenERP SA 社区开发人员，会根据改善建议开始开发。您可以查阅 `developer guide`_ 与 `documentation process`_  开发指南和相关文档来获知如何为OpenERP 贡献。
 
 .. i18n: Main usability improvements are reported in this book as a set of guidelines. The usability team is responsible for synchronizing the book content with the best practices on OpenERP. If you want to contribute to this book, you can work on the `Launchpad documentation branch`_.
 ..
 
-Main usability improvements are reported in this book as a set of guidelines. The usability team is responsible for synchronizing the book content with the best practices on OpenERP. If you want to contribute to this book, you can work on the `Launchpad documentation branch`_.
+主要的界面交互方面的改进将会在本书形成一系列的指南。界面交互团队将会把 OpenERP 的最佳实践与本书同步。如果您想在此方面为 OpenERP 做出贡献，您可以在这里 `Launchpad documentation branch`_ 和我们一起工作。
 
 .. i18n: All changes done, regarding important improvements, will be posted on the `OpenERP blog`_ where you can also leave your comments, advice or ideas.
 ..
 
-All changes done, regarding important improvements, will be posted on the `OpenERP blog`_ where you can also leave your comments, advice or ideas.
+所要更改和重大改进，都会发布在博客 `OpenERP blog`_ ，您可以在上面留下您的意见、建议和想法。
 
 .. i18n: In order to benefit from the feedback from any visitor on this web site, everyone can leave a comment on any page of this book. The usability team will review all comments every month and update the book accordingly if required.
 ..
 
-In order to benefit from the feedback from any visitor on this web site, everyone can leave a comment on any page of this book. The usability team will review all comments every month and update the book accordingly if required.
+每个人都可以在这本书的任何页面上发表评论。每个月界面交互团队将查看所有评论，如果有需要还会更新本书。
 
 .. i18n: The book is written only in English, then `translated by community members`_ into several languages.
 ..
 
-The book is written only in English, then `translated by community members`_ into several languages.
+本书用英文写作，然后由 `translated by community members`_  翻译成几种语言。
 
 .. i18n: In order to check that all OpenERP modules respect the usability guidelines, the check of these guidelines is part of the quality certification process of new modules by OpenERP SA. So, we check that all official modules respect the above guidelines in order to make them become official.
 ..
