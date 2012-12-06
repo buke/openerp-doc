@@ -86,10 +86,10 @@ Launchpad 社区协作平台
 
 OpenERP 使用下列 Launchpad 的工具, 本指南将进一步介绍相关详情:
 
-.. i18n:   * Bug Tracker : https://bugs.launchpad.net/openobject
-.. i18n:   * Translations: https://translations.launchpad.net/openobject
-.. i18n:   * Source version control and code Hosting: https://code.launchpad.net/openobject
-.. i18n:   * Specifications/BluePrints : https://blueprints.launchpad.net/openobject
+.. i18n:   * Bug 跟踪 : https://bugs.launchpad.net/openobject
+.. i18n:   * 翻译: https://translations.launchpad.net/openobject
+.. i18n:   * 版本控制和代码托管: https://code.launchpad.net/openobject
+.. i18n:   * 规划/蓝图 : https://blueprints.launchpad.net/openobject
 .. i18n:   * FAQ : https://answers.launchpad.net/openobject
 ..
 
