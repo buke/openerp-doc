@@ -43,7 +43,7 @@
 .. i18n: everyone is invited to contribute to is the documentation itself!
 ..
 
-当然此文档并不是已经停止更新，相反更新此文档应该是大家做贡献的第一步！
+当然此文档并不是已经停止更新，相反更新此文档应该是大家作出贡献的第一步！
 
 .. i18n: In order to build the best enterprise management software ever created,
 .. i18n: we need to foster a perfect collaboration between all OpenERP actors.
@@ -76,9 +76,8 @@ Launchpad 社区协作平台
 .. i18n: `OpenObject <https://launchpad.net/openobject>`_ project group.
 ..
 
-We use `Launchpad.net <https://launchpad.net>`_, an open source project
-management and collaboration platform, as our code hosting facility and
-community platform.
+我们使用 `Launchpad.net <https://launchpad.net>`_, 一个开源项目管理和协作平台, 
+作为我们代码托管和社区合作的平台。
 All OpenERP-related projects are aggregated under the meta
 `OpenObject <https://launchpad.net/openobject>`_ project group.
 
