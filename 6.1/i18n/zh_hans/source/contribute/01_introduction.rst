@@ -84,8 +84,7 @@ Launchpad 社区协作平台
 .. i18n: detailed in this guide:
 ..
 
-OpenERP more specifically uses the following Launchpad features, as further
-detailed in this guide:
+OpenERP 使用下列 Launchpad 的工具, 本指南将进一步介绍相关详情:
 
 .. i18n:   * Bug Tracker : https://bugs.launchpad.net/openobject
 .. i18n:   * Translations: https://translations.launchpad.net/openobject
