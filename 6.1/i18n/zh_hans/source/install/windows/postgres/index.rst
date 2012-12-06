@@ -23,7 +23,7 @@ PostgreSQL 数据库安装与配置
 .. i18n: In this chapter, you will see how to configure PostgreSQL for its use with OpenERP. The following procedure is well-tested on PostgreSQL v9.0.
 ..
 
-In this chapter, you will see how to configure PostgreSQL for its use with OpenERP. The following procedure is well-tested on PostgreSQL v9.0.
+在本章节，你将看到如何配置PostgrSQL用于OpenERP。以下流程在PostgrSQLv9.0上很好地测试过。
 
 .. i18n: Installing PostgreSQL Server
 .. i18n: ----------------------------
@@ -36,15 +36,13 @@ PostgreSQL 数据库安装
 .. i18n: the `PostgreSQL download page <http://www.postgresql.org/download/windows>`__
 ..
 
-You can download the Windows installer from
-the `PostgreSQL download page <http://www.postgresql.org/download/windows>`__
+你可以从这里下载Windows 安装包 `PostgreSQL download page <http://www.postgresql.org/download/windows>`__
 
 .. i18n: Depending on your need, choose either the *One Click Installer* or the
 .. i18n: *pgInstaller* and run the executable you have just downloaded.
 ..
 
-Depending on your need, choose either the *One Click Installer* or the
-*pgInstaller* and run the executable you have just downloaded.
+依照你的需要，选择One Click安装包，或选择pgInstaller，然后运行你刚下载的可执行文件。
 
 .. i18n: .. index::
 .. i18n:    single: PostgreSQL; setup a user (Windows)
@@ -68,8 +66,7 @@ Depending on your need, choose either the *One Click Installer* or the
 .. i18n: PostgreSQL user. OpenERP will use this user to connect to PostgreSQL.
 ..
 
-When the required software installations are complete, you must create a
-PostgreSQL user. OpenERP will use this user to connect to PostgreSQL.
+当所需的软件安装完成，你必须设置一个PostgrSQL用户。OpenERP将使用这个用户连接到PostgreSQL。
 
 .. i18n: Add a User
 .. i18n: ++++++++++
@@ -81,23 +78,21 @@ PostgreSQL user. OpenERP will use this user to connect to PostgreSQL.
 .. i18n: Start a Windows console (run the ``cmd`` command in the *Search programs and files* text box of the *Start* menu).
 ..
 
-Start a Windows console (run the ``cmd`` command in the *Search programs and files* text box of the *Start* menu).
+启动Windows控制台（在开始菜单的搜索程序和文件文本框运行 ''cmd'' 命令）。
 
 .. i18n: Change the directory to the *PostgreSQL* ``bin`` directory
 .. i18n: (e.g. ``C:\Program Files\PostgreSQL\9.0\bin``) or add this directory to 
 .. i18n: your *PATH* environment variable.
 ..
 
-Change the directory to the *PostgreSQL* ``bin`` directory
-(e.g. ``C:\Program Files\PostgreSQL\9.0\bin``) or add this directory to 
-your *PATH* environment variable.
+变更目录到 *PostgreSQL* ``bin`` 目录
+(例如 ``C:\Program Files\PostgreSQL\9.0\bin``) 或者将这个目录添加到你的 *PATH* 环境变量。
 
 .. i18n: The default superuser for PostgreSQL is called *postgres*. The password was
 .. i18n: chosen during the PostgreSQL installation.
 ..
 
-The default superuser for PostgreSQL is called *postgres*. The password was
-chosen during the PostgreSQL installation.
+PostgreSQL的默认超级用户叫 *postgres*。密码是你在安装过程中设置的。
 
 .. i18n: In your Windows console, type::
 .. i18n: 
@@ -114,7 +109,7 @@ chosen during the PostgreSQL installation.
 .. i18n:   * line 5 asks you the *postgres* user's password
 ..
 
-In your Windows console, type::
+在你的 Windows 控制台，输入::
 
     C:\Program Files\PostgreSQL\9.0\bin>createuser.exe --createdb --username postgres --no-createrole --pwprompt openpg
     Enter password for new role: openpgpwd
@@ -131,7 +126,7 @@ In your Windows console, type::
 .. i18n: Option explanations:
 ..
 
-Option explanations:
+选项解释:
 
 .. i18n:   * ``--createdb`` : the new user will be able to create new databases
 .. i18n:   * ``--username postgres`` : *createuser* will use the *postgres* user (superuser)
@@ -160,9 +155,9 @@ Option explanations:
 .. i18n: If you have installed the OpenERP Server, you can start it now. If needed, you can override the server configuration by starting the server at a Windows console and specifying command-line options. For more on this, refer the section :ref:`sect-custconf`.
 ..
 
-.. note:: Password
+.. note:: 密码
 
-   In OpenERP v6, ``openpg`` and ``openpgpwd`` are the default username and password used during the OpenERP Server installation. If you plan to change these defaults for the server, or have already installed the server with different values, you have to use those user configuration values when you create a PostgreSQL user for OpenERP.
+   在OpenERPv6，openpg和openpwd是OpenERP服务器安装过程使用的默认用户名和密码。如果你计划变更这些默认设置，或者已经用不同的值安装了服务器，你需要用那些用户配置值创建用于OpenERP的PostgreSQL用户。
   
 Now use *pgAdmin III* to create database "openerpdemo" with owner "openpg":: 
  
