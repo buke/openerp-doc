@@ -1,16 +1,15 @@
-
 .. i18n: Companies Structure
 .. i18n: -------------------
 ..
 
-Companies Structure
+多公司结构
 -------------------
 
 .. i18n: Companies
 .. i18n: ^^^^^^^^^
 ..
 
-Companies
+多公司
 ^^^^^^^^^
 
 .. i18n: Three companies have to be defined. One mother company (OpenERP) and two children (OpenERP Belgium and OpenERP France). 
@@ -66,7 +65,7 @@ forget to add a parent company):
    :scale: 75
    :align: center
    
-   *Companies Configuration*
+   *多公司基本配置*
    
 Charts of Accounts
 ^^^^^^^^^^^^^^^^^^
@@ -104,7 +103,7 @@ Configuration --> Financial Accounting --> New company Financial Setting`.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Users, Suppliers & Customers
+用户,供应商与客户
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: The users are used to log in to the system and to give the appropriate access rights to each person. This concept is different 
@@ -179,7 +178,7 @@ customer and supplier. This has the advantage that you have to update address da
    :scale: 75
    :align: center
    
-   *Defining Customers part 1*
+   *客户定义 第1部分*
 
 .. i18n: .. figure:: images/customer_2tab.png
 .. i18n:    :scale: 75
@@ -194,7 +193,7 @@ customer and supplier. This has the advantage that you have to update address da
    :scale: 75
    :align: center
    
-   *Defining Customers part 2*
+   *客户定义 第2部分*
    
 	* Supplier: log in with the user of OpenERP Belgium, then go to :menuselection:`Purchases --> Address Book --> Suppliers`
 
@@ -209,7 +208,7 @@ customer and supplier. This has the advantage that you have to update address da
    :scale: 75
    :align: center
    
-   *Defining Suppliers part 1*
+   *定义供应商 第1部分*
 
 .. i18n: .. figure:: images/supplier_2tab.png
 .. i18n:    :scale: 75
@@ -223,7 +222,7 @@ customer and supplier. This has the advantage that you have to update address da
    :scale: 75
    :align: center
    
-   *Defining Suppliers part 2*
+   *定义供应商 第2部分*
    
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
