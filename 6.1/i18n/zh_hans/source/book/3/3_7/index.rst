@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Invoice to Payment
 ..
@@ -12,7 +11,7 @@
 ..
 
 ***********************
-From Invoice to Payment
+从开票到支付
 ***********************
 
 .. i18n:  *This chapter traces the basic accounting workflow in OpenERP, from entering an invoice to
