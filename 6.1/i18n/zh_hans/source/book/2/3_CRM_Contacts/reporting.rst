@@ -1,4 +1,3 @@
-
 .. i18n: .. _part2-crm-reporting:
 .. i18n: 
 .. i18n: Analysing your Sales Performance
@@ -7,14 +6,14 @@
 
 .. _part2-crm-reporting:
 
-Analysing your Sales Performance
+分析销售绩效
 ================================
 
 .. i18n: Organizing Sales Funnel Reviews
 .. i18n: -------------------------------
 ..
 
-Organizing Sales Funnel Reviews
+组织销售漏斗的复核
 -------------------------------
 
 .. i18n: Through the **Opportunities Analysis**, :menuselection:`Sales --> Reporting`, you can keep track of your sales funnel. The analysis report gives you instant access to your opportunities displaying information such as expected revenue, planned cost, missed deadlines or the number of interactions per opportunity. This report is perfect for the Sales Manager to periodically review the sales pipeline with the salesteams concerned.
@@ -138,7 +137,7 @@ Some examples of how you could use the **Opportunities Analysis** report to anal
 .. i18n: ---------------------------------
 ..
 
-Sales Forecast & Sales Dashboards
+销售预测和销售仪表板
 ---------------------------------
 
 .. i18n: OpenERP dashboards are dynamic and allow you to edit or drill-down. Dashboards may be composed of several view types, such as List, Form, Graph view.
