@@ -13,8 +13,7 @@ Odoo: 随时随地在线管理
 .. i18n: It gives you a quick access to your application through internet and a total security of your data. 
 ..
 
-Odoo is a complete offer, inclusive of: software at special price, maintenance, hosting and support.
-It gives you a quick access to your application through internet and a total security of your data. 
+Odoo是一个完整的解决方案，包括：特价软件，维护，主机托管和技术支持。给你一个通过互联网快速访问你应用以及全部保护你的数据安全解决方案。 
 
 .. i18n: Documentation
 .. i18n: +++++++++++++
