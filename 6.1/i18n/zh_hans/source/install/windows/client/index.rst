@@ -138,7 +138,7 @@ OpenERP GTK 客户端安装
 .. i18n: ---------------------------
 ..
 
-启动 OpenERP GTK Client
+启动 OpenERP GTK 客户端
 ---------------------------
 
 .. i18n: The installation program creates shortcuts in the main program menu and on the desktop, which you can use to start the client.
@@ -151,7 +151,7 @@ OpenERP GTK 客户端安装
 .. i18n: Log in to ``openerpdemo`` database using default username and password:
 ..
 
-Log in to ``openerpdemo`` database using default username and password:
+用默认用户名和密码登录到 ``openerpdemo`` 数据库:
 
 .. i18n:   * Username = admin
 .. i18n:   * Password = admin
@@ -163,7 +163,7 @@ Log in to ``openerpdemo`` database using default username and password:
 .. i18n: Enjoy!
 ..
 
-Enjoy!
+祝贺！
 
 .. i18n:   .. figure:: ../../img/client_startup.png
 .. i18n:      :scale: 50
