@@ -1,9 +1,8 @@
-
 .. i18n: How to proceed for your database migration?
 .. i18n: ===========================================
 ..
 
-How to proceed for your database migration?
+如何进行数据库迁移?
 ===========================================
 
 .. i18n: .. figure:: images/migration.png
@@ -17,7 +16,7 @@ How to proceed for your database migration?
    :scale: 70
    :align: center
 
-   *Migration Process*
+   *迁移步骤*
 
 .. i18n: We describe below the 3 or 4 steps you must follow for your database migration. We suggest, as a best practice advice, to run this process at least twice (but you can do it as often as you want): the first time, after sending us your database, you will get it back migrated to the version of your choice. You will then have to do some tests, checking that the data and process are still correct and work normally. After your tests' validation, you are ready for effective migration. Send us an up-to-date version of your database. We will reapply the migration process and you will then get the migrated database to install and use in production.
 ..
@@ -33,13 +32,13 @@ We remind you, that you are in charge of your database cleaning, and that the mi
 .. i18n: -----------------
 ..
 
-Migration Process
+迁移步骤
 -----------------
 
 .. i18n: * **Step 1: You upload your database**
 ..
 
-* **Step 1: You upload your database**
+* **第1步: 上传你的数据库**
 
 .. i18n:   Create a backup of your database and upload it. You can anonymize your data before uploading the database. For further information, see :ref:`sect-db` and :ref:`anonym`.
 ..
@@ -49,7 +48,7 @@ Migration Process
 .. i18n: * **Step 2: We migrate and test your database**
 ..
 
-* **Step 2: We migrate and test your database**
+* **第2步: 我们迁移数据库操作，并做严格测试**
 
 .. i18n:   Once we receive your database, we run our migration process and test your database.
 ..
@@ -65,7 +64,7 @@ Migration Process
     * If the migration process ended without any problem, you will receive an email within a few hours, with a link where you can download your migrated database. You may then go directly to step 4.
     * If the migration process does not end automatically, you will receive an email within a few hours, explaining that the migration process encountered some difficulties and that a manual intervention is necessary. More details are available in step 3.
 
-* **Step 3: We customize our migration process to your database**
+* **第3步: 我们特别针对你的数据库定制迁移处理**
 
 .. i18n:   Our migration process is automated as much as possible, but some manual work may be necessary, depending on your data's complexity. It is possible, during step 2, that the migration process did not complete correctly and that we need to customize our scripts for your database. This operation may take 2-4 weeks, depending on the complexity of your database. After the migration script adaptation, you will receive an email with a link where you can download your migrated database.
 ..
@@ -75,7 +74,7 @@ Migration Process
 .. i18n: * **Step 4: You reinstall the migrated database**
 ..
 
-* **Step 4: You reinstall the migrated database**
+* **第4步: 你重新部署迁移过的数据库**
 
 .. i18n:   You can download your migrated database and reinstall it on your new OpenERP version. If you executed the anonymisation process at step 1, you will have to reverse it to recover your real data.
 ..
@@ -90,13 +89,13 @@ Migration Process
 
 .. _sect-db:
 
-How to restore a database?
+如何恢复数据库备份?
 --------------------------
 
 .. i18n: As a super-administrator, you have rights to create new databases, and can also:
 ..
 
-As a super-administrator, you have rights to create new databases, and can also:
+做为超级管理员的角色，你能够创建一个帐套，当然也能做下面的操作:
 
 .. i18n: * backup databases,
 .. i18n: 
@@ -105,11 +104,11 @@ As a super-administrator, you have rights to create new databases, and can also:
 .. i18n: * restore databases.
 ..
 
-* backup databases,
+* 备份数据库(帐套),
 
-* delete databases,
+* 删除数据库(帐套),
 
-* restore databases.
+* 恢复数据库(帐套).
 
 .. i18n: All of these operations can be carried out from the menu :menuselection:`File --> Databases...`
 .. i18n: in the GTK client, or from the :guilabel:`Databases` button in the web client's 
@@ -134,7 +133,7 @@ in the GTK client, or from the :guilabel:`Databases` button in the web client's
 .. i18n: 	password. Click the :guilabel:`Backup` button to confirm that you want to copy the database.
 ..
 
-.. tip:: Backup (copy) a Database
+.. tip:: 备份(复制)数据库(帐套)
 
         To make a copy of a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
         Then click the :guilabel:`Backup` button, select the database you want to copy and enter the super-administrator
@@ -154,7 +153,7 @@ in the GTK client, or from the :guilabel:`Databases` button in the web client's
 .. i18n: 	password. Click the :guilabel:`Drop` button to confirm that you want to delete the database.
 ..
 
-.. tip:: Drop (delete) a Database
+.. tip:: 删除数据库(帐套)
 
         To delete a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
         Then click the :guilabel:`Drop` button, select the database you want to delete and enter the super-administrator
@@ -176,7 +175,7 @@ in the GTK client, or from the :guilabel:`Databases` button in the web client's
 .. i18n: 	To restore a database, you need to have an existing copy, of course.
 ..
 
-.. tip:: Restore a Database
+.. tip:: 恢复数据库(帐套)
 
         To restore a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
         Then click the :guilabel:`Restore` button, click the :guilabel:`Choose File` button to select the database
@@ -203,7 +202,7 @@ in the GTK client, or from the :guilabel:`Databases` button in the web client's
 .. i18n: 	operation of a new configuration, new modules, or just the import of new data.
 ..
 
-.. tip::   Duplicating a Database
+.. tip::   复制数据库(帐套)
 
 	To duplicate a database, you can:
 
@@ -236,7 +235,7 @@ so that your security is enhanced in normal production use.
 
 .. _anonym:
 
-How to keep your data confidential?
+如何保证数据库数据安全?
 -----------------------------------
 
 .. i18n: We offer an option to anonymise your data through our :mod:`anonymization` module.
