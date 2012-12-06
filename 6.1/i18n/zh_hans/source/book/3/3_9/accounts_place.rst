@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: analytic; accounts
 ..
@@ -35,7 +34,7 @@ For the initial setup of good analytic accounts you should:
 .. i18n: --------------------------------
 ..
 
-Setting up the Chart of Accounts
+设置科目表
 --------------------------------
 
 .. i18n: Start by choosing the most suitable analytic representation for your company before entering it into OpenERP. To create the different analytic accounts, use the menu :menuselection:`Accounting--> Configuration --> Analytic Accounting --> Analytic Accounts` and click the :guilabel:`Create` button.
@@ -168,7 +167,7 @@ Once you have defined the different analytic accounts, you can view your chart t
 .. i18n: -----------------
 ..
 
-Creating Journals
+创建账簿
 -----------------
 
 .. i18n: Once the analytic chart has been created for your company, you have to create the different journals.
