@@ -50,7 +50,7 @@
 
 .. _ch-market:
 
-Lead Automation with Marketing Campaigns
+利用营销活动实现线索自动化
 ========================================
 
 .. i18n: OpenERP offers a set of modules allowing you to easily create and track your Marketing Campaigns.
@@ -92,7 +92,7 @@ To use the email functionality, you have to configure your email account. This i
 .. i18n: ----------------------------------------
 ..
 
-Example of a Complete Marketing Campaign
+一个完整的市场营销活动例子
 ----------------------------------------
 
 .. i18n: Suppose we are an insurance company that wants to launch a marketing campaign to generate new leads. The company launches a campaign on its website and proposes potential customers to get a free offer for their car insurance.
@@ -165,7 +165,7 @@ Moreover, we can measure the method according to our goals. Based on the goals w
 .. i18n: ------------------------
 ..
 
-Designing your Campaigns
+定义营销活动
 ------------------------
 
 .. i18n: Designing a marketing campaign is mostly a long term process and the success of any campaign depends on the research and the effectiveness in selecting your target audience for the campaign. There are certain questions that every marketeer always asks while designing a campaign.
@@ -203,7 +203,7 @@ The first step is to define the campaign, i.e. the sequence of steps to be perfo
 
 From the lead automation, we define the sequence of steps we ought to follow, the modes of creating and processing these activities and the cost involved in this campaign. After each activity and based on its respective stimuli, we can trigger the next event of the campaign concerned.
  
-Segmenting your Campaigns
+划分营销活动
 -------------------------
 
 .. i18n: The two most important points for any successful campaign are the adoption of a concrete methodology of execution and choosing the right segment: a target loop of customers to whom our campaign would be directed (i.e. your target audience). Inappropriate focus on the wrong segment would result in the campaign being misfired and our efforts would reach deaf ears.
@@ -235,7 +235,7 @@ Once the lead satisfies our final objective, we would consider it as a partner/c
 .. i18n: ---------------
 ..
 
-Email Templates
+电子邮件模板
 ---------------
 
 .. i18n: OpenERP allows you to create your own email templates. You can use the Expression Builder to have the variables created for you. Suppose you would like to add the Contact Name in the email, but of course, this will be a different name for each email.
@@ -268,7 +268,7 @@ For each email template, you can have OpenERP generate a Wizard Action / Button 
 .. i18n: -----------------------------------
 ..
 
-Setting up your Marketing Campaigns
+设置营销活动
 -----------------------------------
 
 .. i18n: .. figure::  images/crm_market_campaign.png
@@ -287,7 +287,7 @@ Setting up your Marketing Campaigns
 .. i18n: 0. Introduction
 ..
 
-0. Introduction
+0. 简介
 
 .. i18n: A campaign defines a workflow of activities that items/objects entering the campaign will go through. Items are selected by segments. Segments are automatically processed every few hours and inject new items into the campaign, according to a given set of criteria.
 .. i18n: It is possible to watch the campaign as it is running, by following the campaign "workitems". A workitem represents a given object/item passing through a given campaign activity. See it as a step that still can go either way. Workitems are left behind when the item proceeds to the next activities. This allows an easy analysis and reporting on the running campaign.
@@ -301,14 +301,14 @@ Each activity may execute an action upon activation depending on a dynamic condi
 .. i18n: 1. Campaigns (:menuselection:`Marketing --> Campaigns --> Campaigns`)
 ..
 
-1. Campaigns (:menuselection:`Marketing --> Campaigns --> Campaigns`)
+1. 营销活动 (:menuselection:`Marketing --> Campaigns --> Campaigns`)
 
 .. i18n: Campaign
 .. i18n:   Each campaign is made of activities and transitions, and must be defined on any specific object the system knows about
 .. i18n:   (e.g. Leads, Opportunities, Employees, Partners).
 ..
 
-Campaign
+营销活动
   Each campaign is made of activities and transitions, and must be defined on any specific object the system knows about
   (e.g. Leads, Opportunities, Employees, Partners).
 
@@ -316,7 +316,7 @@ Campaign
 .. i18n:   A campaign can be in one of 4 modes:
 ..
 
-Mode
+模式
   A campaign can be in one of 4 modes:
 
 .. i18n:  * `Test Directly`: processes the whole campaign in one go, ignoring any delay put on transitions, and does not actually execute the actions, so the result is simply the set of corresponding campaign workitems (see below). Any time a segment adds new items in the campaign they will be processed in the same manner.
@@ -1169,24 +1169,24 @@ To obtain the scheme presented earlier you can create the following questions an
 .. i18n:    :header: "Questions","Possible Responses"
 .. i18n:    :widths: 20, 30
 .. i18n: 
-.. i18n:    "Journalist ?","Yes / No"
-.. i18n:    "Industry Sector ?","IT / ERP Consultant / Services / Industry / Others"
-.. i18n:    "Number of Staff ?","1 / 2-20 / 21-50 / 51-100 / 101-500 / 500+"
-.. i18n:    "Contact's job function ?","Decision-maker / Not decision-maker"
-.. i18n:    "Already created a specification for the work ?","Yes / Soon / No"
-.. i18n:    "Implementation budget ?","Unknown  / <100k / 101-300k / >300k"
+.. i18n:    "Journalist ?","Yes / No"
+.. i18n:    "Industry Sector ?","IT / ERP Consultant / Services / Industry / Others"
+.. i18n:    "Number of Staff ?","1 / 2-20 / 21-50 / 51-100 / 101-500 / 500+"
+.. i18n:    "Contact's job function ?","Decision-maker / Not decision-maker"
+.. i18n:    "Already created a specification for the work ?","Yes / Soon / No"
+.. i18n:    "Implementation budget ?","Unknown  / <100k / 101-300k / >300k"
 ..
 
 .. csv-table::  Questionnaire for Defining Profiles
    :header: "Questions","Possible Responses"
    :widths: 20, 30
 
-   "Journalist ?","Yes / No"
-   "Industry Sector ?","IT / ERP Consultant / Services / Industry / Others"
-   "Number of Staff ?","1 / 2-20 / 21-50 / 51-100 / 101-500 / 500+"
-   "Contact's job function ?","Decision-maker / Not decision-maker"
-   "Already created a specification for the work ?","Yes / Soon / No"
-   "Implementation budget ?","Unknown  / <100k / 101-300k / >300k"
+   "Journalist ?","Yes / No"
+   "Industry Sector ?","IT / ERP Consultant / Services / Industry / Others"
+   "Number of Staff ?","1 / 2-20 / 21-50 / 51-100 / 101-500 / 500+"
+   "Contact's job function ?","Decision-maker / Not decision-maker"
+   "Already created a specification for the work ?","Yes / Soon / No"
+   "Implementation budget ?","Unknown  / <100k / 101-300k / >300k"
 
 .. i18n: For instance, a sales person specializing in large accounts for the service sector could have a
 .. i18n: profile defined like this:
