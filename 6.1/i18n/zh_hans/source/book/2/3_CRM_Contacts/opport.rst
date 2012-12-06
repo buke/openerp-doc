@@ -1,4 +1,3 @@
-
 .. i18n: .. _part2-crm-opport:
 .. i18n: 
 .. i18n: Optimizing your Sales Cycle through Opportunities
@@ -7,7 +6,7 @@
 
 .. _part2-crm-opport:
 
-Optimizing your Sales Cycle through Opportunities
+通过的商机优化你的销售周期
 =================================================
 
 .. i18n: While a lead represents the first contact with a prospect yet to be qualified, a sales opportunity represents a potential contract. Each opportunity has to be followed up by a salesperson (or sales team) spending time to qualify the opportunity, and this either by making a quotation or cancelling the opportunity.
@@ -58,7 +57,7 @@ Opportunities can be connected to the email gateway: new emails may create oppor
 .. i18n: ------------------------------------------------
 ..
 
-Converting Leads into Customers or Opportunities
+转换线索为客户或者商机
 ------------------------------------------------
 
 .. i18n: If the salesperson thinks that the lead has been well qualified and that there is a real opportunity, following the contact he had with the prospect, he can easily convert the lead into a partner / opportunity using the button :guilabel:`Convert to Opportunity`.
@@ -186,7 +185,7 @@ Make sure to enter the estimated revenue and the success rate (probability) of c
 
 .. _ch-team:
 
-Adapting OpenERP to your Sales Organization
+调整 OpenERP 适应你的销售组织
 -------------------------------------------
 
 .. i18n: .. index::
@@ -262,7 +261,7 @@ Let us take the example of a bank to explain how you can define your sales teams
 .. i18n: ------------------------------------------
 ..
 
-Defining the Key Steps of your Sales Cycle
+定义销售周期的关键步骤
 ------------------------------------------
 
 .. i18n: Each company will have similar, yet customized stages to qualify opportunities.
@@ -404,7 +403,7 @@ With `Categories` you identify your prospect's needs (e.g. Needs Training, Needs
 .. i18n: --------------------------
 ..
 
-Planning your Next Actions
+计划你下个动作
 --------------------------
 
 .. i18n: When a lead has been converted into an opportunity, the latter can be assigned to any salesperson. You might designate an opportunity manager in the company who is responsible for assigning the new opportunities to different salespeople according to the job they do, their location or availability.
@@ -491,7 +490,7 @@ You can use the filters to group by ``Priority`` and then click the ``Next Actio
 .. i18n: ------------------------------------------
 ..
 
-Planning your Meetings & Calls Effectively
+有效计划你的会议和电话呼叫
 ------------------------------------------
 
 .. i18n: Planning your meetings & calls does not only allow you to structure your work, but also to improve your sales skills by learning from your call & meeting history. For both Meetings & Calls, you can enter a complete report of what you discuss!
@@ -685,7 +684,7 @@ Of course, OpenERP also allows you to schedule a phone call directly from an **O
 .. i18n: ------------------------
 ..
 
-Scheduling Closing Dates
+定期截止
 ------------------------
 
 .. i18n: To keep track of the coming sales pipeline, you should enter the expected closing date for each opportunity. By doing this, from the **Opportunities** screen you can easily filter your pipeline by ``Expected Closing`` (button in Group by). This is a clear way to forecast the expected revenues. You can also use this filter to check whether the expected closing date has been set.
