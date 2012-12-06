@@ -9,7 +9,7 @@
 .. i18n: ==================================
 ..
 
-Putting Analytic Accounts in Place
+使辅助核算项到位
 ==================================
 
 .. i18n: For the initial setup of good analytic accounts you should:
