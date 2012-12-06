@@ -204,7 +204,7 @@ PostgreSQL的默认超级用户叫 *postgres*。密码是你在安装过程中�
 .. i18n: partners, products etc.
 ..
 
-因为安装需要完全UTF8字符支持，考虑用postgres >= 8.2.x。使用这个之前的版本，OpenERP搜索将不会返回想要的大小写不敏感搜索结果。
+因为安装需要完全UTF8字符支持，考虑用postgres >= 8.2.x。使用这个之前的版本，OpenERP搜索合作伙伴、产品等将不会返回想要的大小写不敏感搜索结果。
 
 .. i18n: Example: ::
 .. i18n: 
@@ -212,7 +212,7 @@ PostgreSQL的默认超级用户叫 *postgres*。密码是你在安装过程中�
 .. i18n:     --matches only in 8.2.x
 ..
 
-Example: ::
+例如: ::
 
     SELECT 'x' FROM my_table WHERE 'bét' ilike 'BÉT'
     --matches only in 8.2.x
