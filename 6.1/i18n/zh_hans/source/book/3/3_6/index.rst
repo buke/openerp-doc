@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Invoicing & Payments
 ..
@@ -16,7 +15,7 @@
 .. _custinv:
 
 #############################
-Customer Invoicing & Payments
+客户发票和支付
 #############################
 
 .. i18n: OpenERP provides various features to keep track of your invoicing and payments. The simple workflow of invoicing,
