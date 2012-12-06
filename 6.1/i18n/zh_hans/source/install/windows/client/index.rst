@@ -24,7 +24,7 @@ OpenERP GTK 客户端安装
 .. i18n: The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
 ..
 
-原生GTK客户端可作为传统接口，给那些还需要它的用户，但推荐使用内置web接口访问OpenERP的6.1。
+原生GTK客户端可作为传统接口，给那些还需要它的用户，但推荐使用内置web接口访问OpenERP6.1。
 
 .. i18n: You must install, configure and run the OpenERP Server before using the
 .. i18n: OpenERP Client. The client needs the server to run. You can install the server
