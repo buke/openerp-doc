@@ -78,8 +78,7 @@ Launchpad 社区协作平台
 
 我们使用 `Launchpad.net <https://launchpad.net>`_, 一个开源项目管理和协作平台, 
 作为我们代码托管和社区合作的平台。
-All OpenERP-related projects are aggregated under the meta
-`OpenObject <https://launchpad.net/openobject>`_ project group.
+其中 `OpenObject <https://launchpad.net/openobject>`_ 项目组汇集了所有关于OpenERP的项目。
 
 .. i18n: OpenERP more specifically uses the following Launchpad features, as further
 .. i18n: detailed in this guide:
