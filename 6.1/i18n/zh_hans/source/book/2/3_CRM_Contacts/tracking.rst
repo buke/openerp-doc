@@ -1,4 +1,3 @@
-
 .. i18n: .. _part2-crm-tracking:
 .. i18n:  
 .. i18n: ####################################
@@ -110,10 +109,10 @@
 .. _part2-crm-tracking:
  
 ####################################
-Keeping Track of your Communications
+跟踪你的通讯
 ####################################
 
-Tracking your Customer's History
+跟踪客户日志
 --------------------------------
 
 Information related to leads & opportunities, meetings, phone calls,  marketing campaigns and emails will be tracked in OpenERP. 
@@ -125,7 +124,7 @@ The activities are automatically reported in the partner form of the associated 
 
    *History of Activities in a Customer Form*
 
-Tracking Sales Orders
+跟踪销售订单
 ---------------------
 
 After intensive opportunity qualification, your customer asks you to make a quotation. You can easily do this from the corresponding opportunity! Just click the ``Convert to Quote`` button and OpenERP will create a sales quotation ready for you to be edited. A sales quotation is an unconfirmed sales order. On the quotation, the Source document it was created from (in this case the opportunity) is displayed, to allow you to keep track of which opportunity is linked to which sales quotation / order.
@@ -136,7 +135,7 @@ For more information about sales orders, please refer to the chapter :ref:`part4
 
 .. index:: attachments
 
-Storing Attached Documents
+存储附加单据
 --------------------------
 
 For any object in OpenERP, for instance a lead, opportunity, customer, you can attach external documents. Suppose you send a product folder to one of your customers, and to make sure you know exactly which version of the document he received, you can keep it as an attachment in OpenERP.
