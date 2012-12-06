@@ -1,9 +1,8 @@
-
 .. i18n: Managing the Storage
 .. i18n: --------------------
 ..
 
-Managing the Storage
+管理仓储
 --------------------
 
 .. i18n: In our configuration, we have to define the way in which we will store the products.
@@ -36,7 +35,7 @@ specific locations and we will finish by setting up the of shops.
 .. i18n: ^^^^^^^^^^
 ..
 
-Warehouses
+仓库
 ^^^^^^^^^^
 
 .. i18n: In OpenERP, a warehouse represents your places of physical stock. A warehouse can be structured into several locations at multiple 
@@ -62,7 +61,7 @@ We have to create three new warehouses. One for OpenERP, one for OpenERP Belgium
    :scale: 75
    :align: center
    
-   *Warehouses*
+   *仓库*
 
 .. i18n: Go to :menuselection:`Warehouse --> Configuration --> Warehouse Management --> Warehouses` and create the different warehouses
 .. i18n: according to the parameters shown in picture :ref:`fig-wareh`.
@@ -92,7 +91,7 @@ according to the parameters shown in picture :ref:`fig-wareh`.
 .. i18n: ^^^^^^^^^
 ..
 
-Locations
+库位
 ^^^^^^^^^
 
 .. i18n: Locations are used to manage all types of storage places, such as at the customer and production counterparts.
@@ -118,7 +117,7 @@ those companies.
    :scale: 75
    :align: center
    
-   *Locations*
+   *库位定义*
 
 .. i18n: Go to :menuselection:`Warehouse --> Configuration --> Warehouse Management --> Locations` and create the different locations with 
 .. i18n: the parameters defined in the picture :ref:`fig-loc`.
@@ -148,7 +147,7 @@ the parameters defined in the picture :ref:`fig-loc`.
 .. i18n: ^^^^^
 ..
 
-Shops
+门店
 ^^^^^
 
 .. i18n: OpenERP France needs a shop. The objective of this shop is to allow OpenERP France to receive orders from customers and then send 
@@ -169,7 +168,7 @@ it to OpenERP Belgium for the delivery of the products.
    :scale: 75
    :align: center
    
-   *Defining a Shop*
+   *门店定义*
 
 .. i18n: Go to :menuselection:`Sales --> Configuration --> Sales --> Shop` to define a shop for OpenERP France.
 ..
