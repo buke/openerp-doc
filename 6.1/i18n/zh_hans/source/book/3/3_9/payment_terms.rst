@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: payment terms
 ..
 
@@ -8,7 +7,7 @@
 .. i18n: =============
 ..
 
-Payment Terms
+支付条款
 =============
 
 .. i18n: You can define whatever payment terms you need in OpenERP. Payment terms determine the due dates
