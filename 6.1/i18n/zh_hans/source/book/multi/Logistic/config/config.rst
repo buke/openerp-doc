@@ -1,9 +1,8 @@
-
 .. i18n: Configuration
 .. i18n: =============
 ..
 
-Configuration
+基本配置
 =============
 
 .. i18n: Let us start by configuring the different components we need. In the next sections, we will define:
@@ -24,15 +23,15 @@ Let us start by configuring the different components we need. In the next sectio
 .. i18n: 		
 ..
 
-	* The companies' structure
-		* Companies
+	* 公司结构
+		* 多公司定义
 		* Charts of Accounts
 		* Storage
 		
-	* Users, suppliers & customers
+	* 用户,供应商与客户
 	
-	* The product
-		* Product definition
+	* 产品
+		* 产品数据
 		* Push & pull flows
 		
 
