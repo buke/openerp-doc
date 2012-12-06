@@ -1,9 +1,8 @@
-
 .. i18n: Business Example
 .. i18n: ================
 ..
 
-Business Example
+业务案例
 ================
 
 .. i18n: In this example, you will configure a system that enables you to:
@@ -35,7 +34,7 @@ customers.
 .. i18n: ==============
 ..
 
-Basic Settings
+基本设置
 ==============
 
 .. i18n: For this business case, you will have to model:
@@ -87,7 +86,7 @@ minimal chart of accounts and a bank account.
 .. i18n: ==================================================
 ..
 
-Get your Database Up and Running without Demo Data
+让你的数据库在没有演示数据的情况下运行起来
 ==================================================
 
 .. i18n: Use the technique outlined in :ref:`sect-dbcreate` to create a new database, \ ``openerp_ch03``\  . This
@@ -241,7 +240,7 @@ can start working with this minimal database (we will not use this option here).
 .. i18n: ==============
 ..
 
-Fit your Needs
+满足你的需求
 ==============
 
 .. i18n: Functional needs can be provided by core modules from OpenERP. You just have to decide which functionality
