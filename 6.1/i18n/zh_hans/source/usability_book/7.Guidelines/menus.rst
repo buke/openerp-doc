@@ -1,18 +1,17 @@
-
 .. i18n: =======================
 .. i18n: Menu Organization Rules
 .. i18n: =======================
 ..
 
 =======================
-Menu Organization Rules
+菜单组织规则
 =======================
 
 .. i18n: Menu organization
 .. i18n: +++++++++++++++++
 ..
 
-Menu organization
+菜单组织
 +++++++++++++++++
 
 .. i18n: * The first items of the main menu (application management) must be the most useful documents of the application. There are 2 reasons for this: 
@@ -74,7 +73,7 @@ To summarize menus have to look like :
 .. i18n: ++++++++++++++++
 ..
 
-Menu terminology
+菜单用词
 ++++++++++++++++
 
 .. i18n: The name must be short and explicit. Firstly, it must be short because in web client, main menus are organized on the top, in a horizontal bar. So it cannot take too much space. For instance we use “Purchases”, not “Purchases Management”, to minimise the space taken in the menu. 
