@@ -25,7 +25,7 @@ OpenERP Web 安装
 .. i18n: all-in-one installation, so no extra step is required to install it.
 ..
 
-从6.1开始，web 客户端已经作为标准的安装包一部分包含在all-in-one 安装内，不需要另外安装了。
+从6.1开始，web 客户端已经作为标准的安装包一部分包含在all-in-one 内，不需要另外安装了。
 
 .. i18n: The all-in-one version may be downloaded from the `OpenERP website's download page <http://www.openerp.com/downloads>`_
 ..
