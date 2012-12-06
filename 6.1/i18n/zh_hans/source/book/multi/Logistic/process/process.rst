@@ -1,9 +1,8 @@
-
 .. i18n: Process: Sales and Purchases
 .. i18n: ============================
 ..
 
-Process: Sales and Purchases
+销售与采购流程
 ============================
 
 .. i18n: At this point, we have defined everything that we need, we can now execute the process.
