@@ -70,7 +70,7 @@ In order to get the sources, you will need Bazaar version control to pull the so
 .. i18n:   bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh
 ..
 
-Get the setup script of OpenERP by typing::
+输入下面的命令从官网源码获取安装脚本::
 
   bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh
 
@@ -79,7 +79,7 @@ Get the setup script of OpenERP by typing::
 .. i18n:   make init-trunk
 ..
 
-Get the current trunk version of OpenERP by typing::
+下面命令从官网源码获取当前代码分支::
 
   make init-trunk
 
@@ -457,14 +457,14 @@ Full Example for Server V5.0 ::
 .. i18n: ====================
 ..
 
-Command line options
+指定运行时命令行参数
 ====================
 
 .. i18n: General Options
 .. i18n: ---------------
 ..
 
-General Options
+常规参数
 ---------------
 
 .. i18n:   --version             show program version number and exit
@@ -538,7 +538,7 @@ General Options
   -S, --secure          launch server over https instead of http
   --smtp=SMTP_SERVER    specify the SMTP server for sending mail
  
-Database related options:
+数据库相关参数:
 -------------------------
  
   -d DB_NAME, --database=DB_NAME
@@ -551,7 +551,7 @@ Database related options:
   --db_host=DB_HOST   specify the database host
   --db_port=DB_PORT   specify the database port
  
-Internationalization options:
+多语言相关参数:
 -----------------------------
 
 .. i18n:     Use these options to translate OpenERP to another language. See i18n
@@ -591,7 +591,7 @@ Internationalization options:
 .. i18n: configured through the :ref:`decimal_accuracy` screen.
 ..
 
-Options from previous versions:
+其它兼容旧版源码参数:
 -------------------------------
 Some options were removed in version 6. For example, ``price_accuracy`` is now
 configured through the :ref:`decimal_accuracy` screen.
