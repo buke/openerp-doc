@@ -4,7 +4,7 @@
 ..
 
 ****************************
-Getting Started with OpenERP
+开始使用OpenERP
 ****************************
 
 .. i18n: You will now explore the database \ ``openerp_ch02``\   with these profile modules installed to give
@@ -21,7 +21,7 @@ you an insight into the coverage of the core OpenERP software.
 .. i18n: 	this use :menuselection:`Administration --> Translations --> Load an Official Translation`.
 ..
 
-.. tip:: Translating New Modules
+.. tip:: 翻译新模块
 
 	When you have installed a new module and are using additional languages to English, you have to reload
 	the translation file. New terms introduced in these modules are not translated by default. To do
