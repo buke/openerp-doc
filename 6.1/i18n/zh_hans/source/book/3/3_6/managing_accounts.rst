@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: payable
 .. i18n:    single: receivable
@@ -16,7 +15,7 @@
 .. i18n: =================
 ..
 
-Get your Money in
+获取你的资金
 =================
 
 .. i18n: OpenERP provides many tools for managing customer and supplier accounts. In this part we will explain:
@@ -45,7 +44,7 @@ OpenERP provides many tools for managing customer and supplier accounts. In this
 .. i18n: ------------------------------
 ..
 
-Financial Analysis of Partners
+合作伙伴的财务分析
 ------------------------------
 
 .. i18n: .. index::
@@ -226,7 +225,7 @@ Furthermore, OpenERP also provides statistics about individual account entries, 
 .. i18n: --------------------
 ..
 
-Multi-step Reminders
+多级提醒
 --------------------
 
 .. i18n: To automate the management of follow-ups (reminders) you should install the module :mod:`account_followup` (or check the `Followups Management` option in the `Add More Features` wizard).
@@ -347,7 +346,7 @@ The different reports are standard OpenERP screens, so you can filter them and e
 .. i18n: =====================
 ..
 
-Analyse your Turnover
+分析营业额
 =====================
 
 .. i18n: Analyse your invoicing in OpenERP through the **Invoices Analysis** screen from the menu :menuselection:`Accounting --> Reporting --> Statistic Reports --> Invoices Analysis`.
