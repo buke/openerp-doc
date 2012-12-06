@@ -1,10 +1,9 @@
-
 .. i18n: Project Management
 .. i18n: ==================
 ..
 
-Project Management
-==================
+项目管理
+========
 
 .. i18n: In the previous chapter you learned more about the financial management of projects, based on
 .. i18n: OpenERP's analytic accounts, structured into cases. This way of working enables you to analyze
