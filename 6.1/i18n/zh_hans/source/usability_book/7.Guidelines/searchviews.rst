@@ -42,7 +42,7 @@ As previously mentioned, the used terminology must be adapted to the application
 .. i18n: +++++++++++++++++++++
 ..
 
-Filter Button Details 
+过滤器按钮详情 
 +++++++++++++++++++++
 
 .. i18n: * These kinds of buttons are on the top left of the screen. 
@@ -81,7 +81,7 @@ Then there are other buttons in one or more groups, it depends on the context. T
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Main Filter Options reflects columns of the list view
+主过滤器选项影响的列表项
 +++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: * Default search fields might reflect the available columns in the list view. In other words, each field must have a related column in the list view and is placed in the same position as the column.
@@ -109,7 +109,7 @@ Main Filter Options reflects columns of the list view
 .. i18n: +++++++++++++++++++++++
 ..
 
-Group by : organization
+分组 : 数据组织
 +++++++++++++++++++++++
 
 .. i18n: * like buttons, “group by” are organized in context. 
@@ -129,7 +129,7 @@ Group by : organization
 .. i18n: +++++++++++++++++++++++
 ..
 
-Use of Extended Filters
+扩展过滤器的用法
 +++++++++++++++++++++++
 
 .. i18n: * There are extended filters only in extended interface because it complicates the views. In the simplified interface, the user can use optional filters.
