@@ -1,4 +1,3 @@
-
 .. i18n: .. _part2-crm-communicate:
 .. i18n: 
 .. i18n: .. index::
@@ -18,7 +17,7 @@
 .. i18n: ================================================================
 ..
 
-Connecting with your Email and Accessing from your Mobile Device
+用email联系以及从移动设备访问
 ================================================================
 
 .. i18n:  *OpenERP provides all the information you need to pursue your company's business opportunities
@@ -71,7 +70,7 @@ And of course, you can link the OpenERP meeting calendar to your mobile device.
 
 .. _ch-crm-fetchmail:
 
-Communication Tools
+通讯工具
 -------------------
 
 .. i18n: .. index:: fetchmail
@@ -261,7 +260,7 @@ Click `Confirm` to confirm the account settings.
 
 .. _outl:
 
-Managing your CRM from Microsoft Outlook
+Microsoft Outlook 关联你的CRM
 ----------------------------------------
 
 .. i18n: The Microsoft Outlook plug-in enables you to carry out a series of OpenERP operations quickly and directly
@@ -691,7 +690,7 @@ Here is an example of how to configure extra document types. Suppose you would l
 
 .. _thunder:
 
-Managing your CRM from Mozilla Thunderbird
+从Mozilla Thunderbird管理你的CRM
 ------------------------------------------
 
 .. i18n: With the Mozilla Thunderbird plug-in you can carry out a series of OpenERP operations directly from Thunderbird, such as:
@@ -1087,7 +1086,7 @@ Here is an example of how to configure extra document types. Suppose you would l
 
 .. _ch-sync1:
 
-Synchronizing your CRM with Mobile Devices
+用移动设备同步你的CRM
 ------------------------------------------
 
 .. i18n: Synchronize your OpenERP calendars with your mobile device and know which meeting to go to from wherever you are!
@@ -1132,7 +1131,7 @@ You can synchronize your calendars with iPhone and Android phones, and also with
 
 .. _mobile:
 
-OpenERP Server and SSL Setup
+OpenERP 服务器和 SSL 设置
 ++++++++++++++++++++++++++++
 Some modules need to be installed on the OpenERP server (or may already be installed). These are:
 
@@ -1175,7 +1174,7 @@ one of the "big" certificate authorities).
 .. i18n: +++++++++++++++++++
 ..
 
-Calendars on iPhone
+在iPhone上的日历
 +++++++++++++++++++
 
 .. i18n: To set up the calendars, proceed as follows:
@@ -1288,7 +1287,7 @@ you will first need to let the iPhone trust the certificate. Follow these steps:
 .. i18n: ++++++++++++++++++++
 ..
 
-Calendars on Android
+在 Android 上的日历
 ++++++++++++++++++++
 
 .. i18n: Prerequisites
@@ -1298,7 +1297,7 @@ Calendars on Android
 .. i18n: from Hypermatix Software (for now, it is the only one).
 ..
 
-Prerequisites
+先决条件
 *************
 There is no built-in way to synchronize calendars with CalDAV.
 So you need to install a third party software: Calendar (CalDav) Sync BETA 
@@ -1308,7 +1307,7 @@ from Hypermatix Software (for now, it is the only one).
 .. i18n: *****************
 ..
 
-How to Configure?
+如何配置?
 *****************
 
 .. i18n: 1. Open the ``Calendar Sync`` application.
@@ -1348,7 +1347,7 @@ How to Configure?
 .. i18n: ++++++++++++++++++++++
 ..
 
-Calendars in Evolution
+在Evolution上的日历
 ++++++++++++++++++++++
 
 .. i18n: 1. Go to Calendar View.
@@ -1404,7 +1403,7 @@ Calendars in Evolution
 .. i18n: ++++++++++++++++++++++++++++++
 ..
 
-Calendars in Sunbird/Lightning
+在Sunbird/Lightning上的日历
 ++++++++++++++++++++++++++++++
 
 .. i18n: Prerequisites
@@ -1413,7 +1412,7 @@ Calendars in Sunbird/Lightning
 .. i18n: http://www.mozilla.org/projects/calendar/lightning/
 ..
 
-Prerequisites
+先决条件
 *************
 If you are using Thunderbird, first install the Lightning module
 http://www.mozilla.org/projects/calendar/lightning/
@@ -1422,7 +1421,7 @@ http://www.mozilla.org/projects/calendar/lightning/
 .. i18n: *************
 ..
 
-Configuration
+配置
 *************
 
 .. i18n: 1. Go to Calendar View.
