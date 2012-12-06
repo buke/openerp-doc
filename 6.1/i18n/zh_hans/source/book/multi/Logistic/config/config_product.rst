@@ -1,16 +1,15 @@
-
 .. i18n: Product
 .. i18n: -------
 ..
 
-Product
+产品
 -------
 
 .. i18n: Definition
 .. i18n: ^^^^^^^^^^
 ..
 
-Definition
+基础数据
 ^^^^^^^^^^
 
 .. i18n: Now that we have defined the different actors, we can define our product that will be stored in Belgium and proposed to sell in
