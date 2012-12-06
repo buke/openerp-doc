@@ -827,7 +827,7 @@ will then be automatically marked as paid.
 .. i18n: ==================
 ..
 
-Payment Management
+支付管理
 ==================
 
 .. i18n: OpenERP gives you forms to prepare, validate and execute payment orders. This enables you
@@ -868,7 +868,7 @@ to manage issues such as:
 .. i18n: ----------------------------------
 ..
 
-How to Manage your Payment Orders?
+如何管理你的付款单
 ----------------------------------
 
 .. i18n: .. index::
@@ -986,7 +986,7 @@ payment.
 .. i18n: ---------------------------
 ..
 
-Prepare and Transfer Orders
+准备和传输付款单
 ---------------------------
 
 .. i18n: To enter a payment order, use the menu :menuselection:`Accounting --> Payment --> Payment Orders`.
