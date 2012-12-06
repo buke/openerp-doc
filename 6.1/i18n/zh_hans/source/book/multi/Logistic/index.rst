@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: multi-company logistic
 ..
@@ -16,7 +15,7 @@
 .. _ch-multilogistic:
 
 ########################################
-Logistics in a Multi-Company Environment
+多公司的物流管理
 ########################################
 
 .. i18n: .. toctree::
