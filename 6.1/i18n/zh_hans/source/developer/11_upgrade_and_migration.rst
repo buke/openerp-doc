@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-5-migration-upgrading-testing:
 .. i18n: 
 .. i18n: ======================================
@@ -9,7 +8,7 @@
 .. _part-5-migration-upgrading-testing:
 
 ======================================
-Serialization, Migration and Upgrading
+持久化，迁移和升级
 ======================================
 
 .. i18n: .. _data-serialization:
@@ -20,7 +19,7 @@ Serialization, Migration and Upgrading
 
 .. _data-serialization:
 
-Data Serialization
+数据持久化
 ==================
 
 .. i18n: During OpenERP installation, two steps are necessary to create and feed the database:
@@ -79,7 +78,7 @@ database tables.
 
 .. _xml-serialization:
 
-XML Data Serialization
+XML 数据持久化
 ----------------------
 
 .. i18n: Since version 4.2, OpenERP provides an XML-based data serialization format.
@@ -240,7 +239,7 @@ Some typical XML elements are described below.
 .. i18n: ++++++++++
 ..
 
-Record Tag
+记录标签
 ++++++++++
 
 .. i18n: The addition of new data is made with the **record** tag. This one takes a mandatory attribute : **model**. Model is the object name where the insertion has to be done. The tag record can also take an optional attribute: **id**. If this attribute is given, a variable of this name can be used later on, in the same file, to make reference to the newly created resource ID.
@@ -410,7 +409,7 @@ Evaluates to the first element of the list of ids returned by the function node:
 
 .. _yaml-serialization:
 
-YAML Data Serialization
+YAML 数据持久化
 -----------------------
 
 .. i18n: YAML is a **human-readable** data serialization format that takes concepts from
@@ -551,7 +550,7 @@ First the XML Record using the current XML serialization format
 .. i18n:        shop_id: sale.shop
 ..
 
-YAML Record
+YAML 记录
 +++++++++++
 ::
 
