@@ -54,16 +54,16 @@
 .. i18n: :Quality certified: yes
 ..
 
-会计与财务管理 (*会计*)
+Accounting and financial management (*account*)
 ===============================================
-:模块 : 会计
-:名称: 会计与财务管理
-:版本: 5.0.1.1
-:作者: Tiny
-:目录: account
-:网站: http://www.openerp.com
-:官方模块: 是
-:质量认证: 是
+:Module: account
+:Name: Accounting and financial management
+:Version: 5.0.1.1
+:Author: Tiny
+:Directory: account
+:Web: http://www.openerp.com
+:Official module: yes
+:Quality certified: yes
 
 .. i18n: Description
 .. i18n: -----------
