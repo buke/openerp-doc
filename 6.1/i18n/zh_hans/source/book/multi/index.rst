@@ -57,7 +57,7 @@
 	* :mod:`sale`
 	* :mod:`purchase`
 	* :mod:`stock`
-	* :mod:`stock_location`, *Reconfigure* wizard --> *Advanced route* (in order to be able to define pull & push flows)
+	* :mod:`stock_location`, *Reconfigure* wizard --> *Advanced route* (为了能定义推拉式物流)
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 2
