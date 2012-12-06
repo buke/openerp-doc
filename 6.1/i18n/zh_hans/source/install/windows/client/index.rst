@@ -24,7 +24,7 @@ OpenERP GTK 客户端安装
 .. i18n: The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
 ..
 
-The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
+原生GTK客户端可作为传统接口，给那些还需要它的用户，但推荐使用内置web接口访问OpenERP的6.1。
 
 .. i18n: You must install, configure and run the OpenERP Server before using the
 .. i18n: OpenERP Client. The client needs the server to run. You can install the server
@@ -32,10 +32,7 @@ The native GTK client is available as a legacy interface for users who still req
 .. i18n: network.
 ..
 
-You must install, configure and run the OpenERP Server before using the
-OpenERP Client. The client needs the server to run. You can install the server
-application on your computer, or on an independent server accessible by
-network.
+在使用OpenERP客户端之前必须安装，配置和运行OpenERP服务器。客户端需要服务器运行。你可以在你的电脑上安装服务器应用，或者在安装在网络内的独立服务器上。
 
 .. i18n: Downloading the OpenERP Client
 .. i18n: ------------------------------
@@ -53,7 +50,7 @@ network.
 .. i18n: Under `Windows Auto-Installer`, choose **Client** to download the OpenERP Client standalone.
 ..
 
-Under `Windows Auto-Installer`, choose **Client** to download the OpenERP Client standalone.
+在`Windows Auto-Installer`下面, 选择 **Client** 来下载独立的 OpenERP 客户端。
 
 .. i18n: Installing the OpenERP Client
 .. i18n: -----------------------------
@@ -65,7 +62,7 @@ Under `Windows Auto-Installer`, choose **Client** to download the OpenERP Client
 .. i18n: Click the executable installation file you have just downloaded, and proceed with the following steps:
 ..
 
-Click the executable installation file you have just downloaded, and proceed with the following steps:
+点击你刚下载的可执行安装文件，进行如下步骤：
 
 .. i18n: * 1. Select installation language
 .. i18n: 	The default is ``English``. The other option is ``French``.
@@ -84,19 +81,19 @@ Click the executable installation file you have just downloaded, and proceed wit
 ..
 
 * 1. 选择安装语言
-	The default is ``English``. The other option is ``French``.
+	默认是 ``English``。其它选项有 ``French``。
 
 * 2. 欢迎页面
-	Carefully follow the recommendations given in this step.
+	仔细遵循这步给出的的建议。
 
 * 3. 版权协议
-	It is important that you accept the GNU General Public License to proceed with installation.
+	你要接受GNU公共许可证才能进行安装，这很重要。
 
 * 4. 选择安装路径
-	By default, OpenERP Client is installed in ``C:\Program Files\OpenERP 6.0\Client``. To install in a different folder, browse for a different location(folder) in this step.
+	默认情况下，OpenERP 客户端安装在 ``C:\Program Files\OpenERP 6.0\Client``。要安装到不同目录，可在这步可以浏览不同的位置（目录）。
 
 * 5. 创建快捷方式
-	Select a folder in the `Start` menu where you would like to create the program's shortcuts.
+	在'开始' 菜单选择你要创建的程序快捷链接的目录。
 
 .. i18n:   .. figure:: ../../img/c5_shortcuts.png
 .. i18n:      :scale: 50
@@ -109,7 +106,7 @@ Click the executable installation file you have just downloaded, and proceed wit
      :scale: 50
      :align: center
 
-  *Create Start Menu Shortcuts*
+  *生成开始菜单快捷链接*
 
 .. i18n: * 6. Install
 .. i18n: 	The automatic installation of OpenERP Client begins and you can view its progress.
@@ -119,10 +116,10 @@ Click the executable installation file you have just downloaded, and proceed wit
 ..
 
 * 6. 开始安装
-	The automatic installation of OpenERP Client begins and you can view its progress.
+	OpenERP 客户端自动安装开始，你能看到安装进度。
 
 * 7. 安装完成
-	On successful installation of OpenERP Client, you will get an appropriate confirmation. Click `Finish` to close the setup wizard.
+	成功安装OpenERP客户端，你会得到一个适当的确认。点击'完成'关闭安装向导界面。
 
 .. i18n:   .. figure:: ../../img/c7_finish.png
 .. i18n:      :scale: 50
@@ -135,7 +132,7 @@ Click the executable installation file you have just downloaded, and proceed wit
      :scale: 50
      :align: center
 
-  *End of Configuration Wizard*
+  *结束配置向导*
 
 .. i18n: Starting the OpenERP Client
 .. i18n: ---------------------------
@@ -149,9 +146,7 @@ Click the executable installation file you have just downloaded, and proceed wit
 .. i18n: distant server) to be able to use the client software.
 ..
 
-The installation program creates shortcuts in the main program menu and on the desktop, which you can use to start the client.
-Be sure to have an OpenERP Server running somewhere (on your computer or a
-distant server) to be able to use the client software.
+安装程序在开始菜单和桌面生成快捷链接，你可以用来启动客户端。要能使用客户端软件，须确保OpnenERP正在运行（在你的电脑上或者远程电脑上）。
 
 .. i18n: Log in to ``openerpdemo`` database using default username and password:
 ..
@@ -181,4 +176,4 @@ Enjoy!
      :scale: 50
      :align: center
 
-  *Connecting to the Demo Database*
+  *链接到演示数据库*
