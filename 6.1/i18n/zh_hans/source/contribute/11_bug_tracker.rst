@@ -6,7 +6,7 @@
 
 .. _bug_management:
 
-Bug 的提交和 Bug 的处理
+Bug 的提交和处理
 ------------------------------
 
 .. i18n: .. _bug-tracker-link:
