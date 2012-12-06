@@ -1,4 +1,3 @@
-
 .. i18n: Alerts
 .. i18n: ======
 ..
@@ -29,7 +28,7 @@ setting parameters in the new :guilabel:`Warnings` tab on each of the forms.
 .. i18n: You can select any of the following types of warnings and create different warnings for purchases and for sales:
 ..
 
-You can select any of the following types of warnings and create different warnings for purchases and for sales:
+您可以选择以下任何类型的警告和创建不同的警告对购买和销售:
 
 .. i18n: * :guilabel:`No Message`: This option will not display a message.
 .. i18n: 
