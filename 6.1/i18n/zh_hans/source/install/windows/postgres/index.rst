@@ -159,12 +159,12 @@ PostgreSQL的默认超级用户叫 *postgres*。密码是你在安装过程中�
 
    在OpenERPv6，openpg和openpwd是OpenERP服务器安装过程使用的默认用户名和密码。如果你计划变更这些默认设置，或者已经用不同的值安装了服务器，你需要用那些用户配置值创建用于OpenERP的PostgreSQL用户。
   
-Now use *pgAdmin III* to create database "openerpdemo" with owner "openpg":: 
+现在使用 *pgAdmin III* 创建数据库 "openerpdemo" ，数据库所有者是 "openpg":: 
  
  CREATE DATABASE openerpdemo WITH OWNER = openpg ENCODING = 'UTF8';
  COMMENT ON DATABASE openerpdemo IS 'OpenERP Demo DB';
   
-If you have installed the OpenERP Server, you can start it now. If needed, you can override the server configuration by starting the server at a Windows console and specifying command-line options. For more on this, refer the section :ref:`sect-custconf`.
+如果你已经安装了OpenERP服务器，那么现在你可以启动它了。如果需要，你可以在Windows控制窗，通过指定命令行选项，覆盖服务器配置。有关于此更多信息，参见这部分 :ref:`sect-custconf`.
 
 .. i18n: To change a user's password in any Windows version, execute the following::
 .. i18n: 
@@ -172,7 +172,7 @@ If you have installed the OpenERP Server, you can start it now. If needed, you c
 .. i18n:   e.g. net user postgres postgres
 ..
 
-To change a user's password in any Windows version, execute the following::
+在任何Windows版本，执行如下命令，改变用户密码::
 
   net user <accountname> <newpassword>
   e.g. net user postgres postgres
@@ -180,14 +180,14 @@ To change a user's password in any Windows version, execute the following::
 .. i18n: If it is a domain account, just add "/DOMAIN" at the end.
 ..
 
-If it is a domain account, just add "/DOMAIN" at the end.
+如果它是个域帐号，那么只要在后面添加 "/DOMAIN" 。
 
 .. i18n: If you want to delete it, just execute::
 .. i18n: 
 .. i18n:   net user <accountname> /delete
 ..
 
-If you want to delete it, just execute::
+如果你想删除它, 只需要执行::
 
   net user <accountname> /delete
 
@@ -195,7 +195,7 @@ If you want to delete it, just execute::
 .. i18n: +++++++++++++++++++++++++++++
 ..
 
-Case-Insensitive Search Issue
+大小写不敏感搜索问题
 +++++++++++++++++++++++++++++
 
 .. i18n: For an installation which needs full UTF8 character support, consider using
@@ -204,10 +204,7 @@ Case-Insensitive Search Issue
 .. i18n: partners, products etc.
 ..
 
-For an installation which needs full UTF8 character support, consider using
-postgres >= 8.2.x. Using versions prior to this, OpenERP search will not return the
-expected results for case-insensitive searches, which are used for searching
-partners, products etc.
+因为安装需要完全UTF8字符支持，考虑用postgres >= 8.2.x。使用这个之前的版本，OpenERP搜索将不会返回想要的大小写不敏感搜索结果。
 
 .. i18n: Example: ::
 .. i18n: 
