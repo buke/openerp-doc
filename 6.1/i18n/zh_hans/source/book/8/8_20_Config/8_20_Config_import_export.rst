@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    pair: data; import
 .. i18n:    pair: data; export
@@ -12,7 +11,7 @@
 .. i18n: ============================
 ..
 
-Importing and Exporting Data
+数据导入/导出
 ============================
 
 .. i18n: Every form in OpenERP has a standard mechanism for importing data from a CSV file through the client user interface. 
@@ -57,7 +56,7 @@ the field in the form. All the subsequent lines are data, aligned in their respe
 .. i18n: -----------------------------
 ..
 
-Exporting OpenERP Data to CSV
+导出数据为CSV文件
 -----------------------------
 
 .. i18n: Start exploring OpenERP's use of the CSV format by exporting a modestly complex set of data,
@@ -153,7 +152,7 @@ that list!
 .. i18n: -----------------------------
 ..
 
-Importing CSV Data to OpenERP
+将CSV文件导入OpenERP
 -----------------------------
 
 .. i18n: Use this export file as a template for an import file by deleting all of the data,
@@ -182,7 +181,7 @@ would create the following CSV file from the export file:
 .. i18n:    "Miles A Minute","",""
 ..
 
-.. csv-table:: Example of importing partner address fields
+.. csv-table:: 示例导入业务伙伴地址
    :header: "Name", "Contacts/Contact Name", "Contacts/City"
    :widths: 12,10,8
 
@@ -224,7 +223,7 @@ see the new partners and partner addresses when you refresh the list on-screen.
 .. i18n: ----------------------------------------------
 ..
 
-The CSV Format for Complex Database Structures
+用CSV格式文件导入OpenERP复杂数据(含关联数据)
 ----------------------------------------------
 
 .. i18n: When you import data, you have to overcome the problem of representing a database structure in \
@@ -288,7 +287,7 @@ get filled by default with an appropriate value), and also any other field that 
    :scale: 75
    :align: center
 
-   *Selecting fields to import using a CSV file*
+   *选择需要从CSV文件导入的字段*
 
 .. i18n: Use the field names as the column names in the first line of your CSV file, adding one field per
 .. i18n: column. If your CSV file has these names in the first line, then when you import your CSV file,
@@ -359,7 +358,7 @@ Have a look at the screenshots below to see the differences.
    :scale: 75
    :align: center
 
-   *A many-to-one field: a salesperson linked to a partner*
+   *many2one字段: 业务伙伴的销售员*
 
 .. i18n: .. figure::  images/csv_many2many.png
 .. i18n:    :scale: 75
@@ -372,7 +371,7 @@ Have a look at the screenshots below to see the differences.
    :scale: 75
    :align: center
 
-   *A many-to-many field: partner categories*
+   *many2many字段: 业务伙伴分类*
 
 .. i18n: .. figure::  images/csv_one2many.png
 .. i18n:    :scale: 75
@@ -385,7 +384,7 @@ Have a look at the screenshots below to see the differences.
    :scale: 75
    :align: center
 
-   *A one-to-many field: partner contacts*
+   *one2many字段: 业务伙伴联系人*
 
 .. i18n: All of the other fields are coded in the CSV file as just one text string in each column.
 ..
@@ -403,7 +402,7 @@ All of the other fields are coded in the CSV file as just one text string in eac
 .. i18n: ^^^^^^^^^^^^^^^^^^
 ..
 
-Many-to-one Fields
+many2one 字段
 ^^^^^^^^^^^^^^^^^^
 
 .. i18n: Many-to-one fields represent a relationship between the foreground table and another table in the
@@ -452,7 +451,7 @@ the new record in the foreground table with the field in the other table by matc
 .. i18n: ^^^^^^^^^^^^^^^^^^^
 ..
 
-Many-to-many Fields
+many2many 字段
 ^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Many-to-many fields are handled just like many-to-one fields in trying to recreate the relationship
@@ -473,7 +472,7 @@ several associated categories. You must separate the different values with a com
 .. i18n: ^^^^^^^^^^^^^^^^^^
 ..
 
-One-to-many Fields
+one2many 字段
 ^^^^^^^^^^^^^^^^^^
 
 .. i18n: One-to-many fields are a bit different. Take as an example the :guilabel:`Partner Contacts` field in
@@ -530,7 +529,7 @@ many/field_linked-object`` \. The partner data you imported earlier took that fo
 .. i18n: ------------------------------------
 ..
 
-Another Example of a CSV Import File
+CSV文件导入的另一示例
 ------------------------------------
 
 .. i18n: To illustrate data importing, you can see another example below. First import partner
@@ -551,7 +550,7 @@ use *many-to-many* relations). You must create new categories in a separate step
 .. i18n: Start by creating partner categories in a CSV file:
 ..
 
-Partner Categories
+业务伙伴分类
 ^^^^^^^^^^^^^^^^^^
 Start by creating partner categories in a CSV file:
 
@@ -644,7 +643,7 @@ Start by creating partner categories in a CSV file:
 .. i18n: ^^^^^^^^^^^^
 ..
 
-New Partners
+新建业务伙伴
 ^^^^^^^^^^^^
 
 .. i18n: Here is how to create new partners with more than one contact, as you did before, and how to link them to these new categories:
