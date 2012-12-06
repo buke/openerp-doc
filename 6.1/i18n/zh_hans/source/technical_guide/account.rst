@@ -68,7 +68,7 @@
 .. i18n: -----------
 ..
 
-Description
+概述
 -----------
 
 .. i18n: ::
@@ -85,26 +85,26 @@ Description
 
 ::
 
-  Financial and accounting module that covers:
-      General accounting
-      Cost / Analytic accounting
-      Third party accounting
-      Taxes management
-      Budgets
-      Customer and Supplier Invoices
-      Bank statements
+  财务与会计模块涵盖:
+      一般会计
+      成本 / 会计分析
+      第三方会计
+      税收管理
+      预算
+      客户和供应商发票
+      银行对账单
 
 .. i18n: Download links
 .. i18n: --------------
 ..
 
-Download links
+下载链接
 --------------
 
 .. i18n: You can download this module as a zip file in the following version:
 ..
 
-You can download this module as a zip file in the following version:
+你可以从以下版本中下载本模块(zip格式):
 
 .. i18n:   * `4.2 <http://www.openerp.com/download/modules/4.2/account.zip>`_
 .. i18n:   * `5.0 <http://www.openerp.com/download/modules/5.0/account.zip>`_
@@ -113,13 +113,13 @@ You can download this module as a zip file in the following version:
 
   * `4.2 <http://www.openerp.com/download/modules/4.2/account.zip>`_
   * `5.0 <http://www.openerp.com/download/modules/5.0/account.zip>`_
-  * `trunk <http://www.openerp.com/download/modules/trunk/account.zip>`_
+  * `当前分支 <http://www.openerp.com/download/modules/trunk/account.zip>`_
 
 .. i18n: Dependencies
 .. i18n: ------------
 ..
 
-Dependencies
+依赖
 ------------
 
 .. i18n:  * :mod:`product`
@@ -127,15 +127,15 @@ Dependencies
 .. i18n:  * :mod:`process`
 ..
 
- * :mod:`product`
- * :mod:`base`
- * :mod:`process`
+ * :mod:`产品`
+ * :mod:`基础`
+ * :mod:`流程`
 
 .. i18n: Reports
 .. i18n: -------
 ..
 
-Reports
+报表
 -------
 
 .. i18n:  * General Ledger
