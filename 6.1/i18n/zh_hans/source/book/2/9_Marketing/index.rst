@@ -797,7 +797,6 @@ Thanks to good insights in the way your respondents answer to your campaign, you
 .. _contform:
 
 自动获取线索
-Automating your Lead Acquisition
 ================================
 
 .. i18n: Through your website, your company wants to get as much information as possible about the people who visit the website. But how can you make sure that every person who wants to know more about your company is actually registered somewhere?
