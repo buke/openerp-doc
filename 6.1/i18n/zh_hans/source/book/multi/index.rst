@@ -20,19 +20,18 @@
 .. i18n: The multi-company environment allows you to manage operations from different companies with different warehouses, customers and suppliers, products, ...
 ..
 
-The multi-company environment allows you to manage operations from different companies with different warehouses, customers and suppliers, products, ...
+多公司的环境让您从不同公司的不同仓库、客户和供应商、产品来管理运营...
 
 .. i18n: In the following chapters, we will perform a complete order flow made by a customer in France that does not 
 .. i18n: handle the stock, but delegates it to another company located in Belgium that will deliver the product to the customer.
 ..
 
-In the following chapters, we will perform a complete order flow made by a customer in France that does not 
-handle the stock, but delegates it to another company located in Belgium that will deliver the product to the customer.
+在下面的章节中，我们将执行一个完整的订单流程，一个法国客户没有库存，但将其委托给另一家在比利时的公司，提供产品给客户。
 
 .. i18n: In order to achieve this, we will follow the schema defined below.
 ..
 
-In order to achieve this, we will follow the schema defined below.
+为完成这一订单，我们制定以下计划。
 
 .. i18n: .. figure:: Logistic/images/schema.png
 .. i18n:    :scale: 100
@@ -54,7 +53,7 @@ In order to achieve this, we will follow the schema defined below.
 .. i18n: 	* :mod:`stock_location`, *Reconfigure* wizard --> *Advanced route* (in order to be able to define pull & push flows)
 ..
 
-To be able to manage the process, please install the following modules:
+为了能够管理这个过程，请安装以下模块：
 	* :mod:`sale`
 	* :mod:`purchase`
 	* :mod:`stock`
