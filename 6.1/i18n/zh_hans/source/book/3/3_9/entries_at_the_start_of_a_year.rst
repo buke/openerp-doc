@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: closing; end of year; opening; opening entry
 ..
@@ -10,7 +9,7 @@
 .. i18n: ====================================
 ..
 
-Opening and Closing a Financial Year
+会计年度的启用和结账
 ====================================
 
 .. i18n: At the end of a financial year, you will have to transfer the closing balance of that year as an opening balance to the new financial year. OpenERP allows you to automatically post such an entry. You can transfer the new opening balance numerous times, because it is impossible to close a year at once. Correction entries will have to be made, due to which balances will change. The new balance can easily be transferred through a wizard, so you do not have to keep track of each correction entry made in the previous financial year.
@@ -31,7 +30,7 @@ At the end of a financial year, you will have to transfer the closing balance of
 .. i18n: -----------------------------------------------------------------------
 ..
 
-Steps to Open a New Financial Year in an Existing OpenERP Configuration
+在一个已有的 OpenERP 配置中，逐步启用一个新的会计年度
 -----------------------------------------------------------------------
 
 .. i18n: .. index::
@@ -136,7 +135,7 @@ Create a new journal to post your opening entries. Make sure to respect the foll
 .. i18n: ----------------------------
 ..
 
-Generating the Opening Entry
+生成期初分录
 ----------------------------
 
 .. i18n: To automatically generate the opening entries based on your actual books, OpenERP provides a wizard. Go to :menuselection:`Accounting --> Periodical Processing --> End of Period --> Generate Opening Entries`.
@@ -171,7 +170,7 @@ To have a look at the draft opening entry that has been generated, go to :menuse
 .. i18n: ------------------------
 ..
 
-Closing a Financial Year
+会计年度结账
 ------------------------
 
 .. i18n: To close a financial year, use the menu :menuselection:`Accounting--> Periodical Processing --> End of Period --> Close a Fiscal Year`.
