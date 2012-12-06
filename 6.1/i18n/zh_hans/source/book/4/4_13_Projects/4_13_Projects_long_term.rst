@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Long Term
 .. i18n: ..
@@ -12,8 +11,8 @@
 .. i18n: ==========================
 ..
 
-Long Term Project Planning
-==========================
+长期项目规划
+============
 
 .. i18n: You can plan your projects with Long Term Planning. To do this, use the :guilabel:`Reconfigure` wizard and in the
 .. i18n: :guilabel:`Project Application Configuration` section, select \ ``Long Term Planning`` \ and click :guilabel:`Configure`. This installs the :mod:`project_long_term` module. By using this feature, you can link tasks to your planning to have a great view of who will do what at a specific time.
@@ -31,8 +30,8 @@ The traditional phased approach identifies the sequence of steps to be completed
 .. i18n: --------------
 ..
 
-Project Phases
---------------
+项目阶段
+--------
 
 .. i18n: You can subdivide your larger projects into several phases.
 .. i18n: To define a new phase, go to :menuselection:`Project --> Project --> Project Phases` and click :guilabel:`New`. You must link your phase to a project through the :guilabel:`Project` field. For each phase, you can define your resources allocation (human or machine), describe the different tasks and link your phase to previous and following ones. You can also add constraints linked with dates and scheduling. A Gantt view of your project is available from this menu, which you may alternatively open through the :menuselection:`Project --> Long Term Planning --> Project Phases` menu.
@@ -62,8 +61,8 @@ To define a new phase, go to :menuselection:`Project --> Project --> Project Pha
 .. i18n: ----------
 ..
 
-Scheduling
-----------
+排程
+----
 
 .. i18n: You need to define a working schedule and leaves, since the project scheduler will use these to calculate the project dates.
 .. i18n: Ensure that you have entered a working schedule for your project in the :guilabel:`Working Time` field in the :guilabel:`Administration` tab of the :guilabel:`Project` form. This is useful to generate accurate Gantt charts for your project.
@@ -103,8 +102,8 @@ You can similarly derive the Gantt charts for Project Phases and Resources Alloc
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Compute Phase Scheduling
-^^^^^^^^^^^^^^^^^^^^^^^^
+计算阶段计划
+^^^^^^^^^^^^
 
 .. i18n: Obtain the Gantt chart for Project Phases through the menu :menuselection:`Project --> Scheduling --> Compute Phase Scheduling`. A dialog box will appear, allowing you to select all projects or a single project.
 .. i18n: It will compute the start date and end date of the phases which are in draft, open and pending state of the given project. Click :guilabel:`Compute` to open Gantt view.
@@ -134,8 +133,8 @@ It will compute the start date and end date of the phases which are in draft, op
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Compute Tasks Scheduling
-^^^^^^^^^^^^^^^^^^^^^^^^
+计算任务计划
+^^^^^^^^^^^^
 
 .. i18n: This feature has the same purpose as the previous one and is used only for projects that are not cut in phases, but only consist of a list of tasks. To access it, go to :menuselection:`Project --> Scheduling --> Compute Task Scheduling`. You must and can select only a single project for computation. It shows the Gantt chart for Resources Allocation.
 ..
