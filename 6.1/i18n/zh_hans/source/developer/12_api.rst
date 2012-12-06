@@ -1,18 +1,17 @@
-
 .. i18n: ===
 .. i18n: API
 .. i18n: ===
 ..
 
-===
-API
-===
+========
+API 接口
+========
 
 .. i18n: Working with Web Services
 .. i18n: =========================
 ..
 
-Working with Web Services
+Web Services 服务
 =========================
 
 .. i18n: Given the architecture of OpenERP, it is not possible to reliably access the
@@ -50,7 +49,7 @@ allow you to do everything through standard protocols.
 .. i18n: use between applications written in Python.
 ..
 
-Supported Web Services Protocols
+Web Services 支持协议
 --------------------------------
 The currently supported protocols are XML-RPC and Net-RPC. XML-RPC is one of the
 first standard for web services, and can be used in almost any language.
@@ -75,7 +74,7 @@ revived if sufficient interest is found in the community.
 .. i18n: The OpenERP server provides you with the following web services.
 ..
 
-Available Web Services
+可用 Web Services
 ----------------------
 The OpenERP server provides you with the following web services.
 
@@ -215,7 +214,7 @@ Lets you generate and retrieve reports.
 .. i18n: -----------------------------------------------
 ..
 
-Example : writing data through the Web Services
+示例 : 利用 Web Services 服务更新OpenERP数据
 -----------------------------------------------
 
 .. i18n: Here is an example process that you could follow to write data. You will find
@@ -289,7 +288,7 @@ your data - a critical requirement for all ERP applications.
 .. i18n: ====================
 ..
 
-XML-RPC Web services
+XML-RPC 接口
 ====================
 
 .. i18n: XML-RPC is known as a web service. Web services are a set of tools that let one build distributed applications on top of existing web infrastructures. These applications use the Web as a kind of "transport layer" but don't offer a direct human interface via the browser.[1] Extensible Markup Language (XML) provides a vocabulary for describing Remote Procedure Calls (RPC), which is then transmitted between computers using the HyperText Transfer Protocol (HTTP). Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
@@ -321,7 +320,7 @@ The above text just touches the surface of XML-RPC. I recommend O'Reilly's "Prog
 .. i18n: ----------
 ..
 
-Interfaces
+接口
 ----------
 
 .. i18n: XML-RPC
@@ -335,7 +334,7 @@ XML-RPC
 .. i18n: """"""""""""""""""""
 ..
 
-XML-RPC Architecture
+XML-RPC 架构
 """"""""""""""""""""
 
 .. i18n: OpenERP is a based on a client/server architecture. The server and the client(s) communicate using the XML-RPC protocol. XML-RPC is a very simple protocol which allows the client to do remote procedure calls. The called function, its arguments, and the result of the call are transported using HTTP and encoded using XML. For more information on XML-RPC, please see: http://www.xml-rpc.com.
@@ -347,7 +346,7 @@ OpenERP is a based on a client/server architecture. The server and the client(s)
 .. i18n: """"""""""""
 ..
 
-Architecture
+架构
 """"""""""""
 
 .. i18n: The diagram below synthesizes the client server architecture of OpenERP. OpenERP server and OpenERP clients communicate using XML-RPC.
@@ -367,7 +366,7 @@ The diagram below synthesizes the client server architecture of OpenERP. OpenERP
 .. i18n: **Client**
 ..
 
-**Client**
+**客户端**
 
 .. i18n: The logic of OpenERP is configured on the server side. The client is very simple; it is only used to post data (forms, lists, trees) and to send back the result to the server. The updates and the addition of new functionality don't need the clients to be frequently upgraded. This makes OpenERP easier to maintain.
 ..
@@ -409,14 +408,14 @@ Python
 .. i18n: """"""""""""""""""""""""""""""""
 ..
 
-Access tiny-server using xml-rpc
+通过 xml-rpc 获取数据
 """"""""""""""""""""""""""""""""
 
 .. i18n: Demo script
 .. i18n: ~~~~~~~~~~~
 ..
 
-Demo script
+代码示例
 ~~~~~~~~~~~
 
 .. i18n:     * **Create a partner and their address**
@@ -463,9 +462,9 @@ Demo script
 
     import xmlrpclib
 
-    username = 'admin' #the user
-    pwd = 'admin'      #the password of the user
-    dbname = 'terp'    #the database
+    username = 'admin' # OpenERP 登陆用户
+    pwd = 'admin'      # 登陆密码
+    dbname = 'terp'    # OpenERP 帐套
 
     # Get the uid
     sock_common = xmlrpclib.ServerProxy ('http://localhost:8069/xmlrpc/common')
@@ -518,28 +517,28 @@ Demo script
 .. i18n:     result = sock.execute(dbname, uid, pwd, 'res.partner', 'unlink', ids)
 ..
 
-* **Search a partner**
+* **查询业务伙伴**
   ::
 
-    args = [('vat', '=', 'ZZZZZZ')] #query clause
+    args = [('vat', '=', 'ZZZZZZ')] # 查询过滤条件
     ids = sock.execute(dbname, uid, pwd, 'res.partner', 'search', args)
 
-* **Read partner data**
+* **读取业务伙伴数据**
   ::
 
-    fields = ['name', 'active', 'vat', 'ref'] #fields to read
+    fields = ['name', 'active', 'vat', 'ref'] # 需要读取的数据字段
     data = sock.execute(dbname, uid, pwd, 'res.partner', 'read', ids, fields) #ids is a list of id
 
-* **Update partner data**
+* **更新业务伙伴数据**
   ::
 
-    values = {'vat': 'ZZ1ZZZ'} #data to update
+    values = {'vat': 'ZZ1ZZZ'} # 待更新数据Dictionary
     result = sock.execute(dbname, uid, pwd, 'res.partner', 'write', ids, values)
 
-* **Delete partner**
+* **删除业务伙伴**
   ::
 
-    # ids : list of id
+    # ids : 待删除业务伙伴id列表
     result = sock.execute(dbname, uid, pwd, 'res.partner', 'unlink', ids)
 
 .. i18n: PHP
@@ -553,13 +552,13 @@ PHP
 .. i18n: """"""""""""""""""""""""""""""""
 ..
 
-Access Open-server using xml-rpc
+通过 xml-rpc 获取数据
 """"""""""""""""""""""""""""""""
 
 .. i18n: **Download the XML-RPC framework for PHP**
 ..
 
-**Download the XML-RPC framework for PHP**
+**下载 XML-RPC PHP Liberay**
 
 .. i18n: windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.sourceforge.net/ The latest stable release is version 2.2 released on February 25, 2007
 ..
@@ -569,7 +568,7 @@ windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.so
 .. i18n: **Setup the XML-RPC for PHP**
 ..
 
-**Setup the XML-RPC for PHP**
+**配置 PHP XML-RPC Liberay**
 
 .. i18n: extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory place the xmlrpc.inc in the php library folder restart the apache/iis server
 ..
@@ -579,12 +578,12 @@ extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory p
 .. i18n: **Demo script**
 ..
 
-**Demo script**
+**代码示例**
 
 .. i18n: * **Login**
 ..
 
-* **Login**
+* **登陆OpenERP**
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -650,7 +649,7 @@ extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory p
 .. i18n: * **Search**
 ..
 
-* **Search**
+* **查询业务伙伴**
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -738,7 +737,7 @@ extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory p
 .. i18n: * **Create**
 ..
 
-* **Create**
+* **创建业务伙伴**
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -810,7 +809,7 @@ extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory p
 .. i18n: * **Write**
 ..
 
-* **Write**
+* **更新业务伙伴数据**
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -908,13 +907,13 @@ JAVA
 .. i18n: """"""""""""""""""""""""""""""""
 ..
 
-Access Open-server using xml-rpc
+通过 xml-rpc 获取数据
 """"""""""""""""""""""""""""""""
 
 .. i18n: **Download the apache XML-RPC framework for JAVA**
 ..
 
-**Download the apache XML-RPC framework for JAVA**
+**下载 JAVA XML-RPC Liberay**
 
 .. i18n: Download the xml-rpc framework for java from http://ws.apache.org/xmlrpc/ The latest stable release is version 3.1 released on August 12, 2007.
 .. i18n: All OpenERP errors throw exceptions because the framework allows only an int as the error code where OpenERP returns a string.
@@ -926,12 +925,12 @@ All OpenERP errors throw exceptions because the framework allows only an int as 
 .. i18n: **Demo script**
 ..
 
-**Demo script**
+**代码示例**
 
 .. i18n: * **Find Databases**
 ..
 
-* **Find Databases**
+* **获取OpenERP帐套列表**
 
 .. i18n: .. code-block:: java
 .. i18n: 
@@ -1025,7 +1024,7 @@ All OpenERP errors throw exceptions because the framework allows only an int as 
 .. i18n: * **Login**
 ..
 
-* **Login**
+* **登陆**
 
 .. i18n: .. code-block:: java
 .. i18n: 
@@ -1120,17 +1119,17 @@ All OpenERP errors throw exceptions because the framework allows only an int as 
 .. i18n:     TODO
 ..
 
-* **Search**
+* **查询业务伙伴**
   ::
 
     TODO
 
-* **Create**
+* **创建业务伙伴**
   ::
 
     TODO
 
-* **Write**
+* **更新业务伙伴**
   ::
 
     TODO
@@ -1139,8 +1138,8 @@ All OpenERP errors throw exceptions because the framework allows only an int as 
 .. i18n: --------------
 ..
 
-Python Example
---------------
+Python 代码示例
+---------------
 
 .. i18n: Example of creation of a partner and their address.
 ..
@@ -1225,7 +1224,7 @@ To get the UID of a user, you can use the following script:
 .. i18n: CRUD example:
 ..
 
-CRUD example:
+CRUD(创建/读取/更新/删除)代码示例:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1321,7 +1320,7 @@ CRUD example:
 .. i18n: PRINT example:
 ..
 
-PRINT example:
+PRINT(打印) 示例代码:
 
 .. i18n:    1. PRINT INVOICE
 .. i18n:    2. IDS is the invoice ID, as returned by:
@@ -1385,8 +1384,8 @@ PRINT example:
 .. i18n: -----------
 ..
 
-PHP Example
------------
+PHP 代码示例
+------------
 
 .. i18n: Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
 ..
@@ -1465,8 +1464,8 @@ Here is an example on how to insert a new partner using PHP. This example makes 
 .. i18n: Here is an example in Perl for creating, searching and deleting a partner.
 ..
 
-Perl Example
-------------
+Perl 代码示例
+-------------
 Here is an example in Perl for creating, searching and deleting a partner.
 
 .. i18n: .. code-block:: perl
