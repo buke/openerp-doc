@@ -49,7 +49,7 @@ Open Object 集成了一个完整的网页邮件。它可以使人们通过一�
 .. i18n: ---------------------
 ..
 
-Integration Benefits:
+整合的好处:
 ---------------------
 
 .. i18n: * Attach files, OpenERP reports or documents from the DMS.
@@ -58,19 +58,19 @@ Integration Benefits:
 .. i18n: * A single point of access rights management.
 ..
 
-* Attach files, OpenERP reports or documents from the DMS.
-* Link any system document in your emails (sales order to confirm, documents from the project management, etc.)
-* Use the object and view designer to extend the email interface to customize according to your needs.
-* A single point of access rights management.
+* 附加文件，从DMS 附加OpenERP的报表或文件。
+* 在您的电子邮件中链接的任何系统文件（销售订单确认，从项目管理的文件，等等）
+* 使用对象和视图设计器扩展的电子邮件界面，根据您的需要定制。
+* 单点访问权限的管理。
 
 .. i18n: Links:
 .. i18n: ------
 ..
 
-Links:
+链接:
 ------
 
 .. i18n: * Module: webmail
 ..
 
-* Module: webmail
+* 模块: webmail
