@@ -1,4 +1,3 @@
-
 .. i18n: .. _tax:
 .. i18n: 
 .. i18n: Managing your Tax Structure
@@ -7,7 +6,7 @@
 
 .. _tax:
 
-Managing your Tax Structure
+管理税务结构
 ===========================
 
 .. i18n: This section deals with statutory taxes and accounts which are legally required from the company:
