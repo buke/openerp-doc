@@ -73,7 +73,7 @@ OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为
 .. i18n: Once an improvement is approved by the usability managers, the community of OpenERP SA develops the software according to the proposed improvements. You can check the `developer guide`_ and `documentation process`_ for more information on how to contribute to OpenERP. 
 ..
 
-Once an improvement is approved by the usability managers, the community of OpenERP SA develops the software according to the proposed improvements. You can check the `developer guide`_ and `documentation process`_ for more information on how to contribute to OpenERP. 
+一旦某项改善建议被易用性团队经理确认，OpenERP SA 社区开发人员，会根据改善建议开始开发。您可以查阅 `开发手册`_ 与 `文档处理`_ 开发指南和相关文档来获知如何为OpenERP 贡献。
 
 .. i18n: Main usability improvements are reported in this book as a set of guidelines. The usability team is responsible for synchronizing the book content with the best practices on OpenERP. If you want to contribute to this book, you can work on the `Launchpad documentation branch`_.
 ..
