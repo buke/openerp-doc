@@ -1,9 +1,8 @@
-
 .. i18n: Periods and Financial Years
 .. i18n: ===========================
 ..
 
-Periods and Financial Years
+会计期间和会计年度
 ===========================
 
 .. i18n: .. note:: Periods and Fiscal Years
@@ -41,7 +40,7 @@ OpenERP's management of the fiscal year is flexible enough to enable you to work
 
 .. _financialyear:
 
-Defining a Period or a Financial Year
+定义一个会计期间或者会计年度
 -------------------------------------
 
 .. i18n: To define your fiscal year, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Fiscal Year`. You can create several years in advance to define long-term budgets.
@@ -85,7 +84,7 @@ OpenERP automatically creates an opening period to allow you to post your outsta
 .. i18n: ----------------
 ..
 
-Closing a Period
+期末结账
 ----------------
 
 .. i18n: To close a financial period, for example when a tax declaration has been made, go to the menu :menuselection:`Accounting--> Configuration --> Financial Accounting --> Periods --> Periods`. Click the green arrow to close the period for which you want no more entries to be posted.
