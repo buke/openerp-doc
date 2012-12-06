@@ -8,7 +8,7 @@
 .. _part-phys:
 
 ##################
-管理仓库和搞定生产
+管理仓库和搞定制造
 ##################
 
 .. i18n:  This part of the book concentrates on physical materials - the handling of stock and
@@ -23,17 +23,14 @@
 .. i18n:  OpenERP manages all of this in some rather useful and unique ways.
 ..
 
- Stocks are the physical embodiment of their product specification, things rather than
- datasheets. So they need to be stored and moved between locations, and tracked in
- sets and individually. They have a size, a weight, and a cost.
- OpenERP manages all of this in some rather useful and unique ways.
+ 存货是指产品規格的实体表现形式,而不仅是产品数据清单.存货需要储存,在各库位之间移动,会被以套或个的方式进行追踪.
+ 它们有尺寸,重量以及成本属性.Open ERP 使用了一种有效且独特的方式进行存货管理.
 
 .. i18n:  Manufacturing is the transformation of materials and components, perhaps using measurable
 .. i18n:  resources, into other products and services, adding value to your company on the way.
 ..
 
- Manufacturing is the transformation of materials and components, perhaps using measurable
- resources, into other products and services, adding value to your company on the way.
+ 制造是指将物料以及组件，可能还有一些可计量的资源转换成其它产品或服务,为公司增加价值.
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
