@@ -89,19 +89,19 @@ Execute the installer you have just downloaded. It has the following stages:
 .. i18n: 	The installer will suggest default parameters to complete your PostgreSQL connection configuration. You may accept the defaults, or change it according to your requirement.
 ..
 
-* 1. Select installation language
+* 1. 选择安装语言
 	The default is ``English``. The other option is ``French``.
 
-* 2. Welcome message
+* 2. 欢迎信息
 	Carefully follow the recommendations given in this step.
 
-* 3. Licence Agreement
+* 3. 许可协议
 	It is important that you accept the GNU General Public License to proceed with installation.
 
-* 4. Select folder for installation
+* 4. 选择安装目录
 	By default, OpenERP Server is installed in ``C:\Program Files\OpenERP 6.1\Server``. To install in a different folder, browse for a different location(folder) in this step.
 
-* 5. Configure PostgreSQL connection
+* 5. 配置 PostgreSQL 连接
 	The installer will suggest default parameters to complete your PostgreSQL connection configuration. You may accept the defaults, or change it according to your requirement.
 
 .. i18n:   .. figure:: ../../img/s5_config_postgres.png
@@ -115,13 +115,13 @@ Execute the installer you have just downloaded. It has the following stages:
      :scale: 50
      :align: center
 
-  *PostgreSQL configuration*
+  *PostgreSQL 配置*
 
 .. i18n: * 6. Create shortcuts
 .. i18n: 	Select a folder in the `Start` menu where you would like to create the program's shortcuts.
 ..
 
-* 6. Create shortcuts
+* 6. 生成快捷
 	Select a folder in the `Start` menu where you would like to create the program's shortcuts.
 
 .. i18n:   .. figure:: ../../img/s6_shortcuts.png
@@ -135,7 +135,7 @@ Execute the installer you have just downloaded. It has the following stages:
      :scale: 50
      :align: center
 
-  *Create Start menu shortcuts*
+  *生成开始菜单快捷*
 
 .. i18n: * 7. Install
 .. i18n: 	The automatic installation of OpenERP Server begins and you can view its progress.
@@ -144,10 +144,10 @@ Execute the installer you have just downloaded. It has the following stages:
 .. i18n: 	On successful installation of OpenERP Server, you will get an appropriate confirmation. You can click `Finish` to close the setup wizard.
 ..
 
-* 7. Install
+* 7. 安装
 	The automatic installation of OpenERP Server begins and you can view its progress.
 
-* 8. Finish
+* 8. 完成
 	On successful installation of OpenERP Server, you will get an appropriate confirmation. You can click `Finish` to close the setup wizard.
 
 .. i18n:   .. figure:: ../../img/Openerp_server_finish_install.png
