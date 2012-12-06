@@ -47,8 +47,7 @@ setting parameters in the new :guilabel:`Warnings` tab on each of the forms.
 .. i18n: be displayed when the event concerned is started.
 ..
 
-You can activate alerts for a series of events. For each alert, you should enter a message that will
-be displayed when the event concerned is started.
+你可以激活警报的一系列事件。对于每个警报,你应该输入一个消息时将显示相关的事件开始.
 
 .. i18n: .. figure:: images/warning_partner.png
 .. i18n:    :scale: 75
@@ -66,7 +65,7 @@ be displayed when the event concerned is started.
 .. i18n: The available warnings in the partner form are:
 ..
 
-The available warnings in the partner form are:
+可用的警告伙伴形式有:
 
 .. i18n: * Create a warning for a sales order,
 .. i18n: 
@@ -89,8 +88,7 @@ The available warnings in the partner form are:
 .. i18n: invoice for that customer, the alert message will be attached as shown in the figure :ref:`fig-warnsmp`.
 ..
 
-For example, if you enter an alert for the invoicing of a customer, for an accountant entering an
-invoice for that customer, the alert message will be attached as shown in the figure :ref:`fig-warnsmp`.
+例如,如果你输入一个警惕结账的客户,对于一个会计打开一个发票,客户,警报消息将被附加如图:ref:“fig-warnsmp”。
 
 .. i18n: .. _fig-warnsmp:
 .. i18n: 
@@ -125,7 +123,7 @@ invoice for that customer, the alert message will be attached as shown in the fi
 .. i18n: The alerts that can be configured on a product form are related to:
 ..
 
-The alerts that can be configured on a product form are related to:
+警报,可以配置在一个产品形式有关:
 
 .. i18n: * The sales of that product,
 .. i18n: 
@@ -139,7 +137,7 @@ The alerts that can be configured on a product form are related to:
 .. i18n: A practical example:
 ..
 
-A practical example:
+一个实际的例子:
 
 .. i18n: Now when could you use such an alert? Suppose that your customer asks you to never make any deliveries on Tuesday morning, because the street is blocked due to a weekly market. You surely would like your transporter to be aware of this, so it could be useful to have a kind of message printed by default on each delivery order for this customer.
 .. i18n: To do this, you could create a Warning on the Picking in the **Customer** form of the partner concerned, saying that no deliveries are allowed on Tuesday morning.
