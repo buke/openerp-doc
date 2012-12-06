@@ -1,4 +1,3 @@
-
 .. i18n: Webmail
 .. i18n: =======
 ..
@@ -12,19 +11,16 @@ Webmail
 .. i18n: for speed.
 ..
 
-Open Object integrates a full featured webmail. It allows people to work, manage
-and read email through a single interface containing all services of the company.
-It's a fully integrated system, with a drag and drop interface and full use of Ajax
-for speed.
+Open Object 集成了一个完整的网页邮件。它可以使人们通过一个单一的界面包含了所有服务于公司的工作，
+管理和阅读电子邮件。这是一个完全集成的系统，具有一个拖放界面，并充分利用了Ajax的速度。
 
 .. i18n: This is the very first extensible webmail system ever made. With the Open Object
 .. i18n: view designer, you can customize every interface to fullfil your specific needs
 .. i18n: and improve your productivity.
 ..
 
-This is the very first extensible webmail system ever made. With the Open Object
-view designer, you can customize every interface to fullfil your specific needs
-and improve your productivity.
+这是第一个可扩展的webmail系统。附带Open Object 视图设计器，
+您可以自定义每一个接口，满足您的特定需求，并提高您的工作效率。
 
 .. i18n: .. raw:: html
 .. i18n: 
@@ -39,15 +35,15 @@ and improve your productivity.
 .. i18n: -----------
 ..
 
-Key Points:
+关键点:
 -----------
 
 .. i18n: * Support for POP, IMAP and SMTP
 .. i18n: * Connects automatically on your existing accounts
 ..
 
-* Support for POP, IMAP and SMTP
-* Connects automatically on your existing accounts
+* 支持 POP, IMAP 和 SMTP
+* 自动连接到您的现有帐户
 
 .. i18n: Integration Benefits:
 .. i18n: ---------------------
