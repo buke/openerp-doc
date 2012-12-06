@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-genacct:
 .. i18n: 
 .. i18n: #################
@@ -9,7 +8,7 @@
 .. _part-genacct:
 
 #################
-Manage your Books
+管理你的账簿
 #################
 
 .. i18n:  When it is well integrated with the management system, an accounting system offers a company special
