@@ -1,4 +1,3 @@
-
 .. i18n: .. raw:: latex
 .. i18n: 
 .. i18n:     \afterpage{\clearpage}
@@ -47,7 +46,7 @@ It provides an easy way to follow up your suppliers and customers. You could use
 .. i18n: ------------------------
 ..
 
-Simple Customer Receipts
+简单的客户收据
 ------------------------
 
 .. i18n: When you sell products to a customer, you can give him a true invoice or a `Sales Receipt`, which is also called `Customer Receipt`.
@@ -143,7 +142,7 @@ The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, c
 .. i18n: ----------------------
 ..
 
-Invoice your Customers
+开票给你的客户
 ----------------------
 
 .. i18n: It is surprising to see that in the 21st century, most companies still process quotations & invoices manually, mostly by post or email. The trend is clearly for personal communication to disregard these legacy media, and replace them with instant messaging, social networks, etc. The *Electronic Data Interchange* (EDI) platform is here to try and open OpenERP to more modern communication systems, where electronic documents are exchanged and synchronised between business partners in real-time.
@@ -240,7 +239,7 @@ The email your customer will receive, will look like the image displayed.
 .. i18n: --------------------------------------
 ..
 
-Keep Track of your Customer's Payments
+跟踪客户的支付进程
 --------------------------------------
 
 .. i18n: It is important to efficiently keep track of payments of your customers and suppliers. People who have no accounting knowledge and just want to use OpenERP to keep an eye on their payments, can set the ``Invoicing & Payments`` access rights from the ``User`` form.
