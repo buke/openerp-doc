@@ -1,4 +1,3 @@
-
 .. i18n: .. raw:: latex
 .. i18n: 
 .. i18n:     \afterpage{\clearpage}
@@ -16,7 +15,7 @@
 
 .. _part2-crm-leads:
 
-Managing your Leads
+管理线索
 ===================
 
 .. i18n: To define leads, imagine a bucket full of potential sales contacts expressing an interest in your company's products. 
@@ -127,7 +126,7 @@ In the next sections we will explain in more detail some examples of what `Leads
 .. i18n: ---------------------------------------
 ..
 
-Storing your Business Cards effectively
+有效管理业务名片
 ---------------------------------------
 
 .. i18n: Potential customers are usually entered as a lead in the system. This means that you do not create a
@@ -247,7 +246,7 @@ You can add attachments to internal notes and emails you send to the prospect. Y
 .. i18n: --------------------------
 ..
 
-Importing a Leads Database
+导入线索数据库
 --------------------------
 
 .. i18n: You can also import a huge list of leads. That may be useful if you have bought a database of
@@ -345,7 +344,7 @@ These different methods are described later in this book (see chapter :ref:`cont
 .. i18n: ----------------
 ..
 
-Organizing Leads
+组织线索
 ----------------
 
 .. i18n: To help the users organize and handle leads efficiently, OpenERP provides several features in the CRM to be used according to the needs of each:
@@ -418,7 +417,7 @@ Leads can also be prioritized. Salespeople can assign a priority to their lead, 
 .. i18n: ---------------
 ..
 
-Analysing Leads
+分析线索
 ---------------
 
 .. i18n: OpenERP also offers statistical reports to keep track of your Lead Management. The :menuselection:`Sales --> Reporting --> Leads Analysis` report allows you to check various leads-related elements. You can look at processing delays, number of responses given and emails sent (if you use the email gateway feature). Sort your leads analysis by different groups to get accurate, grained analysis.
