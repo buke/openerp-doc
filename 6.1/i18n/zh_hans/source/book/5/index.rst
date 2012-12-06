@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-phys:
 .. i18n: 
 .. i18n: #####################################################
@@ -8,16 +7,15 @@
 
 .. _part-phys:
 
-#####################################################
-Manage your Warehouse and Get your Manufacturing Done
-#####################################################
+##################
+管理仓库和搞定生产
+##################
 
 .. i18n:  This part of the book concentrates on physical materials - the handling of stock and
 .. i18n:  the transformation of materials by assembly and manufacture.
 ..
 
- This part of the book concentrates on physical materials - the handling of stock and
- the transformation of materials by assembly and manufacture.
+ 本书此部分主要描述实际物流-库存处理及通过组装和制造对物料进行转化.
 
 .. i18n:  Stocks are the physical embodiment of their product specification, things rather than
 .. i18n:  datasheets. So they need to be stored and moved between locations, and tracked in
