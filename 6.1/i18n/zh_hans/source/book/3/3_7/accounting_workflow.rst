@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: accounting; workflow
 .. i18n:    single: accounting; invoicing
@@ -16,7 +15,7 @@
 .. i18n: ==================================================
 ..
 
-Accounting Workflow and Automatic Invoice Creation
+会计工作流和自动创建发票
 ==================================================
 
 .. i18n: The chart :ref:`fig-accfl` shows the financial workflow followed by each invoice.
@@ -59,7 +58,7 @@ manually. Draft invoices are generated automatically from other documents such a
 .. i18n: --------------
 ..
 
-Draft Invoices
+发票草稿
 --------------
 
 .. i18n: The system generates invoice proposals which are initially set to the \ ``Draft``\   state. While
@@ -112,7 +111,7 @@ from a combination of the two (such as applicable Taxes and the Price of the pro
 .. i18n: --------------------------
 ..
 
-Open or Pro Forma Invoices
+商业或形式发票
 --------------------------
 
 .. i18n: You can approve (or validate) an invoice in the \ ``Open``\   or \ ``Pro-forma``\   state.
@@ -144,7 +143,7 @@ the system as awaiting payment.
 .. i18n: ---------------------------
 ..
 
-Reconciliation and Payments
+核销和支付
 ---------------------------
 
 .. i18n: In OpenERP, an invoice is considered to be paid when its accounting entries have been reconciled
@@ -307,7 +306,7 @@ entry records, however. These are simpler and are managed within an error-contro
 .. i18n: -------------------------------
 ..
 
-Records-based Accounting System
+基于记录的会计系统
 -------------------------------
 
 .. i18n: All the accounting transactions in OpenERP are based on records, whether they are created by an
