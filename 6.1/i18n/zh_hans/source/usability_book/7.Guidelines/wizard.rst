@@ -1,18 +1,17 @@
-
 .. i18n: =====================
 .. i18n: Configuration wizards
 .. i18n: =====================
 ..
 
 =====================
-Configuration wizards
+配置向导
 =====================
 
 .. i18n: A common layout for all wizards
 .. i18n: -------------------------------
 ..
 
-A common layout for all wizards
+普通向导布局
 -------------------------------
 
 .. i18n: * Adapted title to each application : as introduced, chosen application leads to one configuration wizard. The configuration wizard must have a title related to the application. 
@@ -34,7 +33,7 @@ A common layout for all wizards
 .. i18n: -----------------------------------
 ..
 
-Configuration wizards are optional
+可选的配置向导
 -----------------------------------
 
 .. i18n: Configuration wizards are optional. The system must be usable and configured by default even if the administrator skips all steps during the configuration process. Configuration wizards are available only to:
@@ -53,7 +52,7 @@ Configuration wizards are optional. The system must be usable and configured by 
 .. i18n: --------------------------------------------------
 ..
 
-Configuration wizards are part of the applications
+配置向导为应用的一部分
 --------------------------------------------------
 
 .. i18n: Most of the application wizards must be part of one application. Be sure that:
@@ -72,7 +71,7 @@ Most of the application wizards must be part of one application. Be sure that:
 .. i18n: ---------------------------------------------------
 ..
 
-Configuration wizards and extended/simplified views
+配置向导与扩展/简单试图
 ---------------------------------------------------
 
 .. i18n: Be sure you use extended/simplified views features also in configuration wizards. In order to simplify the configuration process, some options or wizards must be available in extended views only.
