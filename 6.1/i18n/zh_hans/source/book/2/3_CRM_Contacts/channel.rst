@@ -1,4 +1,3 @@
-
 .. i18n: .. _part2-crm-channel:
 .. i18n: 
 .. i18n: Managing your Indirect Sales
@@ -7,7 +6,7 @@
 
 .. _part2-crm-channel:
 
-Managing your Indirect Sales
+管理你的间接的销售
 ============================
 
 .. i18n: .. index::
@@ -35,7 +34,7 @@ OpenERP will help you to manage your Channel Partners. You can geolocalize your 
 .. i18n: --------------------------------------------
 ..
 
-Forwarding Opportunities to Channel Partners
+转发商机给渠道业务伙伴
 --------------------------------------------
 
 .. i18n: You can use geolocalization to assign and forward opportunities to channel partners.
@@ -120,7 +119,7 @@ Use the **Opportunity Assignment Analysis** for your reporting.
 .. i18n: ----------------------------
 ..
 
-Geolocalization of a Partner
+Partner的地理定位
 ----------------------------
 
 .. i18n: To determine the geographic location of your partners, you do not have to enter the GPS coordinates yourself. OpenERP can do this for you. All you have to do is click the ``Geo Localize`` button in the **Customer** form. The GPS coordinates will now be filled according to the address of the partner.
