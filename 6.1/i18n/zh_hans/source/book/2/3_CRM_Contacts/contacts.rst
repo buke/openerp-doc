@@ -1,4 +1,3 @@
-
 .. i18n: .. _part2-crm-cont:
 .. i18n: 
 .. i18n: Managing your Address Book
@@ -7,7 +6,7 @@
 
 .. _part2-crm-cont:
 
-Managing your Address Book
+管理地址簿
 ==========================
 
 .. i18n: .. index::
@@ -112,7 +111,7 @@ The partner form contains information about the company, such as its corporate n
 .. i18n: ------------------------------
 ..
 
-Creating and Updating Partners
+创建和更新合作伙伴
 ------------------------------
 
 .. i18n: Before explaining you how to create a partner, just a quick word on the different ways of representing partners in OpenERP.
@@ -218,7 +217,7 @@ To update a partner, open the corresponding form, select `Edit` and change the r
 .. i18n: ----------------------------------
 ..
 
-Managing your Contacts & Addresses
+管理你的联系人和地址
 ----------------------------------
 
 .. i18n: You can have several contacts for one partner. Contacts represent company employees that you are in
@@ -246,7 +245,7 @@ Contacts can be entered into the :guilabel:`General` tab of the **Customer** for
 .. i18n: --------------------------
 ..
 
-Customizing Partner Fields
+定制合作伙伴字段
 --------------------------
 
 .. i18n: OpenERP also allows you to customize the ``Partner`` view to your needs. Click the `Manage Views` option if you want to add fields, delete fields or change the order of fields in a view.
@@ -288,7 +287,7 @@ In the `Properties` screen that appears, you can change the label to ``Birthday`
 .. i18n: -------------------------------
 ..
 
-Performing Actions on Customers
+根据客户执行动作
 -------------------------------
 
 .. i18n: .. index::
@@ -361,7 +360,7 @@ Another action enables you to quickly send an SMS message.
 .. i18n: -----------------------------------
 ..
 
-Finding your Partners using Filters
+用过滤器查找合作伙伴
 -----------------------------------
 
 .. i18n: Open the `Customers` list view to discover the search options allowing you to easily filter your partners. You can group by ``Salesman`` to see which customers have already been assigned a salesman or not. Click the button at the right (the icon of the person) to see the customers you are responsible for.
@@ -400,7 +399,7 @@ Filters also allow you to quickly set lists of customers for which you want to d
 
 .. _partner-categ:
 
-Categorizing your Partners
+为合作伙伴分组
 --------------------------
 
 .. i18n: .. index::
@@ -473,7 +472,7 @@ In the :ref:`profiling` chapter, you will see how to assign partners to categori
 
 .. _ch-contact:
 
-An Alternative to Manage your Contacts
+一个管理联系人的替代方案
 --------------------------------------
 
 .. i18n: According to your kind of business, the standard way of linking several contacts to one partner may not be flexible enough for you. You could perfectly well have the same employees working for several of your companies. Or maybe you work with representatives ensuring follow up of several of your customers. So you would want to have the same contact linked to different partners.
