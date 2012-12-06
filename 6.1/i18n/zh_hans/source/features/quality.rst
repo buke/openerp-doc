@@ -1,4 +1,3 @@
-
 .. i18n: Quality Management
 .. i18n: ==================
 ..
@@ -15,6 +14,7 @@ OpenERP provides a module to manage the quality of your products or
 your services. The 'repairs management' module allows to organise
 after-sales services.
 
+质量管理
 .. i18n: .. raw:: html
 .. i18n:  
 .. i18n:  <a target="_blank" href="../images/quality_screenshot.png"><img src="../images_small/quality_screenshot.png" class="screenshot" /></a>
