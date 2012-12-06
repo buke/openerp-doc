@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: budgeting
 ..
@@ -10,7 +9,7 @@
 .. i18n: -------------------------
 ..
 
-Good Management Budgeting
+良好的预算管理
 -------------------------
 
 .. i18n: Budgets are important for a company to get a good grip on forecasted expenses and revenues. They allow you to measure your actual financial performance against the planned one.
@@ -239,7 +238,7 @@ From the menu :menuselection:`Accounting --> Configuration --> Budgets --> Budge
 .. i18n: ------------------------
 ..
 
-The Accounting Dashboard
+会计仪表板
 ------------------------
 
 .. i18n: You can open the `Accounting Dashboard` in more than one way: either by clicking the ``Accounting`` button at the top of the web screen, or from the menu :menuselection:`Accounting --> Reporting --> Dashboard --> Accounting Dashboard`.
