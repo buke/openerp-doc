@@ -796,6 +796,7 @@ Thanks to good insights in the way your respondents answer to your campaign, you
 
 .. _contform:
 
+自动获取线索
 Automating your Lead Acquisition
 ================================
 
@@ -831,7 +832,7 @@ Let us show you an example of how this can be achieved. The figure below shows a
    :scale: 80
    :align: center
 
-   *Contact Form on your Website*
+   *来自网站的咨询*
 
 .. i18n: All data entered in this form are linked to the **Lead** form in the CRM. Each time someone enters this contact form, a new lead is automatically created in OpenERP.
 ..
@@ -847,7 +848,7 @@ Such a system is a very easy yet flexible way of keeping track of your leads and
 .. i18n: ------------------------------------------
 ..
 
-How to Link a Web Contact Form to OpenERP?
+如何将网站联系页面转化为OpenERP线索?
 ------------------------------------------
 
 .. i18n: OpenERP is accessible through XML-RPC interfaces, for which libraries exist in many languages.
@@ -858,7 +859,7 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
 .. i18n: *Python example*
 ..
 
-*Python example*
+*Python 代码示例*
 
 .. i18n:         import xmlrpclib
 .. i18n:         # ... define HOST, PORT, DB, USER, PASS
@@ -896,7 +897,7 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
 .. i18n: *PHP Example*
 ..
 
-*PHP Example*
+*PHP 代码示例*
 
 .. i18n:         <?
 .. i18n:         include('xmlrpc.inc'); // Use phpxmlrpc library, available on sourceforge
@@ -994,7 +995,7 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
 
 .. _profiling:
 
-Profiling your Customers
+客户分析挖掘
 ========================
 
 .. i18n: The segmentation tools let you create partner groups (or categories) and act on each segment differently according to questionnaires.
