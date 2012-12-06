@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Update; Upgrade; OpenERP (Windows)
 ..
@@ -16,7 +15,7 @@
 .. _updating-windows-link:
 
 ===============================================================================
-Updating your OpenERP Installation
+更新你的 OpenERP 安装
 ===============================================================================
 
 .. i18n: Going to a Newer Minor/Patch Release
