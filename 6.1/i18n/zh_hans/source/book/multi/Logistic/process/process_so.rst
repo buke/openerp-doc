@@ -1,9 +1,8 @@
-
 .. i18n: Sales Order
 .. i18n: -----------
 ..
 
-Sales Order
+销售单据
 -----------
 
 .. i18n: At this point, you have to login as a user of OpenERP France to make a Sales Order coming from a customer 
@@ -24,7 +23,7 @@ of this company.
    :scale: 75
    :align: center
    
-   *Defining a Sales Order*
+   *创建销售单据*
 
 .. i18n: You should not forget to set the correct parameters in the second tab `Other Information` to select the good shipping 
 .. i18n: and picking policies. Here we select the `Invoice From the Picking` as ``Shipping Policy``. 
@@ -58,7 +57,7 @@ Quotation`` state and you have to convert it into a Purchase Order to confirm th
    :scale: 75
    :align: center
    
-   *Purchase Order*
+   *采购单据*
 
 .. i18n: Once the purchase order has been confirmed and the reception is completed, we can process the delivery order.
 ..
@@ -71,7 +70,7 @@ Once the purchase order has been confirmed and the reception is completed, we ca
 .. i18n: France on the delivered quantities.
 ..
 
-Delivery Order
+物流单据
 ^^^^^^^^^^^^^^
 Once the delivery order is processed, the products are sent to the customer and we can invoice the order from OpenERP 
 France on the delivered quantities.
@@ -100,7 +99,7 @@ handled by OpenERP France, because it is the company that received the order fro
    :scale: 75
    :align: center
    
-   *Deliver the Products*
+   *产品交付*
    
 From the user of OpenERP France, we can create the invoice for the order (:menuselection:`Sales --> Invoicing --> Lines 
 to Invoice`), then pass the invoice from the Draft state to the Open state. To finalize the invoicing process, you have to 
@@ -123,13 +122,13 @@ go to :menuselection:`Accounting --> Customers --> Customers Invoices` to execut
    :scale: 75
    :align: center
    
-   *Create the Invoice*
+   *创建发票*
    
 .. figure:: images/customer_invoice.png
    :scale: 75
    :align: center
    
-   *Validate the Invoice*
+   *审核发票*
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
