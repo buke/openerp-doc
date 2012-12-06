@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: journal; configuring
 ..
@@ -10,7 +9,7 @@
 .. i18n: ========
 ..
 
-Journals
+账簿
 ========
 
 .. i18n: All your accounting entries need to appear in an accounting journal. So you should create a Sales Journal for customer invoices, a Sales Refund journal for customer credit notes, a Purchase Journal for supplier invoices, a Purchase Refund journal for supplier credit notes and a Bank Journal for bank transactions.
@@ -22,7 +21,7 @@ All your accounting entries need to appear in an accounting journal. So you shou
 .. i18n: ---------------------
 ..
 
-Configuring a Journal
+配置账簿
 ---------------------
 
 .. i18n: To view, edit or create new journals use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
@@ -97,7 +96,7 @@ A journal can be marked as being centralised. When you do this, the counterpart 
 .. i18n: --------------------------------
 ..
 
-Controls and Tips for Data Entry
+数据录入的控制和提示
 --------------------------------
 
 .. i18n: You can carry out two types of control on journals in OpenERP – controls over the accounts and access controls for groups of users. In addition to these controls, you can also apply all of the standard user rights management.
