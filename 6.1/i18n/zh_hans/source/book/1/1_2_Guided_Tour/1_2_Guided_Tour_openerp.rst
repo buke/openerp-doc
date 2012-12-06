@@ -137,7 +137,7 @@ menu.
 .. i18n: ==============
 ..
 
-Basic Concepts
+基本概念
 ==============
 
 .. i18n: .. index::
@@ -1499,13 +1499,13 @@ it out on, just download and install the modules that appear interesting.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Overview of Shortcut Keys
+快捷键概述
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: * Shortcuts for OpenERP
 ..
 
-* Shortcuts for OpenERP
+* OpenERP 的快捷键
 
 .. i18n: .. table::
 .. i18n: 
@@ -1531,7 +1531,7 @@ Overview of Shortcut Keys
 .. i18n: * Shortcuts for OpenERP Form
 ..
 
-* Shortcuts for OpenERP Form
+* OpenERP 表单的快捷键
 
 .. i18n: .. table::
 .. i18n: 
@@ -1668,7 +1668,7 @@ Overview of Shortcut Keys
 .. i18n: ^^^^^^^
 ..
 
-Filters
+过滤器
 ^^^^^^^
 
 .. i18n: The `Advanced Search View` is a new feature of OpenERP v6 which provides a very user-friendly filtering mechanism
