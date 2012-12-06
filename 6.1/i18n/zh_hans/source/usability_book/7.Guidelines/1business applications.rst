@@ -59,7 +59,7 @@ You can also create one configuration wizard dedicated to your business applicat
 .. i18n: ++++++++++++++++++++++++++++++++++++++
 ..
 
-业务应用必须是完整的
+业务应用必须完整
 ++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Each user/role must be able to perform most of their tasks from one business application. For example, a salesman should see in his menu: Leads, Opportunities, Meetings, Sales Orders, Sales to Invoice, etc. He should not be forced to go to the accounting application to invoice the sales.
@@ -71,7 +71,7 @@ Each user/role must be able to perform most of their tasks from one business app
 .. i18n: ++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Transversal features, used by all applications
+横向功能，能够被所有应用使用
 ++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Some features should be accessible by all users, regardless of which application they usually work in. For example, most users should have access to: Partners, Agenda of Meetings, Products. In that case, you put the menu in the applications that needs these features more. (Example: the address book is in the sales, purchases and accounting application)
@@ -85,7 +85,7 @@ And, these features must be set as shortcuts for every user in the system by def
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Access Rights must define groups per application.
+每个应用必须为用户组定义权限
 +++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: The groups defined by each module must be directly related to business application. So, if you have an application which is “Accounting”.  All groups within this application must be like: “Accounting / Accountant”, “Accounting / Financial Manager”, etc.
@@ -97,7 +97,7 @@ The groups defined by each module must be directly related to business applicati
 .. i18n: +++++++++++++++++++++++++++++++++++++
 ..
 
-One dashboard defined per application
+每个应用定义一个面板
 +++++++++++++++++++++++++++++++++++++
 
 .. i18n: Each business application must have one dashboard attached to its root menu item. When a user enters a business application, they should see the dashboard related to this application.
