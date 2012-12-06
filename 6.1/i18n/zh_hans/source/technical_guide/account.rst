@@ -26,7 +26,7 @@
 .. i18n:   `OpenERP <http://openerp.com>`_ directly.
 ..
 
-.. tip:: 本模块是业界依靠的开源企业管理系统OpenERP的一部分。如果你想探索OpenERP，请查看我们的 
+.. tip:: 本模块是业界领先的开源企业管理系统OpenERP的一部分。如果你想探索OpenERP，请查看我们的 
   `截屏 <http://openerp.tv>`_ 或直接下载 
   `OpenERP <http://openerp.com>`_ .
 
