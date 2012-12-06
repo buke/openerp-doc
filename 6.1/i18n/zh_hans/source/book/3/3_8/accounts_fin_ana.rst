@@ -1,9 +1,8 @@
-
 .. i18n: Analytic Analysis
 .. i18n: =================
 ..
 
-Analytic Analysis
+成本分析
 =================
 
 .. i18n: There are various reports designed for financial analysis based on the analytic accounts. Most of these reports are available directly from the tree of analytic accounts or from the form view of the analytic account.
@@ -55,7 +54,7 @@ OpenERP provides the following financial analyses from the analytic accounts (an
 .. i18n: ---------------
 ..
 
-The Cost Ledger
+成本账
 ---------------
 
 .. i18n: The cost ledger provides the entries in general accounts for the selected analytic account(s). It enables you to make a detailed analysis of each operation carried out on one or several projects.
@@ -87,7 +86,7 @@ The cost ledger provides the entries in general accounts for the selected analyt
 .. i18n: -------------------------
 ..
 
-Inverted Analytic Balance
+反向辅助核算余额
 -------------------------
 
 .. i18n: The inverted analytic balance provides a summary report relating general accounts and analytic accounts. This report shows the balances of the general accounts broken down by the selected analytic accounts from date / to date.
@@ -117,7 +116,7 @@ This enables you to analyse your costs by general account. For example, if you e
 .. i18n: ---------------------------------
 ..
 
-The Cost Ledger (Quantities Only)
+成本费用总账 (仅数量)
 ---------------------------------
 
 .. i18n: This report gives the details of entries for an analytic account and a list of selected journals.
@@ -167,7 +166,7 @@ To restrict the report to hours worked, without including sales and purchases, s
 .. i18n: ----------------
 ..
 
-Analytic Balance
+辅助核算余额
 ----------------
 
 .. i18n: The analytic balance is a summary report that relates the analytic accounts to the general accounts. It shows the balances of the analytic accounts broken down by general account for a selected period. The analytic balance allows you to display a breakdown of each project by operation in the general accounts. Quantities are printed too. You can choose to include accounts without a balance as well.
@@ -226,7 +225,7 @@ This report gives you the profitability of a project for the different operation
 .. i18n: -----------------
 ..
 
-Analytic Journals
+辅助核算账簿
 -----------------
 
 .. i18n: From the :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals`, select one or more analytic journals and click the ``Analytic Journal`` report at the right side of the screen. This prints a report per analytic journal from debit and credit (general account versus analytic account).
@@ -251,7 +250,7 @@ From the :menuselection:`Accounting --> Configuration --> Analytic Accounting --
 .. i18n: -------------------------
 ..
 
-Analytic Entries Analysis
+辅助核算分录分析
 -------------------------
 
 .. i18n: You can have the statistical analysis on all analytic entries from the menu :menuselection:`Accounting --> Reporting --> Statistic Reports --> Analytic Entries Analysis`. By default, analytic entries are grouped by analytic account and month, but you have many options to sort and regroup analytic entries. You can, for instance, first group the information by general account, then by analytic account.
