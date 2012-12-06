@@ -1,18 +1,17 @@
-
 .. i18n: ============
 .. i18n: Search Views
 .. i18n: ============
 ..
 
 ============
-Search Views
+搜索视图
 ============
 
 .. i18n: How organize a search view
 .. i18n: ++++++++++++++++++++++++++
 ..
 
-How organize a search view
+如何设计一个搜索试图
 ++++++++++++++++++++++++++
 
 .. i18n: .. figure:: Pictures/3.5.search_view.png
@@ -31,7 +30,7 @@ Filtering buttons and main filter fields must be the first elements on top of th
 .. i18n: +++++++++++++++++++++++++++++++++++
 ..
 
-Use a business oriented terminology
+使用业务相关的术语
 +++++++++++++++++++++++++++++++++++
 
 .. i18n: As previously mentioned, the used terminology must be adapted to the application. An example of this would be, in sale order the search field “partner_id” is named “Customer” and in purchase application, the same search field is named “Supplier”. In the same way, the “user_id” field in sales is named “Salesman” and in project management, it is named “Project Manager”. 
