@@ -1,9 +1,8 @@
-
 .. i18n: Financial Inventory Management
 .. i18n: ==============================
 ..
 
-Financial Inventory Management
+财务的库存管理
 ==============================
 
 .. i18n: Manual and Real-time Stock Valuation
@@ -13,7 +12,7 @@ Financial Inventory Management
 .. i18n: a figure.
 ..
 
-Manual and Real-time Stock Valuation
+手动和实时库存核算
 ------------------------------------
 If you have experience of managing with traditional software, you will know the problem of getting useful 
 indicators. If you ask your accountant for a stock valuation or the value added by production, he will give you 
@@ -138,7 +137,7 @@ module installed.
 	
 	*Setting up Stock Valuation Accounts*
     
-Managing Transportation Costs
+管理运输成本
 -----------------------------
 
 .. i18n: In OpenERP, you can handle the delivery methods when installing the :mod:`delivery` module.
