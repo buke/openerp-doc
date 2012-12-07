@@ -58,12 +58,12 @@
    :scale: 75
    :align: center
 
-   *Management of alerts on partners*
+   *合作伙伴的警告管理*
 
 .. i18n: The available warnings in the partner form are:
 ..
 
-可用的警告伙伴形式有:
+合作伙伴可设置的警告消息有:
 
 .. i18n: * Create a warning for a sales order,
 .. i18n: 
@@ -74,19 +74,19 @@
 .. i18n: * Create a warning when invoicing a partner.
 ..
 
-* Create a warning for a sales order,
+* 销售订单创建警告,
 
-* Create a warning for a purchase order,
+* 采购订单创建警告,
 
-* Create a warning for a delivery to a partner (or receiving an item),
+* 合作伙伴发货创建警告（或接收物料）,
 
-* Create a warning when invoicing a partner.
+* 为合作伙伴开票创建警告.
 
 .. i18n: For example, if you enter an alert for the invoicing of a customer, for an accountant entering an
 .. i18n: invoice for that customer, the alert message will be attached as shown in the figure :ref:`fig-warnsmp`.
 ..
 
-例如,如果你输入一个警惕结账的客户,对于一个会计打开一个发票,客户,警报消息将被附加如图:ref:“fig-warnsmp”。
+例如：如果您为某客户开票配置一条警告消息之后，当财务人员为该客户录入发票时，就会看到一条警告消息，如图:ref:“fig-warnsmp”。
 
 .. i18n: .. _fig-warnsmp:
 .. i18n: 
@@ -103,7 +103,7 @@
    :scale: 75
    :align: center
 
-   *Alert from Invoicing a Customer*
+   *为客户开票的警告消息*
 
 .. i18n: .. figure:: images/warning_product.png
 .. i18n:    :scale: 75
@@ -116,21 +116,21 @@
    :scale: 75
    :align: center
 
-   *Management of Alerts on Products*
+   *产品警告消息配置*
 
 .. i18n: The alerts that can be configured on a product form are related to:
 ..
 
-警报,可以配置在一个产品形式有关:
+产品可设置的警告消息有:
 
 .. i18n: * The sales of that product,
 .. i18n: 
 .. i18n: * The purchase of that product.
 ..
 
-* The sales of that product,
+* 销售产品,
 
-* The purchase of that product.
+* 采购产品.
 
 .. i18n: A practical example:
 ..
