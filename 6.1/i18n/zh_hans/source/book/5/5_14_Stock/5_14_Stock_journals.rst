@@ -1,9 +1,8 @@
-
 .. i18n: Organize your Deliveries
 .. i18n: ========================
 ..
 
-Organize your Deliveries
+组织你的交付
 ========================
 
 .. i18n: You can manage stock through journals in the same way as you can manage your accounts
@@ -48,7 +47,7 @@ same time.
 .. i18n: ----------------------
 ..
 
-The Different Journals
+不同的日记账
 ----------------------
 
 .. i18n: .. index::
@@ -116,7 +115,7 @@ as truck1, truck2).
 .. i18n: ------------------
 ..
 
-Using the Journals
+使用日记账
 ------------------
 
 .. i18n: You will now see how to use the journals to organize your stock management in practice. After
