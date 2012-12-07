@@ -1,11 +1,10 @@
-
 .. i18n: **********
 .. i18n: Conclusion
 .. i18n: **********
 ..
 
 **********
-Conclusion
+编后
 **********
 
 .. i18n: OpenERP has become established as the main free market-changing alternative for enterprise
@@ -70,8 +69,8 @@ business because they have adopted OpenERP.
 .. i18n: =================
 ..
 
-You are Not Alone
-=================
+你不是一个人在战斗
+===================
 
 .. i18n: Many resources are at hand to accompany you on your OpenERP adventure.
 ..
@@ -82,8 +81,8 @@ Many resources are at hand to accompany you on your OpenERP adventure.
 .. i18n: ---------------------------------------------------------
 ..
 
-Bypass the Technical Difficulties by using the SaaS Offer
----------------------------------------------------------
+使用SaaS让烦人的技术问题见鬼去吧
+-----------------------------------
 
 .. i18n: .. index::
 .. i18n:    single:  SaaS
@@ -127,7 +126,7 @@ included in various package levels.
 .. i18n: -------------------------------
 ..
 
-Consult the Available Resources
+购买咨询,少走弯路
 -------------------------------
 
 .. i18n: Larger companies often prefer a more classic implementation path. Even though OpenERP's simplicity
@@ -163,7 +162,7 @@ out:
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-The Community of Users and Developers
+社区用户与开发者
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: The community, supported by Tiny, hosts a set of communication tools which can help you in your
@@ -242,8 +241,8 @@ become the central location for OpenERP technology.
 .. i18n: ^^^^^^^^^^^^^^^^
 ..
 
-OpenERP Partners
-^^^^^^^^^^^^^^^^
+OpenERP 官方合作伙伴
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: If you need contract-backed guarantees for implementing and maintaining OpenERP, you can contact an
 .. i18n: official OpenERP partner. OpenERP partners offer various services such as user training,
@@ -260,7 +259,7 @@ and by type can be found on the official OpenERP site: http://openerp.com/partne
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-The Main Developer, Tiny
+主导开发者: Tiny
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Finally you can call the main project developers, Tiny, who can help you in your OpenERP project.
