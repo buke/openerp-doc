@@ -1,4 +1,3 @@
-
 .. i18n: .. sectnum::
 .. i18n:     :start: 1
 ..
@@ -12,7 +11,7 @@
 .. i18n: interesting:
 ..
 
-Python style guide
+Python代码风格指南
 ++++++++++++++++++
 In additions to these guidelines, you may also find the following link
 interesting:
@@ -27,7 +26,7 @@ interesting:
 .. i18n: magic methods (starting *and* ending with two underscores) should *not* have to be called directly unless you're overriding a method of the same name.
 ..
 
-magic methods
+魔术方法
 -------------
 magic methods (starting *and* ending with two underscores) should *not* have to be called directly unless you're overriding a method of the same name.
 
@@ -120,7 +119,7 @@ And don't clone manually, please:
 .. i18n: the ``dict`` constructor takes both a single (optional) positional argument (either a dictionary-like object or an iterable of 2-tuples) and an unlimited number of keyword arguments. Thus, you can "merge" two different dictionaries into a third, new, dictionary:
 ..
 
-the "clone and update"
+"clone 和 update"
 ----------------------
 the ``dict`` constructor takes both a single (optional) positional argument (either a dictionary-like object or an iterable of 2-tuples) and an unlimited number of keyword arguments. Thus, you can "merge" two different dictionaries into a third, new, dictionary:
 
@@ -181,7 +180,7 @@ You can use those properties for simpler operations, such as cloning an existing
 .. i18n: the signature of dict.update is the same as ``dict()``: a single, optional, positional argument and an unlimited number of keyword arguments.
 ..
 
-"manual update"
+"手动 update"
 ---------------
 the signature of dict.update is the same as ``dict()``: a single, optional, positional argument and an unlimited number of keyword arguments.
 
@@ -247,7 +246,7 @@ Setting a bunch of keys at the same time:
 .. i18n: Python isn't java, it has literals:
 ..
 
-Java dictionary creation
+Java 的字典创建方式
 ------------------------
 Python isn't java, it has literals:
 
@@ -285,7 +284,7 @@ Python isn't java, it has literals:
 .. i18n: keyword arguments are a good way to get a bunch of unspecified supplementary arguments if e.g. you just want to forward them:
 ..
 
-"temporary kwargs"
+"临时的 kwargs"
 ------------------
 keyword arguments are a good way to get a bunch of unspecified supplementary arguments if e.g. you just want to forward them:
 
