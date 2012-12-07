@@ -57,8 +57,8 @@
 .. i18n: With the **Marketing** application, you define your direct marketing campaigns, allowing you to automate your lead communication. You can install the module through the Reconfigure wizard, then select Marketing.
 ..
 
-OpenERP offers a set of modules allowing you to easily create and track your Marketing Campaigns.
-With the **Marketing** application, you define your direct marketing campaigns, allowing you to automate your lead communication. You can install the module through the Reconfigure wizard, then select Marketing.
+OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
+使用 **Marketing** 模块, 可以定义直销活动,实现与线索的自动化交互。可以通过使用重新配置向导,选择 Marketing 来安装此模块。
 
 .. i18n: Campaigns can be displayed in List or Diagram view. The Diagram view allows you to clearly see the marketing actions (represented by a node) and the applied conditions (represented by an arrow).
 ..
