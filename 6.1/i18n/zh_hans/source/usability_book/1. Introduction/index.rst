@@ -113,7 +113,7 @@ OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为
 .. i18n: If your improvement is validated by the usability team, we will assign a developer and a member of the usability team will improve the guidelines.
 ..
 
-If your improvement is validated by the usability team, we will assign a developer and a member of the usability team will improve the guidelines.
+如果的改进意见被确认，我们将安排相应的开发人员和界面交互团队按照界面可用性原则跟进。
 
 .. i18n: .. _usability mailing list:
 .. i18n: .. _usability team on Launchpad: https://launchpad.net/~openerp-expert-ergonomy
