@@ -1,16 +1,15 @@
-
 .. i18n: Estimating Delivery Dates
 .. i18n: =========================
 ..
 
-Estimating Delivery Dates
+估算交付日期
 =========================
 
 .. i18n: Standard Delivery Time
 .. i18n: ----------------------
 ..
 
-Standard Delivery Time
+标准交付时间
 ----------------------
 
 .. i18n: In order to define the delivery time, you have to know three things:
@@ -76,7 +75,7 @@ the raw materials within 3 days.
 
 According to those numbers, we will have to start the process in 23 days if we have to order raw materials.
     
-Schedule Logistic Flows according to MRP1 Rules 
+依据MRP1规则的定期物流
 -----------------------------------------------
 
 .. i18n: MRP is a software-based production, planning and inventory control system used to manage the manufacturing process.
@@ -97,7 +96,7 @@ the final products in each period.
 .. i18n: ========================================
 ..
 
-Incoming and Outgoing Products Planning
+收入和发出产品计划
 ========================================
 
 .. i18n: To be able to plan incoming and outgoing shipments of products, you have to install the module
@@ -147,7 +146,7 @@ automatically be moved as a result.
 .. i18n: =================================
 ..
 
-Managing Inventory Reconciliation
+管理库存盘点
 =================================
 
 .. i18n: Inventory reconciliation involves two steps: physical and accounting.
