@@ -122,7 +122,7 @@ to the maximum, to recharge as much as you are contractually able.
 .. i18n: ----------------------------------------------
 ..
 
-Allow employees to enter professional expenses
+允许员工输入费用
 ----------------------------------------------
 
 .. i18n: .. index::
@@ -252,7 +252,7 @@ automatically generated as they would be with any other invoice.
 .. i18n: --------------------------------------------
 ..
 
-Rebill customers through analytical accounts
+通过辅助核算在付给客户
 --------------------------------------------
 
 .. i18n: If you base your invoicing on service time or analytic costs, the expense will
