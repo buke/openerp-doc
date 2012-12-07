@@ -1,9 +1,8 @@
-
 .. i18n: Keep Track of your Margins
 .. i18n: ==========================
 ..
 
-Keep Track of your Margins
+明明白白利润点
 ==========================
 
 .. i18n: For every company, keeping a clear sight on and a good control of margins is crucial. Even if you have a good sales level, it will not guarantee company profitability if margins are not high enough. OpenERP provides a number of methods allowing you to monitor your sales margins. The main ones are:
@@ -20,19 +19,19 @@ For every company, keeping a clear sight on and a good control of margins is cru
 .. i18n: * Using pricelists.
 ..
 
-* Margins on a sales order,
+* 每笔销售利润,
 
-* Margins by product,
+* 每产品利润,
 
-* Margins by project,
+* 每项目利润,
 
-* Using pricelists.
+* 价格表的亮点.
 
 .. i18n: Margins on Sales Orders
 .. i18n: -----------------------
 ..
 
-Margins on Sales Orders
+每笔销售单据的利润
 -----------------------
 
 .. i18n: .. index::
@@ -103,7 +102,7 @@ The cost price is calculated from the raw materials and the operations carried o
 .. i18n: ------------------
 ..
 
-Margins by Product
+每种产品的利润
 ------------------
 
 .. i18n: .. index::
@@ -134,7 +133,7 @@ default, however, OpenERP proposes a period of the last 12 months for analysis.
 .. i18n: You can also filter the analysis on certain types of invoice:
 ..
 
-You can also filter the analysis on certain types of invoice:
+你还能按指定类型的发票来进行过滤分析:
 
 .. i18n: * All invoices, including unvalidated draft invoices,
 .. i18n: 
@@ -143,11 +142,11 @@ You can also filter the analysis on certain types of invoice:
 .. i18n: * Paid invoices only.
 ..
 
-* All invoices, including unvalidated draft invoices,
+* 所有发票(含草稿状态的发票),
 
-* All open and/or paid invoices,
+* 所有生效或者已支付发票,
 
-* Paid invoices only.
+* 仅统计已支付发票.
 
 .. i18n: .. figure:: images/product_margin_tree.png
 .. i18n:    :scale: 75
@@ -160,12 +159,12 @@ You can also filter the analysis on certain types of invoice:
    :scale: 75
    :align: center
 
-   *Product Margins*
+   *产品利润*
 
 .. i18n: You then get a margin analysis table. The following fields are displayed for the sales of each product:
 ..
 
-You then get a margin analysis table. The following fields are displayed for the sales of each product:
+您可以得到一个详细的利润分析数据, 下面列出了显示每种产品销售的可分析统计的字段:
 
 .. i18n: * :guilabel:`Avg. Unit Price`: the average unit sales price,
 .. i18n: 
@@ -180,17 +179,17 @@ You then get a margin analysis table. The following fields are displayed for the
 .. i18n: * :guilabel:`Expected Sale`: the number of products sold multiplied by the list price.
 ..
 
-* :guilabel:`Avg. Unit Price`: the average unit sales price,
+* :guilabel:`Avg. Unit Price`: 销售平均价,
 
-* :guilabel:`Catalog Price`: the list price based on this product,
+* :guilabel:`Catalog Price`: 产品标准售价,
 
-* :guilabel:`# Invoiced`: the number of sold products that have been invoiced,
+* :guilabel:`# Invoiced`: 已开发票的销售产品数量汇总,
 
 * :guilabel:`Sales Gap`: the difference between the revenue calculated from list price and volume, and the actual sales,
 
-* :guilabel:`Turnover`: the actual sales revenue for the product selected,
+* :guilabel:`Turnover`: 销售收入,
 
-* :guilabel:`Expected Sale`: the number of products sold multiplied by the list price.
+* :guilabel:`Expected Sale`: 销售额,
 
 .. i18n: .. figure:: images/product_margin_form.png
 .. i18n:    :scale: 75
@@ -203,7 +202,7 @@ You then get a margin analysis table. The following fields are displayed for the
    :scale: 75
    :align: center
 
-   *Margin Details for a Given Product*
+   *指定产品的利润明细*
 
 .. i18n: The following fields are given by product for purchases:
 ..
@@ -224,18 +223,18 @@ The following fields are given by product for purchases:
 .. i18n: * :guilabel:`Normal Cost`: the number of products sold multiplied by the standard cost price.
 ..
 
-* :guilabel:`Avg. Unit price` : the average unit purchase price,
+* :guilabel:`Avg. Unit price` : 采购平均价,
 
-* :guilabel:`Standard price` : the standard cost price of the product for the company,
+* :guilabel:`Standard price` : 产品成本价,
 
-* :guilabel:`# Invoiced` : the number of purchased products,
+* :guilabel:`# Invoiced` : 采购汇总数量,
 
 * :guilabel:`Purchase Gap`: the difference between the total actual cost and the standard cost
   multiplied by the number of units purchased,
 
-* :guilabel:`Total Cost`: the total cost of purchases for the product under consideration,
+* :guilabel:`Total Cost`: 采购成本汇总,
 
-* :guilabel:`Normal Cost`: the number of products sold multiplied by the standard cost price.
+* :guilabel:`Normal Cost`: 销售成本汇总.
 
 .. i18n: The following fields are given by product for margins:
 ..
@@ -263,7 +262,7 @@ The following fields are given by product for margins:
 .. i18n: ------------------
 ..
 
-Margins by Project
+每个项目的利润
 ------------------
 
 .. i18n: To manage margins by project, you should install the analytical accounts with management by task. The use
