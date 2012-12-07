@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Manufacturing
 .. i18n:    single: production; management
@@ -18,7 +17,7 @@
 .. _part3-man-manuf:
 
 *************************
-Defining your Master Data
+定义主数据
 *************************
 
 .. i18n:  *The management of manufacturing described in this chapter covers
