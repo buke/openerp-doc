@@ -1,18 +1,17 @@
-
 .. i18n: =======
 .. i18n: Testing
 .. i18n: =======
 ..
 
 =======
-Testing
+测试
 =======
 
 .. i18n: Unit testing
 .. i18n: ============
 ..
 
-Unit testing
+单元测试
 ============
 
 .. i18n: Since version 4.2 of OpenERP, the XML api provides several features to test your modules. They allow you to
@@ -40,7 +39,7 @@ This thus allows you to simulate user interaction and automatically test your mo
 .. i18n: As you will see in the next pages, unit testing through OpenERP's XML can be done using three main tags: <assert>, <workflow> and <function>. All these tags share some common optional attributes:
 ..
 
-Generalities
+概述
 ------------
  
 As you will see in the next pages, unit testing through OpenERP's XML can be done using three main tags: <assert>, <workflow> and <function>. All these tags share some common optional attributes:
@@ -79,7 +78,7 @@ Notice that Unit Testing tags will not be interpreted inside a <data> tag set in
 .. i18n: ----------------
 ..
 
-Using unit tests
+使用单元测试
 ----------------
 
 .. i18n: You can declare unit tests in all your .XML files. We suggest you to name the files like this:
@@ -111,7 +110,7 @@ If your tests are declared in update sections, the tests are checked at the inst
 .. i18n: ----------
 ..
 
-Assert Tag
+断言标签
 ----------
 
 .. i18n: The assert tag allows you to define some assertions that have to be checked at boot time. Example :
@@ -248,7 +247,7 @@ Require the version of a module.
 	</assert>
 	
 	
-Workflow Tag
+工作流标签
 ------------
 
 .. i18n: The workflow tag allows you to call for a transition in a workflow by sending a signal to it. It is generally used to simulate an interaction with a user (clicking on a button…) for test purposes:
@@ -316,7 +315,7 @@ In some particular cases, when you write the test, you don't know the id of the 
 .. i18n: ------------
 ..
 
-Function Tag
+函数标签
 ------------
 
 .. i18n: The function tag allows to call some method of an object. The called method must have the following signature:
@@ -421,7 +420,7 @@ Only value and function tags have meaning as function child nodes (using other t
 .. i18n: ==================
 ..
 
-Acceptance testing
+验收测试
 ==================
 
 .. i18n: This document describes all tests that are made each time someone install OpenERP on a computer. You can then assume that all these tests are valid as we must launch them before publishing a new module or a release of OpenERP.
@@ -433,7 +432,7 @@ This document describes all tests that are made each time someone install OpenER
 .. i18n: -----------------------------
 ..
 
-Integrity tests on migrations
+迁移完整性测试
 -----------------------------
 
 .. i18n:             * Sum credit = Sum debit
@@ -452,7 +451,7 @@ Integrity tests on migrations
 .. i18n: --------------
 ..
 
-Workflow tests
+工作流测试
 --------------
 
 .. i18n: ... Describe all processes tested here.
@@ -464,7 +463,7 @@ Workflow tests
 .. i18n: ---------------
 ..
 
-Record creation
+记录生成
 ---------------
 
 .. i18n: More than 300 records are created, describe them here. 
