@@ -1,9 +1,8 @@
-
 .. i18n: The OpenERP Solution
 .. i18n: ====================
 ..
 
-The OpenERP Solution
+OpenERP 文档解决方案
 ====================
 
 .. i18n: OpenERP's management of documents is unique and totally innovative in its integrated approach. Its
@@ -56,7 +55,7 @@ encountered when you use independent document management systems:
 .. i18n: ---------------
 ..
 
-Getting Started
+如何开始
 ---------------
 
 .. i18n: This section is about how to get started with the document management system from its installation
@@ -70,7 +69,7 @@ to advanced use with FTP access.
 .. i18n: ^^^^^^^^^^^^
 ..
 
-Installation
+安装
 ^^^^^^^^^^^^
 
 .. i18n: .. index::
