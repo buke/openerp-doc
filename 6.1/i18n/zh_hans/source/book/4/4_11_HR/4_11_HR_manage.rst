@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: HR; management
 .. i18n:    single: employee
@@ -12,7 +11,7 @@
 .. i18n: ========================
 ..
 
-Managing Human Resources
+管理人力资源
 ========================
 
 .. i18n: To establish a system that is integrated into the company's management, you need to start with a
@@ -69,7 +68,7 @@ Here are some examples of functions which depend on the accuracy of the employee
 .. i18n: -----------------------------------------------------------------------
 ..
 
-Link employees and OpenERP users to facilitate the management of rights
+关联员工和OpenERP用户，促进权限的管理
 -----------------------------------------------------------------------
 
 .. i18n: To define a new employee in OpenERP, use the menu :menuselection:`Human Resources --> Employees`.
@@ -187,7 +186,7 @@ form with the following information:
 .. i18n: ------------------------------------------
 ..
 
-Define employees' billing prices and costs
+定义员工的账单价格和成本
 ------------------------------------------
 
 .. i18n: To be able to use the timesheets at all, you must first define those employees who are system users.
@@ -340,7 +339,7 @@ And each company job position corresponds to a :guilabel:`Product`.
 .. i18n: --------------------------------------------------------------------------------------------
 ..
 
-Define employee categories to assign different Holiday’s rights to different employee groups
+定义员工分类，给不同的员工组别指定不同的休假权限
 --------------------------------------------------------------------------------------------
 
 .. i18n: You must create and assign employee categories for employees in order to be able to assign and manage leave and allocation requests by category. You can define employee categories from :menuselection:`Human Resources --> Configuration --> Human Resources --> Employees --> Categories of Employee`. For a new category, define its name in :guilabel:`Category`. A category may also be assigned a :guilabel:`Parent Category`.
@@ -395,7 +394,7 @@ Now, when you create a new leave or allocation request from the menuitems under 
 .. i18n: ----------------------------------------------------------------------------------------------------
 ..
 
-Define contract types and wage types with start and end dates for contracts as well as trial periods
+用合同起止日期、试用期来定义合同类型和工资类型
 ----------------------------------------------------------------------------------------------------
 
 .. i18n: If you install the :mod:`hr_contract` module you can link contract details to the employee record.
@@ -536,7 +535,7 @@ You can enter information about the employment contract for the employee, such a
 .. i18n: --------------------------------------
 ..
 
-Manage attendance (Sign in / Sign out)
+管理考勤(上班/下班)
 --------------------------------------
 
 .. i18n: In some companies, staff have to sign in when they arrive at work and sign out again at the end of
