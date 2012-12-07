@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: attachments
 ..
 
@@ -8,7 +7,7 @@
 .. i18n: ====================
 ..
 
-Managing Attachments
+附件管理
 ====================
 
 .. i18n: As you see, you can connect any directory in the document management system to an OpenERP
@@ -45,7 +44,7 @@ over FTP in the document management system.
 .. i18n:    interface or the FTP server using simple drag and drop.
 ..
 
-.. note::  File Storage
+.. note::  文件存储
 
    If you do not install the document management system then the files that are attached to an OpenERP
    resource are stored directly in the database.
