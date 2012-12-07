@@ -442,7 +442,7 @@ Here is a complete example, from the OpenERP official distribution, of the funct
 .. i18n: ======================
 ..
 
-Technical architecture
+技术架构
 ======================
 
 .. i18n: OpenERP is a `multitenant <http://en.wikipedia.org/wiki/Multitenancy>`_,
@@ -992,7 +992,7 @@ Events on the widgets module are processed with a callback mechanism. A callback
 .. i18n: ===================
 ..
 
-Module Integrations
+模块集成
 ===================
 
 .. i18n: The are many different modules available for OpenERP and suited for different business models. Nearly all of these are optional (except ModulesAdminBase), making it easy to customize OpenERP to serve specific business needs. All the modules are in a directory named addons/ on the server. You simply need to copy or delete a module directory in order to either install or delete the module on the OpenERP platform.
@@ -1060,21 +1060,21 @@ When initializing a module, the files in the init_xml list are evaluated in turn
 .. i18n: ===========
 ..
 
-Inheritance
+继承
 ===========
 
 .. i18n: Traditional Inheritance
 .. i18n: -----------------------
 ..
 
-Traditional Inheritance
+传统的继承
 -----------------------
 
 .. i18n: Introduction
 .. i18n: ++++++++++++
 ..
 
-Introduction
+介绍
 ++++++++++++
 
 .. i18n: Objects may be inherited in some custom or specific modules. It is better to inherit an object to add/modify some fields.
@@ -1094,7 +1094,7 @@ It is done with::
 
         _inherit='object.name'
         
-Extension of an object
+对象的扩展
 ++++++++++++++++++++++
 
 .. i18n: There are two possible ways to do this kind of inheritance. Both ways result in a new class of data, which holds parent fields and behaviour as well as additional fields and behaviour, but they differ in heavy programatical consequences. 
