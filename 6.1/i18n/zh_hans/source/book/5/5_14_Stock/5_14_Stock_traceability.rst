@@ -1,9 +1,8 @@
-
 .. i18n: Managing Lots and Traceability
 .. i18n: ==============================
 ..
 
-Managing Lots and Traceability
+管理批次和可追溯性
 ==============================
 
 .. i18n: The double-entry management in OpenERP enables you to run very advanced traceability. All
@@ -57,7 +56,7 @@ gaps in stock moves.
 .. i18n: -----------
 ..
 
-Stock Moves
+库存调拨
 -----------
 
 .. i18n: Use the menu :menuselection:`Warehouse --> Traceability --> Stock Moves`
@@ -137,7 +136,7 @@ stock moves. You can also consult the history of these documents using the menu
 .. i18n: ----
 ..
 
-Lots
+批次
 ----
 
 .. i18n: OpenERP can also manage product lots. Two lot types are defined:
@@ -248,7 +247,7 @@ might correspond to a set of pre-printed barcodes that you stick on each product
 .. i18n: ------------
 ..
 
-Traceability
+可追溯性
 ------------
 
 .. i18n: If you key in the lot numbers for stock moves as described above, you can investigate the traceability of any
@@ -342,7 +341,7 @@ keeps a useful history of the pre-sales operations.
 .. i18n: ==================
 ..
 
-Scrapping Products
+报废产品
 ==================
 
 .. i18n: In OpenERP, there are many ways to handle scrap products. 
@@ -434,7 +433,7 @@ If you want to transfer the products to another location, you can create a new o
 .. i18n: =================================================================
 ..
 
-Identifying Products and Locations with Barcodes and RFID Devices
+使用条码和RFID设备标识产品和库位
 =================================================================
 
 .. i18n: You can the barcode in the product form in the field :guilabel:`EAN13`.
