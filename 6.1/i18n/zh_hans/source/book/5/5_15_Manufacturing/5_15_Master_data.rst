@@ -1,16 +1,15 @@
-
 .. i18n: Bill of Materials and Components
 .. i18n: ================================
 ..
 
-Bill of Materials and Components
+物料清单(BOM)和部件
 ================================
 
 .. i18n: Using Bills of Materials
 .. i18n: ------------------------
 ..
 
-Using Bills of Materials
+使用 BOM
 ------------------------
 
 .. i18n: Bills of Materials are documents that describe the list of raw materials used to make a finished
@@ -426,7 +425,7 @@ The final part of the third tab lets you set some properties for the product's m
 .. i18n: ------------------------------
 ..
 
-Multi-level Bills of Materials
+多层次BOM
 ------------------------------
 
 .. i18n: In OpenERP, each line of a bill of materials may itself be a bill of materials. This allows you to define BoMs with several levels. Instead of defining several BoMs for the shelf in the figure :ref:`fig-mrparm2`, you could define the single bill of materials below:
@@ -658,7 +657,7 @@ following production order:
 .. i18n: --------------------------
 ..
 
-Phantom Bills of Materials
+虚拟件BOM
 --------------------------
 
 .. i18n: If a finished product is defined using intermediate products that are themselves defined using other
@@ -770,7 +769,7 @@ If you define the BoM for the ``SHE100`` shelf in the way shown by the table bel
 .. i18n: --------------------------------
 ..
 
-Bills of Materials for Kits/Sets
+用于套件/套装的BOM
 --------------------------------
 
 .. i18n: .. note:: Sales Bills of Materials
