@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Deliver Quality Services
 ..
@@ -16,7 +15,7 @@
 .. _ch-services:
 
 ************************
-Deliver Quality Services
+提供高质量服务
 ************************
 
 .. i18n:  *This chapter focuses on the management of contracts, and the services associated with that.
