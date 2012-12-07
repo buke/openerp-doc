@@ -362,7 +362,7 @@ but there is no point whatsoever in creating a dict for the sake of passing it a
 .. i18n: ``dict.has_key(key)`` is deprecated, please use the ``in`` operator:
 ..
 
-deprecated methods (formally or informally)
+（正式和非正式）过时的方法
 -------------------------------------------
 ``dict.has_key(key)`` is deprecated, please use the ``in`` operator:
 
@@ -386,7 +386,7 @@ deprecated methods (formally or informally)
 .. i18n: Temporary variables can make the code clearer by giving names to objects, but that doesn't mean you should create temporary variables all the time:
 ..
 
-useless intermediate variables
+无用的中间变量
 ------------------------------
 Temporary variables can make the code clearer by giving names to objects, but that doesn't mean you should create temporary variables all the time:
 
