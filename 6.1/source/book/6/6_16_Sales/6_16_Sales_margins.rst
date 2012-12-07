@@ -1,18 +1,17 @@
-
-Keep Track of your Margins
+深入理解销售利润
 ==========================
 
 For every company, keeping a clear sight on and a good control of margins is crucial. Even if you have a good sales level, it will not guarantee company profitability if margins are not high enough. OpenERP provides a number of methods allowing you to monitor your sales margins. The main ones are:
 
-* Margins on a sales order,
+* 销售单利润,
 
-* Margins by product,
+* 产品利润,
 
-* Margins by project,
+* 项目利润,
 
-* Using pricelists.
+* 销售价格表机制.
 
-Margins on Sales Orders
+销售单的利润
 -----------------------
 
 .. index::
@@ -44,7 +43,7 @@ automatically recalculate the cost price for the selected product.
 The cost price is calculated from the raw materials and the operations carried out 
 (if the products have been manufactured internally, so that you have set their costs).
 
-Margins by Product
+产品的利润
 ------------------
 
 .. index::
@@ -70,7 +69,7 @@ You can also filter the analysis on certain types of invoice:
    :scale: 75
    :align: center
 
-   *Product Margins*
+   *产品利润*
 
 You then get a margin analysis table. The following fields are displayed for the sales of each product:
 
