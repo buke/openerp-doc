@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: attendance
 .. i18n:    single: timesheet
@@ -14,7 +13,7 @@
 .. i18n: ====================================
 ..
 
-Attendances and Timesheet Management
+考勤和计工单管理
 ====================================
 
 .. i18n: In most service companies where OpenERP has been integrated, service sheets, or timesheets, have
@@ -550,7 +549,7 @@ each project.
 .. i18n: --------------------------------------------
 ..
 
-Manage attendance through Sign in / Sign out
+工作“上班”/“下班”管理考勤
 --------------------------------------------
 
 .. i18n: In some companies, staff have to sign in when they arrive at work and sign out again at the end of
@@ -618,7 +617,7 @@ entry or exit manually and the differences between the actual and expected sign 
 .. i18n: -----------------------------------------------------------
 ..
 
-Keep track of differences between timesheets and attendance
+跟踪计工单和考勤的差异
 -----------------------------------------------------------
 
 .. i18n: When they are used properly, timesheets can be a good control tool for project managers and can
