@@ -52,7 +52,7 @@
 按发货单开发票 ——订单确认后自动生成发货单。在【销售-发票管理-待开票的发货单】菜单，可以看到待开发票的发货单
 
 
-* :guilabel:`Invoice on` : ``Ordered Quantities`` or ``Shipped Quantities``.
+* :guilabel:`Invoice on` 开票基于 : ``Ordered Quantities`` 已订数量 或 ``Shipped Quantities`` 已发数量.
 
 .. i18n:   .. tip::  Configuring your Interface
 .. i18n: 
@@ -63,13 +63,11 @@
 .. i18n:      :guilabel:`Usability – Extended View` to the current user.
 ..
 
-  .. tip::  Configuring your Interface
+  .. tip::  配置界面
 
-     If you work in the ``Simplified`` view mode, only the :guilabel:`Shipping Policy` field is visible
-     in the second order tab.
-     To get to the ``Extended`` view mode, go to the :guilabel:`Edit Preferences` link and select the interface of your choice.
-     You can also use the :guilabel:`Reconfigure` wizard and configure your interface as :guilabel:`Extended`, or assign the group
-     :guilabel:`Usability – Extended View` to the current user.
+     如果您在“简化界面”下工作，只能看到销售订单的装箱方式 :guilabel:`Shipping Policy` 字段。
+     可以通过配置向导配置界面为“扩展”，或把当前用户添加到组“可用性－扩展视图”，就可以切换到“扩展”视图模式。
+     您也可以点击“首选项”选择并切换试图。
 
 .. i18n: Picking Mode
 .. i18n: ------------
