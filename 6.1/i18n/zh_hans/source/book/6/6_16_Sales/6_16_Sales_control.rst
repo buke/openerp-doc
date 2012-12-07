@@ -34,10 +34,23 @@
 .. i18n: * :guilabel:`Invoice on` : ``Ordered Quantities`` or ``Shipped Quantities``.
 ..
 
-* :guilabel:`Picking Policy` : ``Partial Delivery`` or ``Complete Delivery``,
+* :guilabel:`Picking Policy` 装箱方式 : ``Partial Delivery`` 分批交货 或 ``Complete Delivery`` 一次性交货,
 
 * :guilabel:`Shipping Policy` : ``Shipping & Manual Invoice``, ``Payment Before Delivery``,
   ``Invoice on Order After Delivery``, and ``Invoice from Delivery``,
+
+译者注：OpenERP 6.1 6.1该字段改为：Invoice Policy: Deliver & invoice on demand, Pay before delivery, Invoice on order after delivery, Invoice based on deliveries
+
+结算方式: 
+
+先款后货——订单确认后自动生成发票，付款后自动生成发货单
+
+手工结算——订单确认后自动生成发货单。在【销售-发票管理-基于销售订单行】菜单，可以看到待开发票的订单行列表
+
+发货完成后开票收款——订单确认后自动生成发货单，发货完成后手工创建发票 （这个逻辑很奇怪，需要读一下代码看看。如果发货数量和订单不一致，发票上单价会变）
+
+按发货单开发票 ——订单确认后自动生成发货单。在【销售-发票管理-待开票的发货单】菜单，可以看到待开发票的发货单
+
 
 * :guilabel:`Invoice on` : ``Ordered Quantities`` or ``Shipped Quantities``.
 
