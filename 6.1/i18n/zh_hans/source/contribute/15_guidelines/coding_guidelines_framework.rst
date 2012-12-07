@@ -9,7 +9,7 @@
 .. i18n: +++++++++++++++++++++++++++
 ..
 
-OpenERP 指引
+OpenERP 特别指引
 +++++++++++++++++++++++++++
 
 .. i18n: Bazaar is your historian
