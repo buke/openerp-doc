@@ -108,7 +108,7 @@ OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为
 .. i18n: Having set this process, a full-time team of several developers and functional experts, we expect OpenERP's usability to improve very quickly over time. If you want to propose a new improvement, the easiest way is to `write to the usability mailing list`_ with your suggestion.
 ..
 
-Having set this process, a full-time team of several developers and functional experts, we expect OpenERP's usability to improve very quickly over time. If you want to propose a new improvement, the easiest way is to `write to the usability mailing list`_ with your suggestion.
+在这个改善过程中，将会有几位开发人员和专家组成的团队跟进，随着时间的推移，我们期待 OpenERP 的可用性将会很快提高。如果您想提出一项新的改进，最好的方法就是通过邮件列表 `write to the usability mailing list`_ ，来提出您的意见和建议。
 
 .. i18n: If your improvement is validated by the usability team, we will assign a developer and a member of the usability team will improve the guidelines.
 ..
