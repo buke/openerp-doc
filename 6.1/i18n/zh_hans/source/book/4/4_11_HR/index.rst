@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Human Resources
 ..
@@ -15,9 +14,9 @@
 
 .. _ch-hr:
 
-***************
-Key Features HR
-***************
+**********************
+人力资源管理的关键特性
+**********************
 
 .. i18n:  *This chapter describes OpenERP's main Human Resources and Employee Services features.
 .. i18n:  Most of the solutions discussed after this chapter concern management by
