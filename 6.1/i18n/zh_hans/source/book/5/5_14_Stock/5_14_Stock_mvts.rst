@@ -1484,14 +1484,14 @@ The table below shows all possible cases for the figure :ref:`fig-stflow2`.
    ================== ===================== =====================
 
  
-Packaging with Various Logistics Units of Measure
+各种计量单位的物流包装
 -------------------------------------------------
 
 .. i18n: Units of Measure
 .. i18n: ^^^^^^^^^^^^^^^^
 ..
 
-Units of Measure
+计量单位
 ^^^^^^^^^^^^^^^^
 
 .. i18n: OpenERP supports several units of measure. Quantities of the same product can be expressed in
@@ -1656,7 +1656,7 @@ available.
 .. i18n: ^^^^^^^^^
 ..
 
-Packaging
+包装
 ^^^^^^^^^
 
 .. i18n: The packaging allows you to ship products in several ways. For example, you can ship goods by boxes or by
