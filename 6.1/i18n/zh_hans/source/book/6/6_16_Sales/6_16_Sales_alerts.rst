@@ -2,8 +2,8 @@
 .. i18n: ======
 ..
 
-Alerts
-======
+消息提醒
+==========
 
 .. i18n: .. index:: 
 .. i18n:    single: warning
@@ -21,14 +21,12 @@ Alerts
 .. i18n: setting parameters in the new :guilabel:`Warnings` tab on each of the forms.
 ..
 
-To manage alerts on products or partners, you can install the :mod:`warning` module. Once that is
-installed, you will be able to configure a series of alerts on the partners or products by
-setting parameters in the new :guilabel:`Warnings` tab on each of the forms.
+通过安装警告消息与预警管理  :mod:`warning`  模块，您可以为业务伙伴和产品设置警告消息。安装之后，可以在业务伙伴或产品的页面上的“警告”  :guilabel:`Warnings`  选项卡上设置参数。
 
 .. i18n: You can select any of the following types of warnings and create different warnings for purchases and for sales:
 ..
 
-您可以选择以下任何类型的警告和创建不同的警告对购买和销售:
+在采购和销售流程里，可以设置以下警告消息类型：
 
 .. i18n: * :guilabel:`No Message`: This option will not display a message.
 .. i18n: 
@@ -37,17 +35,17 @@ setting parameters in the new :guilabel:`Warnings` tab on each of the forms.
 .. i18n: * :guilabel:`Blocking Message`: The message displayed will cause an exception and block the workflow.
 ..
 
-* :guilabel:`No Message`: This option will not display a message.
+* :guilabel:`No Message` 无消息: 不显示任何信息。
 
-* :guilabel:`Warning`: This option will show the user the message entered.
+* :guilabel:`Warning` 警告: 显示您输入的信息。
 
-* :guilabel:`Blocking Message`: The message displayed will cause an exception and block the workflow.
+* :guilabel:`Blocking Message` 阻止: 将抛出一个异常，并停止工作流。
 
 .. i18n: You can activate alerts for a series of events. For each alert, you should enter a message that will
 .. i18n: be displayed when the event concerned is started.
 ..
 
-你可以激活警报的一系列事件。对于每个警报,你应该输入一个消息时将显示相关的事件开始.
+可以为一系列的事件配置警告消息。相应事件激活后，就会显示您输入的警告信息。
 
 .. i18n: .. figure:: images/warning_partner.png
 .. i18n:    :scale: 75
