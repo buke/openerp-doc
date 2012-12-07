@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: recruitments
 .. i18n: ..
@@ -12,7 +11,7 @@
 .. i18n: ==================
 ..
 
-Talent Acquisition
+招聘
 ==================
 
 .. i18n: Using OpenERP, you can efficiently manage the process of hiring new people for your organization.
@@ -154,7 +153,7 @@ You can analyse data of recruitment process through the menu :menuselection:`Hum
 .. i18n: ----------------------------------------------------------------------------------------------------------------------
 ..
 
-Create applicants automatically based on incoming mail and keep track of attachments such as resumes and cover letters
+根据进来的邮件自动创建申请人并跟踪附件，如简历和求职信
 ----------------------------------------------------------------------------------------------------------------------
 
 .. i18n: You have seen how to create new applicants from the `Applicants` form. You can also configure your email server in OpenERP to create new applicants based on incoming mails. For example, if you have an e-mail ID ``jobs@yourcompany.com``, you can configure it such that all emails received at this ID automatically generate new job applicants.
@@ -260,7 +259,7 @@ Because you have configured your server to add attachments, if an incoming appli
 .. i18n: --------------------------------------------------------------
 ..
 
-Define stages to track the progress in the recruitment process
+在招聘进程中定义阶段来跟踪进程
 --------------------------------------------------------------
 
 .. i18n: Rarely will a recruitment process end after just a single meeting or a phone call. It is in fact a string of stages through which a recruitment progresses in order to bear a favourable outcome. You can define the stages which a recruitment process would undergo. Use the menu :menuselection:`Human Resources --> Configuration --> Recruitment --> Stages` to define various stages.
@@ -297,7 +296,7 @@ You must give the stage a :guilabel:`Name`. Use the :guilabel:`Sequence` field t
 .. i18n: ----------------------------------------
 ..
 
-Define next action and next action dates
+定义下个动作以及日期
 ----------------------------------------
 
 .. i18n: The :guilabel:`Next Action Date` and :guilabel:`Next Action` fields on the `Applicants` form let you define an action you would like to initiate on a given date. It serves as a reminder to the recruitment officer regarding what step he must take next and on which date.
@@ -316,7 +315,7 @@ The :guilabel:`Next Action Date` and :guilabel:`Next Action` fields on the `Appl
 .. i18n: ----------------------------------------------------------------
 ..
 
-Track the history of the e-mail communication with the applicant
+跟踪申请人的邮件通信记录
 ----------------------------------------------------------------
 
 .. i18n: Using the :guilabel:`Communication & History` tab in the `Applicants` form, you can add notes for internal reference or send e-mails to the applicant. You can also view the history of communication and notes for a recruitment application in the `History` section. If you specify e-mail addresses in the :guilabel:`Global CC` field, these e-mail addresses will be added to the :guilabel:`CC` field of all inbound and outbound e-mails for this record before being sent. You can separate multiple e-mail addresses with a comma.
@@ -391,7 +390,7 @@ Here too, you have a choice to change the application state. You may also add at
 .. i18n: --------------------------------
 ..
 
-Plan phone calls or appointments
+计划电话呼叫或者访问
 --------------------------------
 
 .. i18n: One of the advantages of using the :mod:`hr_recruitment` module is that you can plan and organise phone calls to and appointments with prospective employees. This is made possible due to its integration with :mod:`crm` module's Phone Calls and Meetings features.
@@ -527,7 +526,7 @@ You can track and edit your meetings with applicants from the menu :menuselectio
 .. i18n: --------------------------------------------------------------------------------
 ..
 
-Fill questionnaires for each applicant (for instance preliminary questionnaires)
+为每个申请人填问卷 (初步调查问卷)
 --------------------------------------------------------------------------------
 
 .. i18n: You can use questionnaires as a tool to interview a job applicant. To be able to use questionnaires for a job applicant you must first define one through :menuselection:`Tools --> Surveys --> Define Surveys --> Survey`. Click :guilabel:`New` to open a new survey form. You may enter the :guilabel:`Survey Title` and the :guilabel:`Responsible` user for the survey.
