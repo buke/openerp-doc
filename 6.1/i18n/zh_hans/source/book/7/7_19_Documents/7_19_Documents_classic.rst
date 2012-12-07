@@ -1,9 +1,8 @@
-
 .. i18n: Classic Document Management Solutions
 .. i18n: =====================================
 ..
 
-Classic Document Management Solutions
+典型的文档管理方案
 =====================================
 
 .. i18n: Faced with the need to organize documents, companies have looked at a number of document management
@@ -50,15 +49,15 @@ confirmation:
 .. i18n: #. Copy the files from the desktop to the right place in the document management system.
 ..
 
-#. Receive and read the email from the customer,
+#. 查收/查阅来自客户的邮件,
 
-#. Save the email and its attachments on the desktop,
+#. 桌面操作发送邮件及邮件附件,
 
-#. Connect to the ERP system and confirm the order,
+#. 直接连接ERP系统进行单据流程管理,
 
-#. Connect to the document management system,
+#. 连接文档管理系统,
 
-#. Look for the best place to store the document,
+#. 优化文档存储位置,
 
 #. Create a directory for the customer and the order if it does not yet exist,
 
