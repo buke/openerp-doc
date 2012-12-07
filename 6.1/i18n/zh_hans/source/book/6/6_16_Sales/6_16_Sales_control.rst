@@ -1,16 +1,15 @@
-
 .. i18n: Control Deliveries and Invoicing
 .. i18n: ================================
 ..
 
-Control Deliveries and Invoicing
+发货和开票设置
 ================================
 
 .. i18n: Configuring Orders
 .. i18n: ------------------
 ..
 
-Configuring Orders
+订单相关参数设置
 ------------------
 
 .. i18n: .. index:: 
@@ -63,7 +62,7 @@ The way the order is configured will determine its future behaviour:
 .. i18n: ------------
 ..
 
-Picking Mode
+装箱方式
 ------------
 
 .. i18n: The picking mode determines the way the storesperson will do the picking. If the order is put
