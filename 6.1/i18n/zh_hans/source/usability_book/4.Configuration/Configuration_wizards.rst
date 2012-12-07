@@ -1,11 +1,10 @@
-
 .. i18n: =====================================
 .. i18n: Configuration Wizards Functionality
 .. i18n: =====================================
 ..
 
 =====================================
-Configuration Wizards Functionality
+配置向导功能
 =====================================
 
 .. i18n: Configuration wizards are launched automatically on creation of a new database. You must develop configuration wizards per application to:
