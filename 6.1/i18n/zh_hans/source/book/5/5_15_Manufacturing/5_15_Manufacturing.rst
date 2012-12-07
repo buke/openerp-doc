@@ -1,9 +1,8 @@
-
 .. i18n: Manufacturing Orders
 .. i18n: ====================
 ..
 
-Manufacturing Orders
+生产计划单
 ====================
 
 .. i18n: Once the bills of materials have been defined, OpenERP is capable of automatically deciding on the manufacturing route according to the needs of the company.
@@ -72,7 +71,7 @@ If you have not installed the Just-in-Time planning module :mod:`mrp_jit`, you s
 .. i18n: ============================
 ..
 
-Complete Production Workflow
+完成生产流程
 ============================
 
 .. i18n: To understand the usefulness and the functioning of the system you should test a complete workflow
@@ -132,7 +131,7 @@ To be able to do the following step, add ``Sales Management`` through the Reconf
 .. i18n: +++++++++++++++
 ..
 
-The Sales Order
+销售单
 +++++++++++++++
 
 .. i18n: .. index:: quotation
@@ -216,7 +215,7 @@ Start the requirements calculation using the menu :menuselection:`Manufacturing 
 .. i18n: +++++++++++++++++++++++++++++++++
 ..
 
-Producing an Intermediate Product
+在制品管理
 +++++++++++++++++++++++++++++++++
 
 .. i18n: To understand the implications of requirements calculation, you should know the configuration of the sold product. To do this, go to the form for product PC2 and click the link :guilabel:`Product BoM Structure` to the right. You get the scheme shown in :ref:`fig-mrpbomtree` which is the composition of the selected product.
@@ -347,7 +346,7 @@ The production order has to be in the closed state as shown in the figure :ref:`
 .. i18n: ++++++++++++++++++++++++++++++
 ..
 
-Finished Product Manufacturing
+生产完工流程
 ++++++++++++++++++++++++++++++
 
 .. i18n: Having manufactured the intermediate product CPU_GEN, OpenERP automatically proposes the manufacturing
@@ -402,7 +401,7 @@ Now that the production has been completed, the product sold to the customer has
 .. i18n: +++++++++++++++++++++
 ..
 
-Subproduct Production
+半成品(部件)生产
 +++++++++++++++++++++
 
 .. i18n: If you need to manage subproducts, you should install the module :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-
@@ -496,8 +495,8 @@ Secondary products enable you to generate several types of products from the sam
 .. i18n: +++++++++
 ..
 
-Scrapping
-+++++++++
+生产废品管理
++++++++++++++
 
 .. i18n: If you have to scrap the final product before it is finished, you will have to scrap every component allowed for this product. 
 ..
@@ -555,7 +554,7 @@ for further manufacturing orders; they have been moved to the production Stock L
 .. i18n: +++++++++++++++++
 ..
 
-Production Orders
+生产订单
 +++++++++++++++++
 
 .. i18n: To open a Production Order, use the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` and click the `New` button.
