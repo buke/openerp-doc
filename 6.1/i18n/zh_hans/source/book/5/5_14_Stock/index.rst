@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Logistics
 .. i18n:    single: Stock Management
@@ -18,7 +17,7 @@
 .. _ch-stocks:
 
 **************
-Your Warehouse
+仓库
 **************
 
 .. i18n:  *OpenERP's stock management is at once very simple, flexible and complete.
