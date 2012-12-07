@@ -103,7 +103,7 @@ OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为
 .. i18n: The usability team is also in charge of educating the developer teams. So, when the usability team detects developments which do not conform to these guidelines, they must contact the authors and ask the author of the module to improve his code according to specific guidelines. In this feedback email, the usability team links to each guideline that was infringed.
 ..
 
-The usability team is also in charge of educating the developer teams. So, when the usability team detects developments which do not conform to these guidelines, they must contact the authors and ask the author of the module to improve his code according to specific guidelines. In this feedback email, the usability team links to each guideline that was infringed.
+界面交互团队同时对开发人员进行培训。所以，当界面交互团队检查到不符合要求时，他们将会联系作者，并要求作者改善。在这个反馈过程中，界面交互团队将会具体指出违背了那些原则。
 
 .. i18n: Having set this process, a full-time team of several developers and functional experts, we expect OpenERP's usability to improve very quickly over time. If you want to propose a new improvement, the easiest way is to `write to the usability mailing list`_ with your suggestion.
 ..
