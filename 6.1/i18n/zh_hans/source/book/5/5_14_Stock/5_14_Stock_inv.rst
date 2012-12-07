@@ -1,9 +1,8 @@
-
 .. i18n: Managing Physical Inventory Structure
 .. i18n: =====================================
 ..
 
-Managing Physical Inventory Structure
+管理实际库存结构
 =====================================
 
 .. i18n: .. index::
@@ -16,7 +15,7 @@ Managing Physical Inventory Structure
 .. index::
 	single: Stock; Warehouse
 	
-Warehouse
+仓库
 ---------
 
 .. i18n: Warehouses are designed for physical locations from which you can deliver to the customer, and to which you
@@ -96,7 +95,7 @@ the warehouse has been defined, it can be used in:
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Automatic Procurement
+自动产生需求
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Several methods of automatically procuring products can be carried out by OpenERP:
@@ -126,7 +125,7 @@ The last two methods are described below.
 .. i18n: ^^^^^^^^^^^^^^^^^^^
 ..
 
-Minimum Stock Rules
+最小库存规则
 ^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To automatically make stock replenishment proposals, you can use minimum stock rules. Go to the menu
@@ -284,7 +283,7 @@ that warehouse. You can change that default location when the scheduler complete
 .. index::
 	single: Stock; Location
 	
-Location
+库位
 --------
 
 .. i18n: A location is one component of the warehouses that is used to managed all types of storage places, such as at the 
@@ -388,7 +387,7 @@ determine the location that is to be used for any given operation.
 .. i18n: example. You can then give it the address of that customer or supplier. Go to the partner form to tell OpenERP it should use this location rather than the default location given to partner deliveries.
 ..
 
-Location Addresses
+库位地址
 ^^^^^^^^^^^^^^^^^^
 Each location can have a specific address that enables you to create a location for a customer or a supplier, for
 example. You can then give it the address of that customer or supplier. Go to the partner form to tell OpenERP it should use this location rather than the default location given to partner deliveries.
@@ -483,7 +482,7 @@ The same co-ordinates could also be used to structure the shelves, aisles and in
 .. i18n: ^^^^^^^^^^^^^^^^
 ..
 
-Linked Locations
+链式库位
 ^^^^^^^^^^^^^^^^
 
 .. i18n: Locations in OpenERP can be linked between each other to define paths followed by products. So you can define
@@ -574,7 +573,7 @@ the initial order. In this way, you can add security lead times at certain contr
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Structuring Locations
+结构化库位
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: In the next part, you will see that by linking locations you can manage a whole series of complex cases for efficient production management:
@@ -717,7 +716,7 @@ You can see the location structure using :menuselection:`Warehouse --> Inventory
 ..
 
     
-Shop
+商店
 ----
 
 .. i18n: The counterparts for procurement, inventory and production operations are given by the locations shown in the
@@ -740,7 +739,7 @@ Once a shop is defined, you will be able to make sales orders from this shop. Yo
 .. i18n: -----
 ..
 
-Stock
+库存
 -----
 
 .. i18n: In the Product form, the ``Stock by Location`` action will give you the stock levels of the various products in any selected location. If you have not selected any location, OpenERP calculates stocks for all of the physical locations. When you are in the Stock by Location view, click the Print button to print the Location Content or the Location Inventory Overview reports.
@@ -832,7 +831,7 @@ In this respect, two important fields in the product form are:
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Lead Times and Locations
+提前期和库位
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: The tab **Procurement & Locations** in the Product form contains information about different lead times and
@@ -912,7 +911,7 @@ system. The quantities of product in this location cancel each other out.
 .. i18n: ^^^^^^^^^^^^^^^^^
 ..
 
-Initial Inventory
+期初库存
 ^^^^^^^^^^^^^^^^^
 
 .. i18n: Once a product has been defined, use an initial inventory operation to put current quantities into the system by
