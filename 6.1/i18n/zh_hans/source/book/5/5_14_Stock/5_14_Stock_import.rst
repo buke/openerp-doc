@@ -1,9 +1,8 @@
-
 .. i18n: Import / Export
 .. i18n: ===============
 ..
 
-Import / Export
+进口 / 出口
 ===============
 
 .. i18n: .. index::
@@ -85,7 +84,7 @@ like this:
 .. i18n: -----
 ..
 
-Stock
+库存
 -----
 
 .. i18n: The transit locations are linked between themselves with a manual confirmation step. The internal
@@ -140,7 +139,7 @@ configuration.
 .. i18n: ----------------
 ..
 
-Rental Locations
+租赁库位
 ----------------
 
 .. i18n: .. index::
@@ -253,7 +252,7 @@ The same principle is used for internal stock to generate quality control for ce
 .. i18n: ------------------
 ..
 
-Consigned Products
+委外加工产品
 ------------------
 
 .. i18n: The principle of linked locations is used to manage consigned products. You can specify that
