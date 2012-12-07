@@ -237,7 +237,7 @@ To visualise the general entries following these different actions, you can use 
 .. i18n: ---------------
 ..
 
-Analytic Models
+辅助核算模型
 ---------------
 
 .. i18n: Standard OpenERP allows you to post analytic entries to one chart at a time. Using the `Analytic Model` concept (install the option ``Multiple Analytic Plans`` from the `Add New Features` wizard), you can distribute your income or expenses to one or several analytic charts of account at the same time.
