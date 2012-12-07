@@ -1,4 +1,3 @@
-
 .. i18n: .. _license-link:
 .. i18n: 
 .. i18n: Introduction to Licenses
@@ -7,7 +6,7 @@
 
 .. _license-link:
 
-Introduction to Licenses
+协议介绍
 ------------------------
 
 .. i18n: OpenERP Server, Addons, GTK Client
