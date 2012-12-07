@@ -18,7 +18,7 @@
 .. i18n: ----------------------------------
 ..
 
-Integrated with General Accounting
+跟总账集成
 ----------------------------------
 
 .. i18n: Just as in general accounting, analytic entries should be related to an account and an analytic journal.
