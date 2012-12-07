@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Sales Management
 ..
@@ -16,7 +15,7 @@
 .. _ch-sales:
 
 ******************
-Driving your Sales
+驱动你的销售
 ******************
 
 .. i18n:   *This chapter describes OpenERP's sales management, following the complete sales order process from
