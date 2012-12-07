@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    pair: service; contract
 ..
@@ -10,7 +9,7 @@
 .. i18n: ==========================
 ..
 
-Managing Service Contracts
+管理服务合同
 ==========================
 
 .. i18n: Contracts can take different forms within OpenERP, depending on their nature. So you can have
@@ -60,7 +59,7 @@ several distinct types of service contracts, such as:
 .. i18n: ---------------------
 ..
 
-Fixed Price Contracts
+固定造价合同
 ---------------------
 
 .. i18n: Fixed price contracts for the sale of services are represented in OpenERP by a Sales Order. In
@@ -219,7 +218,7 @@ In this case you should create several invoices for the one Sales Order. You hav
 .. i18n: ----------------------------
 ..
 
-Cost-reimbursement Contracts
+成本补偿合同
 ----------------------------
 
 .. i18n: Some contracts are not invoiced from a price fixed on the order but from the cost of the services
