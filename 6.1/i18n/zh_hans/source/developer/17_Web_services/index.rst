@@ -1,18 +1,17 @@
-
 .. i18n: ============
 .. i18n: Introduction
 .. i18n: ============
 ..
 
 ============
-Introduction
+介绍
 ============
 
 .. i18n: How to load data ?
 .. i18n: ==================
 ..
 
-How to load data ?
+如何加载数据 ?
 ==================
 
 .. i18n:    #. Postgresql
@@ -34,7 +33,7 @@ How to load data ?
 .. i18n: ============================================
 ..
 
-How to backup/restore a Postgresql database?
+如何备份/恢复Postgresql 数据库?
 ============================================
 
 .. i18n: :backup:
@@ -159,7 +158,7 @@ XML-RPC Home Page\\\\ XML-RPC for C and C++\\\\ The Apache XML-RPC Project\\\\ E
 ..
 
 =================
-An example in PHP
+PHP 例子
 =================
 
 .. i18n: Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
@@ -240,7 +239,7 @@ Here is an example on how to insert a new partner using PHP. This example makes 
 ..
 
 ====================
-An example in Python
+Python 例子
 ====================
 
 .. i18n: Example of creation of a partner and their address.
