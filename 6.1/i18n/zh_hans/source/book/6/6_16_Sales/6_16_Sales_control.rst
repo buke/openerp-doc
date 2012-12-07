@@ -24,9 +24,9 @@
 .. i18n: The way the order is configured will determine its future behaviour:
 ..
 
-The way the order is configured will determine its future behaviour:
+以下字段决定订单的下一步流程:
 
-.. i18n: * :guilabel:`Picking Policy` : ``Partial Delivery`` or ``Complete Delivery``,
+.. i18n: * :guilabel:`Picking Policy` 装箱方式: ``Partial Delivery`` 分批交货 或 ``Complete Delivery`` 一次性交货,
 .. i18n: 
 .. i18n: * :guilabel:`Shipping Policy` : ``Shipping & Manual Invoice``, ``Payment Before Delivery``,
 .. i18n:   ``Invoice on Order After Delivery``, and ``Invoice from Delivery``,
