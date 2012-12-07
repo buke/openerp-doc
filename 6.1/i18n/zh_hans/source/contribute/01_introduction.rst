@@ -105,14 +105,13 @@ OpenERP 使用下列 Launchpad 的工具, 本指南将进一步介绍相关详�
 .. i18n: which only requires a few clicks.
 ..
 
-Anyone in the OpenERP Community is free to use any of the above features.
-The only requirement is to `sign up on Launchpad <https://login.launchpad.net/+new_account>`_ 
-and join the `OpenERP Community <https://launchpad.net/~openerp-community/+join>`_ team,
-which only requires a few clicks.
+OpeERP 的每一位社区成员只需要 `在 Launchpad 上注册 <https://login.launchpad.net/+new_account>`_ 
+并加入 `OpenERP 社区 <https://launchpad.net/~openerp-community/+join>`_ 组
+这样轻松点击几下都可以免费使用这些工具，
+
 
 .. i18n: Some additional team memberships are required in order to accomplish specific
 .. i18n: tasks, as explained in the corresponding sections of this Contribution Guide.
 ..
 
-Some additional team memberships are required in order to accomplish specific
-tasks, as explained in the corresponding sections of this Contribution Guide.
+还有后一些特定任务需要别的特殊的组来完成，你可以在贡献指南的相应部分看到相应解释。
