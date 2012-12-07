@@ -1,9 +1,8 @@
-
 .. i18n: Stock Location Example
 .. i18n: ++++++++++++++++++++++
 ..
 
-Stock Location Example
+库位例子
 ++++++++++++++++++++++
 
 .. i18n: In this section, we will develop a more detailed example that includes different concepts seen
