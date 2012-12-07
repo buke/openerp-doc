@@ -98,7 +98,7 @@ OpenERP SA 、官方合作伙伴、社区成员一直在讨论这些方法，为
 .. i18n: In order to check that all OpenERP modules respect the usability guidelines, the check of these guidelines is part of the quality certification process of new modules by OpenERP SA. So, we check that all official modules respect the above guidelines in order to make them become official.
 ..
 
-In order to check that all OpenERP modules respect the usability guidelines, the check of these guidelines is part of the quality certification process of new modules by OpenERP SA. So, we check that all official modules respect the above guidelines in order to make them become official.
+为了检查模块是否符合界面交互指南，我们把这些检查作为 OpenERP SA 新模块质量检查的一部分。因此，我们会检查所有官方模块是否符合上述方针。
 
 .. i18n: The usability team is also in charge of educating the developer teams. So, when the usability team detects developments which do not conform to these guidelines, they must contact the authors and ask the author of the module to improve his code according to specific guidelines. In this feedback email, the usability team links to each guideline that was infringed.
 ..
