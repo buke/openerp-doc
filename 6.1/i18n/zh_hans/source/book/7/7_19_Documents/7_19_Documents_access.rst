@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: FTP
 ..
 
@@ -8,7 +7,7 @@
 .. i18n: ======================================
 ..
 
-Internal and External Access using FTP
+完备的FTP内/外部访问权限控制
 ======================================
 
 .. i18n: .. index::
@@ -63,13 +62,13 @@ following address:
 ..
 
 ========= ==========================================
-Parameter Value
+参数      默认值
 ========= ==========================================
-Server    Your OpenERP server, for example 127.0.0.1
-Port      8021
-Path      The '/' character, for the root
-User      Your user account in OpenERP
-Password  Your OpenERP password
+Server    服务器监听地址 例如: 127.0.0.1
+Port      服务器监听端口 例如: 8021
+Path      服务器路径 默认'/' 代表根目录
+User      OpenERP 用户名
+Password  OpenERP 密码
 ========= ==========================================
 
 .. i18n: .. note:: FTP Server
@@ -82,7 +81,7 @@ Password  Your OpenERP password
 .. i18n:    at lowest cost.
 ..
 
-.. note:: FTP Server
+.. note:: FTP 服务器
 
    These comments about an FTP server may appear a bit technical, but
    it is just a general standard for getting hold of files without worrying too much about the platform
