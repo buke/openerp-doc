@@ -1,9 +1,8 @@
-
 .. i18n: Pricing Policies
 .. i18n: ================
 ..
 
-Pricing Policies
+灵活的价格体系
 ================
 
 .. i18n: Some companies are notorious for their complicated pricelists. Many forms of price variation are
@@ -165,7 +164,7 @@ rates can be **automatically** adjusted.
 .. i18n: --------------------
 ..
 
-Creating Price Lists
+创建价格表
 --------------------
 
 .. i18n: You can define a pricelist from the menu :menuselection:`Sales --> Configuration --> Pricelists --> Pricelists`.
@@ -202,7 +201,7 @@ For each list you should define:
 .. i18n: ^^^^^^^^^^^^^^^^^^^
 ..
 
-Price List Versions
+价格表版本
 ^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Once the pricelist is defined you have to link at least one version. You can create a new version directly from the pricelist or from the
@@ -260,7 +259,7 @@ Use the :guilabel:`Active` field in the versions to activate or disable a pricel
 .. i18n: ^^^^^^^^^^^^^^^^^
 ..
 
-Calculation Rules
+定价规则
 ^^^^^^^^^^^^^^^^^
 
 .. i18n: A pricelist version is made up of a set of rules that apply to the basic product prices.
@@ -435,7 +434,7 @@ its :guilabel:`Sales & Purchases` tab. You can then change the :guilabel:`Purcha
 
 .. _decimal_accuracy:
 
-Decimal Accuracy
+小数精度
 ^^^^^^^^^^^^^^^^
 There are several configuration settings related to the decimal accuracy of 
 prices, or the number of decimal places to hold with each price field. To change
@@ -478,7 +477,7 @@ the accuracy of a field, follow these steps:
 .. i18n: ----------------------
 ..
 
-Example of a Pricelist
+价格表应用示例
 ----------------------
 
 .. i18n: Take the case of an IT systems trading company, for which the following product categories have
@@ -491,7 +490,7 @@ been configured:
 .. i18n: All products
 ..
 
-All products
+所有产品
 
 .. i18n:  #. Accessories
 .. i18n: 
@@ -514,25 +513,25 @@ All products
 .. i18n:                  - Professional Computers
 ..
 
- #. Accessories
+ #. 配件
 
-                * Printers
+                * 打印机
 
-                * Scanners
+                * 扫描仪
 
-                * Keyboards and Mice
+                * 键鼠与耳麦
 
- #. Computers
+ #. 电脑
 
-                * Portables
+                * 笔记本
 
-                 - Large-screen portables
+                 - 一体机
 
-                * Computers
+                * 台式电脑
 
-                 - Office Computers
+                 - 办公用台式机
 
-                 - Professional Computers
+                 - 专业台式机
 
 .. i18n: In addition, the products presented in the table below are defined in the currency of the installed
 .. i18n: chart of accounts.
@@ -544,7 +543,7 @@ chart of accounts.
 .. i18n: TABLE
 ..
 
-TABLE
+表格
 
 .. i18n: .. csv-table:: Examples of products with their different prices
 .. i18n: 
@@ -557,11 +556,11 @@ TABLE
 
 .. csv-table:: Examples of products with their different prices
 
-   "Product ","Sale Price","Cost Price","Default supplier price",
-   "Acclo Portable","1,200 ","887 ","893 ",
-   "Toshibishi Portable","1,340 ","920 ","920 ",
-   "Berrel Keyboard","100 ","50 ","50 ",
-   "Office Computer","1,400 ","1,000 ","1,000 ",
+   "产品 ","销售价","成本价","采购价",
+   "Acclo 笔记本","1,200 ","887 ","893 ",
+   "Toshibishi 笔记本","1,340 ","920 ","920 ",
+   "Berrel 键盘","100 ","50 ","50 ",
+   "办公台式机","1,400 ","1,000 ","1,000 ",
 
 .. i18n: .. index::
 .. i18n:    single: pricelist; default pricelist
@@ -574,7 +573,7 @@ TABLE
 .. i18n: ^^^^^^^^^^^^^^^^^^^
 ..
 
-Default Price Lists
+默认价格表
 ^^^^^^^^^^^^^^^^^^^
 
 .. i18n: .. figure:: images/product_pricelist_default.png
@@ -588,7 +587,7 @@ Default Price Lists
    :scale: 75
    :align: center
 
-   *Default pricelist after installing OpenERP*
+   *OpenERP 默认的价格表*
 
 .. i18n: When you install the software, two pricelists are created by default: one for sales and one for
 .. i18n: purchases. Each of them contains only one pricelist version and only one line in that version.
@@ -622,7 +621,7 @@ the Cost Price of the product.
 .. i18n: ^^^^^^^^^^^^^^^
 ..
 
-Trading Company
+商贸类公司
 ^^^^^^^^^^^^^^^
 
 .. i18n: Take the case of a trading company, where the sales price for resellers can be defined like this:
