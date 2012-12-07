@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: evaluation
 .. i18n: ..
@@ -12,7 +11,7 @@
 .. i18n: =======================================
 ..
 
-Inspire your People through Assessments
+通过考评激励你的员工
 =======================================
 
 .. i18n: A motivated workforce of people can give the best outcome for an organization. OpenERP
@@ -181,7 +180,7 @@ If you use the GTK-client, it will be possible to open the form view of an evalu
 .. i18n: ---------------------
 ..
 
-Plan assessment dates
+计划考评日期
 ---------------------
 
 .. i18n: Once an evaluation plan is created, you can use it in an evaluation of an employee. Create a new evaluation from :menuselection:`Human Resources --> Evaluations --> Evaluations`. Select an :guilabel:`Employee` for whom this evaluation is being designed and select a :guilabel:`Plan` too. Here you must specify a deadline for the evaluation in the :guilabel:`Evaluation Deadline` field.
@@ -205,7 +204,7 @@ Although, evaluation reminders are sent based on the :guilabel:`First Evaluation
 .. i18n: -------------------------------
 ..
 
-Link survey and job evaluations
+连接调查和工作考评
 -------------------------------
 
 .. i18n: An evaluation plan is a sequence of phases, and each phase is linked to an appraisal form. This appraisal form is nothing but a survey, a tool for assessment through a questionnaire. Surveys are defined at :menuselection:`Tools --> Surveys --> Define Surveys --> Surveys`. When an evaluation is started, interview requests are automatically created based on evaluation plans. If you create additional interview requests, there too you have to link the interview to a :guilabel:`Survey`. You may link to a survey that is any state (even ``Draft``), but in order to start the interview, the linked survey must be in ``Open`` state.
