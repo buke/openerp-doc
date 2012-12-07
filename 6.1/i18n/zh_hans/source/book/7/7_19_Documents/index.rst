@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Document Management
 ..
@@ -12,7 +11,7 @@
 ..
 
 ******************************
-Integrated Document Management
+集成化文档管理
 ******************************
 
 .. i18n:  *Information management has become a major strategic factor in companies' development.
