@@ -89,7 +89,7 @@ You then get a margin analysis table. The following fields are displayed for the
    :scale: 75
    :align: center
 
-   *Margin Details for a Given Product*
+   *产品的详细利润明细*
 
 The following fields are given by product for purchases:
 
@@ -116,7 +116,7 @@ The following fields are given by product for margins:
 
 * :guilabel:`Expected Margin in percent`.
 
-Margins by Project
+项目的利润
 ------------------
 
 To manage margins by project, you should install the analytical accounts with management by task. The use
@@ -133,7 +133,7 @@ representing a project or a case, and several new reports on those accounts.
    :scale: 75
    :align: center
 
-   *Detail of margins for a case*
+   *项目的详细利润明细*
 
 Start by opening a project's analytic account through
 :menuselection:`Project --> Billing --> Overpassed Accounts`
