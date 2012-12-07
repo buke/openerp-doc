@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-ops:
 .. i18n: 
 .. i18n: ##################################
@@ -9,7 +8,7 @@
 .. _part-ops:
 
 ##################################
-Effective Management of Operations
+有效的运营管理
 ##################################
 
 .. i18n:  Your company is a closely interlinked jumble of people and processes that form the whole system.
