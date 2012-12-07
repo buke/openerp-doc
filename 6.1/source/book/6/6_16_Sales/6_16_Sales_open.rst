@@ -1,5 +1,4 @@
-
-Keeping Track of Open Orders
+深入了解销售单处理
 ============================
 
 .. index::
@@ -28,7 +27,7 @@ delivery planning there.
 In the order lines, OpenERP shows you the quantity planned in addition to the quantity sold. This way, you
 can verify whether the quantities sold equal the quantities to be delivered. On confirmation of the sales order, OpenERP no longer generates a single delivery order, but plans scheduled dispatches.
 
-.. tip:: Invoicing Mode
+.. tip:: 开票方式
 
    If you work with Open Orders, you should set :guilabel:`Invoice Control` to the mode ``Shipped Quantities``.
    Then the storesperson will be able to re-plan and change the quantities of the forecast deliveries
