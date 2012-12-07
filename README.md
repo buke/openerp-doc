@@ -32,6 +32,9 @@ OpenERP 中文文档翻译计划
 
 初次参与翻译请看（高手跳过）
 ------------------------------
+
+图文教程请看 http://shine-it.net/index.php/topic,4536.msg12575.html
+
 * 需要翻译的文件都是 reStructuredText (rst) 文件，翻译前请花几分钟看看 reStructuredText简明教程 https://github.com/buke/openerp-doc/wiki/reStructuredText%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B
 * 您可以直接在web 界面编辑翻译，在https://github.com/buke/openerp-doc 上选择要翻译的文件，比如 https://github.com/buke/openerp-doc/blob/master/6.1/i18n/zh_hans/source/faqs.rst 
 * 选择好文件之后，正常您会进入到 source view 模式，这时文件内容右上角 有个 Edit/Raw/Blame/History 按钮，点击 "Edit" 即可进入编辑模式。
