@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Human Resources; holidays
 .. i18n: ..
@@ -12,7 +11,7 @@
 .. i18n: ==================
 ..
 
-Holiday Management
+假期管理
 ==================
 
 .. i18n: You can manage leaves taken by employees using the :mod:`hr_holidays`
@@ -89,7 +88,7 @@ The statistical report for leaves can be seen using the
 .. i18n: ----------------------------
 ..
 
-Define different leave types
+定义不同的休假类型
 ----------------------------
 
 .. i18n: You can define various leave types which can be availed of by an employee during a request for leave. To define a new leave type, navigate to :menuselection:`Human Resources --> Configuration --> Holidays --> Leave Type` and click :guilabel:`New`.
@@ -144,7 +143,7 @@ After entering the leave type information, click :guilabel:`Save`.
 .. i18n: -------------------------------------
 ..
 
-Manage Holiday requests and approvals
+管理假期申请和批准
 -------------------------------------
 
 .. i18n: An employee can request for leave from :menuselection:`Human Resources --> Holidays --> Leave Requests`. In a new :guilabel:`Leave Requests` form, you may enter the following:
@@ -200,7 +199,7 @@ The employee can click :guilabel:`Confirm` to make the leave request available t
 .. i18n: -------------------------------
 ..
 
-Track previous Holiday requests
+跟踪前面的请假
 -------------------------------
 
 .. i18n: Previous holidays can be tracked in a number of ways in OpenERP. You can get a report of leave requests by all users from :menuselection:`Human Resources --> Holidays --> Leave Requests`. Click :guilabel:`Clear` and then :guilabel:`Validated` to see a list of all approved leave requests. To see refused requests, click :guilabel:`Clear` and see the records marked with the colour red.
@@ -270,7 +269,7 @@ To get an overview of leaves by department, go to :menuselection:`Human Resource
 .. i18n: ------------------------------------------------------
 ..
 
-Allow employees to enter their own allocation requests
+允许员工输入他们自己的分配请求
 ------------------------------------------------------
 
 .. i18n: To be able to request leaves at all, an employee must be allocated some leaves which he can avail of. Usually the management makes an allocation of leaves for its employees. But, for instance, when an employee has been working on an exceptional basis on weekends, he might be entitled to extra leaves. In such a case, the employee himself can be allowed to place a request for allocation, which can then be approved or rejected by his manager. If approved, the employee can request leaves based on the type and limit of this allocation too.
