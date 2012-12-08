@@ -85,7 +85,7 @@ There is a direct link between the project and the analytic account, because for
 .. i18n: -----------------------------------
 ..
 
-Creating Projects and Related Tasks
+创建项目和相关项目任务
 -----------------------------------
 
 .. i18n: To define a new project, go to the menu :menuselection:`Project --> Project --> Projects`.
@@ -220,7 +220,7 @@ The `Task Stages` tab allows you to define stages that help you divide your task
 .. i18n: --------------
 ..
 
-Managing Tasks
+任务管理
 --------------
 
 .. i18n: Once a project has been defined, you can enter the tasks to be executed. You have two possibilities for this:
@@ -325,7 +325,7 @@ The `Delegations` tab allows you to define links between your tasks. From `Paren
 .. i18n: ---------------
 ..
 
-Invoicing Tasks
+开票任务
 ---------------
 
 .. i18n: Several methods of invoicing have already been described:
@@ -447,7 +447,7 @@ Click the action :guilabel:`Invoice analytic lines` when you want to create an i
 .. i18n: -------------------
 ..
 
-Priority Management
+项目优先级管理
 -------------------
 
 .. i18n: Several methods can be used for ordering tasks by their respective priorities. OpenERP orders
