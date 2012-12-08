@@ -1,16 +1,15 @@
-
 .. i18n: Purchase Analysis through Analytic Accounts
 .. i18n: ===========================================
 ..
 
-Purchase Analysis through Analytic Accounts
+通过辅助核算项进行采购分析
 ===========================================
 
 .. i18n: Powerful Statistics
 .. i18n: -------------------
 ..
 
-Powerful Statistics
+强大的统计
 -------------------
 
 .. i18n: .. index::
@@ -303,7 +302,7 @@ with :mod:`sale` and its dependencies installed, and no particular chart of acco
 .. i18n: -----------------------------------------------------
 ..
 
-To Each Enterprise its own Analytic Chart of Accounts
+每个企业自己的辅助核算科目表
 -----------------------------------------------------
 
 .. i18n: To illustrate analytic accounts clearly, you will follow three use cases, each in one of three
