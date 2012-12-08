@@ -11,7 +11,7 @@
 .. i18n: ==============================
 ..
 
-提高领导艺术的规划
+提高领导能力的规划
 ==============================
 
 .. i18n: Planning in a company often takes the form of regular meetings between the different teams. Each
@@ -117,7 +117,7 @@ The planning function covers several objectives which will be described in this 
 .. i18n: -----------------------------
 ..
 
-Planning by Time or by Tasks?
+按时间还是按任务作计划？
 -----------------------------
 
 .. i18n: There are two major approaches to enterprise planning: planning by task and planning by time. You
@@ -302,7 +302,7 @@ resources on projects from the task prioritization within a project.
 .. i18n: --------------
 ..
 
-Plan your Time
+计划你的时间
 --------------
 
 .. i18n: Install the module :mod:`project_planning` to get additional functions
@@ -412,7 +412,7 @@ You can also study several of your project's figures from the menus in :menusele
 .. i18n: ---------------------------------------
 ..
 
-Planning at all Levels of the Hierarchy
+在层次每个级别都进行计划
 ---------------------------------------
 
 .. i18n: .. index::
