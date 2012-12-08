@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Real Case
 ..
@@ -16,7 +15,7 @@
 .. _ch-real:
 
 ***********************************
-How does it apply to your Business?
+如何应用到你的业务中?
 ***********************************
 
 .. i18n:  *Now that you have discovered some of the many possibilities of OpenERP from a tour of the
