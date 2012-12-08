@@ -7,8 +7,8 @@
 .. i18n: ===============
 ..
 
-不墨守成规
-===============
+不符合要求的事项
+=================
 
 .. i18n: .. index::
 .. i18n:    single: nonconformity
@@ -24,7 +24,7 @@
 .. i18n: from the menu :menuselection:`Management System --> Configuration --> Nonconformities`.
 ..
 
-Prior to create a nonconformity, you need to create the list of origins (how you 
+Prior to create a non conformity, you need to create the list of origins (how you 
 discovered your nonconformities) and causes (the root causes) of your nonconformities 
 from the menu :menuselection:`Management System --> Configuration --> Nonconformities`.
 
