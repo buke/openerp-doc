@@ -628,7 +628,7 @@ on it, then caller can provide any kind of iterator or container)
 .. i18n: ----------------------------------------------------------------
 ..
 
-Don't use ``type`` if you already know what the type you want is
+除非你知道要的是什么类型，否则不要使用 ``type`` 
 ----------------------------------------------------------------
 
 .. i18n: The type of a list is ``list``, the type of a dict is ``dict``:
