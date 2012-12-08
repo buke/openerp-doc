@@ -1,9 +1,8 @@
-
 .. i18n: Standardizing Structures
 .. i18n: ========================
 ..
 
-Standardizing Structures
+标准结构
 ========================
 
 .. i18n: You now have a configuration that enables you to automatically get a directory structure linked to
