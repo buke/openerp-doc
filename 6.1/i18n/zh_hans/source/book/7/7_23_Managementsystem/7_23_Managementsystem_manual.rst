@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: Manuals
 ..
 
@@ -8,7 +7,7 @@
 .. i18n: =======
 ..
 
-Manuals
+指南
 =======
 
 .. i18n: .. index::
@@ -46,7 +45,7 @@ You can fill in the blanks in the structure of the wiki page from the menu :menu
 .. i18n: ====================================
 ..
 
-Procedures and Environmental Aspects
+程序和环境方面
 ====================================
 
 .. i18n: .. index::
