@@ -386,7 +386,7 @@ but there is no point whatsoever in creating a dict for the sake of passing it a
 .. i18n: Temporary variables can make the code clearer by giving names to objects, but that doesn't mean you should create temporary variables all the time:
 ..
 
-无用的中间变量
+没必要的中间变量
 ------------------------------
 Temporary variables can make the code clearer by giving names to objects, but that doesn't mean you should create temporary variables all the time:
 
@@ -412,7 +412,7 @@ Temporary variables can make the code clearer by giving names to objects, but th
 .. i18n: A bit of redundancy can be accepted: maybe you have to get the content of an axis:
 ..
 
-3 strikes, and the code's out
+让冗余代码三振出局
 -----------------------------
 A bit of redundancy can be accepted: maybe you have to get the content of an axis:
 
