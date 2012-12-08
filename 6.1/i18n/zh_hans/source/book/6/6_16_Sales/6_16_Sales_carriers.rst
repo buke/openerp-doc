@@ -1,9 +1,8 @@
-
 .. i18n: Management of Carriers
 .. i18n: ======================
 ..
 
-Management of Carriers
+运输管理
 ======================
 
 .. i18n: .. index::
@@ -123,7 +122,7 @@ configuration, but it has the disadvantage that you will not be able to separate
 .. i18n: ------------
 ..
 
-Tariff Grids
+价目表
 ------------
 
 .. i18n: Unlike ordinary products, delivery prices are not proposed through pricelists but through delivery grids,
@@ -269,7 +268,7 @@ delivery if the total order amount is greater than 150 USD, add the following ru
 .. i18n: --------------
 ..
 
-Delivery Modes
+交货方式
 --------------
 
 .. i18n: Once the delivery modes and their corresponding tariffs have been defined, you can use them in a Sales Order. 
@@ -292,7 +291,7 @@ There are two methods for doing that in OpenERP.
 .. i18n: ------------------------------------
 ..
 
-Delivery based on Ordered Quantities
+基于订单数量交付
 ------------------------------------
 
 .. i18n: To add the delivery charges (or transport costs) to the quotation, use the button :guilabel:`Delivery Costs` available on the `Sales Order` tab of the form. A dialog box opens, asking you to select a delivery mode from the list available.
@@ -335,7 +334,7 @@ invoicing based on deliveries.
 .. i18n: ------------------------------------
 ..
 
-Delivery based on Shipped Quantities
+基于发货数量交付
 ------------------------------------
 
 .. i18n: To invoice the delivery according to the items shipped, you set the delivery mode in the
