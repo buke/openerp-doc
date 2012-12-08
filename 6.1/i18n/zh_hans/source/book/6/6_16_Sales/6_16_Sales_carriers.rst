@@ -113,14 +113,13 @@
 .. i18n: configuration, but it has the disadvantage that you will not be able to separate your sales figures by delivery mode.
 ..
 
-You can use the same product for several delivery modes. This simplifies the
-configuration, but it has the disadvantage that you will not be able to separate your sales figures by delivery mode.
+您可以在几种送货方式中使用相同的产品。这将简化配置，但其缺点是您不能按发货模式区分销售数据。
 
 .. i18n: Tariff Grids
 .. i18n: ------------
 ..
 
-价目表
+送货价格表
 ------------
 
 .. i18n: Unlike ordinary products, delivery prices are not proposed through pricelists but through delivery grids,
@@ -128,16 +127,13 @@ configuration, but it has the disadvantage that you will not be able to separate
 .. i18n: Each grid is used for a given region/destination.
 ..
 
-Unlike ordinary products, delivery prices are not proposed through pricelists but through delivery grids,
-designed specifically for this purpose. For each delivery mode, you enter one or several tariff grids.
-Each grid is used for a given region/destination.
+与普通产品不同，运费不是通过价格表（pricelists）计算，而是通过专为此设计的运费表计算。 对于每种送货方式，您可以输入一个或几个资费表。每一个资费表用于一个给定区域或目的地。
 
 .. i18n: For example, for the postal tariffs for Priority Courier, you generally define the three tariff grids
 .. i18n: for Mail Office:
 ..
 
-For example, for the postal tariffs for Priority Courier, you generally define the three tariff grids
-for Mail Office:
+例如，对于邮费，您通常可以定义三种资费：
 
 .. i18n: * National Courier,
 .. i18n: 
@@ -146,11 +142,11 @@ for Mail Office:
 .. i18n: * Courier Outside Europe.
 ..
 
-* National Courier,
+* 国内邮费,
 
-* Courier in Europe,
+* 欧洲邮费,
 
-* Courier Outside Europe.
+* 其他地区邮费.
 
 .. i18n: To define a new delivery grid, use the menu :menuselection:`Warehouse --> Configuration -->
 .. i18n: Delivery --> Delivery Pricelist`. Give a name to your delivery grid and define the
