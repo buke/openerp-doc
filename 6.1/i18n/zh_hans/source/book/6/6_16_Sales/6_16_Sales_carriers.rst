@@ -284,7 +284,7 @@
 .. i18n: To add the delivery charges (or transport costs) to the quotation, use the button :guilabel:`Delivery Costs` available on the `Sales Order` tab of the form. A dialog box opens, asking you to select a delivery mode from the list available.
 ..
 
-To add the delivery charges (or transport costs) to the quotation, use the button :guilabel:`Delivery Costs` available on the `Sales Order` tab of the form. A dialog box opens, asking you to select a delivery mode from the list available.
+为了在报价单上增加运费，请点击销售订单页上的  :guilabel:`Delivery Costs` “送货成本”按钮。打开一个对话框，要求您选择一个预先设定的可用送货模式。
 
 .. i18n: .. figure:: images/sale_delivery.png
 .. i18n:    :scale: 75
@@ -297,7 +297,7 @@ To add the delivery charges (or transport costs) to the quotation, use the butto
    :scale: 75
    :align: center
 
-   *Adding Transport Costs to an Order*
+   *在销售订单上增加运费*
 
 .. i18n: Once the delivery mode has been selected, OpenERP automatically adds a line to the quotation with
 .. i18n: the amount calculated by the delivery function. This technique enables you to calculate the
@@ -305,17 +305,14 @@ To add the delivery charges (or transport costs) to the quotation, use the butto
 .. i18n: to the customer.
 ..
 
-Once the delivery mode has been selected, OpenERP automatically adds a line to the quotation with
-the amount calculated by the delivery function. This technique enables you to calculate the
-delivery charge based on the order and then, separately, how the products will really be delivered
-to the customer.
+
+选择了送货方式之后，OpenERP 会在订单（草稿状态）上增加一行运费。这个方法使您能够基于订单计算运费，以及产品的物流运输方法。
 
 .. i18n: If you want to calculate the exact delivery charges depending on the actual deliveries, you must use
 .. i18n: invoicing based on deliveries.
 ..
 
-If you want to calculate the exact delivery charges depending on the actual deliveries, you must use
-invoicing based on deliveries.
+如果您想根据实际的发生的运费开票，就必须使用“基于发货数量交付”的开票方法。
 
 .. i18n: Delivery based on Shipped Quantities
 .. i18n: ------------------------------------
