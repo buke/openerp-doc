@@ -31,13 +31,11 @@
 ..
 
   *这一章主要讲述Openerp的销售管理，包括从报价到客户订单的销售订单处理过程，以及发货管理及发票。 
-  这一章并不包含客户关系及售前管理，这两个功能呢个由CRM（客户关系管理）模块处理，在本书的早期章节中已经有所描述。*
+  这一章并不包含客户关系及售前管理，这两个功能主要由CRM（客户关系管理）模块处理，在本书的早期章节中已经有所描述。*
   
-  *It also describes the management of carriers, margin control and reporting,
-  price management and the handling of various types of sales discount campaigns.*
+  *这一章还讲述了运输管理，利润管理，报表，价格管理，及处理各种类型的销售优惠活动。*
   
-For this chapter you should start with a fresh database that includes demonstration data,
-with :mod:`sale` and its dependencies installed and no particular chart of accounts configured. 
+这一章的学习应该从一个全新的包含示例数据的数据库开始，并安装’销售‘模块，不需要特别的会计科目表设置。 
 
 .. i18n: .. raw:: html
 .. i18n: 
