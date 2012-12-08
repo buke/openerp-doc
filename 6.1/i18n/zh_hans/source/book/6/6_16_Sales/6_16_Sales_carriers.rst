@@ -90,7 +90,7 @@
 .. i18n:    ================    ===============   ==========================
 ..
 
-.. table:: Example Delivery Modes
+.. table:: 送货模式举例
 
    ================    ===============   ==========================
    运送方式            物流公司          送货产品（服务型产品）
@@ -106,9 +106,8 @@
 .. i18n: :guilabel:`Product Type` ``Service`` and :guilabel:`Procurement Method` ``Make to Stock``.
 ..
 
-Information about the invoicing of transport (such as accounts, applicable taxes) is entered in the
-product linked to the delivery mode. Ideally the product should be configured with 
-:guilabel:`Product Type` ``Service`` and :guilabel:`Procurement Method` ``Make to Stock``.
+在送货方式链接的产品上输入运输开票的信息（例如帐户、适用税）。理论上，这个 :guilabel:`Product Type` 产品类型设置为服务型，:guilabel:`Procurement Method` 供应方式设置为“按库存生产”。
+
 
 .. i18n: You can use the same product for several delivery modes. This simplifies the
 .. i18n: configuration, but it has the disadvantage that you will not be able to separate your sales figures by delivery mode.
