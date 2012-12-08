@@ -88,7 +88,7 @@ As tests are performed server side, you don't need to write things like
 .. i18n: Try to use functional terms instead of object
 ..
 
-Be precise about the goal of the test
+精确的测试目标
 ------------------------------------------
 Try to use functional terms instead of object
 
@@ -199,7 +199,7 @@ Try to use functional terms instead of object
 .. i18n:     create your own data or find a way to work with ids instead of names.
 ..
 
-Avoid relying on data that can be changed by the user before launching the test
+尽量避免依赖那些会被用户修改的数据
 -------------------------------------------------------------------------------
     ::
 
