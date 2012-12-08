@@ -567,7 +567,7 @@ calculates a project plan for earliest delivery using task ordering and the work
 .. i18n: -------------------
 ..
 
-Delegate your Tasks
+任务委派
 -------------------
 
 .. i18n: To delegate a task to another user, you can just change the person responsible for that task. However,
