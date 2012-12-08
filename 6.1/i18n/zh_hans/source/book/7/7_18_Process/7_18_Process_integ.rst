@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: process integration
 .. i18n:    
@@ -9,7 +8,7 @@
 .. index::
    single: process integration
    
-Process Integration in the Management System
+管理系统的过程集成
 ============================================
 
 .. i18n: Processes are at the heart of a company: they form a structure for all
@@ -53,7 +52,7 @@ company's processes to put them into operation in OpenERP.
 .. i18n: -------------------
 ..
 
-Examples of Process
+过程举例
 -------------------
 
 .. i18n: To understand the aims of the system of Corporate Intelligence (process)
