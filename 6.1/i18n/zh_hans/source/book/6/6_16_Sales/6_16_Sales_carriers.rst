@@ -325,13 +325,13 @@
 .. i18n: :guilabel:`Delivery Method` field on the second tab of the order, :guilabel:`Other Information`, to :guilabel:`Invoice from Delivery`. 
 ..
 
-To invoice the delivery according to the items shipped, you set the delivery mode in the
-:guilabel:`Delivery Method` field on the second tab of the order, :guilabel:`Other Information`, to :guilabel:`Invoice from Delivery`. 
+
+为已发货的产品开具运费发票，在销售订单中的“其他信息”-> “送货方式”设置。不需要在销售订单中增加运费，这样可以把运费添加到发票中。
 
 .. i18n: You can then confirm the order, and when the goods are available you can also validate the delivery order.
 ..
 
-You can then confirm the order, and when the goods are available you can also validate the delivery order.
+为了这个功能正常工作，您的订单必须设置结算方式为“按发货单开发票”。然后确认订单，并确认交货。
 
 .. i18n: The transport costs will not be added to the sales order, but only to the invoice.
 .. i18n: When the manager has generated the invoices corresponding to the deliveries carried out,
@@ -339,10 +339,9 @@ You can then confirm the order, and when the goods are available you can also va
 .. i18n: on the basis of the items actually sent.
 ..
 
-The transport costs will not be added to the sales order, but only to the invoice.
-When the manager has generated the invoices corresponding to the deliveries carried out,
-OpenERP automatically adds a line on each invoice corresponding to the delivery charge, calculated
-on the basis of the items actually sent.
+
+当销售管理者按照已执行的发货方式生成销售发票是，OpenERP自动在每张销售发票上增加相应的运费，运费的计算基于实际发生的费用。
+
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
