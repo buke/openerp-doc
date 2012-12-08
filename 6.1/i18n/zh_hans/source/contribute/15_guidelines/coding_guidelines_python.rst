@@ -887,7 +887,7 @@ Excellent resources for this are the official stdlib documentation (http://docs.
 .. i18n: ----------------------------
 ..
 
-Collections are booleans too
+Collections 也是布尔类型
 ----------------------------
 
 .. i18n: In python, many objects have "boolean-ish" value when evaluated in a boolean context (such as an ``if``). Among these are collections (lists, dicts, sets, …) which are "falsy" when empty and "truthy" when containing items:
@@ -936,7 +936,7 @@ therefore, no need to call ``len``:
 .. i18n: -------------------------------------------------
 ..
 
-You can append a single object to a list, it's ok
+你可以把一个对象添加到列表中
 -------------------------------------------------
 
 .. i18n: .. code-block:: python
@@ -966,7 +966,7 @@ You can append a single object to a list, it's ok
 .. i18n: ---------------------------
 ..
 
-Add lists into bigger lists
+列表相加
 ---------------------------
 
 .. i18n: .. code-block:: python
@@ -992,7 +992,7 @@ Add lists into bigger lists
 .. i18n: -------------------------------
 ..
 
-Learn your standard library (2)
+学习你的标准库 (2)
 -------------------------------
 
 .. i18n: Itertools is your friend for all things iterable:
@@ -1035,7 +1035,7 @@ Itertools is your friend for all things iterable:
 .. i18n: --------------------
 ..
 
-Iterate on iterables
+遍历可迭代对象
 --------------------
 
 .. i18n: .. code-block:: python
@@ -1073,7 +1073,7 @@ Iterate on iterables
 .. i18n: --------------------------------------------------------------
 ..
 
-Chaining calls is ok, as long as you don't abuse it (too much)
+链接调用是可以的，只要你不要滥用
 --------------------------------------------------------------
 
 .. i18n: .. code-block:: python
@@ -1115,7 +1115,7 @@ know when to do step-in and step-out.
 .. i18n: -------------------
 ..
 
-Use dict.setdefault
+使用 dict.setdefault
 -------------------
 
 .. i18n: If you need to modify a nested container for example:
