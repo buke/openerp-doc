@@ -568,7 +568,7 @@ The refactoring could also be an improvement of a method already called (be sure
 .. i18n: ---------------------------------------------------
 ..
 
-Multiple return points are OK, when they're simpler
+简单的多个返回点是可以接受的
 ---------------------------------------------------
 
 .. i18n: .. code-block:: python
@@ -612,7 +612,7 @@ Multiple return points are OK, when they're simpler
 .. i18n: -------------------------
 ..
 
-Try to avoid type-testing
+尽量避免类型测试
 -------------------------
 
 .. i18n: Python is a dynamically typed languages, if you don't absolutely need to
