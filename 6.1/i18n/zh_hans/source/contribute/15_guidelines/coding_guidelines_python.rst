@@ -695,7 +695,7 @@ plus Python types are singletons, so you can just test for identity, it reads be
 .. i18n: -----------------------------------------------------------------------
 ..
 
-But really, if you need type testing just use the tools python provides
+如果真的想用，那就用python提供的类型测试
 -----------------------------------------------------------------------
 
 .. i18n: The previous piece of code will fail if the caller provided a *subclass* of ``list`` (which is possible and allowed), because ``==`` and ``is`` don't check for subtypes. ``isinstance`` does:
@@ -726,7 +726,7 @@ The previous piece of code will fail if the caller provided a *subclass* of ``li
 .. i18n: ---------------------------------------------
 ..
 
-Don't create functions just to call callables
+不要只是为了调用函数而创造新函数
 ---------------------------------------------
 
 .. i18n: .. code-block:: python
@@ -748,7 +748,7 @@ Don't create functions just to call callables
 .. i18n: ------------------
 ..
 
-Know your builtins
+了解内建函数
 ------------------
 
 .. i18n: You should at least have a basic understanding of all the Python builtins (http://docs.python.org/library/functions.html)
@@ -807,7 +807,7 @@ Also, ``if 'key' in my_dict`` and ``if my_dict.get('key')`` have very different 
 .. i18n: -------------------------
 ..
 
-Learn list comprehensions
+学习列表推导式
 -------------------------
 
 .. i18n: When used correctly, list comprehensions can greatly enhance the quality of a piece of code when mapping and/or filtering collections:
@@ -843,7 +843,7 @@ But beware: with great power comes great responsibility, and list comprehensions
 .. i18n: ---------------------------
 ..
 
-Learn your standard library
+学习你的标准库
 ---------------------------
 
 .. i18n: Python is provided "with batteries included", but these batteries are often
