@@ -15,7 +15,7 @@
 .. _ch-sales:
 
 ******************
-驱动你的销售
+为你的销售提供助力
 ******************
 
 .. i18n:   *This chapter describes OpenERP's sales management, following the complete sales order process from
@@ -30,10 +30,8 @@
 .. i18n: with :mod:`sale` and its dependencies installed and no particular chart of accounts configured. 
 ..
 
-  *This chapter describes OpenERP's sales management, following the complete sales order process from
-  quotation to customer order, including the management of deliveries and invoicing. 
-  It does not look at customer relations and pre-sales, which are handled by the CRM
-  (Customer Relationship Management) modules described in an earlier part of the book.*
+  *这一章主要讲述Openerp的销售管理，包括从报价到客户订单的销售订单处理过程，以及发货管理及发票。 
+  这一章并不包含客户关系及售前管理，这两个功能呢个由CRM（客户关系管理）模块处理，在本书的早期章节中已经有所描述。*
   
   *It also describes the management of carriers, margin control and reporting,
   price management and the handling of various types of sales discount campaigns.*
