@@ -485,7 +485,7 @@ Some examples on a CRM Lead resource:
 .. i18n: ++++++++++++++++++++++++++++++++++
 ..
 
-Guidelines for Creating a Campaign
+创建营销活动的指导方针
 ++++++++++++++++++++++++++++++++++
 
 .. i18n:  * It is a good idea to have an initial activity that will change some fields on the objects entering the campaign to mark them as such, to avoid mixing them in other processes (e.g. set a specific state and Sales Team on a CRM lead being processed by a campaign). You can also define a time delay so that the campaign seems more human (note if the answer comes in a matter of seconds or minutes it is computer generated).
@@ -752,7 +752,7 @@ Where:
 .. i18n: -------------------------------------
 ..
 
-Pushing your Campaign Results further
+进一步推动营销活动的成果
 -------------------------------------
 
 .. i18n: Of course, Marketing Campaigns can only be effective when you also do something with the results. OpenERP offers analysis features to help you better manage future campaigns based on the outcome of past campaigns. Learning from your results, that is.
