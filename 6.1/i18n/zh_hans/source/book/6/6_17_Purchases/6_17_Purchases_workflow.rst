@@ -1,9 +1,8 @@
-
 .. i18n: All the Elements of a Complete Workflow
 .. i18n: =======================================
 ..
 
-All the Elements of a Complete Workflow
+完整工作流的所有元素
 =======================================
 
 .. i18n: The supplier or purchase order is the document that lets you manage price negotiations, control supplier invoices, handle goods receipts and synchronize all of these documents.
@@ -37,7 +36,7 @@ Let us start by looking at the following order workflow:
 .. i18n: ------------------------
 ..
 
-Setting up your Database
+设置数据库
 ------------------------
 
 .. i18n: To set up a system for these examples, create a new database with demonstration data in it, and
@@ -67,7 +66,7 @@ the remainder of this chapter logged in as the *admin* user.
 .. i18n: -------------------------------
 ..
 
-Price Request from the Supplier
+从供应商询价
 -------------------------------
 
 .. i18n: To enter data for a new supplier price request (i.e. request for quotation), use the menu :menuselection:`Purchases --> Purchase Management -->
@@ -296,7 +295,7 @@ No further changes are possible.
 .. i18n: -------------
 ..
 
-Goods Receipt
+收货
 -------------
 
 .. i18n: Once the order has been approved, OpenERP automatically prepares the goods receipt order in the
@@ -363,7 +362,7 @@ receipt and invoicing if you return to the list of orders.
 .. i18n: --------------------
 ..
 
-Control of Invoicing
+开发票管理
 --------------------
 
 .. i18n: To control supplier invoicing, OpenERP provides three systems as standard, which can differ order
@@ -423,7 +422,7 @@ The mode of invoicing control is set in the second tab of the purchase order in 
 .. i18n: -----------------------
 ..
 
-Control based on Orders
+基于订单管理
 -----------------------
 
 .. i18n: If you selected your invoicing control based on orders, OpenERP will automatically generate a
@@ -466,7 +465,7 @@ controlled by goods receipt.
 .. i18n: ------------------------------
 ..
 
-Control based on Goods Receipt
+基于收货管理
 ------------------------------
 
 .. i18n: To control your supplier invoices based on goods receipt, set the field :guilabel:`Invoicing
@@ -569,7 +568,7 @@ invoices you.
 .. i18n: -------
 ..
 
-Tenders
+招标
 -------
 
 .. i18n: .. index::
@@ -636,7 +635,7 @@ cancelled by OpenERP if you selected the Purchase Requisition (exclusive) type. 
 .. i18n: ---------------
 ..
 
-Price Revisions
+价格版本
 ---------------
 
 .. i18n: OpenERP supports several methods of calculating and automatically updating product costs:
@@ -685,7 +684,7 @@ everything directly related to the received cost. You could include such element
 .. i18n: ^^^^^^^^^^^^^^
 ..
 
-Standard Price
+标准价格
 ^^^^^^^^^^^^^^
 
 .. i18n: The mode of price management for the product is shown in the tab :guilabel:`Information` on the product form.
@@ -762,7 +761,7 @@ manufacturing operations given in the routing.
 .. i18n: ^^^^^^^^^^^^^
 ..
 
-Average Price
+平均价格
 ^^^^^^^^^^^^^
 
 .. i18n: Working with standard prices does not lend itself well to the management of the cost price of products
