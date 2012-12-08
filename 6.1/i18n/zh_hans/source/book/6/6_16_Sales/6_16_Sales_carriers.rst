@@ -190,21 +190,21 @@
 .. i18n: Next you can set the sales price and the cost price. Prices can be expressed in various ways:
 ..
 
-Next you can set the sales price and the cost price. Prices can be expressed in various ways:
+接着，您可以设置销售价格和成本价格。价格可以用不同方式表示：
 
 .. i18n: * a fixed price,
 .. i18n: 
 .. i18n: * a variable price, as a function of weight, volume, weight x volume or price.
 ..
 
-* a fixed price,
+* 固定价格,
 
-* a variable price, as a function of weight, volume, weight x volume or price.
+* 可变价格 按照重量、体积 或者 重量×体积计算.
 
 .. i18n: For example, mailing within France using current tariffs would be defined as shown in the table below:
 ..
 
-For example, mailing within France using current tariffs would be defined as shown in the table below:
+例如，在法国用当前的资费邮递，可以使用以下表格
 
 .. i18n: .. table:: Example Tariff Rules
 .. i18n: 
@@ -218,15 +218,15 @@ For example, mailing within France using current tariffs would be defined as sho
 .. i18n:    ==========  =============  =====   =============
 ..
 
-.. table:: Example Tariff Rules
+.. table:: 资费规则
 
    ==========  =============  =====   =============
-   Name        Condition      Price   Price Type
+   名称        条件           价格    价格类型
    ==========  =============  =====   =============
-   S           Weight < 3 kg  6.90    Fixed
-   M           Weight < 5 kg  7.82    Fixed
-   L           Weight < 6 kg  8.53    Fixed
-   XL          Weight < 7 kg  9.87    Fixed
+   S           重量 < 3 kg    6.90    固定价格
+   M           重量 < 5 kg    7.82    固定价格
+   L           重量 < 6 kg    8.53    固定价格
+   XL          重量 < 7 kg    9.87    固定价格
    ==========  =============  =====   =============
 
 .. i18n: You can also define rules that depend on the total amount on the order. For example to offer fixed price
