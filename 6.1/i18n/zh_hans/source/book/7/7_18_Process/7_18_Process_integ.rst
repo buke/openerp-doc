@@ -8,7 +8,7 @@
 .. index::
    single: process integration
    
-管理系统的过程集成
+管理系统的流程集成
 ============================================
 
 .. i18n: Processes are at the heart of a company: they form a structure for all
@@ -84,7 +84,7 @@ two processes:
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Following a Customer Sales Order
+跟踪客户销售订单
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: The example :ref:`fig-procquot` shows the process for handling a customer sales order. Use
@@ -178,7 +178,7 @@ links or icons on it:
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-New Employee Induction
+新员工入职
 ^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: Open the employee form for Fabien Pinckaers from the menu
