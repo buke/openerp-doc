@@ -53,14 +53,12 @@
 .. i18n: --> Configuration --> Delivery --> Delivery Method` to create your company's delivery modes.
 ..
 
-Once the :mod:`delivery` module has been installed, the first thing to do is to configure the different
-modes of delivery accepted by your company. Go to the menu :menuselection:`Warehouse
---> Configuration --> Delivery --> Delivery Method` to create your company's delivery modes.
+安装 :mod:`delivery` 模块后，首先要设置送货方式。菜单“仓库->设置->送货 ->送货方式“
 
 .. i18n: For each delivery mode, you should define the following elements:
 ..
 
-For each delivery mode, you should define the following elements:
+对于每种送货方式，您需要定义以下内容：
 
 .. i18n: * Name of the delivery mode,
 .. i18n: 
@@ -69,16 +67,16 @@ For each delivery mode, you should define the following elements:
 .. i18n: * The associated product.
 ..
 
-* Name of the delivery mode,
+* 送货方式的名称 
 
-* The partner associated with the transport (which can be your own company),
+* 物流公司（可以是您的公司）
 
-* The associated product.
+* 送货产品（服务型产品）
 
 .. i18n: Let's give you an example:
 ..
 
-Let's give you an example:
+举例如下：
 
 .. i18n: .. table:: Example Delivery Modes
 .. i18n: 
@@ -95,7 +93,7 @@ Let's give you an example:
 .. table:: Example Delivery Modes
 
    ================    ===============   ==========================
-   Carrier             Carrier Partner   Delivery Product
+   运送方式            物流公司          送货产品（服务型产品）
    ================    ===============   ==========================
    Express Track       Mail Office       Express Track Delivery
    Priority Courier    Mail Office       Courier Express Delivery
