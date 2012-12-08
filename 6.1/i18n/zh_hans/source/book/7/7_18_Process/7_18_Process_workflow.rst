@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: 
 .. i18n:    single: process
 .. i18n:    single: workflow
@@ -12,7 +11,7 @@
 .. i18n: ============================
 ..
 
-Workflows and User Processes
+工作流和用户处理
 ============================
 
 .. i18n: Workflows are used to define the behaviour of a given document. They are used
@@ -146,7 +145,7 @@ If you want to edit a workflow in a text-based editor, you can use the menus und
 .. i18n: ---------------------------
 ..
 
-Using Processes Effectively
+有效使用流程
 ---------------------------
 
 .. i18n: Regardless of which OpenERP screen you are in you can call up a process on the
@@ -241,7 +240,7 @@ handled.
 .. i18n: --------------------------------
 ..
 
-Defining your Own User Processes
+定义自己的用户流程
 --------------------------------
 
 .. i18n: Use the menus under :menuselection:`Administration --> Customization --> Enterprise Process` to
