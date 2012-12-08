@@ -154,10 +154,8 @@
 .. i18n: :guilabel:`Destination`. There you can set:
 ..
 
-To define a new delivery grid, use the menu :menuselection:`Warehouse --> Configuration -->
-Delivery --> Delivery Pricelist`. Give a name to your delivery grid and define the
-region for which the tariffs in the grid will apply in the second tab
-:guilabel:`Destination`. There you can set:
+
+使用菜单“仓库-> 设置->送货货->送货价格表”定义一个新的送货价格表。为您的运费表取一个名字，在第选项卡“目标库位”定义价格表格适用的范围。在这里您可以设置：
 
 .. i18n: * A list of countries (for UK or Europe, for example),
 .. i18n: 
@@ -166,20 +164,18 @@ region for which the tariffs in the grid will apply in the second tab
 .. i18n: * A range of postal codes (for Paris you might have 75000 – 75900).
 ..
 
-* A list of countries (for UK or Europe, for example),
+* 国家列表（例如，英国或欧洲）
 
-* A list of states,
+* 地区列表
 
-* A range of postal codes (for Paris you might have 75000 – 75900).
+* 邮政编码范围（对于巴黎，邮政编码范围是75000-75900）
 
 .. i18n: Then you have to set the rules for calculating the transport price in the first tab :guilabel:`Grid definition`.
 .. i18n: First of all, give the rule a name. Then set the condition for which this rule is applicable, for
 .. i18n: example ``Weight < 0.5kg``.
 ..
 
-Then you have to set the rules for calculating the transport price in the first tab :guilabel:`Grid definition`.
-First of all, give the rule a name. Then set the condition for which this rule is applicable, for
-example ``Weight < 0.5kg``.
+您必须在选项卡“网络定义”中设置运费计算规则。首先，规则必须有一个名称。然后，为这个规则设置条件，例如，重量<0.5kg。
 
 .. i18n: .. note:: Weights
 .. i18n: 
@@ -187,10 +183,9 @@ example ``Weight < 0.5kg``.
 .. i18n:    to set 500g you would put 0.5 in the weight rule.
 ..
 
-.. note:: Weights
+.. note:: 重量
 
-   Weights are always expressed in kilograms. You can define a number with a decimal point or comma, so
-   to set 500g you would put 0.5 in the weight rule.
+   重量用千克表示。您可以为数字定义小数位，这样，您在重量规则中录入0.5来设置500g
 
 .. i18n: Next you can set the sales price and the cost price. Prices can be expressed in various ways:
 ..
