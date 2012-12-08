@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Management System
 ..
@@ -12,7 +11,7 @@
 ..
 
 *****************
-Management System
+管理体系
 *****************
 
 .. i18n:  *A management system is the framework of processes and procedures used to ensure that an 
