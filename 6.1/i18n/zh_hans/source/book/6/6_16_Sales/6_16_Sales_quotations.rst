@@ -1,9 +1,8 @@
-
 .. i18n: Managing your Sales Quotations
 .. i18n: ==============================
 ..
 
-Managing your Sales Quotations
+管理销售报价单
 ==============================
 
 .. i18n: In OpenERP, a quotation and an order are handled in the same form (a Sales Order), but in different states. You
