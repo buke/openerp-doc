@@ -1,9 +1,8 @@
-
 .. i18n: Changing Order Layout
 .. i18n: =====================
 ..
 
-Changing Order Layout
+改变订单布局
 =====================
 
 .. i18n: .. index::
