@@ -746,7 +746,7 @@ Also note that to fix a price of 60 for the 5 Berrel Keyboards, the formula \ ``
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Establishing Customer Contract Conditions
+建立客户合同条件
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: The trading company can now set specific conditions to a customer, such as the company TinAtwo, who
@@ -837,7 +837,7 @@ calculated from the contract conditions.
 .. i18n: ----------------------------------
 ..
 
-Pricelists and Managing Currencies
+价格表和币种管理
 ----------------------------------
 
 .. i18n: If your trading company wants to start a product catalog in a new currency you can handle this
