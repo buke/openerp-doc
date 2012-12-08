@@ -1,9 +1,8 @@
-
 .. i18n: Analytic Accounts
 .. i18n: =================
 ..
 
-Analytic Accounts
+辅助核算
 =================
 
 .. i18n: To manage purchases by project, you should use analytic accounts. 
