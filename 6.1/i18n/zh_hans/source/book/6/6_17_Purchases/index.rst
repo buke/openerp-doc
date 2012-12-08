@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Purchasing
 ..
@@ -16,7 +15,7 @@
 .. _ch-purchase:
 
 **********************
-Driving your Purchases
+驱动采购
 **********************
 
 .. i18n:  *In the preceding chapters you saw how to use customer invoices and delivery notes in OpenERP.
