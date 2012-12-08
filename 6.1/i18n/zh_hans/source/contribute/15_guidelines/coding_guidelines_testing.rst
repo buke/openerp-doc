@@ -1,4 +1,3 @@
-
 .. i18n: .. sectnum::
 .. i18n:     :start: 3
 ..
@@ -16,7 +15,7 @@
 .. _yaml-testing-guidelines:
 
 ==============================
-Automated YAML Tests Guideline
+YAML 自动测试指南
 ==============================
 
 .. i18n: .. note::
@@ -37,7 +36,7 @@ This is a guideline for project managers and developers on automated tests.
 .. i18n: ------
 ..
 
-Syntax
+语法
 ------
 
 .. i18n:     Write scenarios using the YAML syntax, not the "cucumber" syntax,  so
@@ -53,7 +52,7 @@ Syntax
 .. i18n: --------------------------------
 ..
 
-Tests are run on the server side
+运行在服务端的测试
 --------------------------------
 
 .. i18n: As tests are performed server side, you don't need to write things like
