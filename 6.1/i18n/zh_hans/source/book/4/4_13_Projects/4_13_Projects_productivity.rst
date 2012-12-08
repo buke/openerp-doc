@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: GTD
 ..
 
@@ -8,7 +7,7 @@
 .. i18n: ======================================
 ..
 
-The Art of Productivity without Stress
+没有压力的生产力的艺术
 ======================================
 
 .. i18n: Now you can take a slight detour away from pure enterprise management by looking at some tools offered by
@@ -132,7 +131,7 @@ tools provided by OpenERP's :mod:`project_gtd` module.
 .. i18n: ------------------------------------------------------
 ..
 
-Not Everything that is Urgent is Necessarily Important
+并非所有急事必然是重要的
 ------------------------------------------------------
 
 .. i18n: The first modification brought by the module to the basic OpenERP system is a separation of the
@@ -191,7 +190,7 @@ tasks and the most urgent both appear at the top of the list.
 .. i18n: -----------------------------------
 ..
 
-Organizing your Life Systematically
+有条不紊地组织你的生命
 -----------------------------------
 
 .. i18n: A methodology of organizing yourself using the concepts of context and timebox is presented in this
@@ -251,7 +250,7 @@ An employee / system user can create his or her own contexts using the menu
 .. i18n: ^^^^^^^
 ..
 
-Timebox
+时间盒
 ^^^^^^^
 
 .. i18n: You then have to define the timeboxes. You have to complete the tasks in the time interval specified
@@ -308,7 +307,7 @@ To define timeboxes for your company, use the menu
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Methodology and Iterative Process
+方法和迭代过程
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To organize your tasks efficiently, OpenERP uses a method based on the following systematic and
@@ -495,7 +494,7 @@ timeboxes for those periods.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Some Convincing Results
+令人信服的结果
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: After a few days of carefully practising this method, users have reported the following
