@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: planning
 .. i18n: ..
@@ -12,7 +11,7 @@
 .. i18n: ==============================
 ..
 
-Planning to Improve Leadership
+提高领导艺术的规划
 ==============================
 
 .. i18n: Planning in a company often takes the form of regular meetings between the different teams. Each
