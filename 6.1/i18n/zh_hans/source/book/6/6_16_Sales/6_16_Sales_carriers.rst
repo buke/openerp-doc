@@ -233,8 +233,7 @@
 .. i18n: delivery if the total order amount is greater than 150 USD, add the following rule:
 ..
 
-You can also define rules that depend on the total amount on the order. For example to offer fixed price
-delivery if the total order amount is greater than 150 USD, add the following rule:
+您也可以按照订单金额上定义规则。例如，对于订单总金额大于150美元使用固定运费的情况，增加以下规则：
 
 .. i18n: .. table:: Additional Tariff Rule
 .. i18n: 
@@ -245,12 +244,12 @@ delivery if the total order amount is greater than 150 USD, add the following ru
 .. i18n:    ================= ===============  ======   =============
 ..
 
-.. table:: Additional Tariff Rule
+.. table:: 特殊资费规则
 
    ================= ===============  ======   =============
-   Name              Condition        Price    Price Type
+   名称              条件             价格     价格类型
    ================= ===============  ======   =============
-   Franked > 150 USD Price > 150 USD  10       Fixed
+   Franked > 150 USD Price > 150 USD  10       固定价格
    ================= ===============  ======   =============
 
 .. i18n: Delivery Modes
@@ -264,17 +263,16 @@ delivery if the total order amount is greater than 150 USD, add the following ru
 .. i18n: There are two methods for doing that in OpenERP.
 ..
 
-Once the delivery modes and their corresponding tariffs have been defined, you can use them in a Sales Order. 
-There are two methods for doing that in OpenERP.
+一旦定义好送货方式及其相关税，您就可以在销售订单中使用它们。在OpenERP的销售订单中，送货有两种方法：
 
 .. i18n: * Delivery based on Ordered Quantities,
 .. i18n: 
 .. i18n: * Delivery based on Shipped Quantities.
 ..
 
-* Delivery based on Ordered Quantities,
+* 基于订单数量交付
 
-* Delivery based on Shipped Quantities.
+* 基于发货数量交付
 
 .. i18n: Delivery based on Ordered Quantities
 .. i18n: ------------------------------------
