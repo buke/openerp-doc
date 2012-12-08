@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: 
 .. i18n:    pair: document; optimize
 ..
@@ -10,7 +9,7 @@
 .. i18n: ==============================
 ..
 
-Optimizing Document Management
+优化文档管理
 ==============================
 
 .. i18n: All documents produced by OpenERP are automatically indexed and classified for
@@ -32,7 +31,7 @@ out of OpenERP's document management system.
 .. i18n: -----------------------
 ..
 
-Searching for Documents
+文档搜索
 -----------------------
 
 .. i18n: You have seen several methods of accessing documents quickly:
@@ -162,14 +161,14 @@ of text to find the document you need from within that subset.
 .. i18n: -----------------------
 ..
 
-Integration with Emails
+Email集成
 -----------------------
 
 .. i18n: Using Outlook and Thunderbird
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-Using Outlook and Thunderbird
+使用 Outlook 和 Thunderbird
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: OpenERP's document management system is well-integrated with popular email clients like Microsoft Outlook and Mozilla Thunderbird. For this, you can install the required plugins available in OpenERP, usually made available when you install and configure :mod:`crm`. Or you may install :mod:`outlook` or :mod:`thunderbird` module according to your requirement, and take advantage of its compatibility with OpenERP's documents. For more on this, refer :ref:`ch-commtools`.
@@ -278,7 +277,7 @@ and whether you need to do something about changing work methods.
 .. i18n: ------------------
 ..
 
-Version Management
+版本管理
 ------------------
 
 .. i18n: There is usually a need to keep track of all the important documents that you have printed. For
