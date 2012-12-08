@@ -1,9 +1,8 @@
-
 .. i18n: Rebates at the End of a Campaign
 .. i18n: ================================
 ..
 
-Rebates at the End of a Campaign
+活动结束后的回佣
 ================================
 
 .. i18n: If you want to provide discounts on an order, you can use the pricelist system in OpenERP. But we would not be writing about end-of-campaign rebates if no other solution was available. You can also work with end-of-campaign rebates or year-end rebates. The customer pays a certain price during the whole of the campaign or the year, and he will receive a rebate at the end of the campaign according to the sales made throughout the year.
