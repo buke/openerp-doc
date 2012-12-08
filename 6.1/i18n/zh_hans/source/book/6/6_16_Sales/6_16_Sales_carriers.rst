@@ -22,13 +22,13 @@
 .. i18n: To do that, use the :guilabel:`Reconfigure` wizard and select :guilabel:`Delivery Costs` under the :guilabel:`Sales Application Configuration` section for installation.
 ..
 
-To manage deliveries in OpenERP, you can install the :mod:`delivery` module.
-To do that, use the :guilabel:`Reconfigure` wizard and select :guilabel:`Delivery Costs` under the :guilabel:`Sales Application Configuration` section for installation.
+为了在OpenERP中管理送货，需要安装 :mod:`delivery` 模块。
+使用  :guilabel:`Reconfigure`  重新配置向导然后选择  :guilabel:`Sales Application Configuration` 销售配置下的  :guilabel:`Delivery Costs` 发货安装。
 
 .. i18n: This module enables you to manage:
 ..
 
-This module enables you to manage:
+本模块功能：
 
 .. i18n: * the different carriers with whom you work,
 .. i18n: 
@@ -39,13 +39,14 @@ This module enables you to manage:
 .. i18n: * the transport methods and their tariffs.
 ..
 
-* the different carriers with whom you work,
+* 管理物流公司
 
-* the different transport methods,
+* 管理运输方式
 
-* cost calculation and invoicing of each delivery,
+* 发货成本计算及开票
 
-* the transport methods and their tariffs.
+* 运输方式及相关税率（译注：通过产品设置）
+
 
 .. i18n: Once the :mod:`delivery` module has been installed, the first thing to do is to configure the different
 .. i18n: modes of delivery accepted by your company. Go to the menu :menuselection:`Warehouse
