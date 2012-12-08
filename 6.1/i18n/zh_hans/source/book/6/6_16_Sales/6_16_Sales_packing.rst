@@ -1,9 +1,8 @@
-
 .. i18n: Packaging
 .. i18n: =========
 ..
 
-Packaging
+包装
 =========
 
 .. i18n: Products can be managed in several packaged forms. For example, if you sell
