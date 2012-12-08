@@ -234,7 +234,7 @@ Try to use functional terms instead of object
 .. i18n: -----------------------------------------------------------------
 ..
 
-Write things in test that can be easily tested by the YAML system
+把测试信息写得详细有助于Yaml测试系统进行测试
 -----------------------------------------------------------------
 
 .. i18n: **For** **example,**
@@ -298,7 +298,7 @@ FTP client in your yaml code::
 .. i18n: --------------------------------------------------------------
 ..
 
-Avoid relying on existing demo data if the user can change it.
+避免依赖现有的数据以防用户修改它们
 --------------------------------------------------------------
 
 .. i18n:    **Bad** **example**:
