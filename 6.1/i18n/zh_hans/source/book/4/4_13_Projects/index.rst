@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Drive your Projects
 ..
@@ -16,7 +15,7 @@
 .. _ch-projects:
 
 *******************
-Drive your Projects
+驱动项目
 *******************
 
 .. i18n:  *If you have a good system to manage tasks, your whole company will benefit.
