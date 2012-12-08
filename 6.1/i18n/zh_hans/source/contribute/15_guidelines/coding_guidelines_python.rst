@@ -1161,7 +1161,7 @@ If you need to modify a nested container for example:
 .. i18n: -------------------------------------
 ..
 
-Use constants and avoid magic numbers
+使用默认值，远离“神奇数字”
 -------------------------------------
 
 .. i18n: .. code-block:: python
