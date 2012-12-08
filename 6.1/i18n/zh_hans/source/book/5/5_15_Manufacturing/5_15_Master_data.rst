@@ -807,7 +807,7 @@ This is described as a ``SHE100``, not just the individual products delivered.
 .. i18n: ============
 ..
 
-Work Centers
+工作中心
 ============
 
 .. i18n: Work centers represent units of production, capable of doing material transformation operations. You can distinguish two types of work centers: machines and human resources.
@@ -969,7 +969,7 @@ With the `Hour Account` and `Cycle Account` you define the links to analytical a
 .. i18n: ========
 ..
 
-Routings
+工艺路线
 ========
 
 .. i18n: Routings define the manufacturing operations to be done in work centers to produce a certain product. A routing is usually attached to bills of materials, which will define the assembly of products required for manufacturing or to produce finished products.
