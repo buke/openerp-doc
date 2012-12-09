@@ -1,4 +1,3 @@
-
 .. i18n: .. _documentation-guidelines-link:
 .. i18n: 
 .. i18n: ========================
@@ -9,7 +8,7 @@
 .. _documentation-guidelines-link:
 
 ========================
-Documentation Guidelines
+文档指南
 ========================
 
 .. i18n: Useful and concise documentation
@@ -20,7 +19,7 @@ Documentation Guidelines
 .. i18n: every time:
 ..
 
-Useful and concise documentation
+实用和简洁的文档
 ++++++++++++++++++++++++++++++++
 Every ORM object method takes the same ``self``, ``cr``, ``uid`` parameters
 and usually a list of ``ids`` and an optional ``context``, so it would be
