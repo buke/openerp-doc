@@ -354,7 +354,7 @@ FTP client in your yaml code::
 .. i18n:    Then I got the following error message:
 ..
 
-Don't check the full text of an exception
+不用深究测试的具体出错信息
 -----------------------------------------
    Then I got the following error message:
 
@@ -403,7 +403,7 @@ Don't check the full text of an exception
 .. i18n: ---------------------------------------------------------------------------
 ..
 
-Be more functional, explain what the user means to do, not where she clicks
+说明用户要做什么比在哪里点击要好
 ---------------------------------------------------------------------------
 
 .. i18n: ::
@@ -472,7 +472,7 @@ look like this::
 .. i18n: ----------------------------------------------------------------------------
 ..
 
-You can use "onchange" calls in your tests, to simulate the client interface
+你可以在测试里使用"onchange"以此来模拟客户端
 ----------------------------------------------------------------------------
 
 .. i18n:     -
