@@ -1,4 +1,3 @@
-
 .. i18n: .. _technical-guidelines-link:
 .. i18n: 
 .. i18n: Contribution Guidelines
@@ -7,14 +6,14 @@
 
 .. _technical-guidelines-link:
 
-Contribution Guidelines
+贡献指南
 -----------------------
 
 .. i18n: Bug reporting
 .. i18n: +++++++++++++
 ..
 
-Bug reporting
+提交Bug
 +++++++++++++
 
 .. i18n: For all details regarding bug reports and bug processing, please
@@ -32,7 +31,7 @@ refer to the :ref:`bug_management` section.
 
 .. _merge_proposals:
 
-Merge Proposals & Patches
+合并申请 & 修补程序
 +++++++++++++++++++++++++
 
 .. i18n: It is quite easy to make a patch and propose it for merging on any
