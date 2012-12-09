@@ -221,7 +221,7 @@ You must have at least one account with report_type ``'/'`` (net profit).
 .. i18n: be used by OpenERP in many places:
 ..
 
-Chart of Accounts Guidelines (account.account.template)
+科目表指南 (account.account.template)
 -------------------------------------------------------
 When creating your chart of account, the principal information you should take
 care of is the internal type field (named ``type``), because that field will
@@ -277,7 +277,7 @@ Be sure the chart of account has a hierarchical tree structure.
 .. i18n: as legally required in your country.
 ..
 
-Chart of Tax Codes Guidelines (account.tax.code.template)
+税码表指南 (account.tax.code.template)
 ---------------------------------------------------------
 This object is the same in v5 and v6. The hierarchical structure of the
 Chart of Tax Codes should allow you to compute the sum/totals easily
