@@ -378,7 +378,7 @@ your patch through:
 
 .. _shared_repositories:
 
-Using shared repositories to speed up branch management
+使用共享库以加快分支管理
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Bazaar is a distributed version control system, and this means that every time
@@ -498,7 +498,7 @@ to speed up day-to-day branch management.
 .. i18n: **********
 ..
 
-Downstream
+下载
 **********
 
 .. i18n: To initialize a proper shared repository you do the following::
@@ -573,7 +573,7 @@ For example::
 .. i18n: ********
 ..
 
-Upstream
+上传
 ********
 
 .. i18n: It's a little bit different when you push a branch: there is no shared
