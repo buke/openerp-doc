@@ -55,7 +55,7 @@ Note that the data you see when creating an analytic account will depend upon th
    :scale: 75
    :align: center
 
-   *Setting up an Analytic Account*
+   *配置辅助核算项*
 
 .. i18n: To create an analytic account, you have to complete the main fields:
 ..
@@ -167,7 +167,7 @@ Once you have defined the different analytic accounts, you can view your chart t
 .. i18n: -----------------
 ..
 
-创建账簿
+创建辅助核算账簿
 -----------------
 
 .. i18n: Once the analytic chart has been created for your company, you have to create the different journals.
@@ -229,7 +229,7 @@ These journals enable you to categorise the different accounting entries by thei
    :scale: 85
    :align: center
 
-   *Creating an Analytic Journal*
+   *创建辅助核算账簿*
 
 .. i18n: To define your analytic journals, use the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` then click the :guilabel:`Create` button.
 ..
@@ -308,11 +308,11 @@ The system will automatically select analytic accounts according to the followin
 .. i18n: * Date
 ..
 
-* Product
-* Partner
-* User
-* Company
-* Date
+* 产品
+* 业务伙伴
+* 业务员
+* 公司
+* 日期
 
 .. i18n: You can configure these criteria using the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Defaults` and clicking the `Create` button.
 .. i18n: According to the criteria you define here, the correct analytic account will be proposed when creating an order or an invoice.
