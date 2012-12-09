@@ -19,7 +19,7 @@
 .. i18n: every time:
 ..
 
-实用和简洁的文档
+实用和简明文档
 ++++++++++++++++++++++++++++++++
 Every ORM object method takes the same ``self``, ``cr``, ``uid`` parameters
 and usually a list of ``ids`` and an optional ``context``, so it would be
