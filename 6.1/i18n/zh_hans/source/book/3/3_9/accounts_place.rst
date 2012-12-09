@@ -288,7 +288,7 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
 .. i18n: ------------------------------
 ..
 
-Working with Analytic Defaults
+默认辅助核算项(方案)
 ------------------------------
 
 .. i18n: You can work with analytic default accounts in OpenERP by installing the :mod:`account_analytic_default` module. Notice that this module is also linked with the :mod:`sale`, :mod:`stock` and :mod:`procurement` modules.
