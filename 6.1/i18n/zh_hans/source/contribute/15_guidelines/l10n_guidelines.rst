@@ -1,4 +1,3 @@
-
 .. i18n: .. _l10n-guidelines-link:
 .. i18n: 
 .. i18n: =======================
@@ -9,7 +8,7 @@
 .. _l10n-guidelines-link:
 
 =======================
-Localization Guidelines
+本地化指南
 =======================
 
 .. i18n: OpenERP Localization is the process of writing the necessary configuration
@@ -58,7 +57,7 @@ merge proposal process (as described in :ref:`merge_proposals`).
 .. i18n: ---------------------------------
 ..
 
-Contents of a localization module
+本地化模块的内容
 ---------------------------------
 
 .. i18n: In order to have a localization module fully complete, you should ensure
@@ -116,7 +115,7 @@ you l10n modules, in the preferred order of writing.
 .. i18n: ------------------
 ..
 
-Generic Guidelines
+通用指南
 ------------------
 
 .. i18n:  * The module must be named ``l10n_XX`` where XX is the lower case country code,
@@ -176,7 +175,7 @@ Generic Guidelines
 .. i18n:  Assets, Liabilities...
 ..
 
-Account Types Guidelines (account.account.type)
+科目类型指南 (account.account.type)
 -----------------------------------------------
 Example
  Assets, Liabilities...
