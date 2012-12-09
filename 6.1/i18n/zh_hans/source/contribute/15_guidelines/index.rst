@@ -1,4 +1,3 @@
-
 .. i18n: .. _contribution_guidelines-link:
 .. i18n: 
 .. i18n: ********************
@@ -9,7 +8,7 @@
 .. _contribution_guidelines-link:
 
 ********************
- OpenERP Guidelines
+ OpenERP 指南
 ********************
 
 .. i18n: The following list of guidelines constitutes a key reference for everyone
