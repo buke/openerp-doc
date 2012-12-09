@@ -116,7 +116,7 @@ You can analyse evaluation data through the menu :menuselection:`Human Resources
 .. i18n: --------------------------------------
 ..
 
-Define different evaluation categories
+制定各种考核等级
 --------------------------------------
 
 .. i18n: You can create new evaluation plans from :menuselection:`Human Resources --> Configuration --> Periodic Evaluations --> Evaluation Plans`. Click :guilabel:`New` and fill in the following details:
