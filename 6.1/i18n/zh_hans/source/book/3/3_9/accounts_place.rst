@@ -308,11 +308,11 @@ The system will automatically select analytic accounts according to the followin
 .. i18n: * Date
 ..
 
-* 产品
-* 业务伙伴
-* 业务员
-* 公司
-* 日期
+* 按 所选产品 产生默认
+* 按 所选业务伙伴 产生默认
+* 按 登陆用户 产生默认
+* 按 所选公司 产生默认
+* 按 日期 产生默认
 
 .. i18n: You can configure these criteria using the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Defaults` and clicking the `Create` button.
 .. i18n: According to the criteria you define here, the correct analytic account will be proposed when creating an order or an invoice.
