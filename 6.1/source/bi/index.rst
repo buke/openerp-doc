@@ -1,10 +1,29 @@
+
+.. i18n: .. _book-bi-link:
+.. i18n: 
+.. i18n: Business Intelligence
+.. i18n: =====================
+..
+
 .. _book-bi-link:
 
 Business Intelligence
 =====================
 
+.. i18n: Part 1 : Introduction
+.. i18n: ---------------------
+..
+
 Part 1 : Introduction
 ---------------------
+
+.. i18n: .. sidebar:: Experimental Application
+.. i18n: 
+.. i18n:     This chapter describes an experimental BI Application that is not part of the
+.. i18n:     current quality-certified distribution of OpenERP.
+.. i18n:     The BI modules can be found in `OpenERP Apps <http://apps.openerp.com>`_, but are
+.. i18n:     not yet suitable for production use.
+..
 
 .. sidebar:: Experimental Application
 
@@ -12,6 +31,16 @@ Part 1 : Introduction
     current quality-certified distribution of OpenERP.
     The BI modules can be found in `OpenERP Apps <http://apps.openerp.com>`_, but are
     not yet suitable for production use.
+
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     introduction/goals
+.. i18n:     introduction/introduction
+.. i18n:     introduction/olap
+.. i18n:     introduction/terminologies
+.. i18n:    
+..
 
 .. toctree::
     :maxdepth: 2
@@ -22,9 +51,19 @@ Part 1 : Introduction
     introduction/terminologies
    
 
+.. i18n: Part 2 : Architecture
+.. i18n: ---------------------
+..
 
 Part 2 : Architecture
 ---------------------
+
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     architecture/architecture
+.. i18n:     architecture/openobject_module
+..
 
 .. toctree::
     :maxdepth: 2
@@ -32,9 +71,19 @@ Part 2 : Architecture
     architecture/architecture
     architecture/openobject_module
 
+.. i18n: Part 3 : MDXAlchemy
+.. i18n: ---------------------
+..
 
 Part 3 : MDXAlchemy
 ---------------------
+
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     MDXOverview/MDXOverview
+.. i18n:     MDXOverview/examples
+..
 
 .. toctree::
     :maxdepth: 2
@@ -42,20 +91,39 @@ Part 3 : MDXAlchemy
     MDXOverview/MDXOverview
     MDXOverview/examples
 
-
+.. i18n: Part 4 : Installing
+.. i18n: ---------------------
+..
 
 Part 4 : Installing
 ---------------------
 
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     installation/installation
+..
+
 .. toctree::
     :maxdepth: 2
 
-
     installation/installation
 
+.. i18n: Part 5 : Configuration 
+.. i18n: ----------------------
+..
 
 Part 5 : Configuration 
 ----------------------
+
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     config_interface/config_interface
+.. i18n:     CubeXML/CubeXML
+.. i18n:     CubeXML/CubeXMLIntro
+.. i18n:     CubeXML/CubeXMLExample
+..
 
 .. toctree::
     :maxdepth: 2
@@ -65,11 +133,21 @@ Part 5 : Configuration
     CubeXML/CubeXMLIntro
     CubeXML/CubeXMLExample
 
-
-
+.. i18n: Part 6 : Using CommandLine Interface (CLI)
+.. i18n: ------------------------------------------
+..
 
 Part 6 : Using CommandLine Interface (CLI)
 ------------------------------------------
+
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     CubeCli/CubeCliIntro
+.. i18n:     CubeCli/CubeCliTests
+.. i18n:     CubeCli/CubeCliExample
+.. i18n:     CubeCli/CubeCliXMLRPC
+..
 
 .. toctree::
     :maxdepth: 2
@@ -79,15 +157,27 @@ Part 6 : Using CommandLine Interface (CLI)
     CubeCli/CubeCliExample
     CubeCli/CubeCliXMLRPC
 
-
-
+.. i18n: Part 7 : Using Cube Browser
+.. i18n: ----------------------------
+..
 
 Part 7 : Using Cube Browser
 ----------------------------
 
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     CubeBrowser/CubeBrowser
+.. i18n:     CubeBrowser/CubeBrowserSelect
+.. i18n:     CubeBrowser/CubeBrowserDaD
+.. i18n:     CubeBrowser/CubeBrowserSwap
+.. i18n:     CubeBrowser/CubeBrowserSlicer
+.. i18n:     CubeBrowser/CubeBrowserDrill
+.. i18n:     CubeBrowser/CubeBrowserGraph
+..
+
 .. toctree::
     :maxdepth: 2
-
 
     CubeBrowser/CubeBrowser
     CubeBrowser/CubeBrowserSelect
@@ -97,12 +187,27 @@ Part 7 : Using Cube Browser
     CubeBrowser/CubeBrowserDrill
     CubeBrowser/CubeBrowserGraph
 
+.. i18n: Part 8 : Using Cube Designer
+.. i18n: ----------------------------
+..
+
 Part 8 : Using Cube Designer
 ----------------------------
 
+.. i18n: .. toctree::
+.. i18n:     :maxdepth: 2
+.. i18n: 
+.. i18n:     CubeDesigner/CubeDesigner
+.. i18n:     CubeDesigner/LoadingDB
+.. i18n:     CubeDesigner/DefiningCube
+.. i18n:     CubeDesigner/DefinigDim
+.. i18n:     CubeDesigner/DefiningHier
+.. i18n:     CubeDesigner/DefiningLevel
+.. i18n:     CubeDesigner/DefiningMeas
+..
+
 .. toctree::
     :maxdepth: 2
-
 
     CubeDesigner/CubeDesigner
     CubeDesigner/LoadingDB
@@ -111,26 +216,3 @@ Part 8 : Using Cube Designer
     CubeDesigner/DefiningHier
     CubeDesigner/DefiningLevel
     CubeDesigner/DefiningMeas
-
-商业智能
-=====================
-第1部分：介绍
--------------
-    试验应用
-
-    这个章节的描述的BI应用并非通过OpenERP官方质量检验的应用，这个BI模块可以在OpenERP Apps中找到，但是不建议使用于生产环境
-
-第2部分：模块结构
-----------------------------
-第3部分：MDXAlchemy
-----------------------------
-第4部分：安装
-----------------------------
-第5部分：设置
-----------------------------
-第6部分：使用命令行界面（CLI）
-----------------------------
-第7部分：使用立体浏览器
-----------------------------
-第8部分：使用立体设计
-----------------------------
