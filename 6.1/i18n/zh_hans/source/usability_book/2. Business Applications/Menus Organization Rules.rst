@@ -15,7 +15,7 @@
 .. i18n: Menus are defined in a certain way to make the work of users easier . So, users can see all the menus they need in a logical order, to facilitate navigation and use. A salesman doesn't need to see the invoices before he has even made the quotation. 
 ..
 
-Menus are defined in a certain way to make the work of users easier . So, users can see all the menus they need in a logical order, to facilitate navigation and use. A salesman doesn't need to see the invoices before he has even made the quotation. 
+菜单应该定义为某种方式，让用户的工作更加容易。因此，用户应该看到按照逻辑顺序排列的所有菜单，以方便导航和使用。如一位销售代表在作出报价之前，并不需要看到发票。
 
 .. i18n: Main menus are also organized to facilitate the work of a manager. Indeed, in an SME, a manager needs access to many applications: Sales, Projects, Human Resources, Marketing and Accounting. When he opens his instance of OpenERP, he has to see main menus in a logical order. 
 ..
