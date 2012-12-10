@@ -20,4 +20,4 @@
 .. i18n: Main menus are also organized to facilitate the work of a manager. Indeed, in an SME, a manager needs access to many applications: Sales, Projects, Human Resources, Marketing and Accounting. When he opens his instance of OpenERP, he has to see main menus in a logical order. 
 ..
 
-Main menus are also organized to facilitate the work of a manager. Indeed, in an SME, a manager needs access to many applications: Sales, Projects, Human Resources, Marketing and Accounting. When he opens his instance of OpenERP, he has to see main menus in a logical order. 
+主菜单的组织同样也是为了方便经理工作。实际上在中小企业中，经理往往需要访问许多应用：销售、项目管理、人力资源、市场营销和财务。当他打开 OpenERP 之后，他应该看到井井有条的菜单。
