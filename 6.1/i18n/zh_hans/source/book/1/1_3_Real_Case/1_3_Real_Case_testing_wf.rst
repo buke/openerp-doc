@@ -73,13 +73,13 @@ Following this, you will sell some of these products, using this sequence:
 .. i18n: Purchase Orders` and click the `New` button.
 ..
 
-To place a Purchase Order with your supplier, use the menu :menuselection:`Purchases --> Purchase Management -->
-Purchase Orders` and click the `New` button.
+要给供应商下达采购任务,菜单入口在: menuselection:`Purchases --> Purchase Management --> Purchase Orders` 中文菜单项为: menuselection: `采购 --> 采购管理 --> 采购订单`
+点击 `New`(中文:`新建`) 按钮即可。
 
 .. i18n: Complete the following field:
 ..
 
-Complete the following field:
+并填写采购订单中下面的字段:
 
 .. i18n: *  :guilabel:`Supplier` : \ ``Plumbing Component Suppliers``\  .
 ..
@@ -91,9 +91,7 @@ Complete the following field:
 .. i18n: Partner record.
 ..
 
-As you complete the :guilabel:`Supplier` field, OpenERP automatically completes the
-:guilabel:`Address` field and the :guilabel:`Pricelist` field from information it takes out of the
-Partner record.
+当你选择了: guilabel:`供应商` 后, 采购订单会自动完成该供应商的guilabel:`地址`及guilabel:`价格表`字段。
 
 .. i18n: Enter the following information
 ..
