@@ -347,7 +347,7 @@ in the legal tax statement (i.e. for chart structure purposes)
 .. i18n: ------------------------------------------------
 ..
 
-Chart Template Guidelines account.chart.template
+科目表指南 account.chart.template
 ------------------------------------------------
 
 .. i18n: Once all above objects are created, you can focus on the Chart Template.
@@ -419,7 +419,7 @@ This information includes:
 .. i18n: field which was unused. When testing the taxes, you should make sure that:
 ..
 
-Taxes Guidelines (account.tax.template)
+税项指南 (account.tax.template)
 ---------------------------------------
 The only change in that object for v6 is the removal of the ``tax_group``
 field which was unused. When testing the taxes, you should make sure that:
@@ -458,7 +458,7 @@ Check that each tax is linked to an account, a tax code and a base tax code.
 .. i18n: and purchase orders).
 ..
 
-Fiscal positions Guidelines (account.fiscal.position.template)
+财务结构指南 (account.fiscal.position.template)
 --------------------------------------------------------------
 Fiscal position objects stay the same in v6. They're used to
 automatically map the default tax/account for a product
@@ -521,7 +521,7 @@ defined:
 .. i18n: depend on the ``base_vat`` module.
 ..
 
-Modules dependencies Guidelines
+模块依赖指南
 -------------------------------
 If the module is from an European country, it should
 depend on the ``base_vat`` module.
@@ -555,7 +555,7 @@ in the l10n_XX  module directly.
 .. i18n: localization module of that country is the right place to put it.
 ..
 
-Specific reports Guidelines
+特定报表指南
 ---------------------------
 If there is any specific report legally required in your country
 (such as the VAT report that generates XML files in l10n_be), the
