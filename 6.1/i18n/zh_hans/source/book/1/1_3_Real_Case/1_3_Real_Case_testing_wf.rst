@@ -91,7 +91,7 @@ Following this, you will sell some of these products, using this sequence:
 .. i18n: Partner record.
 ..
 
-当你选择了 :guilabel:`供应商` 后, 采购订单会自动完成该供应商的 :guilabel:`地址`及 :guilabel:`价格表`字段。
+当你选择了 :guilabel:`供应商` 后, 采购订单会自动完成该供应商的 :guilabel:`地址` 及 :guilabel:`价格表` 字段。
 
 .. i18n: Enter the following information
 ..
