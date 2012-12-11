@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Configuration
 .. i18n:    single: Administration
@@ -18,7 +17,7 @@
 .. _ch-config:
 
 ******************************
-Configuration & Administration
+配置与系统管理
 ******************************
 
 .. i18n:  *This chapter is for the administrators of an OpenERP system.
