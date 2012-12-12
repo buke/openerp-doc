@@ -1,17 +1,16 @@
-
 .. i18n: Stock Location Example
 .. i18n: ++++++++++++++++++++++
 ..
 
-Stock Location Example
+库位范例
 ++++++++++++++++++++++
 
 .. i18n: In this section, we will develop a more detailed example that includes different concepts seen
 .. i18n: in the previous sections. 
 ..
 
-In this section, we will develop a more detailed example that includes different concepts seen
-in the previous sections. 
+在这部分, 我们将开发一个更详细的例子，其中包括
+在前面的章节中看到不同的概念. 
 
 .. i18n: The following example will use the *Stock Location types*, the *Logistic Flows* and the *Bill Of
 .. i18n: Materials*.
