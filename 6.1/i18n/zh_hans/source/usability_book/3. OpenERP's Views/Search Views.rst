@@ -3,9 +3,9 @@
 .. i18n: ============
 ..
 
-============
-搜索视图
-============
+=================================================================
+搜索视图 （注：搜索视图在OE7中巨变，故此章节暂且不译）
+=================================================================
 
 .. i18n: Introduction
 .. i18n: ------------
@@ -17,7 +17,7 @@
 .. i18n: As previously  mentioned, OpenERP is developing within a business framework and vision. OpenERP's users can find business applications, in which they can surf on some of the business oriented views. In this search view they will also find that it facilitates the work and the search of the user. 
 ..
 
-如前所述, OpenERP is developing within a business framework and vision. OpenERP's users can find business applications, in which they can surf on some of the business oriented views. In this search view they will also find that it facilitates the work and the search of the user. 
+As previously  mentioned, OpenERP is developing within a business framework and vision. OpenERP's users can find business applications, in which they can surf on some of the business oriented views. In this search view they will also find that it facilitates the work and the search of the user. 
 
 .. i18n: Search views in OpenERP allow the responsible user to search in only one view. Indeed, a Sales Responsible user, can see, in the same view, his created documents (sale orders) and, if he is allowed, the one created by his colleagues. So, in Sales Order menuitem, he can see all quotations, current sales and sales to invoice. 
 ..
