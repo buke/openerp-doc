@@ -1,4 +1,3 @@
-
 .. i18n: .. _web_v6:
 .. i18n: 
 .. i18n: ================
@@ -16,20 +15,20 @@ OpenERP Web v6.0
 .. i18n: ============
 ..
 
-Introduction
+介绍
 ============
 
 .. i18n: **Web Client – A software application that is launched via a web browser.**
 ..
 
-**Web Client – A software application that is launched via a web browser.**
+**Web Client – 一个软件应用程序通过一个web浏览器中启动.**
 
 .. i18n: With the launch of OpenERP v6, a new web client has been designed and developed, 
 .. i18n: which provides a more professional appearance than OpenERP v5.
 ..
 
-With the launch of OpenERP v6, a new web client has been designed and developed, 
-which provides a more professional appearance than OpenERP v5.
+推出OpenERP v6,一个新的web客户端进行设计和开发, 
+它提供了一个更专业的形象 than OpenERP v5.
 
 .. i18n: We migrated the web client to CherryPy3 dropping TurboGears completely
 .. i18n: and migrated kid templates to faster Mako templates, a major step towards making
@@ -41,9 +40,8 @@ which provides a more professional appearance than OpenERP v5.
 .. i18n: CherryPy Server.
 ..
 
-We migrated the web client to CherryPy3 dropping TurboGears completely
-and migrated kid templates to faster Mako templates, a major step towards making
-the Web Client much faster and easier to deploy.
+我们迁移web客户端来CherryPy3滴TurboGears完全和迁移的孩子模板来更快的尖吻鲭鲨模板,
+一个重大步骤使web客户端更快和更容易部署。
 	
 All the Kid templates were converted to faster Mako templates, i18n/l18n features
 have been partially reimplemented using Python Babel, CherryPy2 (TG is built on 
@@ -53,7 +51,7 @@ CherryPy Server.
 .. i18n: This greatly reduces the pain of getting started with and deploying of OpenERP Web client.
 ..
 
-This greatly reduces the pain of getting started with and deploying of OpenERP Web client.
+这大大减少了痛苦的开始使用和部署在 OpenERP Web client.
 
 .. i18n: Now the number of third party dependencies are reduced to 3-4 pure Python libraries which 
 .. i18n: you can install within the local lib dir with the help of `populate.sh` script, found under 
