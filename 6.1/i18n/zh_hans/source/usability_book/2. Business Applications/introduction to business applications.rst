@@ -4,7 +4,7 @@
 ..
 
 =====================================
-业务应用介绍
+应用套件介绍
 =====================================
 
 .. i18n: The complexity of an ERP is usually due to the high number of available features. Most of the users of the system use only a few features, according to their job position(s) in the company. In order to remain easy to use, the different features are split into business applications.
