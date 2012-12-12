@@ -34,7 +34,7 @@ Materials*.
 .. i18n: *Bill of Material*.
 ..
 
-制造一单位的 Product A, 我们需要 Product B 和 Product C. 因此我们定义一个物料清单 
+制造一个 Product A, 我们需要 Product B 和 Product C. 因此我们定义一个物料清单 
 *Bill of Material*.
 
 .. i18n: .. table:: Bill of Materials
@@ -66,8 +66,8 @@ Materials*.
 .. i18n: and one unit of Product C.
 ..
 
-生产一单位 Product A 需要一单位的 Product B
-和一单位的 Product C.
+生产一个 Product A 需要一个 Product B
+和一个 Product C.
 
 .. i18n: .. table:: Companies and Products
 .. i18n:    
@@ -172,8 +172,8 @@ Here are the details of the different flows:
 .. i18n: you will have the following procurements:
 ..
 
-With this configuration, when a Sales Order for 3 units of Product A is confirmed and the scheduler has been launched,
-you will have the following procurements:
+通过上面的配置, 当确认了销售3个 Product A 并且执行了这个计划,
+将会有下面的采购项目:
 
 .. i18n: .. figure:: images/procurement.png
 .. i18n: 	:scale: 90
@@ -190,7 +190,7 @@ you will have the following procurements:
 	
 	*Procurements View*
 	
-And the following stock moves have been generated:
+并且生成下面的库存移动:
 
 .. i18n: .. figure:: images/stock_moves_ex.png
 .. i18n: 	:scale: 90
@@ -210,9 +210,9 @@ And the following stock moves have been generated:
 .. i18n: OpenERP US to OpenERP SA to be sold to the customer.
 ..
 
-Because we are working in two different companies, different stock moves have been generated. The products have to move 
-from OpenERP SA to OpenERP US for the products C. After the manufacturing process, the products A have to move from
-OpenERP US to OpenERP SA to be sold to the customer.
+因为我们在两个不同公司运作, 产生不同的库位移动. products C产品从 
+ OpenERP SA 到 OpenERP US .之后生产的 products A 从
+OpenERP US 移动到 OpenERP SA 出售给客户.
 
 .. i18n: Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
 .. i18n: status. So you can run the production of the three units of Product A.
