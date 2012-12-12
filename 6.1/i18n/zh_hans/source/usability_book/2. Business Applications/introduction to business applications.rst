@@ -60,7 +60,8 @@
 .. i18n: The menu related to the application is always visible on the left of the screen and the applications are displayed in the red top menubar.
 ..
 
-The menu related to the application is always visible on the left of the screen and the applications are displayed in the red top menubar.
+
+应用套件显示在红色的顶部菜单栏，相关的菜单显示在屏幕左侧。
 
 .. i18n: .. figure:: Pictures/1.1menu_application.png
 .. i18n:    :align: center
