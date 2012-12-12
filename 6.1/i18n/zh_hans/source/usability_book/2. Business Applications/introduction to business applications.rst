@@ -24,7 +24,7 @@
 
 .. note:: 
 
-	OpenERP distinguishes between modules and applications. A module is a set of features packaged together for technical reasons. A business application includes all the features coming from different modules and creates a menu structure according to a specific role in the company. An application is usually composed of a set of modules.
+        注意OpenERP的模块和应用套件之间的区别。模块是从技术上将一组功能打包在一起。应用套件则包括了所有的功能，根据该公司在一个特定的角色创建一系列的菜单。一个应用程序通常是由数个模块组成。
 
 .. i18n: These business applications define a context of work and all terminology used in an application must be relative to this context, so that it's easier to understand : a purchaser will see screens adapted to purchasing operations. An accountant may see the same data, but in an accounting context. (adapted terminology, adapted menus, adapted default values in each screen)
 ..
