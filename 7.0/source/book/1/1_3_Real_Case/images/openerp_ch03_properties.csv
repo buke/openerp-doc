@@ -1,0 +1,13 @@
+Fields/Field Label,Fields/Name,Name,Resource,Value
+many2one,res.partner,property_product_pricelist,,"product.pricelist,1"
+many2one,res.partner,property_stock_supplier,,"stock.location,7"
+many2one,res.partner,property_stock_customer,,"stock.location,8"
+many2one,product.template,property_stock_procurement,,"stock.location,5"
+many2one,product.template,property_stock_inventory,,"stock.location,4"
+many2one,product.template,property_stock_production,,"stock.location,6"
+many2one,product.category,property_stock_journal,,"account.journal,1"
+many2one,product.template,property_stock_account_output,,
+many2one,product.template,property_stock_account_input,,
+many2one,product.category,property_stock_account_output_categ,,
+many2one,product.category,property_stock_account_input_categ,,
+many2one,res.partner,property_product_pricelist_purchase,,"product.pricelist,2"

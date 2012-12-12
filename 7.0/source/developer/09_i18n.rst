@@ -1,0 +1,68 @@
+===========================
+I18n - Internationalization
+===========================
+
+Explain about the multiple language application
+
+Introduction
+============
+
+The I18n contains the translation of module in different languages.  The folder contains two type of files .po and .pot.
+The .po files  are the actual translation files where as .pot is the template for the translation.
+
+The .po files should be named according to the language code of specific language and .pot should be named according to the module name.
+
+Example of a account.pot file
+
+::
+   
+   "Project-Id-Version: OpenERP Server 5.0.0\n"
+   "Report-Msgid-Bugs-To: support@openerp.com\n"
+   "POT-Creation-Date: 2009-05-19 14:36+0000\n"
+   "PO-Revision-Date: 2009-05-20 10:36+0000\n"
+   "Last-Translator: <>\n"
+   "Language-Team: \n"
+   "MIME-Version: 1.0\n" 
+   "Content-Type: text/plain; charset=UTF-8\n"
+   "Content-Transfer-Encoding: 8bit\n"
+   "X-Launchpad-Export-Date: 2009-12-07 15:06+0000\n"
+   "X-Generator: Launchpad (build Unknown)\n"
+
+   #. module: account
+   #: code:addons/account/account.py:0
+   #, python-format
+   msgid "Integrity Error !"
+   msgstr ""
+
+The above file is the template for the translation files for the account module they tell what all values of the module should be translated in the respective languages.
+
+Example of fr_FR.po for account module translates in French language
+
+::
+  
+  # Translation of OpenERP Server.
+  # This file contains the translation of the following modules:
+  # 	* account
+  #
+  msgid ""
+  msgstr ""
+  "Project-Id-Version: OpenERP Server 5.0.0\n"
+  "Report-Msgid-Bugs-To: support@openerp.com\n"
+  "POT-Creation-Date: 2009-05-19 14:36+0000\n"
+  "PO-Revision-Date: 2010-01-04 11:19+0530\n"
+  "Last-Translator: Anup <ach@tinyerp.co.in>\n"
+  "Language-Team: \n"
+  "MIME-Version: 1.0\n"
+  "Content-Type: text/plain; charset=UTF-8\n"
+  "Content-Transfer-Encoding: 8bit\n"
+  "X-Launchpad-Export-Date: 2009-12-07 15:07+0000\n"
+  "X-Generator: Launchpad (build Unknown)\n"
+
+  #. module: account
+  #: code:addons/account/account.py:0
+  #, python-format
+  msgid "Integrity Error !"
+  msgstr "Erreur d'Intégrité !"   
+  
+The above file translates the values of msgid to French in msgstr. Based on the msgid present in the .pot file.
+fr_FR is the language code for French language in which fr specifies the language and FR specifies the country in which the language is spoken.   

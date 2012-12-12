@@ -1,0 +1,8 @@
+"Fields/Field Label","Fields/Name","Name","Resource","Value"
+"many2one","res.partner","property_account_receivable",,"account.account,2"
+"many2one","res.partner","property_account_payable",,"account.account,3"
+"many2one","res.partner","property_account_position",,
+"many2one","product.template","property_account_expense",,
+"many2one","product.template","property_account_income",,
+"many2one","product.category","property_account_expense_categ",,"account.account,5"
+"many2one","product.category","property_account_income_categ",,"account.account,6"
