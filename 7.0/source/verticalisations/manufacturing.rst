@@ -1,4 +1,0 @@
-
-Manufacturing Resource Planning
--------------------------------
-
