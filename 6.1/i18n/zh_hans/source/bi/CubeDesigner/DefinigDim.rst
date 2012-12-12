@@ -1,9 +1,8 @@
-
 .. i18n: Defining Dimension
 .. i18n: ==================
 ..
 
-Defining Dimension
+定义维度
 ==================
 
 .. i18n: :ref:`Dimension <dimension-link>` need to name to be identified. Cube will be filled by default according to the schema opened.
