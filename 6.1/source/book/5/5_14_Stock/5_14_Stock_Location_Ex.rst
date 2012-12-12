@@ -218,8 +218,8 @@ OpenERP US 移动到 OpenERP SA 出售给客户.
 .. i18n: status. So you can run the production of the three units of Product A.
 ..
 
-Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
-status. So you can run the production of the three units of Product A.
+一旦你配置好了 products B 和 C 的库存移动, 生产订单是 `准备生产`
+状态. 你就可以启动生产 3 个 Product A.
 
 .. i18n: .. figure:: images/start_production.png
 .. i18n: 	:scale: 75
@@ -240,10 +240,9 @@ status. So you can run the production of the three units of Product A.
 .. i18n: reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
 ..
 
-Once again due to the use of two companies, you have to confirm different deliveries. One to deliver the product 
-from OpenERP US to OpenERP SA and another to deliver the product from OpenERP SA to the customer.
-Now you have to confirm the delivery of the three units from OpenERP US to OpenERP SA, then to confirm the 
-reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
+再次因为在两个公司使用, 你要配置不同的交付. 一个交付产品从 OpenERP US 到 OpenERP SA 和另外一个交付产品从 OpenERP SA 到客户.
+现在，你需要确认3个产品从 OpenERP US 交付到了 OpenERP SA, 然后确认产品从 OpenERP SA 已接收完成，交付给了你的最终客户。
+
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
