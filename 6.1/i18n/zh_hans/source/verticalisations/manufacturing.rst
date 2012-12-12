@@ -1,7 +1,6 @@
-
 .. i18n: Manufacturing Resource Planning
 .. i18n: -------------------------------
 ..
 
-Manufacturing Resource Planning
+制造资源计划
 -------------------------------
