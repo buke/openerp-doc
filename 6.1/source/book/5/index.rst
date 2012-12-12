@@ -15,9 +15,8 @@
 .. i18n:  the transformation of materials by assembly and manufacture.
 ..
 
- This part of the book concentrates on physical materials - the handling of stock and
- the transformation of materials by assembly and manufacture.
-
+ 书的这部分专注于原材料 - 库存处理以及经过组装或生产的转变。
+ 
 .. i18n:  Stocks are the physical embodiment of their product specification, things rather than
 .. i18n:  datasheets. So they need to be stored and moved between locations, and tracked in
 .. i18n:  sets and individually. They have a size, a weight, and a cost.
