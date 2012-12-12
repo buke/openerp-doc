@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-phys:
 .. i18n: 
 .. i18n: #####################################################
@@ -9,7 +8,7 @@
 .. _part-phys:
 
 #####################################################
-Manage your Warehouse and Get your Manufacturing Done
+管理你的仓库来完成你的生产
 #####################################################
 
 .. i18n:  This part of the book concentrates on physical materials - the handling of stock and
