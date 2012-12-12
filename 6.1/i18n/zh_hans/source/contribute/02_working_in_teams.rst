@@ -21,7 +21,7 @@
 .. i18n: Who are the different actors in the community of OpenERP?
 ..
 
-Who are the different actors in the community of OpenERP?
+在OpenERP社区中有多少种角色呢？
 
 .. i18n: Contributors
 .. i18n: """"""""""""
