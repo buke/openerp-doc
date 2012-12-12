@@ -73,13 +73,13 @@ Following this, you will sell some of these products, using this sequence:
 .. i18n: Purchase Orders` and click the `New` button.
 ..
 
-To place a Purchase Order with your supplier, use the menu :menuselection:`Purchases --> Purchase Management -->
-Purchase Orders` and click the `New` button.
+要给供应商下达采购任务,菜单入口在 :menuselection:`Purchases --> Purchase Management --> Purchase Orders` 中文菜单项为 :menuselection:`采购 --> 采购管理 --> 采购订单`
+点击 `New`(中文:`新建`) 按钮即可。
 
 .. i18n: Complete the following field:
 ..
 
-Complete the following field:
+并填写采购订单中下面的字段:
 
 .. i18n: *  :guilabel:`Supplier` : \ ``Plumbing Component Suppliers``\  .
 ..
@@ -91,9 +91,7 @@ Complete the following field:
 .. i18n: Partner record.
 ..
 
-As you complete the :guilabel:`Supplier` field, OpenERP automatically completes the
-:guilabel:`Address` field and the :guilabel:`Pricelist` field from information it takes out of the
-Partner record.
+当你选择了 :guilabel:`供应商` 后, 采购订单会自动完成该供应商的 :guilabel:`地址` 及 :guilabel:`价格表` 字段。
 
 .. i18n: Enter the following information
 ..
@@ -113,8 +111,7 @@ Enter the following information
 .. i18n: fields from information it finds in the Product record:
 ..
 
-When you have selected a product on the product line, OpenERP automatically completes the following
-fields from information it finds in the Product record:
+当你在采购明细行选择一个产品后，OpenERP会自动将该产品的其他下面的信息带出来:
 
 .. i18n: * :guilabel:`Product UOM` : the unit of measure for this product,
 .. i18n: 
@@ -130,17 +127,17 @@ fields from information it finds in the Product record:
 .. i18n:   product, if specified (there are not any in this example).
 ..
 
-* :guilabel:`Product UOM` : the unit of measure for this product,
+* :guilabel:`单位` : 产品的默认采购单位,
 
-* :guilabel:`Description` : the detailed description of the product,
+* :guilabel:`名称` : 产品的描述性名称,
 
-* :guilabel:`Scheduled Date` : based on the product lead time,
+* :guilabel:`交货日期` : 采购预计交付时间,
 
-* :guilabel:`Unit Price` : the unit price of the product,
+* :guilabel:`单价` : 产品的价格规则产生的默认采购价格,
 
-* :guilabel:`Analytic account` : if any account is specified then it will appear on the order line (it is not in this example),
+* :guilabel:`辅助核算项` : 当你设置了辅助核算默认项值，会自动带出来。(本例没有设置相关辅助核算),
 
-* :guilabel:`Taxes` : applicable taxes defined in the partner, if specified, otherwise in the
+* :guilabel:`税` : applicable taxes defined in the partner, if specified, otherwise in the
   product, if specified (there are not any in this example).
 
 .. i18n: You can edit any of these fields to suit the requirements of the purchase order at the time of

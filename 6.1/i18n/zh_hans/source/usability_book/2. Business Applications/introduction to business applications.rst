@@ -10,12 +10,12 @@
 .. i18n: The complexity of an ERP is usually due to the high number of available features. Most of the users of the system use only a few features, according to their job position(s) in the company. In order to remain easy to use, the different features are split into business applications.
 ..
 
-The complexity of an ERP is usually due to the high number of available features. Most of the users of the system use only a few features, according to their job position(s) in the company. In order to remain easy to use, the different features are split into business applications.
+一个完整复杂的 ERP 系统通常包含了大量的功能。而根据他们在公司的工作岗位的不同，大多数用户往往只能用到少量一些功能。为了保持简单易用，这些功能分成不同的模块应用。
 
 .. i18n: The main idea is that a user is often working in a particular context (working on a project, recording accounting entries). When he is in such a context, he should directly see all features related to this context (=business application). We try to create business applications according to user's position in the company: salesman, project user, purchasers, accountant, etc.
 ..
 
-The main idea is that a user is often working in a particular context (working on a project, recording accounting entries). When he is in such a context, he should directly see all features related to this context (=business application). We try to create business applications according to user's position in the company: salesman, project user, purchasers, accountant, etc.
+其主要思想是用户往往在一个特定岗位工作（如为某个项目工作，会计分录等）。当这个用户处于这样的情况下，他应该直接看到有关这方面的全部功能。我们试图创建各个不同的模块，按照用户的工作职位划分：业务员，项目用户，采购商，会计师等。
 
 .. i18n: .. note:: 
 .. i18n: 

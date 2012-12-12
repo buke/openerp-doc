@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-phys:
 .. i18n: 
 .. i18n: #####################################################
@@ -9,33 +8,29 @@
 .. _part-phys:
 
 #####################################################
-Manage your Warehouse and Get your Manufacturing Done
+管理你的仓库来完成你的生产
 #####################################################
 
 .. i18n:  This part of the book concentrates on physical materials - the handling of stock and
 .. i18n:  the transformation of materials by assembly and manufacture.
 ..
 
- This part of the book concentrates on physical materials - the handling of stock and
- the transformation of materials by assembly and manufacture.
-
+ 书的这部分专注于原材料 - 库存处理以及经过组装或生产的转变。
+ 
 .. i18n:  Stocks are the physical embodiment of their product specification, things rather than
 .. i18n:  datasheets. So they need to be stored and moved between locations, and tracked in
 .. i18n:  sets and individually. They have a size, a weight, and a cost.
 .. i18n:  OpenERP manages all of this in some rather useful and unique ways.
 ..
 
- Stocks are the physical embodiment of their product specification, things rather than
- datasheets. So they need to be stored and moved between locations, and tracked in
- sets and individually. They have a size, a weight, and a cost.
- OpenERP manages all of this in some rather useful and unique ways.
+ 仓库是物理体现产品规格而不是数据表。因此他们需要存储或位置移动，需要跟踪记录他们全部和单个的. 
+他们的尺寸, 重量, 和价格. OpenERP 通过比较有用的独特方式来管理所有这一切。
 
 .. i18n:  Manufacturing is the transformation of materials and components, perhaps using measurable
 .. i18n:  resources, into other products and services, adding value to your company on the way.
 ..
 
- Manufacturing is the transformation of materials and components, perhaps using measurable
- resources, into other products and services, adding value to your company on the way.
+ 生产是材料的改造和组装, 利用有效资源，统筹到产品或服务中 , 增加公司的附加值.
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1

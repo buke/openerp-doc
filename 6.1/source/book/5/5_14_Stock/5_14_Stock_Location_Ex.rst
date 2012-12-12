@@ -1,42 +1,40 @@
-
 .. i18n: Stock Location Example
 .. i18n: ++++++++++++++++++++++
 ..
 
-Stock Location Example
+库位范例
 ++++++++++++++++++++++
 
 .. i18n: In this section, we will develop a more detailed example that includes different concepts seen
 .. i18n: in the previous sections. 
 ..
 
-In this section, we will develop a more detailed example that includes different concepts seen
-in the previous sections. 
+在这部分, 我们将开发一个更详细的例子，其中包括
+在前面的章节中看到不同的概念. 
 
 .. i18n: The following example will use the *Stock Location types*, the *Logistic Flows* and the *Bill Of
 .. i18n: Materials*.
 ..
 
-The following example will use the *Stock Location types*, the *Logistic Flows* and the *Bill Of
+下面的范例我们用 *Stock Location types*,  *Logistic Flows* 和 *Bill Of
 Materials*.
 
 .. i18n: We have two companies: OpenERP SA and OpenERP US.
 ..
 
-We have two companies: OpenERP SA and OpenERP US.
+我们有两家公司: OpenERP SA 和 OpenERP US.
 
 .. i18n: We have three products: Product A, Product B and Product C. For each product, we will have to define
 .. i18n: the Stock Location to determine where to take these products.
 ..
 
-We have three products: Product A, Product B and Product C. For each product, we will have to define
-the Stock Location to determine where to take these products.
+我们有三种产品: Product A, Product B 和 Product C. 每种产品, 我们将定义库位以确定在那儿可以获得这个产品。
 
 .. i18n: To make one unit of Product A, we need the Product B and the Product C. So we will have to define a 
 .. i18n: *Bill of Material*.
 ..
 
-To make one unit of Product A, we need the Product B and the Product C. So we will have to define a 
+制造一个 Product A, 我们需要 Product B 和 Product C. 因此我们定义一个物料清单 
 *Bill of Material*.
 
 .. i18n: .. table:: Bill of Materials
@@ -68,8 +66,8 @@ To make one unit of Product A, we need the Product B and the Product C. So we wi
 .. i18n: and one unit of Product C.
 ..
 
-The different components to produce one unit of Product A are one unit of Product B
-and one unit of Product C.
+生产一个 Product A 需要一个 Product B
+和一个 Product C.
 
 .. i18n: .. table:: Companies and Products
 .. i18n:    
@@ -174,8 +172,8 @@ Here are the details of the different flows:
 .. i18n: you will have the following procurements:
 ..
 
-With this configuration, when a Sales Order for 3 units of Product A is confirmed and the scheduler has been launched,
-you will have the following procurements:
+通过上面的配置, 当确认了销售3个 Product A 并且执行了这个计划,
+将会有下面的采购项目:
 
 .. i18n: .. figure:: images/procurement.png
 .. i18n: 	:scale: 90
@@ -192,7 +190,7 @@ you will have the following procurements:
 	
 	*Procurements View*
 	
-And the following stock moves have been generated:
+并且生成下面的库存移动:
 
 .. i18n: .. figure:: images/stock_moves_ex.png
 .. i18n: 	:scale: 90
@@ -212,16 +210,16 @@ And the following stock moves have been generated:
 .. i18n: OpenERP US to OpenERP SA to be sold to the customer.
 ..
 
-Because we are working in two different companies, different stock moves have been generated. The products have to move 
-from OpenERP SA to OpenERP US for the products C. After the manufacturing process, the products A have to move from
-OpenERP US to OpenERP SA to be sold to the customer.
+因为我们在两个不同公司运作, 产生不同的库位移动. products C产品从 
+ OpenERP SA 到 OpenERP US .之后生产的 products A 从
+OpenERP US 移动到 OpenERP SA 出售给客户.
 
 .. i18n: Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
 .. i18n: status. So you can run the production of the three units of Product A.
 ..
 
-Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
-status. So you can run the production of the three units of Product A.
+一旦你配置好了 products B 和 C 的库存移动, 生产订单是 `准备生产`
+状态. 你就可以启动生产 3 个 Product A.
 
 .. i18n: .. figure:: images/start_production.png
 .. i18n: 	:scale: 75
@@ -242,10 +240,9 @@ status. So you can run the production of the three units of Product A.
 .. i18n: reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
 ..
 
-Once again due to the use of two companies, you have to confirm different deliveries. One to deliver the product 
-from OpenERP US to OpenERP SA and another to deliver the product from OpenERP SA to the customer.
-Now you have to confirm the delivery of the three units from OpenERP US to OpenERP SA, then to confirm the 
-reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
+再次因为在两个公司使用, 你要配置不同的交付. 一个交付产品从 OpenERP US 到 OpenERP SA 和另外一个交付产品从 OpenERP SA 到客户.
+现在，你需要确认3个产品从 OpenERP US 交付到了 OpenERP SA, 然后确认产品从 OpenERP SA 已接收完成，交付给了你的最终客户。
+
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..

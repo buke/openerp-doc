@@ -1015,7 +1015,7 @@ Profiling can be used to qualify your customers according to a questionnaire you
 .. i18n: --------------------------------------
 ..
 
-Establishing the Profiles of Prospects
+创建售前模板配置
 --------------------------------------
 
 .. i18n: During presales activities it is useful to qualify your prospects quickly. You can ask a series of
@@ -1141,7 +1141,7 @@ proposition, such as an invitation to a training session a week after the show.
 .. i18n: --------------------------
 ..
 
-Using Profiles effectively
+高效使用配置模板
 --------------------------
 
 .. i18n: .. index::
