@@ -47,15 +47,15 @@
 .. i18n:    * Incoming Shipments
 ..
 
-* Purchases
-   * Request for Quotations
-   * Purchase Orders
-* Address Book
-   * Suppliers
-* Invoice Control
-   * Supplier Invoices to Receive
-* Inventory Control
-   * Incoming Shipments
+* 采购
+   * 询价单
+   * 采购订单
+* 地址薄
+   * 供应商
+* 发票管理
+   * 供应商发票
+* 库存管理
+   * 收货
 
 .. i18n: The menu related to the application is always visible on the left of the screen and the applications are displayed in the red top menubar.
 ..
