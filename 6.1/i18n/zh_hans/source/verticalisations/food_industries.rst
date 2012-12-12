@@ -1,20 +1,19 @@
-
 .. i18n: Food Industries
 .. i18n: ---------------
 ..
 
-Food Industries
+食品行业
 ---------------
 
 .. i18n: Introduction two or three lines.
 ..
 
-Introduction two or three lines.
+介绍两个或三行.
 
 .. i18n: *Key Points:*
 ..
 
-*Key Points:*
+*重点:*
 
 .. i18n: * Key point 1
 .. i18n: * Key point 2
@@ -26,7 +25,7 @@ Introduction two or three lines.
 .. i18n: *Integration Benefits:*
 ..
 
-*Integration Benefits:*
+*集成的好处:*
 
 .. i18n: * Integration 1
 .. i18n: * Integration 2
@@ -38,11 +37,11 @@ Introduction two or three lines.
 .. i18n: *Screenshot:*
 ..
 
-*Screenshot:*
+*截图:*
 
 .. i18n: . Type of screenshot
 .. i18n:    -> Comment
 ..
 
-. Type of screenshot
+. 类型的屏幕截图
    -> Comment
