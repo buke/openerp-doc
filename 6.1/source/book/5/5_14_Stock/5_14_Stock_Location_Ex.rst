@@ -34,7 +34,7 @@ Materials*.
 .. i18n: *Bill of Material*.
 ..
 
-制造一个 Product A, 我们需要 Product B 和 Product C. 因此我们定义一个物料清单 
+制造一单位的 Product A, 我们需要 Product B 和 Product C. 因此我们定义一个物料清单 
 *Bill of Material*.
 
 .. i18n: .. table:: Bill of Materials
@@ -66,8 +66,8 @@ Materials*.
 .. i18n: and one unit of Product C.
 ..
 
-The different components to produce one unit of Product A are one unit of Product B
-and one unit of Product C.
+生产一单位 Product A 需要一单位的 Product B
+和一单位的 Product C.
 
 .. i18n: .. table:: Companies and Products
 .. i18n:    
