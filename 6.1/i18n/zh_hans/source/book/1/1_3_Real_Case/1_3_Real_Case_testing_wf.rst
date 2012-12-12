@@ -8,12 +8,12 @@
 .. i18n: To familiarize yourself with the system workflow, you will test a purchase-sale workflow in two phases.
 ..
 
-To familiarize yourself with the system workflow, you will test a purchase-sale workflow in two phases.
+为了熟悉业务流程,下面我们以采购与销售两个业务做样例.
 
 .. i18n: The first consists of product purchase, which requires the following operations:
 ..
 
-The first consists of product purchase, which requires the following operations:
+首先是采购业务,我们要达成下面的目的:
 
 .. i18n: 	#. Place a purchase order with Plumbing Component Suppliers for 10 Titanium Alloy Radiators at a
 .. i18n: 	   unit price of 56.00.
@@ -25,19 +25,18 @@ The first consists of product purchase, which requires the following operations:
 .. i18n: 	#. Pay your supplier.
 ..
 
-	#. Place a purchase order with Plumbing Component Suppliers for 10 Titanium Alloy Radiators at a
-	   unit price of 56.00.
+	#. 从 元件供应商 那里以单价 56.00 采购 10 个 :guilabel:`钛合金散热器` .
 
-	#. Receive these products at your Goods In.
+	#. 做采购收货入库操作.
 
-	#. Generate a purchase invoice.
+	#. 做供应商采购发票.
 
-	#. Pay your supplier.
+	#. 支付该发票.
 
 .. i18n: Following this, you will sell some of these products, using this sequence:
 ..
 
-Following this, you will sell some of these products, using this sequence:
+然后,我们再做销售业务,以下面的数据为样例: 
 
 .. i18n: 	#. Receive a sales order for 6 Titanium Alloy Radiators from Smith and Sons, sold at a unit price
 .. i18n: 	   of 130.00.
@@ -49,14 +48,13 @@ Following this, you will sell some of these products, using this sequence:
 .. i18n: 	#. Receive the payment.
 ..
 
-	#. Receive a sales order for 6 Titanium Alloy Radiators from Smith and Sons, sold at a unit price
-	   of 130.00.
+	#. 向 :guilabel:`客户` Smith and Sons 以单价 130.00/个 销售 6 个 :guilabel:`钛合金散热器` .
 
-	#. Dispatch the products.
+	#. 安排发货送货.
 
-	#. Invoice the customer.
+	#. 开据客户发票.
 
-	#. Receive the payment.
+	#. 并做客户收款.
 
 .. i18n: .. _sect-PO:
 .. i18n: 
@@ -74,7 +72,7 @@ Following this, you will sell some of these products, using this sequence:
 ..
 
 要给供应商下达采购任务,菜单入口在 :menuselection:`Purchases --> Purchase Management --> Purchase Orders` 中文菜单项为 :menuselection:`采购 --> 采购管理 --> 采购订单`
-点击 `New`(中文:`新建`) 按钮即可。
+点击 :guilabel:`新建` 按钮即可。
 
 .. i18n: Complete the following field:
 ..
