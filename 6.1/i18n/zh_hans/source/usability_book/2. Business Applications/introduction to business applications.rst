@@ -29,7 +29,7 @@
 .. i18n: These business applications define a context of work and all terminology used in an application must be relative to this context, so that it's easier to understand : a purchaser will see screens adapted to purchasing operations. An accountant may see the same data, but in an accounting context. (adapted terminology, adapted menus, adapted default values in each screen)
 ..
 
-这些业务应用定义了工作场景和相关的全部术语，因此就很容易理解：采购员可以看到订购相关的屏幕，而一个会计也许可以在财务会计屏幕中看到相同的数据（相应的术语、相应的菜单、在每个屏幕相应的默认值）
+这些业务应用定义了工作场景和相关的全部术语，因此就很容易理解：采购员可以看到订购相关的屏幕，而一个会计也许可以在财务会计屏幕中看到相同的数据（自动匹配术语、自动匹配菜单、每个屏幕自动匹配默认值）
 
 .. i18n: As an example, a purchaser will see the following menu on the left:
 ..
@@ -73,12 +73,12 @@
 .. i18n: Business Application means that one responsible user could stay in only one menu to achieve his work.
 ..
 
-Business Application means that one responsible user could stay in only one menu to achieve his work.
+这就意味着一个特定用户可以只需要在一个菜单工作。
 
 .. i18n: Several menus may refer to the same view (with adapted default values) because they are used by several applications. As an example, a warehouse manager should see the following menus:
 ..
 
-Several menus may refer to the same view (with adapted default values) because they are used by several applications. As an example, a warehouse manager should see the following menus:
+不同的菜单可能指向一个相同的视图（自动匹配默认值），因为可能会被不同的应用套件使用。如，仓库管理员应该看到以下菜单：
 
 .. i18n: * Warehouse Management
 .. i18n:    * Incoming Shipments
@@ -86,12 +86,12 @@ Several menus may refer to the same view (with adapted default values) because t
 .. i18n:    * Delivery Orders
 ..
 
-* Warehouse Management
-   * Incoming Shipments
-   * Internal Moves
-   * Delivery Orders
+* 仓库管理
+   * 入库
+   * 内部调拨
+   * 送货单
 
 .. i18n: In that example, Incoming Shipments is available in the “warehouse management” application and in the “purchase management” application. The menu Suppliers is also referred to as Partners in the “Accounting” application, but partners includes Suppliers & Customers. So, the terminology is adapted to each application.
 ..
 
-In that example, Incoming Shipments is available in the “warehouse management” application and in the “purchase management” application. The menu Suppliers is also referred to as Partners in the “Accounting” application, but partners includes Suppliers & Customers. So, the terminology is adapted to each application.
+上例中，“入库” 菜单在 ”仓库管理“ 和 ”采购管理“ 中都是可用的。”供应商“ 菜单在”会计“套件中被视为 ”合作伙伴“，而”合作伙伴“是包含供应商和客户的。这样，在不同的应用套件中该术语是自动匹配的。
