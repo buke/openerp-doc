@@ -30,7 +30,7 @@
 .. i18n:  resources, into other products and services, adding value to your company on the way.
 ..
 
- 生产是材料的改造和组装, 利用有效资源，统筹到产品或服务中 , 增加公司成长的附加值.
+ 生产是材料的改造和组装, 利用有效资源，统筹到产品或服务中 , 增加公司的附加值.
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
