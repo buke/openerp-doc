@@ -29,12 +29,12 @@
 .. i18n: These business applications define a context of work and all terminology used in an application must be relative to this context, so that it's easier to understand : a purchaser will see screens adapted to purchasing operations. An accountant may see the same data, but in an accounting context. (adapted terminology, adapted menus, adapted default values in each screen)
 ..
 
-These business applications define a context of work and all terminology used in an application must be relative to this context, so that it's easier to understand : a purchaser will see screens adapted to purchasing operations. An accountant may see the same data, but in an accounting context. (adapted terminology, adapted menus, adapted default values in each screen)
+这些业务应用定义了工作场景和相关的全部术语，因此就很容易理解：采购员可以看到订购相关的屏幕，而一个会计也许可以在财务会计屏幕中看到相同的数据（相应的术语、相应的菜单、在每个屏幕相应的默认值）
 
 .. i18n: As an example, a purchaser will see the following menu on the left:
 ..
 
-As an example, a purchaser will see the following menu on the left:
+例如，采购员可以看到以下菜单：
 
 .. i18n: * Purchases
 .. i18n:    * Request for Quotations
