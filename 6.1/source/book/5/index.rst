@@ -23,17 +23,14 @@
 .. i18n:  OpenERP manages all of this in some rather useful and unique ways.
 ..
 
- Stocks are the physical embodiment of their product specification, things rather than
- datasheets. So they need to be stored and moved between locations, and tracked in
- sets and individually. They have a size, a weight, and a cost.
- OpenERP manages all of this in some rather useful and unique ways.
+ 仓库是物理体现产品规格而不是数据表。因此他们需要存储或位置移动，需要跟踪记录他们全部和单个的. 
+他们的尺寸, 重量, 和价格. OpenERP 通过比较有用的独特方式来管理所有这一切。
 
 .. i18n:  Manufacturing is the transformation of materials and components, perhaps using measurable
 .. i18n:  resources, into other products and services, adding value to your company on the way.
 ..
 
- Manufacturing is the transformation of materials and components, perhaps using measurable
- resources, into other products and services, adding value to your company on the way.
+ 生产是材料的改造和组装, 利用有效资源，统筹到产品或服务中 , 增加公司成长的附加值.
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
