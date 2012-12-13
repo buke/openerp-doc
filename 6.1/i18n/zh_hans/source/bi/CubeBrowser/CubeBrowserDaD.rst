@@ -1,17 +1,16 @@
-
 .. i18n: Creating your report with drag and drop
 .. i18n: =======================================
 ..
 
-Creating your report with drag and drop
+拖放方式创建你的报表
 =======================================
 
 .. i18n: Cube Browser uses basic drag-and-drop operations to add data to a report.
 .. i18n: Measures represent categories of stored values; Dimensions represent categories of OLAP information
 ..
 
-Cube Browser uses basic drag-and-drop operations to add data to a report.
-Measures represent categories of stored values; Dimensions represent categories of OLAP information
+Cube Browser 使用基本的拖放操作加数据到一个报表.
+Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 
 .. i18n: All UI controls update their contents automatically, and the resulting query is displayed on the OLAP Grid.
 ..
