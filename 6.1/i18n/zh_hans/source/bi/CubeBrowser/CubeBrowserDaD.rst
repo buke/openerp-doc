@@ -15,7 +15,7 @@ Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 .. i18n: All UI controls update their contents automatically, and the resulting query is displayed on the OLAP Grid.
 ..
 
-All UI controls update their contents automatically, and the resulting query is displayed on the OLAP Grid.
+所有的UI控件自动更新其内容,查询结果显示在OLAP表格里.
 
 .. i18n: Queries can be created by Dragging a member on the on the Droppable Area marked with the box for the drop zone.
 ..
