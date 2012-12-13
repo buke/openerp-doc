@@ -152,7 +152,7 @@ Web 客户端
 .. i18n: The web client is a web-server that display cubes and provide tools to browse them, it must provide at least these operations:
 ..
 
-The web client is a web-server that display cubes and provide tools to browse them, it must provide at least these operations:
+Web客户端是一个Web服务，显示浏览cubes和提供浏览工具，它必须至少提供以下操作:
 
 .. i18n: * switch view
 .. i18n: 
