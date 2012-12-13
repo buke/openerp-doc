@@ -104,24 +104,24 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 .. i18n: **The final document**
 ..
 
-**The final document**
+**生成最终文档**
 
 .. i18n:     * Finally the .RML file is converted to PDF or HTML as needed, using OpenReport's scripts. 
 ..
 
-    * Finally the .RML file is converted to PDF or HTML as needed, using OpenReport's scripts. 
+    * 最后RML文件会根据OpenReport代码的需要，转换成PDF或者HTML文件。
 
 .. i18n: Creating a SXW
 .. i18n: --------------
 ..
 
-Creating a SXW
+生成 SXW 文件
 --------------
 
 .. i18n: You can design reports using *OpenOffice*. Here, as an example, is the file **server/bin/addons/sale/report/order.sxw**.
 ..
 
-You can design reports using *OpenOffice*. Here, as an example, is the file **server/bin/addons/sale/report/order.sxw**.
+你可以使用 OpenOffice 设计报表。举个例子，如： **server/bin/addons/sale/report/order.sxw**.
 
 .. i18n: .. figure::  images/writer_report.png
 .. i18n:    :scale: 85
