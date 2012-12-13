@@ -358,11 +358,8 @@ the ``Payable`` account.
 .. i18n: more generally, for invoices nearing their payment date.
 ..
 
-Select the menu :menuselection:`Accounting --> Suppliers --> Supplier Invoices` and click on the :guilabel:`Unpaid` button
-for a list of supplier invoices that have not yet been paid. Write the
-``PO00001`` in  `Source Document` text itself to find the invoice.
-In practice, you would search for the invoice by order number or,
-more generally, for invoices nearing their payment date.
+选择菜单 :menuselection:`Accounting --> Suppliers --> Supplier Invoices` and click on the :guilabel:`Unpaid` button
+  for a list of supplier invoices that have not yet been paid. 写PO00001在源文档文本本身发现发票。在实践中,你将会寻找发票通过订单号,或更普遍而言,他们的付款日期为发票接近。
 
 .. i18n: Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens the
 .. i18n: :guilabel:`Pay Invoice` window in new tab with a description of the payment.
@@ -396,8 +393,11 @@ Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens t
 
 .. note:: Payment of an Invoice
 
-	The method described here is for companies that do not use their accounting system to pay bills –
-	just to record them.
+	
+
+        这里描述的方法是为企业,不使用他们的会计系统付账单——
+        只是来记录他们
+.
 	If you are using the :mod:`account` module with all its features, other, more efficient, methods let you manage payments,
 	such as entering account statements, reconciling paperwork, using tools for preparing payments,
 	interfacing with banks.
