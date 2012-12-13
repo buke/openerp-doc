@@ -2,7 +2,7 @@
 .. i18n: ============
 ..
 
-Cube Browser
+Cube 浏览
 ============
 
 .. i18n: Cube Browser of Open Object-BI Platform lets users design their own reports through a clean and effective Web-based environment. 
