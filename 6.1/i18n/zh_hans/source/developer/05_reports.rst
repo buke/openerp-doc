@@ -30,18 +30,18 @@ OpenERP 主要有三种类型的报表:
 .. i18n: ======================
 ..
 
-OpenOffice.org reports
+OpenOffice.org 报表
 ======================
 
 .. i18n: **The document flow**
 ..
 
-**The document flow**
+**文件流**
 
 .. i18n: OpenOffice.org reports are the most commonly used report formats. OpenOffice.org Writer is used (in combination with [[1]]) to generate a RML template, which in turn is used to generate a pdf printable report.
 ..
 
-OpenOffice.org reports are the most commonly used report formats. OpenOffice.org Writer is used (in combination with [[1]]) to generate a RML template, which in turn is used to generate a pdf printable report.
+OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML模板，而RML模板用来生成pdf报表。
 
 .. i18n: .. figure::  images/ooo_report_overview.png
 .. i18n:    :scale: 85
@@ -55,7 +55,7 @@ OpenOffice.org reports are the most commonly used report formats. OpenOffice.org
 .. i18n: **The internal process**
 ..
 
-**The internal process**
+**内部过程**
 
 .. i18n: .. figure::  images/process_ooo.png
 .. i18n:    :scale: 85
@@ -69,59 +69,61 @@ OpenOffice.org reports are the most commonly used report formats. OpenOffice.org
 .. i18n: **The .SXW template file**
 ..
 
-**The .SXW template file**
+**.SXW 模板文件**
 
 .. i18n:     * We use a .SXW file for the template, which is the OpenOffice 1.0 format. The template includes expressions in brackets or OpenOffice fields to point where the data from the OpenERP server will be filled in. This document is only used for developers, as a help-tool to easily generate the .RML file. OpenERP does not need this .SXW file to print reports. 
 ..
 
-    * We use a .SXW file for the template, which is the OpenOffice 1.0 format. The template includes expressions in brackets or OpenOffice fields to point where the data from the OpenERP server will be filled in. This document is only used for developers, as a help-tool to easily generate the .RML file. OpenERP does not need this .SXW file to print reports. 
+    * 我们用OpenOffice1.0的.sxw文件作为模板。模板中包含用括号括起来的表达式或OpenOffice字段(field)，用来提供 给OpenERP server填充数据。但这只是作为一种较容易的方法，提供给开发者生成.RML文件。OpenERP并不需要SXW文件产生报表。 
+
 
 .. i18n: **The .RML template**
 ..
 
-**The .RML template**
+**.RML 模板**
 
 .. i18n:     * We generate a .RML file from the .SXW file using Open SXW2RML. A .RML file is a XML format that represent a .PDF document. It can be converted to a .PDF after. We use RML for more easy processing: XML syntax seems to be more common than PDF syntax. 
 ..
 
-    * We generate a .RML file from the .SXW file using Open SXW2RML. A .RML file is a XML format that represent a .PDF document. It can be converted to a .PDF after. We use RML for more easy processing: XML syntax seems to be more common than PDF syntax. 
+    * 可以使用Open SXW2RML从SXW文件生成RML文件。RML文件是一种表现PDF文档的XML格式，可以转换为PDF文件。RML是一种更容易的方法，至少XML语法比PDF语法更加通俗易懂。 
+
 
 .. i18n: **The report engine**
 ..
 
-**The report engine**
+**报表引擎**
 
 .. i18n:     * The Open Report Engine process the .RML file inserting data from the database at each expression. 
 ..
 
-    * The Open Report Engine process the .RML file inserting data from the database at each expression. 
+    * 报表引擎(report engine)从数据库中读出数据，插入在RML文件的表达式中。 
 
 .. i18n: in the .RML file will be replaced by the name of the country of the partner of the printed invoice. This report engine produce the same .RML file where all expressions have been replaced by real data.
 ..
 
-in the .RML file will be replaced by the name of the country of the partner of the printed invoice. This report engine produce the same .RML file where all expressions have been replaced by real data.
+在.RML文件中，将以(打印)发票上parter的城市名称替换掉相应表达式。报表引擎以真实数据替换所有表达式之后，生成相同的.RML文件。
 
 .. i18n: **The final document**
 ..
 
-**The final document**
+**生成最终文档**
 
 .. i18n:     * Finally the .RML file is converted to PDF or HTML as needed, using OpenReport's scripts. 
 ..
 
-    * Finally the .RML file is converted to PDF or HTML as needed, using OpenReport's scripts. 
+    * 最后RML文件会根据OpenReport代码的需要，转换成PDF或者HTML文件。
 
 .. i18n: Creating a SXW
 .. i18n: --------------
 ..
 
-Creating a SXW
+生成 SXW 文件
 --------------
 
 .. i18n: You can design reports using *OpenOffice*. Here, as an example, is the file **server/bin/addons/sale/report/order.sxw**.
 ..
 
-You can design reports using *OpenOffice*. Here, as an example, is the file **server/bin/addons/sale/report/order.sxw**.
+你可以使用 OpenOffice 设计报表。举个例子，如： **server/bin/addons/sale/report/order.sxw**.
 
 .. i18n: .. figure::  images/writer_report.png
 .. i18n:    :scale: 85
