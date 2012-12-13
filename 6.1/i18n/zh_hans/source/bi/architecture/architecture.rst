@@ -227,7 +227,7 @@ We will integrate this on the gtk and web clients of OpenERP. The GTK client wil
 .. i18n: Libraries we will use:
 ..
 
-Libraries we will use:
+我们将使用以下库:
 
 .. i18n: * Turbogears for the web client to browse cube
 .. i18n: 
@@ -242,18 +242,17 @@ Libraries we will use:
 .. i18n: * PÿUNO for the OOo integration
 ..
 
-* Turbogears for the web client to browse cube
+* Cube浏览Web客户端：Turbogears
 
-* Mathplotlib for rendering graphs
+* 图形渲染：Mathplotlib
 
-* PyParsing to parse MDX Expressions
+* MDX表达式解析：PyParsing
 
-* SQLAlchemy to construct SQL queries and RDBMS connections
+* SQL 查询创建和RDBMS 连接：SQLAlchemy 
 
-* XMLRPC lib for communication with the cube server
+* Cube服务器通信：XMLRPC
 
-* PÿUNO for the OOo integration
-
+* OOo整合：PÿUNO 
 .. i18n: We will use an object relational mapping system on all objects: dimensions, ...
 ..
 
