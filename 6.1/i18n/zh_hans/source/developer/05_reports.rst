@@ -140,28 +140,28 @@ You can design reports using *OpenOffice*. Here, as an example, is the file **se
 
 .. _dynamic-report-content:
 
-Dynamic content in OpenOffice reports 
+OpenOffice 报表中的动态内容 
 -------------------------------------
 
 .. i18n: **Dynamic content**
 ..
 
-**Dynamic content**
+**动态内容**
 
 .. i18n: In the .SXW/.RML reports, you can put some Python code that accesses the OpenERP objects in brackets. The context of the code (the variable's values you can use) is the following:
 ..
 
-In the .SXW/.RML reports, you can put some Python code that accesses the OpenERP objects in brackets. The context of the code (the variable's values you can use) is the following:
+SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中的对象(object)。代码(可以使用变量)如下:
 
 .. i18n: **Available variables**
 ..
 
-**Available variables**
+**可用的变量**
 
 .. i18n: Here are Python objects/variables available:
 ..
 
-Here are Python objects/variables available:
+可以用的 Python 对象/变量:
 
 .. i18n:     * **objects** : the list of objects to be printed (invoices for example).
 .. i18n:     * **data** : comes from the wizard
@@ -169,10 +169,10 @@ Here are Python objects/variables available:
 .. i18n:     * **user** : the user object launching the report. 
 ..
 
-    * **objects** : the list of objects to be printed (invoices for example).
-    * **data** : comes from the wizard
-    * **time** : the Python time module (see Python documentation for more information).
-    * **user** : the user object launching the report. 
+    * **objects** : 将要打印的object列表(例如发票（invoice)对象）.
+    * **data** : 向导(wizard)中获得的数据
+    * **time** : Python的time模块(查看Python文档获取更多信息).
+    * **user** : 创建这个报表的用户. 
 
 .. i18n:  **Available functions**
 ..
