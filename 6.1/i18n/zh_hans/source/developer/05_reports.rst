@@ -272,10 +272,8 @@ SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中
 .. i18n: construct something like this:
 ..
 
-Sometimes you might want to print out something only if a certain condition is 
-met. You can construct it with the python logical operators "not", "and" and 
-"or". Because every object in python has a logical value (TRUE or FALSE) you can 
-construct something like this:
+有时你希望打印遇到的特定情况。 你可以根据python的逻辑操作符＂not＂,＂and＂,＂or＂构造自己的判断语句。
+Python中的每个对象都有自己的逻辑值(TRUE或FALSE):
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -290,8 +288,7 @@ construct something like this:
 .. i18n: equivalent to this one:
 ..
 
-It works like this: `and` is higher priority than `or`, so that expression is
-equivalent to this one:
+注意and要比or的优先级高，表达式等价为:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -310,13 +307,10 @@ equivalent to this one:
 
     ((o.prop=='draft') and 'YES') or 'NO' 
  
-If `o.prop` is `'draft'`, then it evaluates like this:
-	#. `o.prop == 'draft'` is `True`.
-	#. `True and 'YES'` is `'YES'`. Because the left side is a "true" value, the
-	   `and` expression evaluates to the right side.
-	#. `'YES' or 'NO'` is `'YES'`. Because the left side is a "true" value, the
-	   `or` expression short cuts and ignores the right side. It evaluates to 
-	   the left side.
+如果 o.prop是 ‘draft’, 那么计算结果为:
+	#. `o.prop == 'draft'` 为 `True`.
+	#. `True and 'YES'` 为 `'YES'`. 因为左项为 "true" 值，和右项 `and` 计算后为真.
+	#. `'YES' or 'NO'` is `'YES'`. 左项为真， or操作会忽略右项。只计算左项值.
 
 .. i18n: If `o.prop` is something else like `'confirm'`, then it evaluates like this:
 .. i18n: 	#. `o.prop == 'draft'` is `False`.
@@ -327,25 +321,21 @@ If `o.prop` is `'draft'`, then it evaluates like this:
 .. i18n: 	   `or` expression evaluates to the right side.
 ..
 
-If `o.prop` is something else like `'confirm'`, then it evaluates like this:
-	#. `o.prop == 'draft'` is `False`.
-	#. `False and 'YES'` is `False`. Because the left side is a "false" value, the
-	   `and` expression short cuts and ignores the right side. It evaluates to
-	   the left side.
-	#. `False or 'NO'` is `'NO'`. Because the left side is a "false" value, the
-	   `or` expression evaluates to the right side.
+如果 o.prop 是‘confirm’之类其他的操作, 那么计算如下:
+	#. `o.prop == 'draft'` 为 `False`.
+	#. `False and 'YES'` is `False`. 因为左项为 "false" 值, `and` 操作截断并忽略右项. 只计算左项.
+	#. `False or 'NO'` is `'NO'`. 因为左项为 "false" 值, `or` 计算右项.
 
 .. i18n: One can use very complex structures. To learn more, see the python manuals
 .. i18n: section on `Python's boolean operators`_.
 ..
 
-One can use very complex structures. To learn more, see the python manuals
-section on `Python's boolean operators`_.
+可以使用更复杂的的结构. 可以参照python 手册章节 `Python's boolean operators`_ .
 
 .. i18n: python function "filter" can... filter: try something like:
 ..
 
-python function "filter" can... filter: try something like:
+python 函数 “filter” 可以... filter: 尝试如下:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -359,12 +349,12 @@ python function "filter" can... filter: try something like:
 .. i18n: for printing only product with type='service' in a line's section.
 ..
 
-for printing only product with type='service' in a line's section.
+只输出每段中product 含有 type=’service’的行.
 
 .. i18n: To display binary field image on report (to be checked)
 ..
 
-To display binary field image on report (to be checked)
+报表中显示二进制字段图像 (待查)
 
 .. i18n: .. code-block:: python
 .. i18n: 
