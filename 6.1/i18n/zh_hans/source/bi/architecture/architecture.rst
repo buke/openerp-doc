@@ -165,15 +165,15 @@ The web client is a web-server that display cubes and provide tools to browse th
 .. i18n: * dice
 ..
 
-* switch view
+* 切换视图
 
-* different type of charts
+* 不同类型的图表
 
-* drill up/down
+* 乡下钻取
 
-* slice
+* 切片
 
-* dice
+* 切块
 
 .. i18n: The OpenOffice plugin
 .. i18n: ---------------------
