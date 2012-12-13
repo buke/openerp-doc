@@ -204,7 +204,7 @@ SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中
 
 有用的标签举例:
 
-.. i18n:     * **[[ repeatIn(objects,'o') ]]** : 循环打印选中的object
+.. i18n:     * **[[ repeatIn(objects,'o') ]]** :  Loop on each objects selected for the print
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l') ]]** : Loop on every line
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : Loop on every line and make
 .. i18n:       a new table cell for each line.
@@ -221,30 +221,27 @@ SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中
 .. i18n:     * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : If the type is 'in_invoice' or 'out_invoice' then the word 'Invoice' is printed, if it's neither the first node above it of type 'tr' will be removed.
 ..
 
-    * **[[ repeatIn(objects,'o') ]]** : Loop on each objects selected for the print
-    * **[[ repeatIn(o.invoice_line,'l') ]]** : Loop on every line
-    * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : Loop on every line and make
-      a new table cell for each line.
-    * **[[ (o.prop=='draft')and 'YES' or 'NO' ]]** : Print YES or NO according the field 'prop'
-    * **[[ round(o.quantity * o.price * 0.9, 2) ]]** : Operations are OK.
-    * **[[ '%07d' % int(o.number) ]]** : Number formatting
-    * **[[ reduce(lambda x, obj: x+obj.qty , list , 0 ) ]]** : Total qty of list (try "objects" as list)
-    * **[[ user.name ]]** : user name
-    * **[[ setLang(o.partner_id.lang) ]]** : Localized printings
-    * **[[ time.strftime('%d/%m/%Y') ]]** : Show the time in format=dd/MM/YYYY, check python doc for more about "%d", ...
-    * **[[ time.strftime(time.ctime()[0:10]) ]]** or **[[ time.strftime(time.ctime()[-4:]) ]]** : Prints only date.
-    * **[[ time.ctime() ]]** : Prints the actual date & time
-    * **[[ time.ctime().split()[3] ]]** : Prints only time
-    * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : If the type is 'in_invoice' or 'out_invoice' then the word 'Invoice' is printed, if it's neither the first node above it of type 'tr' will be removed.
+    * **[[ repeatIn(objects,'o') ]]** : 循环打印选中的object
+    * **[[ repeatIn(o.invoice_line,'l') ]]** : 循环每条线
+    * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : 循环每条线，并为每条线创建一个单元格.
+    * **[[ (o.prop=='draft')and 'YES' or 'NO' ]]** : 根据标记(tag)‘prop’打印 YES或 NO
+    * **[[ round(o.quantity * o.price * 0.9, 2) ]]** : 可以进行计算.
+    * **[[ '%07d' % int(o.number) ]]** : 数字的格式化输出
+    * **[[ reduce(lambda x, obj: x+obj.qty , list , 0 ) ]]** : 列表中所有 qty 的和 (尝试列表中的每个 “object” )
+    * **[[ user.name ]]** : 用户名
+    * **[[ setLang(o.partner_id.lang) ]]** : 本地化输出(和翻译有关)
+    * **[[ time.strftime('%d/%m/%Y') ]]** : 以dd/MM/YYYY格式输出时间, 查阅python文档获得关于“%d”的帮助, ...
+    * **[[ time.strftime(time.ctime()[0:10]) ]]** 或 **[[ time.strftime(time.ctime()[-4:]) ]]** : 只输出日期.
+    * **[[ time.ctime() ]]** : 输出当前日期 & 时间
+    * **[[ time.ctime().split()[3] ]]** : 只输出时间
+    * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : 如果type是 ‘in_invoice’ 或‘out_invoice’ 那么输出 ‘Invoice’；如果 不是，‘tr’类型的节点会被删除.
 
 .. i18n: One more interesting tag: if you want to print out the creator of an entry 
 .. i18n: (create_uid) or the last one who wrote on an entry (write_uid) you have to add 
 .. i18n: something like this to the class your report refers to:
 ..
 
-One more interesting tag: if you want to print out the creator of an entry 
-(create_uid) or the last one who wrote on an entry (write_uid) you have to add 
-something like this to the class your report refers to:
+一个有趣的标记(tag)：如果想输出当前条目(entry)的创建者(create_uid)或者最后一位修改者(write_uid)你需要在你的报表类(class)中加入如下:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -258,7 +255,7 @@ something like this to the class your report refers to:
 .. i18n: and then in your report it's like this to print out the corresponding name:
 ..
 
-and then in your report it's like this to print out the corresponding name:
+如果你的报表会类似输出相应的名字:
 
 .. i18n: .. code-block:: python
 .. i18n: 
