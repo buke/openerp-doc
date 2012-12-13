@@ -1,4 +1,3 @@
-
 .. i18n: .. _install-olap:
 .. i18n: 
 .. i18n: Installation of Open Object
@@ -7,22 +6,22 @@
 
 .. _install-olap:
 
-Installation of Open Object
+安装 Open Object
 ===========================
 
 .. i18n: To install BI we need to have :
 ..
 
-To install BI we need to have :
+安装BI需要 :
 
 .. i18n: #. Getting and running `OpenERP Server`_
 .. i18n: 
 .. i18n: #. Getting `SQLAlchemy-0.3.11`_
 ..
 
-#. Getting and running `OpenERP Server`_
+#. 获得然后运行 `OpenERP Server`_
 
-#. Getting `SQLAlchemy-0.3.11`_
+#. 获得 `SQLAlchemy-0.3.11`_
 
 .. i18n: Once everything is working i.e. OpenERP Server and OpenERP Client we need to add OLAP module in Server.
 ..
@@ -75,7 +74,7 @@ Steps to install OLAP modules.
 .. i18n: 	* Retrieve all the olap’s ‘’zip’’ files and import/install them to OpenERP v5.
 ..
 
-	For client-web-bi:
+	BI WEB客户端:
 	
 	* https://code.launchpad.net/~openerp-dev/openobject-client-web/trunk-dev-web-bi
 	* bzr branch for client-web-bi lp:~openerp-dev/openobject-client-web/trunk-dev-web-bi
@@ -102,7 +101,7 @@ Steps to install OLAP modules.
 .. i18n: 	* http://bazaar.launchpad.net/~openerp/openerp/win-installer-trunk/files/head%3A/dependencies/
 ..
 
-	Setup install packages for Windows:
+	Windows环境安装包:
 	
 	* http://bazaar.launchpad.net/~openerp/openerp/win-installer-trunk/files/head%3A/dependencies/
 
