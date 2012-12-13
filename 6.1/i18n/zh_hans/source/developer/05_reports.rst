@@ -10,21 +10,21 @@
 .. i18n: There are mainly three types of reports in OpenERP:
 ..
 
-There are mainly three types of reports in OpenERP:
+OpenERP 主要有三种类型的报表:
 
 .. i18n:     * OpenOffice.org reports
 .. i18n:     * RML reports
 .. i18n:     * custom reports (based on PostgreSQL views and displayed within the interface) 
 ..
 
-    * OpenOffice.org reports
-    * RML reports
-    * custom reports (based on PostgreSQL views and displayed within the interface) 
+    * OpenOffice.org 报表
+    * RML 报表
+    * 自定义报表 (基于 PostgreSQL 视图和显示接口) 
 
 .. i18n: This chapter mainly describes OpenOffice.org reports, and then XSL:RML reports. Custom reports are described in section Advanced Modeling - Reporting With PostgreSQL Views.
 ..
 
-This chapter mainly describes OpenOffice.org reports, and then XSL:RML reports. Custom reports are described in section Advanced Modeling - Reporting With PostgreSQL Views.
+这一部分主要描述 OpenOffice.org 报表, 和 XSL:RML 报表. 自定义报表在高级模块部分描述 -  PostgreSQL 视图报表.
 
 .. i18n: OpenOffice.org reports
 .. i18n: ======================
@@ -140,28 +140,28 @@ You can design reports using *OpenOffice*. Here, as an example, is the file **se
 
 .. _dynamic-report-content:
 
-Dynamic content in OpenOffice reports 
+OpenOffice 报表中的动态内容 
 -------------------------------------
 
 .. i18n: **Dynamic content**
 ..
 
-**Dynamic content**
+**动态内容**
 
 .. i18n: In the .SXW/.RML reports, you can put some Python code that accesses the OpenERP objects in brackets. The context of the code (the variable's values you can use) is the following:
 ..
 
-In the .SXW/.RML reports, you can put some Python code that accesses the OpenERP objects in brackets. The context of the code (the variable's values you can use) is the following:
+SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中的对象(object)。代码(可以使用变量)如下:
 
 .. i18n: **Available variables**
 ..
 
-**Available variables**
+**可用的变量**
 
 .. i18n: Here are Python objects/variables available:
 ..
 
-Here are Python objects/variables available:
+可以用的 Python 对象/变量:
 
 .. i18n:     * **objects** : the list of objects to be printed (invoices for example).
 .. i18n:     * **data** : comes from the wizard
@@ -169,20 +169,20 @@ Here are Python objects/variables available:
 .. i18n:     * **user** : the user object launching the report. 
 ..
 
-    * **objects** : the list of objects to be printed (invoices for example).
-    * **data** : comes from the wizard
-    * **time** : the Python time module (see Python documentation for more information).
-    * **user** : the user object launching the report. 
+    * **objects** : 将要打印的object列表(例如发票（invoice)对象）.
+    * **data** : 向导(wizard)中获得的数据
+    * **time** : Python的time模块(查看Python文档获取更多信息).
+    * **user** : 创建这个报表的用户. 
 
 .. i18n:  **Available functions**
 ..
 
- **Available functions**
+ **可用的函数**
 
 .. i18n: Here are Python functions you can use:
 ..
 
-Here are Python functions you can use:
+可以用的 Python 函数:
 
 .. i18n:     * **setLang('fr')** : change the language used in automated translation (fields...).
 .. i18n:     * **repeatIn(list, varname[, tagname])** : repeat the current part of the template 
@@ -194,21 +194,17 @@ Here are Python functions you can use:
 .. i18n:     * **removeParentNode('tr')** : removes the parent node of type 'tr', this parameter is usually used together with a conditional (see examples below)
 ..
 
-    * **setLang('fr')** : change the language used in automated translation (fields...).
-    * **repeatIn(list, varname[, tagname])** : repeat the current part of the template 
-      (whole document, current section, current row in the table) for each 
-      object in the list. Use varname in the template's tags. Since versions 
-      4.1.X, you can use an optional third argument that is the name of the 
-      .RML tag you want to loop on.
-    * **setTag('para','xpre')** : replace the enclosing RML tag (usually 'para') with an other (xpre is a preformatted paragraph), in the (converted from sxw)rml document (?)
-    * **removeParentNode('tr')** : removes the parent node of type 'tr', this parameter is usually used together with a conditional (see examples below)
+    * **setLang('fr')** : 根据国际化自动切换语言 (字段...).
+    * **repeatIn(list, varname[, tagname])** : 重复 模板(template)当前部分list中的对象 (整个文档, 当前段落, 表格中的当前行) 可以使用模板(template)的 varname标签 。 从 4.1.X版开始, 你可以使用第三个参数(可选的)选择你想在.RML标记(RML tag)中重复的内容
+    * **setTag('para','xpre')** : 在rml文档中(由sxw转换)，用其它标记(0tag) (xpre 是一个预处理格式的段落，preformatted paragraph),替换封闭的 RML 标签 (一般是 ‘para’)(?)
+    * **removeParentNode('tr')** : 移除类型'tr'的父结点, 这个参数经常在条件语句中使用 (如下例)
 
 .. i18n: Example of useful tags:
 ..
 
-Example of useful tags:
+有用的标签举例:
 
-.. i18n:     * **[[ repeatIn(objects,'o') ]]** : Loop on each objects selected for the print
+.. i18n:     * **[[ repeatIn(objects,'o') ]]** : Loop on each objects selected for the print.
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l') ]]** : Loop on every line
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : Loop on every line and make
 .. i18n:       a new table cell for each line.
@@ -225,30 +221,27 @@ Example of useful tags:
 .. i18n:     * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : If the type is 'in_invoice' or 'out_invoice' then the word 'Invoice' is printed, if it's neither the first node above it of type 'tr' will be removed.
 ..
 
-    * **[[ repeatIn(objects,'o') ]]** : Loop on each objects selected for the print
-    * **[[ repeatIn(o.invoice_line,'l') ]]** : Loop on every line
-    * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : Loop on every line and make
-      a new table cell for each line.
-    * **[[ (o.prop=='draft')and 'YES' or 'NO' ]]** : Print YES or NO according the field 'prop'
-    * **[[ round(o.quantity * o.price * 0.9, 2) ]]** : Operations are OK.
-    * **[[ '%07d' % int(o.number) ]]** : Number formatting
-    * **[[ reduce(lambda x, obj: x+obj.qty , list , 0 ) ]]** : Total qty of list (try "objects" as list)
-    * **[[ user.name ]]** : user name
-    * **[[ setLang(o.partner_id.lang) ]]** : Localized printings
-    * **[[ time.strftime('%d/%m/%Y') ]]** : Show the time in format=dd/MM/YYYY, check python doc for more about "%d", ...
-    * **[[ time.strftime(time.ctime()[0:10]) ]]** or **[[ time.strftime(time.ctime()[-4:]) ]]** : Prints only date.
-    * **[[ time.ctime() ]]** : Prints the actual date & time
-    * **[[ time.ctime().split()[3] ]]** : Prints only time
-    * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : If the type is 'in_invoice' or 'out_invoice' then the word 'Invoice' is printed, if it's neither the first node above it of type 'tr' will be removed.
+    * **[[ repeatIn(objects,'o') ]]** : 循环打印选中的objects.
+    * **[[ repeatIn(o.invoice_line,'l') ]]** : 循环每行数据.
+    * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : 循环每行，并为每行数据创建一个单元格
+    * **[[ (o.prop=='draft')and 'YES' or 'NO' ]]** : 根据标记(tag)‘prop’打印 YES或 NO
+    * **[[ round(o.quantity * o.price * 0.9, 2) ]]** : 可以进行计算.
+    * **[[ '%07d' % int(o.number) ]]** : 数字的格式化输出
+    * **[[ reduce(lambda x, obj: x+obj.qty , list , 0 ) ]]** : 列表中所有 qty 的和 (尝试列表中的每个 “object” )
+    * **[[ user.name ]]** : 用户名
+    * **[[ setLang(o.partner_id.lang) ]]** : 本地化输出(和翻译有关)
+    * **[[ time.strftime('%d/%m/%Y') ]]** : 以dd/MM/YYYY格式输出时间, 查阅python文档获得关于“%d”的帮助, ...
+    * **[[ time.strftime(time.ctime()[0:10]) ]]** 或 **[[ time.strftime(time.ctime()[-4:]) ]]** : 只输出日期.
+    * **[[ time.ctime() ]]** : 输出当前日期 & 时间
+    * **[[ time.ctime().split()[3] ]]** : 只输出时间
+    * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : 如果type是 ‘in_invoice’ 或‘out_invoice’ 那么输出 ‘Invoice’；如果 不是，‘tr’类型的节点会被删除.
 
 .. i18n: One more interesting tag: if you want to print out the creator of an entry 
 .. i18n: (create_uid) or the last one who wrote on an entry (write_uid) you have to add 
 .. i18n: something like this to the class your report refers to:
 ..
 
-One more interesting tag: if you want to print out the creator of an entry 
-(create_uid) or the last one who wrote on an entry (write_uid) you have to add 
-something like this to the class your report refers to:
+一个有趣的标记(tag)：如果想输出当前条目(entry)的创建者(create_uid)或者最后一位修改者(write_uid)你需要在你的报表类(class)中加入如下:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -262,7 +255,7 @@ something like this to the class your report refers to:
 .. i18n: and then in your report it's like this to print out the corresponding name:
 ..
 
-and then in your report it's like this to print out the corresponding name:
+如果你的报表会类似输出相应的名字:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -279,10 +272,8 @@ and then in your report it's like this to print out the corresponding name:
 .. i18n: construct something like this:
 ..
 
-Sometimes you might want to print out something only if a certain condition is 
-met. You can construct it with the python logical operators "not", "and" and 
-"or". Because every object in python has a logical value (TRUE or FALSE) you can 
-construct something like this:
+有时你希望打印遇到的特定情况。 你可以根据python的逻辑操作符＂not＂,＂and＂,＂or＂构造自己的判断语句。
+Python中的每个对象都有自己的逻辑值(TRUE或FALSE):
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -297,8 +288,7 @@ construct something like this:
 .. i18n: equivalent to this one:
 ..
 
-It works like this: `and` is higher priority than `or`, so that expression is
-equivalent to this one:
+注意and要比or的优先级高，表达式等价为:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -317,13 +307,10 @@ equivalent to this one:
 
     ((o.prop=='draft') and 'YES') or 'NO' 
  
-If `o.prop` is `'draft'`, then it evaluates like this:
-	#. `o.prop == 'draft'` is `True`.
-	#. `True and 'YES'` is `'YES'`. Because the left side is a "true" value, the
-	   `and` expression evaluates to the right side.
-	#. `'YES' or 'NO'` is `'YES'`. Because the left side is a "true" value, the
-	   `or` expression short cuts and ignores the right side. It evaluates to 
-	   the left side.
+如果 o.prop是 ‘draft’, 那么计算结果为:
+	#. `o.prop == 'draft'` 为 `True`.
+	#. `True and 'YES'` 为 `'YES'`. 因为左项为 "true" 值，和右项 `and` 计算后为真.
+	#. `'YES' or 'NO'` is `'YES'`. 左项为真， or操作会忽略右项。只计算左项值.
 
 .. i18n: If `o.prop` is something else like `'confirm'`, then it evaluates like this:
 .. i18n: 	#. `o.prop == 'draft'` is `False`.
@@ -334,25 +321,21 @@ If `o.prop` is `'draft'`, then it evaluates like this:
 .. i18n: 	   `or` expression evaluates to the right side.
 ..
 
-If `o.prop` is something else like `'confirm'`, then it evaluates like this:
-	#. `o.prop == 'draft'` is `False`.
-	#. `False and 'YES'` is `False`. Because the left side is a "false" value, the
-	   `and` expression short cuts and ignores the right side. It evaluates to
-	   the left side.
-	#. `False or 'NO'` is `'NO'`. Because the left side is a "false" value, the
-	   `or` expression evaluates to the right side.
+如果 o.prop 是‘confirm’之类其他的操作, 那么计算如下:
+	#. `o.prop == 'draft'` 为 `False`.
+	#. `False and 'YES'` is `False`. 因为左项为 "false" 值, `and` 操作截断并忽略右项. 只计算左项.
+	#. `False or 'NO'` is `'NO'`. 因为左项为 "false" 值, `or` 计算右项.
 
 .. i18n: One can use very complex structures. To learn more, see the python manuals
 .. i18n: section on `Python's boolean operators`_.
 ..
 
-One can use very complex structures. To learn more, see the python manuals
-section on `Python's boolean operators`_.
+可以使用更复杂的的结构. 可以参照python 手册章节 `Python's boolean operators`_ .
 
 .. i18n: python function "filter" can... filter: try something like:
 ..
 
-python function "filter" can... filter: try something like:
+python 函数 “filter” 可以... filter: 尝试如下:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -366,12 +349,12 @@ python function "filter" can... filter: try something like:
 .. i18n: for printing only product with type='service' in a line's section.
 ..
 
-for printing only product with type='service' in a line's section.
+只输出每段中product 含有 type=’service’的行.
 
 .. i18n: To display binary field image on report (to be checked)
 ..
 
-To display binary field image on report (to be checked)
+报表中显示二进制字段图像 (待查)
 
 .. i18n: .. code-block:: python
 .. i18n: 
