@@ -1,8 +1,8 @@
-
 .. i18n: Defining Schema in XML
 .. i18n: ======================
 ..
-
+定义XML结构
+===========
 Defining Schema in XML
 ======================
 
