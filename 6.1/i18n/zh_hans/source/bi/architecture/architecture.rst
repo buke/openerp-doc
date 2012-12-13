@@ -43,13 +43,13 @@ cube 基于以下组件:
 
 * MDX解析器将把MDX表达式转换为RDBMs查询:
         - 使用交叉混合计算:
-                + Using star flow snake as in mondrian (based on joins)
-                + Using space hierarchy cutting like in cubulus
+                + 使用星型/雪花模式，在mondrian里 (基于joins)
+                + 使用空间层次切割，比如在cubulus里
 * 内存缓存系统
-        - On space hierarchies (dimensions with space cutting)
+        - 空间层次 (空间纬度切割)
 * 聚合系统
-        - Ability to create aggregated table to speed up all queries (automatic or user-defined)
-        - Queries will be computed on fact tables or aggregated tables
+        - 能够创建汇总表，以加快查询速度 (自动的或者用户定义的)
+        - 查询将计算事实数据表或汇总表
 * 一条（或几条）MDX 输出结果
 
 .. i18n: The cube will use:
