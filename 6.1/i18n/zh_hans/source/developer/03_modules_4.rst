@@ -1,4 +1,3 @@
-
 .. i18n: ================
 .. i18n: Menu and Actions 
 .. i18n: ================
@@ -14,6 +13,7 @@ Menu and Actions
 
 Menus
 =====
+uuu
 
 .. i18n: Here's the template of a menu item :
 .. i18n: ::
