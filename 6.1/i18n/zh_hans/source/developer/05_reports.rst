@@ -177,12 +177,12 @@ SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中
 .. i18n:  **Available functions**
 ..
 
- **Available functions**
+ **可用的函数**
 
 .. i18n: Here are Python functions you can use:
 ..
 
-Here are Python functions you can use:
+可以用的 Python 函数:
 
 .. i18n:     * **setLang('fr')** : change the language used in automated translation (fields...).
 .. i18n:     * **repeatIn(list, varname[, tagname])** : repeat the current part of the template 
@@ -194,21 +194,17 @@ Here are Python functions you can use:
 .. i18n:     * **removeParentNode('tr')** : removes the parent node of type 'tr', this parameter is usually used together with a conditional (see examples below)
 ..
 
-    * **setLang('fr')** : change the language used in automated translation (fields...).
-    * **repeatIn(list, varname[, tagname])** : repeat the current part of the template 
-      (whole document, current section, current row in the table) for each 
-      object in the list. Use varname in the template's tags. Since versions 
-      4.1.X, you can use an optional third argument that is the name of the 
-      .RML tag you want to loop on.
-    * **setTag('para','xpre')** : replace the enclosing RML tag (usually 'para') with an other (xpre is a preformatted paragraph), in the (converted from sxw)rml document (?)
-    * **removeParentNode('tr')** : removes the parent node of type 'tr', this parameter is usually used together with a conditional (see examples below)
+    * **setLang('fr')** : 根据国际化自动切换语言 (字段...).
+    * **repeatIn(list, varname[, tagname])** : 重复 模板(template)当前部分list中的对象 (整个文档, 当前段落, 表格中的当前行) 可以使用模板(template)的 varname标签 。 从 4.1.X版开始, 你可以使用第三个参数(可选的)选择你想在.RML标记(RML tag)中重复的内容
+    * **setTag('para','xpre')** : 在rml文档中(由sxw转换)，用其它标记(0tag) (xpre 是一个预处理格式的段落，preformatted paragraph),替换封闭的 RML 标签 (一般是 ‘para’)(?)
+    * **removeParentNode('tr')** : 移除类型'tr'的父结点, 这个参数经常在条件语句中使用 (如下例)
 
 .. i18n: Example of useful tags:
 ..
 
-Example of useful tags:
+有用的标签举例:
 
-.. i18n:     * **[[ repeatIn(objects,'o') ]]** : Loop on each objects selected for the print
+.. i18n:     * **[[ repeatIn(objects,'o') ]]** : 循环打印选中的objects.
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l') ]]** : Loop on every line
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : Loop on every line and make
 .. i18n:       a new table cell for each line.
