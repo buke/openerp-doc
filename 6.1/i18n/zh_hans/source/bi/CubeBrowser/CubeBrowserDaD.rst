@@ -9,7 +9,7 @@
 .. i18n: Measures represent categories of stored values; Dimensions represent categories of OLAP information
 ..
 
-Cube Browser 使用基本的拖放操作加数据到一个报表.
+Cube Browser 使用基本的拖放操作添加数据到一个报表.
 Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 
 .. i18n: All UI controls update their contents automatically, and the resulting query is displayed on the OLAP Grid.
