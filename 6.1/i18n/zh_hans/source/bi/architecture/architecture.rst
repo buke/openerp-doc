@@ -74,7 +74,7 @@ cube将使用:
 .. i18n: -----------------
 ..
 
-CLI 接口
+CLI 接口 
 -----------------
 
 .. i18n: Allows user to test MDX queries in this CLI command line interface. Simple script in python
@@ -95,20 +95,18 @@ Cube 定义
 .. i18n: to edit cubes is in OpenERP. We will use the same concept of the one defined in the ... XML standard. So that we will be able, in a future phase, to import such files.
 ..
 
-The meta data of the cube definition will be stored in the OpenERP database. The user interface
-to edit cubes is in OpenERP. We will use the same concept of the one defined in the ... XML standard. So that we will be able, in a future phase, to import such files.
+定义Cube的元数据将被保存在OpenERP的数据库里.在OpenERP里通过用户界面去编辑Cube. 我们将使用一个相同的概念定义在标准的XML文件里. 因此，我们将能够在将来某阶段，导入这种文件.
 
 .. i18n: This must not depend on any module of OpenERP so that if you want to use the BI library independently, you may not use OpenERP if cubes are defined. If cubes are not defined, you just install the minimal version of OpenERP that includes: the olap module, user management, workflow managements, access rights management, ... (the base module)
 ..
 
-This must not depend on any module of OpenERP so that if you want to use the BI library independently, you may not use OpenERP if cubes are defined. If cubes are not defined, you just install the minimal version of OpenERP that includes: the olap module, user management, workflow managements, access rights management, ... (the base module)
+这必须不依赖OpenERP的任何模块，所以，假如Cubes已经定义，如果你想独立使用BI库，您可能无法使用OpenERP，假如Cubes还没有定义,你只需要最小安装OpenERP其中包括：olap 模块、用户管理、工作流管理、,账户权限管理, ... (这些基本模块)
 
 .. i18n: The goal is that the user never have to create the cubes himself. We will create a wizard that 
 .. i18n: will compute cubes based on introspection on the RDBM's. The steps of this wizard:
 ..
 
-The goal is that the user never have to create the cubes himself. We will create a wizard that 
-will compute cubes based on introspection on the RDBM's. The steps of this wizard:
+我们的目标是用户没有自己建立cubes. 我们将创建一个来计算基于RDBM's的cubes向导反思. 步骤向导:
 
 .. i18n: * Selection of the database (type of db, then selection box like in the login of OpenERP)
 .. i18n: 
@@ -119,28 +117,28 @@ will compute cubes based on introspection on the RDBM's. The steps of this wizar
 .. i18n: * Selection of the dimensions (click on a tree structure)
 ..
 
-* Selection of the database (type of db, then selection box like in the login of OpenERP)
+* 选择数据库 (数据库类型, 像OpenERP的登录选择框)
 
-* Selection of the factable (selection box)
+* 选择事实表 (选择框)
 
-* Selection of the measures and their attributes (selection box, aggregation func)
+* 选择度量和他们的属性 (选择框, 聚合功能)
 
-* Selection of the dimensions (click on a tree structure)
+* 选举纬度 (点击树状结构)
 
 .. i18n: Then it's done, the cube is computed. The aggregated table may be also automatically computed by OpenERP.
 ..
 
-Then it's done, the cube is computed. The aggregated table may be also automatically computed by OpenERP.
+然后便已完成, cube 已经被计算. 聚合表也已经被 OpenERP自动计算完成.
 
 .. i18n: The goal is to create new cube on the fly from the OpenERP client on every object, on user demand. This will also server the online demo server.
 ..
 
-The goal is to create new cube on the fly from the OpenERP client on every object, on user demand. This will also server the online demo server.
+我们的目标是当用户需要从OpenERP的任意对象建立一个新的cube，也将作为在线演示服务器服务.
 
 .. i18n: The cube creation can be stored in the server of kept in memory for one time usage.
 ..
 
-The cube creation can be stored in the server of kept in memory for one time usage.
+创建的Cube可以被存储在服务器内存一段时间.
 
 .. i18n: The Web Client
 .. i18n: --------------
@@ -221,7 +219,7 @@ We will integrate this on the gtk and web clients of OpenERP. The GTK client wil
 .. i18n: ===============
 ..
 
-额外的库
+额外的库 
 ===============
 
 .. i18n: Libraries we will use:
