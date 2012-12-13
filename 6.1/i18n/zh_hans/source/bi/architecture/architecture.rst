@@ -41,16 +41,16 @@ cube 基于以下组件:
 .. i18n: * A MDX Output (or several) to output the result
 ..
 
-* A MDX parser that will transform an MDX expression to RDBMs queries:
-        - Computed using a mix of:
+* MDX解析器将把MDX表达式转换为RDBMs查询:
+        - 使用交叉混合计算:
                 + Using star flow snake as in mondrian (based on joins)
                 + Using space hierarchy cutting like in cubulus
-* A memory cache system
+* 内存缓存系统
         - On space hierarchies (dimensions with space cutting)
-* An aggregation system
+* 聚合系统
         - Ability to create aggregated table to speed up all queries (automatic or user-defined)
         - Queries will be computed on fact tables or aggregated tables
-* A MDX Output (or several) to output the result
+* 一条（或几条）MDX 输出结果
 
 .. i18n: The cube will use:
 ..
