@@ -1,9 +1,8 @@
-
 .. i18n: Schema
 .. i18n: ======
 ..
 
-Schema
+架构
 ======
 
 .. i18n: .. image::  images/Bi_arch.png
@@ -15,7 +14,7 @@ Schema
 .. i18n: ==========
 ..
 
-Components
+组件
 ==========
 
 .. i18n: The Cube
@@ -28,7 +27,7 @@ The Cube
 .. i18n: The cube is based of the following component:
 ..
 
-The cube is based of the following component:
+cube 基于以下组件:
 
 .. i18n: * A MDX parser that will transform an MDX expression to RDBMs queries:
 .. i18n:         - Computed using a mix of:
@@ -56,7 +55,7 @@ The cube is based of the following component:
 .. i18n: The cube will use:
 ..
 
-The cube will use:
+cube将使用:
 
 .. i18n: * SQLAlchemy for all database communications
 .. i18n: 
@@ -65,31 +64,31 @@ The cube will use:
 .. i18n: * PyParser for MDX parsing
 ..
 
-* SQLAlchemy for all database communications
+* 所有数据库通信：SQLAlchemy 
 
-* XML-RPC for his external interfaces
+* 扩展接口：XML-RPC
 
-* PyParser for MDX parsing
+* MDX解析：PyParser
 
 .. i18n: The CLI interface
 .. i18n: -----------------
 ..
 
-The CLI interface
+CLI 接口
 -----------------
 
 .. i18n: Allows user to test MDX queries in this CLI command line interface. Simple script in python
 .. i18n: that will send XML-RPC queries and print the result.
 ..
 
-Allows user to test MDX queries in this CLI command line interface. Simple script in python
-that will send XML-RPC queries and print the result.
+CLI命令行接口允许用户测试MDX查询. 简单的python脚本
+将发送XML -RPC查询并显示出结果.
 
 .. i18n: The Cube Definition
 .. i18n: -------------------
 ..
 
-The Cube Definition
+Cube 定义
 -------------------
 
 .. i18n: The meta data of the cube definition will be stored in the OpenERP database. The user interface
@@ -147,7 +146,7 @@ The cube creation can be stored in the server of kept in memory for one time usa
 .. i18n: --------------
 ..
 
-The Web Client
+Web 客户端
 --------------
 
 .. i18n: The web client is a web-server that display cubes and provide tools to browse them, it must provide at least these operations:
@@ -180,7 +179,7 @@ The web client is a web-server that display cubes and provide tools to browse th
 .. i18n: ---------------------
 ..
 
-The OpenOffice plugin
+OpenOffice 插件
 ---------------------
 
 .. i18n: Similar to Palo but all operation of construction and manipulation of cubes remains in OpenERP to limit development on OOo. The development on OOo just contains functions to:
@@ -205,7 +204,7 @@ Similar to Palo but all operation of construction and manipulation of cubes rema
 .. i18n: -----------------------
 ..
 
-The OpenERP interface
+OpenERP 接口
 -----------------------
 
 .. i18n: From OpenERP, you should be able to right click/drag and drop any field to trigger the cube definition wizard to create your own cube on demand. For this, we will use the web client of the bi system.
@@ -222,7 +221,7 @@ We will integrate this on the gtk and web clients of OpenERP. The GTK client wil
 .. i18n: ===============
 ..
 
-Extra libraries
+额外的库
 ===============
 
 .. i18n: Libraries we will use:
