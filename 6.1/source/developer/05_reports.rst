@@ -10,21 +10,21 @@
 .. i18n: There are mainly three types of reports in OpenERP:
 ..
 
-There are mainly three types of reports in OpenERP:
+OpenERP 主要有三种类型的报表:
 
 .. i18n:     * OpenOffice.org reports
 .. i18n:     * RML reports
 .. i18n:     * custom reports (based on PostgreSQL views and displayed within the interface) 
 ..
 
-    * OpenOffice.org reports
-    * RML reports
-    * custom reports (based on PostgreSQL views and displayed within the interface) 
+    * OpenOffice.org 报表
+    * RML 报表
+    * 自定义报表 (基于 PostgreSQL 视图和显示接口) 
 
 .. i18n: This chapter mainly describes OpenOffice.org reports, and then XSL:RML reports. Custom reports are described in section Advanced Modeling - Reporting With PostgreSQL Views.
 ..
 
-This chapter mainly describes OpenOffice.org reports, and then XSL:RML reports. Custom reports are described in section Advanced Modeling - Reporting With PostgreSQL Views.
+这一部分主要描述 OpenOffice.org 报表, 和 XSL:RML 报表. 自定义报表在高级模块部分描述 -  PostgreSQL 视图报表.
 
 .. i18n: OpenOffice.org reports
 .. i18n: ======================
