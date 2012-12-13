@@ -380,41 +380,40 @@ SXW2RML
 .. i18n: ++++++++++++++++++
 ..
 
-Open Report Manual
+Open Report 手册
 ++++++++++++++++++
 
 .. i18n: About
 .. i18n: """""
 ..
 
-About
+关于
 """""
 
 .. i18n: The OpenERP's report engine.
 ..
 
-The OpenERP's report engine.
+The OpenERP 的报表引擎.
 
 .. i18n: Open Report is a module that allows you to render high quality PDF document
 .. i18n: from an OpenOffice template (.sxw) and any relational database. It can be used
 .. i18n: as an OpenERP module or as a standalone program.
 ..
 
-Open Report is a module that allows you to render high quality PDF document
-from an OpenOffice template (.sxw) and any relational database. It can be used
-as an OpenERP module or as a standalone program.
+Open Report 是一个模块，可让您从OpenOffice的模板文件（sxw）和任何关系数据库中渲染出高质量报表。
+它可以用来作为OpenERP模块或作为独立的程序.
 
 .. i18n: SXW to RML script setup - Windows users
 .. i18n: """""""""""""""""""""""""""""""""""""""
 ..
 
-SXW to RML script setup - Windows users
+SXW 转 RML 代码的安装，适用于Windows用户
 """""""""""""""""""""""""""""""""""""""
 
 .. i18n: In order to use the 'tiny_sxw2rml.py' Python script you need the following packages installed:
 ..
 
-In order to use the 'tiny_sxw2rml.py' Python script you need the following packages installed:
+为了使用python代码‘tiny_sxw2rml.py’，你需要安装如下包:
 
 .. i18n:     * Python (http://www.python.org)
 .. i18n:     * ReportLab (http://www.reportlab.org)/(Installation)
@@ -429,7 +428,7 @@ In order to use the 'tiny_sxw2rml.py' Python script you need the following packa
 .. i18n: """""""""""""""""""""""""""""""""""""""""""""""""""
 ..
 
-SXW to RML script setup - Linux (Open source) users
+SXW 转 RML 代码的安装，适用于linux(开源)用户
 """""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: The **tiny_sxw2rml.py** can be found in the **base_report_designer** OpenERP module at this location::
@@ -437,14 +436,14 @@ SXW to RML script setup - Linux (Open source) users
 .. i18n:   server/bin/addons/base_report_designer/wizard/tiny_sxw2rml/tiny_sxw2rml.py
 ..
 
-The **tiny_sxw2rml.py** can be found in the **base_report_designer** OpenERP module at this location::
+**tiny_sxw2rml.py** 可以在OpenERP 模块 **base_report_designer** 中找到::
 
   server/bin/addons/base_report_designer/wizard/tiny_sxw2rml/tiny_sxw2rml.py
 
 .. i18n: Ensure normalized_oo2rml.xsl is available to tiny_sxw2rml otherwise you will get an error like:
 ..
 
-Ensure normalized_oo2rml.xsl is available to tiny_sxw2rml otherwise you will get an error like:
+确认 normalized_oo2rml.xsl 和 tiny_sxw2rml 在一起，否则你会遇到如下错误:
 
 .. i18n:     * failed to load external entity normalized_oo2rml.xsl 
 ..
@@ -455,7 +454,7 @@ Ensure normalized_oo2rml.xsl is available to tiny_sxw2rml otherwise you will get
 .. i18n: """"""""""""""""""""
 ..
 
-Running tiny_sxw2rml
+使用 tiny_sxw2rml
 """"""""""""""""""""
 
 .. i18n: When you have all that installed just edit your report template and run the script with the following command:
@@ -464,7 +463,7 @@ Running tiny_sxw2rml
 .. i18n:   tiny_sxw2rml.py template.sxw > template.rml
 ..
 
-When you have all that installed just edit your report template and run the script with the following command:
+当你做好必要的准备，打算编辑您自己的报表模板(template)时，使用如下命令:
 ::
 
   tiny_sxw2rml.py template.sxw > template.rml
@@ -472,13 +471,13 @@ When you have all that installed just edit your report template and run the scri
 .. i18n: Note: **tiny_sxw2rml.py** help suggests that you specify the output file with: "-o OUTPUT" but this does not seem to work as of V0.9.3 
 ..
 
-Note: **tiny_sxw2rml.py** help suggests that you specify the output file with: "-o OUTPUT" but this does not seem to work as of V0.9.3 
+注释: **tiny_sxw2rml.py** 帮助 建议你使用”-o OUTPUT”指定输出文件，但貌似0.9.3版本不支持 
 
 .. i18n: OpenERP Server PDF Output 
 .. i18n: --------------------------
 ..
 
-OpenERP Server PDF Output 
+OpenERP Server PDF 输出 
 --------------------------
 
 .. i18n: Server PDF Output
