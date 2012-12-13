@@ -484,7 +484,7 @@ OpenERP Server PDF 输出
 .. i18n: +++++++++++++++++
 ..
 
-Server PDF Output
+Server PDF 输出
 +++++++++++++++++
 
 .. i18n: About
@@ -492,7 +492,7 @@ Server PDF Output
 .. i18n: To generate the pdf from the rml file, OpenERP needs a rml parser.
 ..
 
-About
+关于
 """""
 To generate the pdf from the rml file, OpenERP needs a rml parser.
 
@@ -501,9 +501,9 @@ To generate the pdf from the rml file, OpenERP needs a rml parser.
 .. i18n: The parsers are generally put into the report folder of the module. Here is the code for the sale order report:
 ..
 
-Parser
+解释器
 """"""
-The parsers are generally put into the report folder of the module. Here is the code for the sale order report:
+语法解释器可以在模块中添加。例如如下代码:
 
 .. i18n: .. code-block:: python
 .. i18n: 
