@@ -142,26 +142,23 @@ Enter the following information
 .. i18n: entry. Change the:
 ..
 
-You can edit any of these fields to suit the requirements of the purchase order at the time of
-entry. Change the:
+按上面的需求,修改采购订单中的数量及价格字段:
 
 .. i18n: * :guilabel:`Quantity` : \ ``10``\ ,
 .. i18n: 
 .. i18n: * :guilabel:`Unit Price` to \ ``56.00``\ .
 ..
 
-* :guilabel:`Quantity` : \ ``10``\ ,
+* :guilabel:`数量` : \ ``10``\ ,
 
-* :guilabel:`Unit Price` to \ ``56.00``\ .
+* :guilabel:`价格` to \ ``56.00``\ .
 
 .. i18n: Save the order line and close the :guilabel:`Order Line` window by clicking the
 .. i18n: :guilabel:`Close` button. You can then confirm the whole one-line order by clicking
 .. i18n: :guilabel:`Save`, which makes the form non-editable.
 ..
 
-Save the order line and close the :guilabel:`Order Line` window by clicking the
-:guilabel:`Close` button. You can then confirm the whole one-line order by clicking
-:guilabel:`Save`, which makes the form non-editable.
+保存采购订单明细,点击 :guilabel:`关闭` 按钮关闭 :guilabel:`明细` 窗口. 点 :guilabel:`保存` 按钮, 可以保存数据并查看明细数据而不关闭窗口.
 
 .. i18n: It is now in a state of \ ``Request for
 .. i18n: Quotation``\ , so click :guilabel:`Convert to Purchase Order`, which corresponds to an approval from
