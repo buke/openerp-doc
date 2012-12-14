@@ -90,7 +90,7 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: You can define various leave types which can be availed of by an employee during a request for leave. To define a new leave type, navigate to :menuselection:`Human Resources --> Configuration --> Holidays --> Leave Type` and click :guilabel:`New`.
 ..
 
-你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单 :menuselection:`人力资源 --> 设置 --> 假期 --> 请假类型`，然后点击:guilabel:`新建` 按钮。
+你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单 :menuselection:`人力资源 --> 设置 --> 假期 --> 请假类型`，然后点击 :guilabel:`新建` 按钮。
 
 .. i18n: .. figure::  images/holidays_leave_type.png
 .. i18n:    :scale: 80
@@ -126,7 +126,7 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: After entering the leave type information, click :guilabel:`Save`.
 ..
 
-完成信息输入后，请点击:guilabel:`保存` 按钮。
+完成信息输入后，请点击 :guilabel:`保存` 按钮。
 
 .. i18n: .. index::
 .. i18n:    single: holidays; manage requests and approvals
