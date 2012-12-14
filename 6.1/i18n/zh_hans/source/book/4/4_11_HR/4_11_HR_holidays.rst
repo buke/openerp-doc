@@ -36,7 +36,7 @@
 .. i18n: Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` an employee can request a leave.
 ..
 
-Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` an employee can request a leave.
+员工请假可以使用菜单“人力资源 --> 假期 --> 准假申请”来实现。
 
 .. i18n: Leaves requests can be recorded by employees and validated by their managers.
 .. i18n: Once a leave request is validated, it appears automatically in the agenda of the employee.
@@ -44,15 +44,13 @@ Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` 
 .. i18n: per type.
 ..
 
-Leaves requests can be recorded by employees and validated by their managers.
-Once a leave request is validated, it appears automatically in the agenda of the employee.
-You can define several allocation types (paid holidays, sickness, etc.) and manage allocations
-per type.
+请假申请由员工建立，并由他们的主管来审核。一旦申请被审核通过，它就会自动出现在员工的日程表上。
+你可以定义多种准假方式（如有薪假期，病假等）然后分别管理。
 
 .. i18n: OpenERP can provide the following features for efficient holiday management process:
 ..
 
-OpenERP can provide the following features for efficient holiday management process:
+Openeip为高校的假期管理流程提供了如下的功能：
 
 .. i18n: * It helps you to manage leaves and leave requests.
 .. i18n: * Synchronisation with an internal agenda (use of :mod:`crm`) is possible:
@@ -62,11 +60,11 @@ OpenERP can provide the following features for efficient holiday management proc
 .. i18n: * An employee can request for more days off, by making a new Allocation Request through :menuselection:`Human Resources --> Holidays --> Allocation Requests`.
 ..
 
-* It helps you to manage leaves and leave requests.
+* 帮助你管理假期及假期申请。
 * Synchronisation with an internal agenda (use of :mod:`crm`) is possible:
   in order to automatically create a case when a holiday request is accepted,
   you have to link the holidays status to a case section.
-* You can set up colour preferences according to your leave type, for example, `Sick Leave` should be red in reports.
+* 你可以根据你的假期类型设置不同的颜色，如“病假”可以在报表中显示为红色。
 * An employee can request for more days off, by making a new Allocation Request through :menuselection:`Human Resources --> Holidays --> Allocation Requests`.
 
 .. i18n: The statistical report for leaves can be seen using the
