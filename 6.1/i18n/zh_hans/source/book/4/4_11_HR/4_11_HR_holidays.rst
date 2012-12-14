@@ -18,7 +18,7 @@
 .. i18n: module. The configuration wizard to install this module is shown below:
 ..
 
-你可以使用“hr_holidays”模块来管理员工假期，这个模块的安装向导如下图所示：
+你可以使用“hr_holidays”模块来管理员工假期，这个模块的安装配置向导如下图所示：
 
 .. i18n: .. figure::  images/config_wiz_holidays.png
 .. i18n:    :scale: 75
@@ -31,7 +31,7 @@
    :scale: 75
    :align: center
 
-   *Configuration wizard to install hr_holidays module*
+   *hr_holidays模块安装配置向导*
 
 .. i18n: Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` an employee can request a leave.
 ..
