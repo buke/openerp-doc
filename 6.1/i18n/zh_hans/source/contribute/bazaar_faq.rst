@@ -12,7 +12,7 @@ Bazaar 版本控制的常见问题(F.A.Q)
 .. i18n: .. contents::
 ..
 
-.. 目录::
+.. contents::
 
 .. i18n: How to install bazaar ?
 .. i18n: +++++++++++++++++++++++
