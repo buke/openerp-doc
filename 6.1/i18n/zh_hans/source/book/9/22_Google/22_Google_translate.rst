@@ -32,7 +32,7 @@ Google 翻译
 .. i18n: .. note:: If the Need Review field is True then it will translate the source value to destination by given language.
 ..
 
-.. 注意:: 如果你设置了 Need Review 项 就能按给定的语言翻译。
+.. note:: 如果你设置了 Need Review 项 就能按给定的语言翻译。
 
 .. i18n: **Before Translation**
 ..
