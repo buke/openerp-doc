@@ -18,7 +18,7 @@
 .. i18n: module. The configuration wizard to install this module is shown below:
 ..
 
-你可以使用 :mod:“hr_holidays” 模块来管理员工假期，这个模块的安装配置向导如下图所示：
+你可以使用 :mod:'hr_holidays' 模块来管理员工假期，这个模块的安装配置向导如下图所示：
 
 .. i18n: .. figure::  images/config_wiz_holidays.png
 .. i18n:    :scale: 75
