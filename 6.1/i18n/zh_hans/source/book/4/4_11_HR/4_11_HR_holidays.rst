@@ -45,12 +45,12 @@
 ..
 
 请假申请由员工建立，并由他们的主管来审核。一旦申请被审核通过，它就会自动出现在员工的日程表上。
-你可以定义多种准假方式（如有薪假期，病假等）然后分别管理。
+你可以定义多种准假方式（如有薪假期，病假等）然后分别进行管理。
 
 .. i18n: OpenERP can provide the following features for efficient holiday management process:
 ..
 
-Openeip为高校的假期管理流程提供了如下的功能：
+Openeip为高效的假期管理流程提供了如下的功能：
 
 .. i18n: * It helps you to manage leaves and leave requests.
 .. i18n: * Synchronisation with an internal agenda (use of :mod:`crm`) is possible:
@@ -71,8 +71,7 @@ Openeip为高校的假期管理流程提供了如下的功能：
 .. i18n: :menuselection:`Human Resources --> Reporting --> Holidays --> Leaves Analysis` menu.
 ..
 
-The statistical report for leaves can be seen using the
-:menuselection:`Human Resources --> Reporting --> Holidays --> Leaves Analysis` menu.
+使用菜单“人力资源-->报表-->假期-->假期分析”可以查看假期统计报表。
 
 .. i18n: .. index::
 .. i18n:    single: holidays; leave types
@@ -91,7 +90,7 @@ The statistical report for leaves can be seen using the
 .. i18n: You can define various leave types which can be availed of by an employee during a request for leave. To define a new leave type, navigate to :menuselection:`Human Resources --> Configuration --> Holidays --> Leave Type` and click :guilabel:`New`.
 ..
 
-You can define various leave types which can be availed of by an employee during a request for leave. To define a new leave type, navigate to :menuselection:`Human Resources --> Configuration --> Holidays --> Leave Type` and click :guilabel:`New`.
+你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单“人力资源 --> 设置 --> 假期 --> 请假类型” ，然后点击“新建”按钮。
 
 .. i18n: .. figure::  images/holidays_leave_type.png
 .. i18n:    :scale: 80
@@ -104,12 +103,12 @@ You can define various leave types which can be availed of by an employee during
    :scale: 80
    :align: center
 
-   *Leave Type form*
+   *请假类型表单*
 
 .. i18n: You can configure the following information:
 ..
 
-You can configure the following information:
+你可以设置如下的信息：
 
 .. i18n: * :guilabel:`Leave Type` : A name for the leave type.
 .. i18n: * :guilabel:`Colour in Report` : A colour that will be used in the leaves summary report.
