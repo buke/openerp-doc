@@ -36,7 +36,7 @@
 .. i18n: Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` an employee can request a leave.
 ..
 
-员工请假可以使用菜单 :menuselection:“人力资源 --> 假期 --> 准假申请” 来实现。
+员工请假可以使用菜单 :menuselection:`人力资源 --> 假期 --> 准假申请`来实现。
 
 .. i18n: Leaves requests can be recorded by employees and validated by their managers.
 .. i18n: Once a leave request is validated, it appears automatically in the agenda of the employee.
@@ -71,7 +71,7 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: :menuselection:`Human Resources --> Reporting --> Holidays --> Leaves Analysis` menu.
 ..
 
-使用菜单 :menuselection:“人力资源-->报表-->假期-->假期分析” 可以查看假期统计报表。
+使用菜单 :menuselection:`人力资源-->报表-->假期-->假期分析`可以查看假期统计报表。
 
 .. i18n: .. index::
 .. i18n:    single: holidays; leave types
@@ -90,7 +90,7 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: You can define various leave types which can be availed of by an employee during a request for leave. To define a new leave type, navigate to :menuselection:`Human Resources --> Configuration --> Holidays --> Leave Type` and click :guilabel:`New`.
 ..
 
-你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单 :menuselection:“人力资源 --> 设置 --> 假期 --> 请假类型” ，然后点击:guilabel:“新建”按钮。
+你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单 :menuselection:`人力资源 --> 设置 --> 假期 --> 请假类型`，然后点击:guilabel:`新建`按钮。
 
 .. i18n: .. figure::  images/holidays_leave_type.png
 .. i18n:    :scale: 80
@@ -117,16 +117,16 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: * :guilabel:`Allow to Override Limit` : If ``True``, the employee will be allowed to take more leaves than the maximum limit.
 ..
 
-* :guilabel:“请假类型”: 请假类型的名称。
-* :guilabel:“报表中的颜色” : 请假摘要报表中显示的颜色。
-* :guilabel:“会议”: 如果你选择了一个会议，一旦此申请被审核通过，日历中就会创建一个事件。
-* :guilabel:“二次审核” : 如果勾选此项，则此类型的申请均需要做二次审核。
-* :guilabel:“允许不顾限制” : 如果勾选此项，则此类型的申请中，员工享受的假期可以超过最大的限制值。
+* :guilabel:`请假类型`: 请假类型的名称。
+* :guilabel:`报表中的颜色` : 请假摘要报表中显示的颜色。
+* :guilabel:`会议`: 如果你选择了一个会议，一旦此申请被审核通过，日历中就会创建一个事件。
+* :guilabel:`二次审核` : 如果勾选此项，则此类型的申请均需要做二次审核。
+* :guilabel:`允许不顾限制` : 如果勾选此项，则此类型的申请中，员工享受的假期可以超过最大的限制值。
 
 .. i18n: After entering the leave type information, click :guilabel:`Save`.
 ..
 
-完成信息输入后，请点击:guilabel:“保存”按钮。
+完成信息输入后，请点击:guilabel:`保存`按钮。
 
 .. i18n: .. index::
 .. i18n:    single: holidays; manage requests and approvals
