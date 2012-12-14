@@ -1209,9 +1209,9 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 .. i18n:     * `XSL tutorial`_  
 ..
 
-    * `RML 用户指导`_
-    * `XSL 规范`_ 
-    * `XSL 教程`_  
+    * `RML user guide`_
+    * `XSL specification`_ 
+    * `XSL tutorial`_  
 
 .. i18n: All these formats are extensions of the `XML specification`_.
 ..
