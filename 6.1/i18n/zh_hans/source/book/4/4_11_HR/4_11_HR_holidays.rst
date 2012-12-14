@@ -117,16 +117,16 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: * :guilabel:`Allow to Override Limit` : If ``True``, the employee will be allowed to take more leaves than the maximum limit.
 ..
 
-* :guilabel:`Leave Type` : A name for the leave type.
-* :guilabel:`Colour in Report` : A colour that will be used in the leaves summary report.
-* :guilabel:`Meeting` : If you select a meeting, once a leave is validated, an event will be created in the calendar.
-* :guilabel:`Apply Double Validation` : If ``True``, then the request will require a second validator.
-* :guilabel:`Allow to Override Limit` : If ``True``, the employee will be allowed to take more leaves than the maximum limit.
+* :guilabel:“请假类型”: 请假类型的名称。
+* :guilabel:“报表中的颜色” : 请假摘要报表中显示的颜色。
+* :guilabel:“会议”: 如果你选择了一个会议，一旦此申请被审核通过，日历中就会创建一个事件。
+* :guilabel:“二次审核” : 如果勾选此项，则此类型的申请均需要做二次审核。
+* :guilabel:“允许不顾限制” : 如果勾选此项，则此类型的申请中，员工享受的假期可以超过最大的限制值。
 
 .. i18n: After entering the leave type information, click :guilabel:`Save`.
 ..
 
-After entering the leave type information, click :guilabel:`Save`.
+完成信息输入后，请点击“保存”按钮。
 
 .. i18n: .. index::
 .. i18n:    single: holidays; manage requests and approvals
