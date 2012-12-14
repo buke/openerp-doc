@@ -36,7 +36,7 @@
 .. i18n: Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` an employee can request a leave.
 ..
 
-员工请假可以使用菜单 :menuselection:`人力资源 --> 假期 --> 准假申请`来实现。
+员工请假可以使用菜单 :menuselection:`人力资源 --> 假期 --> 准假申请` 来实现。
 
 .. i18n: Leaves requests can be recorded by employees and validated by their managers.
 .. i18n: Once a leave request is validated, it appears automatically in the agenda of the employee.
