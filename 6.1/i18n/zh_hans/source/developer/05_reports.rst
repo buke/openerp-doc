@@ -539,12 +539,12 @@ To generate the pdf from the rml file, OpenERP needs a rml parser.
 .. i18n: The parser inherit from the **report_sxw.rml_parse** object and it add to the localcontext, the function time so it will be possible to call it in the report.
 ..
 
-The parser inherit from the **report_sxw.rml_parse** object and it add to the localcontext, the function time so it will be possible to call it in the report.
+解释器继承自 report_sxw.rml_parse 对象 并且增加了localcontext变量和函数 time， 因此在报表中可以调用.
 
 .. i18n: After an instance of **report_sxw.report_sxw** is created with the parameters:
 ..
 
-After an instance of **report_sxw.report_sxw** is created with the parameters:
+ **report_sxw.report_sxw** 实例生成之后，需要如下参数:
 
 .. i18n:     * the name of the report
 .. i18n:     * the object name on which the report is defined
@@ -557,27 +557,27 @@ After an instance of **report_sxw.report_sxw** is created with the parameters:
 .. i18n:         * ``False`` - use the report's own header
 ..
 
-    * the name of the report
-    * the object name on which the report is defined
-    * the path to the rml file
-    * the parser to use for the report (by default rml_parse)
-    * the header to use from the company configuration
-        * ``'external'`` (default)
+    * 报表的名字
+    * report关联的object名字
+    * rml文件的路径
+    * 默认的rml解释器(默认为rml_parse)
+    * 在公司配置报表头部(默认为true)
+        * ``'external'`` (默认)
         * ``'internal'``
         * ``'internal landscape'``
-        * ``False`` - use the report's own header
+        * ``False`` - 使用报表自己定义的报表头
 
 .. i18n: The xml definition
 .. i18n: """"""""""""""""""
 ..
 
-The xml definition
+xml 定义
 """"""""""""""""""
 
 .. i18n: To be visible from the client, the report must be declared in an xml file (generally: "module_name"_report.xml) that must be put in the **__openerp__.py** file
 ..
 
-To be visible from the client, the report must be declared in an xml file (generally: "module_name"_report.xml) that must be put in the **__openerp__.py** file
+如果要在 client端可见, 报表应该声明在一个 xml 文件中 (一般格式为: "module_name"_report.xml) ，这个文件应该列进 **__openerp__.py** 文件
 
 .. i18n: Here is an example for the sale order report:
 .. i18n: ::
@@ -597,7 +597,7 @@ To be visible from the client, the report must be declared in an xml file (gener
 .. i18n: 	</openerp>
 ..
 
-Here is an example for the sale order report:
+下面是销售订单报表的例子:
 ::
 
 	<?xml version="1.0"?>
@@ -617,7 +617,7 @@ Here is an example for the sale order report:
 .. i18n: The arguments are:
 ..
 
-The arguments are:
+参数如下:
 
 .. i18n:     * **id**: the id of the report like any xml tag in OpenERP
 .. i18n:     * **string**: the string that will be display on the Client button
@@ -628,13 +628,13 @@ The arguments are:
 .. i18n:     * **header**: allows to enable or disable the report header. To edit them for a specific company, go to: Administration -> Users -> Company's structure -> Companies. There, select and edit your company: the "Header/Footer" tab allows you to edit corporate header/footer.  
 ..
 
-    * **id**: the id of the report like any xml tag in OpenERP
-    * **string**: the string that will be display on the Client button
-    * **model**: the object on which the report will run
-    * **name**: the name of the report without the first "report."
-    * **rml**: the path to the rml file
-    * **auto**: boolean to specify if the server must generate a default parser or not
-    * **header**: allows to enable or disable the report header. To edit them for a specific company, go to: Administration -> Users -> Company's structure -> Companies. There, select and edit your company: the "Header/Footer" tab allows you to edit corporate header/footer.  
+    * **id**: OpenERP中的报表id，类似openerp中的其他xml标记(tag)
+    * **string**: Client 端按钮显示的文字
+    * **model**: 报表中用到的object
+    * **name**: 除了第一个 "report 之后显示的名字"
+    * **rml**: rml 文件路径
+    * **auto**: boolean值指定server是/否生成默认的解释器
+    * **header**: 是否允许页眉(report header)。 如果需要编辑, 遵循如下方式: Administration -> Users -> Company’s structure -> Companies. 选择并编辑您的公司: 其中 “Header/Footer” 标签 允许你编辑相应的 header/footer.  
 
 .. i18n: .. _Python's boolean operators: http://docs.python.org/library/stdtypes.html#boolean-operations-and-or-not
 ..
@@ -645,20 +645,20 @@ The arguments are:
 .. i18n: ===============
 ..
 
-XSL:RML reports
+XSL:RML 报表
 ===============
 
 .. i18n: RML reports don't require programming but require two simple XML files to be written:
 ..
 
-RML reports don't require programming but require two simple XML files to be written:
+RML 报表不需要编程，但是需要两种简单的 XML 文件:
 
 .. i18n:     * a file describing the data to export (\*.xml)
 .. i18n:     * a file containing the presentation rules to apply to that data (\*.xsl)
 ..
 
-    * a file describing the data to export (\*.xml)
-    * a file containing the presentation rules to apply to that data (\*.xsl)
+    * 一种文件描述导出数据 (\*.xml)
+    * 一种可以包含数据和表现规则的文件 (\*.xsl)
 
 .. i18n: .. figure::  images/automatic-reports.png
 .. i18n:    :scale: 85
@@ -672,17 +672,19 @@ RML reports don't require programming but require two simple XML files to be wri
 .. i18n: The role of the XML template is to describe which fields of the resource have to be exported (by the server). The XSL:RML style sheet deals with the layout of the exported data as well as the "static text" of reports. Static text is referring to the text which is common to all reports of the same type (for example, the title of table columns).
 ..
 
-The role of the XML template is to describe which fields of the resource have to be exported (by the server). The XSL:RML style sheet deals with the layout of the exported data as well as the "static text" of reports. Static text is referring to the text which is common to all reports of the same type (for example, the title of table columns).
+XML模板(template)主要描述哪些域(field)的资源需要(由server)导出. 
+XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的 "static text" 一样. 
+"static text" 是指在报表中相同、不怎么变化的部分，比如表格头部的标题(title of table column).
 
 .. i18n: **Example**
 ..
 
-**Example**
+**示例**
 
 .. i18n: Here is, as an example, the different files for the simplest report in the ERP.
 ..
 
-Here is, as an example, the different files for the simplest report in the ERP.
+下面给出一个例子，说明生成ERP报表的不同文件.
 
 .. i18n: .. figure::  images/ids-report.png
 .. i18n:    :scale: 85
@@ -708,7 +710,7 @@ Here is, as an example, the different files for the simplest report in the ERP.
 .. i18n: 	    </ids> 
 ..
 
-**XML Template**
+**XML 模板**
 ::
 
 	<?xml version="1.0"?>
@@ -792,7 +794,7 @@ Here is, as an example, the different files for the simplest report in the ERP.
 .. i18n: 	    </ids> 
 ..
 
-**XML data file (generated)**
+**XML 数据文件 (生成的)**
 ::
 
 	<?xml version="1.0"?>
@@ -932,7 +934,7 @@ Here is, as an example, the different files for the simplest report in the ERP.
 .. i18n: 	    </xsl:stylesheet> 
 ..
 
-**XSL stylesheet**
+**XSL 样式表**
 ::
 
 	<?xml version="1.0" encoding="utf-8"?> <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1100,7 +1102,7 @@ Here is, as an example, the different files for the simplest report in the ERP.
 .. i18n: 	    </document> 
 ..
 
-**Resulting RML file (generated)**
+**对应的RML文件 (生成的)**
 ::
 
 	<?xml version="1.0"?>
@@ -1200,21 +1202,21 @@ Here is, as an example, the different files for the simplest report in the ERP.
 .. i18n: For more information on the formats used:
 ..
 
-For more information on the formats used:
+更多所用格式的帮助:
 
 .. i18n:     * `RML user guide`_
 .. i18n:     * `XSL specification`_ 
 .. i18n:     * `XSL tutorial`_  
 ..
 
-    * `RML user guide`_
-    * `XSL specification`_ 
-    * `XSL tutorial`_  
+    * `RML 用户指导`_
+    * `XSL 规范`_ 
+    * `XSL 教程`_  
 
 .. i18n: All these formats are extensions of the `XML specification`_.
 ..
 
-All these formats are extensions of the `XML specification`_.
+这些格式都是作为 `XML specification`_的拓展。
 
 .. i18n: .. _RML user guide: http://www.reportlab.com/docs/rml2pdf-userguide.pdf  
 .. i18n: .. _XSL specification: http://www.w3.org/TR/xslt
@@ -1231,40 +1233,40 @@ All these formats are extensions of the `XML specification`_.
 .. i18n: ------------
 ..
 
-XML Template
+XML 模板
 ------------
 
 .. i18n: XML templates are simple XML files describing which fields among all available object fields are necessary for the report.
 ..
 
-XML templates are simple XML files describing which fields among all available object fields are necessary for the report.
+XML 模板(template)是简单XML文件，用来描述报表所有可用的object字段(field)中哪些字段(object fields)是有用的(available).
 
 .. i18n: File format
 .. i18n: +++++++++++
 ..
 
-File format
+文件格式
 +++++++++++
 
 .. i18n: Tag names can be chosen arbitrarily (it must be valid XML though). In the XSL file, you will have to use those names. Most of the time, the name of a tag will be the same as the name of the object field it refers to.
 ..
 
-Tag names can be chosen arbitrarily (it must be valid XML though). In the XSL file, you will have to use those names. Most of the time, the name of a tag will be the same as the name of the object field it refers to.
+标签(tag)名称可以任意(但在XML中必须是有效的)。XSL文件中，你要使用到这些名称。大多数情况下，标签名(the name of tag)和引用的对象字段(object field)是一致的.
 
 .. i18n: Nodes without **type** attribute are transferred identically into the XML destination file (the data file). Nodes with a type attribute will be parsed by the server and their content will be replaced by data coming from objects. In addition to the type attribute, nodes have other possible attributes. These attributes depend on the type of the node (each node type supports or needs different attributes). Most node types have a name attribute, which refers to the  **name** of a field of the object on which we work.
 ..
 
-Nodes without **type** attribute are transferred identically into the XML destination file (the data file). Nodes with a type attribute will be parsed by the server and their content will be replaced by data coming from objects. In addition to the type attribute, nodes have other possible attributes. These attributes depend on the type of the node (each node type supports or needs different attributes). Most node types have a name attribute, which refers to the  **name** of a field of the object on which we work.
+没有类型 **type** 属性 are transferred identically into the XML destination file (the data file). 的结点(node)被转换成XML目标文件(作为数据用)。有类型属性(type attribute)的结点(node)及其内容被server解释，并由object中的数据替换。这些属性(attribute)根据结点的类型 (每个结点支持或者需要不同的属性，attribute) 而不同。大部分结点类型都有名字 **name** 属性，指代这相应object的名字字段(name of field) .
 
 .. i18n: As for the "browse" method on objects, field names in reports can use a notation similar to the notation found in object oriented programming languages. It means that "relation fields" can be used as "bridges" to fetch data from other (related) objects.
 ..
 
-As for the "browse" method on objects, field names in reports can use a notation similar to the notation found in object oriented programming languages. It means that "relation fields" can be used as "bridges" to fetch data from other (related) objects.
+关于object中的 "browse" 方法，报表的字段名称是可以使用一种类似面向对象语言中的notation来表示。这意为着 "(关联字段)是可以用这种类似 "bridges" (桥)的方式获得相关对象数据.
 
 .. i18n: Let's use the "account.transfer" object as an example. It contains a partner_id field. This field is a relation field ("many to one") pointing to the "res.partner" object. Let's suppose that we want to create a report for transfers and in this report, we want to use the name of the recipient partner. This name could be accessed using the following expression as the name of the field:
 ..
 
-Let's use the "account.transfer" object as an example. It contains a partner_id field. This field is a relation field ("many to one") pointing to the "res.partner" object. Let's suppose that we want to create a report for transfers and in this report, we want to use the name of the recipient partner. This name could be accessed using the following expression as the name of the field:
+让我们试用 "account.transfer" 对象来举例。Account.transfer对象包含一个partner_id字段，这个字段是一 个指向"res.partner" 对象的 ("many to one")(多对一)的关系。我们假设要创建一个转账(transfers)的报表,，而报表中需要从partner中选择收款人。我们可以这样写以获得收 款人的名字字段:
 
 .. i18n:     partner_id.name 
 ..
@@ -1275,27 +1277,27 @@ Let's use the "account.transfer" object as an example. It contains a partner_id 
 .. i18n: ++++++++++++++
 ..
 
-Possible types
+其它类型
 ++++++++++++++
 
 .. i18n: Here is the list of available field types:
 ..
 
-Here is the list of available field types:
+这里是可用的字段类型的列表:
 
 .. i18n:     * **field**: It is the simplest type. For nodes of this type, the server replaces the node content by the value of the field whose name is given in the name attribute. 
 .. i18n: 
 .. i18n:     * **fields**: when this type of node is used, the server will generate a node in the XML data file for each unique value of the field whose name is given in the name attribute. 
 ..
 
-    * **field**: It is the simplest type. For nodes of this type, the server replaces the node content by the value of the field whose name is given in the name attribute. 
+    * **field**: 最简单的类型。有这种类型的结点(node),server都会用已知字段(field)的名字属性替换掉node的内容. 
 
-    * **fields**: when this type of node is used, the server will generate a node in the XML data file for each unique value of the field whose name is given in the name attribute. 
+    * **fields**: 这种结点(node)类型，server会在XML数据文件中生成一个和已知名字属性唯一相同的结点(?). 
 
 .. i18n:     Notes:
 ..
 
-    Notes:
+    注释:
 
 .. i18n:         ** This node type is often used with "id" as its name attribute. This has the effect of creating one node for each resource selected in the interface by the user. 
 .. i18n:         ** The semantics of a node <node type="fields" name="field_name"> is similar to an SQL statement of the form "SELECT FROM object_table WHERE id in identifier_list **GROUP BY** field_name" where identifier_list is the list of ids of the resources selected by the ::user (in the interface). 
@@ -1317,12 +1319,12 @@ Here is the list of available field types:
 .. i18n: 	<name type="field" name="partner_id.name"/> 
 ..
 
-        ** This node type is often used with "id" as its name attribute. This has the effect of creating one node for each resource selected in the interface by the user. 
-        ** The semantics of a node <node type="fields" name="field_name"> is similar to an SQL statement of the form "SELECT FROM object_table WHERE id in identifier_list **GROUP BY** field_name" where identifier_list is the list of ids of the resources selected by the ::user (in the interface). 
+        ** 这个结点(node)类型经常使用 "id" 作为名字属性。user使用选择resource的接口创建结点(node)时，会受到影响. 
+        ** 结点(node)的语法 <node type="fields" name="field_name"> 和SQL语句 "SELECT FROM object_table WHERE id in identifier_list **GROUP BY** field_name" 相似，其中identifier_list 是::user (in the interface)可以通过接口选择使用的resource . 
 
-    * **eval**: This node type evaluate the expression given in the *expr* attribute. This expression may be any Python expression and may contain objects fields names. 
+    * **eval**: 这个结点(node)类型计算 *expr* 属性中表达式(expression)的值。表达式(expression)可以是python表达式，也可以是object的字段名字. 
 
-    * **zoom**: This node type allows to "enter" into the resource referenced by the relation field whose name is given in the name attribute. It means that its child nodes will be able to access the fields of that resource without having to prefix them with the field name that makes the link with the other object. In our example above, we could also have accessed the field name of the partner with the following: 
+    * **zoom**: 这个结点(node)类型允许 "enter" 通过relation字段使用name属性中列出的资源. 意味着子结点(child node)不用其他对象名字字段做前缀也可以使用资源字段(fields of that source)。在上面的例子中，我们可以通过以下方式获得parter的name字段: 
 
   ::
 
@@ -1332,14 +1334,14 @@ Here is the list of available field types:
 
 	</partner> 
 
-	In this precise case, there is of course no point in using this notation instead of the standard notation below: 
+	在这个例子中, 不用zoom注解，标准格式也同样可以有效果: 
 
 	<name type="field" name="partner_id.name"/> 
 
 .. i18n: The **zoom** type is only useful when we want to recover several fields in the same object.
 ..
 
-The **zoom** type is only useful when we want to recover several fields in the same object.
+ **zoom** 类型往往用于恢复同一个object的多个字段(field).
 
 .. i18n:     * **function**: returns the result of the call to the function whose name is given in the name attribute. This function must be part of the list of predefined functions. For the moment, the only available function is today, which returns the current date. 
 .. i18n: 
