@@ -18,7 +18,7 @@
 .. i18n: module. The configuration wizard to install this module is shown below:
 ..
 
-你可以使用:mod:“hr_holidays”模块来管理员工假期，这个模块的安装配置向导如下图所示：
+你可以使用 :mod:“hr_holidays” 模块来管理员工假期，这个模块的安装配置向导如下图所示：
 
 .. i18n: .. figure::  images/config_wiz_holidays.png
 .. i18n:    :scale: 75
@@ -36,7 +36,7 @@
 .. i18n: Using the menu :menuselection:`Human Resources --> Holidays --> Leave Requests` an employee can request a leave.
 ..
 
-员工请假可以使用菜单:menuselection:“人力资源 --> 假期 --> 准假申请”来实现。
+员工请假可以使用菜单 :menuselection:“人力资源 --> 假期 --> 准假申请” 来实现。
 
 .. i18n: Leaves requests can be recorded by employees and validated by their managers.
 .. i18n: Once a leave request is validated, it appears automatically in the agenda of the employee.
@@ -71,7 +71,7 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: :menuselection:`Human Resources --> Reporting --> Holidays --> Leaves Analysis` menu.
 ..
 
-使用菜单:menuselection:“人力资源-->报表-->假期-->假期分析”可以查看假期统计报表。
+使用菜单 :menuselection:“人力资源-->报表-->假期-->假期分析” 可以查看假期统计报表。
 
 .. i18n: .. index::
 .. i18n:    single: holidays; leave types
@@ -90,7 +90,7 @@ Openeip为高效的假期管理流程提供了如下的功能：
 .. i18n: You can define various leave types which can be availed of by an employee during a request for leave. To define a new leave type, navigate to :menuselection:`Human Resources --> Configuration --> Holidays --> Leave Type` and click :guilabel:`New`.
 ..
 
-你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单:menuselection:“人力资源 --> 设置 --> 假期 --> 请假类型” ，然后点击:guilabel:“新建”按钮。
+你可以定义不同的请假类型，便于员工区分其请假申请。定义一个新的请假类型，点击菜单 :menuselection:“人力资源 --> 设置 --> 假期 --> 请假类型” ，然后点击:guilabel:“新建”按钮。
 
 .. i18n: .. figure::  images/holidays_leave_type.png
 .. i18n:    :scale: 80
