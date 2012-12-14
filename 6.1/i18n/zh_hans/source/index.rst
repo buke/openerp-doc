@@ -24,7 +24,7 @@ OpenERP 文档 v6.1
 .. i18n:   guidelines.
 ..
 
-.. 小窍门:: The online OpenERP books present a new integrated approach to enterprise
+.. Tip:: The online OpenERP books present a new integrated approach to enterprise
   management and development best-practices. You can have a look at our 
   `printed books`_ or `PDF versions`_.
   
