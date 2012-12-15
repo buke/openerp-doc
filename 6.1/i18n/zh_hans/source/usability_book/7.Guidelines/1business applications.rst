@@ -80,8 +80,7 @@
 .. i18n: And, these features must be set as shortcuts for every user in the system by default, at the creation of the user.
 ..
 
-Some features should be accessible by all users, regardless of which application they usually work in. For example, most users should have access to: Partners, Agenda of Meetings, Products. In that case, you put the menu in the applications that needs these features more. (Example: the address book is in the sales, purchases and accounting application)
-And, these features must be set as shortcuts for every user in the system by default, at the creation of the user.
+有些功能应该可以被所有用户访问，无论他们是什么岗位。例如，大多数用户应该可以访问合作伙伴、会议日程、产品等。这种情况下，你可以把这些功能菜单放在各个应用下（如：联系人菜单在销售、采购、财务等模块都有）。而且在创建用户的时候，系统默认为这些用户创建菜单的快捷方式。
 
 .. i18n: Access Rights must define groups per application.
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++
@@ -93,7 +92,7 @@ And, these features must be set as shortcuts for every user in the system by def
 .. i18n: The groups defined by each module must be directly related to business application. So, if you have an application which is “Accounting”.  All groups within this application must be like: “Accounting / Accountant”, “Accounting / Financial Manager”, etc.
 ..
 
-The groups defined by each module must be directly related to business application. So, if you have an application which is “Accounting”.  All groups within this application must be like: “Accounting / Accountant”, “Accounting / Financial Manager”, etc.
+每个应用组都必须按照相关的工作职责定义权限。因此，如果你有一个财务应用模块，这个应用的组应该是这样的：“财务/会计师”，“财务/财务经理”，等等。
 
 .. i18n: One dashboard defined per application
 .. i18n: +++++++++++++++++++++++++++++++++++++
@@ -105,4 +104,4 @@ The groups defined by each module must be directly related to business applicati
 .. i18n: Each business application must have one dashboard attached to its root menu item. When a user enters a business application, they should see the dashboard related to this application.
 ..
 
-Each business application must have one dashboard attached to its root menu item. When a user enters a business application, they should see the dashboard related to this application.
+每个应用应该在相应的根菜单下定义一个面板。当用户进入应用时，该用户应该可以看到相应的应用面板。
