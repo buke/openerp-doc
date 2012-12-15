@@ -2206,26 +2206,26 @@ Python 块
 .. i18n:     	Within <% %>, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
 ..
 
-    	在 <% %> 标记中, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
+    	在 <% %> 标记中, 你可以加入普通的Python代码块。虽然之中的代码可以加入任意的空格，但是还是注意下格式比较好。Mako的编译器会根据周围生成的 Python代码结构，调整Python代码块中的格式.
 
 .. i18n: Useful links:
 .. i18n: 	http://www.makotemplates.org/docs/
 ..
 
-Useful links:
+有用的链接:
 	http://www.makotemplates.org/docs/
 
 .. i18n: An Overview of Sale Order Example
 .. i18n: +++++++++++++++++++++++++++++++++
 ..
 
-An Overview of Sale Order Example
+销售订单中的例子
 +++++++++++++++++++++++++++++++++
 
 .. i18n: 	For Complete Example of Sale_order please Refer the module sale_report_html from :
 ..
 
-	For Complete Example of Sale_order please Refer the module sale_report_html from :
+	销售完整的例子请从下面的地址参照 sale_report_html 模块 :
 
 .. i18n:             https://code.launchpad.net/~openerp-community/openobject-addons/trunk-addons-community
 ..
@@ -2352,13 +2352,13 @@ An Overview of Sale Order Example
 .. i18n: You can format the report as you need using HTML.
 ..
 
-You can format the report as you need using HTML.
+可以根据需要用 HTML格式化报表.
 
 .. i18n: Report with header and footer
 .. i18n: +++++++++++++++++++++++++++++
 ..
 
-Report with header and footer
+有报表头和报表尾(header and footer)的报表
 +++++++++++++++++++++++++++++
 
 .. i18n: 	To create reports with your company header you need to include <%include file=”mako_header.html”/>
@@ -2366,6 +2366,6 @@ Report with header and footer
 .. i18n: 	These files will bring the header and footer that you have defined for your company in the database.
 ..
 
-	To create reports with your company header you need to include <%include file=”mako_header.html”/>
-	To create reports with your company footer you need to include <%include file=”mako_footer.html”/>
-	These files will bring the header and footer that you have defined for your company in the database.
+	如果希望在报表中加入公司专有的页眉，需要包含 <%include file=”mako_header.html”/>
+	加入页脚需要包含 <%include file=”mako_footer.html”/>
+	这些文件会从数据库中读出你预先为公司定义好的页眉页脚.
