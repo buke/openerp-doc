@@ -1935,19 +1935,19 @@ RML 文件中的条形码(Barcodes)
 .. i18n: ===============
 ..
 
-Unicode reports 
+Unicode 报表 
 ===============
 
 .. i18n: As of OpenERP 5.0-rc3 unicode printing with ReportLab is still not available. The problem is that OpenERP uses the PDF standard fonts (14 fonts, they are not embedded in the document but the reader provides them) that are Type1 and have only Latin1 characters.
 ..
 
-As of OpenERP 5.0-rc3 unicode printing with ReportLab is still not available. The problem is that OpenERP uses the PDF standard fonts (14 fonts, they are not embedded in the document but the reader provides them) that are Type1 and have only Latin1 characters.
+OpenERP 5.0-rc3 中还是不能使用Unicode 报表的。症结在于OpenERP使用的PDF标准字体(14号字体，不嵌入文档，而是由pdf reader提供)Type1只含有Latin1字符.
 
 .. i18n: The solution consists of 3 parts
 .. i18n: --------------------------------
 ..
 
-The solution consists of 3 parts
+解决办法有三步
 --------------------------------
 
 .. i18n:     * Provide TrueType fonts and make them accessible for ReportLab.
@@ -1955,21 +1955,21 @@ The solution consists of 3 parts
 .. i18n:     * Replace the old fontNames in xsl and rml templates with the TrueType ones. 
 ..
 
-    * Provide TrueType fonts and make them accessible for ReportLab.
-    * Register the TrueType fonts with ReportLab before using them in the reports.
-    * Replace the old fontNames in xsl and rml templates with the TrueType ones. 
+    * 提供 TrueType 字体，让ReportLab可以使用他们.
+    * 在报表中使用Unicode之前，在ReportLab中注册TrueType 字体.
+    * 在xsl和rml模板中替换旧字体名称为TrueType. 
 
 .. i18n: All these ideas are taken from the forums
 .. i18n: -----------------------------------------
 ..
 
-All these ideas are taken from the forums
+论坛中有更详细的信息
 -----------------------------------------
 
 .. i18n: **Free TrueType fonts**
 ..
 
-**Free TrueType fonts**
+**免费的字体 TrueType fonts**
 
 .. i18n: that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.org/wiki/index.php?title=Main_Page They can be installed
 ..
@@ -1981,9 +1981,9 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 .. i18n:     * in a subdirectory of the OpenERP installation and give that path to ReportLab during the font registration. 
 ..
 
-    * in the ReportLab's fonts directory,
-    * system-wide and include that directory in rl_config.py,
-    * in a subdirectory of the OpenERP installation and give that path to ReportLab during the font registration. 
+    * 在 ReportLab 字体目录,
+    * 系统路径和 rl_config.py 中包含这个目录,
+    * 在 OpenERP 安装子目录提供一个路径给ReportLab作为注册字体用. 
 
 .. i18n: **In the server/bin/report/render/rml2pdf/__init__.py**
 .. i18n: ::
@@ -2008,7 +2008,7 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 .. i18n: 	addMapping('DejaVuSans-Bold', 1, 0, 'DejaVuSans') #normal
 ..
 
-**In the server/bin/report/render/rml2pdf/__init__.py**
+**在文件 server/bin/report/render/rml2pdf/__init__.py 中**
 ::
 
 	import reportlab.rl_config
@@ -2020,25 +2020,25 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 
 	enc = 'UTF-8'
 
-	#repeat these for all the fonts needed
+	#需要的字体做如下类似的重复
 	pdfmetrics.registerFont(TTFont('DejaVuSans', 'DejaVuSans.ttf',enc))
 	pdfmetrics.registerFont(TTFont('DejaVuSans-Bold', 'DejaVuSans-Bold.ttf',enc))
 
 	from reportlab.lib.fonts import addMapping
 
-	#repeat these for all the fonts needed
+	#需要的字体做如下类似的重复
 	addMapping('DejaVuSans', 0, 0, 'DejaVuSans') #normal
 	addMapping('DejaVuSans-Bold', 1, 0, 'DejaVuSans') #normal
 
 .. i18n: trml2pdf.py should be modified to load this if invoked from the command line.
 ..
 
-trml2pdf.py should be modified to load this if invoked from the command line.
+如果是命令行引用 trml2pdf.py ，则需要做如上修改.
 
 .. i18n: **All the xsl and rml files have to be modified**
 ..
 
-**All the xsl and rml files have to be modified**
+**所有需要修改的 xsl 和 rml 文件**
 
 .. i18n: A list of possible alternatives:
 .. i18n: ::
@@ -2071,7 +2071,7 @@ trml2pdf.py should be modified to load this if invoked from the command line.
 .. i18n: 	'HelveticaCondensed-Italic', 'DejaVuSansCondensed-Oblique.ttf
 ..
 
-A list of possible alternatives:
+需要修改调整的清单:
 ::
 
 	'Times-Roman',       'DejaVuSerif.ttf'
