@@ -197,8 +197,7 @@ group to activate it.
 .. i18n: this would be somebody in Stores, who would:
 ..
 
-After confirming the order, you would wait for the delivery of the products from your supplier. Typically
-this would be somebody in Stores, who would:
+在确认采购后,就需要等供应商送货,并按下面的操作进行收货操作:
 
 .. i18n: 	#. Open the menu :menuselection:`Warehouse --> Warehouse Management --> Incoming Shipments` using the expand/collapse icon.
 ..
