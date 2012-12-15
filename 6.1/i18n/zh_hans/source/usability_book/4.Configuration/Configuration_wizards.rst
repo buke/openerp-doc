@@ -11,15 +11,16 @@
 ..
 
 Configuration wizards are launched automatically on creation of a new database. You must develop configuration wizards per application to:
+配置向导会在创建新数据库后自动启动。你需要为每个应用套件开发配置向导：
 
 .. i18n: 	1. Help the user decide which features (modules) to install
 .. i18n: 	
 .. i18n: 	2. Help the user configure the system
 ..
 
-	1. Help the user decide which features (modules) to install
+	1. 让用户选择安装哪些功能（模块）
 	
-	2. Help the user configure the system
+	2. 帮助用户配置系统
 
 .. i18n: For the point (1), fewer user-installed modules make it easier to understand the system. So, most features are proposed as extra in the configuration wizards.
 ..
