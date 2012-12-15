@@ -4,7 +4,7 @@
 ..
 
 =====================
-业务应用
+应用套件
 =====================
 
 .. i18n: Defining new applications or completing existing ones
@@ -17,12 +17,14 @@
 .. i18n: We usually try to define new business applications related to job positions in the enterprise. These are good examples of applications: Purchase, Sales, Accounting and Project. Don't create business application by features. These are bad examples of business applications: lunch orders management, expenses sheets, etc.
 ..
 
-We usually try to define new business applications related to job positions in the enterprise. These are good examples of applications: Purchase, Sales, Accounting and Project. Don't create business application by features. These are bad examples of business applications: lunch orders management, expenses sheets, etc.
+一般来说我们是根据企业内部的职位来定义相关的业务套件。好的例子，如采购、销售、财务和项目管理等。
+不好的例子就是按照功能来创建业务套件，如午餐订单管理，费用表，等等。
+
 
 .. i18n: If you have specific features that don't belong in the existing business applications, you can put them in the “Miscelleanous Tools” application.
 ..
 
-If you have specific features that don't belong in the existing business applications, you can put them in the “Miscelleanous Tools” application.
+如果你的功能不属于已有的应用套件，你可以把它们放在“其他模块”应用中
 
 .. i18n: Configuration wizards of business applications.
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++
