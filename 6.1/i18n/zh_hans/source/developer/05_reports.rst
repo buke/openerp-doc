@@ -2105,7 +2105,7 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 .. i18n: =================================
 ..
 
-Html Reports Using Mako Templates
+使用Mako模板的HTML报表
 =================================
 
 .. i18n: .. note:: Implemented in trunk only
@@ -2113,22 +2113,22 @@ Html Reports Using Mako Templates
 .. i18n:    	Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
 ..
 
-.. note:: Implemented in trunk only
+.. note:: 只在trunk实现的
 
-   	Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
+   	Mako的是用Python编写一个模板库。它提供了一个熟悉的，非XML的语法，编译成Python模块以获得最佳性能.
 
 .. i18n: Mako Template
 .. i18n: -------------
 ..
 
-Mako Template
+Mako 模板
 -------------
 
 .. i18n: Syntax
 .. i18n: ++++++
 ..
 
-Syntax
+语法
 ++++++
 
 .. i18n:   	A Mako template is parsed from a text stream containing any kind of content, XML, HTML, email text, etc. 
@@ -2138,23 +2138,23 @@ Syntax
 .. i18n:   	This means that you can leverage the full power of Python in almost every aspect of a Mako template.
 ..
 
-  	A Mako template is parsed from a text stream containing any kind of content, XML, HTML, email text, etc. 
+  	Mako模板可以解析 XML, HTML, email text, 等文字流(parsed from a text stream) . 
   	
-  	The template can further contain Mako-specific directives which represent variable and/or expression substitutions, control structures (i.e. conditionals and loops), server-side comments, full blocks of Python code, as well as various tags that offer additional functionality. All of these constructs compile into real Python code. 
+  	Mako模板含有Mako特有的指令(Mako-specific directives), 包括变量、表达式替换(expression substitution)，控制结构(比如条件和循环,conditionals and loops)，服务器端命令，完整的Python代码块，这些就像不同功能的标签(tag)一样易用。所有这些指令都解析为Python代码. 
   	
-  	This means that you can leverage the full power of Python in almost every aspect of a Mako template.
+  	这意味着在Mako模板中，你可以最大化发挥Python的优势.
 
 .. i18n: Expression Substitution
 .. i18n: +++++++++++++++++++++++
 ..
 
-Expression Substitution
+表达式替换
 +++++++++++++++++++++++
 
 .. i18n:   	The simplest expression is just a variable substitution. The syntax for this is the ${} construct instead of [[ ]] in rml.
 ..
 
-  	The simplest expression is just a variable substitution. The syntax for this is the ${} construct instead of [[ ]] in rml.
+  	最简单的表达式是变量替换。 Mako模板中使用 ${} 结构，而不是rml中的 [[ ]] .
 
 .. i18n: eg::
 .. i18n: 
@@ -2169,19 +2169,19 @@ eg::
 
     this is x: ${x}
 
-  	Above, the string representation of x is applied to the template's output stream where x comes from the localcontext supplied to the template's rendering function.
+  	上式被模板输出流解析(template output stream)，从本地上下文(localcontext)传递给模板生成函数(template rendering function).
 
-  	The contents within the ${} tag are evaluated by Python directly.
+  	标签 ${} 中的代码直接被Python解析.
 
 .. i18n: :Control Structures:
 ..
 
-:Control Structures:
+:控制结构:
 
 .. i18n:     	In Mako, control structures (i.e. if/else, loops (like while and for), as well as things like try/except) are written using the % marker followed by a regular Python control expression, and are "closed" by using another % marker with the tag "end<name>", where "<name>" is the keyword of the expression:
 ..
 
-    	In Mako, control structures (i.e. if/else, loops (like while and for), as well as things like try/except) are written using the % marker followed by a regular Python control expression, and are "closed" by using another % marker with the tag "end<name>", where "<name>" is the keyword of the expression:
+    	在Mako中，控制结构 (i.e. if/else, 循环 (像 while 和 for), 包括 try/except) 都使用 % 标记，之后接上普通的Python控制表达式即可。在控制结构结束时，使用 "end<name>" 标记，"<name>" 是控制结构的关键字:
 
 .. i18n: eg::
 .. i18n: 
@@ -2200,13 +2200,13 @@ eg::
 .. i18n: -------------
 ..
 
-Python Blocks
+Python 块
 -------------
 
 .. i18n:     	Within <% %>, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
 ..
 
-    	Within <% %>, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
+    	在 <% %> 标记中, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
 
 .. i18n: Useful links:
 .. i18n: 	http://www.makotemplates.org/docs/
