@@ -64,6 +64,7 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 ..
 
 Campaigns can be displayed in List or Diagram view. The Diagram view allows you to clearly see the marketing actions (represented by a node) and the applied conditions (represented by an arrow).
+营销活动可以以列表或图表试图的方式展现。图表试图使得你可以一目了然的看到营销动作（通过节点表现）和适用条件（通过箭头表现）。
 
 .. i18n: .. figure::  images/market_diagram.jpeg
 .. i18n:    :scale: 100
@@ -76,7 +77,7 @@ Campaigns can be displayed in List or Diagram view. The Diagram view allows you 
    :scale: 100
    :align: center
 
-   *Diagram View of a Campaign*
+   *一个营销活动的图表视图*
 
 .. i18n: A marketing campaign is an event or an activity that will help you manage and reach your partners with specific messages. A campaign can have many activities that will be triggered from a specific situation, for instance a response from a contact to an email you sent. The result of such a response (action) could be the sending of an email, for which a template has previously been created in OpenERP.
 ..
