@@ -1,4 +1,3 @@
-
 .. i18n: =========================
 .. i18n: Workflow-Business Process
 .. i18n: =========================
@@ -18,17 +17,17 @@ Introduction
 .. i18n: The workflow system in OpenERP is a very powerful mechanism that can describe the evolution of documents (model) in time.
 ..
 
-The workflow system in OpenERP is a very powerful mechanism that can describe the evolution of documents (model) in time.
+工作流程系统在OpenERP里是非常有用的机制, 可以用于及时描述文件(模型)的演进过程.
 
 .. i18n: Workflows are entirely customizable, they can be adapted to the flows and trade logic of almost any company. The workflow system makes OpenERP very flexible and allows it to easily support changing needs without having to program new functionality.
 ..
 
-Workflows are entirely customizable, they can be adapted to the flows and trade logic of almost any company. The workflow system makes OpenERP very flexible and allows it to easily support changing needs without having to program new functionality.
+工作流程是完全可以定制的, 这些流程可以调整适用于几乎所有公司的作业流程和交易逻辑. 这个工作流程系统使OpenERP非常有弹性, 而且可以不用编程增加新功能,就可以支持不断变化的需要.
 
 .. i18n: **Goals**
 ..
 
-**Goals**
+**目标**
 
 .. i18n:     * description of document evolution in time
 .. i18n:     * automatic trigger of actions if some conditions are met
@@ -37,16 +36,16 @@ Workflows are entirely customizable, they can be adapted to the flows and trade 
 .. i18n:     * graphical tool for visualization of document flows
 ..
 
-    * description of document evolution in time
-    * automatic trigger of actions if some conditions are met
-    * management of company roles and validation steps
-    * management of interactions between the different objects/modules
-    * graphical tool for visualization of document flows
+    * 及时描述文件的演进
+    * 符合某些条件时自动触发动作
+    * 管理公司里人员的角色和验证步骤
+    * 管理不同物件/模块间的互动
+    * 为文件流程可视化提供图形化的工具
 
 .. i18n: **To understand their utility, see the following three:**
 ..
 
-**To understand their utility, see the following three:**
+**以下三个例子说明了工作流程系统的用途:**
 
 .. i18n: Example 1: Discount On Orders
 .. i18n: -----------------------------
