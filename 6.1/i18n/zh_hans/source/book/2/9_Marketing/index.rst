@@ -81,7 +81,7 @@ Campaigns can be displayed in List or Diagram view. The Diagram view allows you 
 .. i18n: A marketing campaign is an event or an activity that will help you manage and reach your partners with specific messages. A campaign can have many activities that will be triggered from a specific situation, for instance a response from a contact to an email you sent. The result of such a response (action) could be the sending of an email, for which a template has previously been created in OpenERP.
 ..
 
-A marketing campaign is an event or an activity that will help you manage and reach your partners with specific messages. A campaign can have many activities that will be triggered from a specific situation, for instance a response from a contact to an email you sent. The result of such a response (action) could be the sending of an email, for which a template has previously been created in OpenERP.
+市场营销活动是通过个性化的消息帮助管理和接触你的目标客户的一次事件或一个活动。一个营销活动在具体的营销环境下可以有很多行为被触发，例如一次实时的响应通过你发送邮件的接触。这种响应（或触发行为）的结果可以是一次邮件的发送，发送的内容在这之前已经在OPENERP里预先编辑好。
 
 .. i18n: To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
 ..
