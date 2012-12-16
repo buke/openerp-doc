@@ -1,18 +1,17 @@
-
 .. i18n: =============
 .. i18n: Server Action
 .. i18n: =============
 ..
 
 =============
-Server Action
+服务端动作
 =============
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
-Introduction
+简介
 ------------
 
 .. i18n: Server action is an new feature available since the OpenERP
@@ -36,7 +35,8 @@ or invoices.
 .. i18n: -----------------------------------
 ..
 
-Step 1: Definition of Server Action 
+第一步：定义服务端动作
+
 -----------------------------------
 
 .. i18n: Here is the list of the different action types supplied under the Server Action.
