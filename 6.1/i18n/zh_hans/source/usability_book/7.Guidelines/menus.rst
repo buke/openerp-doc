@@ -20,10 +20,10 @@
 .. i18n:   * In web client, this first menu is unfolded by default
 ..
 
-* The first items of the main menu (application management) must be the most useful documents of the application. There are 2 reasons for this: 
+* 应用套件的第一个菜单往往是最主要的功能。理由如下： 
+  * 用户可以方便直接读取他们的文档，通常来说，是和日常工作对应的主要功能
+  * 在Web客户端，第一个菜单默认情况下是打开的
 
-  * users must have direct and easy access to their documents, usually, most important features which correspond to daily operations.
-  * In web client, this first menu is unfolded by default
 
 .. i18n:     .. figure:: Pictures/webmenu.png
 .. i18n:        :align: center
@@ -40,12 +40,12 @@
 .. i18n: * All other menus are organized in a logical order. For example, in “Human Resources”, user have generally more often the need for “Time Tracking” than “Expenses”. So “Time Tracking” is placed before “Expenses”
 ..
 
-* If the application contains the object “res.partner” it is always after the main menu. Because, it is important to have easy access to the suppliers in “purchases” or the customers in “sales”. 
-* “Configuration” is always the last menu item in an application. By default, only “admin / configuration” has access to this menu. 
-* “Reporting” is always before “Configuration”. For managers it is the last item.
-* If the application contains the object “res.product”, it is always before “Reporting” (from user side, it is the last item)
-* the invoice object; if there is one in the application, it must be before “Products)
-* All other menus are organized in a logical order. For example, in “Human Resources”, user have generally more often the need for “Time Tracking” than “Expenses”. So “Time Tracking” is placed before “Expenses”
+* 如果应用套件包含 “res.partner” 对象，往往是放在主菜单之后。无论是在销售中的“客户”或采购当中的“供应商”，都是非常重要的。
+* “设置” 菜单往往放在主菜单的最后一项。只有“admin / configuration” 组的用户才有权限操作。
+* “报表” 菜单往往是在 “设置” 菜单之前。对于经理来说是最后一项菜单。
+* 如果应用套件包含 “res.product” 对象，往往是放在 “报表” 项之前（对普通用来来说，这是最后一项菜单）。
+* 如果应用套件有“invoice（发票）” 对象，那必须放在 “产品” 菜单之前。
+* 其他菜单就按照一定的逻辑顺序排列。例如，在 “人力资源” 中，时间追踪要比费用更常用，因此时间追踪会放在费用之前。
 
 .. i18n: To summarize menus have to look like :
 ..
