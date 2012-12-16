@@ -500,12 +500,12 @@ Result: 客户端执行一个动作
 .. i18n: The result of the function must be an all the fields of an ir.actions.* Here it is an ir.action.act_window, so the client will open an new tab for the objects account.invoice For more information about the fields used click here.
 ..
 
-The result of the function must be an all the fields of an ir.actions.* Here it is an ir.action.act_window, so the client will open an new tab for the objects account.invoice For more information about the fields used click here.
+函数的返回的结果必须为 ir.actions.* 的所有字段. 这里为ir.action.act_window，所以客户端会打开一个新的标签页，新的标签页包含了account.invoicd的信息.
 
 .. i18n: It is recommended to use the result of a read on the ir.actions object like this:
 ..
 
-It is recommended to use the result of a read on the ir.actions object like this:
+建议用一下方式读取 ir.actions 对象:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -548,14 +548,14 @@ It is recommended to use the result of a read on the ir.actions object like this
 .. i18n: =============
 ..
 
-Specification
+规范
 =============
 
 .. i18n: Form
 .. i18n: ----
 ..
 
-Form
+表单(Form)
 ----
 
 .. i18n: .. code-block:: xml
@@ -581,14 +581,14 @@ Form
 .. i18n: ------
 ..
 
-Fields
+字段(Fields)
 ------
 
 .. i18n: Standard
 .. i18n: +++++++++
 ..
 
-Standard
+标准(Standard)
 +++++++++
 
 .. i18n: .. code-block:: python
@@ -613,15 +613,15 @@ Standard
 .. i18n: * **readonly**: (optional) 
 ..
 
-* **string**: Field label (required)
-* **type**: (required)
-* **readonly**: (optional) 
+* **string**: 字段的标签(必填)
+* **type**: (必填)
+* **readonly**: (可选) 
 
 .. i18n: Relational
 .. i18n: ++++++++++
 ..
 
-Relational
+关系(Relational)
 ++++++++++
 
 .. i18n: .. code-block:: python
@@ -646,15 +646,15 @@ Relational
 .. i18n: * **relation**: name of the relation object 
 ..
 
-* **string**: Field label (required)
-* **type**: (required)
-* **relation**: name of the relation object 
+* **string**: 字段标签 (必填)
+* **type**: (必填)
+* **relation**: 所关系的对象名称 
 
 .. i18n: Selection
 .. i18n: ++++++++++
 ..
 
-Selection
+选择(Selection)
 ++++++++++
 
 .. i18n: .. code-block:: python
@@ -693,15 +693,15 @@ Selection
 .. i18n: * **selection**: key and values for the selection field   
 ..
 
-* **string**: Field label (required)
-* **type**: (required)
-* **selection**: key and values for the selection field   
+* **string**: 字段标签 (必填)
+* **type**: (必填)
+* **selection**: 选择字段中的键和值   
 
 .. i18n: Add A New Wizard
 .. i18n: ================
 ..
 
-Add A New Wizard
+添加一个新向导
 ================
 
 .. i18n: To create a new wizard, you must:
