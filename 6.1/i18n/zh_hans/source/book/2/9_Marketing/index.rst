@@ -108,12 +108,12 @@ Campaigns can be displayed in List or Diagram view. The Diagram view allows you 
 .. i18n: The salesperson responsible for Car Insurances triggers the marketing campaign by sending an introductory email of all the insurance services we offer and thanking for subscribing for the free Car Insurance Offer.
 ..
 
-The salesperson responsible for Car Insurances triggers the marketing campaign by sending an introductory email of all the insurance services we offer and thanking for subscribing for the free Car Insurance Offer.
+销售人员负责汽车保险触发活动，通过发送一封关于我们所有保险业务的介绍性邮件的方式，并感谢他们订阅免费汽车保险报价。
 
 .. i18n: Based on the response, the insurance company plots whether the lead is interested in:
 ..
 
-Based on the response, the insurance company plots whether the lead is interested in:
+基于营销响应，保险公司划分标注销售线索的兴趣点：
 
 .. i18n: * Buying a Car Insurance,
 .. i18n: 
@@ -122,44 +122,44 @@ Based on the response, the insurance company plots whether the lead is intereste
 .. i18n: * Buying the book about Keeping your Children Safe.
 ..
 
-* Buying a Car Insurance,
+* 购买汽车保险，
 
-* Information about other Insurance policies,
+* 其他保险政策信息，
 
-* Buying the book about Keeping your Children Safe.
+* 购买保护儿童安全的书籍。
 
 .. i18n: According to the replies we receive from the leads, we send an email catering their respective needs.
 ..
 
-According to the replies we receive from the leads, we send an email catering their respective needs.
+通过我们接收到的来自销售线索的回复，我们汽车保险公司的销售人员发送不同的电邮来满足他们各自的不同需求。
 
 .. i18n: * If they respond back to such an email, the lead is converted into an opportunity. When the lead buys a car insurance, the lead becomes our partner and is created as a customer in OpenERP.
 .. i18n: 
 .. i18n: * If we do not receive an answer, they get a reminder regarding the offer a week later. If they still do not answer, our salesperson gives a voluntary call to ask about their needs. 
 ..
 
-* If they respond back to such an email, the lead is converted into an opportunity. When the lead buys a car insurance, the lead becomes our partner and is created as a customer in OpenERP.
+* 如果他们对这样的邮件作出回应，那么销售线索就可以转化为销售机会。当这个销售线索买了一份汽车保险，这个销售线索就转化为我们的合作伙伴，并且作为一个客户在OpenERp系统中被自动创建。
 
-* If we do not receive an answer, they get a reminder regarding the offer a week later. If they still do not answer, our salesperson gives a voluntary call to ask about their needs. 
+* 假如我们没有收到邮件回复，那么一周后他们会继续收到关于免费汽车保险报价的问候提醒。如果他们仍旧没有做出回应，我们的销售人员会主动打电话询问他的具体需求。 
 
 .. i18n: See it as a flowchart allowing us to trigger a respective activity for every possible cue. The chances of leads going unattended become very low, and for every lead, we have a predefined method of handling it.
 ..
 
-See it as a flowchart allowing us to trigger a respective activity for every possible cue. The chances of leads going unattended become very low, and for every lead, we have a predefined method of handling it.
+把上面这个过程看成一个完整的工作流程，使得我们能够对每一个营销机会做出各种合适的响应行为。无人接待客户的可能性将大大降低，对于每一个销售线索，我们都有预设的应对方案来维护他。
 
 .. i18n: Moreover, we can measure the method according to our goals. Based on the goals we can evaluate the effectiveness of our campaign and analyze whether there is room for improvement.
 ..
 
-Moreover, we can measure the method according to our goals. Based on the goals we can evaluate the effectiveness of our campaign and analyze whether there is room for improvement.
+此外，通过对达成目标的比照我们可以衡量每种方法的效果。基于目标我们可以评估营销活动的效果，并且分析营销活动是否有改进的空间。
 
 .. i18n: .. tip:: Campaign Example
 .. i18n: 
 .. i18n:         To a get an example of a complete campaign in OpenERP, you can install the :mod:`marketing_campaign_crm_demo` module.
 ..
 
-.. tip:: Campaign Example
+.. tip:: 营销活动实例
 
-        To a get an example of a complete campaign in OpenERP, you can install the :mod:`marketing_campaign_crm_demo` module.
+        为了在OpenERP系统中获取一个完整的营销活动实例，你可以安装 :mod:`marketing_campaign_crm_demo` 模块。
 
 .. i18n: Designing your Campaigns
 .. i18n: ------------------------
