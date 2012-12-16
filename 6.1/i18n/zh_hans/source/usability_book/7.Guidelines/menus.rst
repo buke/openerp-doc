@@ -50,7 +50,7 @@
 .. i18n: To summarize menus have to look like :
 ..
 
-To summarize menus have to look like :
+总结下菜单的样子：
 
 .. i18n: * Main application 
 .. i18n: * (Address book)
@@ -61,13 +61,13 @@ To summarize menus have to look like :
 .. i18n: * Configuration
 ..
 
-* Main application 
-* (Address book)
+* 应用的主菜单 
+* (地址薄)
 * …
-* (Billings)
-* (Product)
-* Reporting
-* Configuration
+* (费用)
+* (产品)
+* 报表
+* 设置
 
 .. i18n: Menu terminology
 .. i18n: ++++++++++++++++
