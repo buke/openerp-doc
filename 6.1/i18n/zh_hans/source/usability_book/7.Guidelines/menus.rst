@@ -79,7 +79,7 @@
 .. i18n: The name must be short and explicit. Firstly, it must be short because in web client, main menus are organized on the top, in a horizontal bar. So it cannot take too much space. For instance we use “Purchases”, not “Purchases Management”, to minimise the space taken in the menu. 
 ..
 
-The name must be short and explicit. Firstly, it must be short because in web client, main menus are organized on the top, in a horizontal bar. So it cannot take too much space. For instance we use “Purchases”, not “Purchases Management”, to minimise the space taken in the menu. 
+菜单名称必须言简意赅。首先，在 Web 客户端主菜单是位于页面上部的水平栏里，因此不能占用太多地方。所以，我们用 “采购” 而不是 “采购管理”，这样可以缩短单词长度。
 
 .. i18n: .. figure:: Pictures/menubar.png
 .. i18n:    :align: center
@@ -91,4 +91,4 @@ The name must be short and explicit. Firstly, it must be short because in web cl
 .. i18n: Secondly, used terminology must be linked to the application and explicit to it. For example, res.partner object is named “Customer” in “sales” and “Supplier” in “Purchase”.
 ..
 
-Secondly, used terminology must be linked to the application and explicit to it. For example, res.partner object is named “Customer” in “sales” and “Supplier” in “Purchase”.
+其次，菜单名称必须符合应用的上下文。比如，res.partner 对象在 “销售” 中是 “客户”，而在 “采购” 中是 “供应商”。
