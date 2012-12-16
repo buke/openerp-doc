@@ -86,7 +86,7 @@ Campaigns can be displayed in List or Diagram view. The Diagram view allows you 
 .. i18n: To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
 ..
 
-To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
+为了能够使用邮件功能，你必须配置你的邮件帐户。这一点在“ref:`ch-crm-fetchmail-install`”章节有讲解。
 
 .. i18n: Example of a Complete Marketing Campaign
 .. i18n: ----------------------------------------
@@ -98,12 +98,12 @@ To use the email functionality, you have to configure your email account. This i
 .. i18n: Suppose we are an insurance company that wants to launch a marketing campaign to generate new leads. The company launches a campaign on its website and proposes potential customers to get a free offer for their car insurance.
 ..
 
-Suppose we are an insurance company that wants to launch a marketing campaign to generate new leads. The company launches a campaign on its website and proposes potential customers to get a free offer for their car insurance.
+假设我们是一家保险公司，我们正准备启动一项市场营销活动以便获取新的销售线索。公司在其网站上发起一个活动并提供给潜在客户获得汽车保险的免费报价机会。
 
 .. i18n: Each time a customer registers himself through the contact form, a lead is created in OpenERP. For further information about web contact forms, please refer to the chapter :ref:`contform`.
 ..
 
-Each time a customer registers himself through the contact form, a lead is created in OpenERP. For further information about web contact forms, please refer to the chapter :ref:`contform`.
+每次一个潜在客户通过练习表单进行注册，一个销售线索就会在OpenERP里自动产生。关于网页联系表单的更多信息，请参考ref:`contform`章节。
 
 .. i18n: The salesperson responsible for Car Insurances triggers the marketing campaign by sending an introductory email of all the insurance services we offer and thanking for subscribing for the free Car Insurance Offer.
 ..
