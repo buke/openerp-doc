@@ -63,7 +63,6 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 .. i18n: Campaigns can be displayed in List or Diagram view. The Diagram view allows you to clearly see the marketing actions (represented by a node) and the applied conditions (represented by an arrow).
 ..
 
-Campaigns can be displayed in List or Diagram view. The Diagram view allows you to clearly see the marketing actions (represented by a node) and the applied conditions (represented by an arrow).
 营销活动可以以列表或图表试图的方式展现。图表试图使得你可以一目了然的看到营销动作（通过节点表现）和适用条件（通过箭头表现）。
 
 .. i18n: .. figure::  images/market_diagram.jpeg
@@ -87,7 +86,7 @@ Campaigns can be displayed in List or Diagram view. The Diagram view allows you 
 .. i18n: To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
 ..
 
-为了能够使用邮件功能，你必须配置你的邮件帐户。这一点在“ref:`ch-crm-fetchmail-install`”章节有讲解。
+为了能够使用邮件功能，你必须配置你的邮件帐户。这一点在ref:`ch-crm-fetchmail-install`章节有讲解。
 
 .. i18n: Example of a Complete Marketing Campaign
 .. i18n: ----------------------------------------
