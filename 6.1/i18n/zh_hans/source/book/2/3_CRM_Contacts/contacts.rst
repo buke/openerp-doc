@@ -47,22 +47,20 @@ Each partner can have an unlimited number of contacts. OpenERP also allows you t
 .. i18n: 	the Address Type of Invoice, otherwise to the Default address.
 ..
 
-.. note:: Address Types
+.. note::  地址类型
 
-	If you have recorded several contacts for the same partner, you can tell OpenERP which contact will be used in
-	various documents (e.g. a quotation) by specifying the ``Address Type``.
+	如果你已经为相同的合作伙伴登记了多个联系人, 你能够通过指定 ``地址类型`` 告诉 OpenERP 用于哪种文档用哪个联系人（例如报价单）。
+	
 
-	For example, a partner (*company*) can have a delivery address that differs from the company's invoice address.
-	If the Address Types are correctly assigned, OpenERP can automatically select the appropriate address
-	during the creation of the document – an invoice is addressed to the contact that has been assigned
-	the Address Type of Invoice, otherwise to the Default address.
+	例如：, 合作伙伴(*公司*) 可以有一个发运地址以区别于公司的开票地址.
+	如果地址类型被正确指定, OpenERP 在创建单据的时候，能自动选择合适的地址 ---- 发票地址被指派为 地址类型为“发票”，否则是默认地址。
 
 .. i18n: The concept of a partner in OpenERP is much more flexible than in many other management applications. Why is that? Because a partner can be your supplier and your customer at the same time.
 .. i18n: As a consequence, any data you update for that partner will apply to both customer and supplier! Thanks to this, you no longer need to update your address book several times (or even in several places) for the same partner.
 ..
 
-The concept of a partner in OpenERP is much more flexible than in many other management applications. Why is that? Because a partner can be your supplier and your customer at the same time.
-As a consequence, any data you update for that partner will apply to both customer and supplier! Thanks to this, you no longer need to update your address book several times (or even in several places) for the same partner.
+OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多. 为什么呢？? 因为合作伙伴可以同时是你的供应商和客户。
+因此，你更新的任何数据将同时应用于客户和供应商! 多亏了这个,你不再需要为同样的合作伙伴更新您的地址簿几次(甚至在几个地方)。
 
 .. i18n: The partner form contains information about the company, such as its corporate name, its primary language, and whether the company is a
 .. i18n: \ ``Customer`` \ and/or a \ ``Supplier`` \. The partner form is composed of several tabs.
