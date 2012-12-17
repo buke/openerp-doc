@@ -707,7 +707,7 @@ Result: 客户端执行一个动作
 .. i18n: To create a new wizard, you must:
 ..
 
-To create a new wizard, you must:
+创建一个新向导，你应该:
 
 .. i18n:     * create the wizard definition in a .py file
 .. i18n:           * wizards are usually defined in the wizard subdirectory of their module as in server/bin/addons/module_name/wizard/your_wizard_name.py 
@@ -715,20 +715,20 @@ To create a new wizard, you must:
 .. i18n:     * declare your wizard in the database 
 ..
 
-    * create the wizard definition in a .py file
-          * wizards are usually defined in the wizard subdirectory of their module as in server/bin/addons/module_name/wizard/your_wizard_name.py 
-    * add your wizard to the list of import statements in the __init__.py file of your module's wizard subdirectory.
-    * declare your wizard in the database 
+    * 在一个 .py 文件中创建向导定义
+          * 向导一般都是定义在组件中的向导子文件夹中 server/bin/addons/module_name/wizard/your_wizard_name.py 
+    * 把向导添加到导入的声明列表，该列表位于组件向导子目录的 __init__.py 文件.
+    * 在数据库中声明向导
 
 .. i18n: The declaration is needed to map the wizard with a key of the client; when to launch which client. To declare a new wizard, you need to add it to the module_name_wizard.xml file, which contains all the wizard declarations for the module. If that file does not exist, you need to create it first.
 ..
 
-The declaration is needed to map the wizard with a key of the client; when to launch which client. To declare a new wizard, you need to add it to the module_name_wizard.xml file, which contains all the wizard declarations for the module. If that file does not exist, you need to create it first.
+声明需要映射向导和客户端键之间的关系，从而才能启动相应的客户端。声明一个新向导，需要把它加到 module_name_wizard.xml 文件里，该文件包含了此组件所有的向导声明。若该文件不存在，则需先创建.
 
 .. i18n: Here is an example of the account_wizard.xml file;
 ..
 
-Here is an example of the account_wizard.xml file;
+这里以 account_wizard.xml 文件做一个例子;
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -776,7 +776,7 @@ Here is an example of the account_wizard.xml file;
 .. i18n: Attributes for the wizard tag:
 ..
 
-Attributes for the wizard tag:
+向导的标签属性:
 
 .. i18n:     * **id**: Unique identifier for this wizard.
 .. i18n:     * **string**: The string which will be displayed if there are several wizards for one resource. (The user will be presented a list with the wizards' names).
@@ -791,17 +791,17 @@ Attributes for the wizard tag:
 .. i18n:           * **tree_but_open**: the double click on a branch of a tree (with the shortcuts on the left). For example, this is used, to bind wizards in the menu. 
 ..
 
-    * **id**: Unique identifier for this wizard.
-    * **string**: The string which will be displayed if there are several wizards for one resource. (The user will be presented a list with the wizards' names).
-    * **model**: The name of the **model** where the data needed by the wizard is.
-    * **name**: The name of the wizard. It is used internally and should be unique.
-    * **replace** (optional): Whether or not the wizard should override **all** existing wizards for this model. Default value: False.
-    * **menu** (optional): Whether or not (True|False) to link the wizard with the 'gears' button (i.e. show the button or not). Default value: True.
-    * **keyword** (optional): Bind the wizard to another action (print icon, gear icon, ...). Possible values for the keyword attribute are:
-          * **client_print_multi**: the print icon in a form
-          * **client_action_multi**: the 'gears' icon in a form
-          * **tree_but_action**: the 'gears' icon in a tree view (with the shortcuts on the left)
-          * **tree_but_open**: the double click on a branch of a tree (with the shortcuts on the left). For example, this is used, to bind wizards in the menu. 
+    * **id**: 此向导的唯一标识.
+    * **string**: 如果一个资源关联多个向导，此字符串会显示）.
+    * **model**: 对象从该模型中获取所需数据.
+    * **name**: 向导的名称，只可内部使用并且唯一.
+    * **replace** (可选): 此向导是否要重写 **all** 所有已经存在的向导。缺省值: False.
+    * **menu** (可选): 是否 (True|False) 把向导和 'gears' 按钮 (i.e. show the button or not) 关联到一起。缺省值: True.
+    * **keyword** (可选): 向导绑定另一动作 (print icon, gear icon, ...). 关键字属性的可能值为:
+          * **client_print_multi**: 表单中的打印图标
+          * **client_action_multi**: 表单中的 'gears' 图标
+          * **tree_but_action**: 列表中的 'gears' 图标 (在左侧的快捷方式)
+          * **tree_but_open**: 在树的一个分支，双击 (在左侧的快捷方式). 例如，有这样的应用，在菜单中来绑定向导. 
 
 .. i18n: **__openerp__.py**
 ..
