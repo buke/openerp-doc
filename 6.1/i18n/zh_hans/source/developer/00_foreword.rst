@@ -20,7 +20,7 @@
 ..
 
 OpenERP 是由Python 和Postgresql搭建而成的开发环境，在此之上的 对象关系映射（ORM）
-能让我们轻松开发复杂的的OPENERP模块.
+能让我们轻松开发复杂的的 OpenERP 模块.
 
 .. i18n: Who is this book for ?
 .. i18n: ======================

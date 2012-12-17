@@ -3,16 +3,16 @@
 .. i18n: ================
 ..
 
-==========
+================
 菜单和操作
-==========
+================
 
 .. i18n: Menus
 .. i18n: =====
 ..
 
 菜单
-====
+=====
 
 .. i18n: Here's the template of a menu item :
 .. i18n: ::
@@ -62,7 +62,7 @@
 ..
 
 例如：
------
+-------
 
 .. i18n: In server/bin/addons/sale/sale_view.xml, we have, for example
 .. i18n: ::
@@ -375,7 +375,7 @@ Window Action
           - **tree，form**: 这个视图开始时显示为列表视图，当点击“alternate view button”时，表单视图就会显示。
           - **form**: 这个视图显示为表单视图，不可能显示为列表视图。
           - **tree**: 这个视图显示为列表视图，不可能显示为表单视图。
-		  
+
 .. i18n: (version 5 introduced **graph** and **calendar** views)
 ..
 

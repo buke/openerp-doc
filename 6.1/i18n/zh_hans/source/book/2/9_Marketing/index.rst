@@ -63,7 +63,7 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 .. i18n: Campaigns can be displayed in List or Diagram view. The Diagram view allows you to clearly see the marketing actions (represented by a node) and the applied conditions (represented by an arrow).
 ..
 
-营销活动可以以列表或图表试图的方式展现。图表试图使得你可以一目了然的看到营销动作（通过节点表现）和适用条件（通过箭头表现）。
+Campaigns can be displayed in List or Diagram view. The Diagram view allows you to clearly see the marketing actions (represented by a node) and the applied conditions (represented by an arrow).
 
 .. i18n: .. figure::  images/market_diagram.jpeg
 .. i18n:    :scale: 100
@@ -76,17 +76,17 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
    :scale: 100
    :align: center
 
-   *一个营销活动的图表视图*
+   *Diagram View of a Campaign*
 
 .. i18n: A marketing campaign is an event or an activity that will help you manage and reach your partners with specific messages. A campaign can have many activities that will be triggered from a specific situation, for instance a response from a contact to an email you sent. The result of such a response (action) could be the sending of an email, for which a template has previously been created in OpenERP.
 ..
 
-市场营销活动是通过个性化的消息帮助管理和接触你的目标客户的一次事件或一个活动。一个营销活动在具体的营销环境下可以有很多行为被触发，例如一次实时的响应通过你发送邮件的接触。这种响应（或触发行为）的结果可以是一次邮件的发送，发送的内容在这之前已经在OPENERP里预先编辑好。
+A marketing campaign is an event or an activity that will help you manage and reach your partners with specific messages. A campaign can have many activities that will be triggered from a specific situation, for instance a response from a contact to an email you sent. The result of such a response (action) could be the sending of an email, for which a template has previously been created in OpenERP.
 
 .. i18n: To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
 ..
 
-为了能够使用邮件功能，你必须配置你的邮件帐户。这一点在 :ref:`ch-crm-fetchmail-install`章节有讲解。
+To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
 
 .. i18n: Example of a Complete Marketing Campaign
 .. i18n: ----------------------------------------
@@ -98,22 +98,22 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 .. i18n: Suppose we are an insurance company that wants to launch a marketing campaign to generate new leads. The company launches a campaign on its website and proposes potential customers to get a free offer for their car insurance.
 ..
 
-假设我们是一家保险公司，我们正准备启动一项市场营销活动以便获取新的销售线索。公司在其网站上发起一个活动并提供给潜在客户获得汽车保险的免费报价机会。
+Suppose we are an insurance company that wants to launch a marketing campaign to generate new leads. The company launches a campaign on its website and proposes potential customers to get a free offer for their car insurance.
 
 .. i18n: Each time a customer registers himself through the contact form, a lead is created in OpenERP. For further information about web contact forms, please refer to the chapter :ref:`contform`.
 ..
 
-每次一个潜在客户通过练习表单进行注册，一个销售线索就会在OpenERP里自动产生。关于网页联系表单的更多信息，请参考 :ref:`contform`章节。
+Each time a customer registers himself through the contact form, a lead is created in OpenERP. For further information about web contact forms, please refer to the chapter :ref:`contform`.
 
 .. i18n: The salesperson responsible for Car Insurances triggers the marketing campaign by sending an introductory email of all the insurance services we offer and thanking for subscribing for the free Car Insurance Offer.
 ..
 
-销售人员负责汽车保险触发活动，通过发送一封关于我们所有保险业务的介绍性邮件的方式，并感谢他们订阅免费汽车保险报价。
+The salesperson responsible for Car Insurances triggers the marketing campaign by sending an introductory email of all the insurance services we offer and thanking for subscribing for the free Car Insurance Offer.
 
 .. i18n: Based on the response, the insurance company plots whether the lead is interested in:
 ..
 
-基于营销响应，保险公司划分标注销售线索的兴趣点：
+Based on the response, the insurance company plots whether the lead is interested in:
 
 .. i18n: * Buying a Car Insurance,
 .. i18n: 
@@ -122,44 +122,44 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 .. i18n: * Buying the book about Keeping your Children Safe.
 ..
 
-* 购买汽车保险，
+* Buying a Car Insurance,
 
-* 其他保险政策信息，
+* Information about other Insurance policies,
 
-* 购买保护儿童安全的书籍。
+* Buying the book about Keeping your Children Safe.
 
 .. i18n: According to the replies we receive from the leads, we send an email catering their respective needs.
 ..
 
-通过我们接收到的来自销售线索的回复，我们汽车保险公司的销售人员发送不同的电邮来满足他们各自的不同需求。
+According to the replies we receive from the leads, we send an email catering their respective needs.
 
 .. i18n: * If they respond back to such an email, the lead is converted into an opportunity. When the lead buys a car insurance, the lead becomes our partner and is created as a customer in OpenERP.
 .. i18n: 
 .. i18n: * If we do not receive an answer, they get a reminder regarding the offer a week later. If they still do not answer, our salesperson gives a voluntary call to ask about their needs. 
 ..
 
-* 如果他们对这样的邮件作出回应，那么销售线索就可以转化为销售机会。当这个销售线索买了一份汽车保险，这个销售线索就转化为我们的合作伙伴，并且作为一个客户在OpenERp系统中被自动创建。
+* If they respond back to such an email, the lead is converted into an opportunity. When the lead buys a car insurance, the lead becomes our partner and is created as a customer in OpenERP.
 
-* 假如我们没有收到邮件回复，那么一周后他们会继续收到关于免费汽车保险报价的问候提醒。如果他们仍旧没有做出回应，我们的销售人员会主动打电话询问他的具体需求。 
+* If we do not receive an answer, they get a reminder regarding the offer a week later. If they still do not answer, our salesperson gives a voluntary call to ask about their needs. 
 
 .. i18n: See it as a flowchart allowing us to trigger a respective activity for every possible cue. The chances of leads going unattended become very low, and for every lead, we have a predefined method of handling it.
 ..
 
-把上面这个过程看成一个完整的工作流程，使得我们能够对每一个营销机会做出各种合适的响应行为。无人接待客户的可能性将大大降低，对于每一个销售线索，我们都有预设的应对方案来维护他。
+See it as a flowchart allowing us to trigger a respective activity for every possible cue. The chances of leads going unattended become very low, and for every lead, we have a predefined method of handling it.
 
 .. i18n: Moreover, we can measure the method according to our goals. Based on the goals we can evaluate the effectiveness of our campaign and analyze whether there is room for improvement.
 ..
 
-此外，通过对达成目标的比照我们可以衡量每种方法的效果。基于目标我们可以评估营销活动的效果，并且分析营销活动是否有改进的空间。
+Moreover, we can measure the method according to our goals. Based on the goals we can evaluate the effectiveness of our campaign and analyze whether there is room for improvement.
 
 .. i18n: .. tip:: Campaign Example
 .. i18n: 
 .. i18n:         To a get an example of a complete campaign in OpenERP, you can install the :mod:`marketing_campaign_crm_demo` module.
 ..
 
-.. tip:: 营销活动实例
+.. tip:: Campaign Example
 
-        为了在OpenERP系统中获取一个完整的营销活动实例，你可以安装 :mod:`marketing_campaign_crm_demo` 模块。
+        To a get an example of a complete campaign in OpenERP, you can install the :mod:`marketing_campaign_crm_demo` module.
 
 .. i18n: Designing your Campaigns
 .. i18n: ------------------------

@@ -15,7 +15,7 @@
 .. i18n: Three companies have to be defined. One mother company (OpenERP) and two children (OpenERP Belgium and OpenERP France). 
 ..
 
-我们定义三个公司。其中一个是母公司(OpenERP)，另外两个是子公司(OpenERP Belgium 和 OpenERP France)。
+Three companies have to be defined. One mother company (OpenERP) and two children (OpenERP Belgium and OpenERP France). 
 
 .. i18n: On the one hand, the two child companies will be used to support the flow of goods. On the other hand, the mother company 
 .. i18n: will be used to aggregate the different information from OpenERP France and OpenERP Belgium.

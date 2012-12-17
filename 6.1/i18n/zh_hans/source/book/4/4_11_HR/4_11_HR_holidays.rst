@@ -50,7 +50,7 @@
 .. i18n: OpenERP can provide the following features for efficient holiday management process:
 ..
 
-Openeip为高效的假期管理流程提供了如下的功能：
+OpenERP 为高效的假期管理流程提供了如下的功能：
 
 .. i18n: * It helps you to manage leaves and leave requests.
 .. i18n: * Synchronisation with an internal agenda (use of :mod:`crm`) is possible:

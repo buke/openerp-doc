@@ -26,7 +26,7 @@ OpenERP Objects
 .. i18n: All the ERP's pieces of data are accessible through "objects". As an example, there is a res.partner object to access the data concerning the partners, an account.invoice object for the data concerning the invoices, etc...
 ..
 
-我们可以通过“对象”访问所有ERP的数据。举个例子，可以通过“res.parnter”对象访问“partners”相关的数据，通过“account.invoice”对象访问“invoices”相关的数据。
+我们可以通过“对象”访问所有ERP的数据。举个例子，可以通过“res.partner”对象访问“partners”相关的数据，通过“account.invoice”对象访问“invoices”相关的数据。
 
 .. i18n: Please note that there is an object for every type of resource, and not an
 .. i18n: object per resource. We have thus a res.partner object to manage all the
@@ -34,7 +34,7 @@ OpenERP Objects
 .. i18n: oriented" terms, we could also say that there is an object per level.
 ..
 
-请注意的是，每种类型的资源是一个对象，而不是每个资源是一个对象。我们可以使用res.parnter对象来管理所有的parnters，而不是每个parnter用一个res.parnter对象来表示。当我们说“object oriented”术语时，其实说的是每级有个对象（an object per level）。
+请注意的是，每种类型的资源是一个对象，而不是每个资源是一个对象。我们可以使用res.partner对象来管理所有的partners，而不是每个partner用一个res.partner对象来表示。当我们说“object oriented”术语时，其实说的是每级有个对象（an object per level）。
 
 .. i18n: The direct consequences is that all the methods of objects have a common parameter: the "ids" parameter. This specifies on which resources (for example, on which partner) the method must be applied. Precisely, this parameter contains a list of resource ids on which the method must be applied.
 ..
@@ -1609,7 +1609,7 @@ store Parameter
 .. i18n:     def function_name(self, cr, uid, ids, context=None):
 ..
 
-当对象object_name中列表[‘field1’,’field2’]中的字段发生变化时，会调用函数function_name。函数声明如下：
+当对象object_name中列表['field1','field2']中的字段发生变化时，会调用函数function_name。函数声明如下：
 
     def function_name(self, cr, uid, ids, context=None):
 

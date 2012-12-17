@@ -215,7 +215,7 @@ OpenERP完整（All-In-One）安装
 	你要接受GNU公共许可才能继续安装，这很重要。
 
 * 4. 选择安装组件
-	你可以以默认安装方式，完整安装OpERP服务器，GTK桌面客户端，WEB客户端以及PostgreSQL数据库（撰写此书的时候版本是8.3）或者你可以定制安装你需要的组件。
+	你可以以默认安装方式，完整安装OpenERP服务器，GTK桌面客户端，WEB客户端以及PostgreSQL数据库（撰写此书的时候版本是8.3）或者你可以定制安装你需要的组件。
   
   .. figure:: ../../img/a4_components.png
         :scale: 50

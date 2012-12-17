@@ -12,7 +12,7 @@
 ..
 
 设置工作流和流程
-================
+===================================
 
 .. i18n: Workflows represent the company's different document flows. They are completely configurable and
 .. i18n: define the path that any individual OpenERP object (such as an order) must follow, depending on the conditions
@@ -46,6 +46,7 @@ The chapter :ref:`ch-process` provides all of the information
 needed to create and modify technical workflows and cross-company processes.
 
 *译注：英文文档描述在6.1 已经不对应，下面根据实际情况重写*
+
 在web客户端，首先要进入开发者模式（右上角 关于，然后 点击 激活开发者模式），在表单标
 题（例如销售订单）右侧表单调试视图选择框中，点击“编辑工作流”。
 然后在右侧的视图切换中点击 最右的按钮“图形”，即可进入工作流的可视化编辑状态。

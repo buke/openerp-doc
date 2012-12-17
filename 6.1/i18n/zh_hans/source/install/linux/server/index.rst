@@ -363,6 +363,6 @@ OpenERP 服务器能非常容易地使用 *setup.py* 文件安装: ::
 
 默认的配置文件
 ++++++++++++++++++++++++++
-默认的OpenerpERP文件存放于 ``$HOME/.openerp_serverrc``,
+默认的OpenERP文件存放于 ``$HOME/.openerp_serverrc``,
 是运行OpenERP的系统用户的Home 目录中，其名称为 ``.openerp_serverrc`` 。
 这是 ``-c`` 启动参数的默认值。

@@ -10,7 +10,7 @@
 ..
 
 设置菜单
-========
+====================
 
 .. i18n: OpenERP's menu organization is not subject to any restriction, so you can modify the whole
 .. i18n: structure, the terminology and all access rights to it to meet your specific needs in the best
@@ -44,7 +44,7 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 ..
 
 修改菜单
---------
+-----------------
 
 .. i18n: You can change the way menu items appear and the actions they trigger by using the menu
 .. i18n: :menuselection:`Administration --> Customization --> User Interface --> Menu Items`. This
@@ -125,7 +125,7 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
    single: welcome page
    
 为每个用户个性化欢迎页面
-------------------------
+--------------------------------------------
 
 .. i18n: The administrator can change both the welcome page and the main menu page individually for each user
 .. i18n: of the system, and can adapt OpenERP to each role in the company to best fit the needs of everyone.
@@ -189,7 +189,7 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
    single: field; default value
    
 为字段指定默认值
-----------------
+----------------------------------
 
 .. i18n: You can quite easily configure the system to put default values in various fields as you open new
 .. i18n: forms. This enables you to pre-complete the fields with default data to simplify your users' work in
@@ -268,7 +268,7 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 ..
 
 更改术语
---------
+------------------------
 
 .. i18n: You can use OpenERP's language translation functionality to substitute its standard terminology
 .. i18n: with terminology that fits your company better. It is quite straightforward to adapt the software
@@ -314,7 +314,7 @@ OpenERP的菜单组织不受任何限制，所以你可以修改整体结构、�
 ..
 
 通过CSV文件翻译
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: To translate or modify all of the system's phrases, you first have to export a translation file in
 .. i18n: CSV form. And to do that, you have to install a language into OpenERP. To load a translation

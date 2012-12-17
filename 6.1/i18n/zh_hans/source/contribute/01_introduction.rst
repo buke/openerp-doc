@@ -105,7 +105,7 @@ OpenERP 使用下列 Launchpad 的工具, 本指南将进一步介绍相关详�
 .. i18n: which only requires a few clicks.
 ..
 
-OpeERP 的每一位社区成员只需要 `在 Launchpad 上注册 <https://login.launchpad.net/+new_account>`_ 
+OpenERP 的每一位社区成员只需要 `在 Launchpad 上注册 <https://login.launchpad.net/+new_account>`_ 
 并加入 `OpenERP 社区 <https://launchpad.net/~openerp-community/+join>`_ 团队
 这样轻松点击几下都可以免费使用这些工具，
 

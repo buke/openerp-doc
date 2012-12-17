@@ -23,7 +23,7 @@ PostgreSQL 数据库安装与配置
 .. i18n: In this chapter, you will see how to configure PostgreSQL for its use with OpenERP. The following procedure is well-tested on PostgreSQL v9.0.
 ..
 
-在本章节，你将看到如何配置PostgrSQL用于OpenERP。以下流程在PostgrSQLv9.0上很好地测试过。
+在本章节，你将看到如何配置PostgreSQL用于OpenERP。以下流程在PostgreSQLv9.0上很好地测试过。
 
 .. i18n: Installing PostgreSQL Server
 .. i18n: ----------------------------
@@ -66,7 +66,7 @@ PostgreSQL 数据库安装
 .. i18n: PostgreSQL user. OpenERP will use this user to connect to PostgreSQL.
 ..
 
-当所需的软件安装完成，你必须设置一个PostgrSQL用户。OpenERP将使用这个用户连接到PostgreSQL。
+当所需的软件安装完成，你必须设置一个PostgreSQL用户。OpenERP将使用这个用户连接到PostgreSQL。
 
 .. i18n: Add a User
 .. i18n: ++++++++++
