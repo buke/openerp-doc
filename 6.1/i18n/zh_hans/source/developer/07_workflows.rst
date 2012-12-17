@@ -11,8 +11,8 @@ Workflow-Business Process
 .. i18n: ============
 ..
 
-Introduction
-============
+简介
+====
 
 .. i18n: The workflow system in OpenERP is a very powerful mechanism that can describe the evolution of documents (model) in time.
 ..
@@ -51,13 +51,13 @@ Introduction
 .. i18n: -----------------------------
 ..
 
-Example 1: Discount On Orders
------------------------------
+例子1 : 订单折扣
+--------------
 
 .. i18n: The first diagram represent a very basic workflow of an order:
 ..
 
-The first diagram represent a very basic workflow of an order:
+第一个流程图代表了一种非常基本的订单流程:
 
 .. i18n: .. image:: images/Workflow_bc1.png
 ..
@@ -68,32 +68,31 @@ The first diagram represent a very basic workflow of an order:
 .. i18n: has not been approved yet. When the user presses on the 'Confirm' button, the invoice is created and the order transitions to the 'CONFIRMED' state.
 ..
 
-The order starts in the 'draft' state, when it is being written and
-has not been approved yet. When the user presses on the 'Confirm' button, the invoice is created and the order transitions to the 'CONFIRMED' state.
+订单一开始在输入但是还没有被核准前, 是在'草稿'状态. 当使用者按下'确认', 系统会生成请款单, 而且订单会变成'已确认'状态.
 
 .. i18n: Then, two operations are possible:
 ..
 
-Then, two operations are possible:
+然后, 可能有2个动作:
 
 .. i18n: #. the order is done (shipped)
 .. i18n: 
 .. i18n: #. the order is canceled
 ..
 
-#. the order is done (shipped)
+#. 订单完成(已出货)
 
-#. the order is canceled
+#. 订单被取消
 
 .. i18n: Let's suppose a company has a need not implemented in OpenERP. For example, their sales staff can only offer discounts of 15% or less. Every order having a discount above 15% must be approved by the sales manager.
 ..
 
-Let's suppose a company has a need not implemented in OpenERP. For example, their sales staff can only offer discounts of 15% or less. Every order having a discount above 15% must be approved by the sales manager.
+假设公司有一个需求还没有在 OpenERP 里实现, 例如, 销售人员只能同意到最多 15% 的折扣, 所有折扣大于 15% 的订单必须由销售经理核准.
 
 .. i18n: This modification in the sales logic doesn't need any lines of Python code! A simple modification of the workflow allows us to take this new need into account and add the extra validation step.
 ..
 
-This modification in the sales logic doesn't need any lines of Python code! A simple modification of the workflow allows us to take this new need into account and add the extra validation step.
+这种业务流程的修改需求不需要更改任何 Python 编码! 只需要一个简单的工作流程修改就可以让我们把这个新的需求列入考虑, 并且多增加一个验证步骤.
 
 .. i18n: .. image:: images/Workflow_bc2.png
 ..
@@ -103,19 +102,19 @@ This modification in the sales logic doesn't need any lines of Python code! A si
 .. i18n: The workflow is modified as above and the orders will react as requested. We then only need to modify the order form view and add a validation button at the desired location.
 ..
 
-The workflow is modified as above and the orders will react as requested. We then only need to modify the order form view and add a validation button at the desired location.
+工作流程依上面的图里修改以后, 订单就会依所要求的方式反应. 然后我们只需要修改订单的表单显示方式, 在想要的位置加上验证的按键.
 
 .. i18n: We could then further improve this workflow by sending a request to the sales manager when an order enters the 'Validation' state. Workflow nodes can execute object methods; only two lines of Python are needed to send a request asking the sales manager to validate or reject the order.
 ..
 
-We could then further improve this workflow by sending a request to the sales manager when an order enters the 'Validation' state. Workflow nodes can execute object methods; only two lines of Python are needed to send a request asking the sales manager to validate or reject the order.
+然后我们可以再深入强化这个工作流程-当订单进入 '待验证' 状态, 主动通知销售经理审核订单. 工作流程的节点可以执行物件的程序; 只要增加2行 Python 编码, 就可以通知销售经理审核或是取消订单.
 
 .. i18n: Example 2: A sale order that generates an invoice and a shipping order
 .. i18n: ----------------------------------------------------------------------
 ..
 
-Example 2: A sale order that generates an invoice and a shipping order
-----------------------------------------------------------------------
+例子2: 业务订单产生请款单及出货通知
+------------------------------
 
 .. i18n: .. image:: images/Workflow_sale.png
 ..
@@ -126,8 +125,8 @@ Example 2: A sale order that generates an invoice and a shipping order
 .. i18n: -----------------------------------------
 ..
 
-Example 3: Account invoice basic workflow
------------------------------------------
+例子3: 客户请款单基本工作流程
+-------------------------
 
 .. i18n: .. image:: images/Acount_inv_wkf.jpg
 ..
@@ -138,34 +137,34 @@ Example 3: Account invoice basic workflow
 .. i18n: =================
 ..
 
-Defining Workflow
-=================
+定义工作流程
+==========
 
 .. i18n: Workflows are defined in the file ``server/addons/base/ir/workflow/workflow.py``. The first three classes defined in this file are ``workflow``, ``wkf_activity`` and ``wkf_transition``. They correspond to the three types of resources necessary to describe a workflow:
 ..
 
-Workflows are defined in the file ``server/addons/base/ir/workflow/workflow.py``. The first three classes defined in this file are ``workflow``, ``wkf_activity`` and ``wkf_transition``. They correspond to the three types of resources necessary to describe a workflow:
+工作流程是在以下档案里定义的 ``server/addons/base/ir/workflow/workflow.py``. 在这个档案里定义的前3个级别(class)是 ``workflow``, ``wkf_activity`` 和 ``wkf_transition``. 他们分别对应了工作流程里3种需要的资源:
 
 .. i18n:     * `workflow <http://openobject.com/wiki/index.php/WkfDefXML>`_ : the workflow,
 .. i18n:     * `wkf_activity <http://openobject.com/wiki/index.php/WorkflowActivity>`_ : the activities (nodes),
 .. i18n:     * `wkf_transition <http://openobject.com/wiki/index.php/WorkflowTransition>`_ : the transitions between the activities.
 ..
 
-    * `workflow <http://openobject.com/wiki/index.php/WkfDefXML>`_ : the workflow,
-    * `wkf_activity <http://openobject.com/wiki/index.php/WorkflowActivity>`_ : the activities (nodes),
-    * `wkf_transition <http://openobject.com/wiki/index.php/WorkflowTransition>`_ : the transitions between the activities.
+    * `workflow <http://openobject.com/wiki/index.php/WkfDefXML>`_ : 工作流程,
+    * `wkf_activity <http://openobject.com/wiki/index.php/WorkflowActivity>`_ : 工作流程的活动(节点),
+    * `wkf_transition <http://openobject.com/wiki/index.php/WorkflowTransition>`_ : 在不同活动间的转变.
 
 .. i18n: General structure of a workflow XML file
 .. i18n: ========================================
 ..
 
-General structure of a workflow XML file
+工作流程 XML 档案的一般结构
 ========================================
 
 .. i18n: The general structure of a workflow XML file is as follows:
 ..
 
-The general structure of a workflow XML file is as follows:
+工作流程 XML 档案的一般结构如下:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -203,7 +202,7 @@ The general structure of a workflow XML file is as follows:
 .. i18n: **Where**
 ..
 
-**Where**
+**这里的**
 
 .. i18n:     * **id** (here "workflow_id") is a workflow identifier. Each workflow must have an unique identifier.
 .. i18n:     * **name** (here "workflow.name") is the name of the workflow. The name of the workflow must respect the OpenERP syntax of "dotted names".
@@ -211,20 +210,20 @@ The general structure of a workflow XML file is as follows:
 .. i18n:     * **on_create** is True if workflow.name must be instantiated automatically when resource.model is created, and False otherwise.
 ..
 
-    * **id** (here "workflow_id") is a workflow identifier. Each workflow must have an unique identifier.
-    * **name** (here "workflow.name") is the name of the workflow. The name of the workflow must respect the OpenERP syntax of "dotted names".
-    * **osv** (here "resource.model") is the name of the object we use as a model [-(Remember an OpenERP object inherits from osv.osv, hence the '<field name="osv">')-].
-    * **on_create** is True if workflow.name must be instantiated automatically when resource.model is created, and False otherwise.
+    * **id** (就是 "workflow_id") 是工作流程的识别码. 每个工作流程必须有一个唯一的识别码.
+    * **name** (就是 "workflow.name") 是工作流程的名称. 工作流程的名称必须符合 OpenERP 文法的 "带点名称" 要求.
+    * **osv** (就是 "resource.model") 是我们当做模型使用的物件名称 [-(请记得 OpenERP 物件是从 osv.osv 继承属性, 所以 '<栏位名称="osv">')-].
+    * **on_create** 为 True, 如果在创建 resource.model 时必须自动将 workflow.name 实体化, 如果是 False 则相反.
 
 .. i18n: **Example**
 ..
 
-**Example**
+**范例**
 
 .. i18n: The workflow ``sale.order.basic`` defined in ``addons/sale/sale_workflow.xml`` follows exactly this model, the code of its workflow tag is:
 ..
 
-The workflow ``sale.order.basic`` defined in ``addons/sale/sale_workflow.xml`` follows exactly this model, the code of its workflow tag is:
+定义在 ``addons/sale/sale_workflow.xml`` 里的工作流程 ``sale.order.basic`` 完全依照这个模式, 工作流程标签的编码如下:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -251,27 +250,27 @@ The workflow ``sale.order.basic`` defined in ``addons/sale/sale_workflow.xml`` f
 .. i18n: ==========
 ..
 
-Activity
-==========
+活动
+====
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
-Introduction
-------------
+简介
+----
 
 .. i18n: The ``wkf_activity`` class represents the nodes of workflows. These nodes are the actions to be executed.
 ..
 
-The ``wkf_activity`` class represents the nodes of workflows. These nodes are the actions to be executed.
+``wkf_activity`` 这个级别(class)代表工作流程的节点. 这些节点就是要被执行的行动.
 
 .. i18n: The fields
 .. i18n: ----------
 ..
 
-The fields
-----------
+栏位
+----
 
 .. i18n: ::
 .. i18n: 
@@ -280,7 +279,7 @@ The fields
 
 ::
 
-    split_mode
+    split_mode(拆分模式)
 
 .. i18n: .. image::  images/Wkf_split.png
 ..
@@ -290,26 +289,26 @@ The fields
 .. i18n: Possible values:
 ..
 
-Possible values:
+可能的值:
 
 .. i18n: * XOR: One necessary transition, takes the first one found (default).
 .. i18n: * OR: Take only valid transitions (0 or more) in sequential order.
 .. i18n: * AND: All valid transitions are launched at the same time (fork).
 ..
 
-* XOR: One necessary transition, takes the first one found (default).
-* OR: Take only valid transitions (0 or more) in sequential order.
-* AND: All valid transitions are launched at the same time (fork).
+* XOR: 一个必须的转变, 取找到的第一个转变(预设值).
+* OR: 只依顺序取有效的转变(可能是0个或是多个).
+* AND: 所有有效的转变都会同时出现(分叉).
 
 .. i18n: In the OR and AND separation mode, certain workitems can be generated.
 ..
 
-In the OR and AND separation mode, certain workitems can be generated.
+在 OR 和 AND 分离模式, 可能会产生一些工作时间.
 
 .. i18n: In the AND mode, the activity waits for all transitions to be valid, even if some of them are already valid. They are all triggered at the same time.
 ..
 
-In the AND mode, the activity waits for all transitions to be valid, even if some of them are already valid. They are all triggered at the same time.
+在 AND 模式, 活动会等到所有转变都生效才会开始进行; 即使是有小部分转变还没有生效, 活动也不会开始进行. 所有活动是同时被触发的.
 
 .. i18n: ::
 .. i18n: 
@@ -318,7 +317,7 @@ In the AND mode, the activity waits for all transitions to be valid, even if som
 
 ::
 
-    join_mode
+    join_mode(结合模式)
 
 .. i18n: .. image:: images/Wkf_join.png
 ..
@@ -328,14 +327,14 @@ In the AND mode, the activity waits for all transitions to be valid, even if som
 .. i18n: Possible values:
 ..
 
-Possible values:
+可能的值:
 
 .. i18n: * **XOR**: One transition necessary to continue to the destination activity (default).
 .. i18n: * **AND**: Waits for all transition conditions to be valid to execute the destination activity.
 ..
 
-* **XOR**: One transition necessary to continue to the destination activity (default).
-* **AND**: Waits for all transition conditions to be valid to execute the destination activity.
+* **XOR**: 进行目标的活动前, 还必须继续一个转变(预设值).
+* **AND**: 等待所有转变都生效, 才能执行活动.
 
 .. i18n: ::
 .. i18n: 
@@ -344,12 +343,12 @@ Possible values:
 
 ::
 
-    kind
+    kind(种类)
 
 .. i18n: Possible values:
 ..
 
-Possible values:
+可能的值:
 
 .. i18n:     * **dummy**: Do nothing (default).
 .. i18n:     * **function**: Execute the function selected by an action.
@@ -357,15 +356,15 @@ Possible values:
 .. i18n:     * **stopall**:
 ..
 
-    * **dummy**: Do nothing (default).
-    * **function**: Execute the function selected by an action.
-    * **subflow**: Execute a sub-workflow SUBFLOW_ID. The action method must return the ID of the concerned resource by the subflow. If the action returns False, the workitem disappears.
-    * **stopall**:
+    * **dummy**: 不作任何事(预设值).
+    * **function**: 执行一个行为选择的功能.
+    * **subflow**: 执行一个子工作流程 SUBFLOW_ID(子工作流程代码). 这个行为程序必须回复子工作流程所需要的资源代码. 如果这个行为程序回复 False, 这个工作项目就会消失.
+    * **stopall**: 全部停止
 
 .. i18n: A sub-workflow is executed when an activity is of the type SUBFLOW. This activity ends when the sub-workflow has finished. While the sub-workflow is active, the workitem of this activity is frozen.
 ..
 
-A sub-workflow is executed when an activity is of the type SUBFLOW. This activity ends when the sub-workflow has finished. While the sub-workflow is active, the workitem of this activity is frozen.
+当某一个活动是 SUBFLOW 形态时, 就会执行子工作流程. 当子工作流程结束时活动也会结束. 当子工作流程在作用中, 这个活动的工作项目会被冻结.
 
 .. i18n: ::
 .. i18n: 
@@ -374,12 +373,12 @@ A sub-workflow is executed when an activity is of the type SUBFLOW. This activit
 
 ::
 
-    action
+    action(行动)
 
 .. i18n: The action indicates the method to execute when a workitem comes into this activity. The method must be defined in an object which belongs to this workflow and have the following signature:
 ..
 
-The action indicates the method to execute when a workitem comes into this activity. The method must be defined in an object which belongs to this workflow and have the following signature:
+行动是指当某一个工作项目来到这个活动时, 所要执行的程序方法. 这些程序方法必须在这个工作流程里的物件里有定义, 而且具有以下特征:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -393,7 +392,7 @@ The action indicates the method to execute when a workitem comes into this activ
 .. i18n: In the action though, they will be called by a statement like:
 ..
 
-In the action though, they will be called by a statement like:
+在实际行动里, 这些程序方法会被以下的叙述方式呼叫:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -411,16 +410,14 @@ In the action though, they will be called by a statement like:
 
 ::
 
-    signal_send
+    signal_send(送出信号)
 
 .. i18n: This field is used to specify a signal that will be sent to the parent
 .. i18n: workflow when the activity becomes active. To do this, set the value
 .. i18n: to the name of the signal (without the ``signal.`` prefix). 
 ..
 
-This field is used to specify a signal that will be sent to the parent
-workflow when the activity becomes active. To do this, set the value
-to the name of the signal (without the ``signal.`` prefix). 
+这个栏位是用于指定一个信号, 当活动在作用中, 这个信号就会被送往上一层的工作流程. 如果要送出信号, 将栏位值设定为信号的名字 (去掉开头的 ``signal.`` ). 
 
 .. i18n: ::
 .. i18n: 
@@ -429,7 +426,7 @@ to the name of the signal (without the ``signal.`` prefix).
 
 ::
 
-    flow_start
+    flow_start(流程开始)
 
 .. i18n: Indicates if the node is a start node. When a new instance of a workflow is created, a workitem is activated for each activity marked as a ``flow_start``.
 ..
