@@ -231,7 +231,7 @@ The examples above are based on a breakdown of the costs of the company. Analyti
 ..
 
 案例 2:  律师事务所
------------------
+-------------------
 
 .. i18n: Law firms generally adopt management by case, where each case represents a current client file. All of the expenses and products are then attached to a given file.
 ..
