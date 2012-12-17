@@ -7,7 +7,7 @@
 .. _features-link:
 
 功能
-========
+====
 
 .. i18n: You will find here a list of the most important features of OpenERP and
 .. i18n: Open Object. More than 350 modules are available, so this is just a summary
@@ -22,7 +22,7 @@
 ..
 
 企业管理
-+++++++++++++++++++++
+++++++++
 
 .. i18n: .. toctree::
 .. i18n:    :maxdepth: 1
@@ -76,7 +76,7 @@ Logistic
 ..
 
 财务会计
-++++++++++++++++++++++
+++++++++
 
 .. i18n: .. toctree::
 .. i18n:    :maxdepth: 1
@@ -104,7 +104,7 @@ Logistic
 ..
 
 人力资源
-++++++++++++++++
+++++++++
 
 .. i18n: .. toctree::
 .. i18n:    :maxdepth: 1
@@ -132,7 +132,7 @@ Logistic
 ..
 
 CRM(客户关系管理) & SRM(供应商关系管理)
-+++++++++
++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: .. toctree::
 .. i18n:    :maxdepth: 1
@@ -158,7 +158,7 @@ CRM(客户关系管理) & SRM(供应商关系管理)
 ..
 
 项目管理
-++++++++++++++++++
+++++++++
 
 .. i18n: .. toctree::
 .. i18n:    :maxdepth: 1
