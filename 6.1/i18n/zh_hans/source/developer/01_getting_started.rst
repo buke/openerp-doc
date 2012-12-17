@@ -26,7 +26,7 @@ OpenERP 开发入门
 ..
 
 Windows下安装
--------
+-------------
 
 .. i18n: Windows install:
 .. i18n:  - executable location
@@ -42,7 +42,7 @@ Windows 下安装:
 ..
 
 Debian/Ubuntu安装
--------------
+-----------------
 
 .. i18n: How to get .deb packages
 ..
@@ -54,7 +54,7 @@ Debian/Ubuntu安装
 ..
 
 源码
--------
+----
 
 .. i18n: In order to get the sources, you will need Bazaar version control to pull the source from Launchpad. Check how to get Bazaar according to your development environment. After having installed and configured Bazaar, setup your development environment by typing::
 .. i18n: 
