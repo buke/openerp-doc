@@ -811,12 +811,12 @@ Result: 客户端执行一个动作
 .. i18n: If the wizard you created is the first one of its module, you probably had to create the modulename_wizard.xml file yourself. In that case, it should be added to the update_xml field of the __openerp__.py file of the module.
 ..
 
-If the wizard you created is the first one of its module, you probably had to create the modulename_wizard.xml file yourself. In that case, it should be added to the update_xml field of the __openerp__.py file of the module.
+若创建的向导是模块中的第一个，还需要创建 modulename_wizard.xml 文件. 在这样的情况下，需要在 __openerp__.py 模块文件中增加 update_xml 文件.
 
 .. i18n: Here is, for example, the **__openerp__.py** file for the account module.
 ..
 
-Here is, for example, the **__openerp__.py** file for the account module.
+例如 ，下面的 account 模块 account_wizard.xml 需要添加到 **__openerp__.py** 文件.
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -844,16 +844,16 @@ Here is, for example, the **__openerp__.py** file for the account module.
 .. i18n: To develop osv_memory wizard, just create a normal object, But instead of inheriting from osv.osv, Inherit from osv.osv_memory. Methods of "wizard" are in object and if the wizard is complex, You can define workflow on object. osv_memory object is managed in memory instead of storing in postgresql.
 ..
 
-osv_memory Wizard System
+osv_memory 向导系统
 ========================
-To develop osv_memory wizard, just create a normal object, But instead of inheriting from osv.osv, Inherit from osv.osv_memory. Methods of "wizard" are in object and if the wizard is complex, You can define workflow on object. osv_memory object is managed in memory instead of storing in postgresql.
+开发一个 osv_memory 向导, 只需创建一普通的对象，不是继承至 osv.osv, 而是继承至 osv.osv_memory. 向导 "wizard" 的方法是在对象中的，如果向导很复杂，可以在对象中定义工作流. osv_memory 对象是存储在内存中的，而不是存储在 postgresql.
 
 .. i18n: That's all, nothing more than just changing the inherit. These wizards can be defined at any location unlike addons/modulename/modulename_wizard.py. 
 .. i18n: Historically, the _wizard prefix is for actual (old-style) wizards, so there might be a connotation there, the "new-style" osv_memory based "wizards" are perfectly normal objects (just used to emulate the old wizards, so they don't really match the old separations. 
 .. i18n: Furthermore, osv_memory based "wizards" tend to need more than one object (e.g. one osv_memory object for each state of the original wizard) so the correspondence is not exactly 1:1.
 ..
 
-That's all, nothing more than just changing the inherit. These wizards can be defined at any location unlike addons/modulename/modulename_wizard.py. 
+就这些，仅仅是改变了继承。这些向导可以被定义在任意位置，而不仅仅是 addons/modulename/modulename_wizard.py. 
 Historically, the _wizard prefix is for actual (old-style) wizards, so there might be a connotation there, the "new-style" osv_memory based "wizards" are perfectly normal objects (just used to emulate the old wizards, so they don't really match the old separations. 
 Furthermore, osv_memory based "wizards" tend to need more than one object (e.g. one osv_memory object for each state of the original wizard) so the correspondence is not exactly 1:1.
 
