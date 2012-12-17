@@ -3,16 +3,16 @@
 .. i18n: =============
 ..
 
-=============
+========
 开发平台
-=============
+========
 
 .. i18n: Launchpad and bazaar
 .. i18n: --------------------
 ..
 
 Launchpad站点及 bazaar工具
---------------------
+--------------------------
 
 .. i18n: Before you can commit on launchpad, you have to create a login. This login is needed if you intend to commit on openerp-comiter or on your own branch via bazaar. Go to: https://launchpad.net --> log in / register on top right.
 ..
@@ -91,7 +91,7 @@ If you experience problems with Bazaar, please read the :ref:`bazaar-faq-link` b
 ..
 
 工作分支
--------------------
+--------
 
 .. i18n: The combination of Bazaar branch hosting and Launchpad's teams infrastructure gives you a very powerful capability to collaborate on code. Essentially, you can push a branch into a shared space and anyone on that team can then commit to the branch.
 ..
@@ -113,7 +113,7 @@ This is the official and proposed way to contribute on OpenERP and OpenObject.
 ..
 
 快捷参考
-+++++++++++++
+++++++++
 
 .. i18n: To download the latest sources and create your own local branches of OpenERP, do this::
 .. i18n: 
@@ -221,7 +221,7 @@ by a committer and then the quality team to be merged into the official release.
 ..
 
 发布一个新分支
-++++++++++++++++++++
+++++++++++++++
 
 .. i18n: If you want to contribute on OpenERP or OpenObject, here is the proposed method:
 ..
@@ -507,7 +507,7 @@ Member of the quality and committer team are automatically members of the commun
 ..
 
 安装 Bazaar
-+++++++++++++++++
++++++++++++
 
 .. i18n: .. index::
 .. i18n:    single: Bazaar; installation
