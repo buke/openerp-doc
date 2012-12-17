@@ -3,7 +3,7 @@
 ..
 
 立体图表设计器
-=============
+==============
 
 .. i18n: The business intelligence cube designer lets you customise cubes on any
 .. i18n: relational database (Oracle, MySQL, PostgreSQL, etc.) The user friendly cube
@@ -26,7 +26,7 @@
 ..
 
 关键点:
------------
+-------
 
 .. i18n: * Detect every structure automatically by introspection,
 .. i18n: * Support an application dictionary to auto-configure setups,
@@ -46,7 +46,7 @@
 ..
 
 集成的作用:
----------------------
+-----------
 
 .. i18n: * The OpenERP schema is pre-configured, no need to define a cube,
 .. i18n: * The cube browser allows end-users to navigate into any query,
@@ -62,7 +62,7 @@
 ..
 
 链接:
-------
+-----
 
 .. i18n: *  .. raw:: html
 .. i18n:   
