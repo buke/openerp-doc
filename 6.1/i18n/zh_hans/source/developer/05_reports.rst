@@ -1216,7 +1216,7 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 .. i18n: All these formats are extensions of the `XML specification`_.
 ..
 
-这些格式都是作为 `XML specification`_的拓展。
+这些格式都是作为 `XML specification`_.  的拓展。
 
 .. i18n: .. _RML user guide: http://www.reportlab.com/docs/rml2pdf-userguide.pdf  
 .. i18n: .. _XSL specification: http://www.w3.org/TR/xslt
