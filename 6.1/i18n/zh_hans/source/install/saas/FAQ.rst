@@ -3,14 +3,14 @@
 ..
 
 常见问题(FAQ)
-====
+=============
 
 .. i18n: General
 .. i18n: -------
 ..
 
 常见问题
--------
+--------
 
 .. i18n: What is the difference between OpenERP On-site and OpenERP Online?
 .. i18n: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -70,7 +70,7 @@ It also includes the following services:
 ..
 
 报价及支付
---------------------
+----------
 
 .. i18n: What is OpenERP's Pricing Model?
 .. i18n: ++++++++++++++++++++++++++++++++
@@ -213,7 +213,7 @@ We only allow 3 OpenERP employees to have a root access to our customers' server
 ..
 
 数据导入
------------
+--------
 
 .. i18n: I already use OpenERP, can I Migrate to the OpenERP Online Offer?
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -291,7 +291,7 @@ All OpenERP Online customers benefit from the OpenERP Publisher Warranty (OPW). 
 ..
 
 解决方案
----------
+--------
 
 .. i18n: What should I do if I have Specific Needs?
 .. i18n: ++++++++++++++++++++++++++++++++++++++++++
