@@ -93,7 +93,7 @@ OpenERP GTK 客户端安装
 	默认情况下，OpenERP 客户端安装在 ``C:\Program Files\OpenERP 6.0\Client``。要安装到不同目录，可在这步可以浏览不同的位置（目录）。
 
 * 5. 创建快捷方式
-	在'开始' 菜单选择你要创建的程序快捷链接的目录。
+        在'开始' 菜单选择你要创建的程序快捷链接的目录
 
 .. i18n:   .. figure:: ../../img/c5_shortcuts.png
 .. i18n:      :scale: 50
