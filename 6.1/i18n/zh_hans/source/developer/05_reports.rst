@@ -3,9 +3,9 @@
 .. i18n: =======
 ..
 
-=======
+====
 报表
-=======
+====
 
 .. i18n: There are mainly three types of reports in OpenERP:
 ..
@@ -31,7 +31,7 @@ OpenERP 主要有三种类型的报表:
 ..
 
 OpenOffice.org 报表
-======================
+===================
 
 .. i18n: **The document flow**
 ..
@@ -118,7 +118,7 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 ..
 
 生成 SXW 文件
---------------
+-------------
 
 .. i18n: You can design reports using *OpenOffice*. Here, as an example, is the file **server/bin/addons/sale/report/order.sxw**.
 ..
@@ -143,7 +143,7 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 .. _dynamic-report-content:
 
 OpenOffice 报表中的动态内容 
--------------------------------------
+---------------------------
 
 .. i18n: **Dynamic content**
 ..
@@ -381,7 +381,7 @@ SXW2RML
 ..
 
 Open Report 手册
-++++++++++++++++++
+++++++++++++++++
 
 .. i18n: About
 .. i18n: """""
@@ -408,7 +408,7 @@ Open Report 是一个模块，可让您从OpenOffice的模板文件（sxw）和�
 ..
 
 SXW 转 RML 代码的安装，适用于Windows用户
-"""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: In order to use the 'tiny_sxw2rml.py' Python script you need the following packages installed:
 ..
@@ -429,7 +429,7 @@ SXW 转 RML 代码的安装，适用于Windows用户
 ..
 
 SXW 转 RML 代码的安装，适用于linux(开源)用户
-"""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: The **tiny_sxw2rml.py** can be found in the **base_report_designer** OpenERP module at this location::
 .. i18n: 
@@ -455,7 +455,7 @@ SXW 转 RML 代码的安装，适用于linux(开源)用户
 ..
 
 使用 tiny_sxw2rml
-""""""""""""""""""""
+"""""""""""""""""
 
 .. i18n: When you have all that installed just edit your report template and run the script with the following command:
 .. i18n: ::
@@ -478,14 +478,14 @@ SXW 转 RML 代码的安装，适用于linux(开源)用户
 ..
 
 OpenERP Server PDF 输出 
---------------------------
+-----------------------
 
 .. i18n: Server PDF Output
 .. i18n: +++++++++++++++++
 ..
 
 Server PDF 输出
-+++++++++++++++++
++++++++++++++++
 
 .. i18n: About
 .. i18n: """""
@@ -572,7 +572,7 @@ To generate the pdf from the rml file, OpenERP needs a rml parser.
 ..
 
 xml 定义
-""""""""""""""""""
+""""""""
 
 .. i18n: To be visible from the client, the report must be declared in an xml file (generally: "module_name"_report.xml) that must be put in the **__openerp__.py** file
 ..
@@ -646,7 +646,7 @@ xml 定义
 ..
 
 XSL:RML 报表
-===============
+============
 
 .. i18n: RML reports don't require programming but require two simple XML files to be written:
 ..
@@ -1234,7 +1234,7 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 ..
 
 XML 模板
-------------
+--------
 
 .. i18n: XML templates are simple XML files describing which fields among all available object fields are necessary for the report.
 ..
@@ -1246,7 +1246,7 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 ..
 
 文件格式
-+++++++++++
+++++++++
 
 .. i18n: Tag names can be chosen arbitrarily (it must be valid XML though). In the XSL file, you will have to use those names. Most of the time, the name of a tag will be the same as the name of the object field it refers to.
 ..
@@ -1278,7 +1278,7 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 ..
 
 其它类型
-++++++++++++++
+++++++++
 
 .. i18n: Here is the list of available field types:
 ..
@@ -1441,7 +1441,7 @@ XML 文件的例子:
 ..
 
 RML 介绍
--------------------
+--------
 
 .. i18n: For more information on the RML format, please refer to the official Reportlab documentation.
 ..
@@ -1458,7 +1458,7 @@ RML 介绍
 ..
 
 XSL:RML 样式表
-------------------
+--------------
 
 .. i18n: There are two possibilities to do a XSL style sheet for a report. Either making everything by yourself, or use our predefined templates
 ..
@@ -1511,7 +1511,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 ..
 
 一些有用的链接
-++++++++++++
+++++++++++++++
 
 .. i18n:     * url=http://www.reportlab.com/docs/rml2pdf-userguide.pdf RML UserGuide (pdf) (reportlab.com) 
 .. i18n: 
@@ -1602,7 +1602,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 ..
 
 示例 (使用公司表头 corporate defaults)
-+++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++
 ::
 
 	    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" :xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1678,7 +1678,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 ..
 
 没有公司表头( corporate header )的示例
-================================
+======================================
 
 .. i18n: **Example (with corporate defaults):**
 .. i18n: ::
@@ -1786,7 +1786,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 ..
 
 每个报表都有自己的公司表头( corporate header )
-=========================================
+==============================================
 
 .. i18n: **Example (with corporate defaults):**
 .. i18n: ::
@@ -1820,14 +1820,14 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 ..
 
 条形码(Bar Codes) 
-=========
+=================
 
 .. i18n: Barcodes in RML files
 .. i18n: ---------------------
 ..
 
 RML 文件中的条形码(Barcodes)
----------------------
+----------------------------
 
 .. i18n: Barcodes can be generated using the <barCode> tag in RML files. The following formats are supported:
 ..
@@ -1900,7 +1900,7 @@ RML 文件中的条形码(Barcodes)
 ..
 
 如何生成一个新的报表
-=======================
+====================
 
 .. i18n: In 4.0.X
 ..
@@ -1916,14 +1916,14 @@ RML 文件中的条形码(Barcodes)
 ..
 
 常用标签
-==========
+========
 
 .. i18n: Code within [[ ]] tags is python code
 .. i18n: -------------------------------------
 ..
 
 包含在 [[ ]] 标签中的代码是 python 代码
--------------------------------------
+---------------------------------------
 
 .. i18n: The context of the code (the variable's values you can use) is the same as that 
 .. i18n: described for :ref:`dynamic-report-content`.
@@ -1936,7 +1936,7 @@ RML 文件中的条形码(Barcodes)
 ..
 
 Unicode 报表 
-===============
+============
 
 .. i18n: As of OpenERP 5.0-rc3 unicode printing with ReportLab is still not available. The problem is that OpenERP uses the PDF standard fonts (14 fonts, they are not embedded in the document but the reader provides them) that are Type1 and have only Latin1 characters.
 ..
@@ -1948,7 +1948,7 @@ OpenERP 5.0-rc3 中还是不能使用Unicode 报表的。症结在于OpenERP使�
 ..
 
 解决办法有三步
---------------------------------
+--------------
 
 .. i18n:     * Provide TrueType fonts and make them accessible for ReportLab.
 .. i18n:     * Register the TrueType fonts with ReportLab before using them in the reports.
@@ -1964,7 +1964,7 @@ OpenERP 5.0-rc3 中还是不能使用Unicode 报表的。症结在于OpenERP使�
 ..
 
 论坛中有更详细的信息
------------------------------------------
+--------------------
 
 .. i18n: **Free TrueType fonts**
 ..
@@ -2106,7 +2106,7 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 ..
 
 使用Mako模板的HTML报表
-=================================
+======================
 
 .. i18n: .. note:: Implemented in trunk only
 .. i18n: 
@@ -2122,14 +2122,14 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 ..
 
 Mako 模板
--------------
+---------
 
 .. i18n: Syntax
 .. i18n: ++++++
 ..
 
 语法
-++++++
+++++
 
 .. i18n:   	A Mako template is parsed from a text stream containing any kind of content, XML, HTML, email text, etc. 
 .. i18n:   	
@@ -2149,7 +2149,7 @@ Mako 模板
 ..
 
 表达式替换
-+++++++++++++++++++++++
+++++++++++
 
 .. i18n:   	The simplest expression is just a variable substitution. The syntax for this is the ${} construct instead of [[ ]] in rml.
 ..
@@ -2201,7 +2201,7 @@ eg::
 ..
 
 Python 块
--------------
+---------
 
 .. i18n:     	Within <% %>, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
 ..
@@ -2220,7 +2220,7 @@ Python 块
 ..
 
 销售订单中的例子
-+++++++++++++++++++++++++++++++++
+++++++++++++++++
 
 .. i18n: 	For Complete Example of Sale_order please Refer the module sale_report_html from :
 ..
@@ -2359,7 +2359,7 @@ Python 块
 ..
 
 有报表头和报表尾(header and footer)的报表
-+++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: 	To create reports with your company header you need to include <%include file=”mako_header.html”/>
 .. i18n: 	To create reports with your company footer you need to include <%include file=”mako_footer.html”/>
