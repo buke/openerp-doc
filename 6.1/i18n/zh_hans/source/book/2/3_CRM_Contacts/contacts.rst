@@ -66,8 +66,8 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: \ ``Customer`` \ and/or a \ ``Supplier`` \. The partner form is composed of several tabs.
 ..
 
-The partner form contains information about the company, such as its corporate name, its primary language, and whether the company is a
-\ ``Customer`` \ and/or a \ ``Supplier`` \. The partner form is composed of several tabs.
+合作伙伴表单包括了关于公司的信息, 比如公司名称，主要语言，公司是 ``客户`` \ 和/或 \ ``供应商`` \. 
+合作伙伴的表单由几个标签组成.
 
 .. i18n: * the :guilabel:`General` tab contains information about different contacts of that partner, postal information,
 .. i18n:   communication information and the categories the partner belongs to,
@@ -81,13 +81,12 @@ The partner form contains information about the company, such as its corporate n
 .. i18n: * the :menuselection:`Notes` tab is an area for free text notes.
 ..
 
-* the :guilabel:`General` tab contains information about different contacts of that partner, postal information,
-  communication information and the categories the partner belongs to,
+*  :guilabel:`一般` 标签包括了合作伙伴不同联系人的信息, 邮政，通信和合作伙伴属于的分类,
 
-* the :guilabel:`Sales & Purchases` tab contains information such as the default salesman and sales team, and the website,
+*  :guilabel:`销售和采购` 标签包括了诸如默认销售员、销售团队等信息，以及网站,
 
-* the :menuselection:`History` tab gives visibility on the complete ``Communication History`` (meetings, marketing campaign activities,
-  leads and opportunities, phone calls, emails) with the partner. The events the partner has been involved in are created automatically by
+* :menuselection:`日志` 标签提供了该合作伙伴相关的完整 ``通信日志`` (会议, 营销活动,
+  线索和商机, 电话访问, emails) . The events the partner has been involved in are created automatically by
   different documents like phone calls, leads, meetings,
 
 * the :menuselection:`Notes` tab is an area for free text notes.
