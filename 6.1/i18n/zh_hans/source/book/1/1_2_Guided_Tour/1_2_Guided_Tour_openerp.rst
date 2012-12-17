@@ -250,7 +250,7 @@ Edit mode and :guilabel:`Edit` when in Read-Only mode.
 ..
 
 业务伙伴信息窗口
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. i18n: The partner form contains several tabs, all referring to the current record:
 ..
