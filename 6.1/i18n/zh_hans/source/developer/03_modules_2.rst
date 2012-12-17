@@ -632,10 +632,10 @@ domain：相关字段的Domain restriction
 ..
 
     示例: domain=[('field','=',value)])
-invisible：在表单中隐藏该字段的值，例如输入密码区
-on_change：Default value for the on_change attribute in the view. This will launch a function on the server when the field changes in the client. For example, on_change=”onchange_shop_id(shop_id)”.
-relation：当某个字段是另张表的id reference时就使用它。This is the name of the table to look in. Most commonly used with related and function field types.
-select：视图中select 属性的默认值，1指basic search，2指advanced search.
+:invisible：在表单中隐藏该字段的值，例如输入密码区
+:on_change：Default value for the on_change attribute in the view. This will launch a function on the server when the field changes in the client. For example, on_change=”onchange_shop_id(shop_id)”.
+:relation：当某个字段是另张表的id reference时就使用它。This is the name of the table to look in. Most commonly used with related and function field types.
+:select：视图中select 属性的默认值，1指basic search，2指advanced search.
 
 .. i18n: Type of Fields
 .. i18n: --------------
