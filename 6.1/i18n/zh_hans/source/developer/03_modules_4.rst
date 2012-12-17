@@ -3,16 +3,16 @@
 .. i18n: ================
 ..
 
-================
+==========
 菜单和操作
-================
+==========
 
 .. i18n: Menus
 .. i18n: =====
 ..
 
 菜单
-=====
+====
 
 .. i18n: Here's the template of a menu item :
 .. i18n: ::
@@ -62,7 +62,7 @@
 ..
 
 例如：
--------
+-----
 
 .. i18n: In server/bin/addons/sale/sale_view.xml, we have, for example
 .. i18n: ::
@@ -367,14 +367,14 @@ Window Action
     * name是动作的名称（这个字段是必须的）
     * view_id是当动作被激活时要显示的视图的名称。如果这个字段没有定义，拥有最高优先级的（如果两个视图有相同的优先级，那么先定义的一类视图就会被使用。），并且与对象res_model相关的一类视图就会被使用。
     * domain是约束条件的列表，用于筛选搜索结果使更少的记录显示在视图上。约束条件列表用AND连接在一起：当所有的约束条件都满足时，表格记录就会显示在视图上。
-     * context是显示在视图中的上下文字典，当动作被激活时它就会打开。在XML文件中上下文字典的声明和Python字典一样有相同的语法。想要知道更多关于上下文字典的信息可以看” The context Dictionary”这个章节。
-     * res_model是这个动作发生的对象的名称。
-     * view_type当某个动作必须打开一个新的表单视图时，这个字段的值是form，当某个动作必须打开一个新的列表视图时，这个字段的值是tree。
-     * view_mode仅在view_type值是form时起作用，忽略其他的情况。四种可能的值是：
-          - **form，tree**：这个视图开始时显示为表单视图，当点击“alternate view button”时，列表视图就会显示。
-          - **tree，form**：这个视图开始时显示为列表视图，当点击“alternate view button”时，表单视图就会显示。
-          - **form**：这个视图显示为表单视图，不可能显示为列表视图。
-          - **tree**：这个视图显示为列表视图，不可能显示为表单视图。
+    * context是显示在视图中的上下文字典，当动作被激活时它就会打开。在XML文件中上下文字典的声明和Python字典一样有相同的语法。想要知道更多关于上下文字典的信息可以看” The context Dictionary”这个章节。
+    * res_model是这个动作发生的对象的名称。
+    * view_type当某个动作必须打开一个新的表单视图时，这个字段的值是form，当某个动作必须打开一个新的列表视图时，这个字段的值是tree。
+    * view_mode仅在view_type值是form时起作用，忽略其他的情况。四种可能的值是：
+          - **form，tree**: 这个视图开始时显示为表单视图，当点击“alternate view button”时，列表视图就会显示。
+          - **tree，form**: 这个视图开始时显示为列表视图，当点击“alternate view button”时，表单视图就会显示。
+          - **form**: 这个视图显示为表单视图，不可能显示为列表视图。
+          - **tree**: 这个视图显示为列表视图，不可能显示为表单视图。
 		  
 .. i18n: (version 5 introduced **graph** and **calendar** views)
 ..
