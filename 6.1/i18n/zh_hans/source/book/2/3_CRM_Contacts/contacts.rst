@@ -47,29 +47,27 @@ Each partner can have an unlimited number of contacts. OpenERP also allows you t
 .. i18n: 	the Address Type of Invoice, otherwise to the Default address.
 ..
 
-.. note:: Address Types
+.. note::  地址类型
 
-	If you have recorded several contacts for the same partner, you can tell OpenERP which contact will be used in
-	various documents (e.g. a quotation) by specifying the ``Address Type``.
+	如果你已经为相同的合作伙伴登记了多个联系人, 你能够通过指定 ``地址类型`` 告诉 OpenERP 用于哪种文档用哪个联系人（例如报价单）。
+	
 
-	For example, a partner (*company*) can have a delivery address that differs from the company's invoice address.
-	If the Address Types are correctly assigned, OpenERP can automatically select the appropriate address
-	during the creation of the document – an invoice is addressed to the contact that has been assigned
-	the Address Type of Invoice, otherwise to the Default address.
+	例如：, 合作伙伴(*公司*) 可以有一个发运地址以区别于公司的开票地址.
+	如果地址类型被正确指定, OpenERP 在创建单据的时候，能自动选择合适的地址 ---- 发票地址被指派为 地址类型为“发票”，否则是默认地址。
 
 .. i18n: The concept of a partner in OpenERP is much more flexible than in many other management applications. Why is that? Because a partner can be your supplier and your customer at the same time.
 .. i18n: As a consequence, any data you update for that partner will apply to both customer and supplier! Thanks to this, you no longer need to update your address book several times (or even in several places) for the same partner.
 ..
 
-The concept of a partner in OpenERP is much more flexible than in many other management applications. Why is that? Because a partner can be your supplier and your customer at the same time.
-As a consequence, any data you update for that partner will apply to both customer and supplier! Thanks to this, you no longer need to update your address book several times (or even in several places) for the same partner.
+OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多. 为什么呢？? 因为合作伙伴可以同时是你的供应商和客户。
+因此，你更新的任何数据将同时应用于客户和供应商! 多亏了这个,你不再需要为同样的合作伙伴更新您的地址簿几次(甚至在几个地方)。
 
 .. i18n: The partner form contains information about the company, such as its corporate name, its primary language, and whether the company is a
 .. i18n: \ ``Customer`` \ and/or a \ ``Supplier`` \. The partner form is composed of several tabs.
 ..
 
-The partner form contains information about the company, such as its corporate name, its primary language, and whether the company is a
-\ ``Customer`` \ and/or a \ ``Supplier`` \. The partner form is composed of several tabs.
+合作伙伴表单包括了关于公司的信息, 比如公司名称，主要语言，公司是 ``客户`` \ 和/或 \ ``供应商`` \. 
+合作伙伴的表单由几个标签组成.
 
 .. i18n: * the :guilabel:`General` tab contains information about different contacts of that partner, postal information,
 .. i18n:   communication information and the categories the partner belongs to,
@@ -83,13 +81,12 @@ The partner form contains information about the company, such as its corporate n
 .. i18n: * the :menuselection:`Notes` tab is an area for free text notes.
 ..
 
-* the :guilabel:`General` tab contains information about different contacts of that partner, postal information,
-  communication information and the categories the partner belongs to,
+*  :guilabel:`一般` 标签包括了合作伙伴不同联系人的信息, 邮政，通信和合作伙伴属于的分类,
 
-* the :guilabel:`Sales & Purchases` tab contains information such as the default salesman and sales team, and the website,
+*  :guilabel:`销售和采购` 标签包括了诸如默认销售员、销售团队等信息，以及网站,
 
-* the :menuselection:`History` tab gives visibility on the complete ``Communication History`` (meetings, marketing campaign activities,
-  leads and opportunities, phone calls, emails) with the partner. The events the partner has been involved in are created automatically by
+* :menuselection:`日志` 标签提供了该合作伙伴相关的完整 ``通信日志`` (会议, 营销活动,
+  线索和商机, 电话访问, emails) . The events the partner has been involved in are created automatically by
   different documents like phone calls, leads, meetings,
 
 * the :menuselection:`Notes` tab is an area for free text notes.
@@ -336,7 +333,7 @@ Another action enables you to quickly send an SMS message.
 
 .. i18n: .. tip::  Send an SMS message
 .. i18n: 
-.. i18n: 	To send an SMS message from standard Open ERP you will have to place an order with the bulk SMS
+.. i18n: 	To send an SMS message from standard Open ERP you will have to place an order with the bulk SMS
 .. i18n: 	gateway operator Clickatell™ http://clickatell.com.
 .. i18n: 
 .. i18n: 	To send an SMS message to a partner or a selection of several partners, first select the partners
@@ -345,7 +342,7 @@ Another action enables you to quickly send an SMS message.
 
 .. tip::  Send an SMS message
 
-	To send an SMS message from standard Open ERP you will have to place an order with the bulk SMS
+	To send an SMS message from standard Open ERP you will have to place an order with the bulk SMS
 	gateway operator Clickatell™ http://clickatell.com.
 
 	To send an SMS message to a partner or a selection of several partners, first select the partners
