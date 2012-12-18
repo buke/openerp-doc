@@ -11,27 +11,27 @@
 .. i18n: ============
 ..
 
-Introduction
+简介
 ============
 
 .. i18n: Wizards describe interaction sequences between the client and the server.
 ..
 
-Wizards describe interaction sequences between the client and the server.
+向导是描述客户端和服务器之间的相互动作的序列.
 
 .. i18n: Here is, as an example, a typical process for a wizard:
 ..
 
-Here is, as an example, a typical process for a wizard:
+以下是一个典型的向导进程:
 
 .. i18n:    1. A window is sent to the client (a form to be completed)
 .. i18n:    2. The client sends back the data from the fields which were filled in
 .. i18n:    3. The server gets the result, usually execute a function and possibly sends another window/form to the client 
 ..
 
-   1. A window is sent to the client (a form to be completed)
-   2. The client sends back the data from the fields which were filled in
-   3. The server gets the result, usually execute a function and possibly sends another window/form to the client 
+   1. 向客户端发送一个窗口(待完成的表格)
+   2. 客户端发送在此表格中所填的数据
+   3. 服务器收到结果，执行一个函数并发送一个新的窗口到客户端 
 
 .. i18n: .. image:: images/Wizard.png
 ..
@@ -41,7 +41,7 @@ Here is, as an example, a typical process for a wizard:
 .. i18n: Here is a screenshot of the wizard used to reconcile transactions (when you click on the gear icon in an account chart):
 ..
 
-Here is a screenshot of the wizard used to reconcile transactions (when you click on the gear icon in an account chart):
+以下是一个向导的截图，该向导是用于处理业务的 (when you click on the gear icon in an account chart):
 
 .. i18n: .. image:: images/Wizard_screenshot.png 
 .. i18n:    :width: 100% 
@@ -54,13 +54,13 @@ Here is a screenshot of the wizard used to reconcile transactions (when you clic
 .. i18n: ====================
 ..
 
-Wizards - Principles
+向导 - 原则
 ====================
 
 .. i18n: A wizard is a succession of steps. A step is composed of several actions;
 ..
 
-A wizard is a succession of steps. A step is composed of several actions;
+向导具有一连串的步骤，每一个步骤又多个动作组成;
 
 .. i18n: #. send a form to the client and some buttons
 .. i18n: #. get the form result and the button pressed from the client
@@ -68,22 +68,21 @@ A wizard is a succession of steps. A step is composed of several actions;
 .. i18n: #. send a new action to the client (form, print, ...) 
 ..
 
-#. send a form to the client and some buttons
-#. get the form result and the button pressed from the client
-#. execute some actions
-#. send a new action to the client (form, print, ...) 
+#. 发送表单给客户端或按钮
+#. 客户端的按钮按下后，服务端获取表单的数据
+#. 执行动作
+#. 发送一个新动作给客户端（form，print, ...） 
 
 .. i18n: To define a wizard, you have to create a class inheriting from **wizard.interface** and instantiate it. Each wizard must have a unique name, which can be chosen arbitrarily except for the fact it has to start with the module name (for example: account.move.line.reconcile). The wizard must define a dictionary named **states** which defines all its steps.
 .. i18n: A full example of a simple wizard can be found at  http://www.openobject.com/forum/post43900.html#43900
 ..
 
-To define a wizard, you have to create a class inheriting from **wizard.interface** and instantiate it. Each wizard must have a unique name, which can be chosen arbitrarily except for the fact it has to start with the module name (for example: account.move.line.reconcile). The wizard must define a dictionary named **states** which defines all its steps.
-A full example of a simple wizard can be found at  http://www.openobject.com/forum/post43900.html#43900
+为了定义一个向导，需要创建一个继承于wizard.interface的类，并将其实例化。每个向导都有一个唯一的名字，该名字可以随意取，但它必须以组件名开头（如：account.move.line.reconcile）.向导必须定义一个名为states的字典，该字典定义了它所有的步骤。一个简单的向导例子在  http://www.openobject.com/forum/post43900.html#43900
 
 .. i18n: Here is an example of such a class:
 ..
 
-Here is an example of such a class:
+以下为一个向导类的例子:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -125,38 +124,38 @@ Here is an example of such a class:
 .. i18n: The 'states' dictionary define all the states of the wizard. In this example; **init** and **reconcile**. There is another state which is named end which is implicit.
 ..
 
-The 'states' dictionary define all the states of the wizard. In this example; **init** and **reconcile**. There is another state which is named end which is implicit.
+'states' 字典定义了向导的所有状态。在这个例子里; **init** 和 **reconcile**. 还有一个隐藏的状态叫 end .
 
 .. i18n: A wizard always starts in the **init** state and ends in the **end** state.
 ..
 
-A wizard always starts in the **init** state and ends in the **end** state.
+向导一般从从 **init** 状态开始，到 **end** 状态结束.
 
 .. i18n: A state define two things:
 ..
 
-A state define two things:
+状态定义了以下两个东西:
 
 .. i18n: 	#. a list of actions
 .. i18n: 	#. a result 
 ..
 
-	#. a list of actions
-	#. a result 
+	#. 动作列表
+	#. 结果 
 
 .. i18n: The list of actions
 .. i18n: -------------------
 .. i18n: Each step/state of a wizard defines a list of actions which are executed when the wizard enters the state. This list can be empty.
 ..
 
-The list of actions
+动作列表(The list of actions)
 -------------------
-Each step/state of a wizard defines a list of actions which are executed when the wizard enters the state. This list can be empty.
+向导的每一步骤/状态都定义了动作列表，到向导进入该状态后便执行这些动作。动作列表可以是空的.
 
 .. i18n: The function (actions) must have the following signatures:
 ..
 
-The function (actions) must have the following signatures:
+函数（actions）的语法规范如下 :
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -170,7 +169,7 @@ The function (actions) must have the following signatures:
 .. i18n: Where:
 ..
 
-Where:
+其中:
 
 .. i18n:     * **self** is the pointer to the wizard object
 .. i18n:     * **uid** is the user ID of the user which is executing the wizard
@@ -180,36 +179,35 @@ Where:
 .. i18n:            * **form**: a dictionary containing all the values the user completed in the preceding forms. If you change values in this dictionary, the following forms will be pre-completed. 
 ..
 
-    * **self** is the pointer to the wizard object
-    * **uid** is the user ID of the user which is executing the wizard
-    * **data** is a dictionary containing the following data:
-           * **ids**: the list of ids of resources selected when the user executed the wizard
-           * **id**: the id highlighted when the user executed the wizard
-           * **form**: a dictionary containing all the values the user completed in the preceding forms. If you change values in this dictionary, the following forms will be pre-completed. 
+    * **self** 是指向向导当前对象的指针
+    * **uid** 是执行此向导的用户ID
+    * **data** 是包含以下数据的字典:
+           * **ids**: 用户执行向导时，所关联的资源的id列表
+           * **id**: 当用户执行向导时高亮的id
+           * **form**: 一个字典，该字典包含了之前发送的表单里用户填写的数据，若你改变了字典里的值，则表单里的数据就会被提前填写. 
 
 .. i18n: Each action function must return a dictionary. Any entries in this dictionary
 .. i18n: will be merged with the data that is passed to the form when it's displayed.
 ..
 
-Each action function must return a dictionary. Any entries in this dictionary
-will be merged with the data that is passed to the form when it's displayed.
+每个动作函数必须返回一个字典。字典中的每一项将会与发送来的表单中所填写的数据合并.
 
 .. i18n: The result
 .. i18n: ----------
 ..
 
-The result
+结果(The result)
 ----------
 
 .. i18n: Here are some result examples:
 ..
 
-Here are some result examples:
+以下为一些result的例子:
 
 .. i18n: Result: next step
 ..
 
-Result: next step
+Result: 下一步
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -225,12 +223,12 @@ Result: next step
 .. i18n: Indicate that the wizard has to continue to the next state: 'end'. If this is the 'end' state, the wizard stops.
 ..
 
-Indicate that the wizard has to continue to the next state: 'end'. If this is the 'end' state, the wizard stops.
+表示向导得继续下一步的状态: 'end'. 如果这一步是 'end' 状态，则向导停止.
 
 .. i18n: Result: new dialog for the client
 ..
 
-Result: new dialog for the client
+Result: 发给客户端的新对话
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -250,19 +248,19 @@ Result: new dialog for the client
 .. i18n: The type=form indicate that this step is a dialog to the client. The dialog is composed of:
 ..
 
-The type=form indicate that this step is a dialog to the client. The dialog is composed of:
+type=form 表示这步骤是发送对话给客户端，对话由以下部分组成:
 
 .. i18n: #. a form : with fields description and a form description
 .. i18n: #. some buttons : on which the user press after completing the form 
 ..
 
-#. a form : with fields description and a form description
-#. some buttons : on which the user press after completing the form 
+#. a form : 带有字段的描述和表单的描述
+#. some buttons : 用户填写完数据后，按此按钮提交 
 
 .. i18n: The form description (arch) is like in the views objects. Here is an example of form:
 ..
 
-The form description (arch) is like in the views objects. Here is an example of form:
+表单的描述（arch）和视图一样，如下:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -302,7 +300,7 @@ The form description (arch) is like in the views objects. Here is an example of 
 .. i18n: The fields description is similar to the fields described in the python ORM objects. Example:
 ..
 
-The fields description is similar to the fields described in the python ORM objects. Example:
+字段的描述和python对象里字段的描述类似。如:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -352,12 +350,12 @@ The fields description is similar to the fields described in the python ORM obje
 .. i18n: Each step/state of a wizard can have several buttons. Those are located on the bottom right of the dialog box. The list of buttons for each step of the wizard is declared in the state key of its result dictionary.
 ..
 
-Each step/state of a wizard can have several buttons. Those are located on the bottom right of the dialog box. The list of buttons for each step of the wizard is declared in the state key of its result dictionary.
+向导中每一步/状态都有多个按钮，这些按钮都分布在对话框的右下方。向导的每一步所涉及的按钮列表在结果字典的状态键中声明.
 
 .. i18n: For example:
 ..
 
-For example:
+例如:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -374,15 +372,15 @@ For example:
 .. i18n: #. a boolean, if true the button is set as the default action (since 4.2) 
 ..
 
-#. the next step name (determine which state will be next)
-#. the button string (to display for the client)
-#. the gtk stock item without the stock prefix (since 4.2)
-#. a boolean, if true the button is set as the default action (since 4.2) 
+#. 下一步的名称（决定下一个状态）
+#. 按钮的名字 (用于在客户端上的展示)
+#. the gtk stock item without the stock prefix (自 4.2)
+#. a boolean, 如果为true，按钮被设置为默认的动作 (自 4.2) 
 
 .. i18n: Here is a screenshot of this form:
 ..
 
-Here is a screenshot of this form:
+以下为这种表单的截图:
 
 .. i18n: .. image:: images/Wizard_screenshot1.png
 .. i18n:    :width: 100%
@@ -394,7 +392,7 @@ Here is a screenshot of this form:
 .. i18n: Result: call a method to determine which state is next
 ..
 
-Result: call a method to determine which state is next
+Result: 调用方法决定下一个状态
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -420,7 +418,7 @@ Result: call a method to determine which state is next
 .. i18n: Result: print a report
 ..
 
-Result: print a report
+Result: 打印一个报表
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -454,7 +452,7 @@ Result: print a report
 .. i18n: Result: client run an action
 ..
 
-Result: client run an action
+Result: 客户端执行一个动作
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -502,12 +500,12 @@ Result: client run an action
 .. i18n: The result of the function must be an all the fields of an ir.actions.* Here it is an ir.action.act_window, so the client will open an new tab for the objects account.invoice For more information about the fields used click here.
 ..
 
-The result of the function must be an all the fields of an ir.actions.* Here it is an ir.action.act_window, so the client will open an new tab for the objects account.invoice For more information about the fields used click here.
+函数的返回的结果必须为 ir.actions.* 的所有字段. 这里为ir.action.act_window，所以客户端会打开一个新的标签页，新的标签页包含了account.invoicd的信息.
 
 .. i18n: It is recommended to use the result of a read on the ir.actions object like this:
 ..
 
-It is recommended to use the result of a read on the ir.actions object like this:
+建议用一下方式读取 ir.actions 对象:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -550,14 +548,14 @@ It is recommended to use the result of a read on the ir.actions object like this
 .. i18n: =============
 ..
 
-Specification
+规范
 =============
 
 .. i18n: Form
 .. i18n: ----
 ..
 
-Form
+表单(Form)
 ----
 
 .. i18n: .. code-block:: xml
@@ -583,14 +581,14 @@ Form
 .. i18n: ------
 ..
 
-Fields
+字段(Fields)
 ------
 
 .. i18n: Standard
 .. i18n: +++++++++
 ..
 
-Standard
+标准(Standard)
 +++++++++
 
 .. i18n: .. code-block:: python
@@ -615,15 +613,15 @@ Standard
 .. i18n: * **readonly**: (optional) 
 ..
 
-* **string**: Field label (required)
-* **type**: (required)
-* **readonly**: (optional) 
+* **string**: 字段的标签(必填)
+* **type**: (必填)
+* **readonly**: (可选) 
 
 .. i18n: Relational
 .. i18n: ++++++++++
 ..
 
-Relational
+关系(Relational)
 ++++++++++
 
 .. i18n: .. code-block:: python
@@ -648,15 +646,15 @@ Relational
 .. i18n: * **relation**: name of the relation object 
 ..
 
-* **string**: Field label (required)
-* **type**: (required)
-* **relation**: name of the relation object 
+* **string**: 字段标签 (必填)
+* **type**: (必填)
+* **relation**: 所关系的对象名称 
 
 .. i18n: Selection
 .. i18n: ++++++++++
 ..
 
-Selection
+选择(Selection)
 ++++++++++
 
 .. i18n: .. code-block:: python
@@ -695,21 +693,21 @@ Selection
 .. i18n: * **selection**: key and values for the selection field   
 ..
 
-* **string**: Field label (required)
-* **type**: (required)
-* **selection**: key and values for the selection field   
+* **string**: 字段标签 (必填)
+* **type**: (必填)
+* **selection**: 选择字段中的键和值   
 
 .. i18n: Add A New Wizard
 .. i18n: ================
 ..
 
-Add A New Wizard
+添加一个新向导
 ================
 
 .. i18n: To create a new wizard, you must:
 ..
 
-To create a new wizard, you must:
+创建一个新向导，你应该:
 
 .. i18n:     * create the wizard definition in a .py file
 .. i18n:           * wizards are usually defined in the wizard subdirectory of their module as in server/bin/addons/module_name/wizard/your_wizard_name.py 
@@ -717,20 +715,20 @@ To create a new wizard, you must:
 .. i18n:     * declare your wizard in the database 
 ..
 
-    * create the wizard definition in a .py file
-          * wizards are usually defined in the wizard subdirectory of their module as in server/bin/addons/module_name/wizard/your_wizard_name.py 
-    * add your wizard to the list of import statements in the __init__.py file of your module's wizard subdirectory.
-    * declare your wizard in the database 
+    * 在一个 .py 文件中创建向导定义
+          * 向导一般都是定义在组件中的向导子文件夹中 server/bin/addons/module_name/wizard/your_wizard_name.py 
+    * 把向导添加到导入的声明列表，该列表位于组件向导子目录的 __init__.py 文件.
+    * 在数据库中声明向导
 
 .. i18n: The declaration is needed to map the wizard with a key of the client; when to launch which client. To declare a new wizard, you need to add it to the module_name_wizard.xml file, which contains all the wizard declarations for the module. If that file does not exist, you need to create it first.
 ..
 
-The declaration is needed to map the wizard with a key of the client; when to launch which client. To declare a new wizard, you need to add it to the module_name_wizard.xml file, which contains all the wizard declarations for the module. If that file does not exist, you need to create it first.
+声明需要映射向导和客户端键之间的关系，从而才能启动相应的客户端。声明一个新向导，需要把它加到 module_name_wizard.xml 文件里，该文件包含了此组件所有的向导声明。若该文件不存在，则需先创建.
 
 .. i18n: Here is an example of the account_wizard.xml file;
 ..
 
-Here is an example of the account_wizard.xml file;
+这里以 account_wizard.xml 文件做一个例子;
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -778,7 +776,7 @@ Here is an example of the account_wizard.xml file;
 .. i18n: Attributes for the wizard tag:
 ..
 
-Attributes for the wizard tag:
+向导的标签属性:
 
 .. i18n:     * **id**: Unique identifier for this wizard.
 .. i18n:     * **string**: The string which will be displayed if there are several wizards for one resource. (The user will be presented a list with the wizards' names).
@@ -793,17 +791,17 @@ Attributes for the wizard tag:
 .. i18n:           * **tree_but_open**: the double click on a branch of a tree (with the shortcuts on the left). For example, this is used, to bind wizards in the menu. 
 ..
 
-    * **id**: Unique identifier for this wizard.
-    * **string**: The string which will be displayed if there are several wizards for one resource. (The user will be presented a list with the wizards' names).
-    * **model**: The name of the **model** where the data needed by the wizard is.
-    * **name**: The name of the wizard. It is used internally and should be unique.
-    * **replace** (optional): Whether or not the wizard should override **all** existing wizards for this model. Default value: False.
-    * **menu** (optional): Whether or not (True|False) to link the wizard with the 'gears' button (i.e. show the button or not). Default value: True.
-    * **keyword** (optional): Bind the wizard to another action (print icon, gear icon, ...). Possible values for the keyword attribute are:
-          * **client_print_multi**: the print icon in a form
-          * **client_action_multi**: the 'gears' icon in a form
-          * **tree_but_action**: the 'gears' icon in a tree view (with the shortcuts on the left)
-          * **tree_but_open**: the double click on a branch of a tree (with the shortcuts on the left). For example, this is used, to bind wizards in the menu. 
+    * **id**: 此向导的唯一标识.
+    * **string**: 如果一个资源关联多个向导，此字符串会显示）.
+    * **model**: 对象从该模型中获取所需数据.
+    * **name**: 向导的名称，只可内部使用并且唯一.
+    * **replace** (可选): 此向导是否要重写 **all** 所有已经存在的向导。缺省值: False.
+    * **menu** (可选): 是否 (True|False) 把向导和 'gears' 按钮 (i.e. show the button or not) 关联到一起。缺省值: True.
+    * **keyword** (可选): 向导绑定另一动作 (print icon, gear icon, ...). 关键字属性的可能值为:
+          * **client_print_multi**: 表单中的打印图标
+          * **client_action_multi**: 表单中的 'gears' 图标
+          * **tree_but_action**: 列表中的 'gears' 图标 (在左侧的快捷方式)
+          * **tree_but_open**: 在树的一个分支，双击 (在左侧的快捷方式). 例如，有这样的应用，在菜单中来绑定向导. 
 
 .. i18n: **__openerp__.py**
 ..
@@ -813,12 +811,12 @@ Attributes for the wizard tag:
 .. i18n: If the wizard you created is the first one of its module, you probably had to create the modulename_wizard.xml file yourself. In that case, it should be added to the update_xml field of the __openerp__.py file of the module.
 ..
 
-If the wizard you created is the first one of its module, you probably had to create the modulename_wizard.xml file yourself. In that case, it should be added to the update_xml field of the __openerp__.py file of the module.
+若创建的向导是模块中的第一个，还需要创建 modulename_wizard.xml 文件. 在这样的情况下，需要在 __openerp__.py 模块文件中增加 update_xml 文件.
 
 .. i18n: Here is, for example, the **__openerp__.py** file for the account module.
 ..
 
-Here is, for example, the **__openerp__.py** file for the account module.
+例如 ，下面的 account 模块 account_wizard.xml 需要添加到 **__openerp__.py** 文件.
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -846,16 +844,16 @@ Here is, for example, the **__openerp__.py** file for the account module.
 .. i18n: To develop osv_memory wizard, just create a normal object, But instead of inheriting from osv.osv, Inherit from osv.osv_memory. Methods of "wizard" are in object and if the wizard is complex, You can define workflow on object. osv_memory object is managed in memory instead of storing in postgresql.
 ..
 
-osv_memory Wizard System
+osv_memory 向导系统
 ========================
-To develop osv_memory wizard, just create a normal object, But instead of inheriting from osv.osv, Inherit from osv.osv_memory. Methods of "wizard" are in object and if the wizard is complex, You can define workflow on object. osv_memory object is managed in memory instead of storing in postgresql.
+开发一个 osv_memory 向导, 只需创建一普通的对象，不是继承至 osv.osv, 而是继承至 osv.osv_memory. 向导 "wizard" 的方法是在对象中的，如果向导很复杂，可以在对象中定义工作流. osv_memory 对象是存储在内存中的，而不是存储在 postgresql.
 
 .. i18n: That's all, nothing more than just changing the inherit. These wizards can be defined at any location unlike addons/modulename/modulename_wizard.py. 
 .. i18n: Historically, the _wizard prefix is for actual (old-style) wizards, so there might be a connotation there, the "new-style" osv_memory based "wizards" are perfectly normal objects (just used to emulate the old wizards, so they don't really match the old separations. 
 .. i18n: Furthermore, osv_memory based "wizards" tend to need more than one object (e.g. one osv_memory object for each state of the original wizard) so the correspondence is not exactly 1:1.
 ..
 
-That's all, nothing more than just changing the inherit. These wizards can be defined at any location unlike addons/modulename/modulename_wizard.py. 
+就这些，仅仅是改变了继承。这些向导可以被定义在任意位置，而不仅仅是 addons/modulename/modulename_wizard.py. 
 Historically, the _wizard prefix is for actual (old-style) wizards, so there might be a connotation there, the "new-style" osv_memory based "wizards" are perfectly normal objects (just used to emulate the old wizards, so they don't really match the old separations. 
 Furthermore, osv_memory based "wizards" tend to need more than one object (e.g. one osv_memory object for each state of the original wizard) so the correspondence is not exactly 1:1.
 
