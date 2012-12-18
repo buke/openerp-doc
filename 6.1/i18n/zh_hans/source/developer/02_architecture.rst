@@ -35,7 +35,7 @@ MVC 架构
 .. i18n: For example in the diagram above, the solid lines for the arrows starting from the controller and going to both the view and the model mean that the controller has a complete access to both the view and the model. The dashed line for the arrow going from the view to the controller means that the view has a limited access to the controller. The reasons of this design are :
 ..
 
-For example in the diagram above, the solid lines for the arrows starting from the controller and going to both the view and the model mean that the controller has a complete access to both the view and the model. The dashed line for the arrow going from the view to the controller means that the view has a limited access to the controller. The reasons of this design are :
+例如上图中, 带有箭头的实线从控制模同时指向试图和模型，其中的含义是说控制模块对试图和模型具有完全访问权限。 The dashed line for the arrow going from the view to the controller means that the view has a limited access to the controller. The reasons of this design are :
 
 .. i18n:     * From **View** to **Model** : the model sends notification to the view when its data has been modified in order the view to redraw its content. The model doesn't need to know the inner workings of the view to perform this operation. However, the view needs to access the internal parts of the model.
 .. i18n:     * From **View** to **Controller** : the reason why the view has limited access to the controller is because the dependencies from the view to the controller need to be minimal: the controller can be replaced at any moment. 
