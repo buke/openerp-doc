@@ -1,9 +1,8 @@
-
 .. i18n: A look at few examples to write MDX Queries
 .. i18n: -------------------------------------------
 ..
 
-A look at few examples to write MDX Queries
+看几个例子来编写MDX查询
 -------------------------------------------
 
 .. i18n: Writing a simple MDX on a SALES Schema::
@@ -14,7 +13,7 @@ A look at few examples to write MDX Queries
 .. i18n:     from sale_order_line
 ..
 
-Writing a simple MDX on a SALES Schema::
+编写一个简单的销售MDX::
 
     select 
       {[partner_country].[all]} on rows,
@@ -24,7 +23,7 @@ Writing a simple MDX on a SALES Schema::
 .. i18n: Gives results as,
 ..
 
-Gives results as,
+输出的结果,
 
 .. i18n: ===================== ============
 .. i18n:  /                     Items Sold
