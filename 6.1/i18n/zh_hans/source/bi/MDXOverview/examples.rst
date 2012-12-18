@@ -23,7 +23,7 @@
 .. i18n: Gives results as,
 ..
 
-输出的结果,
+输出结果为,
 
 .. i18n: ===================== ============
 .. i18n:  /                     Items Sold
@@ -46,7 +46,7 @@
 .. i18n:     from sale_order_line
 ..
 
-Expanding the partner country to its children, we change the MDX as.::
+我们改变MDX，扩展合作伙伴国家到子分类.::
 
     select 
        {[partner_country].[all],[partner_country].children} on rows, 
@@ -56,7 +56,7 @@ Expanding the partner country to its children, we change the MDX as.::
 .. i18n: Gives result as,
 ..
 
-Gives result as,
+输出结果为,
 
 .. i18n: ===================== ============
 .. i18n:  /                     Items Sold
@@ -86,7 +86,7 @@ Gives result as,
 .. i18n:     where ([date_order].[2008])
 ..
 
-One more example bit complex with slicer::
+切片例子::
 
     select 
       {[date_order].children,[date_order].[2008].children,[date_order].[2008].[Q2].children},
@@ -97,7 +97,7 @@ One more example bit complex with slicer::
 .. i18n: Gives results as:
 ..
 
-Gives results as:
+输出结果为:
 
 .. i18n: ===================== ============
 .. i18n:  /                     Items Sold
