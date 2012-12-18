@@ -166,10 +166,7 @@ Enter the following information
 .. i18n: state.
 ..
 
-It is now in a state of \ ``Request for
-Quotation``\ , so click :guilabel:`Convert to Purchase Order`, which corresponds to an approval from
-a manager or from Accounts within your own company and moves the order into \ ``Approved`` \
-state.
+目前为止采购还仅是\ ``询价状态``\ ,现在你可以使用 \ ``采购经理``\ 或者 \ ``公司财务``\ 的角色 进到本采购单 点击 :guilabel:`转换为采购单` 的按钮, 批准该笔采购.
 
 .. i18n: If you click the :guilabel:`Delivery & Invoicing` tab
 .. i18n: you will see the delivery :guilabel:`Destination` is your own company's ``Stock`` location and that
@@ -197,8 +194,7 @@ group to activate it.
 .. i18n: this would be somebody in Stores, who would:
 ..
 
-After confirming the order, you would wait for the delivery of the products from your supplier. Typically
-this would be somebody in Stores, who would:
+在确认采购后,就需要等供应商送货,并按下面的操作进行收货操作:
 
 .. i18n: 	#. Open the menu :menuselection:`Warehouse --> Warehouse Management --> Incoming Shipments` using the expand/collapse icon.
 ..
