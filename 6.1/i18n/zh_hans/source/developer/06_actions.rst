@@ -1,18 +1,17 @@
-
 .. i18n: =============
 .. i18n: Server Action
 .. i18n: =============
 ..
 
 =============
-Server Action
+服务端动作
 =============
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
-Introduction
+简介
 ------------
 
 .. i18n: Server action is an new feature available since the OpenERP
@@ -36,7 +35,7 @@ or invoices.
 .. i18n: -----------------------------------
 ..
 
-Step 1: Definition of Server Action 
+第一步：定义服务端动作
 -----------------------------------
 
 .. i18n: Here is the list of the different action types supplied under the Server Action.
@@ -84,7 +83,7 @@ describe how to configure them, together with a list of parameters affecting the
 
 .. _client-action:
 
-Client Action
+客户端动作
 ~~~~~~~~~~~~~
 
 .. i18n: This action executes on the client side. It can be used to run a
@@ -158,7 +157,7 @@ line item must be historized. You can loop on expression object.move_lines and c
 .. i18n: ~~~~~~~~~~~
 ..
 
-Python Code
+Python 代码
 ~~~~~~~~~~~
 
 .. i18n: This action type is used to execute multiline python code. The
@@ -187,7 +186,7 @@ following identifiers: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
 .. i18n: ~~~~~~~~
 ..
 
-Trigger
+触发器
 ~~~~~~~~
 
 .. i18n: Any transition of the workflow can be triggered using this action. The
@@ -236,7 +235,7 @@ automatically confirm invoices:
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-Email Action
+Email 动作
 ~~~~~~~~~~~~~
 
 .. i18n: This action fulfills a  common requirement for all business process, sending a confirmation by email
@@ -260,7 +259,7 @@ including free email account (Gmail, Yahoo !, etc...)
 .. i18n: *Server Configuration*
 ..
 
-*Server Configuration*
+*服务器配置*
 
 .. i18n: The OpenERP server must know how to connect to the SMTP server. This
 .. i18n: can be done from the command line when starting the server or by
@@ -355,7 +354,7 @@ email such as the following is sent:
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-Create Object
+创建对象
 ~~~~~~~~~~~~~
 
 .. i18n: This type of action can be used to emulate the Event history feature currently
@@ -436,7 +435,7 @@ Important fields are:
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-Write Object
+编辑对象
 ~~~~~~~~~~~~~
 
 .. i18n: The configuration is very similar to the Create Object actions. The
@@ -465,7 +464,7 @@ Important Fields are
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-Multi Action
+多重组合动作
 ~~~~~~~~~~~~~
 
 .. i18n: This action allows to execute  multiple server actions on the same
@@ -524,7 +523,7 @@ Important Fields are:
 .. i18n: -------------------------------------------
 ..
 
-Step 2: Mapping Server actions to workflows
+第二步：给工作流定义服务端动作
 -------------------------------------------
 
 .. i18n: Server actions by themselves are useless, until a workflow stage is
