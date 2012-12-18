@@ -249,8 +249,8 @@
 .. i18n: ==========
 ..
 
-活动
-====
+Activity(活动)
+=============
 
 .. i18n: Introduction
 .. i18n: ------------
@@ -546,8 +546,8 @@
 .. i18n: ===========
 ..
 
-转变
-====
+Transition(转变)
+================
 
 .. i18n: Introduction
 .. i18n: ------------
@@ -619,7 +619,7 @@
 .. i18n: The destination activity.
 ..
 
-目标的活动
+转变要进行到的目标活动
 
 .. i18n: ::
 .. i18n: 
@@ -628,7 +628,7 @@
 
 ::
 
-    状态
+    condition(状态)
 
 .. i18n: **Expression** to be satisfied if we want the transition done.
 ..
@@ -642,7 +642,7 @@
 
 ::
 
-    信号
+    signal(信号)
 
 .. i18n: When the operation of transition comes from a button pressed in the client form, signal tests the name of the pressed button.
 ..
@@ -722,7 +722,7 @@
 .. i18n: ===========
 ..
 
-表达式
+Expressions(表达式)
 =====
 
 .. i18n: Expressions are written as in Python:
