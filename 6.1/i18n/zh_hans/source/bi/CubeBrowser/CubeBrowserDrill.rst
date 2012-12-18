@@ -32,15 +32,15 @@
 .. i18n: --------------------
 ..
 
-Drill Up on a Member
+成员上钻
 --------------------
 
 .. i18n: Drill up causes a member to wrap up all this children if displayed.
 .. i18n: Just a click on an expanded parent member will wrap all its child members.
 ..
 
-Drill up causes a member to wrap up all this children if displayed.
-Just a click on an expanded parent member will wrap all its child members.
+上钻导致成员收起所有的子成员，当子成员在显示状态.
+仅仅是点击父成员即可收起它的子成员.
 
 .. i18n: .. image::  images/data_browser16.png
 .. i18n:    :scale: 65
