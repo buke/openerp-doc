@@ -48,9 +48,8 @@ OpenERP允许你通过多个维度进行分析，通过周期（本年，本月�
 .. i18n: module is described in detail in the chapter :ref:`ch-sales`.
 ..
 
-This analysis is carried out on supplier orders and not on invoices or the quantities actually
-received. To get an analysis by product, use the module :mod:`product_margin`. The function of this
-module is described in detail in the chapter :ref:`ch-sales`.
+这个分析在基于供应商订单，而不是发票或者实际到货数量。要得到产品分析，使用模块 :mod:`product_margin`. 这个功能
+模块在:ref:`ch-sales`.章有更详细说明
 
 .. i18n: To analyze the received quantities, you can use the statistical reports in Warehouse.
 ..
