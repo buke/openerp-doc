@@ -54,7 +54,7 @@ OpenERP允许你通过多个维度进行分析，通过周期（本年，本月�
 .. i18n: To analyze the received quantities, you can use the statistical reports in Warehouse.
 ..
 
-To analyze the received quantities, you can use the statistical reports in Warehouse.
+为了分析到货数量，你可以使用库存统计报表，
 
 .. i18n: .. index::
 .. i18n:    single: Analytic Accounts
@@ -69,10 +69,9 @@ To analyze the received quantities, you can use the statistical reports in Wareh
 .. i18n: by OpenERP from the goods receipt and confirmation of the supplier invoice.
 ..
 
-To manage purchases by project, you should use analytic accounts. 
-You can set an analytic account on each line of a supplier order. 
-The analytic costs linked to this purchase will be managed
-by OpenERP from the goods receipt and confirmation of the supplier invoice.
+为了管理项目采购，你应该分析帐目。你可以在供应商订单的每一行上设置一个分析帐目。
+OpenERP通过管理供应商发票确认和货物收据管理这次采购关联的成本。
+
 
 .. i18n: .. index::
 .. i18n:    single: module; hr_timesheet_invoice
