@@ -390,7 +390,7 @@ Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens t
 
         这里描述的方法是为企业,不使用他们的会计系统付账单——
         只是来记录他们
-.
+
 	If you are using the :mod:`account` module with all its features, other, more efficient, methods let you manage payments,
 	such as entering account statements, reconciling paperwork, using tools for preparing payments,
 	interfacing with banks.

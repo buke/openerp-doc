@@ -251,6 +251,7 @@ We will integrate this on the gtk and web clients of OpenERP. The GTK client wil
 * Cube服务器通信：XMLRPC
 
 * OOo整合：PÿUNO 
+
 .. i18n: We will use an object relational mapping system on all objects: dimensions, ...
 ..
 
