@@ -3,9 +3,9 @@
 .. i18n: =======
 ..
 
-=======
+====
 报表
-=======
+====
 
 .. i18n: There are mainly three types of reports in OpenERP:
 ..
@@ -31,7 +31,7 @@ OpenERP 主要有三种类型的报表:
 ..
 
 OpenOffice.org 报表
-======================
+===================
 
 .. i18n: **The document flow**
 ..
@@ -118,7 +118,7 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 ..
 
 生成 SXW 文件
---------------
+-------------
 
 .. i18n: You can design reports using *OpenOffice*. Here, as an example, is the file **server/bin/addons/sale/report/order.sxw**.
 ..
@@ -143,7 +143,7 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 .. _dynamic-report-content:
 
 OpenOffice 报表中的动态内容 
--------------------------------------
+---------------------------
 
 .. i18n: **Dynamic content**
 ..
@@ -381,7 +381,7 @@ SXW2RML
 ..
 
 Open Report 手册
-++++++++++++++++++
+++++++++++++++++
 
 .. i18n: About
 .. i18n: """""
@@ -485,7 +485,7 @@ OpenERP Server PDF 输出
 ..
 
 Server PDF 输出
-+++++++++++++++++
++++++++++++++++
 
 .. i18n: About
 .. i18n: """""
@@ -572,7 +572,7 @@ To generate the pdf from the rml file, OpenERP needs a rml parser.
 ..
 
 xml 定义
-""""""""""""""""""
+""""""""
 
 .. i18n: To be visible from the client, the report must be declared in an xml file (generally: "module_name"_report.xml) that must be put in the **__openerp__.py** file
 ..
@@ -646,7 +646,7 @@ xml 定义
 ..
 
 XSL:RML 报表
-===============
+============
 
 .. i18n: RML reports don't require programming but require two simple XML files to be written:
 ..
@@ -1234,7 +1234,7 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 ..
 
 XML 模板
-------------
+--------
 
 .. i18n: XML templates are simple XML files describing which fields among all available object fields are necessary for the report.
 ..
@@ -1246,7 +1246,7 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 ..
 
 文件格式
-+++++++++++
+++++++++
 
 .. i18n: Tag names can be chosen arbitrarily (it must be valid XML though). In the XSL file, you will have to use those names. Most of the time, the name of a tag will be the same as the name of the object field it refers to.
 ..
@@ -1278,7 +1278,7 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 ..
 
 其它类型
-++++++++++++++
+++++++++
 
 .. i18n: Here is the list of available field types:
 ..
@@ -1348,9 +1348,9 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 .. i18n:     * **call**: calls the object method whose name is given in the name attribute with the arguments given in the args attribute. The result is stored into a dictionary of the form {'name_of_variable': value, ... } and can be accessed through child nodes. These nodes must have a value attribute which correspond to one of the keys of the dictionary returned by the method. 
 ..
 
-    * **function**: returns the result of the call to the function whose name is given in the name attribute. This function must be part of the list of predefined functions. For the moment, the only available function is today, which returns the current date. 
+    * **function**: 返回name属性中所调用函数的结果。这个函数必须是提前定义的。暂时可用的函数是today，用来返回现在日期. 
 
-    * **call**: calls the object method whose name is given in the name attribute with the arguments given in the args attribute. The result is stored into a dictionary of the form {'name_of_variable': value, ... } and can be accessed through child nodes. These nodes must have a value attribute which correspond to one of the keys of the dictionary returned by the method. 
+    * **call**: calls对象name属性是方法名称，args属性是参数名称。函数的结果放进一个字典(dictionary)，形如：{'name_of_variable': value, ... } 这个结果可以被子结点使用。使用call类型的结点必须有相应的value属性，以和调用方法所返回的字典键(key)匹配. 
 
 .. i18n: **Example**:
 .. i18n: ::
@@ -1363,7 +1363,7 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 .. i18n: 	</cost> 
 ..
 
-**Example**:
+**示例**:
 ::
 
 	<cost type="call" name="compute_seller_costs" args="">
@@ -1381,19 +1381,19 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 .. i18n:     * **attachment**: extract the first attachment of the resource whose id is taken from the field whose name is given in the name attribute, and put it as an image in the report. 
 ..
 
-    * **attachment**: extract the first attachment of the resource whose id is taken from the field whose name is given in the name attribute, and put it as an image in the report. 
+    * **attachment**: 提取属性name中对应id的资源，作为报表的图像(image). 
 
 .. i18n: Example:
 .. i18n: 	<image type="attachment" name="id"/> 
 ..
 
-Example:
+示例:
 	<image type="attachment" name="id"/> 
 
 .. i18n: **Example**
 ..
 
-**Example**
+**示例**
 
 .. i18n: Here is an example of XML file:
 .. i18n: ::
@@ -1416,7 +1416,7 @@ Example:
 .. i18n: 	    </transfer-list> 
 ..
 
-Here is an example of XML file:
+XML 文件的例子:
 ::
 
 	    <?xml version="1.0" encoding="ISO-8859-1"?> 
@@ -1440,13 +1440,13 @@ Here is an example of XML file:
 .. i18n: -------------------
 ..
 
-Introduction to RML
--------------------
+RML 介绍
+--------
 
 .. i18n: For more information on the RML format, please refer to the official Reportlab documentation.
 ..
 
-For more information on the RML format, please refer to the official Reportlab documentation.
+有关RML格式的更多信息, 请参照官方文档.
 
 .. i18n:     * http://www.reportlab.com/docs/rml2pdf-userguide.pdf 
 ..
@@ -1457,28 +1457,28 @@ For more information on the RML format, please refer to the official Reportlab d
 .. i18n: ------------------
 ..
 
-XSL:RML Stylesheet
-------------------
+XSL:RML 样式表
+--------------
 
 .. i18n: There are two possibilities to do a XSL style sheet for a report. Either making everything by yourself, or use our predefined templates
 ..
 
-There are two possibilities to do a XSL style sheet for a report. Either making everything by yourself, or use our predefined templates
+生成报表的XSL样式表有两个可选项. 两者都可以我们自己定制, 或者，使用我们自己定制的模板(template)
 
 .. i18n: Either freestyle or use corporate_defaults + rml_template
 ..
 
-Either freestyle or use corporate_defaults + rml_template
+可以是freestyle,也可以用 corporate_defaults + rml_template
 
 .. i18n:     import rml_template.xsl 
 ..
 
-    import rml_template.xsl 
+    引入 rml_template.xsl 
 
 .. i18n:         required templates:
 ..
 
-        required templates:
+        需要的模板:
 
 .. i18n:             - frames? 
 .. i18n:             - stylesheet 
@@ -1492,7 +1492,7 @@ Either freestyle or use corporate_defaults + rml_template
 .. i18n:         optional templates: 
 ..
 
-        optional templates: 
+        可选的模板: 
 
 .. i18n: Translations
 .. i18n: ++++++++++++
@@ -1504,14 +1504,14 @@ Translations
 .. i18n: As OpenERP can be used in several languages, reports must be translatable. But in a report, everything doesn't have to be translated : only the actual text has to be translated, not the formatting codes. A field will be processed by the translation system if the XML tag which surrounds it (whatever it is) has a t="1" attribute. The server will translate all the fields with such attributes in the report generation process.
 ..
 
-As OpenERP can be used in several languages, reports must be translatable. But in a report, everything doesn't have to be translated : only the actual text has to be translated, not the formatting codes. A field will be processed by the translation system if the XML tag which surrounds it (whatever it is) has a t="1" attribute. The server will translate all the fields with such attributes in the report generation process.
+OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言。但是一个报表中，并不是所有项目都被翻译，比如动态的文本需要翻译转换，而格式 代码(format code)则不需要。一个字段如果包在XML标签(类似 t="1" )，翻译系统就会处理它。server会在报表生成过程中处理所有这样的字段.
 
 .. i18n: Useful links
 .. i18n: ++++++++++++
 ..
 
-Useful links
-++++++++++++
+一些有用的链接
+++++++++++++++
 
 .. i18n:     * url=http://www.reportlab.com/docs/rml2pdf-userguide.pdf RML UserGuide (pdf) (reportlab.com) 
 .. i18n: 
@@ -1521,12 +1521,12 @@ Useful links
 .. i18n:     * http://www.w3.org/TR/xslt/ XSL Specification (W3C) 
 ..
 
-    * url=http://www.reportlab.com/docs/rml2pdf-userguide.pdf RML UserGuide (pdf) (reportlab.com) 
+    * url=http://www.reportlab.com/docs/rml2pdf-userguide.pdf RML 用户指南 (pdf) (reportlab.com) 
 
-    * http://www.zvon.org/xxl/XSLTutorial/Output/index.html XSL Tutorial (zvon.org)
-    * http://www.zvon.org/xxl/XSLTreference/Output/index.html XSL Reference (zvon.org)
-    * http://www.w3schools.com/xsl/ XSL tutorial and references (W3Schools)
-    * http://www.w3.org/TR/xslt/ XSL Specification (W3C) 
+    * http://www.zvon.org/xxl/XSLTutorial/Output/index.html XSL 教程 (zvon.org)
+    * http://www.zvon.org/xxl/XSLTreference/Output/index.html XSL 参考 (zvon.org)
+    * http://www.w3schools.com/xsl/ XSL 教程和参考 (W3Schools)
+    * http://www.w3.org/TR/xslt/ XSL 规范 (W3C) 
 
 .. i18n: Example (with corporate defaults)
 .. i18n: +++++++++++++++++++++++++++++++++
@@ -1601,8 +1601,8 @@ Useful links
 .. i18n: 	    </xsl:stylesheet> 
 ..
 
-Example (with corporate defaults)
-+++++++++++++++++++++++++++++++++
+示例 (使用公司表头 corporate defaults)
+++++++++++++++++++++++++++++++++++++++
 ::
 
 	    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" :xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1677,8 +1677,8 @@ Example (with corporate defaults)
 .. i18n: ================================
 ..
 
-Reports without corporate header 
-================================
+没有公司表头( corporate header )的示例
+======================================
 
 .. i18n: **Example (with corporate defaults):**
 .. i18n: ::
@@ -1731,7 +1731,7 @@ Reports without corporate header
 .. i18n: 	</xsl:stylesheet>
 ..
 
-**Example (with corporate defaults):**
+**示例 (使用默认的公司表头 corporate defaults):**
 ::
 
 	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" :xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1785,8 +1785,8 @@ Reports without corporate header
 .. i18n: =========================================
 ..
 
-Each report with its own corporate header 
-=========================================
+每个报表都有自己的公司表头( corporate header )
+==============================================
 
 .. i18n: **Example (with corporate defaults):**
 .. i18n: ::
@@ -1802,7 +1802,7 @@ Each report with its own corporate header
 .. i18n: 	    </xsl:stylesheet> 
 ..
 
-**Example (with corporate defaults):**
+**示例 (使用默认的公司表头 corporate defaults):**
 ::
 
 	    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" :xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1819,20 +1819,20 @@ Each report with its own corporate header
 .. i18n: =========
 ..
 
-Bar Codes 
-=========
+条形码(Bar Codes) 
+=================
 
 .. i18n: Barcodes in RML files
 .. i18n: ---------------------
 ..
 
-Barcodes in RML files
----------------------
+RML 文件中的条形码(Barcodes)
+----------------------------
 
 .. i18n: Barcodes can be generated using the <barCode> tag in RML files. The following formats are supported:
 ..
 
-Barcodes can be generated using the <barCode> tag in RML files. The following formats are supported:
+可以在RML 文件中使用<barCode>标签生成条形码(Barcodes)。 支持以下格式:
 
 .. i18n:     * codabar
 .. i18n:     * code11
@@ -1862,7 +1862,7 @@ Barcodes can be generated using the <barCode> tag in RML files. The following fo
 
     * codabar
     * code11
-    * code128 (default if no 'code' specified')
+    * code128 (如果没有指定 'code' ,则默认code128码)
     * standard39
     * standard93
     * i2of5
@@ -1876,7 +1876,7 @@ Barcodes can be generated using the <barCode> tag in RML files. The following fo
     * usps_4state
                                         
   
-You can change the following attributes for rendering your barcode:
+你可以更改以下属性来生成自己的条形码(barcode):
 
     * 'code': 'char'
     * 'ratio':'float'
@@ -1888,7 +1888,7 @@ You can change the following attributes for rendering your barcode:
 .. i18n: Examples:
 ..
 
-Examples:
+示例:
 
 .. i18n:     <barcode code="code128" xdim="28cm" ratio="2.2">`SN12345678</barcode> 
 ..
@@ -1899,13 +1899,12 @@ Examples:
 .. i18n: =======================
 ..
 
-How to add a new report
-=======================
+如何生成一个新的报表
+====================
 
 .. i18n: In 4.0.X
 ..
-
-In 4.0.X
+在 4.0.X
 
 .. i18n:     Administration -> Custom -> Low Level -> Base->Actions -> ir.actions.report.xml 
 ..
@@ -1916,62 +1915,61 @@ In 4.0.X
 .. i18n: ==========
 ..
 
-Usual TAGS
-==========
+常用标签
+========
 
 .. i18n: Code within [[ ]] tags is python code
 .. i18n: -------------------------------------
 ..
 
-Code within [[ ]] tags is python code
--------------------------------------
+包含在 [[ ]] 标签中的代码是 python 代码
+---------------------------------------
 
 .. i18n: The context of the code (the variable's values you can use) is the same as that 
 .. i18n: described for :ref:`dynamic-report-content`.
 ..
 
-The context of the code (the variable's values you can use) is the same as that 
-described for :ref:`dynamic-report-content`.
+代码中的内容(你可以使用的变量值)和链接 :ref:`dynamic-report-content` 描述中的相同.
 
 .. i18n: Unicode reports 
 .. i18n: ===============
 ..
 
-Unicode reports 
-===============
+Unicode 报表 
+============
 
 .. i18n: As of OpenERP 5.0-rc3 unicode printing with ReportLab is still not available. The problem is that OpenERP uses the PDF standard fonts (14 fonts, they are not embedded in the document but the reader provides them) that are Type1 and have only Latin1 characters.
 ..
 
-As of OpenERP 5.0-rc3 unicode printing with ReportLab is still not available. The problem is that OpenERP uses the PDF standard fonts (14 fonts, they are not embedded in the document but the reader provides them) that are Type1 and have only Latin1 characters.
+OpenERP 5.0-rc3 中还是不能使用Unicode 报表的。症结在于OpenERP使用的PDF标准字体(14号字体，不嵌入文档，而是由pdf reader提供)Type1只含有Latin1字符.
 
 .. i18n: The solution consists of 3 parts
 .. i18n: --------------------------------
 ..
 
-The solution consists of 3 parts
---------------------------------
+解决办法有三步
+--------------
 
 .. i18n:     * Provide TrueType fonts and make them accessible for ReportLab.
 .. i18n:     * Register the TrueType fonts with ReportLab before using them in the reports.
 .. i18n:     * Replace the old fontNames in xsl and rml templates with the TrueType ones. 
 ..
 
-    * Provide TrueType fonts and make them accessible for ReportLab.
-    * Register the TrueType fonts with ReportLab before using them in the reports.
-    * Replace the old fontNames in xsl and rml templates with the TrueType ones. 
+    * 提供 TrueType 字体，让ReportLab可以使用他们.
+    * 在报表中使用Unicode之前，在ReportLab中注册TrueType 字体.
+    * 在xsl和rml模板中替换旧字体名称为TrueType. 
 
 .. i18n: All these ideas are taken from the forums
 .. i18n: -----------------------------------------
 ..
 
-All these ideas are taken from the forums
------------------------------------------
+论坛中有更详细的信息
+--------------------
 
 .. i18n: **Free TrueType fonts**
 ..
 
-**Free TrueType fonts**
+**免费的字体 TrueType fonts**
 
 .. i18n: that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.org/wiki/index.php?title=Main_Page They can be installed
 ..
@@ -1983,9 +1981,9 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 .. i18n:     * in a subdirectory of the OpenERP installation and give that path to ReportLab during the font registration. 
 ..
 
-    * in the ReportLab's fonts directory,
-    * system-wide and include that directory in rl_config.py,
-    * in a subdirectory of the OpenERP installation and give that path to ReportLab during the font registration. 
+    * 在 ReportLab 字体目录,
+    * 系统路径和 rl_config.py 中包含这个目录,
+    * 在 OpenERP 安装子目录提供一个路径给ReportLab作为注册字体用. 
 
 .. i18n: **In the server/bin/report/render/rml2pdf/__init__.py**
 .. i18n: ::
@@ -2010,7 +2008,7 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 .. i18n: 	addMapping('DejaVuSans-Bold', 1, 0, 'DejaVuSans') #normal
 ..
 
-**In the server/bin/report/render/rml2pdf/__init__.py**
+**在文件 server/bin/report/render/rml2pdf/__init__.py 中**
 ::
 
 	import reportlab.rl_config
@@ -2022,25 +2020,25 @@ that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.
 
 	enc = 'UTF-8'
 
-	#repeat these for all the fonts needed
+	#需要的字体做如下类似的重复
 	pdfmetrics.registerFont(TTFont('DejaVuSans', 'DejaVuSans.ttf',enc))
 	pdfmetrics.registerFont(TTFont('DejaVuSans-Bold', 'DejaVuSans-Bold.ttf',enc))
 
 	from reportlab.lib.fonts import addMapping
 
-	#repeat these for all the fonts needed
+	#需要的字体做如下类似的重复
 	addMapping('DejaVuSans', 0, 0, 'DejaVuSans') #normal
 	addMapping('DejaVuSans-Bold', 1, 0, 'DejaVuSans') #normal
 
 .. i18n: trml2pdf.py should be modified to load this if invoked from the command line.
 ..
 
-trml2pdf.py should be modified to load this if invoked from the command line.
+如果是命令行引用 trml2pdf.py ，则需要做如上修改.
 
 .. i18n: **All the xsl and rml files have to be modified**
 ..
 
-**All the xsl and rml files have to be modified**
+**所有需要修改的 xsl 和 rml 文件**
 
 .. i18n: A list of possible alternatives:
 .. i18n: ::
@@ -2073,7 +2071,7 @@ trml2pdf.py should be modified to load this if invoked from the command line.
 .. i18n: 	'HelveticaCondensed-Italic', 'DejaVuSansCondensed-Oblique.ttf
 ..
 
-A list of possible alternatives:
+需要修改调整的清单:
 ::
 
 	'Times-Roman',       'DejaVuSerif.ttf'
@@ -2107,31 +2105,31 @@ A list of possible alternatives:
 .. i18n: =================================
 ..
 
-Html Reports Using Mako Templates
-=================================
+使用Mako模板的HTML报表
+======================
 
 .. i18n: .. note:: Implemented in trunk only
 .. i18n: 
 .. i18n:    	Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
 ..
 
-.. note:: Implemented in trunk only
+.. note:: 只在trunk实现的
 
-   	Mako is a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
+   	Mako的是用Python编写一个模板库。它提供了一个熟悉的，非XML的语法，编译成Python模块以获得最佳性能.
 
 .. i18n: Mako Template
 .. i18n: -------------
 ..
 
-Mako Template
--------------
+Mako 模板
+---------
 
 .. i18n: Syntax
 .. i18n: ++++++
 ..
 
-Syntax
-++++++
+语法
+++++
 
 .. i18n:   	A Mako template is parsed from a text stream containing any kind of content, XML, HTML, email text, etc. 
 .. i18n:   	
@@ -2140,23 +2138,23 @@ Syntax
 .. i18n:   	This means that you can leverage the full power of Python in almost every aspect of a Mako template.
 ..
 
-  	A Mako template is parsed from a text stream containing any kind of content, XML, HTML, email text, etc. 
+  	Mako模板可以解析 XML, HTML, email text, 等文字流(parsed from a text stream) . 
   	
-  	The template can further contain Mako-specific directives which represent variable and/or expression substitutions, control structures (i.e. conditionals and loops), server-side comments, full blocks of Python code, as well as various tags that offer additional functionality. All of these constructs compile into real Python code. 
+  	Mako模板含有Mako特有的指令(Mako-specific directives), 包括变量、表达式替换(expression substitution)，控制结构(比如条件和循环,conditionals and loops)，服务器端命令，完整的Python代码块，这些就像不同功能的标签(tag)一样易用。所有这些指令都解析为Python代码. 
   	
-  	This means that you can leverage the full power of Python in almost every aspect of a Mako template.
+  	这意味着在Mako模板中，你可以最大化发挥Python的优势.
 
 .. i18n: Expression Substitution
 .. i18n: +++++++++++++++++++++++
 ..
 
-Expression Substitution
-+++++++++++++++++++++++
+表达式替换
+++++++++++
 
 .. i18n:   	The simplest expression is just a variable substitution. The syntax for this is the ${} construct instead of [[ ]] in rml.
 ..
 
-  	The simplest expression is just a variable substitution. The syntax for this is the ${} construct instead of [[ ]] in rml.
+  	最简单的表达式是变量替换。 Mako模板中使用 ${} 结构，而不是rml中的 [[ ]] .
 
 .. i18n: eg::
 .. i18n: 
@@ -2171,19 +2169,19 @@ eg::
 
     this is x: ${x}
 
-  	Above, the string representation of x is applied to the template's output stream where x comes from the localcontext supplied to the template's rendering function.
+  	上式被模板输出流解析(template output stream)，从本地上下文(localcontext)传递给模板生成函数(template rendering function).
 
-  	The contents within the ${} tag are evaluated by Python directly.
+  	标签 ${} 中的代码直接被Python解析.
 
 .. i18n: :Control Structures:
 ..
 
-:Control Structures:
+:控制结构:
 
 .. i18n:     	In Mako, control structures (i.e. if/else, loops (like while and for), as well as things like try/except) are written using the % marker followed by a regular Python control expression, and are "closed" by using another % marker with the tag "end<name>", where "<name>" is the keyword of the expression:
 ..
 
-    	In Mako, control structures (i.e. if/else, loops (like while and for), as well as things like try/except) are written using the % marker followed by a regular Python control expression, and are "closed" by using another % marker with the tag "end<name>", where "<name>" is the keyword of the expression:
+    	在Mako中，控制结构 (i.e. if/else, 循环 (像 while 和 for), 包括 try/except) 都使用 % 标记，之后接上普通的Python控制表达式即可。在控制结构结束时，使用 "end<name>" 标记，"<name>" 是控制结构的关键字:
 
 .. i18n: eg::
 .. i18n: 
@@ -2202,32 +2200,32 @@ eg::
 .. i18n: -------------
 ..
 
-Python Blocks
--------------
+Python 块
+---------
 
 .. i18n:     	Within <% %>, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
 ..
 
-    	Within <% %>, you're writing a regular block of Python code. While the code can appear with an arbitrary level of preceding whitespace, it has to be consistently formatted with itself. Mako's compiler will adjust the block of Python to be consistent with the surrounding generated Python code.
+    	在 <% %> 标记中, 你可以加入普通的Python代码块。虽然之中的代码可以加入任意的空格，但是还是注意下格式比较好。Mako的编译器会根据周围生成的 Python代码结构，调整Python代码块中的格式.
 
 .. i18n: Useful links:
 .. i18n: 	http://www.makotemplates.org/docs/
 ..
 
-Useful links:
+有用的链接:
 	http://www.makotemplates.org/docs/
 
 .. i18n: An Overview of Sale Order Example
 .. i18n: +++++++++++++++++++++++++++++++++
 ..
 
-An Overview of Sale Order Example
-+++++++++++++++++++++++++++++++++
+销售订单中的例子
+++++++++++++++++
 
 .. i18n: 	For Complete Example of Sale_order please Refer the module sale_report_html from :
 ..
 
-	For Complete Example of Sale_order please Refer the module sale_report_html from :
+	销售完整的例子请从下面的地址参照 sale_report_html 模块 :
 
 .. i18n:             https://code.launchpad.net/~openerp-community/openobject-addons/trunk-addons-community
 ..
@@ -2354,20 +2352,20 @@ An Overview of Sale Order Example
 .. i18n: You can format the report as you need using HTML.
 ..
 
-You can format the report as you need using HTML.
+可以根据需要用 HTML格式化报表.
 
 .. i18n: Report with header and footer
 .. i18n: +++++++++++++++++++++++++++++
 ..
 
-Report with header and footer
-+++++++++++++++++++++++++++++
+有报表头和报表尾(header and footer)的报表
++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: 	To create reports with your company header you need to include <%include file=”mako_header.html”/>
 .. i18n: 	To create reports with your company footer you need to include <%include file=”mako_footer.html”/>
 .. i18n: 	These files will bring the header and footer that you have defined for your company in the database.
 ..
 
-	To create reports with your company header you need to include <%include file=”mako_header.html”/>
-	To create reports with your company footer you need to include <%include file=”mako_footer.html”/>
-	These files will bring the header and footer that you have defined for your company in the database.
+	如果希望在报表中加入公司专有的页眉，需要包含 <%include file=”mako_header.html”/>
+	加入页脚需要包含 <%include file=”mako_footer.html”/>
+	这些文件会从数据库中读出你预先为公司定义好的页眉页脚.
