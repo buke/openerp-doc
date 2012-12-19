@@ -1151,12 +1151,12 @@ Expressions(表达式)
 .. i18n: The final step is to add the required buttons to ``mymod_views.xml`` file.
 ..
 
-最后一个步骤是把需要的按钮加到``mymod_views.xml`` 档案里。
+最后一个步骤是把需要的按钮加到 ``mymod_views.xml`` 档案里。
 
 .. i18n: Add the following at the end of the ``<form>`` section of your object's view definition:
 ..
 
-在你的物件的视图定义里，``<form>``部分的最后一段，加上以下程序:
+在你的物件的视图定义里， ``<form>`` 部分的最后一段，加上以下程序:
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -1207,4 +1207,4 @@ Expressions(表达式)
 ..
 
    1. 你正在处理的记录没有连接到工作流程实例(Instance)记录(也许是这笔记录是在你定义你的工作流程以前创建的)
-   2. 你在你的工作流程 XML 档案里没有正确设定``osv``这个字段
+   2. 你在你的工作流程 XML 档案里没有正确设定 ``osv`` 这个字段
