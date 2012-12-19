@@ -11,6 +11,7 @@
 .. i18n: ============
 ..
 
+
 简介
 ====
 
@@ -982,7 +983,7 @@ Expressions(表达式)
 .. i18n:     These define the actions that must be executed when the workflow reaches a particular state
 ..
 
-    这些记录是在定义工作流程到达某个特定状态时，必须执行的动作
+    这种记录是在定义工作流程到达某个特定状态时，必须执行的动作
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -1073,7 +1074,7 @@ Expressions(表达式)
 .. i18n:     These define the possible transitions between workflow states
 ..
 
-    这些记录是在定义工作流程的状态间，可能的转变
+    这种记录是在定义工作流程的状态间，可能的转变
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -1138,7 +1139,7 @@ Expressions(表达式)
 .. i18n: Edit your module's ``__openerp__.py`` and add ``"mymod_workflow.xml"`` to the ``update_xml`` array, so that OpenERP picks it up next time your module is loaded.
 ..
 
-修改你的模块里的``__openerp__.py``，然后把``"mymod_workflow.xml"``加到``update_xml``阵列，这样下一次 OpenERP 载入你的模块时，就会抓取这些修改。
+修改你的模块里的``__openerp__.py``；把``"mymod_workflow.xml"``加到``update_xml``阵列，这样下一次 OpenERP 载入你的模块时，就会抓取这些修改。
 
 .. i18n: Add Workflow Buttons to your View
 .. i18n: ---------------------------------
