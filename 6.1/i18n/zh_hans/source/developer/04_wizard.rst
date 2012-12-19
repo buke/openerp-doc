@@ -1226,8 +1226,7 @@ osv_memory 配置项
 .. i18n: configuration model and the view:
 ..
 
-The next step is to create the ``act_window`` which links to the
-configuration model and the view:
+下一步是创建 ``act_window`` ，用于连接模型和视图的配置:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1260,16 +1259,15 @@ configuration model and the view:
 .. i18n: Wizards).
 ..
 
-Note that the ``name`` field of this ``act_window`` will be displayed
-when listing the various configuration items in the Config Wizard
-Steps submenu (in Administration > Configuration > Configuration
+当在配置向导步骤的子菜单中列出多种配置选项时，注意到 ``act_window`` 的 ``name`` 字段会被显示出来
+ (在 Administration > Configuration > Configuration
 Wizards).
 
 .. i18n: Registering your action
 .. i18n: +++++++++++++++++++++++
 ..
 
-Registering your action
+注册你的动作
 +++++++++++++++++++++++
 
 .. i18n: Finally comes actually registering the configuration item with
@@ -1278,10 +1276,8 @@ Registering your action
 .. i18n: created previously:
 ..
 
-Finally comes actually registering the configuration item with
-OpenERP. This is done with an ``ir.actions.todo`` object, which
-mandates a single ``action_id`` field referencing the ``act_window``
-created previously:
+最后是在openerp中注册配置项。这是在 ``ir.actions.todo`` 对象中完成的，
+需要一个 ``action_id`` 字段关联到之前创建的 ``act_window``:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1299,7 +1295,7 @@ created previously:
 .. i18n: ``ir.actions.todo`` also has 3 optional fields:
 ..
 
-``ir.actions.todo`` also has 3 optional fields:
+``ir.actions.todo``有3个可选字段:
 
 .. i18n: ``sequence`` (default: ``10``)
 .. i18n:     The order in which the different steps are to be
@@ -1307,8 +1303,7 @@ created previously:
 ..
 
 ``sequence`` (default: ``10``)
-    The order in which the different steps are to be
-    executed, lowest first.
+    执行次序，数值小的先执行.
 
 .. i18n: ``active`` (default: ``True``)
 .. i18n:     An inactive step will not be executed on the next round of
@@ -1316,8 +1311,7 @@ created previously:
 ..
 
 ``active`` (default: ``True``)
-    An inactive step will not be executed on the next round of
-    configuration.
+    不活跃的步骤在下一轮配置时将不会被执行.
 
 .. i18n: ``state`` (default: ``'open'``)
 .. i18n:     The current state for the configuration step, mostly used to
@@ -1327,15 +1321,13 @@ created previously:
 ..
 
 ``state`` (default: ``'open'``)
-    The current state for the configuration step, mostly used to
-    register what happened during its execution. The possible
-    values are ``'open'``, ``'done'``, ``'skip'`` and
+    配置步骤的当前状态，用于记录执行过程中所发生的时间，值包含有 ``'open'``, ``'done'``, ``'skip'`` and
     ``'cancel'``.
 
 .. i18n: The result at this point is the following:
 ..
 
-The result at this point is the following:
+结果如下图:
 
 .. i18n: .. image:: images/config_wizard_base.png
 .. i18n:    :width: 100%
@@ -1348,7 +1340,7 @@ The result at this point is the following:
 .. i18n: -----------------------------------
 ..
 
-Customizing your configuration item
+定制你的配置项
 -----------------------------------
 
 .. i18n: While your current knowledge is certainly enough to configure your
@@ -1356,15 +1348,13 @@ Customizing your configuration item
 .. i18n: good user experience and a great user experience.
 ..
 
-While your current knowledge is certainly enough to configure your
-addon, a bit of good customization can be the difference between a
-good user experience and a great user experience.
+目前所具备的知识已经足够配置你的插件了，但做一些好的定制能得到更好的用户体验.
 
 .. i18n: More extensive view customization
 .. i18n: +++++++++++++++++++++++++++++++++
 ..
 
-More extensive view customization
+更进一步的视图的定制
 +++++++++++++++++++++++++++++++++
 
 .. i18n: As you might have noticed from the previous screen shot, by default
@@ -1372,9 +1362,7 @@ More extensive view customization
 .. i18n: problem but doesn't look very good either.
 ..
 
-As you might have noticed from the previous screen shot, by default
-your configuration window doesn't have a *title*, which isn't a
-problem but doesn't look very good either.
+也许你已经注意到之前的截图，在默认的情况下，窗口是没有标题的，虽然并无大碍但却影响美观.
 
 .. i18n: Before setting a title, a small modification to the existing view is
 .. i18n: needed though: the existing ``group`` needs to be wrapped in a
@@ -1382,10 +1370,7 @@ problem but doesn't look very good either.
 .. i18n: the parent view:
 ..
 
-Before setting a title, a small modification to the existing view is
-needed though: the existing ``group`` needs to be wrapped in a
-``data`` element so it's possible to customize more than one item of
-the parent view:
+在设置一个标题之前，需要在视图里做一些微小的改动:  ``group`` 标签中需要填入 ``data`` ，这样就能修改父窗口中的多项配置:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1441,9 +1426,7 @@ the parent view:
 .. i18n: element (in this case, probably before ``group``):
 ..
 
-Then it becomes possible to alter the ``string`` attribute of the
-original ``form`` by adding the following code within the ``data``
-element (in this case, probably before ``group``):
+然后，就能通过增加以下代码 ``data`` 元件，从而转换原始 ``form`` 的 ``string`` 属性 (这个例子,或许在 ``group`` 前):
 
 .. i18n: .. code-block:: xml
 .. i18n: 
