@@ -231,7 +231,7 @@ group to activate it.
 .. i18n: At this point you have accepted 10 units into your company, in a location that you have already seen.
 ..
 
-At this point you have accepted 10 units into your company, in a location that you have already seen.
+当你收货确认这一刻,你应该可以在对应库存查询到公司该产品的相应库存量了. 恭喜恭喜...
 
 .. i18n: Using the menu :menuselection:`Purchases --> Products --> Products` you can find the product `Titanium Alloy Radiators`
 .. i18n: with `Real Stock` and `Virtual Stock` 10. From the product form click on the link at the right most side `Stock by Location`,
