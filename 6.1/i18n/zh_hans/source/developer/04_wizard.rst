@@ -879,17 +879,17 @@ osv_memory 向导系统
 .. i18n: It means the object will open in a new window instead of the current one.
 ..
 
-It means the object will open in a new window instead of the current one.
+这表示对象会在一个新的窗口中打开，而非当前这个.
 
 .. i18n:     * On a button, you can use <button special="cancel" .../> to close the window. 
 ..
 
-    * On a button, you can use <button special="cancel" .../> to close the window. 
+    * 可以使用 <button special="cancel" .../> 来关闭窗口. 
 
 .. i18n: Example : In project.py file.
 ..
 
-Example : In project.py file.
+例如 : 在 project.py 文件中.
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -943,12 +943,12 @@ Example : In project.py file.
 .. i18n: * View is same as normal view (Note buttons). 
 ..
 
-* View is same as normal view (Note buttons). 
+* 视图也和普通的视图一样 (注意按钮). 
 
 .. i18n: Example :
 ..
 
-Example :
+例如 :
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -992,12 +992,12 @@ Example :
 .. i18n: * Action is also same as normal action (don't forget to add target attribute) 
 ..
 
-* Action is also same as normal action (don't forget to add target attribute) 
+* 动作也和普通的动作一样 (不要忘了添加一个target 属性) 
 
 .. i18n: Example :
 ..
 
-Example :
+例如 :
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1026,7 +1026,7 @@ Example :
 .. i18n: =============================
 ..
 
-osv_memory configuration item
+osv_memory 配置项
 =============================
 
 .. i18n: Sometimes, your addon can't do with configurable defaults and needs
@@ -1035,25 +1035,22 @@ osv_memory configuration item
 .. i18n: potentially one which can be re-run later if needed.
 ..
 
-Sometimes, your addon can't do with configurable defaults and needs
-upfront configuration settings to work correctly. In these cases, you
-want to provide a configuration wizard right after installation, and
-potentially one which can be re-run later if needed.
+有时，你的插件不希望用默认的配置，而需要进一步的配置从而工作的更好。在这种情况下，
+你希望在安装之后能有一个配置向导，并在今后需要重新配置时能再次调用该向导.
 
 .. i18n: Up until 5.0, OpenERP had such a facility but it was hardly documented
 .. i18n: and a very manual, arduous process. A simpler, more straightforward
 .. i18n: solution has been implemented for those needs.
 ..
 
-Up until 5.0, OpenERP had such a facility but it was hardly documented
-and a very manual, arduous process. A simpler, more straightforward
-solution has been implemented for those needs.
+5.0以上的openerp有这样的功能，但却无相应的文档，而且需要手工操作。为了这样的需求，
+一个简单明了的新的解决方案已经出现.
 
 .. i18n: The basic concepts
 .. i18n: ------------------
 ..
 
-The basic concepts
+基础概念
 ------------------
 
 .. i18n: The new implementation provides a base behavior ``osv_memory`` object
@@ -1062,10 +1059,8 @@ The basic concepts
 .. i18n: it is therefore mandatory.
 ..
 
-The new implementation provides a base behavior ``osv_memory`` object
-from which you need to inherit. This behavior handles the flow between
-the configuration items of the various extensions, and inheriting from
-it is therefore mandatory.
+新的解决方案提供一个具有基本的行为 ``osv_memory`` 对象，你必须继承该对象。这行为
+是用来控制配置项和扩展之间的流的，而且必须继承自此对象.
 
 .. i18n: There is also an inheritable view which provides a basic canvas,
 .. i18n: through mechanisms which will be explained later it's highly
@@ -1073,31 +1068,27 @@ it is therefore mandatory.
 .. i18n: inherit from that view from yours as well.
 ..
 
-There is also an inheritable view which provides a basic canvas,
-through mechanisms which will be explained later it's highly
-customizable. It's therefore strongly suggested that you should
-inherit from that view from yours as well.
+同时，还有一个可继承的视图，该视图提供一个基本的框架，通过这种机制从而达到很强的可定制性。所以强烈建议你继承该视图.
 
 .. i18n: Creating a basic configuration item
 .. i18n: -----------------------------------
 ..
 
-Creating a basic configuration item
+创建基本的配置项
 -----------------------------------
 
 .. i18n: Your configuration model
 .. i18n: ++++++++++++++++++++++++
 ..
 
-Your configuration model
+你的配置模型
 ++++++++++++++++++++++++
 
 .. i18n: First comes the creation of the configuration item itself. This is a
 .. i18n: normal ``osv_memory`` object with a few constraints:
 ..
 
-First comes the creation of the configuration item itself. This is a
-normal ``osv_memory`` object with a few constraints:
+首先是创建配置项本身，这是以个普通的 ``osv_memory`` 对象，该对象有一些限制:
 
 .. i18n: * it has to inherit from ``res.config``, which provides the basic
 .. i18n:   configuration behaviors as well as the base event handlers and
@@ -1108,13 +1099,9 @@ normal ``osv_memory`` object with a few constraints:
 .. i18n:   logic. It shouldn't return anything.
 ..
 
-* it has to inherit from ``res.config``, which provides the basic
-  configuration behaviors as well as the base event handlers and
-  extension points
+* 必须继承至 ``res.config``, 提供一个基本的配置行为和基本的事件控制器和扩展点
 
-* it has to provide an ``execute`` method.[#]_ This method will be called
-  when validating the configuration form and contains the validation
-  logic. It shouldn't return anything.
+* 必须提供一个 ``execute`` 方法.[#]_ 当验证配置表单和包含验证逻辑时，就会调用这个方法。方法没有返回值.
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1149,7 +1136,7 @@ normal ``osv_memory`` object with a few constraints:
 .. i18n: +++++++++++++++++++++++
 ..
 
-Your configuration view
+配置视图
 +++++++++++++++++++++++
 
 .. i18n: Then comes the configuration form. OpenERP provides a base view which
@@ -1159,18 +1146,14 @@ Your configuration view
 .. i18n: recommended that you use this base view.
 ..
 
-Then comes the configuration form. OpenERP provides a base view which
-you can inherit so you don't have to deal with creating buttons and
-handling the progress bar (which should be displayed at the bottom
-left of all initial configuration dialogs). It's very strongly
-recommended that you use this base view.
+接下来是配置表单。Openerp提供一个基础视图，你可以继承这个基础视图，所以你
+不需要自己创建按钮和控制进度条。强烈推荐使用这个基本视图.
 
 .. i18n: Simply add an ``inherit_id`` field to a regular ``ir.ui.view`` and
 .. i18n: set its value to ``res_config_view_base``:
 ..
 
-Simply add an ``inherit_id`` field to a regular ``ir.ui.view`` and
-set its value to ``res_config_view_base``:
+在 ``ir.ui.view`` 中加入一个 ``inherit_id`` 字段，把它的值设为 ``res_config_view_base``:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1201,10 +1184,9 @@ set its value to ``res_config_view_base``:
 .. i18n: should replace with your own content like so:
 ..
 
-While this could be used as-is, it would display an empty dialog with
-a progress bar and two buttons which isn't of much
-interest. ``res_config_view_base`` has a special group hook which you
-should replace with your own content like so:
+当不做任何改变时，会展示出一个对话框，该对话框中包含一个进度条和两个按钮，
+毫无生趣. ``res_config_view_base`` 有一个特别的group hook，你可以用你自己
+的代码代替它，如下:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1237,7 +1219,7 @@ should replace with your own content like so:
 .. i18n: +++++++++++++++++++
 ..
 
-Opening your window
+打开你的窗口
 +++++++++++++++++++
 
 .. i18n: The next step is to create the ``act_window`` which links to the
