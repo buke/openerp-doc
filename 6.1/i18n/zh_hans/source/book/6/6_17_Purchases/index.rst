@@ -24,11 +24,7 @@
 .. i18n:  suppliers.*
 ..
 
- *In the preceding chapters you saw how to use customer invoices and delivery notes in OpenERP.
- This chapter is about the management of purchases, the process ahead of these two operations.
- You will now see how OpenERP handles and simplifies this and the control of purchases from
- suppliers.在前面的章节中，你已经了解了在OpenERP如何使用客户发票和送货单。这章是关于采购管理，处理领先两个操作。你可以学习到
-OpenERP如何处理和简化它，以及如何管控从供应商采购。*
+ *在前面的章节中，你已经了解了在OpenERP如何使用客户发票和送货单。这章是关于采购管理，之前的处理两个操作。你可以学习到OpenERP如何处理和简化它，以及如何管控从供应商采购。*
 
 
 .. i18n: For this chapter you can continue using the database already created or you should start with a fresh database that includes demonstration data, with :mod:`purchase` and its dependencies installed and no particular chart of accounts configured. 
