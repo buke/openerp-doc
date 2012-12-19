@@ -211,7 +211,7 @@
 
     * **id** (就是 "workflow_id") 是工作流程的识别码。每个工作流程必须有一个唯一的识别码。
     * **name** (就是 "workflow.name") 是工作流程的名称。工作流程的名称必须符合 OpenERP 文法的 "带点名称" 要求。
-    * **osv** (就是 "resource.model") 是我们当做模型使用的物件名称 [-(请记得 OpenERP 物件是从 osv.osv 继承属性，所以 '<栏位名称="osv">')-]。
+    * **osv** (就是 "resource.model") 是我们当做模型使用的物件名称 [-(请记得 OpenERP 物件是从 osv.osv 继承属性，所以 '<字段名称="osv">')-]。
     * **on_create** 如果为 True，在创建 resource.model 时会自动将 workflow.name 实体化，如果是 False 则相反。
 
 .. i18n: **Example**
@@ -268,7 +268,7 @@ Activity(活动)
 .. i18n: ----------
 ..
 
-栏位
+字段
 ----
 
 .. i18n: ::
@@ -416,7 +416,7 @@ Activity(活动)
 .. i18n: to the name of the signal (without the ``signal.`` prefix). 
 ..
 
-这个栏位是用于指定一个信号，当活动在作用中，这个信号就会被送往上一层的工作流程。如果要送出信号，将栏位值设定为信号的名字 (去掉开头的 ``signal.`` )。
+这个字段是用于指定一个信号，当活动在作用中，这个信号就会被送往上一层的工作流程。如果要送出信号，将字段值设定为信号的名字 (去掉开头的 ``signal.`` )。
 
 .. i18n: ::
 .. i18n: 
@@ -430,7 +430,7 @@ Activity(活动)
 .. i18n: Indicates if the node is a start node. When a new instance of a workflow is created, a workitem is activated for each activity marked as a ``flow_start``.
 ..
 
-标记这个节点是否为开始节点。当创建一个工作流程的实例时，每一个活动都会启动一个标记为``flow_start``(流程开始)的工作项目。
+标记这个节点是否为开始节点。当创建一个工作流程的实例(instance)时，每一个活动都会启动一个标记为``flow_start``(流程开始)的工作项目。
 
 .. i18n: .. warning::
 .. i18n: 
@@ -442,7 +442,7 @@ Activity(活动)
 
 .. 注意::
 
-    对所有的布尔型栏位来说，当在你的XML资料里写入``<field>``标记时，务必使用``eval``属性，
+    对所有的布尔型字段来说，当在你的XML资料里写入``<field>``标记时，务必使用``eval``属性，
      不可以使用文字节点属性。详细说明请参考:ref:`eval attribute <eval-attribute-link>`。
 
 .. i18n: ::
@@ -457,7 +457,7 @@ Activity(活动)
 .. i18n: Indicates if the node is an ending node. When all the active workitems for a given instance come in the node marked by flow_stop, the workflow is finished.
 ..
 
-标记这个节点是否为结束的节点。当一个实例里所有作用中的工作项目来到标记为``flow_stop``(流程停止)的节点，工作流程将会结束。
+标记这个节点是否为结束的节点。当一个实例(instance)里所有作用中的工作项目来到标记为``flow_stop``(流程停止)的节点，工作流程将会结束。
 
 .. i18n: .. warning::
 .. i18n: 
@@ -466,7 +466,7 @@ Activity(活动)
 
 .. 注意::
 
-    参考上面关于``flow_start``(流程开始)的栏位说明
+    参考上面关于``flow_start``(流程开始)的字段说明
 
 .. i18n: ::
 .. i18n:     wkf_id
@@ -590,7 +590,7 @@ Transition(转变)
 .. i18n: ----------
 ..
 
-栏位
+字段
 ----
 
 .. i18n: ::
@@ -605,7 +605,7 @@ Transition(转变)
 .. i18n: Source activity. When this activity is over, the condition is tested to determine if we can start the ACT_TO activity.
 ..
 
-转变的来源活动。当这个(来源)活动结束后，系统会检查这个栏位的状态，来确认是不是可以开始进行 ACT_TO 活动。
+转变的来源活动。当这个(来源)活动结束后，系统会检查这个字段的状态，来确认是不是可以开始进行 ACT_TO 活动。
 
 .. i18n: ::
 .. i18n: 
@@ -716,7 +716,7 @@ Transition(转变)
 .. i18n: Only the fields **act_from** and **act_to** are mandatory.
 ..
 
-只有**act_from**和**act_to**这两个栏位是强制要求要有的。
+只有**act_from**和**act_to**这两个字段是强制要求要有的。
 
 .. i18n: Expressions
 .. i18n: ===========
@@ -742,7 +742,7 @@ Expressions(表达式)
 .. i18n: Any field from the resource the workflow refers to can be used in these expressions. For example, if you were creating a workflow for partner addresses, you could use expressions like:
 ..
 
-工作流程指向的资源里，任何栏位都可以用在表达式里。例如，如果想要为伙伴地址建立一个工作流程，可以用类似以下的表达式:
+工作流程指向的资源里，任何字段都可以用在表达式里。例如，如果想要为伙伴地址建立一个工作流程，可以用类似以下的表达式:
 
 .. i18n:     * zip==1400
 .. i18n:     * phone==mobile
@@ -817,41 +817,41 @@ Expressions(表达式)
 .. i18n: As of this writing, there is no exception handling in workflows.
 ..
 
-As of this writing, there is no exception handling in workflows.
+在以下的叙述中，工作流程里没有包含错误处理。
 
 .. i18n: Workflows being made of several actions executed in batch, they can't trigger exceptions. In order to improve the execution efficiency and to release a maximum of locks, workflows commit at the end of each activity. This approach is reasonable because an activity is only started if the conditions of the transactions are satisfied.
 ..
 
-Workflows being made of several actions executed in batch, they can't trigger exceptions. In order to improve the execution efficiency and to release a maximum of locks, workflows commit at the end of each activity. This approach is reasonable because an activity is only started if the conditions of the transactions are satisfied.
+如果工作流程是批量执行的动作组成的，就不会触发例外状况。为了提升执行效率和尽量不被锁住，工作流程在每一个活动结束时才提交一个结果。这个策略是合理的，因为在每一个动作要求的条件被满足后，活动才会被执行。
 
 .. i18n: The only problem comes from exceptions due to programming errors; in that case, only transactions belonging to the entirely completed activities are executed. Other transactions are "rolled back".
 ..
 
-The only problem comes from exceptions due to programming errors; in that case, only transactions belonging to the entirely completed activities are executed. Other transactions are "rolled back".
+唯一可能出现例外状况的问题是编程上的错误；这种状况下，只有属于整个已经执行完成的活动的动作才会被执行，其他的活动会被回退到上个检查点。
 
 .. i18n: Creating a Workflow
 .. i18n: ===================
 ..
 
-Creating a Workflow
-===================
+创建一个工作流程
+==============
 
 .. i18n: Steps for creating a simple state-changing workflow for a custom module called **mymod**
 ..
 
-Steps for creating a simple state-changing workflow for a custom module called **mymod**
+以下步骤是用于创建一个名为**mymod**的定制模块，是一个简单的改变状态的工作流程
 
 .. i18n: Define the States of your object
 .. i18n: --------------------------------
 ..
 
-Define the States of your object
---------------------------------
+定义你的物件的状态
+---------------
 
 .. i18n: The first step is to define the States your object can be in. We do this by adding a 'state' field to our object, in the _columns collection
 ..
 
-The first step is to define the States your object can be in. We do this by adding a 'state' field to our object, in the _columns collection
+第一步是定义你的物件可以有那些状态。我们在物件的栏目(_columns)集合里加上一个'state'字段，用于定义物件的状态。
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -882,13 +882,13 @@ The first step is to define the States your object can be in. We do this by addi
 .. i18n: ----------------------------------------
 ..
 
-Define the State-change Handling Methods
-----------------------------------------
+定义状态改变的处理方式
+-------------------
 
 .. i18n: Add the following additional methods to your object. These will be called by our workflow buttons.
 ..
 
-Add the following additional methods to your object. These will be called by our workflow buttons.
+在你的物件里增加以下额外的处理方法，我们的工作流程里的按钮会呼叫这些方法。
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -938,24 +938,24 @@ Add the following additional methods to your object. These will be called by our
 .. i18n: Obviously you would extend these methods in the future to do something more useful!
 ..
 
-Obviously you would extend these methods in the future to do something more useful!
+显然你以后会想把这些方法扩充改成执行更有用的事项!
 
 .. i18n: Create your Workflow XML file
 .. i18n: -----------------------------
 ..
 
-Create your Workflow XML file
------------------------------
+创建你的工作流程XML档案
+--------------------
 
 .. i18n: There are three types of records we need to define in a file called ``mymod_workflow.xml``
 ..
 
-There are three types of records we need to define in a file called ``mymod_workflow.xml``
+我们在``mymod_workflow.xml``这个档案里需要定义3个种类的记录。
 
 .. i18n: #. Workflow header record (only one of these)
 ..
 
-#. Workflow header record (only one of these)
+#. 工作流程标题记录
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -977,12 +977,12 @@ There are three types of records we need to define in a file called ``mymod_work
 .. i18n: #. Workflow Activity records
 ..
 
-#. Workflow Activity records
+#. 工作流程活动记录
 
 .. i18n:     These define the actions that must be executed when the workflow reaches a particular state
 ..
 
-    These define the actions that must be executed when the workflow reaches a particular state
+    这些记录是在定义工作流程到达某个特定状态时，必须执行的动作
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -1068,12 +1068,12 @@ There are three types of records we need to define in a file called ``mymod_work
 .. i18n: #. Workflow Transition records
 ..
 
-#. Workflow Transition records
+#. 工作流程转变记录
 
 .. i18n:     These define the possible transitions between workflow states
 ..
 
-    These define the possible transitions between workflow states
+    这些记录是在定义工作流程的状态间，可能的转变
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -1132,30 +1132,30 @@ There are three types of records we need to define in a file called ``mymod_work
 .. i18n: ----------------------------------------
 ..
 
-Add mymod_workflow.xml to __openerp__.py
-----------------------------------------
+把 mymod_workflow.xml 加到 __openerp__.py 里
+-------------------------------------------
 
 .. i18n: Edit your module's ``__openerp__.py`` and add ``"mymod_workflow.xml"`` to the ``update_xml`` array, so that OpenERP picks it up next time your module is loaded.
 ..
 
-Edit your module's ``__openerp__.py`` and add ``"mymod_workflow.xml"`` to the ``update_xml`` array, so that OpenERP picks it up next time your module is loaded.
+修改你的模块里的``__openerp__.py``，然后把``"mymod_workflow.xml"``加到``update_xml``阵列，这样下一次 OpenERP 载入你的模块时，就会抓取这些修改。
 
 .. i18n: Add Workflow Buttons to your View
 .. i18n: ---------------------------------
 ..
 
-Add Workflow Buttons to your View
----------------------------------
+在你的视图里加上工作流程按钮
+---------------------------
 
 .. i18n: The final step is to add the required buttons to ``mymod_views.xml`` file.
 ..
 
-The final step is to add the required buttons to ``mymod_views.xml`` file.
+最后一个步骤是把需要的按钮加到``mymod_views.xml`` 档案里。
 
 .. i18n: Add the following at the end of the ``<form>`` section of your object's view definition:
 ..
 
-Add the following at the end of the ``<form>`` section of your object's view definition:
+在你的物件的视图定义里，``<form>``部分的最后一段，加上以下程序:
 
 .. i18n:     .. code-block:: xml
 .. i18n: 
@@ -1183,27 +1183,27 @@ Add the following at the end of the ``<form>`` section of your object's view def
 .. i18n: Now use the Module Manager to install or update your module. If you have done everything correctly you shouldn't get any errors. You can check if your workflow is installed in the menu :menuselection:`Administration --> Customization --> Workflow Definitions`.
 ..
 
-Testing
--------
-Now use the Module Manager to install or update your module. If you have done everything correctly you shouldn't get any errors. You can check if your workflow is installed in the menu :menuselection:`Administration --> Customization --> Workflow Definitions`.
+测试
+----
+现在可以用模块管理员(Module Manager)来安装或更新你的模块。如果你有正确地完成所有事项，应该不会出现任何错误。你可以检查你的工作流程是不是有被安装在菜单里:选择菜单(menuselection):`管理(Administration) --> 定制(Customization) --> 工作流程定义(Workflow Definitions)`.
 
 .. i18n: When you are testing, remember that the workflow will only apply to NEW records that you create.
 ..
 
-When you are testing, remember that the workflow will only apply to NEW records that you create.
+当你进行测试时，记得新加入的工作流程只会被应用在新创建的记录上。
 
 .. i18n: Troubleshooting
 .. i18n: ---------------
 .. i18n: If your buttons do not seem to be doing anything, one of the following two things are likely:
 ..
 
-Troubleshooting
----------------
-If your buttons do not seem to be doing anything, one of the following two things are likely:
+故障排除
+-------
+如果你的按钮看起来没有任何作用，或许是因为以下两个问题的其中一个:
 
 .. i18n:    1. The record you are working on does not have a Workflow Instance record associated with it (it was probably created before you defined your workflow)
 .. i18n:    2. You have not set the ``osv`` field correctly in your workflow XML file
 ..
 
-   1. The record you are working on does not have a Workflow Instance record associated with it (it was probably created before you defined your workflow)
-   2. You have not set the ``osv`` field correctly in your workflow XML file
+   1. 你正在处理的记录没有连接到工作流程实例(Instance)记录(也许是这笔记录是在你定义你的工作流程以前创建的)
+   2. 你在你的工作流程 XML 档案里没有正确设定``osv``这个字段
