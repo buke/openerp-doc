@@ -239,10 +239,7 @@ group to activate it.
 .. i18n: report to see the inventory valuation per location.
 ..
 
-Using the menu :menuselection:`Purchases --> Products --> Products` you can find the product `Titanium Alloy Radiators`
-with `Real Stock` and `Virtual Stock` 10. From the product form click on the link at the right most side `Stock by Location`,
-you can see the `Real Stock` and `Virtual Stock` of this product in various locations. Now click on the `Location Inventory Overview`
-report to see the inventory valuation per location.
+使用菜单 :menuselection"`采购 --> 产品 --> 产品展示` 你可以找到产品 :guilabel:`钛合金散热器` 实物库存和虚拟库存数量为10.0了。 单击该产品进入到产品 :guilabel:`表单` 页后,在右面最右侧的 :guilabel:`按库位查看库存` 链接可以直接查看该产品在各个物理库位与虚拟库位的数量分布情况。点击 :guilabel:`库位库存概要` 报表就可以查看到各库位各产品的详细库存情况。
 
 .. i18n: .. _fig-lotsbyloc:
 .. i18n: 
