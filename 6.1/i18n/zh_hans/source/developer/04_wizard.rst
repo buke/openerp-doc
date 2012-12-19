@@ -854,18 +854,18 @@ osv_memory 向导系统
 ..
 
 就这些，仅仅是改变了继承。这些向导可以被定义在任意位置，而不仅仅是 addons/modulename/modulename_wizard.py. 
-Historically, the _wizard prefix is for actual (old-style) wizards, so there might be a connotation there, the "new-style" osv_memory based "wizards" are perfectly normal objects (just used to emulate the old wizards, so they don't really match the old separations. 
-Furthermore, osv_memory based "wizards" tend to need more than one object (e.g. one osv_memory object for each state of the original wizard) so the correspondence is not exactly 1:1.
+从历史上看，_wizard前缀的是（旧式）向导，所以有可能是一个osv_memory为基础的“新风格”“向导”是完全正常的对象（只是用来模拟旧的向导，并没有完全脱离旧式的向导. 
+此外，osv_memory的“向导”，往往需要多个对象 (例如. 一个osv_memory对象为每个状态的原始向导) 所以对应的是不完全的 1:1.
 
 .. i18n: So what makes them looks like 'old' wizards?
 ..
 
-So what makes them looks like 'old' wizards?
+所以，为何他们看着想旧式的向导呢?
 
 .. i18n:     * In the action that opens the object, you can put 
 ..
 
-    * In the action that opens the object, you can put 
+    * 在打开对象的动作中，你可以写入以下 
 
 .. i18n: .. code-block:: python
 .. i18n: 
