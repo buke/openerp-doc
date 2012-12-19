@@ -431,7 +431,7 @@ Activity(活动)
 .. i18n: Indicates if the node is a start node. When a new instance of a workflow is created, a workitem is activated for each activity marked as a ``flow_start``.
 ..
 
-标记这个节点是否为开始节点。当创建一个工作流程的实例(instance)时，每一个活动都会启动一个标记为``flow_start``(流程开始)的工作项目。
+标记这个节点是否为开始节点。当创建一个工作流程的实例(instance)时，每一个活动都会启动一个标记为 n``flow_start``n (流程开始)的工作项目。
 
 .. i18n: .. warning::
 .. i18n: 
@@ -443,7 +443,7 @@ Activity(活动)
 
 .. 注意::
 
-    对所有的布尔型字段来说，当在你的XML资料里写入``<field>``标记时，务必使用``eval``属性，
+    对所有的布尔型字段来说，当在你的XML资料里写入 ``<field>`` 标记时，务必使用 ``eval`` 属性，
      不可以使用文字节点属性。详细说明请参考:ref:`eval attribute <eval-attribute-link>`。
 
 .. i18n: ::
@@ -467,7 +467,7 @@ Activity(活动)
 
 .. 注意::
 
-    参考上面关于``flow_start``(流程开始)的字段说明
+    参考上面关于 ``flow_start`` (流程开始)的字段说明
 
 .. i18n: ::
 .. i18n:     wkf_id
@@ -852,7 +852,7 @@ Expressions(表达式)
 .. i18n: The first step is to define the States your object can be in. We do this by adding a 'state' field to our object, in the _columns collection
 ..
 
-第一步是定义你的物件可以有那些状态。我们在物件的栏目(_columns)集合里加上一个'state'字段，用于定义物件的状态。
+第一步是定义你的物件可以有那些状态。我们在物件的栏目(_columns)集合里加上一个 'state' 字段，用于定义物件的状态。
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -951,7 +951,7 @@ Expressions(表达式)
 .. i18n: There are three types of records we need to define in a file called ``mymod_workflow.xml``
 ..
 
-我们在``mymod_workflow.xml``这个档案里需要定义3个种类的记录。
+我们在 ``mymod_workflow.xml`` 这个档案里需要定义3个种类的记录。
 
 .. i18n: #. Workflow header record (only one of these)
 ..
@@ -1139,7 +1139,7 @@ Expressions(表达式)
 .. i18n: Edit your module's ``__openerp__.py`` and add ``"mymod_workflow.xml"`` to the ``update_xml`` array, so that OpenERP picks it up next time your module is loaded.
 ..
 
-修改你的模块里的``__openerp__.py``；把``"mymod_workflow.xml"``加到``update_xml``阵列，这样下一次 OpenERP 载入你的模块时，就会抓取这些修改。
+修改你的模块里的 ``__openerp__.py`` ；把 ``"mymod_workflow.xml"`` 加到 ``update_xml`` 阵列，这样下一次 OpenERP 载入你的模块时，就会抓取这些修改。
 
 .. i18n: Add Workflow Buttons to your View
 .. i18n: ---------------------------------
