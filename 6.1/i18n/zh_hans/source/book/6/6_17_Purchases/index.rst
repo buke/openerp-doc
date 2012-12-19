@@ -32,8 +32,7 @@
 .. i18n: For this chapter you can continue using the database already created or you should start with a fresh database that includes demonstration data, with :mod:`purchase` and its dependencies installed and no particular chart of accounts configured. 
 ..
 
-For this chapter you can continue using the database already created or you should start with a fresh database that includes demonstration data, with :mod:`purchase` and its dependencies installed and no particular chart of accounts configured. 
-这章你可以继续使用已经创建好的数据库，当然你也可以创建一个全新的包含演示数据的数据库，
+这章你可以继续使用已经创建好的数据库，当然你也可以创建一个全新的包含演示数据的数据库，安装 :mod:`purchase` 以及它的依赖模块，不需要配置特别的会计科目表。
 
 .. i18n: .. raw:: html
 .. i18n: 
