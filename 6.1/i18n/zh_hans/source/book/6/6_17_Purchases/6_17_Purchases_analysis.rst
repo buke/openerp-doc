@@ -25,10 +25,10 @@
 .. i18n: menu :menuselection:`Purchases --> Reporting --> Purchase Analysis`.
 ..
 
-OpenERP enables you to perform analysis of purchases by period (current year, current month,
-previous month), by state (quotations, orders), supplier, user, product, category, warehouse
-and so on. This is made possible through a search view accessed through the
-menu :menuselection:`Purchases --> Reporting --> Purchase Analysis`.
+OpenERP允许你通过多个维度进行分析，通过周期（本年，本月，上月）、通过状态（报价，订单），供应商，用户，
+产品，分类，仓库等维度。可以通过菜单 :menuselection:`Purchases --> Reporting --> Purchase Analysis`进入
+搜索界面，执行操作。
+
 
 .. i18n: .. figure:: images/purchase_report.png
 .. i18n:    :scale: 75
@@ -41,7 +41,7 @@ menu :menuselection:`Purchases --> Reporting --> Purchase Analysis`.
    :scale: 75
    :align: center
 
-   *Analysis of Purchases over the Month by Product*
+   *一个月的产品采购分析*
 
 .. i18n: This analysis is carried out on supplier orders and not on invoices or the quantities actually
 .. i18n: received. To get an analysis by product, use the module :mod:`product_margin`. The function of this
