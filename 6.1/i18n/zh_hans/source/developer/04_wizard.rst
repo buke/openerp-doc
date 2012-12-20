@@ -1465,7 +1465,7 @@ Wizards).
 .. i18n: With this, the configuration form gets a nice title:
 ..
 
-With this, the configuration form gets a nice title:
+完成这步后，配置的表单有用了一个标题:
 
 .. i18n: .. image:: images/config_wizard_title.png
 .. i18n:    :width: 100%
@@ -1480,26 +1480,22 @@ With this, the configuration form gets a nice title:
 .. i18n: the button labels, ...
 ..
 
-More interesting customizations might be to alter the buttons provided
-by ``res_config_view_base`` at the bottom of the dialog: remove a
-button (if the configuration action shouldn't be skipped), change
-the button labels, ...
+更有趣的配置比如改变按钮，按钮是由对话框底部的 ``res_config_view_base`` 提供的：
+删除一个按钮（若配置无法被跳过），改变按钮标签, ...
 
 .. i18n: Since no specific hooks are provided for these alterations, they
 .. i18n: require the use of xpath selectors (using the ``xpath`` element).
 ..
 
-Since no specific hooks are provided for these alterations, they
-require the use of xpath selectors (using the ``xpath`` element).
+由于这些改变无具体的与之关联的属性，需要使用xpath选择器（使用 ``xpath`` 元素).
 
 .. i18n: Removing the Skip button and changing the label of the Record button
 .. i18n: to Set, for instance, would be done by adding the following after the
 .. i18n: ``group`` element:
 ..
 
-Removing the Skip button and changing the label of the Record button
-to Set, for instance, would be done by adding the following after the
-``group`` element:
+删除Skip按钮，把Recond按钮的标签改成Set。例如，可以在
+``group`` 元素后加入以下代码，如下:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -1552,15 +1548,13 @@ and yield:
 .. i18n: necessarily recommended).
 ..
 
-It is also possible to use this method to change the name of the
-button, and thus the method invoked on the object (though that isn't
-necessarily recommended).
+还可以用这种方法改变按钮的名称, 这样方法在对象中被唤醒 (不推荐).
 
 .. i18n: Model customization
 .. i18n: +++++++++++++++++++
 ..
 
-Model customization
+定制模型
 +++++++++++++++++++
 
 .. i18n: Though most of the requirements should be easy to fulfill using the
