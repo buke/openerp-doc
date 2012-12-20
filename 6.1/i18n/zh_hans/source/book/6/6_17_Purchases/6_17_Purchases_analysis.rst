@@ -3,14 +3,14 @@
 ..
 
 通过辅助核算项进行采购分析
-===========================================
+==========================
 
 .. i18n: Powerful Statistics
 .. i18n: -------------------
 ..
 
 强大的统计
--------------------
+----------
 
 .. i18n: .. index::
 .. i18n:    single: module; product_margin
@@ -26,7 +26,7 @@
 ..
 
 OpenERP允许你通过多个维度进行分析，通过周期（本年，本月，上月）、通过状态（报价，订单），供应商，用户，
-产品，分类，仓库等维度。可以通过菜单 :menuselection:`Purchases --> Reporting --> Purchase Analysis`进入
+产品，分类，仓库等维度。可以通过菜单 :menuselection:`Purchases --> Reporting --> Purchase Analysis` 进入
 搜索界面，执行操作。
 
 
@@ -48,8 +48,8 @@ OpenERP允许你通过多个维度进行分析，通过周期（本年，本月�
 .. i18n: module is described in detail in the chapter :ref:`ch-sales`.
 ..
 
-这个分析在基于供应商订单，而不是发票或者实际到货数量。要得到产品分析，使用模块 :mod:`product_margin`. 这个功能
-模块在:ref:`ch-sales`.章有更详细说明
+这个分析在基于供应商订单，而不是发票或者实际到货数量。要得到产品分析，使用模块 :mod:`product_margin` . 这个功能
+模块在 :ref:`ch-sales` .章有更详细说明
 
 .. i18n: To analyze the received quantities, you can use the statistical reports in Warehouse.
 ..
@@ -84,7 +84,7 @@ OpenERP通过管理供应商发票确认和货物收据管理这次采购关联�
 .. i18n: parameters in the analytic accounts such as sale pricelist, associated partner company, and maximum amount.
 ..
 
-:mod:`hr_timesheet_invoice`模块可让您重新开具发票,使用分析的帐目中的参数（如销售价格表，相关的合作伙伴，最高金额）分析成本。
+ :mod:`hr_timesheet_invoice` 模块可让您重新开具发票,使用分析的帐目中的参数（如销售价格表，相关的合作伙伴，最高金额）分析成本。
 
 .. i18n: So you can put an invoice order with a defined invoice workflow in place based on the analytic accounts. If you are
 .. i18n: working ``Make to Order``, the workflow will be:
