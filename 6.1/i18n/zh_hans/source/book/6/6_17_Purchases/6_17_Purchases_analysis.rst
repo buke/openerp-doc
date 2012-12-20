@@ -84,8 +84,7 @@ OpenERP通过管理供应商发票确认和货物收据管理这次采购关联�
 .. i18n: parameters in the analytic accounts such as sale pricelist, associated partner company, and maximum amount.
 ..
 
-The :mod:`hr_timesheet_invoice` module lets you re-invoice the analytic costs automatically using
-parameters in the analytic accounts such as sale pricelist, associated partner company, and maximum amount.
+:mod:`hr_timesheet_invoice`模块可让您重新开具发票,使用分析的帐目中的参数（如销售价格表，相关的合作伙伴，最高金额）分析成本。
 
 .. i18n: So you can put an invoice order with a defined invoice workflow in place based on the analytic accounts. If you are
 .. i18n: working ``Make to Order``, the workflow will be:
