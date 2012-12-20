@@ -86,7 +86,7 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 .. i18n: To use the email functionality, you have to configure your email account. This is explained in the chapter :ref:`ch-crm-fetchmail-install`.
 ..
 
-为了能够使用邮件功能，你必须配置你的邮件帐户。这一点在 :ref:`ch-crm-fetchmail-install`章节有讲解。
+为了能够使用邮件功能，你必须配置你的邮件帐户。这一点在 :ref:`ch-crm-fetchmail-install` 章节有讲解。
 
 .. i18n: Example of a Complete Marketing Campaign
 .. i18n: ----------------------------------------
