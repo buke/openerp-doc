@@ -94,16 +94,14 @@
 .. i18n: Enter the following information
 ..
 
-Enter the following information
+录入下面的数据:
 
 .. i18n: *  :guilabel:`Product` : \ ``Titanium Alloy Radiator``\   - type in part of this name then
 .. i18n:    press the tab key to complete it, or click the
 .. i18n:    :guilabel:`Search` icon at the end of the line to bring a search box. (if product is previously configured)
 ..
 
-*  :guilabel:`Product` : \ ``Titanium Alloy Radiator``\   - type in part of this name then
-   press the tab key to complete it, or click the
-   :guilabel:`Search` icon at the end of the line to bring a search box. (if product is previously configured)
+*  :guilabel:`产品` : \ ``钛合金散热器``\   - 在这里你可以按输入进行产品的模糊查询,当你输入一些产品名称关键词后按 ``Tab`` 键或者点击右侧的 :guilabel:`放大镜` 图标, 就会按给定的关键词弹出相关的产品查询结果窗口,供选择产品(前提是你已录入过相关产品的基础物料数据), 另外,如果你提供的查询只有一个结果时,系统会自动替你选择( ``Tab`` 键录入方式)。
 
 .. i18n: When you have selected a product on the product line, OpenERP automatically completes the following
 .. i18n: fields from information it finds in the Product record:
