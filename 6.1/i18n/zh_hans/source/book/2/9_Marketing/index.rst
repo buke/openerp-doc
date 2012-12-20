@@ -103,7 +103,7 @@ OpenERP 提供了一些模块让你轻松创建和跟踪营销活动。
 .. i18n: Each time a customer registers himself through the contact form, a lead is created in OpenERP. For further information about web contact forms, please refer to the chapter :ref:`contform`.
 ..
 
-每次一个潜在客户通过练习表单进行注册，一个销售线索就会在OpenERP里自动产生。关于网页联系表单的更多信息，请参考 :ref:`contform`章节。
+每次一个潜在客户通过练习表单进行注册，一个销售线索就会在OpenERP里自动产生。关于网页联系表单的更多信息，请参考 :ref:`contform` 章节。
 
 .. i18n: The salesperson responsible for Car Insurances triggers the marketing campaign by sending an introductory email of all the insurance services we offer and thanking for subscribing for the free Car Insurance Offer.
 ..
