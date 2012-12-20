@@ -1563,17 +1563,15 @@ and yield:
 .. i18n: the hooks necessary for more complex behaviors.
 ..
 
-Though most of the requirements should be easy to fulfill using the
-provided ``execute`` method hook, some addon-specific requirements
-are a bit more complex. ``res.config`` should be able to provide all
-the hooks necessary for more complex behaviors.
+使用 ``execute`` method hook, 可以很轻易的实现许多要求，但addon-specific要求会
+更复杂点. ``res.config`` 必须提供所有的hooks用于复杂的行为.
 
 .. i18n: Ignoring the next step
 .. i18n: ~~~~~~~~~~~~~~~~~~~~~~
 ..
 
-Ignoring the next step
-~~~~~~~~~~~~~~~~~~~~~~
+忽略下一步(Ignoring the next step)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: Ultimately, the switch to the next configuration item is done by
 .. i18n: calling the ``self.next`` method of ``res.config`` [#]_. This is the
@@ -1584,26 +1582,21 @@ Ignoring the next step
 .. i18n: will jump to that view instead of the one returned by ``self.next``.
 ..
 
-Ultimately, the switch to the next configuration item is done by
-calling the ``self.next`` method of ``res.config`` [#]_. This is the
-last thing the base implementations of ``action_next`` and
-``action_skip`` do. But in some cases, looping on the current view or
-implementing a workflow-like behavior is needed. In these cases, you
-can simply return a dictionary from ``execute``, and ``res.config``
-will jump to that view instead of the one returned by ``self.next``.
+最后，通过调用 ``res.config`` 中的 ``self.next`` 方法，进入下一步的配置项。 ``action_next`` 和 ``action_skip`` 最后
+做的事。但是在某些情况下，循环当前的视图或实现一个和工作流一样的行为是必要的。在这样的情况下，
+你可以通过 ``execute`` 返回一个字典， ``res.config`` 会跳转到那个视图，而不是 ``self.next`` 返回的那个 .
 
 .. i18n: This is what the user creation item does, for instance, to let the
 .. i18n: user create several new users in a row.
 ..
 
-This is what the user creation item does, for instance, to let the
-user create several new users in a row.
+这是创建项目所必须做的，例如，让用户在一行中创建多个新用户.
 
 .. i18n: Performing an action on skipping
 .. i18n: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ..
 
-Performing an action on skipping
+在 skipping 执行一个动作
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: As opposed to ``action_next`` which requires that ``execute`` be
@@ -1616,20 +1609,16 @@ Performing an action on skipping
 .. i18n: gives the possibility of `ignoring the next step`_.
 ..
 
-As opposed to ``action_next`` which requires that ``execute`` be
-implemented by the children classes, ``action_skip`` comes fully
-implemented in ``res.config``. But in the case where the child model
-needs to perform an action upon skipping discovery, it also provides a
-hook method called ``cancel`` which you can overload in a way similar
-to ``execute``. Its behavior is identical to ``execute``'s: not only
-is ``next`` called automatically at the end of ``cancel`` but it also
-gives the possibility of `ignoring the next step`_.
+和 ``action_next`` 对比（ ``action_next`` 要求 ``execute`` 被子类实现）， ``action_skip`` 是实现 ``res.config`` 的。
+但是在子模型需要完成sipping discovery的动作的情况下，它需要提供一个方法，该方法名为 ``cancel`` ，
+你可以用和 ``execute`` 一样的方法重载此函数。这是和 ``execute`` 一致的：不仅在 ``cancel`` 结束时可以自动调用 ``next`` 方法，
+而且能 `忽略 next step`_.
 
 .. i18n: Alternative actions
 .. i18n: ~~~~~~~~~~~~~~~~~~~
 ..
 
-Alternative actions
+选取动作
 ~~~~~~~~~~~~~~~~~~~
 
 .. i18n: It's also possible to either overload ``action_next`` and
