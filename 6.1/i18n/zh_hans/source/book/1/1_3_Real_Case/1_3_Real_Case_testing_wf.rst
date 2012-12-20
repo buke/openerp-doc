@@ -174,12 +174,9 @@
 .. i18n: group to activate it.
 ..
 
-If you click the :guilabel:`Delivery & Invoicing` tab
-you will see the delivery :guilabel:`Destination` is your own company's ``Stock`` location and that
-the invoice was created from the order.
-It is not entirely obvious at this stage, but the invoice is in a draft state so it can be
-edited and, crucially, has no accounting impact yet: it is just ready for your accounting
-group to activate it.
+现在你点击 :guilabel:`收货与发票` 页签时，你可以看到收货地址是你所在公司 ``仓库`` 的 :guilabel:`收货地址` 。
+并且系统已经自动为本次采购生成了草稿状态(还可以根据需要进行修改)的供应商发票。
+因为目前为止还没有涉及财务部分，所以这个留到后面财务人员进行确认核准操作。
 
 .. i18n: Receiving Goods
 .. i18n: ---------------
