@@ -166,9 +166,8 @@ Generic Flow
 .. i18n: He can create a new hierarchy by clicking on [new]. 
 ..
 
-The user has to specify the level name, column name, column id, level class, table name, sequence and hierarchy.
-Hierarchy will appear in the drop down box. 
-He can create a new hierarchy by clicking on [new]. 
+用户必须指定级别名称、列名、列id、水平类,表名、序列和层次结构。层次结构将出现中的下拉框。
+他可以创建一个新的层次结构通过点击[new]. 
 
 .. i18n: .. note::
 .. i18n:         Clicking on the "Save" button on every form causes the data to be written in the database.
@@ -176,8 +175,10 @@ He can create a new hierarchy by clicking on [new].
 ..
 
 .. note::
-        Clicking on the "Save" button on every form causes the data to be written in the database.
-        Double Click on row opens modification window of respective record.
+         点击“保存”按钮在每个表单使数据被写入数据库。
+
+         双击打开修改的行窗口各自的记录。
+
 
 .. i18n: :Modify / Create  A Measures:
 ..
@@ -190,7 +191,8 @@ He can create a new hierarchy by clicking on [new].
 .. i18n: Here all calculation / aggregation are interdependent with the fields of fact column name, aggregator, data type and format of string.
 ..
 
-The user provides the Measure name. 
-The given cube name will appear in the drop down box. They can select a cube name from the list or create a new cube by clicking on the [new]. 
-It defines the all calculation / aggregation with fact column name.
-Here all calculation / aggregation are interdependent with the fields of fact column name, aggregator, data type and format of string.
+
+ 用户提供了测量的名字。
+ 给定的多维数据集的名字将出现在这个下拉框。他们可以选择一个多维数据集的名字从名单中或创建一个新的多维数据集通过单击[new]。
+ 它定义了所有的计算/聚合与事实列名。
+ 这里所有的计算/聚合是相互依赖的领域的事实列名,聚合器、数据类型和格式的字符串。
