@@ -102,13 +102,13 @@ working ``Make to Order``, the workflow will be:
 .. i18n: #. Delivery and invoicing to the customer.
 ..
 
-#. Customer Order,
+#. 客户订单,
 
-#. Procurement Order on supplier,
+#. 向供应商采购订单,
 
-#. Receive invoice and goods from the supplier,
+#. 从供应商收货，进货发票,
 
-#. Delivery and invoicing to the customer.
+#. 发货和销售发票到客户.
 
 .. i18n: When re-invoicing based on costs you would get the following workflow:
 ..
@@ -126,11 +126,11 @@ When re-invoicing based on costs you would get the following workflow:
 
 #. Enter the customer contract conditions from the analytic accounts,
 
-#. Purchase raw materials and write the services performed into the timesheets,
+#. 采购原材料，并写提供的服务和时间,
 
-#. Receive the supplier invoice and the products,
+#. 收取供应商发票和产品,
 
-#. Invoice these costs to the customer.
+#. 将这些成本写进发票给客户
 
 .. i18n: .. index::
 .. i18n:    single: module; purchase_analytic_plans
