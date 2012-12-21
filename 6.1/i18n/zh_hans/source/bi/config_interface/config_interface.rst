@@ -1,20 +1,19 @@
-
 .. i18n: Configuration Interface
 .. i18n: =======================
 ..
 
-Configuration Interface
+ 配置接口
 =======================
 
 .. i18n: The main goal of any user connecting to OpenObject BI is to fetch the data from database using the powerful MDX queries.
 ..
 
-The main goal of any user connecting to OpenObject BI is to fetch the data from database using the powerful MDX queries.
+主要目标的任何用户连接到OpenObject BI是获取数据从数据库使用强大的MDX查询。
 
 .. i18n: To run any MDX Query there is a need to make a cube and the user can define / configure their own custom cube using two interface : 
 ..
 
-To run any MDX Query there is a need to make a cube and the user can define / configure their own custom cube using two interface : 
+运行任何MDX查询需要作出一个立方体,用户可以定义/配置他们自己的自定义多维数据集使用两个接口:
 
 .. i18n: .. _schema_configuration-link:
 .. i18n: 
@@ -24,7 +23,7 @@ To run any MDX Query there is a need to make a cube and the user can define / co
 
 .. _schema_configuration-link:
 
-Introduction
+介绍
 ----------------------------------
 
 .. i18n: By default the Cube Designer displays all schema in the tree form and provide options to add new schema:
