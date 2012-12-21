@@ -1,29 +1,28 @@
-
 .. i18n: Dashboard 
 .. i18n: =========
 ..
 
-Dashboard 
-=========
+控制界面 
+=======
 
 .. i18n: OpenERP objects can be created from PostgreSQL views. The technique is as follows :
 ..
 
-OpenERP objects can be created from PostgreSQL views. The technique is as follows :
+OpenERP 物件可以从 PostgreSQL 的窗体创建产生。方式如下:
 
 .. i18n:    1. Declare your _columns dictionary. All fields must have the flag **readonly=True.**
 .. i18n:    2. Specify the parameter **_auto=False** to the OpenERP object, so no table corresponding to the _columns dictionary is created automatically.
 .. i18n:    3. Add a method **init(self, cr)** that creates a *PostgreSQL* View matching the fields declared in _columns.
 ..
 
-   1. Declare your _columns dictionary. All fields must have the flag **readonly=True.**
-   2. Specify the parameter **_auto=False** to the OpenERP object, so no table corresponding to the _columns dictionary is created automatically.
-   3. Add a method **init(self, cr)** that creates a *PostgreSQL* View matching the fields declared in _columns.
+   1. 宣告你的栏位 _columns 定义。所有字段必须有 **readonly=True.** 的旗标。
+   2. 对 OpenERP 物件指定参数 **_auto=False** ，所以不会自动产生对应到 _columns 定义的资料表。
+   3. 增加一个方法 **init(self, cr)** 用来创建一个符合 _columns 栏位定义的 *PostgreSQL* 窗体 .
 
 .. i18n: **Example** The object report_crm_case_user follows this model.
 ..
 
-**Example** The object report_crm_case_user follows this model.
+**范例** report_crm_case_user 这个物件是依照以下模式创建的
 
 .. i18n: .. code-block:: python
 .. i18n: 
