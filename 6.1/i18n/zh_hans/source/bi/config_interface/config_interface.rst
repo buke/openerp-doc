@@ -352,7 +352,7 @@ Giving this detail will generate a string like ''postgres://postgres:postgres@lo
 .. i18n: +++++++++++++
 ..
 
-Making Schema
+制造模式
 +++++++++++++
 
 .. i18n: In OpenObject BI schemas are represented in a XML file. It can be designed in the way OpenERP does. The details of XML file can be seen at *Creating XML*
