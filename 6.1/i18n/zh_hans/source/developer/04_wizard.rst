@@ -1626,32 +1626,28 @@ and yield:
 .. i18n: two, if more than two buttons are needed for instance.
 ..
 
-It's also possible to either overload ``action_next`` and
-``action_skip`` or, more useful, to implement more actions than these
-two, if more than two buttons are needed for instance.
+既可以选择action重载 ``action_next`` 和
+``action_skip`` 方法，也可以实现更多的函数，如果此实例中的按钮多余两.
 
 .. i18n: In this case, please remember that you should always provide a way to
 .. i18n: reach ``self.next`` to the user, in order for him to be able to
 .. i18n: configure the rest of his addons.
 ..
 
-In this case, please remember that you should always provide a way to
-reach ``self.next`` to the user, in order for him to be able to
-configure the rest of his addons.
+在这样的情况下，请记住，你需要提供一个方法，让用户能调用self.next函数，这样他才能配置他剩下的插件.
 
 .. i18n: ``res.config``'s public API
 .. i18n: ---------------------------
 ..
 
-``res.config``'s public API
+``res.config`` 的公开接口
 ---------------------------
 
 .. i18n: All of the public API methods take the standard OpenERP set of
 .. i18n: arguments: ``self``, ``cr``, ``uid``, ``ids`` and ``context``.
 ..
 
-All of the public API methods take the standard OpenERP set of
-arguments: ``self``, ``cr``, ``uid``, ``ids`` and ``context``.
+接口和标准的Openerp的变量一致: ``self``, ``cr``, ``uid``, ``ids`` and ``context``.
 
 .. i18n: ``execute``
 .. i18n: +++++++++++
@@ -1667,25 +1663,20 @@ arguments: ``self``, ``cr``, ``uid``, ``ids`` and ``context``.
 .. i18n: undefined behaviors.
 ..
 
-Hook method called in case the ``action_next`` button
-(default label: Record) is clicked. Should not return *anything*
-unless you want to display another view than the next configuration
-item. Returning anything other than a view dictionary will lead to
-undefined behaviors.
+Hook 方法会被 ``action_next`` 按钮（默认标签：Record）唤醒. 除非你想展示一个
+新的视图而非下一步的配置项，否则不要返回任何内容 *anything* 。返回字典以为的东西将会导致未定义的行为.
 
 .. i18n: It is mandatory to overload it. Failure to do so will result in a
 .. i18n: ``NotImplementedError`` being raised at runtime.
 ..
 
-It is mandatory to overload it. Failure to do so will result in a
-``NotImplementedError`` being raised at runtime.
+重写它是必须的。如果不这么做，将会导致 ``NotImplementedError`` 错误.
 
 .. i18n: The default ``res.config`` implementation should not be called in the
 .. i18n: overload (don't use ``super``).
 ..
 
-The default ``res.config`` implementation should not be called in the
-overload (don't use ``super``).
+默认的 ``res.config`` 在重载时不能被调用 (don't use ``super``).
 
 .. i18n: ``cancel``
 .. i18n: ++++++++++
@@ -1699,9 +1690,7 @@ overload (don't use ``super``).
 .. i18n: `execute`_'s, except it's not mandatory to overload it.
 ..
 
-Hook method called in case the ``action_skip`` button
-(default label: Skip) is clicked. Its behavior is the same as
-`execute`_'s, except it's not mandatory to overload it.
+``action_skip`` 按钮 (default label: Skip) 会调用相关的方法，他和 `execute`_' 是一样的，除了它不是必须被重载.
 
 .. i18n: ``next``
 .. i18n: ++++++++
@@ -1715,9 +1704,7 @@ Hook method called in case the ``action_skip`` button
 .. i18n: item needs custom behavior common to all events.
 ..
 
-Method called to fetch the todo (and the corresponding action) for the
-next configuration item. It can be overloaded if the configuration
-item needs custom behavior common to all events.
+下一步配置项调用绑定的方法.若配置项需要定制，则它可以被重载.
 
 .. i18n: If overloaded, the default ``res.config`` implementation must be
 .. i18n: called and its result returned in order to get and execute the next
