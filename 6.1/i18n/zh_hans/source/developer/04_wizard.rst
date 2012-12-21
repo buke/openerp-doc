@@ -1711,9 +1711,7 @@ Hook 方法会被 ``action_next`` 按钮（默认标签：Record）唤醒. 除�
 .. i18n: configuration item.
 ..
 
-If overloaded, the default ``res.config`` implementation must be
-called and its result returned in order to get and execute the next
-configuration item.
+如果被重载，默认的 ``res.config`` 的实现将会被调用，返回值是为了下一步的配置项.
 
 .. i18n: ``action_next`` and ``action_skip``
 .. i18n: +++++++++++++++++++++++++++++++++++
@@ -1728,10 +1726,8 @@ configuration item.
 .. i18n: result returned.
 ..
 
-Event handler for the buttons of the base view, overloading them
-should never be necessary but in case it's needed the default
-``res.config`` implementation should be called (via ``super``) and its
-result returned.
+基础视图中的时间控制按钮，重载他们是不需要的，但是在默认的
+``res.config`` 实现被调用 (via ``super``) 且有返回值的情况下是必须的.
 
 .. i18n: .. [#] This isn't completely true, as you will see when `Customizing
 .. i18n:        your configuration item`_
