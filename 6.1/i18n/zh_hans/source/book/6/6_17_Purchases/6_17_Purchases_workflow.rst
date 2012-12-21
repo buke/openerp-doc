@@ -8,12 +8,12 @@
 .. i18n: The supplier or purchase order is the document that lets you manage price negotiations, control supplier invoices, handle goods receipts and synchronize all of these documents.
 ..
 
-The supplier or purchase order is the document that lets you manage price negotiations, control supplier invoices, handle goods receipts and synchronize all of these documents.
+供应商或者采购订单，让你管理价格谈判，管理采购发票，处理货物收据并同步这些内容。
 
 .. i18n: Let us start by looking at the following order workflow:
 ..
 
-Let us start by looking at the following order workflow:
+让我们一起看看下面的订单流程：
 
 .. i18n: #. Price request to the supplier,
 .. i18n: 
@@ -24,13 +24,13 @@ Let us start by looking at the following order workflow:
 .. i18n: #. Control of invoicing.
 ..
 
-#. Price request to the supplier,
+#. 向供应商询价，
 
-#. Confirmation of purchase,
+#. 确认采购，
 
-#. Receipt and control of products,
+#. 收货和产品管理，
 
-#. Control of invoicing.
+#. 发票管理。
 
 .. i18n: Setting up your Database
 .. i18n: ------------------------
@@ -44,12 +44,11 @@ Let us start by looking at the following order workflow:
 .. i18n: company details when asked, or just use the default if you want.
 ..
 
-To set up a system for these examples, create a new database with demonstration data in it, and
-select the :guilabel:`Extended` interface when you log in as the *admin* user. You can enter your own
-company details when asked, or just use the default if you want.
+要配置一个新的系统使用这些例子，先创建一个有示例数据的数据库，用 *admin* 登录系统，选择 :guilabel:`Extended` 。
+输入您公司的信息，或者您愿意的化也可以用默认的内容。
 
 .. i18n: .. index::
-.. i18n:    single: module; purchase
+.. i18n:    single: module; purchase 
 ..
 
 .. index::
@@ -59,8 +58,8 @@ company details when asked, or just use the default if you want.
 .. i18n: the remainder of this chapter logged in as the *admin* user.
 ..
 
-Then, using the Configuration Wizard, select :guilabel:`Purchase Management` in the :guilabel:`Install Applications` section to install the :mod:`purchase` module, which also installs several other modules as dependencies. Continue
-the remainder of this chapter logged in as the *admin* user.
+然后使用配置向导，在 :guilabel:`Install Applications` 中，选择 :guilabel:`Purchase Management` 安装 :mod:`purchase` 采购模块，
+同时会安装几个依赖模块。在这章的其他部分都用*admin*登录
 
 .. i18n: Price Request from the Supplier
 .. i18n: -------------------------------
@@ -73,8 +72,10 @@ the remainder of this chapter logged in as the *admin* user.
 .. i18n: Request for Quotation`. When you click :guilabel:`New`, OpenERP opens a blank request for quotation form that you use for requesting prices from a supplier. This is shown in the figure :ref:`fig-pfrm`. If the price request came from an automatic procurement created by OpenERP, you will find a reference to the document that generated the request in the :guilabel:`Origin` field.
 ..
 
-To enter data for a new supplier price request (i.e. request for quotation), use the menu :menuselection:`Purchases --> Purchase Management -->
-Request for Quotation`. When you click :guilabel:`New`, OpenERP opens a blank request for quotation form that you use for requesting prices from a supplier. This is shown in the figure :ref:`fig-pfrm`. If the price request came from an automatic procurement created by OpenERP, you will find a reference to the document that generated the request in the :guilabel:`Origin` field.
+选择菜单 :menuselection:`Purchases --> Purchase Management -->Request for Quotation` ，
+输入一个新的询价（例如,request for quotation）。点击 :guilabel:`New` ，OpenERP打开一个空的询价表单，
+用来输入从供应商询到的价格。如图所示 :ref:`fig-pfrm` 。如果询价是OpenERP自动处理，
+您可以看到一个引用文档，在询价的:guilabel:`Origin` 字段。
 
 .. i18n: .. _fig-pfrm:
 .. i18n: 
@@ -91,7 +92,7 @@ Request for Quotation`. When you click :guilabel:`New`, OpenERP opens a blank re
    :scale: 75
    :align: center
 
-   *Data Entry for a Purchase Order*
+   *采购订单的数据入口*
 
 .. i18n: .. index::
 .. i18n:    single: module; warning
