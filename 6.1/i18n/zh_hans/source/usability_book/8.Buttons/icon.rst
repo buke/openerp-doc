@@ -138,25 +138,25 @@
 | * 昨天                                   | .. figure:: Pictures/gtk-go-back-ltr.png        |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a Confirm,       | .. figure:: Pictures/gtk-go-back-rtl.png        |
-|   to validate (tomorrow (timesheet),     |    :align: center                               |
-|   to do, to  fix, force period,          |                                                 |
-|   to invoice, to approve, To ...,        |                                                 |
-|   make payment, to be upgraded, Next     |                                                 |
+| * 确认、校验。。。等等下一步流程         | .. figure:: Pictures/gtk-go-back-rtl.png        |
+|                                          |    :align: center                               |
+|                                          |                                                 |
+|                                          |                                                 |
+|                                          |                                                 |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a sign in, go to,| .. figure:: Pictures/gtk-jump-to-ltr.png        |
-|   destination location                   |    :align: center                               |
+| * 登录、去往等流程跳转                   | .. figure:: Pictures/gtk-jump-to-ltr.png        |
+|                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a sign out,      | .. figure:: Pictures/gtk-jump-to-rtl.png        |
-|   origin, source location, reason        |    :align: center                               |
+| * 登出、来源等流程跳转                   | .. figure:: Pictures/gtk-jump-to-rtl.png        |
+|                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to something        | .. figure:: Pictures/gdu-smart-failing.png      |
-|   inactive                               |    :align: center                               |
+| * 未激活                                 | .. figure:: Pictures/gdu-smart-failing.png      |
+|                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a plan, task,    | .. figure:: Pictures/stock_align_left_24.png    |
-|   type, routing                          |    :align: center                               |
+| * 计划、任务、类型、路由                 | .. figure:: Pictures/stock_align_left_24.png    |
+|                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to an exception,    | .. figure:: Pictures/emblem-important.png       |
-|   shipping exception, invoice exception, |    :align: center                               |
-|   unanswered                             |                                                 |
+| * 例外、意外等                           | .. figure:: Pictures/emblem-important.png       |
+|                                          |    :align: center                               |
+|                                          |                                                 |
 +------------------------------------------+-------------------------------------------------+
