@@ -23,11 +23,11 @@
 ..
 
 * 标题要符合应用套件内容：正如之前介绍，选择安装应用之后就会有一个配置向导。该配置向导的标题必须与应用套件相关。
-* Picture and information on the left : all wizards must have one business picture and an explanation text regarding the business application to configure.  
-* Objects (Documents) to configure on the right : all objects related to the application must be chosen with selection box. Must be placed on the right.
-* Allow user to Skip or Configure : Each wizard must have 2 buttons, one to Skip and one to configure. These buttons must be placed on the bottom right. 
-* Progress bar : to allow user see where he is in configuration, all wizards have to have a progress bar with the percentage of completion of database.
-* Separators : Each part of the wizard must be separated by a separator bar 
+* 图片和说明性信息放在左边：所有向导都需要相关的图片和说明性的文字，告诉用户如何配置。
+* 可配置对象（文件）放在右边：所有可配置对象应该可以选择和配置，放在配置向导的右边。
+* 允许用户跳过配置：所有配置向导都必须有2个按钮，“跳过” 和 “配置”，放在配置向导右下角。
+* 进度条：允许用户看到进行到哪一步了，所有应用都应该有一个百分比的进度条来显示完成进度。
+* 分隔符：每个配置部分都应该用分割栏分开布局。
 
 .. i18n: Configuration wizards are optional
 .. i18n: -----------------------------------
