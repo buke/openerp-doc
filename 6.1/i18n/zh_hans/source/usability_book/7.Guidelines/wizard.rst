@@ -33,20 +33,20 @@
 .. i18n: -----------------------------------
 ..
 
-可选的配置向导
+配置向导应该是可选的
 -----------------------------------
 
 .. i18n: Configuration wizards are optional. The system must be usable and configured by default even if the administrator skips all steps during the configuration process. Configuration wizards are available only to:
 ..
 
-Configuration wizards are optional. The system must be usable and configured by default even if the administrator skips all steps during the configuration process. Configuration wizards are available only to:
+配置向导是可选的。系统应该可以使用默认配置，即使管理员在配置过程中跳过所有步骤。配置向导仅适用于：
 
 .. i18n: 1. Propose new features to install (a set of modules)
 .. i18n: 2. Change the default configuration of the system (and not configure the system !)
 ..
 
-1. Propose new features to install (a set of modules)
-2. Change the default configuration of the system (and not configure the system !)
+1. 提供新功能安装（一系列模块）
+2. 更改系统的默认配置（而不是配置系统！）
 
 .. i18n: Configuration wizards are part of the applications
 .. i18n: --------------------------------------------------
