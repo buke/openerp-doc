@@ -22,7 +22,7 @@
 .. i18n: * Separators : Each part of the wizard must be separated by a separator bar 
 ..
 
-* Adapted title to each application : as introduced, chosen application leads to one configuration wizard. The configuration wizard must have a title related to the application. 
+* 标题要符合应用套件内容：正如之前介绍，选择安装应用之后就会有一个配置向导。该配置向导的标题必须与应用套件相关。
 * Picture and information on the left : all wizards must have one business picture and an explanation text regarding the business application to configure.  
 * Objects (Documents) to configure on the right : all objects related to the application must be chosen with selection box. Must be placed on the right.
 * Allow user to Skip or Configure : Each wizard must have 2 buttons, one to Skip and one to configure. These buttons must be placed on the bottom right. 
