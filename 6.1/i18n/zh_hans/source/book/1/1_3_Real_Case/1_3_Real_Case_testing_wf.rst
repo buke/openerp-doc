@@ -194,7 +194,7 @@
 .. i18n: 	#. Open the menu :menuselection:`Warehouse --> Warehouse Management --> Incoming Shipments` using the expand/collapse icon.
 ..
 
-	#. Open the menu :menuselection:`Warehouse --> Warehouse Management --> Incoming Shipments` using the expand/collapse icon.
+	#. 点开各个菜单项前的展开图标 :menuselection:`仓库 --> 仓库管理 --> 收货` .
 
 .. i18n: 	   .. note:: From the Purchase Order
 .. i18n: 
