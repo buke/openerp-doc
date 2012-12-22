@@ -58,14 +58,14 @@
 .. i18n: Most of the application wizards must be part of one application. Be sure that:
 ..
 
-Most of the application wizards must be part of one application. Be sure that:
+大多数的应用向导必须是应用套件的一部分。请务必做到：
 
 .. i18n: * The application this configuration wizard belongs to is explicit
 .. i18n: * Terminology are dedicated to the application context. As an example, in a project management application, don't talk about analytic account or entries but talk about projects and timesheets. Avoid configuration wizards that are related to several applications.
 ..
 
-* The application this configuration wizard belongs to is explicit
-* Terminology are dedicated to the application context. As an example, in a project management application, don't talk about analytic account or entries but talk about projects and timesheets. Avoid configuration wizards that are related to several applications.
+* 明确配置向导向导属于某个应用套件
+* 术语独立于应用套件的上下文。例如，在项目管理应用中，不要讨论辅助核算或凭证，要讨论项目或时间表。避免涉及到多个应用套件的配置向导。
 
 .. i18n: Configuration wizards and extended/simplified views
 .. i18n: ---------------------------------------------------
