@@ -1,12 +1,11 @@
-
 .. i18n: ================
 .. i18n: Build and deploy
 .. i18n: ================
 ..
 
-================
-Build and deploy
-================
+=================
+构建安装程序包和安装
+=================
 
 .. i18n: This page describes how to build a custom version of OpenERP for Windows.
 ..
@@ -17,29 +16,29 @@ This page describes how to build a custom version of OpenERP for Windows.
 .. i18n: ========
 ..
 
-Building
-========
+构建
+====
 
 .. i18n: Dependencies
 .. i18n: ------------
 ..
 
-Dependencies
-------------
+关联性
+-----
 
 .. i18n: The first step is to build the dependencies. To do so, grab the Windows installer branch::
 .. i18n: 
 .. i18n:     bzr branch lp:~openerp-groupes/openerp/win-installer-trunk
 ..
 
-The first step is to build the dependencies. To do so, grab the Windows installer branch::
+第一步是建立关联性。要建立关联性，要抓取 Windows 安装分支::
 
     bzr branch lp:~openerp-groupes/openerp/win-installer-trunk
 
 .. i18n: and install the packages:
 ..
 
-and install the packages:
+然后安装以下程序包:
 
 .. i18n:     * 7z465.msi
 .. i18n:     * python-2.5.2.msi
@@ -60,13 +59,13 @@ and install the packages:
 .. i18n: ++++++
 ..
 
-Server
-++++++
+服务器
++++++
 
 .. i18n: Install the packages:
 ..
 
-Install the packages:
+安装以下程序包:
 
 .. i18n:     * lxml-2.1.2.win32-py2.5.exe
 .. i18n:     * PIL-1.1.6.win32-py2.5.exe
@@ -93,13 +92,13 @@ Install the packages:
 .. i18n: +++
 ..
 
-Web
-+++
+网页
+++++
 
 .. i18n: Install the packages:
 ..
 
-Install the packages:
+安装以下程序包:
 
 .. i18n:     * Babel-0.9.4-py2.5.egg
 .. i18n:     * CherryPy-3.1.2.win32.exe
@@ -118,25 +117,25 @@ Install the packages:
 .. i18n: -------------------
 ..
 
-Source distribution
--------------------
+来源配置
+-------
 
 .. i18n: The second step is to build a source distribution on Linux.
 ..
 
-The second step is to build a source distribution on Linux.
+第二步是在 Linux 上建构一个来源配置
 
 .. i18n: Server
 .. i18n: ++++++
 ..
 
-Server
-++++++
+服务器
++++++
 
 .. i18n: Let's assume you work on your own server branch named **6.0** and you want to build a server with the following modules:
 ..
 
-Let's assume you work on your own server branch named **6.0** and you want to build a server with the following modules:
+假设你是要用你自己的服务器建构，版本名称 **6.0** ，而且想用以下的模块建构服务器:
 
 .. i18n:     * base_setup
 .. i18n:     * base_tools
@@ -152,7 +151,7 @@ Let's assume you work on your own server branch named **6.0** and you want to bu
 .. i18n:     ln -s ~/openerp/addons/6.0/{base_setup,base_tools,board} .
 ..
 
-This implies that these modules have been linked in *bin/addons* by a command similar to::
+这表示这些模块已经用类似以下的指令连结到 *bin/addons* ::
 
     ln -s ~/openerp/addons/6.0/{base_setup,base_tools,board} .
 
@@ -161,7 +160,7 @@ This implies that these modules have been linked in *bin/addons* by a command si
 .. i18n:     python setup.py sdist --format=zip
 ..
 
-To build the server, go to the root directory and type::
+要建构服务器，到根目录输入::
 
     python setup.py sdist --format=zip
 
@@ -171,24 +170,24 @@ To build the server, go to the root directory and type::
 .. i18n:     * **p** is the patch version, example 1
 ..
 
-You now have a new file in the **dist** directory, called openerp-server-M.m.P.zip where:
-    * **M** is the major version, example 6
-    * **m** is the minor version, example 0
-    * **p** is the patch version, example 1
+现在在 **dist** 目录里新增了一个文件，名为 openerp-server-M.m.P.zip ，这里的:
+    * **M** 是主版次编号，例如 6
+    * **m** 是次要版次编号，例如 0
+    * **p** 是补丁版次编号，例如 1
 
 .. i18n: Web
 .. i18n: +++
 ..
 
-Web
-+++
+网页
+++++
 
 .. i18n: To build the web client, go to the root directory and type::
 .. i18n: 
 .. i18n:     python setup.py sdist --format=zip
 ..
 
-To build the web client, go to the root directory and type::
+要建构网页客户端，到根目录输入::
 
     python setup.py sdist --format=zip
 
@@ -198,10 +197,10 @@ To build the web client, go to the root directory and type::
 .. i18n:     * **p** is the patch version, example 1
 ..
 
-You now have a new file in the **dist** directory, called openerp-web-M.m.P.zip where:
-    * **M** is the major version, example 6
-    * **m** is the minor version, example 0
-    * **p** is the patch version, example 1
+现在在 **dist** 目录里新增了一个文件，名为 openerp-web-M.m.P.zip ，这里的:
+    * **M** 是主版次编号，例如 6
+    * **m** 是次要版次编号，例如 0
+    * **p** 是补丁版次编号，例如 1
 
 .. i18n: Binary distribution
 .. i18n: -------------------
@@ -213,21 +212,21 @@ Binary distribution
 .. i18n: The third step is to build a binary distribution on Windows.
 ..
 
-The third step is to build a binary distribution on Windows.
+第三步是建构一个 Windows 规格的安装程序包
 
 .. i18n: Server
 .. i18n: ++++++
 ..
 
-Server
-++++++
+服务器
++++++
 
 .. i18n: Open a command prompt and unzip the file::
 .. i18n: 
 .. i18n:     7z x openerp-server-M.m.P.zip -oC:\openerp
 ..
 
-Open a command prompt and unzip the file::
+开启一个指令提示行， 解压缩以下文件 ::
 
     7z x openerp-server-M.m.P.zip -oC:\openerp
 
@@ -236,7 +235,7 @@ Open a command prompt and unzip the file::
 .. i18n:     cd C:\openerp\openerp-server-M.m.P\win32
 ..
 
-Go to the **win32** directory::
+移到 **win32** 文件夹 ::
 
     cd C:\openerp\openerp-server-M.m.P\win32
 
@@ -245,7 +244,7 @@ Go to the **win32** directory::
 .. i18n:     python setup.py py2exe
 ..
 
-Generate the service exe with::
+用以下指令建立一个服务程序 ::
 
     python setup.py py2exe
 
@@ -254,7 +253,7 @@ Generate the service exe with::
 .. i18n:     cd ..
 ..
 
-Go to the parent directory::
+移到上一层文件夹 ::
 
     cd ..
 
@@ -263,7 +262,7 @@ Go to the parent directory::
 .. i18n:     python setup.py py2exe
 ..
 
-Generate the server exe with::
+用以下指令建立一个服务程序 ::
 
     python setup.py py2exe
 
@@ -272,28 +271,28 @@ Generate the server exe with::
 .. i18n:     makensis setup.nsi
 ..
 
-Build the Windows installer with::
+用以下指令建立一个 Windows 安装包 ::
 
     makensis setup.nsi
 
 .. i18n: You now have a new file in the root directory, called openerp-server-setup-M.m.P.exe. This file is the installer that you can use the install a custom version of OpenERP.
 ..
 
-You now have a new file in the root directory, called openerp-server-setup-M.m.P.exe. This file is the installer that you can use the install a custom version of OpenERP.
+现在在根文件夹有一个新文件，名为 openerp-server-setup-M.m.P.exe。 这个文件就是安装定制版本 OpenERP 的安装程序包。
 
 .. i18n: Web
 .. i18n: +++
 ..
 
-Web
-+++
+网页
+++++
 
 .. i18n: Open a command prompt and unzip the file::
 .. i18n: 
 .. i18n:     7z x openerp-web-M.m.P.zip -oC:\openerp
 ..
 
-Open a command prompt and unzip the file::
+开启一个指令提示行， 解压缩以下文件 ::
 
     7z x openerp-web-M.m.P.zip -oC:\openerp
 
@@ -302,7 +301,7 @@ Open a command prompt and unzip the file::
 .. i18n:     cd C:\openerp\openerp-web-M.m.P\win32
 ..
 
-Go to the **win32** directory::
+移到 **win32** 文件夹 ::
 
     cd C:\openerp\openerp-web-M.m.P\win32
 
@@ -311,7 +310,7 @@ Go to the **win32** directory::
 .. i18n:     python setup.py py2exe
 ..
 
-Generate the service exe with::
+用以下指令建立一个服务程序 ::
 
     python setup.py py2exe
 
@@ -320,7 +319,7 @@ Generate the service exe with::
 .. i18n:     cd ..
 ..
 
-Go to the parent directory::
+移到上一层文件夹 ::
 
     cd ..
 
@@ -329,7 +328,7 @@ Go to the parent directory::
 .. i18n:     python setup.py py2exe
 ..
 
-Generate the web exe with::
+用以下指令建立一个网页程序 ::
 
     python setup.py py2exe
 
@@ -338,40 +337,40 @@ Generate the web exe with::
 .. i18n:     makensis setup.nsi
 ..
 
-Build the Windows installer with::
+用以下指令建立一个 Windows 安装包 ::
 
     makensis setup.nsi
 
 .. i18n: You now have a new file in the root directory, called openerp-web-setup-M.m.P.exe. This file is the installer that you can use the install a custom version of OpenERP.
 ..
 
-You now have a new file in the root directory, called openerp-web-setup-M.m.P.exe. This file is the installer that you can use the install a custom version of OpenERP.
+现在在根文件夹有一个新文件，名为 openerp-web-setup-M.m.P.exe。 这个文件就是安装定制版本 OpenERP 的安装程序包。
 
 .. i18n: Deploy
 .. i18n: ======
 ..
 
-Deploy
-======
+安装
+====
 
 .. i18n: This page describes how to deploy a custom version of OpenERP on Windows.
 ..
 
-This page describes how to deploy a custom version of OpenERP on Windows.
+这一页在说明如何是在 Windows 里安装定制版本的 OpenERP 。
 
 .. i18n: Package script
 .. i18n: --------------
 ..
 
-Package script
---------------
+安装包脚本
+---------
 
 .. i18n: The first step is to grab the package script branch::
 .. i18n: 
 .. i18n:     bzr branch lp:~openerp-groupes/openerp/package-script
 ..
 
-The first step is to grab the package script branch::
+第一步是要抓取安装包脚本分支 ::
 
     bzr branch lp:~openerp-groupes/openerp/package-script
 
@@ -379,25 +378,25 @@ The first step is to grab the package script branch::
 .. i18n: -----
 ..
 
-Batch
------
+批次执行档
+---------
 
 .. i18n: Go to the *packaging* directory of the branch and copy the file *build.bat* to the *C:\\openerp* directory of your Windows machine.
 ..
 
-Go to the *packaging* directory of the branch and copy the file *build.bat* to the *C:\\openerp* directory of your Windows machine.
+移到这个分支的 *packaging* 文件夹，把 *build.bat* 复制到 Widnows 电脑的 *C:\\openerp* 文件夹里。
 
 .. i18n: SSH server
 .. i18n: ----------
 ..
 
-SSH server
+SSH 服务器
 ----------
 
 .. i18n: You need to install a SSH server on Windows. You can for example install `freeSSHd <http://www.freesshd.com/>`_.
 ..
 
-You need to install a SSH server on Windows. You can for example install `freeSSHd <http://www.freesshd.com/>`_.
+你需要在 Windows 电脑上安装 SSH 服务器，例如 `freeSSHd <http://www.freesshd.com/>`_。
 
 .. i18n: Fabric
 .. i18n: ------
@@ -409,25 +408,25 @@ Fabric
 .. i18n: You need to install the tool `Fabric <http://docs.fabfile.org/0.9.3/>`_ to run commands on Windows from Linux using SSH. Refer to your linux package manager to install it.
 ..
 
-You need to install the tool `Fabric <http://docs.fabfile.org/0.9.3/>`_ to run commands on Windows from Linux using SSH. Refer to your linux package manager to install it.
+你需要安装 `Fabric <http://docs.fabfile.org/0.9.3/>`_ 这个工具，才能让 Linux 透过 SSH 连上这台电脑， 并且执行命令。参照你的 Linux 套装管理员进行安装。
 
 .. i18n: Configure
 .. i18n: +++++++++
 ..
 
-Configure
-+++++++++
+设定
+++++
 
 .. i18n: Go to the *packaging* directory of the branch and edit the file fabfile.py. Change what need to be changed.
 ..
 
-Go to the *packaging* directory of the branch and edit the file fabfile.py. Change what need to be changed.
+到分支里的 *packaging* 文件夹，依照需要修改 fabfile.py 文件。
 
 .. i18n: Run
 .. i18n: +++
 ..
 
-Run
+运行
 +++
 
 .. i18n: run the command::
@@ -435,7 +434,7 @@ Run
 .. i18n:     fab -H host -u user server
 ..
 
-run the command::
+输入以下指令 ::
 
     fab -H host -u user server
 
@@ -444,6 +443,6 @@ run the command::
 .. i18n:     * *user* is the Windows user name
 ..
 
-where:
-    * *host* is the Windows host name
-    * *user* is the Windows user name
+这里的 :
+    * *host* 是 Windows 主机名称
+    * *user* 是 Windows 使用者名称
