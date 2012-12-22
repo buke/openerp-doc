@@ -14,7 +14,7 @@
 .. i18n: Most of the icons are laid in search view. All of the buttons  have to have an icon relevant to the function. OpenERP uses a range of predefined icons. Here are the most frequent icons (all icons are in annexe) : 
 ..
 
-Most of the icons are laid in search view. All of the buttons  have to have an icon relevant to the function. OpenERP uses a range of predefined icons. Here are the most frequent icons (all icons are in annexe) : 
+大多数图标都可在搜索视图中看到。所有的按钮中必须有一个相关的功能的图标。 OpenERP 使用一系列预定义的图标。以下是最常见的图标（所有的图标都在附件）
 
 .. i18n: +------------------------------------------+-------------------------------------------------+
 .. i18n: | * When buttons refer to a Human Resources| .. figure:: Pictures/personal.png               |
