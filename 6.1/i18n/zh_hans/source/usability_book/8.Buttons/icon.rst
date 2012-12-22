@@ -90,13 +90,13 @@
 ..
 
 +------------------------------------------+-------------------------------------------------+
-| * 关联为人力资源的按钮                   | .. figure:: Pictures/personal.png               |
+| * 人力资源                               | .. figure:: Pictures/personal.png               |
 |                                          |     :align: center                              |
 +------------------------------------------+-------------------------------------------------+
-| * 关联为日期的按钮                       | .. figure:: Pictures/go-month.png               |
+| *  日期                                  | .. figure:: Pictures/go-month.png               |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * 关联为商品的按钮                       | .. figure:: Pictures/accessories-archiver.png   |
+| * 商品                                   | .. figure:: Pictures/accessories-archiver.png   |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
 | * 状态按钮:                              |                                                 |
@@ -109,33 +109,33 @@
 |      - 处理中                            | .. figure:: Pictures/gtk-media-pause.png        |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a today,meeting, | .. figure:: Pictures/go-today.png               |
-|   events                                 |    :align: center                               |
-+------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a week           | .. figure:: Pictures/go-week.png                |
+| * 今天、会议、事件                       | .. figure:: Pictures/go-today.png               |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a date,month and | .. figure:: Pictures/go-month.png               |
-|   all date when data sorts by month      |    :align: center                               |
-|   (scheduled date, period, invoice date, |                                                 |
-|   due date, <30 days, period of move     |                                                 |
-|   line),write date, create date, date run|                                                 |
+| * 周                                     | .. figure:: Pictures/go-week.png                |
+|                                          |    :align: center                               |
++------------------------------------------+-------------------------------------------------+
+| * 日期                                   | .. figure:: Pictures/go-month.png               |
+|                                          |    :align: center                               |
+|                                          |                                                 |
+|                                          |                                                 |
+|                                          |                                                 |
 |                                          |                                                 |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a Year,<365 days | .. figure:: Pictures/go-year.png                |
-|   ,fiscal position                       |    :align: center                               |
-+------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a close, done,   | .. figure:: Pictures/dialog-close.png           |
-|   expected closing, Uninstalled          |    :align: center                               |
-+------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a Cancel,        | .. figure:: Pictures/gtk-stop.png               |
-|   refused, mark lost                     |    :align: center                               |
-+------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a late, overdue, | .. figure:: Pictures/gnome-cpu-frequency-applet+|
-|   urgent, very urgent, deadline          |    .png                                         |
+| * 年                                     | .. figure:: Pictures/go-year.png                |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
-| * When buttons refer to a yesterday      | .. figure:: Pictures/gtk-go-back-ltr.png        |
+| * 关闭、完成、正常关闭、卸载             | .. figure:: Pictures/dialog-close.png           |
+|                                          |    :align: center                               |
++------------------------------------------+-------------------------------------------------+
+| * 取消、拒绝、标记损失                   | .. figure:: Pictures/gtk-stop.png               |
+|                                          |    :align: center                               |
++------------------------------------------+-------------------------------------------------+
+| * 迟到、超期、紧急、到期                 | .. figure:: Pictures/gnome-cpu-frequency-applet+|
+|                                          |    .png                                         |
+|                                          |    :align: center                               |
++------------------------------------------+-------------------------------------------------+
+| * 昨天                                   | .. figure:: Pictures/gtk-go-back-ltr.png        |
 |                                          |    :align: center                               |
 +------------------------------------------+-------------------------------------------------+
 | * When buttons refer to a Confirm,       | .. figure:: Pictures/gtk-go-back-rtl.png        |
