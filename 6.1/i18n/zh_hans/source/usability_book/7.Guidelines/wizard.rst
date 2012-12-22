@@ -77,4 +77,4 @@
 .. i18n: Be sure you use extended/simplified views features also in configuration wizards. In order to simplify the configuration process, some options or wizards must be available in extended views only.
 ..
 
-Be sure you use extended/simplified views features also in configuration wizards. In order to simplify the configuration process, some options or wizards must be available in extended views only.
+扩展/简单试图也同样适用于配置向导。为简化配置过程，有些配置选项仅在扩展试图中显示。
