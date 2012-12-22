@@ -11,7 +11,7 @@
 .. i18n: -------------------------------
 ..
 
-普通向导布局
+向导的通用布局
 -------------------------------
 
 .. i18n: * Adapted title to each application : as introduced, chosen application leads to one configuration wizard. The configuration wizard must have a title related to the application. 
