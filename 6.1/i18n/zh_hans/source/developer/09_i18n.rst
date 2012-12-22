@@ -80,12 +80,12 @@ I18n 包含了各模块对不同语言的翻译。这个文件夹包含2种类�
 .. i18n: The above file is the template for the translation files for the account module they tell what all values of the module should be translated in the respective languages.
 ..
 
-上述的文件是客户(account)模块翻译文件的模板，里面的程序是在判别所有模块里的值，在对应的语言里应该被翻译成什么。
+上述的文件是会计(account)模块翻译文件的模板，里面的程序是在判别所有模块里的值，在对应的语言里应该被翻译成什么。
 
 .. i18n: Example of fr_FR.po for account module translates in French language
 ..
 
-以下例子是客户模块里的 fr_FR.po 把客户模块翻译成法文。
+以下例子是会计模块里的 fr_FR.po 把会计模块翻译成法文。
 
 .. i18n: ::
 .. i18n:   
