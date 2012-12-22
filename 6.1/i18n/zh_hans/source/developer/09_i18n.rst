@@ -1,41 +1,40 @@
-
 .. i18n: ===========================
 .. i18n: I18n - Internationalization
 .. i18n: ===========================
 ..
 
-===========================
-I18n - Internationalization
-===========================
+============
+I18n - 国际化
+============
 
 .. i18n: Explain about the multiple language application
 ..
 
-Explain about the multiple language application
+关于多种语言应用程序的说明
 
 .. i18n: Introduction
 .. i18n: ============
 ..
 
-Introduction
-============
+简介
+====
 
 .. i18n: The I18n contains the translation of module in different languages.  The folder contains two type of files .po and .pot.
 .. i18n: The .po files  are the actual translation files where as .pot is the template for the translation.
 ..
 
-The I18n contains the translation of module in different languages.  The folder contains two type of files .po and .pot.
-The .po files  are the actual translation files where as .pot is the template for the translation.
+I18n 包含了各模块对不同语言的翻译。这个文件夹包含2种类型的文件， .po 和 .pot。
+.po 文件是真正的翻译文件， .pot 是翻译文件的模板。
 
 .. i18n: The .po files should be named according to the language code of specific language and .pot should be named according to the module name.
 ..
 
-The .po files should be named according to the language code of specific language and .pot should be named according to the module name.
+.po 文件应该是依照对应语言的代码命名的， .pot 应该是依照对应模块的名称命名的。
 
 .. i18n: Example of a account.pot file
 ..
 
-Example of a account.pot file
+以下以 account.pot 为例子
 
 .. i18n: ::
 .. i18n:    
@@ -81,12 +80,12 @@ Example of a account.pot file
 .. i18n: The above file is the template for the translation files for the account module they tell what all values of the module should be translated in the respective languages.
 ..
 
-The above file is the template for the translation files for the account module they tell what all values of the module should be translated in the respective languages.
+上述的文件是客户(account)模块翻译文件的模板，里面的程序是在判别所有模块里的值，在对应的语言里应该被翻译成什么。
 
 .. i18n: Example of fr_FR.po for account module translates in French language
 ..
 
-Example of fr_FR.po for account module translates in French language
+以下例子是客户模块里的 fr_FR.po 把客户模块翻译成法文。
 
 .. i18n: ::
 .. i18n:   
@@ -144,5 +143,5 @@ Example of fr_FR.po for account module translates in French language
   msgid "Integrity Error !"
   msgstr "Erreur d'Intégrité !"   
   
-The above file translates the values of msgid to French in msgstr. Based on the msgid present in the .pot file.
-fr_FR is the language code for French language in which fr specifies the language and FR specifies the country in which the language is spoken.   
+上面的文件把 msgid 的值，依据 msgid 在 .pot 文件里代表的值，翻译成 msgstr 里的法文。
+fr_FR 是法文的语言代码，其中 fr 表示法文， FR 表示使用这个语言的国家。   
