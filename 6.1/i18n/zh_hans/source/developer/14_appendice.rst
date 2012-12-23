@@ -1,19 +1,18 @@
-
 .. i18n: =========
 .. i18n: Appendice
 .. i18n: =========
 ..
 
-=========
-Appendice
-=========
+====
+附录
+====
 
 .. i18n: Conventions
 .. i18n: ===========
 ..
 
-Conventions
-===========
+约定事项
+=======
 
 .. i18n: Guidelines
 .. i18n: ----------
@@ -22,18 +21,18 @@ Conventions
 .. i18n: :doc:`Contribution section </contribute/index>`.
 ..
 
-Guidelines
-----------
-For guidelines and general recommendations with regard to the development of OpenERP modules,
-please refer to the :ref:`Guidelines <contribution_guidelines-link>` of the
-:doc:`Contribution section </contribute/index>`.
+指南
+----
+关于 OpenERP 模块的开发指南和一般建议，
+请参阅 :doc:`贡献 </contribute/index>` 文件里的
+:ref:`指南 <contribution_guidelines-link>` 
 
 .. i18n: Module structure and file names
 .. i18n: -------------------------------
 ..
 
-Module structure and file names
--------------------------------
+模块结构和文件名称
+---------------
 
 .. i18n: The structure of a module should be::
 .. i18n: 
@@ -59,7 +58,7 @@ Module structure and file names
 .. i18n:         /report/report_name.py
 ..
 
-The structure of a module should be::
+模块的结构应该如下::
 
     /module/
 
@@ -86,8 +85,8 @@ The structure of a module should be::
 .. i18n: ------------------
 ..
 
-Naming conventions
-------------------
+命名方式约定
+----------
 
 .. i18n:     * modules: modules must be written in lower case, with underscores. The name of the module is the name of the directory in the addons path of the server. If the module depends on other modules, you can write several module names separated by underscores, starting by the most important name. Example:
 .. i18n:           + sale
@@ -105,52 +104,52 @@ Naming conventions
 .. i18n:           + one2many: must end by '_ids' (eg: line_ids
 ..
 
-    * modules: modules must be written in lower case, with underscores. The name of the module is the name of the directory in the addons path of the server. If the module depends on other modules, you can write several module names separated by underscores, starting by the most important name. Example:
+    * 模块: 模块名称应该使用下划线(_)，加上小写字母。模块的名称就是服务器上插件所在的路径名称。如果某个模块依赖其他的模块，你可以用最重要的模块作为名称的开始，把其他几个模块的名称用下划线分别串起来。例如:
           + sale
           + sale_commission 
 
-    * objects: the name of an object must be of the form name_of_module.name1.name2.name3.... The namei part of the object must go from the most important name to the least important one, from left to right, in lower case. Try not to use plurals in object names and to avoid shortcuts in the names. Example:
+    * 物件: 物件的名称必须依照以下的形式 模块名称.物件名称1.物件名称2.物件名称3.... 物件名称i 的排列顺序必须是由最重要的到最不重要的，由左到右，而且要是小写字母。尽量不要在物件名称里使用复数形式，同时要避免在名称里使用捷径。例如:
           + sale.order
           + sale.order.line
           + sale.shop
           + sale_commission.commission.rate 
 
-    * fields: field must be in lowercase, separated by underscores. Try to use commonly used names for fields: name, state, active, partner_id, eso. Conventions for the field name depends on the field type:
-          + many2one: must end by '_id' (eg: partner_id, order_line_id)
-          + many2many: must end by '_ids' (eg: category_ids)
-          + one2many: must end by '_ids' (eg: line_ids
+    * 字段: 字段必须是小写，加上分隔的下划线。尽量使用一般常用的字段名称，例如：name, state, active, partner_id, 等等。字段名称是依据字段的属性来约定的:
+          + 多对一: 必须在结尾加上 '_id' (例如: partner_id, order_line_id)
+          + 多对多: 必须在结尾加上'_ids' (例如: category_ids)
+          + 一对多: 必须在结尾加上'_ids' (例如: line_ids)
 
 .. i18n: Translations
 .. i18n: ============
 ..
 
-Translations
-============
+翻译
+====
 
 .. i18n: OpenERP is multilingual. You can add as many languages as you wish. Each user may work with the interface in his own language. Moreover, some resources (the text of reports, product names, etc.) may also be translated.
 ..
 
-OpenERP is multilingual. You can add as many languages as you wish. Each user may work with the interface in his own language. Moreover, some resources (the text of reports, product names, etc.) may also be translated.
+OpenERP 是多语言的。你想要加进多少种语言都没问题。每个用户都可以用他自己的语言作为工作界面，而且某些资源 (报表的内容，产品名称等等) 也可以翻译成想要的语言。
 
 .. i18n: This section explains how to change the language of the program shown to individual users, and how to add new languages to OpenERP.
 ..
 
-This section explains how to change the language of the program shown to individual users, and how to add new languages to OpenERP.
+这一段说明了如何改变每个用户看到的语言，以及如何在 OpenERP 里新增语言。
 
 .. i18n: Nearly all the labels used in the interface are stored on the server. In the same way, the translations are also stored on the server. By default the English dictionary is stored on the server, so if the users want to try OpenERP in a language other than English you must store these languages definitions on the server.
 ..
 
-Nearly all the labels used in the interface are stored on the server. In the same way, the translations are also stored on the server. By default the English dictionary is stored on the server, so if the users want to try OpenERP in a language other than English you must store these languages definitions on the server.
+几乎所有在使用界面里用到的标签都有储存在服务器上，同样的，标签的翻译也都有储存在服务器上。服务器的预设值是把英文的字典储存在服务器上，所以如果用户想要尝试除了英文以外的语言，这些语言的定义(字典)必须要储存在服务器上。
 
 .. i18n: However, it is not possible to store "everything" on the server. Indeed, the user gets some menus, buttons, etc... that must contain some text *even before* being connected to the server. These few words and sentences are translated using GETTEXT. The chosen language by default for these is the language of the computer from which the user connects.
 ..
 
-However, it is not possible to store "everything" on the server. Indeed, the user gets some menus, buttons, etc... that must contain some text *even before* being connected to the server. These few words and sentences are translated using GETTEXT. The chosen language by default for these is the language of the computer from which the user connects.
+然而，要把 "所有的东西" 存在服务器上是不可能的。实际上，在连上服务器 *之前* ，一定会有一些文字显示在某些菜单，按键等等使用者界面上，这些为数不多的文字和句子是使用 GETTEXT 来翻译的；系统预设会依照用户(连上服务器的)电脑的语言来翻译以上的文字和句子。
 
 .. i18n: The translation system of OpenERP is not limited to interface texts; it also works with reports and the "content" of some database fields. Obviously, not all the database fields need to be translated. The fields where the content is multilingual are marked thus by a flag icon.
 ..
 
-The translation system of OpenERP is not limited to interface texts; it also works with reports and the "content" of some database fields. Obviously, not all the database fields need to be translated. The fields where the content is multilingual are marked thus by a flag icon.
+OpenERP 的翻译系统不限于使用界面的文字；它对报表及某些数据库里的字段 "内容" 同样有效。显然并非所有的数据库字段都需要翻译，所以如果字段内容需要是多语言的，这个字段会有一个旗标图标作为标示。
 
 .. i18n: .. TODO: add image
 .. i18n: .. .. figure:: images/field_flag.png
@@ -168,13 +167,13 @@ The translation system of OpenERP is not limited to interface texts; it also wor
 ..    :align: left
 
 	
-How to change the language of the user interface ?
---------------------------------------------------
+如何变更用户使用界面的语言？
+------------------------
 
 .. i18n: The language is a user preference. To change the language of the current user, click on the menu: User > Preferences.
 ..
 
-The language is a user preference. To change the language of the current user, click on the menu: User > Preferences.
+用户可以设定偏好的语言。当前用户要改变语言设定，在菜单上按：用户 > 偏好选项。
 
 .. i18n: .. TODO: add image
 .. i18n: .. .. figure:: images/trans_user_pref.png
@@ -190,7 +189,7 @@ The language is a user preference. To change the language of the current user, c
 .. i18n: An administrator may also modify the preferences of a user (including the language of the interface) in the menu: Administration > Users > Users. He merely has to choose a user and toggle on "preferences".
 ..
 
-An administrator may also modify the preferences of a user (including the language of the interface) in the menu: Administration > Users > Users. He merely has to choose a user and toggle on "preferences".
+系统管理员也可以在菜单里修改用户的偏好语言(包含用户的使用界面语言)：系统管理 > 用户群 > 用户群。系统管理员只需要选择一个用户，然后切换 "偏好选项" ，就可以完成偏好语言的修改。
 
 .. i18n: .. TODO: add image
 .. i18n: .. .. figure:: images/menu_bar_pref.png
@@ -207,13 +206,13 @@ An administrator may also modify the preferences of a user (including the langua
 .. i18n: --------------------------------------
 ..
 
-Store a translation file on the server
---------------------------------------
+在服务器上储存翻译文件
+-------------------
 
 .. i18n: To import a file having translations, use this command:
 ..
 
-To import a file having translations, use this command:
+用以下的指令上传包含翻译内容的文件 :
 
 .. i18n:     ./openerp_server.py --i18n-import=file.csv -l **LANG** 
 ..
@@ -223,46 +222,47 @@ To import a file having translations, use this command:
 .. i18n: where **LANG** is the language of the translation data in the CSV file.
 ..
 
-where **LANG** is the language of the translation data in the CSV file.
+这里的 **LANG** 是以 CVS 格式保存的文件，存有这个语言的翻译资料。
 
 .. i18n: Note that the translation file must be encoded in **UTF8!**
 ..
 
-Note that the translation file must be encoded in **UTF8!**
+注意，翻译的文件内容必须使用 **UTF8!** 编码
 
 .. i18n: Translate to a new language
 .. i18n: ---------------------------
 ..
 
-Translate to a new language
----------------------------
+翻译成新的语言
+------------
 
 .. i18n: **Please keep in mind to use the same translation string for identical sources**	. Launchpad Online Translation may give helpful hints.
 ..
 
-**Please keep in mind to use the same translation string for identical sources**	. Launchpad Online Translation may give helpful hints.
+**请时刻记得，对于相同的资源要使用相同的翻译词句**	。在 Launchpad 线上翻译里，可以找到一些有用的提示。
 
 .. i18n: More information on accelerators on this website: http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
-More information on accelerators on this website: http://translate.sourceforge.net/wiki/guide/translation/accelerators
+在以下这个网站上可以找到更多关于翻译加速器的资讯:
+http://translate.sourceforge.net/wiki/guide/translation/accelerators
 
 .. i18n: To translate or modify the translation of a language already translated, you have to:
 ..
 
-To translate or modify the translation of a language already translated, you have to:
+想要翻译成某种语言，或是想要修改某个语言的翻译内容，必须依照以下步奏:
 
 .. i18n: 1. Export all the sentences to translate in a CSV file
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-1. Export all the sentences to translate in a CSV file
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1. 把要翻译的所有词句输出到 CSV 文件
+++++++++++++++++++++++++++++++++
 
 .. i18n: To export this file, use this command:
 ..
 
-To export this file, use this command:
+使用以下指令输出这个文件:
 
 .. i18n:         ./openerp_server.py --i18n-export=file.csv -l**LANG** 
 ..
@@ -272,19 +272,19 @@ To export this file, use this command:
 .. i18n: where **LANG** is the language to which you want to translate the program.
 ..
 
-where **LANG** is the language to which you want to translate the program.
+这里的 **LANG** 是你想翻译的标的语言。
 
 .. i18n: 2. Translate the last column of the file
 .. i18n: ++++++++++++++++++++++++++++++++++++++++
 ..
 
-2. Translate the last column of the file
-++++++++++++++++++++++++++++++++++++++++
+2. 翻译文件的最后一列
+++++++++++++++++++
 
 .. i18n: You can make a translation for a language, which has already been translated or for a new one. If you ask for a language already translated, the sentences already translated will be written in the last column.
 ..
 
-You can make a translation for a language, which has already been translated or for a new one. If you ask for a language already translated, the sentences already translated will be written in the last column.
+你可以制作某个语言的翻译文件，不论这个语言是已经被翻译过的还是一个新的语言。如果你处理的是一个已经翻译过的语言，以前翻译好的词句应该要写在最后一列。
 
 .. i18n: For example, here are the first lines of a translation file (Dutch):
 .. i18n:  
@@ -303,7 +303,7 @@ You can make a translation for a language, which has already been translated or 
 .. i18n: +--------+------------------------+---------+----------------+--------------------+
 ..
 
-For example, here are the first lines of a translation file (Dutch):
+例如，以下是某个翻译文件(荷兰语)的前几行:
  
 +--------+------------------------+---------+----------------+--------------------+
 | type   | name                   | res_id  |      src       |   value            |
@@ -323,18 +323,18 @@ For example, here are the first lines of a translation file (Dutch):
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-3. Import this file into OpenERP (as explained in the preceding section)
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+3. 把这个文件导入 OpenERP (如同前一节所说明的)
++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: **Notes**
 ..
 
-**Notes**
+**注释**
 
 .. i18n:     * You should perform all these tasks on an empty database, so as to avoid over-writing data. 
 ..
 
-    * You should perform all these tasks on an empty database, so as to avoid over-writing data. 
+    * 你应该要在一个空的数据库里进行这些工作，以免覆盖到其他资料。 
 
 .. i18n: To create a new database (named 'terp_test'), use these commands:
 ..
