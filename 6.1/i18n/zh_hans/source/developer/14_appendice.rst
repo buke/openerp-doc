@@ -12,7 +12,7 @@
 ..
 
 约定事项
-=======
+========
 
 .. i18n: Guidelines
 .. i18n: ----------
@@ -32,7 +32,7 @@
 ..
 
 模块结构和文件名称
----------------
+------------------
 
 .. i18n: The structure of a module should be::
 .. i18n: 
@@ -86,7 +86,7 @@
 ..
 
 命名方式约定
-----------
+------------
 
 .. i18n:     * modules: modules must be written in lower case, with underscores. The name of the module is the name of the directory in the addons path of the server. If the module depends on other modules, you can write several module names separated by underscores, starting by the most important name. Example:
 .. i18n:           + sale
@@ -168,7 +168,7 @@ OpenERP 的翻译系统不限于使用界面的文字；它对报表及某些数
 
 	
 如何变更用户使用界面的语言？
-------------------------
+----------------------------
 
 .. i18n: The language is a user preference. To change the language of the current user, click on the menu: User > Preferences.
 ..
@@ -207,7 +207,7 @@ OpenERP 的翻译系统不限于使用界面的文字；它对报表及某些数
 ..
 
 在服务器上储存翻译文件
--------------------
+----------------------
 
 .. i18n: To import a file having translations, use this command:
 ..
@@ -234,7 +234,7 @@ OpenERP 的翻译系统不限于使用界面的文字；它对报表及某些数
 ..
 
 翻译成新的语言
-------------
+--------------
 
 .. i18n: **Please keep in mind to use the same translation string for identical sources**	. Launchpad Online Translation may give helpful hints.
 ..
@@ -257,7 +257,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 1. 把要翻译的所有词句输出到 CSV 文件
-++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++
 
 .. i18n: To export this file, use this command:
 ..
@@ -279,7 +279,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 2. 翻译文件的最后一列
-++++++++++++++++++
++++++++++++++++++++++
 
 .. i18n: You can make a translation for a language, which has already been translated or for a new one. If you ask for a language already translated, the sentences already translated will be written in the last column.
 ..
@@ -324,7 +324,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 3. 把这个文件导入 OpenERP (如同前一节所说明的)
-+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: **Notes**
 ..
@@ -367,7 +367,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 4. 采用 Launchpad / Rosetta 来翻译模块和应用程序
-++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: A good starting point is here https://launchpad.net/openobject
 ..
@@ -455,7 +455,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 采用上下文词典进行翻译
--------------------
+----------------------
 
 .. i18n: The context dictionary is explained in details in section "The Objects - Methods - The context Dictionary". If an additional language is installed using the Administration menu, the context dictionary will contain an additional key : lang. For example, if you install the French language then select it for the current user, his or her context dictionary will contain the key lang to which will be associated the value *fr_FR*. 
 ..
@@ -484,7 +484,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 技术备忘录
-=========
+==========
 
 .. i18n: A technical reference memento is available, to be used as a quick reference guide for
 .. i18n: OpenERP developers, often nicknamed a "cheat sheet".
@@ -501,10 +501,10 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
     :target: http://doc.openerp.com/memento
     :align: bottom
 
-.. i18n: * |t| `技术备忘录 <http://doc.openerp.com/memento>`_ 
+.. i18n: * |t| `Technical Memento <http://doc.openerp.com/memento>`_ 
 ..
 
-* |t| `Technical Memento <http://doc.openerp.com/memento>`_ 
+* |t| `技术备忘录 <http://doc.openerp.com/memento>`_ 
 
 .. i18n: The memento is usually updated for each `major version <release_cycle>`_ of OpenERP,
 .. i18n: and contains a global overview of OpenERP's Application Programming Interface,
