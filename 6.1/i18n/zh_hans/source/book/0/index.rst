@@ -62,9 +62,7 @@
 .. i18n: software.
 ..
 
-The development processes of Open Source Software, and the new business models adopted by their
-developers, provide a new way of resolving such cost and quality issues for this kind of enterprise
-software.
+开源软件的开发过程与开发人员所采用的新的商业模式为解决这类企业软件的成本与质量问题提供了一种新的思路。
 
 .. i18n: To make an ERP system fully available to small and medium enterprises, cost reduction is the first
 .. i18n: priority.
