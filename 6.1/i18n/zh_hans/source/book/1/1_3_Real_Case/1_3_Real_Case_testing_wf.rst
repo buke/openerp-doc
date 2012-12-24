@@ -532,9 +532,7 @@ products: just the one, \ ``Titanium Alloy Radiator``\  , currently exists in th
 .. i18n: to the sale order which you have created.
 ..
 
-The stores manager selects the menu :menuselection:`Warehouse --> Warehouse Management -->
-Delivery Orders` to get a list of orders to dispatch. For this example, find the Delivery Order related
-to the sale order which you have created.
+仓库管理员通过菜单项 :menuselection:`仓库 --> 仓库管理 --> 送货单` 可以列出当前待处理的送货单, 本例中, 你可以找到由前面的销售单而产生的送货单.
 
 .. i18n: .. index::
 .. i18n:    single: module; mrp_jit
