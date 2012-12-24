@@ -52,12 +52,10 @@
 .. i18n: But this is exactly what small and medium enterprises are looking for.
 ..
 
-Risks and integration costs are important barriers to all the advantages you gain from such systems.
-That is why, today, few small- and medium-sized companies use ERP.
-In addition, the larger ERP vendors such as SAP, Microsoft and Oracle have not been able
-to reconcile the power and comprehensive cover of an ERP system with the simplicity and flexibility
-wanted by the users.
-But this is exactly what small and medium enterprises are looking for.
+风险与整合的成本是企业从ERP系统中获利的重要的障碍。这就是为什么今天中小型企业很少使用ERP的原因。
+另外，像SAP、微软和Oracle这样的大型ERP软件供应商也还不能解决ERP软件强大的处理能力与用户对ERP系统的简单性和灵活性的普遍需求。
+但这却正是中小型企业所需要的。
+
 
 .. i18n: The development processes of Open Source Software, and the new business models adopted by their
 .. i18n: developers, provide a new way of resolving such cost and quality issues for this kind of enterprise
