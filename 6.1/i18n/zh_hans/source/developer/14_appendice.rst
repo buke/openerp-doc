@@ -339,7 +339,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 .. i18n: To create a new database (named 'terp_test'), use these commands:
 ..
 
-To create a new database (named 'terp_test'), use these commands:
+用以下的指令创建一个新的数据库 (名为 'terp_test'):
 
 .. i18n:     createdb terp_test --encoding=unicode 
 .. i18n:     terp_server.py --database=terp_test --init=all 
@@ -351,7 +351,7 @@ To create a new database (named 'terp_test'), use these commands:
 .. i18n: Alternatively, you could also delete your current database with these:
 ..
 
-Alternatively, you could also delete your current database with these:
+或者，你也可以用以下的指令删除你当前的数据库 :
 
 .. i18n:     dropdb terp 
 .. i18n:     createdb terp --encoding=unicode 
@@ -366,38 +366,38 @@ Alternatively, you could also delete your current database with these:
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-4. Using Launchpad / Rosetta to translate modules and applications
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+4. 采用 Launchpad / Rosetta 来翻译模块和应用程序
+++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: A good starting point is here https://launchpad.net/openobject
 ..
 
-A good starting point is here https://launchpad.net/openobject
+以下的链接是一个很好的开始 https://launchpad.net/openobject
 
 .. i18n: **Online**
 ..
 
-**Online**
+**线上翻译**
 
 .. i18n: Select the module translation section and enter your translation.
 ..
 
-Select the module translation section and enter your translation.
+选择模块翻译的段落，输入你的翻译。
 
 .. i18n: **Offline**
 ..
 
-**Offline**
+**离线翻译**
 
 .. i18n: Use this, if you want to translate some 100 terms.
 ..
 
-Use this, if you want to translate some 100 terms.
+如果你想一次性翻译100个名词，就采用离线翻译的方式。
 
 .. i18n: It seems mandatory to follow theses steps to successfully complete a translation cycle. (tested on Linux)
 ..
 
-It seems mandatory to follow theses steps to successfully complete a translation cycle. (tested on Linux)
+要成功的完成翻译的一个周期，必须严格遵守以下的步奏。 (在 Linux 上测试的结果)
 
 .. i18n:    1. Download the <po file> from Launchpad
 .. i18n:    2. Get the message template file <pot file> from bzr branches
@@ -425,30 +425,30 @@ It seems mandatory to follow theses steps to successfully complete a translation
 .. i18n:          2. after some time (hours) you will receive a confirmation E-Mail (success / error) 
 ..
 
-   1. Download the <po file> from Launchpad
-   2. Get the message template file <pot file> from bzr branches
-         1. keep in mind that the <pot file> might not always contain all strings, the <pot files> are updated irregularly.
-         2. msgmerge <pot file> <po file> -o <new po file> 
-   3. translate <new po file> using poedit, kbabel (KDE)
-         1. some programs (like kbabel) allow using dictionaries to create rough translations.
-         2. It is especially useful to create a complete dictionary from existing translations to reuse existing terms related to the application.
-               1. In OpenERP load most/all of the modules
-               2. Load your language
-               3. export all modules of your language as po file and use this one as dictionary. Depending on context of the module this creates 30-80% exact translations. 
-   4. the <new po file> must not contain <fuzzy> comments inserted by kbabel for rough translation
-         1. grep -v fuzzy <new po file> > <po file> 
-   5. check for correct spelling
-         1. msgfmt <po file> -o <mo file> 
-   6. check your translation for correct context
-         1. import the <po file> (for modules)
-         2. install the <mo file> and restart the application (for applications) 
-   7. adjust the translation Online in OpenERP
-         1. check context
-         2. check length of strings
-         3. export <po file> 
-   8. upload <po file> to Launchpad
-         1. keep in mind that Launchpad / Rosetta uses some tags (not sure which) in the header section of the exported <po file> to recognize the imported <po file> as valid.
-         2. after some time (hours) you will receive a confirmation E-Mail (success / error) 
+   1. 从 Launchpad 下载 <po 文件> 。 
+   2. 从 bzr 分支找到模板文件 <pot 文件> 
+         1. 记得 <pot 文件> 不一定会包含所有字串，因为 <pot 文件> 是不定期更新的。
+         2. msgmerge <pot 文件> <po 文件> -o <新 po 文件> 
+   3. 采用 poedit, kbabel (KDE) 翻译 <新 po 文件> 
+         1. 有些程序 (例如 kbabel) 可以用字典进行大略的翻译。
+         2. 有一个特别有用的做法，就是从现有的翻译中创建一个完整的字典，以便能重复使用与应用程序相关的现有词汇。
+               1. 在 OpenERP 里载入全部或是大部分的模块
+               2. 载入你的语言
+               3. 将你的语言的全部模块输出成 po 文件，然后把这个文件当成是字典。依据模块内容的不同，这个做法可以产生准确度 30-80% 的翻译。 
+   4.  <新 po 文件> 一定不可以有 kbabel 大略翻译产生的 <模糊> 叙述
+         1. grep -v fuzzy <新 po 文件> > <po 文件> 
+   5. 检查拼字是否正确
+         1. msgfmt <po 文件> -o <mo 文件> 
+   6. 检查翻译的连贯性
+         1. 导入 (模块的) <po 文件> 
+         2. 安装 <mo 文件> ，然后重启应用程序 
+   7. 调整 OpenERP 里的线上翻译
+         1. 检查连贯性
+         2. 检查字串的长度
+         3. 输出 <po 文件> 
+   8. 把 <po 文件> 上传到 Launchpad
+         1. 记住 Launchpad / Rosetta 会抓取某些 (不确定是那些) 藏在输出文件 <po 文件> 标头段落的标签，来判别导入的 <po 文件> 是否有效。
+         2. 一段时间 (几小时) 后， 你会收到一封 E-Mail ， 确认结果是成功还是有错误。 
 
 .. i18n: Using context Dictionary for Translations
 .. i18n: -----------------------------------------
