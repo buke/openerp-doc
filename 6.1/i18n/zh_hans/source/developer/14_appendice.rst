@@ -447,20 +447,20 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
          2. 检查字串的长度
          3. 输出 <po 文件> 
    8. 把 <po 文件> 上传到 Launchpad
-         1. 记住 Launchpad / Rosetta 会抓取某些 (不确定是那些) 藏在输出文件 <po 文件> 标头段落的标签，来判别导入的 <po 文件> 是否有效。
+         1. 记住 Launchpad / Rosetta 会抓取某些 (不确定是哪些) 藏在输出文件 <po 文件> 标头段落的标签，来判别导入的 <po 文件> 是否有效。
          2. 一段时间 (几小时) 后， 你会收到一封 E-Mail ， 确认结果是成功还是有错误。 
 
 .. i18n: Using context Dictionary for Translations
 .. i18n: -----------------------------------------
 ..
 
-Using context Dictionary for Translations
------------------------------------------
+采用上下文词典进行翻译
+-------------------
 
 .. i18n: The context dictionary is explained in details in section "The Objects - Methods - The context Dictionary". If an additional language is installed using the Administration menu, the context dictionary will contain an additional key : lang. For example, if you install the French language then select it for the current user, his or her context dictionary will contain the key lang to which will be associated the value *fr_FR*. 
 ..
 
-The context dictionary is explained in details in section "The Objects - Methods - The context Dictionary". If an additional language is installed using the Administration menu, the context dictionary will contain an additional key : lang. For example, if you install the French language then select it for the current user, his or her context dictionary will contain the key lang to which will be associated the value *fr_FR*. 
+上下文词典在以下段落有详细说明 "物件 - 方法 - 上下文词典". 如果使用管理菜单安装新增加语言，上下文词典里会新增加一个主要 : 语言 。例如，如果安装了法语，而且设置为当前使用者的语言，使用者的上下文词典里会新增加一个主要语言，而且这个主要语言会被连结到 *fr_FR* 这个值上。
 
 .. i18n: .. _tech_memento_link:
 .. i18n: 
@@ -483,15 +483,14 @@ The context dictionary is explained in details in section "The Objects - Methods
 .. i18n: =================
 ..
 
-Technical Memento
-=================
+技术备忘录
+=========
 
 .. i18n: A technical reference memento is available, to be used as a quick reference guide for
 .. i18n: OpenERP developers, often nicknamed a "cheat sheet".
 ..
 
-A technical reference memento is available, to be used as a quick reference guide for
-OpenERP developers, often nicknamed a "cheat sheet".
+技术备忘录，通常被昵称为 "欺骗表(cheat sheet)"，是 OpenERP 开发人员的快速参考指南。
 
 .. i18n: .. |t| image:: ../images/pdf.png
 .. i18n:     :target: http://doc.openerp.com/memento
@@ -502,7 +501,7 @@ OpenERP developers, often nicknamed a "cheat sheet".
     :target: http://doc.openerp.com/memento
     :align: bottom
 
-.. i18n: * |t| `Technical Memento <http://doc.openerp.com/memento>`_ 
+.. i18n: * |t| `技术备忘录 <http://doc.openerp.com/memento>`_ 
 ..
 
 * |t| `Technical Memento <http://doc.openerp.com/memento>`_ 
