@@ -52,7 +52,7 @@ OpenERP的生产管理其存货管理的基础上，同样非常
 .. i18n: kinds of products:
 ..
 
-生产管理通过:mod:`mrp` 模块实现. 他用来计算所有种类的产品:
+生产管理通过 :mod:`mrp` 模块实现. 他用来计算所有种类的产品:
 
 .. i18n: * Assemblies of parts: composite products, soldered or welded products, assemblies, packs,
 .. i18n: 
