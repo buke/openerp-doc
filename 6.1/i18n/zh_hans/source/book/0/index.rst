@@ -73,13 +73,10 @@
 .. i18n: and to considerably reduce the marketing overhead.
 ..
 
-To make an ERP system fully available to small and medium enterprises, cost reduction is the first
-priority.
-Open source software makes it possible to greatly reduce development costs by
-aggressive reuse of open source software libraries; to eliminate intermediaries (the distributors),
-with all of their expensive sales overhead; to cut out selling costs by free publication of the
-software;
-and to considerably reduce the marketing overhead.
+要让一个ERP系统在中小企业里完全有效的运行，降低成本是第一要务。开源软件利用强大的可重用软件库
+使大幅度降低开发成本成为可能；它减少了批发商的中间环节同时也相应降低了他们高昂的销售费用所引发的成本；而且
+软件的免费发布也减少了高昂的销售和市场费用。
+
 
 .. i18n: Since there is open interaction among thousands of contributors and partners working on the same
 .. i18n: project, the quality of the resulting software greatly benefits from the scrutiny.
