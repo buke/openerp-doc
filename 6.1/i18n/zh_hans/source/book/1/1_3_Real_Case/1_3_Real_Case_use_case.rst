@@ -8,7 +8,7 @@
 .. i18n: In this example, you will configure a system that enables you to:
 ..
 
-In this example, you will configure a system that enables you to:
+在本案例中,你要配置系统以达成以下目的:
 
 .. i18n: * buy products from a supplier,
 .. i18n: 
@@ -17,18 +17,17 @@ In this example, you will configure a system that enables you to:
 .. i18n: * sell these products to a customer.
 ..
 
-* buy products from a supplier,
+* 从供应商处购买产品,
 
-* stock the products in a warehouse,
+* 在仓库中暂存产品,
 
-* sell these products to a customer.
+* 将产品出售给客户.
 
 .. i18n: The system should support all aspects of invoicing, payments to suppliers and receipts from
 .. i18n: customers.
 ..
 
-The system should support all aspects of invoicing, payments to suppliers and receipts from
-customers.
+系统将完成发票到支付的各个业务.
 
 .. i18n: Basic Settings
 .. i18n: ==============
@@ -40,7 +39,7 @@ customers.
 .. i18n: For this business case, you will have to model:
 ..
 
-For this business case, you will have to model:
+在本案例中, 你需要定义下面的这些数据:
 
 .. i18n: * the suppliers and a supplier category,
 .. i18n: 
@@ -59,21 +58,21 @@ For this business case, you will have to model:
 .. i18n: * payments.
 ..
 
-* the suppliers and a supplier category,
+* 供应商以及该供应商的分类,
 
-* the customers and a customer category,
+* 客户以及该客户的分类,
 
-* some products and a product category,
+* 几个产品以及这些产品的分类定义,
 
 * an inventory,
 
-* a purchase order,
+* 一张采购单,
 
-* a sales order,
+* 一张销售单,
 
-* invoices,
+* 各种发票,
 
-* payments.
+* 各种支付单.
 
 .. i18n: To test the system, you will need at least one supplier, one customer, one product, a warehouse, a
 .. i18n: minimal chart of accounts and a bank account.
