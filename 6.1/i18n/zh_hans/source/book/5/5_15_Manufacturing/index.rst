@@ -27,9 +27,10 @@
 .. i18n:  machinery, tools or human resources.*
 ..
 
- *你不应该忘记在第二个选项卡其他信息中设置正确的参数选择一个好的物流和包装策略。在这里，
-我们选择的Invoiche的生产管理本章中介绍的涵盖计划，订货，库存和产品从原材料和零部件的制造
-或组装的。此外，还讨论消费和生产的产品，以及必要的操作机器，工具或人力资源.*
+ *不要忘记在第二个选项卡其他信息中设置正确的参数选择一个好的物流和包装策略。在这里，
+ 我们选择的Invoiche的生产管理本章中介绍的涵盖计划，订货，库存和产品从原材料和零部件的制造
+ 或组装的。
+ 此外，还讨论消费和生产的产品，以及必要的操作机器，工具或人力资源.*
 
 .. i18n: Manufacturing management in OpenERP is based on its stock management and equally very
 .. i18n: flexible in both its operations and its financial control. It particularly benefits from the use of
