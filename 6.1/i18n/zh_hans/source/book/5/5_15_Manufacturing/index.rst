@@ -27,20 +27,18 @@
 .. i18n:  machinery, tools or human resources.*
 ..
 
- *The management of manufacturing described in this chapter covers
- planning, ordering, stocks and the manufacturing or assembly of products from raw materials and
- components.
- It also discusses consumption and production of products, as well as the necessary operations on
- machinery, tools or human resources.*
+ *你不应该忘记在第二个选项卡其他信息中设置正确的参数选择一个好的物流和包装策略。在这里，
+我们选择的Invoiche的生产管理本章中介绍的涵盖计划，订货，库存和产品从原材料和零部件的制造
+或组装的。此外，还讨论消费和生产的产品，以及必要的操作机器，工具或人力资源.*
 
 .. i18n: Manufacturing management in OpenERP is based on its stock management and equally very
 .. i18n: flexible in both its operations and its financial control. It particularly benefits from the use of
 .. i18n: double-entry stock management for production orders.
 ..
 
-Manufacturing management in OpenERP is based on its stock management and equally very
-flexible in both its operations and its financial control. It particularly benefits from the use of
-double-entry stock management for production orders.
+OpenERP的生产管理其存货管理的基础上，同样非常
+灵活，其业务及财务控制。它特别受益于使用
+双项库存管理生产订单.
 
 .. i18n: .. index::
 .. i18n:    single: module; mrp
@@ -53,8 +51,7 @@ double-entry stock management for production orders.
 .. i18n: kinds of products:
 ..
 
-Manufacturing management is implemented by the :mod:`mrp` module. It is used to transform all
-kinds of products:
+生产管理通过:mod:`mrp` 模块实现. 他用来计算所有种类的产品:
 
 .. i18n: * Assemblies of parts: composite products, soldered or welded products, assemblies, packs,
 .. i18n: 
