@@ -43,7 +43,7 @@
    :scale: 75
    :align: center
    
-   *Companies Structure*
+   *公司结构*
    
 .. tip:: 用户组
 
@@ -90,16 +90,16 @@
    :scale: 75
    :align: center
    
-   *Creating Charts of Accounts*
+   *创建会计科目表*
 
 .. i18n: .. note:: Accounting Plan
 .. i18n: 
 .. i18n: 	Each of your companies can have its own specific chart of accounts.
 ..
 
-.. note:: Accounting Plan
+.. note:: 会计计划
 
-	Each of your companies can have its own specific chart of accounts.
+	每个公司能拥有他们自己的特殊的会计科目表。
 
 .. i18n: Users, Suppliers & Customers
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -120,9 +120,8 @@
 .. i18n: company in the ``Companies`` tab.
 ..
 
-Each company needs a user to manage the different operations to complete the flow. You can create one user for each 
-company, but do not forget to select the appropriate company in the ``Contact`` section of the User form after have added the 
-company in the ``Companies`` tab.
+每个公司需要一个用户来管理不同的操作完成这些流程。你能为每个公司创建一个用户，但是不要忘记，在 ``公司`` 标签加入公司后，在用户表单
+的 ``联系人``  中 选择适当的公司。
 
 .. i18n: .. figure:: images/user_1tab.png
 .. i18n:    :scale: 50
