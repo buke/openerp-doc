@@ -67,15 +67,16 @@ forget to add a parent company):
    
    *多公司基本配置*
    
-Charts of Accounts
+会计科目表
 ^^^^^^^^^^^^^^^^^^
 
 .. i18n: For each company, you have to define an accounting setting. To do this, go to the :menuselection:`Accounting --> 
 .. i18n: Configuration --> Financial Accounting --> New company Financial Setting`. 
 ..
 
-For each company, you have to define an accounting setting. To do this, go to the :menuselection:`Accounting --> 
-Configuration --> Financial Accounting --> New company Financial Setting`. 
+
+对每个公司，你必须定义一个会计设置。要做到这点，进入 :menuselection:`会计 --> 
+配置 --> 财务会计 --> 新公司财务设置`. 
 
 .. i18n: .. figure:: images/accounting_charts.png
 .. i18n:    :scale: 75
@@ -110,8 +111,8 @@ Configuration --> Financial Accounting --> New company Financial Setting`.
 .. i18n: from the employee who is created through the Human Resources module.
 ..
 
-The users are used to log in to the system and to give the appropriate access rights to each person. This concept is different 
-from the employee who is created through the Human Resources module.
+
+用户 是用来登录进系统，给了每个人适当的访问权限。这个概念不同于在人力资源模块创建的员工。
 
 .. i18n: Each company needs a user to manage the different operations to complete the flow. You can create one user for each 
 .. i18n: company, but do not forget to select the appropriate company in the ``Contact`` section of the User form after have added the 
