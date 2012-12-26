@@ -120,7 +120,7 @@ the organization, synchronization and coherence of the software.
 .. i18n: And OpenERP offers great performance in all these areas!
 ..
 
-And OpenERP offers great performance in all these areas!
+OpenERP在所有这些方面都表现得非常出色！
 
 .. i18n: The OpenERP Solution
 .. i18n: ====================
