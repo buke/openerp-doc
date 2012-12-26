@@ -85,8 +85,8 @@
 .. i18n: expert in the customs and habits of pharmaceutical vendors, just as a start.
 ..
 
-Since there is open interaction among thousands of contributors and partners working on the same
-project, the quality of the resulting software greatly benefits from the scrutiny.
+因为有成千上万的贡献者与合作伙伴在同一个项目上通力合作，所以软件的质量极大地得益于彼此之间的审查。
+你不可能同时做所有的事情：会计，软件开发，销售，ISO9001质量管理，农产品专家，药品专家，just as a atart.
 And you cannot be everything at once: accountant, software developer, salesperson,
 ISO 9001 quality professional, specialist in agricultural products,
 expert in the customs and habits of pharmaceutical vendors, just as a start.
@@ -106,16 +106,14 @@ expert in the customs and habits of pharmaceutical vendors, just as a start.
 .. i18n: complete.
 .. i18n: And to reach this level of quality you need a leader and co-ordinator who can organize all of these
 .. i18n: activities.
-.. i18n: So the development team of Tiny ERP, today called OpenERP, is responsible for most of
+.. i18n: So the development team of Tiny ERP, today called OpenERP, is responsible for most of
 .. i18n: the organization, synchronization and coherence of the software.
 ..
 
-But the real challenge of development is to make this solution simple and flexible, as well as
-complete.
-And to reach this level of quality you need a leader and co-ordinator who can organize all of these
-activities.
-So the development team of Tiny ERP, today called OpenERP, is responsible for most of
-the organization, synchronization and coherence of the software.
+但是开发中真正的挑战是确保该方法的简单、灵活和完整。
+要达到这种层次的质量要求你需要一个领导者和协调者，他可以组织所有这些活动。
+所以TinyERP的开发团队，现在叫OpenERP，主要负责组织，同步和软件的一致性。
+
 
 .. i18n: And OpenERP offers great performance in all these areas!
 ..
