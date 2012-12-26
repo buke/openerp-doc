@@ -8,12 +8,12 @@
 .. i18n: Once the bills of materials have been defined, OpenERP is capable of automatically deciding on the manufacturing route according to the needs of the company.
 ..
 
-Once the bills of materials have been defined, OpenERP is capable of automatically deciding on the manufacturing route according to the needs of the company.
+一旦物料清单定义好，OpenERP能够根据该公司的需求自动决定制造路线.
 
 .. i18n: Production orders can be proposed automatically by the system depending on several criteria described in the preceding chapter:
 ..
 
-Production orders can be proposed automatically by the system depending on several criteria described in the preceding chapter:
+生产订单可以由系统根据前面的章节中描述的一些标准自动产生:
 
 .. i18n: * Using the ``Make to Order`` rules,
 .. i18n: 
@@ -22,16 +22,16 @@ Production orders can be proposed automatically by the system depending on sever
 .. i18n: * Using the Production plan.
 ..
 
-* Using the ``Make to Order`` rules,
+* 使用 ``Make to Order`` 规则,
 
-* Using the ``Order Point`` (Minimum Stock) rules,
+* 使用 ``Order Point`` (最小库存) 规则,
 
-* Using the Production plan.
+* 使用生产计划.
 
 .. i18n: Of course, you can also start production manually by clicking the button :guilabel:`New` in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
 ..
 
-Of course, you can also start production manually by clicking the button :guilabel:`New` in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
+当然, 你可以在菜单:menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`, 点击 :guilabel:`New` 按钮手动建立生产订单 .
 
 .. i18n: .. figure:: images/mrp_manual.png
 .. i18n:    :scale: 75
@@ -56,7 +56,7 @@ Of course, you can also start production manually by clicking the button :guilab
 .. i18n: If you have not installed the Just-in-Time planning module :mod:`mrp_jit`, you should start using OpenERP to schedule the Production Orders automatically using the various system rules. To do this, use the menu :menuselection:`Warehouse --> Schedulers --> Compute Schedulers`.
 ..
 
-If you have not installed the Just-in-Time planning module :mod:`mrp_jit`, you should start using OpenERP to schedule the Production Orders automatically using the various system rules. To do this, use the menu :menuselection:`Warehouse --> Schedulers --> Compute Schedulers`.
+如果你没有安装 Just-in-Time 计划模块 :mod:`mrp_jit`, 你要Openerp通过各种不同系统规则安排生产订单. 需要这样做,执行菜单:menuselection:`Warehouse --> Schedulers --> Compute Schedulers`.
 
 .. i18n: .. tip:: Procurement Exceptions
 .. i18n: 
