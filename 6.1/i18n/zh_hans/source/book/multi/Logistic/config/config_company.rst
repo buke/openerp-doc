@@ -21,8 +21,9 @@
 .. i18n: will be used to aggregate the different information from OpenERP France and OpenERP Belgium.
 ..
 
-On the one hand, the two child companies will be used to support the flow of goods. On the other hand, the mother company 
-will be used to aggregate the different information from OpenERP France and OpenERP Belgium.
+ 
+一方面，两个子公司用来供应商品。另一方面，母公司用来聚合OpenERP France 和 OpenERP Belgium 的不同信息。
+
 
 .. i18n: .. figure:: images/company_structure.png
 .. i18n:    :scale: 75
@@ -44,12 +45,12 @@ will be used to aggregate the different information from OpenERP France and Open
    
    *Companies Structure*
    
-.. tip:: User Group
+.. tip:: 用户组
 
-	To view the companies' structure, you have to add the group  :guilabel:`Useability/Multi Companies` to your user. 
+	要查看公司的结构，你必须把用户加入到组  :guilabel:`易用性/多公司` 中. 
    
-Here are the different configurations for the mother and the child companies (for the child companies, do not 
-forget to add a parent company):
+对于母公司和子公司有不同的配置（对于子公司，不要忘记加入到上级公司中）：
+
 
 .. i18n: .. figure:: images/child_company.png
 .. i18n:    :scale: 75
