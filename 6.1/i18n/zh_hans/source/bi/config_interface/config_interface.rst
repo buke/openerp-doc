@@ -2,7 +2,7 @@
 .. i18n: =======================
 ..
 
- 配置接口
+配置接口
 =======================
 
 .. i18n: The main goal of any user connecting to OpenObject BI is to fetch the data from database using the powerful MDX queries.
@@ -358,7 +358,7 @@ Giving this detail will generate a string like ''postgres://postgres:postgres@lo
 .. i18n: In OpenObject BI schemas are represented in a XML file. It can be designed in the way OpenERP does. The details of XML file can be seen at *Creating XML*
 ..
 
-在OpenObject BI架构在一个XML文件表示。它可以被设计OpenERP的方式做。XML文件的细节可以看到在* *创建XML
+在OpenObject BI架构在一个XML文件表示。它可以被设计OpenERP的方式做。XML文件的细节可以看到在 *创建XML*
 
 .. i18n:         
 ..

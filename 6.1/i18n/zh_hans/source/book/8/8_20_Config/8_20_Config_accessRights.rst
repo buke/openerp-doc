@@ -47,7 +47,7 @@
 .. tip:: 通过LDAP管理用户
 
 
-        使用:mod:`users_ldap`模块，用户帐户可通过LDAP目录，共同管理各种不同的公司资源。
+        使用 :mod:`users_ldap` 模块，用户帐户可通过LDAP目录，共同管理各种不同的公司资源。
         LDAP目录中的连接参数，根据公司定义进行注册。你可以提供一个用户设置文件的模板，
         新用户在第一次连接到OpenERP自动创建。
 
@@ -222,6 +222,7 @@ OpenERP 管理权限的方法非常灵活，每个用户可以属于一个或多
 .. i18n: Then to create a new user linked to this, use :menuselection:`Administration --> Users --> Users` to
 .. i18n: enter the following:
 ..
+
 然后创建一个新用户关联到这里，使用 :menuselection:`设置 --> 用户 --> Users` ，输入如下：
 
 .. i18n: *  :guilabel:`User Name` : \ ``Stores Person`` \ ,
@@ -463,7 +464,7 @@ access to an object for all users you could create a rule:
 * 没有关联至任何组,
 
 * 然后，你能对同样的对象创建附加的规则给某些特定组特别的权限
-.
+
 
 .. i18n: You can then create additional rules on the same object to give specific rights to certain groups.
 ..
