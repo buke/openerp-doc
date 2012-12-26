@@ -44,7 +44,7 @@
    :scale: 75
    :align: center
 
-   *Manufacturing Order*
+   *生成订单*
 
 .. i18n: .. index::
 .. i18n:    single: module; mrp_jit
@@ -63,9 +63,9 @@
 .. i18n:         Pay attention to the fact that you have to define `minimum stock rules` for each product set as ``Make to Stock``.
 ..
 
-.. tip:: Procurement Exceptions
+.. tip:: 采购例外
 
-        Pay attention to the fact that you have to define `minimum stock rules` for each product set as ``Make to Stock``.
+        注意，如果产品设置为 ``Make to Stock`` ，你需要对每个产品定义 `最小库存规则` .
 
 .. i18n: Complete Production Workflow
 .. i18n: ============================
