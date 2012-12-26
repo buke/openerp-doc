@@ -106,9 +106,10 @@
 .. i18n:         If you install the :mod:`warning` module, you will be able to define alerts that appear when the purchaser enters a price request or order. You can set alerts on the product and on the supplier.
 ..
 
-.. note:: Managing Alerts
+.. note:: 警告管理
 
-        If you install the :mod:`warning` module, you will be able to define alerts that appear when the purchaser enters a price request or order. You can set alerts on the product and on the supplier.
+如果您安装了 :mod:`warning` 模块，你可以定义警告，当采购员输入一个价格请求的时候，警告将显现出来。
+您可以为产品或者供应商设置警告。
 
 .. i18n: The internal reference, the date and the warehouse the products should be delivered to, are completed automatically by OpenERP, but you can change these values if needed. Next, when you select a supplier, OpenERP automatically completes the contact address for the supplier. The pricelist is also automatically completed from the pricelist in the supplier form. This should bring in all of the conditions that you have negotiated with the supplier for a given period.
 ..
