@@ -98,11 +98,9 @@ expert in the customs and habits of pharmaceutical vendors, just as a start.
 .. i18n: is well organized.
 ..
 
-Faced with these wide-ranging requirements, what could be better than a worldwide network of
-partners and contributors?
-Every single person adds own contributions according to his or her professional competence.
-Throughout this book you will see that the results exceed any reasonable expectations when such work
-is well organized.
+面对这些广泛的需求，还有什么能比建立起一个全球范围内的合作伙伴和贡献者网络更好的方式呢？
+每个人都根据他或她的专业能力，提供自己的才能。
+通过本书，你会了解到当这些工作被良好的组织到一起时，结果将超出任何合理的预期。
 
 .. i18n: But the real challenge of development is to make this solution simple and flexible, as well as
 .. i18n: complete.
