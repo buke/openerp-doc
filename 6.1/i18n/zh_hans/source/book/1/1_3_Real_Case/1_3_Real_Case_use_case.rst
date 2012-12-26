@@ -107,8 +107,7 @@ because they both contain demonstration data.
 .. i18n: :guilabel:`Databases` and then completing the following fields on the :guilabel:`Create Database` form, as shown in :ref:`fig-oech03`:
 ..
 
-Start the database creation process from the :guilabel:`Welcome` page by clicking
-:guilabel:`Databases` and then completing the following fields on the :guilabel:`Create Database` form, as shown in :ref:`fig-oech03`:
+在新 :guilabel:`启动` 页面, 点击下面的 :guilabel:`管理帐套` 并在新窗体中点击 :guilabel:`创建帐套` 完成财套的新建操作. :ref:`fig-oech03` :
 
 .. i18n: *  :guilabel:`Super admin password` : by default it is \ ``admin`` \, if you or your system
 .. i18n:    administrator have not changed it,
