@@ -514,7 +514,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 .. i18n: in a few words, usually with a small example.
 ..
 
-技术备忘录一般是每个 OpenERP 的`主要版次 <发行周期>`_ 更新，而且包含了 OpenERP 的程序编程界面(API)的全体概览；
+技术备忘录一般是每个 OpenERP 的 `主要版次 <发行周期>`_ 更新，而且包含了 OpenERP 的程序编程界面(API)的全体概览；
 其中有模块的宣告， ORM，XML 语法，动态视窗和工作流程。备忘录并不是一个广泛的参考，而是一个快速找到存取或使用某些 OpenERP 功能的指南。
 所以每个主题都只有一小段叙述，通常还附带一个小范例。
 
