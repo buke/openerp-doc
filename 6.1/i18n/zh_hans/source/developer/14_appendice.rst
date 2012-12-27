@@ -227,7 +227,7 @@ OpenERP 的翻译系统不限于使用界面的文字；它对报表及某些数
 .. i18n: Note that the translation file must be encoded in **UTF8!**
 ..
 
-注意，翻译的文件内容必须使用 **UTF8!** 编码
+注意，翻译的文件内容必须使用 **UTF8** 编码!
 
 .. i18n: Translate to a new language
 .. i18n: ---------------------------
@@ -514,19 +514,15 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 .. i18n: in a few words, usually with a small example.
 ..
 
-The memento is usually updated for each `major version <release_cycle>`_ of OpenERP,
-and contains a global overview of OpenERP's Application Programming Interface,
-including the declaration of modules, the ORM, the XML syntax, Dynamic views and Workflows.
-The memento is not an extensive reference, but a way to quickly find out how
-a certain OpenERP feature is accessed or used. Therefore each topic is only described
-in a few words, usually with a small example.
+技术备忘录一般是每个 OpenERP 的`主要版次 <发行周期>`_ 更新，而且包含了 OpenERP 的程序编程界面(API)的全体概览；
+其中有模块的宣告， ORM，XML 语法，动态视窗和工作流程。备忘录并不是一个广泛的参考，而是一个快速找到存取或使用某些 OpenERP 功能的指南。
+所以每个主题都只有一小段叙述，通常还附带一个小范例。
 
 .. i18n: The examples in the technical memento all come from the example module ``idea``, which
 .. i18n: allows an organisation to manage the generic *ideas* submitted by its members.
 ..
 
-The examples in the technical memento all come from the example module ``idea``, which
-allows an organisation to manage the generic *ideas* submitted by its members.
+在技术备忘录里的范例全部是来自范例模块 ``idea`` ；这个模块可以让一个组织管理成员提交的一般 *ideas(想法)* 。
 
 .. i18n: There are 2 versions of the memento. One is suited for printing in A4 landscape mode,
 .. i18n: with 3 columns of text per page, so that the whole memento is contained in less than 20
@@ -535,18 +531,15 @@ allows an organisation to manage the generic *ideas* submitted by its members.
 .. i18n: mode, making it easier to read, but larger.
 ..
 
-There are 2 versions of the memento. One is suited for printing in A4 landscape mode,
-with 3 columns of text per page, so that the whole memento is contained in less than 20
-mini-pages (columns). The idea is to print and bind these pages as a reference booklet.
-The second version contains some more details and is formatted in A4 portrait
-mode, making it easier to read, but larger.
+备忘录有2种版本，第一种是适合A4横向打印，每一页有3个栏位的文字，整个备忘录只有不到 20 迷你页 (栏位)。
+这种设计是为了把这些页打印出来装订在一起，变成参考手册。
+第二种版本包含了许多细节资讯，依照A4纵向排版，这样比较容易阅读内容，但是尺寸大些。
 
 .. i18n: All versions of the technical memento (including previous ones) can be found at this
 .. i18n: location: |t| `Technical Memento <http://doc.openerp.com/memento>`_
 ..
 
-All versions of the technical memento (including previous ones) can be found at this
-location: |t| `Technical Memento <http://doc.openerp.com/memento>`_
+所有版次的技术备忘录 (包含以前的版次) ，都可以在这里找到 : |t| `技术备忘录 <http://doc.openerp.com/memento>`_
 
 .. i18n: Information Repository
 .. i18n: ======================
