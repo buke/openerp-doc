@@ -78,8 +78,7 @@
 .. i18n: minimal chart of accounts and a bank account.
 ..
 
-To test the system, you will need at least one supplier, one customer, one product, a warehouse, a
-minimal chart of accounts and a bank account.
+要完成本次测试, 你需要创建至少一个 `供应商`, `客户`, `产品`, `仓库`, `财务科目表` 和 `银行帐号` .
 
 .. i18n: Get your Database Up and Running without Demo Data
 .. i18n: ==================================================
