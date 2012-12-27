@@ -135,12 +135,8 @@ OpenERP 解决方案
 .. i18n: because they can just download it and use it directly.
 ..
 
-Because of its modularity, collaborative developments in OpenERP have been cleanly integrated,
-enabling any company to choose from a large list of available functions.
-As with most open source software, accessibility, flexibility and ease of use are important keywords
-for development.
-Experience has shown that there is no need to train users for several months on the system,
-because they can just download it and use it directly.
+由于OpenERP采用模块化，并且协同开发已完全集成在里面，所以任何公司都可以从它庞大的功能列表中找到适合自己的功能。
+对于大多数开源软件来说，可访问性，灵活性和易用性是重要的关键词。经验表明没有必要在系统上培训用户数个月，因为他们可以直接下载并使用它。
 
 .. i18n: So you will find modules to suit all kinds of needs, allowing your company to build its customized
 .. i18n: system
