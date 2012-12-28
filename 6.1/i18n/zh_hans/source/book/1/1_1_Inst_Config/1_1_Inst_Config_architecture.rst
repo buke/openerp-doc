@@ -15,16 +15,16 @@ OpenERP 架构
 .. i18n: To access OpenERP you can:
 ..
 
-To access OpenERP you can:
+要使用 OpenERP ，你可以:
 
 .. i18n: * use a web browser pointed at the OpenERP server, or
 .. i18n: 
 .. i18n: * use an application client (the GTK client) installed on each computer.
 ..
 
-* use a web browser pointed at the OpenERP server, or
+* 使用浏览器指向 OpenERP 服务器，或是
 
-* use an application client (the GTK client) installed on each computer.
+* 使用在电脑上安装的应用程序客户端(GTK)。
 
 .. i18n: Both access methods give similar facilities, and you can use both on
 .. i18n: the same server at the same time. It is best to use the web browser if the
@@ -34,12 +34,9 @@ To access OpenERP you can:
 .. i18n: on users' computers.
 ..
 
-Both access methods give similar facilities, and you can use both on
-the same server at the same time. It is best to use the web browser if the
-OpenERP server is some distance away (such as on another continent) because
-it is more tolerant of time delays between the two than the GTK client is. The
-web client is also easier to maintain, because it is generally already installed
-on users' computers.
+两种使用方法提供了类似的使用界面和功能，而且你可以同时用两种方法连上同一台服务器使用。
+如果 OpenERP 服务器离使用者有段距离(例如服务器在另一洲)，最好是使用浏览器，因为浏览器对时间延迟的容忍度
+比 GTK 客户端要好。网页客户端也比较容易维护，因为通常使用者的电脑上已经安装了浏览器。
 
 .. i18n: Conversely you would be better off with the application client (called the GTK
 .. i18n: client because of the technology it is built with) if you are using a local
@@ -47,17 +44,14 @@ on users' computers.
 .. i18n: responsive, so more satisfying to use.
 ..
 
-Conversely you would be better off with the application client (called the GTK
-client because of the technology it is built with) if you are using a local
-server (such as in the same building). In this case the GTK client will be more
-responsive, so more satisfying to use.
+相反地如果你是使用本地的服务器(例如在同一栋建筑内)，应用程序的客户端(被称为 GTK 客户端，因为内建 GTK 的技术)会较佳)。这种状况下 GTK 客户端响应速度较快，使用满意度也会较高。
 
 .. i18n: .. index::
 .. i18n:    single: client; web (thin) and GTK (thick)
 .. i18n:    single: client; caching
 ..
 
-.. index::
+.. 索引::
    single: client; web (thin) and GTK (thick)
    single: client; caching
 
@@ -71,19 +65,17 @@ responsive, so more satisfying to use.
 .. i18n:     future, so you can use whichever client you prefer.
 ..
 
-.. note::   Web Client and GTK Client
+.. 备注::   网页客户端和 GTK 客户端
 
-    There is little functional difference between the two OpenERP clients - the 
-    web client and the GTK client at present. 
-    The web client offers more functionality, for instance, the Corporate Intelligence feature, and the Gantt view.
+    网页客户端和 GTK 客户端，这两种 OpenERP 客户端有一点点功能上的不同。 
+    网页客户端提供较多功能，例如，企业情报 的功能和 甘特图。
     
-    The OpenERP company will continue to support two clients for the foreseeable
-    future, so you can use whichever client you prefer.
+    OpenERP 公司将会在可见的未来里继续支持这两种客户端，所以这两种客户端，你可以爱用哪种就用哪种。
 
 .. i18n: An OpenERP system is formed from two components:
 ..
 
-An OpenERP system is formed from two components:
+OpenERP 系统是由2部分组成:
 
 .. i18n: * the PostgreSQL database server, which contains all of the databases, each of which contains all
 .. i18n:   data and most elements of the OpenERP system configuration,
@@ -92,11 +84,9 @@ An OpenERP system is formed from two components:
 .. i18n:   OpenERP runs optimally.  It also contains the web server.
 ..
 
-* the PostgreSQL database server, which contains all of the databases, each of which contains all
-  data and most elements of the OpenERP system configuration,
+* PostgreSQL 数据库服务器，包含了所有数据库，其中每个数据库都包含了所有数据以及OpenERP系统组态大部分的要素。
 
-* the OpenERP application server, which contains all of the enterprise logic and ensures that
-  OpenERP runs optimally.  It also contains the web server.
+* OpenERP 应用程序服务器，包含了所有企业的工作逻辑，服务器同时也确保 OpenERP 在最佳状态运行。这其中也包含了网页服务器。
 
 .. i18n: .. figure:: images/terp_arch_1.png
 .. i18n:    :align: center
@@ -109,7 +99,7 @@ An OpenERP system is formed from two components:
    :align: center
    :scale: 90
    
-   *The architecture of OpenERP*
+   *OpenERP 的架构*
 
 .. i18n: .. index::
 .. i18n:    single: PostgreSQL
