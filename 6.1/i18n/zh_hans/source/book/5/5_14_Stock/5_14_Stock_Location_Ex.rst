@@ -9,26 +9,25 @@
 .. i18n: in the previous sections. 
 ..
 
-In this section, we will develop a more detailed example that includes different concepts seen
-in the previous sections. 
+在本节中，我们将用一个更详细的例子，你将看到其中包含在前面的章节中的不同的概念. 
 
 .. i18n: The following example will use the *Stock Location types*, the *Logistic Flows* and the *Bill Of
 .. i18n: Materials*.
 ..
 
-The following example will use the *Stock Location types*, the *Logistic Flows* and the *Bill Of
+下面的例子将使用库位类型 *Stock Location types*, *Logistic Flows* 和 *Bill Of
 Materials*.
 
 .. i18n: We have two companies: OpenERP SA and OpenERP US.
 ..
 
-We have two companies: OpenERP SA and OpenERP US.
+我们有两个公司: OpenERP SA 和 OpenERP US.
 
 .. i18n: We have three products: Product A, Product B and Product C. For each product, we will have to define
 .. i18n: the Stock Location to determine where to take these products.
 ..
 
-We have three products: Product A, Product B and Product C. For each product, we will have to define
+我们有三个产品: Product A, Product B 和 Product C. For each product, we will have to define
 the Stock Location to determine where to take these products.
 
 .. i18n: To make one unit of Product A, we need the Product B and the Product C. So we will have to define a 
