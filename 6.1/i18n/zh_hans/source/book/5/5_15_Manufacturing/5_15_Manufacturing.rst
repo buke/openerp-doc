@@ -31,7 +31,7 @@
 .. i18n: Of course, you can also start production manually by clicking the button :guilabel:`New` in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
 ..
 
-当然, 你可以在菜单:menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`, 点击 :guilabel:`New` 按钮手动建立生产订单 .
+当然, 你可以在菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` , 点击 :guilabel:`New` 按钮手动建立生产订单 .
 
 .. i18n: .. figure:: images/mrp_manual.png
 .. i18n:    :scale: 75
@@ -180,7 +180,7 @@
 .. i18n: you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 ..
 
-报价单建好后, 你可以通过按钮:guilabel:`Confirm Order` 来立即确认订单.at the bottom to the right. Keep note of the order reference because this
+报价单建好后, 你可以通过按钮 :guilabel:`Confirm Order` 来立即确认订单.at the bottom to the right. Keep note of the order reference because this
 follows all through the process. Usually, in a new database, this will be ``SO007`` . At this stage,
 you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 
