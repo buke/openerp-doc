@@ -27,14 +27,13 @@ Materials*.
 .. i18n: the Stock Location to determine where to take these products.
 ..
 
-我们有三个产品: Product A, Product B 和 Product C. For each product, we will have to define
-the Stock Location to determine where to take these products.
+我们有三个产品: Product A, Product B 和 Product C. 每个产品, 我们将定义库位，以确定从那个地方来取这些产品.
 
 .. i18n: To make one unit of Product A, we need the Product B and the Product C. So we will have to define a 
 .. i18n: *Bill of Material*.
 ..
 
-To make one unit of Product A, we need the Product B and the Product C. So we will have to define a 
+一个 Product A, 我们需要 Product B 和 Product C. 因此我们需要定义一个产品A的物料清单 
 *Bill of Material*.
 
 .. i18n: .. table:: Bill of Materials
