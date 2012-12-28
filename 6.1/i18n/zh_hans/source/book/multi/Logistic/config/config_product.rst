@@ -16,8 +16,7 @@
 .. i18n: France. Go to :menuselection:`Sales --> Products --> Products` and create a new product with the following specifications:
 ..
 
-Now that we have defined the different actors, we can define our product that will be stored in Belgium and proposed to sell in
-France. Go to :menuselection:`Sales --> Products --> Products` and create a new product with the following specifications:
+目前我们可以定义不同的角色，可以将计划在法国销售的产品存储在比利时，进入菜单选项，选择销售->产品-> 然后根据下列的详细参数创建一个新产品
 
 .. i18n: .. figure:: images/product.png
 .. i18n:    :scale: 75
