@@ -78,8 +78,7 @@
 .. i18n: on the database installed with the demonstration data. We will show you:
 ..
 
-To understand the usefulness and the functioning of the system you should test a complete workflow
-on the database installed with the demonstration data. We will show you:
+要了解的系统功能和系统如何运作的，你需要安装带演示数据的数据库，我们将向您展示，测试一个完整的工作流程:
 
 .. i18n: * How to create a sales order,
 .. i18n: 
@@ -94,17 +93,17 @@ on the database installed with the demonstration data. We will show you:
 .. i18n: * Traceability for after-sales service.
 ..
 
-* How to create a sales order,
+* 如何创建销售订单,
 
-* The manufacturing workflow for an intermediate product,
+* 中间产品的制造工作流程,
 
-* The manufacturing of an ordered product,
+* 订购的产品的制造,
 
-* The delivery of products to a customer,
+* 交付产品给客户,
 
 * Invoicing at the end of the month,
 
-* Traceability for after-sales service.
+* 可追溯性的售后服务.
 
 .. i18n: .. tip:: Demonstration data
 .. i18n: 
@@ -112,20 +111,20 @@ on the database installed with the demonstration data. We will show you:
 .. i18n:     example and start from a new database. Then you will not run into exceptions resulting from a lack of stock.
 ..
 
-.. tip:: Demonstration data
+.. tip:: 示范数据
 
-    To exactly follow the workflow as shown below, you should keep the same quantities as in the
-    example and start from a new database. Then you will not run into exceptions resulting from a lack of stock.
+    要严格遵循工作流程如下图所示，你应该从一个新的数据库开始，
+    使用和本例中相同的数量，那么，你将不会碰到因库存不足造成的例外状况.
 
 .. i18n: This more advanced case of handling problems in procurement will be sorted out later in the chapter.
 ..
 
-This more advanced case of handling problems in procurement will be sorted out later in the chapter.
+更高级的采购问题的处理将在本章的后面来解决.
 
 .. i18n: To be able to do the following step, add ``Sales Management`` through the Reconfigure wizard.
 ..
 
-To be able to do the following step, add ``Sales Management`` through the Reconfigure wizard.
+可以做以下步骤，通过重新配置向导添加销售管理 ``Sales Management`` .
 
 .. i18n: The Sales Order
 .. i18n: +++++++++++++++
