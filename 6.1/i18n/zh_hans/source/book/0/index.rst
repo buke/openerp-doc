@@ -136,16 +136,16 @@ OpenERP 解决方案
 ..
 
 由于OpenERP采用模块化，并且协同开发已完全集成在里面，所以任何公司都可以从它庞大的功能列表中找到适合自己的功能。
-对于大多数开源软件来说，可访问性，灵活性和易用性是重要的关键词。经验表明没有必要在系统上培训用户数个月，因为他们可以直接下载并使用它。
+对于大多数开源软件来说，可访问性，灵活性和易用性是重要的关键词。经验表明没有必要在系统上培训用户数个月，
+因为他们可以直接下载并使用它。
 
 .. i18n: So you will find modules to suit all kinds of needs, allowing your company to build its customized
 .. i18n: system
 .. i18n: by simply grouping and configuring the most suitable modules. Hundreds of modules are available.
 ..
 
-So you will find modules to suit all kinds of needs, allowing your company to build its customized
-system
-by simply grouping and configuring the most suitable modules. Hundreds of modules are available.
+所以你将找到适合各种需求的模块，可供选择的模块有上百种，你可以通过简单的分组和配置找到最适合的模块，利用他们
+为你的公司建立起量身定制的系统。
 
 .. i18n: They range from specific modules like the EDI interface for agricultural products,
 .. i18n: which has been used to interface with Match and Leclerc stores, up to the generic demonstration
@@ -162,10 +162,8 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: Over 800 developers participate in the projects on the collaborative development system.
 ..
 
-The results are rather impressive. OpenERP (originally called Tiny ERP) is a Management
-Software that is downloaded more than any other in the world, with over 600 downloads per day.
-Today it is available in 18 languages and has a worldwide network of partners and contributors.
-Over 800 developers participate in the projects on the collaborative development system.
+结果非常优秀。OpenERP（原本称作Tiny ERP）是一个管理软件，在全世界范围内它比其它的同类软件获得更多的下载次数，每天超过600次。
+现在它支持18中语言并且有一个世界范围的合作伙伴和贡献者网络。超过800名开发者共同参与并开发了这个项目。
 
 .. i18n: To our knowledge, OpenERP is the only management system which is routinely used not only by big
 .. i18n: companies but also by very small companies and independent companies. This diversity is an
@@ -173,10 +171,8 @@ Over 800 developers participate in the projects on the collaborative development
 .. i18n: functional expectations of the software and great ease of use.
 ..
 
-To our knowledge, OpenERP is the only management system which is routinely used not only by big
-companies but also by very small companies and independent companies. This diversity is an
-illustration of the software's flexibility: a rather elegant coordination between people's
-functional expectations of the software and great ease of use.
+据我们所知，OpenERP是唯一的一个不是仅仅被大公司使用的管理系统，它还被很多小公司和独立公司所采用。
+这个不同是一个很好的例证，说明了OpenERP的灵活性：在人们广泛希望的功能性与易用性之间优雅的进行协调。
 
 .. i18n: And this diversity is also found in the various sectors and trades which use the software, including
 .. i18n: agricultural products, textiles, public auctions, IT, and trade associations.
