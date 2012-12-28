@@ -143,7 +143,7 @@
 .. i18n: Begin by encoding a sales (or customer) order through the menu :menuselection:`Sales --> Sales Orders -> New Quotation`. Enter the following information:
 ..
 
-Begin by encoding a sales (or customer) order through the menu :menuselection:`Sales --> Sales Orders -> New Quotation`. Enter the following information:
+通过菜单 :menuselection:`Sales --> Sales Orders -> New Quotation` 来开始创建一个销售(或客户)订单. 键入下面的信息:
 
 .. i18n: * :guilabel:`Customer` : Agrolait,
 .. i18n: 
@@ -180,8 +180,7 @@ Begin by encoding a sales (or customer) order through the menu :menuselection:`S
 .. i18n: you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 ..
 
-Once the quotation has been entered, you can confirm it immediately by clicking the button
-:guilabel:`Confirm Order` at the bottom to the right. Keep note of the order reference because this
+报价单建好后, 你可以通过按钮:guilabel:`Confirm Order` 来立即确认订单.at the bottom to the right. Keep note of the order reference because this
 follows all through the process. Usually, in a new database, this will be ``SO007`` . At this stage,
 you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 
