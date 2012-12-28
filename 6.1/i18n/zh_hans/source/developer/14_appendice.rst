@@ -545,13 +545,13 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 .. i18n: ======================
 ..
 
-Information Repository
-======================
+信息库
+=====
 
 .. i18n: The information repository is a semantics tree in which the data that are not the resources are stored. We find in this structure:
 ..
 
-The information repository is a semantics tree in which the data that are not the resources are stored. We find in this structure:
+信息库是一种树状结构的语义描述方式，用于描述所储存的资料，而不是资源。 信息库的结构如下:
 
 .. i18n:    1. the values by default
 .. i18n:    2. the conditional values;
@@ -563,58 +563,55 @@ The information repository is a semantics tree in which the data that are not th
 .. i18n:           * action on a partner, ...
 ..
 
-   1. the values by default
-   2. the conditional values;
-          * the state depends on the zip code,
-          * the payment method depends of the partner, ...
-   3. the reactions to the events client;
-          * click on the invoice menu,
-          * print an invoice,
-          * action on a partner, ...
+   1. 预设的值
+   2. 有条件的值；
+          * 州（省）取决于邮编，
+          * 付款方法取决于伙伴，
+   3. 事件客户端的反应动作；
+          * 滑鼠在请款单菜单上单击，
+          * 打印一份请款单，
+          * 对一个伙伴的动作， ...
 
 .. i18n: The IR has 3 methods;
 ..
 
-The IR has 3 methods;
+信息库(IR)有 3 个物件方法；
 
 .. i18n:     * add a value in the tree
 .. i18n:     * delete a value in the tree
 .. i18n:     * obtain all the values of a selected sheet
 ..
 
-    * add a value in the tree
-    * delete a value in the tree
-    * obtain all the values of a selected sheet
+    * 在语义树里增加值
+    * 在语义树里删除值
+    * 在一个选定表单里取得所有值
 
 .. i18n: Setting Value
 .. i18n: -------------
 ..
 
-Setting Value
--------------
+设定数值
+-------
 
 .. i18n: The ir_set tag allows you to insert new values in the  "Information
 .. i18n: Repository". This tag must contain several *field* tags with *name* and *eval*
 .. i18n: attributes.
 ..
 
-The ir_set tag allows you to insert new values in the  "Information
-Repository". This tag must contain several *field* tags with *name* and *eval*
-attributes.
+ir_set（信息库_设置） 标签让你能在 "信息库" 里新增数值。 这个标签必须包含数个 *字段（field）* 标签，这些字段标签要具备 *name* 及 *eval*
+属性。
 
 .. i18n: The attributes are those defined by the access methods to the information
 .. i18n: repository. We must provide it with several attributes: *keys*, *args*, *name*,
 .. i18n: *value*, *isobject*, *replace*, *meta* and some optional fields.
 ..
 
-The attributes are those defined by the access methods to the information
-repository. We must provide it with several attributes: *keys*, *args*, *name*,
-*value*, *isobject*, *replace*, *meta* and some optional fields.
+这些属性是依据存取信息库的方法定义的；我们必须在提供标签时设置以下属性：*keys*, *args*, *name*, *value*, *isobject*, *replace*, *meta*, 和其他一些可选的属性。
 
 .. i18n: Example:
 ..
 
-Example:
+范例:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -643,8 +640,8 @@ Example:
 .. i18n: -----------
 ..
 
-IR Methods
------------
+信息库物件方法
+------------
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -676,7 +673,7 @@ IR Methods
 .. i18n: :Description of the fields:
 ..
 
-:Description of the fields:
+:字段描述:
 
 .. i18n:    1. key:
 .. i18n:    2. key2:
@@ -691,16 +688,16 @@ IR Methods
    1. key:
    2. key2:
    3. name:
-   4. models:
+   4. models):
    5. value:
    6. isobject:
-   7. replace: whether or not the action described should override an existing action or be appended to the list of actions.
+   7. replace: 所描述的动作是否应该覆盖现有的动作， 或是应该被加到现在的动作清单里。
    8. meta:
 
 .. i18n: :Using ir_set and ir_get:
 ..
 
-:Using ir_set and ir_get:
+:使用 ir_set 和 ir_get:
 
 .. i18n: .. code-block:: python
 .. i18n: 
