@@ -195,12 +195,12 @@ you can look at the process linked to your order using the :guilabel:`Question M
    :scale: 75
    :align: center
 
-   *Process for Handling Sales Order SO007*
+   *处理销售订单 SO007 的过程*
 
 .. i18n: Start the requirements calculation using the menu :menuselection:`Manufacturing --> Compute All Schedulers`.
 ..
 
-Start the requirements calculation using the menu :menuselection:`Manufacturing --> Compute All Schedulers`.
+通过菜单 :menuselection:`Manufacturing --> Compute All Schedulers` 来做需求计算.
 
 .. i18n: .. index::
 .. i18n:    single: semi-finished product
