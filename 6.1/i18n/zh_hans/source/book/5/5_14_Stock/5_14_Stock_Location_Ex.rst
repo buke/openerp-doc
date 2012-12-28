@@ -15,8 +15,7 @@
 .. i18n: Materials*.
 ..
 
-下面的例子将使用库位类型 *Stock Location types*, *Logistic Flows* 和 *Bill Of
-Materials*.
+下面的例子将使用库位类型 *Stock Location types*, *Logistic Flows* 和 *Bill Of Materials*.
 
 .. i18n: We have two companies: OpenERP SA and OpenERP US.
 ..
@@ -33,8 +32,7 @@ Materials*.
 .. i18n: *Bill of Material*.
 ..
 
-一个 Product A, 我们需要 Product B 和 Product C. 因此我们需要定义一个产品A的物料清单 
-*Bill of Material*.
+一个 Product A, 我们需要 Product B 和 Product C. 因此我们需要定义一个产品A的 *物料清单*.
 
 .. i18n: .. table:: Bill of Materials
 .. i18n: 
