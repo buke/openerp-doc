@@ -117,34 +117,30 @@ OpenERP 系统是由2部分组成:
 .. i18n:     Mac OS X, Solaris, SunOS and BSD.
 ..
 
-.. note::   PostgreSQL, the relational and object database management system.
+.. 备注::   PostgreSQL 是一种关系型，也是物件型的数据库管理系统。
 
-    It is a free and open-source high-performance system that compares well with other database
-    management systems such as MySQL and FirebirdSQL (both free), Sybase, DB2
-    and Microsoft SQL Server (all proprietary). It runs on all types of
-    Operating System, from Unix/Linux to the various releases of Windows, via
-    Mac OS X, Solaris, SunOS and BSD.
+    这是一种免费，开源，高效能的系统，与其他数据库管理系统比起来毫不逊色，例如
+    MySQL，FirebirdSQL (都是免费系统)， Sybase， DB2，微软 SQL Server (都是有版权的)。
+     这个系统在各种作业系统上都可以运行，从 Unix/Linux 到许多不同版本的 Windows，也包含了
+    Mac OS X， Solaris， SunOS 和 BSD.
 
 .. i18n: Both components can be installed on the same server or
 .. i18n: distributed onto separate computer servers, if performance considerations
 .. i18n: require it.
 ..
 
-Both components can be installed on the same server or
-distributed onto separate computer servers, if performance considerations
-require it.
+这两部分可以安装在同一个服务器上，如果有考虑运作的效能需要，也可以分布在不同的电脑服务器上。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
 
-.. Copyright © Open Object Press. All rights reserved.
+..  © Open Object Press. 版权所有，保留所有权利。
 
 .. i18n: .. You may take electronic copy of this publication and distribute it if you don't
 .. i18n: .. change the content. You can also print a copy to be read by yourself only.
 ..
 
-.. You may take electronic copy of this publication and distribute it if you don't
-.. change the content. You can also print a copy to be read by yourself only.
+.. 你可以拿这份刊物的电子档打印出来供自己阅读使用，或是如果你不修改任何内容，你也可以转发给其他人。
 
 .. i18n: .. We have contracts with different publishers in different countries to sell and
 .. i18n: .. distribute paper or electronic based versions of this book (translated or not)
@@ -153,20 +149,15 @@ require it.
 .. i18n: .. rights of these sales.
 ..
 
-.. We have contracts with different publishers in different countries to sell and
-.. distribute paper or electronic based versions of this book (translated or not)
-.. in bookstores. This helps to distribute and promote the OpenERP product. It
-.. also helps us to create incentives to pay contributors and authors using author
-.. rights of these sales.
+.. 我们有与许多不同国家的不同出版社签约，来发行及销售这本书的纸本或电子版本，包含原文版和翻译文的版本。
+.. 这对传播和推广 OpenERP 产品有很大帮助，同时我们会用这些销售产生的版税收入，作为支付给作者及贡献者的奖励。
 
 .. i18n: .. Due to this, grants to translate, modify or sell this book are strictly
 .. i18n: .. forbidden, unless Tiny SPRL (representing Open Object Press) gives you a
 .. i18n: .. written authorisation for this.
 ..
 
-.. Due to this, grants to translate, modify or sell this book are strictly
-.. forbidden, unless Tiny SPRL (representing Open Object Press) gives you a
-.. written authorisation for this.
+.. 因此，除非获得 Tiny SPRL (代表开源物件出版社，Open Object Press) 的书面授权，翻译补助金，修改或是贩卖这本书是被严格禁止的。
 
 .. i18n: .. Many of the designations used by manufacturers and suppliers to distinguish their
 .. i18n: .. products are claimed as trademarks. Where those designations appear in this book,
@@ -174,21 +165,16 @@ require it.
 .. i18n: .. printed in initial capitals.
 ..
 
-.. Many of the designations used by manufacturers and suppliers to distinguish their
-.. products are claimed as trademarks. Where those designations appear in this book,
-.. and Open Object Press was aware of a trademark claim, the designations have been
-.. printed in initial capitals.
+.. 许多制造商或供应商用于辨识他们产品的代号被称为 注册商标。在本书里出现的这些代号，如果开源物件出版社知道是注册商标的，会使用大写字母开头。
 
 .. i18n: .. While every precaution has been taken in the preparation of this book, the publisher
 .. i18n: .. and the authors assume no responsibility for errors or omissions, or for damages
 .. i18n: .. resulting from the use of the information contained herein.
 ..
 
-.. While every precaution has been taken in the preparation of this book, the publisher
-.. and the authors assume no responsibility for errors or omissions, or for damages
-.. resulting from the use of the information contained herein.
+.. 出版商及作者已经尽最大努力准备这本书，所以不对内容的错误和疏漏承担责任；出版商及作者也不对采用书中讯息造成的损害承担任何责任。
 
 .. i18n: .. Published by Open Object Press, Grand Rosière, Belgium
 ..
 
-.. Published by Open Object Press, Grand Rosière, Belgium
+.. 开源物件出版社，于比利时 Grand Rosière
