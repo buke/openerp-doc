@@ -117,7 +117,7 @@ OpenERP 系统是由2部分组成:
 .. i18n:     Mac OS X, Solaris, SunOS and BSD.
 ..
 
-.. 备注::   PostgreSQL 是一种关系型，也是物件型的数据库管理系统。
+.. note::   PostgreSQL 是一种关系型，也是物件型的数据库管理系统。
 
     这是一种免费，开源，高效能的系统，与其他数据库管理系统比起来毫不逊色，例如
     MySQL，FirebirdSQL (都是免费系统)， Sybase， DB2，微软 SQL Server (都是有版权的)。
