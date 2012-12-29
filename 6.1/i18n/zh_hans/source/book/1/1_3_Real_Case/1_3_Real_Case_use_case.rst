@@ -122,18 +122,17 @@ because they both contain demonstration data.
 .. i18n: *  :guilabel:`Confirm password` : \ ``admin``\  .
 ..
 
-*  :guilabel:`Super admin password` : by default it is \ ``admin`` \, if you or your system
-   administrator have not changed it,
+*  :guilabel:`超级管理员密码` : 默认密码为 \ ``admin`` \
 
-*  :guilabel:`New database name` : \ ``openerp_ch03``\  ,
+*  :guilabel:`新帐套名称` : \ ``openerp_ch03``\  ,
 
-*  :guilabel:`Load Demonstration data` checkbox: \ ``not checked``\  (**this step is very important, but catches out many people**),
+*  :guilabel:`载入演示数据` 勾选框: \ ``不勾选``\  (**不勾选很重要, 很多人豆是这步搞错老.**),
 
-*  :guilabel:`Default Language` : \ ``English (US)``\  ,
+*  :guilabel:`默认语言` : \ ``English (US)``\  ,
 
-*  :guilabel:`Administrator password` : \ ``admin``\  (because it is the easiest to remember at this stage, but obviously completely insecure),
+*  :guilabel:`管理员密码` : \ ``admin``\  (这个密码就是你后面登陆OpenERP的管理员密码,请牢记,并设置复杂一些),
 
-*  :guilabel:`Confirm password` : \ ``admin``\  .
+*  :guilabel:`重复密码` : \ ``admin``\  .
 
 .. i18n: .. _fig-oech03:
 .. i18n: 
