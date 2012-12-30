@@ -115,8 +115,8 @@ You then have to initialise the database. This will create a new openerp role::
 .. i18n:   make server
 ..
 
-Finally, launch the OpenERP server::
-最后运行 OpenERP 服务
+最后运行 OpenERP 服务::
+
   make server
 
 .. i18n: Testing your installation can be done on http://localhost:8069/
