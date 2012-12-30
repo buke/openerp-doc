@@ -51,7 +51,7 @@ OpenERP 架构
 .. i18n:    single: client; caching
 ..
 
-.. 索引::
+.. index::
    single: client; web (thin) and GTK (thick)
    single: client; caching
 
@@ -65,7 +65,7 @@ OpenERP 架构
 .. i18n:     future, so you can use whichever client you prefer.
 ..
 
-.. 备注::   网页客户端和 GTK 客户端
+.. note::   网页客户端和 GTK 客户端
 
     网页客户端和 GTK 客户端，这两种 OpenERP 客户端有一点点功能上的不同。 
     网页客户端提供较多功能，例如，企业情报 的功能和 甘特图。
@@ -121,8 +121,9 @@ OpenERP 系统是由2部分组成:
 
     这是一种免费，开源，高效能的系统，与其他数据库管理系统比起来毫不逊色，例如
     MySQL，FirebirdSQL (都是免费系统)， Sybase， DB2，微软 SQL Server (都是有版权的)。
-     这个系统在各种作业系统上都可以运行，从 Unix/Linux 到许多不同版本的 Windows，也包含了
+    这个系统在各种作业系统上都可以运行，从 Unix/Linux 到许多不同版本的 Windows，也包含了
     Mac OS X， Solaris， SunOS 和 BSD.
+
 
 .. i18n: Both components can be installed on the same server or
 .. i18n: distributed onto separate computer servers, if performance considerations

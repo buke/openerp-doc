@@ -149,7 +149,7 @@
 ..
 
 动作列表(The list of actions)
--------------------
+-------------------------------------
 向导的每一步骤/状态都定义了动作列表，到向导进入该状态后便执行这些动作。动作列表可以是空的.
 
 .. i18n: The function (actions) must have the following signatures:
@@ -197,7 +197,7 @@
 ..
 
 结果(The result)
-----------
+------------------------
 
 .. i18n: Here are some result examples:
 ..
@@ -556,7 +556,7 @@ Result: 客户端执行一个动作
 ..
 
 表单(Form)
-----
+------------
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -582,14 +582,14 @@ Result: 客户端执行一个动作
 ..
 
 字段(Fields)
-------
+--------------
 
 .. i18n: Standard
 .. i18n: +++++++++
 ..
 
 标准(Standard)
-+++++++++
+++++++++++++++++++
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -622,7 +622,7 @@ Result: 客户端执行一个动作
 ..
 
 关系(Relational)
-++++++++++
++++++++++++++++++++++
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -655,7 +655,7 @@ Result: 客户端执行一个动作
 ..
 
 选择(Selection)
-++++++++++
+++++++++++++++++++
 
 .. i18n: .. code-block:: python
 .. i18n:        
@@ -1260,8 +1260,8 @@ osv_memory 配置项
 ..
 
 当在配置向导步骤的子菜单中列出多种配置选项时，注意到 ``act_window`` 的 ``name`` 字段会被显示出来
- (在 Administration > Configuration > Configuration
-Wizards).
+ (在 Administration > Configuration > Configuration > Wizards).
+
 
 .. i18n: Registering your action
 .. i18n: +++++++++++++++++++++++
@@ -1295,7 +1295,7 @@ Wizards).
 .. i18n: ``ir.actions.todo`` also has 3 optional fields:
 ..
 
-``ir.actions.todo``有3个可选字段:
+``ir.actions.todo`` 有3个可选字段:
 
 .. i18n: ``sequence`` (default: ``10``)
 .. i18n:     The order in which the different steps are to be
@@ -1570,7 +1570,7 @@ and yield:
 .. i18n: ~~~~~~~~~~~~~~~~~~~~~~
 ..
 
-忽略下一步(Ignoring the next step)
+忽略下一步
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: Ultimately, the switch to the next configuration item is done by
@@ -1612,7 +1612,8 @@ and yield:
 和 ``action_next`` 对比（ ``action_next`` 要求 ``execute`` 被子类实现）， ``action_skip`` 是实现 ``res.config`` 的。
 但是在子模型需要完成sipping discovery的动作的情况下，它需要提供一个方法，该方法名为 ``cancel`` ，
 你可以用和 ``execute`` 一样的方法重载此函数。这是和 ``execute`` 一致的：不仅在 ``cancel`` 结束时可以自动调用 ``next`` 方法，
-而且能 `忽略 next step`_.
+而且能 `忽略下一步`_ 
+
 
 .. i18n: Alternative actions
 .. i18n: ~~~~~~~~~~~~~~~~~~~
@@ -1733,8 +1734,7 @@ Hook 方法会被 ``action_next`` 按钮（默认标签：Record）唤醒. 除�
 .. i18n:        your configuration item`_
 ..
 
-.. [#] This isn't completely true, as you will see when `Customizing
-       your configuration item`_
+.. [#] This isn't completely true, as you will see when `定制你的配置项`_
 
 .. i18n: .. [#] this method is part of the official API and you're free to
 .. i18n:        overload it if needed, but you should always call
