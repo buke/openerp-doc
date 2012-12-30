@@ -357,8 +357,7 @@ Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens t
 .. i18n: ``Payment Method``.  After that, click on :guilabel:`Validate` button to post this entry.
 ..
 
-``Supplier`` and ``Date`` comes automatically from invoice. You need to just enter the
-``Payment Method``.  After that, click on :guilabel:`Validate` button to post this entry.
+``供应商`` 与 ``日期`` 会自动从发票获取. 你只需要选择 ``支付方式`` 并点击 :guilabel:`核准` 按钮即可.
 
 .. i18n: .. index::
 .. i18n:    single: module; account
