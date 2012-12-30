@@ -1904,7 +1904,7 @@ RML 文件中的条形码(Barcodes)
 
 .. i18n: In 4.0.X
 ..
-在 4.0.X
+ 在 4.0.X
 
 .. i18n:     Administration -> Custom -> Low Level -> Base->Actions -> ir.actions.report.xml 
 ..

@@ -52,7 +52,7 @@
 ..
 
 例子1 : 订单折扣
---------------
+---------------------
 
 .. i18n: The first diagram represent a very basic workflow of an order:
 ..
@@ -114,7 +114,7 @@
 ..
 
 例子2: 业务订单产生请款单及出货通知
-------------------------------
+------------------------------------------
 
 .. i18n: .. image:: images/Workflow_sale.png
 ..
@@ -126,7 +126,7 @@
 ..
 
 例子3: 客户请款单基本工作流程
--------------------------
+--------------------------------------
 
 .. i18n: .. image:: images/Acount_inv_wkf.jpg
 ..
@@ -138,7 +138,7 @@
 ..
 
 定义工作流程
-==========
+===============
 
 .. i18n: Workflows are defined in the file ``server/addons/base/ir/workflow/workflow.py``. The first three classes defined in this file are ``workflow``, ``wkf_activity`` and ``wkf_transition``. They correspond to the three types of resources necessary to describe a workflow:
 ..
@@ -159,7 +159,7 @@
 ..
 
 工作流程 XML 档案的一般结构
-========================
+===================================
 
 .. i18n: The general structure of a workflow XML file is as follows:
 ..
@@ -251,7 +251,7 @@
 ..
 
 Activity(活动)
-=============
+=================
 
 .. i18n: Introduction
 .. i18n: ------------
@@ -441,7 +441,7 @@ Activity(活动)
 .. i18n:     :ref:`eval attribute <eval-attribute-link>` for an explanation.
 ..
 
-.. 注意::
+.. warning::
 
     对所有的布尔型字段来说，当在你的XML资料里写入 ``<field>`` 标记时，务必使用 ``eval`` 属性，
      不可以使用文字节点属性。详细说明请参考:ref:`eval attribute <eval-attribute-link>`。
@@ -465,7 +465,7 @@ Activity(活动)
 .. i18n:     See above in the description of the ``flow_start`` field.
 ..
 
-.. 注意::
+.. warning::
 
     参考上面关于 ``flow_start`` (流程开始)的字段说明
 
@@ -724,7 +724,7 @@ Transition(转变)
 ..
 
 Expressions(表达式)
-=====
+=======================
 
 .. i18n: Expressions are written as in Python:
 ..
@@ -758,7 +758,7 @@ Expressions(表达式)
 ..
 
 使用者角色
-=========
+============
 转变可以附加角色要求。如果转变指定角色要求，只有符合角色要求的使用者启动转变，转变才会进行。
 
 .. i18n: Each user can have one or several roles. Roles are defined in a tree of roles, parent roles having the rights of all their children.
@@ -813,7 +813,7 @@ Expressions(表达式)
 ..
 
 错误处理
-=======
+===========
 
 .. i18n: As of this writing, there is no exception handling in workflows.
 ..
@@ -835,7 +835,7 @@ Expressions(表达式)
 ..
 
 创建一个工作流程
-==============
+===================
 
 .. i18n: Steps for creating a simple state-changing workflow for a custom module called **mymod**
 ..
@@ -847,7 +847,7 @@ Expressions(表达式)
 ..
 
 定义你的物件的状态
----------------
+---------------------
 
 .. i18n: The first step is to define the States your object can be in. We do this by adding a 'state' field to our object, in the _columns collection
 ..
@@ -884,7 +884,7 @@ Expressions(表达式)
 ..
 
 定义状态改变的处理方式
--------------------
+-------------------------
 
 .. i18n: Add the following additional methods to your object. These will be called by our workflow buttons.
 ..
@@ -946,7 +946,7 @@ Expressions(表达式)
 ..
 
 创建你的工作流程XML档案
---------------------
+--------------------------
 
 .. i18n: There are three types of records we need to define in a file called ``mymod_workflow.xml``
 ..
@@ -1134,7 +1134,7 @@ Expressions(表达式)
 ..
 
 把 mymod_workflow.xml 加到 __openerp__.py 里
--------------------------------------------
+------------------------------------------------
 
 .. i18n: Edit your module's ``__openerp__.py`` and add ``"mymod_workflow.xml"`` to the ``update_xml`` array, so that OpenERP picks it up next time your module is loaded.
 ..
@@ -1146,7 +1146,7 @@ Expressions(表达式)
 ..
 
 在你的视图里加上工作流程按钮
----------------------------
+-------------------------------
 
 .. i18n: The final step is to add the required buttons to ``mymod_views.xml`` file.
 ..
@@ -1199,7 +1199,7 @@ Expressions(表达式)
 ..
 
 故障排除
--------
+----------
 如果你的按钮看起来没有任何作用，或许是因为以下两个问题的其中一个:
 
 .. i18n:    1. The record you are working on does not have a Workflow Instance record associated with it (it was probably created before you defined your workflow)
