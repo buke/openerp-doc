@@ -122,7 +122,7 @@ You then have to initialise the database. This will create a new openerp role::
 .. i18n: Testing your installation can be done on http://localhost:8069/
 ..
 
-Testing your installation can be done on http://localhost:8069/
+可以通过 http://localhost:8069/ 可以测试你的安装
 
 .. i18n: Development version
 .. i18n: -------------------
