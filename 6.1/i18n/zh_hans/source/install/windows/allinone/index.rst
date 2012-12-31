@@ -105,9 +105,9 @@ OpenERP完整（All-In-One）安装
 .. i18n:    the PostgreSQL database system (version 8.3, at the time of writing), so it will take some time.
 ..
 
-#. 访问站点：http://www.openerp.com。
+#. 访问站点：http://www.openerp.com
 
-#. 点击右边 :menuselection:`Downloads` 按钮，然后在 :guilabel:`Windows Auto-Installer`下面选择 **All-In-One**.
+#. 点击右边 :menuselection:`Downloads` 按钮，然后在 :guilabel:`Windows Auto-Installer` 下面选择 **All-In-One** 
 
 #. 在可以下载之前，你将被要求填写一个在线表格：你的联系方式和公司详情以及有关你对OpenERP兴趣的信息。
 

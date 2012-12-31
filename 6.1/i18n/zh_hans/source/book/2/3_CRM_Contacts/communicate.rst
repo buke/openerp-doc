@@ -304,7 +304,7 @@ Thanks to the plug-in, you can effortlessly link emails and attachments to the c
 .. i18n: In this chapter, only the actual possibilities of the plug-in will be discussed. For more information about how to install and configure the Outlook plug-in, please refer to the chapter :ref:`outlook`.
 ..
 
-In this chapter, only the actual possibilities of the plug-in will be discussed. For more information about how to install and configure the Outlook plug-in, please refer to the chapter :ref:`outlook`.
+In this chapter, only the actual possibilities of the plug-in will be discussed. For more information about how to install and configure the Outlook plug-in, please refer to the chapter :ref:`outlook` 
 
 .. i18n: From the Outlook toolbar, have a look at the :menuselection:`Tools` menu.
 ..
