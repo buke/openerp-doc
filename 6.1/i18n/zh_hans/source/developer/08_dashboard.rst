@@ -3,7 +3,7 @@
 ..
 
 控制界面 
-=======
+==========
 
 .. i18n: OpenERP objects can be created from PostgreSQL views. The technique is as follows :
 ..

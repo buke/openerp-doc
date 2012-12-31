@@ -3,9 +3,9 @@
 .. i18n: ================
 ..
 
-=================
+=======================
 构建安装程序包和安装
-=================
+=======================
 
 .. i18n: This page describes how to build a custom version of OpenERP for Windows.
 ..
@@ -24,7 +24,7 @@ This page describes how to build a custom version of OpenERP for Windows.
 ..
 
 关联性
------
+--------
 
 .. i18n: The first step is to build the dependencies. To do so, grab the Windows installer branch::
 .. i18n: 
@@ -60,7 +60,7 @@ This page describes how to build a custom version of OpenERP for Windows.
 ..
 
 服务器
-+++++
+++++++++
 
 .. i18n: Install the packages:
 ..
@@ -118,7 +118,7 @@ This page describes how to build a custom version of OpenERP for Windows.
 ..
 
 来源配置
--------
+----------
 
 .. i18n: The second step is to build a source distribution on Linux.
 ..
@@ -130,7 +130,7 @@ This page describes how to build a custom version of OpenERP for Windows.
 ..
 
 服务器
-+++++
+++++++++
 
 .. i18n: Let's assume you work on your own server branch named **6.0** and you want to build a server with the following modules:
 ..
@@ -219,7 +219,7 @@ Binary distribution
 ..
 
 服务器
-+++++
+++++++++
 
 .. i18n: Open a command prompt and unzip the file::
 .. i18n: 
@@ -363,7 +363,7 @@ Binary distribution
 ..
 
 安装包脚本
----------
+------------
 
 .. i18n: The first step is to grab the package script branch::
 .. i18n: 
@@ -379,7 +379,7 @@ Binary distribution
 ..
 
 批次执行档
----------
+------------
 
 .. i18n: Go to the *packaging* directory of the branch and copy the file *build.bat* to the *C:\\openerp* directory of your Windows machine.
 ..
