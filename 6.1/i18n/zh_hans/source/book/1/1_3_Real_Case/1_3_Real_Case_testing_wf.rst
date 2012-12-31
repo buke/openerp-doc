@@ -262,7 +262,7 @@
 .. i18n:    of stock movements quite easily, and to resolve any errors that occur.
 ..
 
-.. tip:: Traceability in Double-entry
+.. tip:: 复式记帐的物流管理
 
    OpenERP operates a double-entry stock transfer scheme similar to double-entry accounting.
    Because of this you can carry out various analyses of stock levels in your warehouse,
@@ -275,7 +275,7 @@
 ..
 
 开票管理
----------------
+--------
 
 .. i18n: When you have received an invoice from your supplier (which would usually be sent to your Accounts department),
 .. i18n: go to the menu :menuselection:`Accounting --> Suppliers --> Supplier Invoices`
@@ -323,11 +323,9 @@ difference, it is possible to change the order lines to, for example, add a deli
 .. i18n: the ``Payable`` account.
 ..
 
-Accounting entries are generated automatically once the invoice is validated. To see the effects on
-your chart of accounts, use the menu :menuselection:`Accounting --> Charts --> Chart of
-Accounts` ,then click :guilabel:`Open Charts` at the :guilabel:`Chart of Accounts` page to see that you
-have a debit of ``560.00`` in the ``Purchases`` account and a credit of ``560.00`` in
-the ``Payable`` account.
+当发票核准时,系统会自动生成对应的会计凭证.这时打开 公司的会计科目一览表( :menuselection:`会计 --> 表 --> 科目一览表` ,
+在 :guilabel:`科目一览表` 窗体中 点击 :guilabel:`打开一览表` 按钮, 
+你就可以看到对应的 ``材料采购`` 科目借方余额与 ``应付帐款`` 科目贷方余额 为 ``560.00`` 元.
 
 .. i18n: Paying the Supplier
 .. i18n: -------------------
