@@ -21,11 +21,9 @@ Web Services 服务
 .. i18n: allow you to do everything through standard protocols.
 ..
 
-Given the architecture of OpenERP, it is not possible to reliably access the
-database with the PostgreSQL client or through a direct connection method
-such as ODBC.
-Fortunately, OpenERP provides a very comprehensive set of web services that
-allow you to do everything through standard protocols.
+
+鉴于OpenERP的架构,它不适合直接通过PostgreSQL客户端或者 ODBC 这样的连接方法访问数据库，
+幸运的是,OpenERP提供了一个非常全面的web服务集，允许你通过标准协议做任何事情。
 
 .. i18n: .. note::
 .. i18n:    Though it is technically possible, you must be aware that this can have
@@ -34,11 +32,15 @@ allow you to do everything through standard protocols.
 .. i18n:    database to avoid caching and concurrency issues.
 ..
 
-.. note::
+.. 注意::
    Though it is technically possible, you must be aware that this can have
    disastrous consequences for your data, unless you know exactly what you are
    doing. You are advised to shut down the OpenERP server when accessing the
    database to avoid caching and concurrency issues.
+
+  虽然直接访问数据库，在技术上是可行的,你必须意识到这可能对您的数据造成灾难性的后果,除非你知道你是在做
+  什么。当你直接访问数据库的时候，建议您关闭OpenERP服务器，以避免缓存和并发问题。
+
 
 .. i18n: Supported Web Services Protocols
 .. i18n: --------------------------------
