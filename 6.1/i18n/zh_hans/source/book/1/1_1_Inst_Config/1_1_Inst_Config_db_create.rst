@@ -24,10 +24,8 @@
 .. i18n: you will have to find somebody who does have it to create this database.
 ..
 
-Use the technique outlined in this section to create a new database, \ ``openerp_ch01`` \. This
-database will contain the demonstration data provided with OpenERP and a large proportion of the
-core OpenERP functionality. You will need to know your super administrator password for this – or
-you will have to find somebody who does have it to create this database.
+使用这个章节里概述的技巧来创建一个新的数据库， \ ``openerp_ch01`` \. 这个数据库将包含 OpenERP 提供的示范数据以及
+大部分的 OpenERP 核心功能。你需要知道超级管理员的密码才能使用这个数据库，或者你可以请具有超级管理员权限的人创建这个数据库。
 
 .. i18n: .. index::
 .. i18n:    single: password; super-administrator
@@ -59,18 +57,13 @@ you will have to find somebody who does have it to create this database.
 .. i18n:    the ``--config`` command line option.
 ..
 
-.. note:: The Super-administrator Password
+.. 备注:: 超级管理员密码
 
-   Anyone who knows the super-administrator password has complete access to the data on the server
-   – able to read, change and delete any of the data in any of the databases there.
-
-   After first installation, the password is ``admin``. This is the hard-coded default, and
-   is used if there is no accessible server configuration file. If your system has been 
-   set up so that the server configuration file can be written to by the server, then
-   you can change the password through the client. Or you could deliberately make the 
-   configuration file read-only so that there is no prospect of changing it from the client.
-   Either way, a server systems administrator can change it if you forget it.
-   
+   任何人只要知道超级管理员的密码，都对服务器上的数据有完整的存取权力 – 可读取，修改或删除任何服务器上任何数据库的任何数据。
+   在第一次安装完成后，密码是 ``admin`` 。 这是写在程序里的缺省值，如果找不到可以存取的服务器组态文件，就会使用这个缺省值。
+   如果你的系统有配置服务器可写入的组态文件，你就可以透过客户端修改密码；或者，你可以刻意把组态文件设置成只读，这样以后就没有
+   人可以从客户端修改密码。不论是这两种方式的哪一种，如果你忘记密码，服务器的系统管理员都可以修改密码。
+      
    So if your system is set to allow it, you can change the superadmin password through the GTK client
    from the menu :menuselection:`File --> Databases --> Administrator Password`, or through the
    web client by logging out (click the :guilabel:`Logout` link), clicking :guilabel:`Databases` on the
