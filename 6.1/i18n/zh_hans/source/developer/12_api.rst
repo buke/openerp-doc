@@ -33,10 +33,6 @@ Web Services 服务
 ..
 
 .. 注意::
-   Though it is technically possible, you must be aware that this can have
-   disastrous consequences for your data, unless you know exactly what you are
-   doing. You are advised to shut down the OpenERP server when accessing the
-   database to avoid caching and concurrency issues.
 
   虽然直接访问数据库，在技术上是可行的,你必须意识到这可能对您的数据造成灾难性的后果,除非你知道你是在做
   什么。当你直接访问数据库的时候，建议您关闭OpenERP服务器，以避免缓存和并发问题。
