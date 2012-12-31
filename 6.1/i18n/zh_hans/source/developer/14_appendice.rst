@@ -546,7 +546,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 信息库
-=====
+========
 
 .. i18n: The information repository is a semantics tree in which the data that are not the resources are stored. We find in this structure:
 ..
@@ -591,7 +591,7 @@ http://translate.sourceforge.net/wiki/guide/translation/accelerators
 ..
 
 设定数值
--------
+----------
 
 .. i18n: The ir_set tag allows you to insert new values in the  "Information
 .. i18n: Repository". This tag must contain several *field* tags with *name* and *eval*
@@ -641,7 +641,7 @@ ir_set（信息库_设置） 标签让你能在 "信息库" 里新增数值。 �
 ..
 
 信息库物件方法
-------------
+----------------
 
 .. i18n: .. code-block:: python
 .. i18n: 
