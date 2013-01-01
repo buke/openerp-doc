@@ -64,13 +64,11 @@
    如果你的系统有配置服务器可写入的组态文件，你就可以透过客户端修改密码；或者，你可以刻意把组态文件设置成只读，这样以后就没有
    人可以从客户端修改密码。不论是这两种方式的哪一种，如果你忘记密码，服务器的系统管理员都可以修改密码。
       
-   So if your system is set to allow it, you can change the superadmin password through the GTK client
-   from the menu :menuselection:`File --> Databases --> Administrator Password`, or through the
-   web client by logging out (click the :guilabel:`Logout` link), clicking :guilabel:`Databases` on the
-   login screen, and then clicking the :guilabel:`Password` button on the Management screen. 
+   所以你的系统设置是可以从客户端修改密码，你可以从 GTK 客户端的菜单里进行修改:` 文件 --> 数据库 --> 管理员密码` ，或是从
+   网页客户端登出 (单击 :使用界面标签:` 登出 ` 连结), 在登入画面单击 :使用界面标签:` 数据库 ` ，然后在管理画面中单击
+    :使用界面标签:` 密码 ` 。 
    
-   The location of the server configuration file is typically defined by starting the server with 
-   the ``--config`` command line option.
+   服务器上的配置文件位置，通常是在启动服务器时用 ``--config`` 命令的选项来指定。
 
 .. i18n: .. figure:: images/change_superadmin_pwd.png
 .. i18n:    :scale: 65
@@ -83,7 +81,7 @@
    :scale: 65
    :align: center
 
-   *Changing the super-administrator password through the web client*
+   * 用网页客户端来修改超级管理员密码 *
 
 .. i18n: .. _sect-creatingdb:
 .. i18n: 
@@ -101,9 +99,7 @@
 .. i18n: you are creating.
 ..
 
-If you are using the GTK client, choose :menuselection:`File --> Databases --> New database`  in
-the menu at the top left. Enter the super-administrator password, then the name of the new database
-you are creating.
+如果你是使用 GTK 客户端， 选择 :选择菜单: ，在菜单的左上方 选择 ` 文件 --> 数据库 --> 新数据库 ` 。输入超级管理员密码以及要创建的新数据库名称。
 
 .. i18n: .. figure:: images/create_new_db_GTK.png
 .. i18n:    :scale: 75
@@ -116,7 +112,7 @@ you are creating.
    :scale: 75
    :align: center
 
-   *Creating a new database through the GTK client*  
+   * 使用 GTK 客户端创建新资料库 *  
 
 .. i18n: If you are using the web client, click :guilabel:`Databases` on the login screen, then
 .. i18n: :guilabel:`Create` on the database management page. Enter the super-administrator password, and the
@@ -126,21 +122,18 @@ you are creating.
 .. i18n: The consequences of checking this box or not affect the **whole use** of this database.
 ..
 
-If you are using the web client, click :guilabel:`Databases` on the login screen, then
-:guilabel:`Create` on the database management page. Enter the super-administrator password, and the
-name of the new database you are creating.
+如果你是是用网页客户端，在登入画面单击 :使用界面标签: ` 数据库 ` ，然后在数据库管理页面 :使用界面标签: ` 创建 ` 。
+输入超级管理员密码，以及你要创建的数据库名称。
   
-In both cases, you will see a checkbox that determines whether you load demonstration data or not.
-The consequences of checking this box or not affect the **whole use** of this database.
+在两种方法里你都会看到核取方块；核取方块是用来确认是否要载入演示数据。不论是否有选取核取方块，结果都不会影响数据库的 ** 整体应用 ** 。
 
 .. i18n: In both cases, you will also see that you can choose the Administrator password. This makes your 
 .. i18n: database quite secure because you can ensure that it is unique from the outset.
 .. i18n: (In fact many people find it hard to resist ``admin`` as their password!)
 ..
 
-In both cases, you will also see that you can choose the Administrator password. This makes your 
-database quite secure because you can ensure that it is unique from the outset.
-(In fact many people find it hard to resist ``admin`` as their password!)
+在两种方法里你也都会看到，你可以选择管理员密码。管理员密码可以相当程度确保数据库的安全性，因为从一开始就可以确保数据库的密码是唯一的。
+(实际上许多人会难以抗拒使用 ``admin`` 作为密码!)
 
 .. i18n: Database openerp_ch01
 .. i18n: ---------------------
@@ -161,9 +154,7 @@ database quite secure because you can ensure that it is unique from the outset.
 .. i18n: database, you can extend it without having to know the super-administrator password.
 ..
 
-Wait for the message showing that the database has been successfully created, along with the user
-accounts and passwords (\ ``admin/XXXX``\   and \ ``demo/demo``\  ). Now that you have created this
-database, you can extend it without having to know the super-administrator password.
+等到信息显示数据库及用户账号及密码 (\ ``admin/XXXX``\   和 \ ``demo/demo``\  ) 已经成功创建，你就已经创建了这个数据库，而且你可以不需要知道超级管理员密码，就可以扩充这个数据库。
 
 .. i18n: .. index::
 .. i18n:    single: access; LDAP
@@ -191,17 +182,14 @@ database, you can extend it without having to know the super-administrator passw
 .. i18n: 	OpenERP databases. Using this, many databases can share the same user account details.
 ..
 
-.. tip::   User Access
+.. 提示::   用户存取
 
-	The combination of username/password is specific to a single database. If you have administrative
-	rights to a database you can modify all users.
+	对每一个数据库来说，用户名称/密码 都是唯一的组合；如果你有管理员的权限，你可以修改全部的用户。
 
  	.. index::
 	   single: module; users_ldap
 
-	Alternatively, you can install the :mod:`users_ldap` module, which manages the authentication of users
-	in LDAP (the Lightweight Directory Access Protocol, a standard system), and connect it to several
-	OpenERP databases. Using this, many databases can share the same user account details.
+	另外，你可以安装 :mod: `users_ldap` 模块，用于管理用户在 LDAP (轻量级目录访问协议， Lightweight Directory Access Protocol， 一个标准系统)，以及连接到数个 OpenERP 数据库。透过 LDAP 许多数据库可以共享相同的用户账号资讯。
 
 .. i18n: .. note::  Failure to Create a Database
 .. i18n: 
@@ -214,15 +202,13 @@ database, you can extend it without having to know the super-administrator passw
 .. i18n: 	:guilabel:`Error during database creation!`.
 ..
 
-.. note::  Failure to Create a Database
+.. 备注::  创建数据库失败
 
-	How do you know if you have successfully created your new database?
-	You are told if the database creation has been unsuccessful.
-	If you have entered a database name using prohibited characters (or no name, or too short a name),
-	you will be alerted by the dialog box :guilabel:`Bad database name!` explaining how to correct the error.
-	If you have entered the wrong super-administrator password or a name already in use
-	(some names can be reserved without your knowledge), you will be alerted by the dialog box
-	:guilabel:`Error during database creation!`.
+	如何知道是否已经成功创建你的新数据库？
+	如果创建数据库不成功，系统会通知你。
+	如果你用了禁止使用的字符当做数据库的名称 (或数据库没有名称，或名称太短)，系统会用对话框提出警告 :使用界面标签: `不合格的数据库名称!` ，
+           同时会说明如何修正错误。如果你输入了错误的超级管理员密码或是某个已经在使用中的名称 (有些名称是在你不知道的情形下保留的)，系统会用以下对话
+           框提出警告 :使用界面标签: `数据库创建过程中错误!`。
 
 .. i18n: Since this is the first time you have connected to this database, you will be asked a series of questions to
 .. i18n: define the database parameters. You may choose to :guilabel:`Skip Configuration Wizards` or
@@ -230,10 +216,8 @@ database, you can extend it without having to know the super-administrator passw
 .. i18n: following steps:
 ..
 
-Since this is the first time you have connected to this database, you will be asked a series of questions to
-define the database parameters. You may choose to :guilabel:`Skip Configuration Wizards` or
-:guilabel:`Start Configuration`. If you choose to configure your application, you may proceed with the
-following steps:
+既然这是你第一次连结到这个数据库，系统会问你一系列的问题来确认数据库的参数。你可以选择 :使用界面标签: `略过组态精灵` 或
+:使用界面标签: `开始设定组态` 。如果你选择设定应用程序的组态，可以依照以下步奏进行:
 
 .. i18n: 	#.  :guilabel:`Configure Your Interface` : select \ ``Simplified`` \ and click :guilabel:`Next`.
 .. i18n: 
