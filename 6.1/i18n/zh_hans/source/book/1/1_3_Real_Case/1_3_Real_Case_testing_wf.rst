@@ -147,9 +147,9 @@
 .. i18n: * :guilabel:`Unit Price` to \ ``56.00``\ .
 ..
 
-* :guilabel:`数量` : \ ``10``\ ,
+* :guilabel:`数量` : \ ``10.00``\ .
 
-* :guilabel:`价格`  \ ``56.00``\ .
+* :guilabel:`价格` : \ ``56.00``\ .
 
 .. i18n: Save the order line and close the :guilabel:`Order Line` window by clicking the
 .. i18n: :guilabel:`Close` button. You can then confirm the whole one-line order by clicking
@@ -348,8 +348,7 @@ difference, it is possible to change the order lines to, for example, add a deli
 .. i18n: :guilabel:`Pay Invoice` window in new tab with a description of the payment.
 ..
 
-Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens the
-:guilabel:`Pay Invoice` window in new tab with a description of the payment.
+在打开的供应商发票页面点击 :guilable:`支付发票` 按钮, 打开 :guilable:`发票支付` 窗体进行发票支付操作.
 
 .. i18n: ``Supplier`` and ``Date`` comes automatically from invoice. You need to just enter the
 .. i18n: ``Payment Method``.  After that, click on :guilabel:`Validate` button to post this entry.
@@ -373,9 +372,7 @@ Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens t
 .. i18n: 	interfacing with banks.
 ..
 
-.. note:: Payment of an Invoice
-
-	
+.. note:: 支付发票
 
         这里描述的方法是为企业,不使用他们的会计系统付账单——
         只是来记录他们
