@@ -61,7 +61,7 @@ Debian/Ubuntu安装
 .. i18n:   mkdir source;cd source
 ..
 
-In order to get the sources, you will need Bazaar version control to pull the source from Launchpad. Check how to get Bazaar according to your development environment. After having installed and configured Bazaar, setup your development environment by typing::
+为了获取源代码,您将需要使用版本控制工具从Launchpad检出源码。根据你的开发环境检查如何得到Bazaar。Bazaar,安装和配置后,设置您的开发环境中通过输入如下命令（自行定义目录名称）::
 
   mkdir source;cd source
 
@@ -88,7 +88,7 @@ In order to get the sources, you will need Bazaar version control to pull the so
 .. i18n:   make
 ..
 
-The makefile contains other options. For details about options, please type::
+mark命令通过如下命令可以查看其它关于mark命令的选项::
 
   make
 
@@ -106,7 +106,7 @@ Some dependencies are necessary to use OpenERP. Depending on your environment, y
 .. i18n:   make db-setup
 ..
 
-You then have to initialise the database. This will create a new openerp role::
+然后你需要初始化一个数据库.这样将创建一个新的openerp角色::
 
   make db-setup
 
