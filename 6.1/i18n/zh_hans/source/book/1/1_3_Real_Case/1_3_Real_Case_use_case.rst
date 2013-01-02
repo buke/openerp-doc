@@ -154,7 +154,7 @@ because they both contain demonstration data.
 .. i18n: Then click :guilabel:`Create` to create the database and move to the setup screen :ref:`fig-oech03s1`.
 ..
 
-Then click :guilabel:`Create` to create the database and move to the setup screen :ref:`fig-oech03s1`.
+在 :ref:`fig-oech03s1` 界面点击 :guilabel:`新建` 按钮.
 
 .. i18n: .. _fig-oech03s1:
 .. i18n: 
