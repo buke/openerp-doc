@@ -1,4 +1,3 @@
-
 .. i18n: .. _doc-license-link:
 .. i18n: 
 .. i18n: License for the documentation
@@ -7,22 +6,20 @@
 
 .. _doc-license-link:
 
-License for the documentation
+文档许可协议
 -----------------------------
 
 .. i18n: Copyright © Open Object Press. All rights reserved.
 ..
 
-Copyright © Open Object Press. All rights reserved.
+Open Object Press 版权所有. 保留所有权利.
 
 .. i18n: You may take an electronic copy of this publication and distribute it if you 
 .. i18n: don't change the content in any way. You can also print a copy to be read by 
 .. i18n: yourself only.
 ..
 
-You may take an electronic copy of this publication and distribute it if you 
-don't change the content in any way. You can also print a copy to be read by 
-yourself only.
+在不以任何方式改变内容的前提下，你可以获取一份电子拷贝用于发布和分发。在仅用于个人的前提下，你也可以打印阅读。
 
 .. i18n: We have contracts with different publishers in different countries to sell and
 .. i18n: distribute paper or electronic based versions of this book (both translated and
@@ -31,20 +28,17 @@ yourself only.
 .. i18n: the authors rights for these sales.
 ..
 
-We have contracts with different publishers in different countries to sell and
-distribute paper or electronic based versions of this book (both translated and
-not) in bookstores. This helps to distribute and promote the OpenERP product.
-It also helps us to create incentives to pay contributors and authors using 
-the authors rights for these sales.
+
+我们与各个国家的出版社签署了合同，用于在书店销售和分发本书的纸质或电子版本（包含翻译和其他内容）。
+这有助于分发和保护 OpenERP 的产品。
+借助以上销售方式，将帮助我们我们激励和支付贡献者和作者。
 
 .. i18n: Due to this, grants to translate, modify or sell this book are strictly
 .. i18n: forbidden, unless Tiny SPRL (representing Open Object Press) gives you
 .. i18n: written authorisation for this.
 ..
 
-Due to this, grants to translate, modify or sell this book are strictly
-forbidden, unless Tiny SPRL (representing Open Object Press) gives you
-written authorisation for this.
+基于以上原因，翻译、修改或销售本书是严格禁止的，除非Tiny SPRL (也就是 Open Object Press)为您提供书面授权。
 
 .. i18n: Many of the designations used by manufacturers and suppliers to distinguish their
 .. i18n: products are claimed as trademarks. Where those designations appear in this book,
@@ -52,10 +46,8 @@ written authorisation for this.
 .. i18n: printed in initial capitals.
 ..
 
-Many of the designations used by manufacturers and suppliers to distinguish their
-products are claimed as trademarks. Where those designations appear in this book,
-and Open Object Press was aware of a trademark claim, the designations have been
-printed in initial capitals.
+制造商和供应商为区分它们的产品，注册了许多标志为商标。
+关于本书中出现的标志，Open Object Press 充分意识到商标所有者权利，因此相关标志将会以首字母大写的形式出现。
 
 .. i18n: While every precaution has been taken in the preparation of this book, the publisher
 .. i18n: and the authors assume no responsibility for errors or omissions, or for damages
