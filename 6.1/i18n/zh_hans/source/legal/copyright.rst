@@ -26,4 +26,4 @@
 .. i18n: Check the :ref:`Documentation License <doc-license-link>`.
 ..
 
-其他详情参阅:ref:`Documentation License <doc-license-link>`.
+其他详情参阅 :ref:`Documentation License <doc-license-link>`.
