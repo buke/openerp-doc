@@ -54,27 +54,26 @@ Open Object Press 版权所有. 保留所有权利.
 .. i18n: resulting from the use of the information contained herein.
 ..
 
-While every precaution has been taken in the preparation of this book, the publisher
-and the authors assume no responsibility for errors or omissions, or for damages
-resulting from the use of the information contained herein.
+在本书的编写过程中，我们采取了一切可能的措施。
+但对于出版商和作者的错误或遗漏，或使用过程中造成的随时，我们对此不承担任何责任。
 
 .. i18n: Published by Open Object Press, Grand Rosière, Belgium
 ..
 
-Published by Open Object Press, Grand Rosière, Belgium
+Open Object Press, Grand Rosière, 比利时 声明。
 
 .. i18n: FAQ about documentation Licence
 .. i18n: ===============================
 ..
 
-FAQ about documentation Licence
+文档许可协议常见问题
 ===============================
 
 .. i18n: Why not use a free documentation licence ?
 .. i18n: ++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Why not use a free documentation licence ?
+为什么不采取免费文档协议？
 ++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: To achieve very high quality documentation, we are managing it as a standard
@@ -103,7 +102,7 @@ protection on versions of the book that is not compatible with the GFPL.
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-Do you accept contributions from everyone to modify the book ?
+你们是否接受大家修改此书的贡献？
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: Our goal is to accept most of the contributions and contributors. So we provide
@@ -135,7 +134,7 @@ his or her own way.
 .. i18n: +++++++++++++++++++++++++++++
 ..
 
-Why is this a good approach ?
+为什么这是个好方法？
 +++++++++++++++++++++++++++++
 
 .. i18n: The documentation of OpenERP is one of our biggest priorities. We currently
@@ -150,7 +149,7 @@ enough and I am sure we can do much more better.
 .. i18n: **Writing Good Documentation is Complex**
 ..
 
-**Writing Good Documentation is Complex**
+**撰写一个良好的文档是非常复杂的过程**
 
 .. i18n: For years we have tried to develop community based documentation on a wiki where
 .. i18n: everyone contributes. With OpenERP we have a strong community but, after years,
@@ -186,7 +185,7 @@ documentation about OpenERP and Open Object.
 .. i18n: **The Process**
 ..
 
-**The Process**
+**编写过程**
 
 .. i18n: Most of the best open source documentation has been fully written in one try
 .. i18n: by only one or two people / authors. After that, the community improved the
@@ -316,7 +315,7 @@ where you can ask questions or reply answers.
 .. i18n: **The Role of The Community**
 ..
 
-**The Role of The Community**
+**社区的角色和定位**
 
 .. i18n: This documentation writing and maintaining process tends to emphasize
 .. i18n: individual efforts from authors and translators. This does not means we think
