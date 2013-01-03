@@ -210,10 +210,9 @@ Then OpenERP helps you to install various applications with different functional
 .. i18n: can start working with this minimal database (we will not use this option here).
 ..
 
-- OR -
+- 或者 -
 
-2. When you click the button `Skip Configuration Wizards`, you can have the screen as shown in screenshot :ref:`fig-oech03st`. Then you
-can start working with this minimal database (we will not use this option here).
+2. 点击 `跳过向导` 进入页面 :ref:`fig-oech03st` , 你就可以开始使用这个最小化安装的帐套了.
 
 .. i18n: .. _fig-oech03st:
 .. i18n: 
@@ -275,13 +274,13 @@ For this instance, we need the following applications:
 .. i18n: * Sales Management (the :mod:`sale` module).
 ..
 
-* Warehouse Management (the :mod:`stock` module),
+* 仓库管理 ( :mod:`stock` 模块),
 
-* Accounting & Finance (the :mod:`account` module),
+* 财务与会计 ( :mod:`account` 模块),
 
-* Purchase Management (the :mod:`purchase` module),
+* 采购管理 ( :mod:`purchase` 模块),
 
-* Sales Management (the :mod:`sale` module).
+* 销售管理 ( :mod:`sale` 模块).
 
 .. i18n: To get OpenERP to install these business applications, the Configuration Wizard should look as follows:
 ..
