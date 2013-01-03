@@ -114,7 +114,7 @@ Open Object Press, Grand Rosière, 比利时 声明。
 
 但我们必须保持对本书的控制以确保：
 * 编辑的权利不受侵犯
-* 修改的激励措施（如支付作者/译者）的权利不受侵犯
+* 相关的激励措施（如支付作者/译者）的权利不受侵犯
 
 .. i18n: The errata section is public on the wiki. Everyone can contribute in this
 .. i18n: section. Then an author can review modification proposals and apply them in
