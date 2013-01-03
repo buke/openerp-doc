@@ -82,10 +82,8 @@ Open Object Press, Grand Rosière, 比利时 声明。
 .. i18n: on paper. It gives very good worldwide visibility for the product.
 ..
 
-To achieve very high quality documentation, we are managing it as a standard
-publication process, with quality reviews by an editor. We also think that
-the documentation is worth being distributed in bookstores as printed editions
-on paper. It gives very good worldwide visibility for the product.
+为了高质量完成这些文档，我们将这些工作作为标准出版过程来管理，我们有专门的编辑进行质量审核。
+同时，我们也认为将这些文档非常值得在书店里销售纸质版。这可以让我们的产品更具有全球知名度。
 
 .. i18n: When working with professional editors, like Eyrolles, they ask for
 .. i18n: copyrights on the (translated) content so that they can easily invest in
@@ -93,10 +91,8 @@ on paper. It gives very good worldwide visibility for the product.
 .. i18n: protection on versions of the book that is not compatible with the GFPL.
 ..
 
-When working with professional editors, like Eyrolles, they ask for
-copyrights on the (translated) content so that they can easily invest in
-mass printing and distribution of the book. To take this risk, they need 
-protection on versions of the book that is not compatible with the GFPL.
+与专业编辑一起工作时，有人要求获得这些内容（已翻译）版权，通过大批量印刷或在书店销售，从而使他们能够轻松获益。
+但要承担以下风险：他们需要本书版本的保护，但这是和 GFPL 不兼容的。
 
 .. i18n: Do you accept contributions from everyone to modify the book ?
 .. i18n: +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
