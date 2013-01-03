@@ -105,26 +105,23 @@ Open Object Press, Grand Rosière, 比利时 声明。
 .. i18n: written authorisation if you contribute significantly.
 ..
 
-Our goal is to accept most of the contributions and contributors. So we provide
-written authorisation if you contribute significantly.
+我们的愿景是接受大部分的贡献和贡献者。如果你的贡献很牛B的话，我们会给您提供书面许可。
 
 .. i18n: But we must keep control of the book content to ensure:
 .. i18n: * Editors' rights are not infringed
 .. i18n: * Incentives like paid authors/translators rights are not infringed
 ..
 
-But we must keep control of the book content to ensure:
-* Editors' rights are not infringed
-* Incentives like paid authors/translators rights are not infringed
+但我们必须保持对本书的控制以确保：
+* 编辑的权利不受侵犯
+* 修改的激励措施（如支付作者/译者）的权利不受侵犯
 
 .. i18n: The errata section is public on the wiki. Everyone can contribute in this
 .. i18n: section. Then an author can review modification proposals and apply them in
 .. i18n: his or her own way.
 ..
 
-The errata section is public on the wiki. Everyone can contribute in this
-section. Then an author can review modification proposals and apply them in
-his or her own way.
+勘误部分公开在WIKI上，人人都可以为此做贡献。然后作者可以查看修改，以他/她自己的方式应用上去。
 
 .. i18n: Why is this a good approach ?
 .. i18n: +++++++++++++++++++++++++++++
