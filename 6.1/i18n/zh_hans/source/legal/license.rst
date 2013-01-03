@@ -42,7 +42,7 @@ OpenERP server, 官方的 OpenERP 模块与OpenERP 桌面客户端基于以下�
 .. i18n: --------
 ..
 
-Licences
+许可协议
 --------
 
 .. i18n: .. _gplv3_link:
