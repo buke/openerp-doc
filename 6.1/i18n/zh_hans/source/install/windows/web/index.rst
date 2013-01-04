@@ -46,11 +46,8 @@ all-in-one 版本可从`OpenERP 网站的下载页面 <http://www.openerp.com/do
 .. i18n:  
 ..
 
-The OpenERP 6.1 web client is automatically available as soon as the
-OpenERP server is running. You can access it by connecting with your
-favorite web browser to the address and port of your OpenERP server,
-by default ``http://localhost:8069``.
- 
+当OpenERP服务器启动以后，OpenERP 6.1网页客户端已经自动准备就绪.你可以用你喜欢的浏览器访问OpenERP服务器地址和端口，默认值为：
+"http://localhost:8069".
 
 .. i18n: Supported Browsers
 .. i18n: ------------------
@@ -63,8 +60,8 @@ by default ``http://localhost:8069``.
 .. i18n: The following browsers are supported: 
 ..
 
-The OpenERP Web Client is known to work best with the latest version of Google Chrome or Mozilla Firefox.
-The following browsers are supported: 
+最新版本的Google Chrome 和 Mozilla Firefox浏览器和OpenERP网页客户端兼容性最好.
+支持的浏览器如下： 
 
 .. i18n:  #. Google Chrome 9.0 or later
 .. i18n:  #. Firefox 4.0 or later
