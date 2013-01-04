@@ -16,7 +16,7 @@
 .. _sect-dbcreate:
 
 数据库创建
-=================
+==========
 
 .. i18n: Use the technique outlined in this section to create a new database, \ ``openerp_ch01`` \. This
 .. i18n: database will contain the demonstration data provided with OpenERP and a large proportion of the
@@ -57,7 +57,7 @@
 .. i18n:    the ``--config`` command line option.
 ..
 
-.. 备注:: 超级管理员密码
+.. note:: 超级管理员密码
 
    任何人只要知道超级管理员的密码，都对服务器上的数据有完整的存取权力 – 可读取，修改或删除任何服务器上任何数据库的任何数据。
    在第一次安装完成后，密码是 ``admin`` 。 这是写在程序里的缺省值，如果找不到可以存取的服务器组态文件，就会使用这个缺省值。
@@ -81,7 +81,7 @@
    :scale: 65
    :align: center
 
-   * 用网页客户端来修改超级管理员密码 *
+   *用网页客户端来修改超级管理员密码*
 
 .. i18n: .. _sect-creatingdb:
 .. i18n: 
@@ -92,14 +92,15 @@
 .. _sect-creatingdb:
 
 创建数据库
----------------------
+----------
 
 .. i18n: If you are using the GTK client, choose :menuselection:`File --> Databases --> New database`  in
 .. i18n: the menu at the top left. Enter the super-administrator password, then the name of the new database
 .. i18n: you are creating.
 ..
 
-如果你是使用 GTK 客户端， 选择 :选择菜单: ，在菜单的左上方 选择 ` 文件 --> 数据库 --> 新数据库 ` 。输入超级管理员密码以及要创建的新数据库名称。
+如果你是使用 GTK 客户端， 在菜单的左上方选择 :menuselection:`文件 --> 数据库 --> 新数据库` 。
+输入超级管理员密码以及要创建的新数据库名称。
 
 .. i18n: .. figure:: images/create_new_db_GTK.png
 .. i18n:    :scale: 75
@@ -112,7 +113,7 @@
    :scale: 75
    :align: center
 
-   * 使用 GTK 客户端创建新资料库 *  
+   *使用 GTK 客户端创建新资料库*  
 
 .. i18n: If you are using the web client, click :guilabel:`Databases` on the login screen, then
 .. i18n: :guilabel:`Create` on the database management page. Enter the super-administrator password, and the
@@ -122,10 +123,10 @@
 .. i18n: The consequences of checking this box or not affect the **whole use** of this database.
 ..
 
-如果你是是用网页客户端，在登入画面单击 :使用界面标签: ` 数据库 ` ，然后在数据库管理页面 :使用界面标签: ` 创建 ` 。
+如果你是是用网页客户端，在登入画面单击 :guilabel:`数据库` ，然后在数据库管理页面 :guilabel:`创建` 。
 输入超级管理员密码，以及你要创建的数据库名称。
   
-在两种方法里你都会看到核取方块；核取方块是用来确认是否要载入演示数据。不论是否有选取核取方块，结果都不会影响数据库的 ** 整体应用 ** 。
+在两种方法里你都会看到核取方块；核取方块是用来确认是否要载入演示数据。不论是否有选取核取方块，结果都不会影响数据库的 **整体应用** 。
 
 .. i18n: In both cases, you will also see that you can choose the Administrator password. This makes your 
 .. i18n: database quite secure because you can ensure that it is unique from the outset.
@@ -140,7 +141,7 @@
 ..
 
 数据库 openerp_ch01
----------------------
+-------------------
 
 .. i18n: .. index::
 .. i18n:    pair: account; user
@@ -182,14 +183,15 @@
 .. i18n: 	OpenERP databases. Using this, many databases can share the same user account details.
 ..
 
-.. 提示::   用户存取
+.. tip::   用户存取
 
 	对每一个数据库来说，用户名称/密码 都是唯一的组合；如果你有管理员的权限，你可以修改全部的用户。
 
  	.. index::
 	   single: module; users_ldap
 
-	另外，你可以安装 :mod: `users_ldap` 模块，用于管理用户在 LDAP (轻量级目录访问协议， Lightweight Directory Access Protocol， 一个标准系统)，以及连接到数个 OpenERP 数据库。透过 LDAP 许多数据库可以共享相同的用户账号资讯。
+	另外，你可以安装 :mod:`users_ldap` 模块，用于管理用户在 LDAP (轻量级目录访问协议， Lightweight Directory Access Protocol， 一个标准系统)，
+        以及连接到数个 OpenERP 数据库。透过 LDAP 许多数据库可以共享相同的用户账号资讯。
 
 .. i18n: .. note::  Failure to Create a Database
 .. i18n: 
@@ -202,13 +204,13 @@
 .. i18n: 	:guilabel:`Error during database creation!`.
 ..
 
-.. 备注::  创建数据库失败
+.. note::  创建数据库失败
 
 	如何知道是否已经成功创建你的新数据库？
 	如果创建数据库不成功，系统会通知你。
-	如果你用了禁止使用的字符当做数据库的名称 (或数据库没有名称，或名称太短)，系统会用对话框提出警告 :使用界面标签: `不合格的数据库名称!` ，
-           同时会说明如何修正错误。如果你输入了错误的超级管理员密码或是某个已经在使用中的名称 (有些名称是在你不知道的情形下保留的)，系统会用以下对话
-           框提出警告 :使用界面标签: `数据库创建过程中错误!`。
+	如果你用了禁止使用的字符当做数据库的名称 (或数据库没有名称，或名称太短)，系统会用对话框提出警告 :guilabel:`不合格的数据库名称!` ，
+        同时会说明如何修正错误。如果你输入了错误的超级管理员密码或是某个已经在使用中的名称 (有些名称是在你不知道的情形下保留的)，系统会用以下对话
+        框提出警告 :guilabel:`数据库创建过程中错误!` 。
 
 .. i18n: Since this is the first time you have connected to this database, you will be asked a series of questions to
 .. i18n: define the database parameters. You may choose to :guilabel:`Skip Configuration Wizards` or
@@ -230,19 +232,20 @@
 .. i18n: 	    For now, do not install any application.
 ..
 
-	#.  :使用界面标签: `组态你的界面` : 选择 \ ``简单化界面`` \ 然后单击 :使用界面标签:` 下一步 `。
+	#.  :guilabel:`配置你的界面` : 选择 \ ``简单化界面`` \ 然后单击 :guilabel:`下一步` 。
 
-	#.  :使用界面标签:`组态你的公司讯息` : 把系统建议的默默认值 \ ``OpenERP S.A.`` \ 改成你自己公司的名称以你的喜好尽量把地址填完整。 
-	    你可以设置你公司使用的币别，或是直接使用默认值。你也可以加上你公司的商标；商标可以显示在报表或其他文件上。单击 :使用界面标签:` 下一步 `。
+	#.  :guilabel:`配置你的公司讯息` : 把系统建议的默默认值 \ ``OpenERP S.A.`` \ 改成你自己公司的名称以你的喜好尽量把地址填完整。 
+	    你可以设置你公司使用的币别，或是直接使用默认值。你也可以加上你公司的商标；商标可以显示在报表或其他文件上。单击 :guilabel:`下一步` 。
 
-	#.  :使用界面标签:`安装应用程序` : 选取你需要的应用程序然后单击 :使用界面标签: `安装`。现在，不要安装任何应用程序。
+	#.  :guilabel:`安装应用程序` : 选取你需要的应用程序然后单击 :guilabel:`安装` 。现在，不要安装任何应用程序。
 
 .. i18n: Once configuration is complete, you are connected to your OpenERP system. Its functionality is very
 .. i18n: limited because you have selected a :guilabel:`Simplified` interface with no application installed,
 .. i18n: but this is sufficient to demonstrate that your installation is working.
 ..
 
-一旦配置完成，你就已经连接到你的 OpenERP 系统。 现在的系统功能非常有限，因为你选择了 :使用界面标签:`简单化界面` ，而且没有安装任何应用程序；但是现在这个演示已经足够告诉你安装完成了。
+一旦配置完成，你就已经连接到你的 OpenERP 系统。 现在的系统功能非常有限，因为你选择了 :guilabel:`简单化界面` ，
+而且没有安装任何应用程序；但是现在这个演示已经足够告诉你安装完成了。
 
 .. i18n: .. figure:: images/define_main_co_dlg.png
 .. i18n:    :align: center
@@ -273,7 +276,7 @@
 .. _sect-dbmanage:
 
 管理数据库
-------------------
+----------
 
 .. i18n: As a super-administrator, you do not only have rights to create new databases, but also to:
 ..
@@ -422,7 +425,7 @@ administration and use of OpenERP.
 ..
 
 进一步 OpenERP 功能
-=========================
+===================
 
 .. i18n: The database you have created and managed so far is based on the core OpenERP functionality that you
 .. i18n: installed. The core system is installed in the file system of your OpenERP application server, but
