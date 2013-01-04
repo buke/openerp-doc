@@ -85,7 +85,7 @@
 ..
 
 让你的数据库在没有演示数据的情况下运行起来
-==================================================
+==========================================
 
 .. i18n: Use the technique outlined in :ref:`sect-dbcreate` to create a new database, \ ``openerp_ch03``\  . This
 .. i18n: database will be free of data and contain the least possible amount of functionality as a starting
@@ -149,7 +149,7 @@ because they both contain demonstration data.
    :scale: 65
    :align: center
 
-   *Creating a blank database*
+   *创建一个干净的帐套*
 
 .. i18n: Then click :guilabel:`Create` to create the database and move to the setup screen :ref:`fig-oech03s1`.
 ..
@@ -171,7 +171,7 @@ because they both contain demonstration data.
    :scale: 75
    :align: center
 
-   *Setting up a blank database - first screen*
+   *新帐套配置从头开始 - 第一步*
 
 .. i18n: After a short delay you are connected to the new \ ``openerp_ch03``\   database as user \ ``admin`` \
 .. i18n: with the password you gave it. You will have to go through the Setup wizard in steps. You have two options:
