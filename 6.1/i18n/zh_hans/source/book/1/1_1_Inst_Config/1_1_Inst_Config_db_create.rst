@@ -230,24 +230,19 @@
 .. i18n: 	    For now, do not install any application.
 ..
 
-	#.  :guilabel:`Configure Your Interface` : select \ ``Simplified`` \ and click :guilabel:`Next`.
+	#.  :使用界面标签: `组态你的界面` : 选择 \ ``简单化界面`` \ 然后单击 :使用界面标签:` 下一步 `。
 
-	#.  :guilabel:`Configure Your Company Information` : replace the proposed default of \ ``OpenERP S.A.`` \
-	    by your own company name, complete as much of your address as you like. You can set the currency that
-	    your company uses or leave the default setting. You may also add your company logo which will
-	    be visible on reports and other documents. Click :guilabel:`Next`.
+	#.  :使用界面标签:`组态你的公司讯息` : 把系统建议的默默认值 \ ``OpenERP S.A.`` \ 改成你自己公司的名称以你的喜好尽量把地址填完整。 
+	    你可以设置你公司使用的币别，或是直接使用默认值。你也可以加上你公司的商标；商标可以显示在报表或其他文件上。单击 :使用界面标签:` 下一步 `。
 
-	#.  :guilabel:`Install Applications` : check the applications you need and then click :guilabel:`Install`.
-	    For now, do not install any application.
+	#.  :使用界面标签:`安装应用程序` : 选取你需要的应用程序然后单击 :使用界面标签: `安装`。现在，不要安装任何应用程序。
 
 .. i18n: Once configuration is complete, you are connected to your OpenERP system. Its functionality is very
 .. i18n: limited because you have selected a :guilabel:`Simplified` interface with no application installed,
 .. i18n: but this is sufficient to demonstrate that your installation is working.
 ..
 
-Once configuration is complete, you are connected to your OpenERP system. Its functionality is very
-limited because you have selected a :guilabel:`Simplified` interface with no application installed,
-but this is sufficient to demonstrate that your installation is working.
+一旦配置完成，你就已经连接到你的 OpenERP 系统。 现在的系统功能非常有限，因为你选择了 :使用界面标签:`简单化界面` ，而且没有安装任何应用程序；但是现在这个演示已经足够告诉你安装完成了。
 
 .. i18n: .. figure:: images/define_main_co_dlg.png
 .. i18n:    :align: center
@@ -260,7 +255,7 @@ but this is sufficient to demonstrate that your installation is working.
    :align: center
    :scale: 80
 
-   *Defining your company during initial database configuration*
+   *在初始数据库配置中定义你的公司*
 
 .. i18n: .. index::
 .. i18n:    single: database; manage
