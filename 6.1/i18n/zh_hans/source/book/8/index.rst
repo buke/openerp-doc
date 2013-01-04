@@ -15,17 +15,16 @@
 .. i18n:  Its flexibility enables you to configure different modules, adapting them to your industry or sector of activity.
 ..
 
- After you have tested and evaluated OpenERP, you will need to configure it to match the software to your company's needs.
- Its flexibility enables you to configure different modules, adapting them to your industry or sector of activity.
+ 在你测试完评估版的OpenERP后, 你需要配置它以适应贵公司的软件需求.
+ 你可以灵活地配置各种不同的模块，以适应贵企业及各部门的业务.
 
 .. i18n:  Designed for ERP project managers, this section deals with the administration and configuration of the system, 
 .. i18n:  giving you powerful tools for integrating the software in a company and driving and tracking the project,
 .. i18n:  taking account of different problems, a range of supplier types, implementation risks, and the options available to you.
 ..
 
- Designed for ERP project managers, this section deals with the administration and configuration of the system, 
- giving you powerful tools for integrating the software in a company and driving and tracking the project,
- taking account of different problems, a range of supplier types, implementation risks, and the options available to you.
+ 这部份专为ERP项目经理而设立,讲述系统的管理和配置,为你提供把软件整合到公司的强大工具,以管控和跟踪整个项目,
+ 考虑到各种不同的问题, 还有各种对你有用的选项，如一系列的供应商类型, 风险模型.
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
