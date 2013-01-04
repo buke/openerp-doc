@@ -307,7 +307,7 @@ To get OpenERP to install these business applications, the Configuration Wizard 
 .. i18n: :guilabel:`Skip` the step that asks you to configure your Accounting Chart. OpenERP will now display the opening screen with all selected business applications installed.
 ..
 
-:guilabel:`Skip` the step that asks you to configure your Accounting Chart. OpenERP will now display the opening screen with all selected business applications installed.
+在弹出配置会计一览表的时候, 点击 :guilabel:`跳过` 按钮. OpenERP 就进入默认已安装模块图标列表页面.
 
 .. i18n: .. _fig-oech03cfgexample:
 .. i18n: 
