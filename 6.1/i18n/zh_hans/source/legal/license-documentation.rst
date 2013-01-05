@@ -135,9 +135,7 @@ Open Object Press, Grand Rosière, 比利时 声明。
 .. i18n: enough and I am sure we can do much more better.
 ..
 
-The documentation of OpenERP is one of our biggest priorities. We currently
-have the best documentation amongst all open source ERP systems but it's not
-enough and I am sure we can do much more better.
+OpenERP 的文档工作是我们最高优先级的工作之一。现在我们拥有所有开源的ERP系统中最好的文档，但这远远不够并且我相信能做得更好。
 
 .. i18n: **Writing Good Documentation is Complex**
 ..
@@ -149,9 +147,8 @@ enough and I am sure we can do much more better.
 .. i18n: the community documentation still does not reach our expectations:
 ..
 
-For years we have tried to develop community based documentation on a wiki where
-everyone contributes. With OpenERP we have a strong community but, after years,
-the community documentation still does not reach our expectations:
+这些年来，我们试图在开发社区基础上，采取人人都可以贡献的WIKI形式编撰文档。
+OpenERP 拥有一个强大的社区，但这些年来，我们发现社区文档并没有达到我们的期望：
 
 .. i18n: * Deprecated compared to new versions of the software,
 .. i18n: * Original authors do not maintain what they write / contribute,
@@ -161,19 +158,18 @@ the community documentation still does not reach our expectations:
 .. i18n: * Some have experience only in food industries, others services companies, others manufacturing, etc.
 ..
 
-* Deprecated compared to new versions of the software,
-* Original authors do not maintain what they write / contribute,
-* Appears like we assembled different pieces of unrelated documentation,
-* Sometimes contributions come from people that do not understand the software well enough,
-* Not end-user oriented,
-* Some have experience only in food industries, others services companies, others manufacturing, etc.
+* 文档相对落后于新版软件,
+* 原作者没有维护他们所编写/贡献的内容,
+* 貌似不相关的文档组合在一起,
+* 某些贡献者并没有完全理解软件,
+* 不以最终用户为导向,
+* 有些仅仅拥有食品行业经验，有些只拥有服务行业经验，有些只有制造业经验，等等。
 
 .. i18n: As a result we decided to review the way we will write and maintain future
 .. i18n: documentation about OpenERP and Open Object.
 ..
 
-As a result we decided to review the way we will write and maintain future
-documentation about OpenERP and Open Object.
+因此，我们决定以审核的方式来编写和维护以后的 OpenERP 和 Open Object 文档。
 
 .. i18n: **The Process**
 ..
