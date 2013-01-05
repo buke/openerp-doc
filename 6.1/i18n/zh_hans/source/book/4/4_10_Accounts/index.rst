@@ -26,6 +26,8 @@
  *Sitting at the heart of your company's processes, analytic accounts (or cost accounts) are
  indispensable tools for managing your operations well. Unlike your financial accounts, they are for
  more than accountants - they are for general managers and project managers, too.*
+ *作为公司流程的核心,分析会计（或成本会计）是您的操作管理的不可缺少的工具。与你的财务会计不同，他们为更多的会计
+ 师服务,同时也适用于老板和项目经理们。*
 
 .. i18n: You need a common way of referring to each user, service, or document to integrate all your
 .. i18n: company's processes effectively. Such a common basis is provided by analytic accounts (or management
@@ -35,6 +37,9 @@
 You need a common way of referring to each user, service, or document to integrate all your
 company's processes effectively. Such a common basis is provided by analytic accounts (or management
 accounts, or cost accounts, as they are also called) in OpenERP.
+
+你需要一个通用的方法,将用户,服务和文档同公司的业务流程有效地整合到一起。在OpenERP里面,分析会计(也叫做管理会计或者
+成本会计)提供这样一个通用的方法。
 
 .. i18n: Analytic accounts are often presented as a foundation for strategic enterprise decisions. But
 .. i18n: because of all the information they pull together, OpenERP's analytic accounts can be a useful
