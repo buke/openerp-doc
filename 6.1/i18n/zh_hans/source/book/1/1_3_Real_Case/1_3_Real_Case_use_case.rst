@@ -34,7 +34,7 @@
 ..
 
 基本设置
-==============
+========
 
 .. i18n: For this business case, you will have to model:
 ..
@@ -177,8 +177,7 @@ because they both contain demonstration data.
 .. i18n: with the password you gave it. You will have to go through the Setup wizard in steps. You have two options:
 ..
 
-After a short delay you are connected to the new \ ``openerp_ch03``\   database as user \ ``admin`` \
-with the password you gave it. You will have to go through the Setup wizard in steps. You have two options:
+使用 帐号 \ ``admin`` \  以及前面创建帐套时你设置的密码 登陆帐套 \ ``openerp_ch03`` \ 后, 会弹出帐套配置向导,你可以有两个选择:
 
 .. i18n: 1. If you click the `Start Configuration` button, OpenERP guides you through a series of steps to: :guilabel:`Configure Your Interface` - proceed with the default ``Simplified`` (the other option is ``Extended``); and :guilabel:`Configure Your Company Information` - enter a :guilabel:`Company Name` and select a :guilabel:`Currency` for your company.
 .. i18n: Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
