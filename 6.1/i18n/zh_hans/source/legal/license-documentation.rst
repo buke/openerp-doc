@@ -181,9 +181,8 @@ OpenERP 拥有一个强大的社区，但这些年来，我们发现社区文档
 .. i18n: content with small improvements here and there.
 ..
 
-Most of the best open source documentation has been fully written in one try
-by only one or two people / authors. After that, the community improved the
-content with small improvements here and there.
+大部分最好的开源文档都只有1、2个作者完成。
+然后社区再参与一些小的改动。
 
 .. i18n: So I think we'd be better to focus our resources on some good individuals
 .. i18n: rather than a global community. But writing a complete document (or even a
@@ -192,11 +191,9 @@ content with small improvements here and there.
 .. i18n: contributors / authors.
 ..
 
-So I think we'd be better to focus our resources on some good individuals
-rather than a global community. But writing a complete document (or even a
-complete chapter) can take a long time (we took about 200 hours to write the
-OpenERP book in French, 280 pages). So we need incentives to motivate these
-contributors / authors.
+因此我认为我们应该集中资源于少数人身上，而不是一个全球性的社区。
+但编写一个完整的文档（或设置于一个完整的章节）需要花费相当长的时间（我们花了200小时编写OpenERP法语文档，一共280页）。
+因此我们需要一些激励措施来鼓励和支持这些贡献者/作者。
 
 .. i18n: So, we decided to manage all documentation about OpenERP like any other
 .. i18n: book edition. We will set up an editing chain with the following actors:
