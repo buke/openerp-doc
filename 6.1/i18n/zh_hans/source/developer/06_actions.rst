@@ -3,16 +3,16 @@
 .. i18n: =============
 ..
 
-=============
+==========
 服务端动作
-=============
+==========
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
 简介
-------------
+----
 
 .. i18n: Server action is an new feature available since the OpenERP
 .. i18n: version 5.0 beta. This is an useful feature to fulfill customer
@@ -41,7 +41,7 @@ or invoices.
 .. i18n: Here is the list of the different action types supplied under the Server Action.
 ..
 
-Here is the list of the different action types supplied under the Server Action.
+下面列举了支持的服务端动作类型:
 
 .. i18n:        * Client Action
 .. i18n:        * Dummy
@@ -84,7 +84,7 @@ describe how to configure them, together with a list of parameters affecting the
 .. _client-action:
 
 客户端动作
-~~~~~~~~~~~~~
+~~~~~~~~~~
 
 .. i18n: This action executes on the client side. It can be used to run a
 .. i18n: wizard or report on the client side. For example, a Client Action can
@@ -111,7 +111,7 @@ Client Action to print the invoice after it has been confirmed.
 .. i18n: Important fields are:
 ..
 
-Important fields are:
+重点字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -187,7 +187,7 @@ following identifiers: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
 ..
 
 触发器
-~~~~~~~~
+~~~~~~
 
 .. i18n: Any transition of the workflow can be triggered using this action. The
 .. i18n: options you need to set are:
@@ -236,7 +236,7 @@ automatically confirm invoices:
 ..
 
 Email 动作
-~~~~~~~~~~~~~
+~~~~~~~~~~
 
 .. i18n: This action fulfills a  common requirement for all business process, sending a confirmation by email
 .. i18n: whenever sales order, purchase order, invoice, payment or shipping of
@@ -309,7 +309,7 @@ an invoice is confirmed
 .. i18n: Important Fields are:
 ..
 
-Important Fields are:
+重点字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -355,7 +355,7 @@ email such as the following is sent:
 ..
 
 创建对象
-~~~~~~~~~~~~~
+~~~~~~~~
 
 .. i18n: This type of action can be used to emulate the Event history feature currently
 .. i18n: available on Partners, which logs sales orders issued by a partner, on
@@ -389,7 +389,7 @@ to build complex expressions.
 .. i18n: Important fields are:
 ..
 
-Important fields are:
+重点字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -436,7 +436,7 @@ Important fields are:
 ..
 
 编辑对象
-~~~~~~~~~~~~~
+~~~~~~~~
 
 .. i18n: The configuration is very similar to the Create Object actions. The
 .. i18n: following example writes 'Additional Information' on the same object
@@ -453,7 +453,7 @@ following example writes 'Additional Information' on the same object
 .. i18n: Important Fields are
 ..
 
-Important Fields are
+重点字段:
 
 .. i18n:   **same as the Create Object**
 ..
@@ -465,7 +465,7 @@ Important Fields are
 ..
 
 多重组合动作
-~~~~~~~~~~~~~
+~~~~~~~~~~~~
 
 .. i18n: This action allows to execute  multiple server actions on the same
 .. i18n: business operation. For instance, it can be used to print *and* send
@@ -502,7 +502,7 @@ report and execute a wizard at the same time.
 .. i18n: Important Fields are:
 ..
 
-Important Fields are:
+重点字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -524,7 +524,7 @@ Important Fields are:
 ..
 
 第二步：给工作流定义服务端动作
--------------------------------------------
+------------------------------
 
 .. i18n: Server actions by themselves are useless, until a workflow stage is
 .. i18n: set up to trigger them.
