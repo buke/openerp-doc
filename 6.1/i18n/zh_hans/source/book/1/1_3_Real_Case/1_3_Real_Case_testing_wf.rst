@@ -348,7 +348,7 @@ difference, it is possible to change the order lines to, for example, add a deli
 .. i18n: :guilabel:`Pay Invoice` window in new tab with a description of the payment.
 ..
 
-在打开的供应商发票页面点击 :guilable:`支付发票` 按钮, 打开 :guilable:`发票支付` 窗体进行发票支付操作.
+在打开的供应商发票页面点击 :guilabel:`支付发票` 按钮, 打开 :guilabel:`发票支付` 窗体进行发票支付操作.
 
 .. i18n: ``Supplier`` and ``Date`` comes automatically from invoice. You need to just enter the
 .. i18n: ``Payment Method``.  After that, click on :guilabel:`Validate` button to post this entry.
