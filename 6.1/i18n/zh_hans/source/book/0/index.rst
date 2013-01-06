@@ -86,10 +86,7 @@
 ..
 
 因为有成千上万的贡献者与合作伙伴在同一个项目上通力合作，所以软件的质量极大地得益于彼此之间的审查。
-你不可能同时做所有的事情：会计，软件开发，销售，ISO9001质量管理，农产品专家，药品专家，just as a atart.
-And you cannot be everything at once: accountant, software developer, salesperson,
-ISO 9001 quality professional, specialist in agricultural products,
-expert in the customs and habits of pharmaceutical vendors, just as a start.
+你不可能同时做所有的事情：会计，软件开发，销售，ISO9001质量管理，农产品专家，药品专家，这些只是其中的一部分而已。
 
 .. i18n: Faced with these wide-ranging requirements, what could be better than a worldwide network of
 .. i18n: partners and contributors?
@@ -178,8 +175,8 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: agricultural products, textiles, public auctions, IT, and trade associations.
 ..
 
-And this diversity is also found in the various sectors and trades which use the software, including
-agricultural products, textiles, public auctions, IT, and trade associations.
+这种多样性还发生在不同的部门和行业中，他们都使用OpenERP，包括农产品，纺织品，公开拍卖，IT，和行业协会。
+
 
 .. i18n: Last but not least, such software has arisen from the blend of high code quality, well-judged architecture and
 .. i18n: use of free technologies. In fact, you may be surprised (if you are an IT person) to find that the
