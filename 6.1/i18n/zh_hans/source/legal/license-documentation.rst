@@ -199,8 +199,7 @@ OpenERP 拥有一个强大的社区，但这些年来，我们发现社区文档
 .. i18n: book edition. We will set up an editing chain with the following actors:
 ..
 
-So, we decided to manage all documentation about OpenERP like any other
-book edition. We will set up an editing chain with the following actors:
+因此我们决定如其他出版书籍一样管理OpenERP的文档。我们有以下角色参与：
 
 .. i18n: * The editors: will work with authors to review the quality of the book and will distribute in a range of countries through webshops and real bookstores. The editor also defines author contracts and the graphics, charts and style. He will manage the collections (set of books).
 .. i18n: * The authors: everyone can write his own chapter(s) and propose them to the editor. The editor will make a selection of chapters to publish complete books.
@@ -208,10 +207,10 @@ book edition. We will set up an editing chain with the following actors:
 .. i18n: * Translators: will translate a particular book to their mother tongue based on the English version.
 ..
 
-* The editors: will work with authors to review the quality of the book and will distribute in a range of countries through webshops and real bookstores. The editor also defines author contracts and the graphics, charts and style. He will manage the collections (set of books).
-* The authors: everyone can write his own chapter(s) and propose them to the editor. The editor will make a selection of chapters to publish complete books.
-* Re-Readers: will re-read books before publication and work with the editor to achieve a high level of quality.
-* Translators: will translate a particular book to their mother tongue based on the English version.
+* 编辑: 与作者一起审核此书的质量，然后在一些国家的书店和网上商店分发。编辑还定义了与作者的合同和图形、图标和风格。编辑还将管理与此书相关的集合。
+* 作者: 每个人都可以写自己的章节，然后推荐给编辑。编辑将选好章节出版完整的书籍。
+* 审核: 在发布之前，将会重新阅读此书，与编辑一起完成高质量的工作。
+* 译者: 以英文版本为基础，翻译成自己的母语。
 
 .. i18n: Editors will be different according to the countries/translations of the book.
 .. i18n: For all French countries, we already contracted our preceding books with
@@ -219,10 +218,10 @@ book edition. We will set up an editing chain with the following actors:
 .. i18n: keep the rights on the text so that we can publish it online for free.
 ..
 
-Editors will be different according to the countries/translations of the book.
-For all French countries, we already contracted our preceding books with
-Eyrolles. For the English version, we will create our own company edition to
-keep the rights on the text so that we can publish it online for free.
+不同的国家和翻译会有不同的情况。
+对于法语国家，我们已经和Eyrolles签约出版。
+对于英文版本，我们将创建自己的公司版，使我们可以将其发布在网上免费。
+
 
 .. i18n: Now, we have our incentives for authors and translators:
 ..
