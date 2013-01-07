@@ -40,17 +40,17 @@ OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域�
 .. i18n: You can use geolocalization to assign and forward opportunities to channel partners.
 ..
 
-You can use geolocalization to assign and forward opportunities to channel partners.
+可以使用地域化功能，把商机指派和转交给渠道业务伙伴.
 
 .. i18n: Through :menuselection:`Sales --> Configuration --> Leads & Opportunities --> Partner Grade`, you can create partner grades to classify your partners, such as Gold Partner, Silver Partner, Ready Partner. These grades will be used to determine who gets assigned which kind of opportunities.
 ..
 
-Through :menuselection:`Sales --> Configuration --> Leads & Opportunities --> Partner Grade`, you can create partner grades to classify your partners, such as Gold Partner, Silver Partner, Ready Partner. These grades will be used to determine who gets assigned which kind of opportunities.
+通过菜单项:`销售 --> 设置 --> 线索 & 商机 --> 业务伙伴级别`, 可以创建业务伙伴级别对业务伙伴进行分类, 例如金牌业务伙伴, 银牌业务伙伴, 准业务伙伴. 这些级别将会被用来确定谁可以得到哪些商机.
 
 .. i18n: Assign the grades to the partners on the `Geo Localization` tab of the Customer form. Also assign a `Weight` to determine the probability of assigning opportunities to a partner. The weight might for instance be how much the partner pays for their channel partner contract.
 ..
 
-Assign the grades to the partners on the `Geo Localization` tab of the Customer form. Also assign a `Weight` to determine the probability of assigning opportunities to a partner. The weight might for instance be how much the partner pays for their channel partner contract.
+在客户视图中的 `Geo Localization 定位` 分页中指定业务伙伴的级别. 同时可指定 `重要性` 用于指定商机分配给业务伙伴的概率(0表示不分配). 这个`重要性`,举例来说,可以是业务伙伴所能支付的业务合同的最大金额.
 
 .. i18n: How can you tell OpenERP to geolocalize an opportunity?
 .. i18n:  
