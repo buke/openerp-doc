@@ -19,16 +19,16 @@
 .. i18n: OpenERP will help you to manage your Channel Partners. You can geolocalize your opportunities by going to :menuselection:`Administration --> Modules --> Modules` and then typing :mod:`crm_partner_assign` in the ``Name`` field. Check the module and click the button at the end of the line (after the ``State`` field) to plan the module for installation. Notice that the ``State`` will change to 'To be installed'. In the Actions at the right, click `Apply Scheduled Upgrades`. The module will be installed and the menus :menuselection:`Sales --> Configuration --> Leads & Opportunities --> Partner Grade` and :menuselection:`Sales --> Reporting --> Opportunity Assignment Analysis` will be added.
 ..
 
-OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域化，只需要在 :menuselection:`管理 --> 模块 --> 模块` 在mod的 ``Name`` 字段中输入: `crm_partner_assign` . Check the module and click the button at the end of the line (after the ``State`` field) to plan the module for installation. Notice that the ``State`` will change to 'To be installed'. In the Actions at the right, click `Apply Scheduled Upgrades`. The module will be installed and the menus :menuselection:`Sales --> Configuration --> Leads & Opportunities --> Partner Grade` and :menuselection:`Sales --> Reporting --> Opportunity Assignment Analysis` will be added.
+OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域化，只需要在 :menuselection:`管理 --> 模块 --> 模块` 在Modules的 ``Name`` 字段中输入: `crm_partner_assign` . 进行检索再点击最后一行的按钮 (在 ``State`` 字段后) 进行模块的安装. 注意 ``State`` 会转变为'将要安装的模块'. 点击执行左侧的动作`执行已安排的升级`. 模块将被安装，并且增加以下菜单:`销售 --> 设置 --> 线索 & 商机 --> 业务伙伴级别` 与 `销售 --> 报告 --> 商机指定分析`.
 
 .. i18n: .. note:: CRM Configuration Wizard
 .. i18n: 
 .. i18n:         When you click `Apply Scheduled Upgrades`, the Configuration Wizard will be displayed. You can cancel it if you need no other CRM modules to be installed.
 ..
 
-.. note:: CRM Configuration Wizard
+注意:: CRM 配置向导
 
-        When you click `Apply Scheduled Upgrades`, the Configuration Wizard will be displayed. You can cancel it if you need no other CRM modules to be installed.
+        当你点击`执行已安排的升级`, 配置向导将会显示. 如果不需要安装其他CRM模块，可以点击取消配置向导.
 
 .. i18n: Forwarding Opportunities to Channel Partners
 .. i18n: --------------------------------------------
