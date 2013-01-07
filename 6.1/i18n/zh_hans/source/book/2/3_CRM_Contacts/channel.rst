@@ -58,9 +58,9 @@ OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域�
 .. i18n: Go to the `Assignation` tab of the **Opportunities** form, and click the `Geo Assign` button. The location of the partner in the opportunity will be matched with the geolatitude and the weight of the channel partners. The most appropriate channel partner will be assigned.
 ..
 
-How can you tell OpenERP to geolocalize an opportunity?
+如何使用OpenERP来地域化一个商机?
  
-Either you convert a promising lead to an opportunity, or you go directly to the opportunity you wish to assign to the channel partner.
+可以将一个线索转化为商机, 或者直接将商机分配给具体的渠道业务伙伴.
 Go to the `Assignation` tab of the **Opportunities** form, and click the `Geo Assign` button. The location of the partner in the opportunity will be matched with the geolatitude and the weight of the channel partners. The most appropriate channel partner will be assigned.
 
 .. i18n: .. note:: GPS
