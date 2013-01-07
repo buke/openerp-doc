@@ -10,9 +10,9 @@
 .. i18n: ***********************
 ..
 
-***********************
+************
 从开票到支付
-***********************
+************
 
 .. i18n:  *This chapter traces the basic accounting workflow in OpenERP, from entering an invoice to
 .. i18n:  registering payments. The various operations are described, from the entry of accounting receipts to
@@ -215,15 +215,13 @@ and budgetary accounting. It is double-entry, multi-currency and multi-company.
 .. i18n:           module, which is a shared-funding module rather than a module in the standard open repositories.
 ..
 
-.. tip:: Multi-company
+.. tip:: 多公司操作
 
-        There is a choice of methods for integrating OpenERP in a multi-company environment:
+        在使用OpenERP多公司操作前, 请参考下面的情形进行配置选择:
 
-        * if the companies hold few documents in common (such as products, or partners - any OpenERP
-          resource), you could install separate databases,
+        * 如果你的多个公司间只共用少部分数据(如产品, 合作伙伴以及其他),推荐你为每个公司独立创建一个帐套,
 
-        * if the companies share many documents, you can register them in the same database and install
-          OpenERP's multi-company documents to finely manage access rights,
+        * 如果你的多个公司间共用比较多的数据,那你就需要在同一个帐套中进行细致的权限规划配置了,
 
         .. index::
            single: module; base_synchro
