@@ -187,13 +187,9 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: factory on some remote industrial estate.
 ..
 
-Last but not least, such software has arisen from the blend of high code quality, well-judged architecture and
-use of free technologies. In fact, you may be surprised (if you are an IT person) to find that the
-download size of OpenERP is only around 6 MB. When that is expanded during installation its size is mostly
-attributable to all the official translations that are packaged with it, not the operating code.
-We've moved a long way from
-the days when the only people who could be expected to benefit from ERP were the owners of a widget
-factory on some remote industrial estate.
+最后我们希望说明的是，本软件诞生于高质量的代码，良好的体系结构和免费的技术。事实上，你可能惊讶的（如果你从事IT行业）发现OpenERP
+的下载包只有差不多6MB. 在安装时展开后，它的大小会改变，这主要是由于官方的翻译也被打包在里面，而不是因为代码的原因。但是我们希望表达的远不止于此。
+自从那些地处偏远的工厂的所有者预期可以从ERP受益开始至今，我们已经走过了如此长的一段路。
 
 .. i18n: Why this book?
 .. i18n: --------------
