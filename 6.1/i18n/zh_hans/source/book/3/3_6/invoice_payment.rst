@@ -10,7 +10,7 @@
 .. i18n: In OpenERP, the invoicing workflow is very simple. You can see it in the following figure:
 ..
 
-In OpenERP, the invoicing workflow is very simple. You can see it in the following figure:
+OpenERP 的开票流程也很简单,参见下面的工作流程图:
 
 .. i18n: .. figure::  images/account_invoice_workflow.png
 .. i18n:    :width: 100%
@@ -23,7 +23,7 @@ In OpenERP, the invoicing workflow is very simple. You can see it in the followi
    :width: 100%
    :align: center
 
-   *Invoicing Workflow*
+   *开票流程*
 
 .. i18n: An invoice can be generated from various documents, such as a `Sales Order` and a `Purchase Order`, or at the time of confirming a shipment. These methods will be proposed when you use OpenERP as a truely integrated system.
 ..
