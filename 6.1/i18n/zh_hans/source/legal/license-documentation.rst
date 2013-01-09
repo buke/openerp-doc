@@ -226,23 +226,22 @@ OpenERP 拥有一个强大的社区，但这些年来，我们发现社区文档
 .. i18n: Now, we have our incentives for authors and translators:
 ..
 
-Now, we have our incentives for authors and translators:
+现在我们为作者和译者建立以下激励措施：
 
 .. i18n: * Getting monthly revenue through author rights based on monthly sales,
 .. i18n: * Being published in bookstores with our worldwide distribution channel.
 ..
 
-* Getting monthly revenue through author rights based on monthly sales,
-* Being published in bookstores with our worldwide distribution channel.
+* 作者可以按照月销售获取一定的提成
+* 通过我们的全球分发渠道在书店出版
 
 .. i18n: Having established that, this should leverage individuals effort and promote
 .. i18n: contributions on writing good documentation. As people will be published and
 .. i18n: paid for their good work, this should promote new authors and translators.
 ..
 
-Having established that, this should leverage individuals effort and promote
-contributions on writing good documentation. As people will be published and
-paid for their good work, this should promote new authors and translators.
+通过以上措施，应该在促进贡献者写出良好的文档上起到一定的效果。
+当人们可以通过努力工作获取报酬和出版，这应该可以促进新的人员不断加入。
 
 .. i18n: Books are sold in bookstores in different countries and languages, which allows
 .. i18n: us to remunerate the full edition chain through author rights. It will help us
@@ -250,10 +249,8 @@ paid for their good work, this should promote new authors and translators.
 .. i18n: existing ones.
 ..
 
-Books are sold in bookstores in different countries and languages, which allows
-us to remunerate the full edition chain through author rights. It will help us
-to motivate authors and translators to write more chapters, and improve
-existing ones.
+通过在不同国家和语言的书店中销售此书，这可以通过版权对作者支付酬劳。
+这也有助于我们激励作者和译者写更多的章节和改善现有内容。
 
 .. i18n: We had to find a good middle point between selling through bookstores to
 .. i18n: remunerate authors and publishing online to provide a free version. So, most of
@@ -262,29 +259,24 @@ existing ones.
 .. i18n: publication.
 ..
 
-We had to find a good middle point between selling through bookstores to
-remunerate authors and publishing online to provide a free version. So, most of
-our books (depending on the contract we have with the editor in the related
-country), will be published online some months after their official
-publication.
+在销售本书以支付作者和在网络提供免费版本之间，我们必须找到平衡点。
+因此，我们大多数书都是在官方出版（依赖于相关国家我们与编辑的合同）一个月之后，也会在网上提供。
 
 .. i18n: Our goal is to create many different books for different domains: technical
 .. i18n: books, marketing management, services companies management, openerp for
 .. i18n: accountants, ...
 ..
 
-Our goal is to create many different books for different domains: technical
-books, marketing management, services companies management, openerp for
-accountants, ...
+我们的目标是为不同领域创建不同的书：技术指南，市场管理，多公司管理，财务管理, ...
 
 .. i18n: Book writing will be our main documentation process. At each new version of
 .. i18n: OpenERP, we will release new versions of the different books. The editor will
 .. i18n: organise this and will get revenues for this.
 ..
 
-Book writing will be our main documentation process. At each new version of
-OpenERP, we will release new versions of the different books. The editor will
-organise this and will get revenues for this.
+书籍编写是我们的主要文档工作。
+当OpenERP新版本发布是，我们也将发布更新新版书籍。
+编辑会组织并因此获得报酬。
 
 .. i18n: In addition to this, we use a community wiki for all others documentations that
 .. i18n: are not directly related to the software or for documentations that are "per
@@ -292,10 +284,8 @@ organise this and will get revenues for this.
 .. i18n: where you can ask questions or reply answers.
 ..
 
-In addition to this, we use a community wiki for all others documentations that
-are not directly related to the software or for documentations that are "per
-module". For our main knowledge management system, we use Launchpad Answers,
-where you can ask questions or reply answers.
+此外，我们使用社区 wiki 方式来编写其他文档，如其他与软件没有直接关系的文档或各个模块的文档等。
+我们使用 Launchpad Answers 作为我们主要的知识管理系统，您可以在上面提问和回答问题。
 
 .. i18n: **The Role of The Community**
 ..
