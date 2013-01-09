@@ -298,32 +298,29 @@ OpenERP 拥有一个强大的社区，但这些年来，我们发现社区文档
 .. i18n: remains very important for different reasons:
 ..
 
-This documentation writing and maintaining process tends to emphasize
-individual efforts from authors and translators. This does not means we think
-the community is less important for writing documentations. The community
-remains very important for different reasons:
+本文档的编写和维护比较倾向于专业的作者和译者。
+但这并不意味社区在编写文档中不重要。
+基于以下原因，社区仍然是非常重要：
 
 .. i18n: * The community provides authors and translators because everyone can request to be an author for one or several chapters, no need to write a full book.
 .. i18n: * The editor needs readers that will review the book before his official release.
 .. i18n: * These readers will be chosen amongst the different contributors in the community.
 ..
 
-* The community provides authors and translators because everyone can request to be an author for one or several chapters, no need to write a full book.
-* The editor needs readers that will review the book before his official release.
-* These readers will be chosen amongst the different contributors in the community.
+* 社区中的每个人都可以申请为作者和译者，可以为文档完成一个或多个章节，不需要完成整本书。
+* 在正式发布前，编辑们也需要读者来审核此书。
+* 读者是从社区的不同贡献者中选出来的。
 
 .. i18n: To improve the quality of books versions after versions, we will extensively
 .. i18n: work on errata in the wiki. Community will be able to propose improvement
 .. i18n: through the errata section.
 ..
 
-To improve the quality of books versions after versions, we will extensively
-work on errata in the wiki. Community will be able to propose improvement
-through the errata section.
+为持续改善本书的质量，我们也在WIKI上建立了勘误表。
+社区可以在WIKI勘误表上提出改进意见。
 
 .. i18n: Allowing everyone to contribute in errata instead of directly in the content
 .. i18n: allows us to keep into control on the quality of our documentations.
 ..
 
-Allowing everyone to contribute in errata instead of directly in the content
-allows us to keep into control on the quality of our documentations.
+允许每个人在勘误表贡献，要比直接在内容上修改好，这样有助于我们对文档质量的控制。
