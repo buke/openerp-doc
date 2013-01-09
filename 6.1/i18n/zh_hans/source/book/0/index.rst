@@ -203,9 +203,7 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: lists because our approach is intended to be different.
 ..
 
-Many books set out to tell readers about the management of enterprise, and equally many aim to
-instruct the reader in the use of a piece of specialized software. We are not aiming to add to those
-lists because our approach is intended to be different.
+很多书告诉读者该如何管理企业，同样也有很多书致力于指导读者如何使用一款特定的软件。我们并不想像他们那样，因为我们的方向是不同的。
 
 .. i18n: Having restructured and reorganized many businesses, we wanted our management experience to generate
 .. i18n: a work that is both instructive and practical. It was important for us not to write a manual about
