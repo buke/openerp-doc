@@ -284,7 +284,7 @@ that warehouse. You can change that default location when the scheduler complete
 	single: Stock; Location
 	
 库位
---------
+----
 
 .. i18n: A location is one component of the warehouses that is used to managed all types of storage places, such as at the 
 .. i18n: customer's and production counterparts.
@@ -319,12 +319,12 @@ to define new locations.
 	:scale: 75
 	:align: center
 	
-	*Defining a new Stock Location*
+	*定义新库位*
 
 .. i18n: Here are the different available types of locations:
 ..
 
-Here are the different available types of locations:
+下面是几种常见的库位:
 
 .. i18n: .. index::
 .. i18n:    single: Stock; Location types
@@ -335,7 +335,7 @@ Here are the different available types of locations:
 .. index::
    single: Stock; Location types
    
-* ``Supplier Location``: virtual location representing the source location for products received from suppliers,
+* ``供应商库位``: virtual location representing the source location for products received from suppliers,
 
 .. i18n: * ``View``: shows that the location is only an organizational node for the hierarchical structure, and
 .. i18n:   cannot be involved in stock moves itself. The view type is not made into a leaf node in a
@@ -356,23 +356,23 @@ Here are the different available types of locations:
 .. i18n: * ``Transit Location for Inter-Companies Transfers``: used as an intermediate location in a multi-company environment.
 ..
 
-* ``View``: shows that the location is only an organizational node for the hierarchical structure, and
+* ``视图库位``: shows that the location is only an organizational node for the hierarchical structure, and
   cannot be involved in stock moves itself. The view type is not made into a leaf node in a
   structure – it usually has children.
   
-* ``Internal Location``: physical location inside your own stock,
+* ``内部库位``: physical location inside your own stock,
 
-* ``Customer Location``: virtual location representing the destination for products sent to customers,
+* ``客户库位``: virtual location representing the destination for products sent to customers,
 
-* ``Inventory``: virtual location serving as the counterpart for inventory operations used to correct stock levels (physical inventories),
+* ``盘点/损耗库位``: virtual location serving as the counterpart for inventory operations used to correct stock levels (physical inventories),
 
 * ``Procurement``: virtual location serving as temporary counterpart for procurement operations when you do not yet know the source (supplier or production). Products in this location should be zero after the scheduler run
   completes,
   
-* ``Production``: virtual counterpart location for production operations; consuming raw material and sending
+* ``生产库位``: virtual counterpart location for production operations; consuming raw material and sending
   finished products,
 
-* ``Transit Location for Inter-Companies Transfers``: used as an intermediate location in a multi-company environment.
+* ``多公司间中转库位``: used as an intermediate location in a multi-company environment.
 
 .. i18n: You can have several locations of the same type. In that case, your product, supplier and warehouse configurations
 .. i18n: determine the location that is to be used for any given operation.
