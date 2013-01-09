@@ -16,7 +16,7 @@
 .. _part2-crm-leads:
 
 管理线索
-===================
+========
 
 .. i18n: To define leads, imagine a bucket full of potential sales contacts expressing an interest in your company's products. 
 ..
@@ -95,7 +95,7 @@ Leads can be assigned to a *Sales Team* for easy follow-up (see  :ref:`ch-team`)
 .. i18n:        also apply to opportunities.
 ..
 
-.. note:: Leads or Opportunities
+.. note:: 线索与商机
 
        Companies may decide to not use leads, but instead to keep all information directly in an opportunity. For some companies, leads are
        merely an extra step in the sales process. You could call this extended (start from lead) versus simplified (start from
@@ -116,7 +116,7 @@ In the next sections we will explain in more detail some examples of what `Leads
 .. i18n:         the `Edit Preferences` button.
 ..
 
-.. tip:: Leads Menu is not displayed
+.. tip:: 未找到 ``线索`` 菜单?
 
         In  ``Simplified`` view, ``Leads`` will not be displayed. To see not also opportunities, but also leads, you should switch
         to the ``Extended`` view. You can easily switch from `Simplified` to `Extended` view by changing your `User Preferences` through
