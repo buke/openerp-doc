@@ -188,7 +188,7 @@ Bazaar使用指导
 .. i18n:  bzr reconfigure --checkout
 ..
 
-查看一下地址: https://bugs.launchpad.net/bzr/+bug/205579. 通常，你可以这么做::
+参考以下地址: https://bugs.launchpad.net/bzr/+bug/205579. 通常，你可以这么做::
 
  bzr branch lp:~<url> 
  bzr reconfigure --checkout
