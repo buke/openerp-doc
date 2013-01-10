@@ -18,8 +18,8 @@
 .. i18n: :guilabel:`Project Application Configuration` section, select \ ``Long Term Planning`` \ and click :guilabel:`Configure`. This installs the :mod:`project_long_term` module. By using this feature, you can link tasks to your planning to have a great view of who will do what at a specific time.
 ..
 
-You can plan your projects with Long Term Planning. To do this, use the :guilabel:`Reconfigure` wizard and in the
-:guilabel:`Project Application Configuration` section, select \ ``Long Term Planning`` \ and click :guilabel:`Configure`. This installs the :mod:`project_long_term` module. By using this feature, you can link tasks to your planning to have a great view of who will do what at a specific time.
+你可以长期规划你的项目. 使用 :guilabel:`重新配置` 向导 :guilabel:`项目管理配置` 部分, 选择 \ ``长期规划`` \ 并点击 :guilabel:`配置` 安装 :mod:`project_long_term` 模块.
+By using this feature, you can link tasks to your planning to have a great view of who will do what at a specific time.
 
 .. i18n: The traditional phased approach identifies the sequence of steps to be completed. `Faces <http://faces.homeip.net/>`_ library is used for scheduling phases and tasks based on calendar resources. So resource availability or resource leaves are tracked using this tool. The Gantt chart allows you to easily manage your resources and plans by mere drag & drop. The Calendar view also helps you map your deadlines and tasks needing attention.
 ..
