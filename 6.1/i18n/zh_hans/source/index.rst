@@ -24,12 +24,10 @@ OpenERP 文档 v6.1
 .. i18n:   guidelines.
 ..
 
-.. Tip:: The online OpenERP books present a new integrated approach to enterprise
-  management and development best-practices. You can have a look at our 
-  `printed books`_ or `PDF versions`_.
+.. Tip:: 在线的 OpenERP 文档旨在为企业管理和最佳开发实践提供参考。
+  此外您可以查看 `printed books`_ 和 `PDF versions`_.
   
-  We are looking for translators, please see the :ref:`documentation_translation`
-  guidelines.
+  我们同时也需求翻译者的帮助，请查看 :ref:`documentation_translation` 指南.
 
 .. i18n: .. toctree::
 .. i18n: 	:hidden:
