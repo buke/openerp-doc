@@ -39,14 +39,13 @@
 .. i18n: management tool, at the center of most system processes.
 ..
 
-Analytic accounts are often presented as a foundation for strategic enterprise decisions. But
-because of all the information they pull together, OpenERP's analytic accounts can be a useful
-management tool, at the center of most system processes.
+分析会计通常作为企业战略决策的基础。但因为这需要把所有信息集合到一起，在大多数系统的核心业务处理中，OpenERP的分析会计是一个有用的
+管理工具。
 
 .. i18n: There are several reasons for this:
 ..
 
-There are several reasons for this:
+这里有几点原因：
 
 .. i18n: * they reflect your entire management activity,
 .. i18n: 
@@ -54,10 +53,9 @@ There are several reasons for this:
 .. i18n:   obligations, so each company can adapt it to its needs.
 ..
 
-* they reflect your entire management activity,
+* 反映整个管理活动,
 
-* unlike the general accounts, the structure of the analytic accounts is not regulated by legal
-  obligations, so each company can adapt it to its needs.
+* 不同于财务会计，分析会计的结构不依据会计准则的规范制定，所以每个公司都可以调整适应自己的需要。
 
 .. i18n: .. note:: Independence from General Accounts
 .. i18n: 
@@ -70,38 +68,33 @@ There are several reasons for this:
 .. i18n:         financial accounts.
 ..
 
-.. note:: Independence from General Accounts
+..注释::独立于财务会计
 
-        In some software packages, analytic accounts are managed as an extension of general accounts –
-        for example, by using the two last digits of the account code to represent analytic accounts.
+        在某些软件中，分析会计是财务会计的扩展 - 例如，通过使用帐户代码的最后两个数字来表示分析会计帐户。
 
-        In OpenERP, analytic accounts are linked to general accounts but are treated totally
-        independently.
-        So you can enter various different analytic operations that have no counterpart in the general
-        financial accounts.
+        在OpenERP的中，分析会计被关联到财务会计，但是被完全独立的对待。
+        所以，你可以使用各种不同的分析会计功能，不必在财务会计中有相应的分析会计科目。
 
 .. i18n: While the structure of the general chart of accounts is imposed by law, the analytic chart of
 .. i18n: accounts is built to fit a company's needs closely.
 ..
 
-While the structure of the general chart of accounts is imposed by law, the analytic chart of
-accounts is built to fit a company's needs closely.
+虽然法律规定了财务会计科目表的结构，但分析会计科目可以更好更紧密地适应一个公司的需求。
 
 .. i18n: Just as in the general accounts, you will find accounting entries in the different analytic accounts.
 .. i18n: Each analytic entry can be linked to a general account, or not, as you wish. Conversely, an entry in
 .. i18n: a general account can be linked to one, several, or no corresponding analytic accounts.
 ..
 
-Just as in the general accounts, you will find accounting entries in the different analytic accounts.
-Each analytic entry can be linked to a general account, or not, as you wish. Conversely, an entry in
-a general account can be linked to one, several, or no corresponding analytic accounts.
+正如在财务会计帐户，你会发现不同的分析会计科目产生各自的会计分录。每个会计分录可以关联到一个财务会计科目，正如你
+所希望的。
+相反，财务会计中的一个科目可以关联到一个，多个或没有相应的分析会计科目。
 
 .. i18n: You will discover many advantages of this independent representation below. For the more impatient,
 .. i18n: here are some of those advantages:
 ..
 
-You will discover many advantages of this independent representation below. For the more impatient,
-here are some of those advantages:
+通过下面分析会计独立性的说明，你会发现它的许多优点。耐心点儿，这里是更多优势说明：
 
 .. i18n: * you can manage many different analytic operations,
 .. i18n: 
@@ -114,15 +107,13 @@ here are some of those advantages:
 .. i18n:   management.
 ..
 
-* you can manage many different analytic operations,
+*你可以管理很多不同的分析操作，
 
-* you can modify an analytic plan on the fly, during the course of an activity, because of its
-  independence,
+*因为它的独立性，在经营活动中，你可以在任何时候修改分析计划，
 
-* you can avoid an explosion in the number of general accounts,
+*你能避免财务会计科目的爆炸行增长，
 
-* even those companies that do not use OpenERP's general accounts can use the analytic accounts for
-  management.
+*即使是那些不使用OpenERP的财务会计功能的公司也可以使用分析会计管理业务。
 
 .. i18n: .. tip:: Who Benefits from Analytic Accounts?
 .. i18n: 
@@ -132,19 +123,18 @@ here are some of those advantages:
 .. i18n:         The main users of analytic accounts should be the directors, general managers and project managers.
 ..
 
-.. tip:: Who Benefits from Analytic Accounts?
+..提示::谁受益于分析会计？
 
-        Unlike general accounts, analytic accounts in OpenERP are not so much an accounting tool for Accounts as a
-        management tool for everyone in the company. (That is why they are also called management accounts.)
+        不同于财务会计，OpenERP的分析会计不只是记账工具，可以作为公司里面任何一个人的管理工具。 （这就是为什么他们
+        也被称为管理会计）。
 
-        The main users of analytic accounts should be the directors, general managers and project managers.
+        分析帐户的主要用户应该是公司董事，总经理和项目经理。
 
 .. i18n: Analytic accounts make up a powerful tool that can be used in different ways. The trick is to create
 .. i18n: your own analytic structure for a chart of accounts that closely matches your company's needs.
 ..
 
-Analytic accounts make up a powerful tool that can be used in different ways. The trick is to create
-your own analytic structure for a chart of accounts that closely matches your company's needs.
+分析会计提供了一个能在很多情况下使用的强大工具。关键是要建立你自己的分析会计科目表，和自身的需求密切配合。
 
 .. i18n: For this chapter, you should start with a fresh database that includes demo data,
 .. i18n: with :mod:`sale` and its dependencies installed, and no particular chart of accounts configured.
@@ -152,6 +142,7 @@ your own analytic structure for a chart of accounts that closely matches your co
 
 For this chapter, you should start with a fresh database that includes demo data,
 with :mod:`sale` and its dependencies installed, and no particular chart of accounts configured.
+在本章中，你应该使用一个包括了演示数据的全新数据库，安装`销售`及其依赖模块，并没有什么特别的会计科目配置
 
 .. i18n: .. raw:: html
 .. i18n: 
@@ -182,10 +173,10 @@ with :mod:`sale` and its dependencies installed, and no particular chart of acco
 
     </div>
 
-.. i18n: .. Copyright © Open Object Press. All rights reserved.
+.. i18n: .. Copyright ? Open Object Press. All rights reserved.
 ..
 
-.. Copyright © Open Object Press. All rights reserved.
+.. Copyright ? Open Object Press. All rights reserved.
 
 .. i18n: .. You may take electronic copy of this publication and distribute it if you don't
 .. i18n: .. change the content. You can also print a copy to be read by yourself only.
