@@ -219,7 +219,7 @@ you can look at the process linked to your order using the :guilabel:`Question M
 .. i18n: To understand the implications of requirements calculation, you should know the configuration of the sold product. To do this, go to the form for product PC2 and click the link :guilabel:`Product BoM Structure` to the right. You get the scheme shown in :ref:`fig-mrpbomtree` which is the composition of the selected product.
 ..
 
-To understand the implications of requirements calculation, you should know the configuration of the sold product. To do this, go to the form for product PC2 and click the link :guilabel:`Product BoM Structure` to the right. You get the scheme shown in :ref:`fig-mrpbomtree` which is the composition of the selected product.
+要了解需求计算所带来的影响，你需要知道对销售的产品配置. 要做到这一点, 在产品 PC2 的form点击链接 :guilabel:`Product BoM Structure` . 所示的计划 :ref:`fig-mrpbomtree` 这里就是所选产品的组成.
 
 .. i18n: .. _fig-mrpbomtree:
 .. i18n: 
@@ -236,31 +236,31 @@ To understand the implications of requirements calculation, you should know the 
    :scale: 75
    :align: center
 
-   *Composition of PC2*
+   *PC2 的组成*
 
 .. i18n: The PC2 computer has to be manufactured in two steps:
 ..
 
-The PC2 computer has to be manufactured in two steps:
+PC2 电脑分两步来制造:
 
 .. i18n: 1: The intermediate product: CPU_GEN
 ..
 
-1: The intermediate product: CPU_GEN
+1: 中间产品: CPU_GEN
 
 .. i18n: 2: The finished product using that intermediate product: PC2
 ..
 
-2: The finished product using that intermediate product: PC2
+2: 使用中间产品组成的成品: PC2
 
 .. i18n: The manufacturing supervisor can then consult the production orders using the menu
 .. i18n: :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`. You then get a
 .. i18n: list of orders to start (``Ready to Produce``) and the estimated start date (``Scheduled Date``) to meet the customer delivery date.
 ..
 
-The manufacturing supervisor can then consult the production orders using the menu
-:menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`. You then get a
-list of orders to start (``Ready to Produce``) and the estimated start date (``Scheduled Date``) to meet the customer delivery date.
+生产主管可以使用菜单
+:menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`看到生产订单. 然后，您可以得到一个
+准备生产的订单列表 (``Ready to Produce``) 和预计开始日期 (``Scheduled Date``) 满足客户的交付日期.
 
 .. i18n: .. figure:: images/mrp_production_list_new.png
 .. i18n:    :scale: 75
@@ -273,12 +273,12 @@ list of orders to start (``Ready to Produce``) and the estimated start date (``S
    :scale: 75
    :align: center
 
-   *List of Manufacturing Orders*
+   *生产订单列表*
 
 .. i18n: You will see the production order for CPU_GEN, but not the one for PC2 because it depends on an intermediate product that has to be produced first. Return to the production order for CPU_GEN and click it. If there are several of them, select the one corresponding to your order using the source document that contains your order number (in this example ``SO007`` ).
 ..
 
-You will see the production order for CPU_GEN, but not the one for PC2 because it depends on an intermediate product that has to be produced first. Return to the production order for CPU_GEN and click it. If there are several of them, select the one corresponding to your order using the source document that contains your order number (in this example ``SO007`` ).
+您将看到 CPU_GEN 的生产订单, 不是 PC2 的，因为PC2的生产依赖于中间产品 CPU_GEN ,中间产品要首先生产. 返回到 CPU_GEN 的生产订单点击它. 如果有一些其他订单的列表, 选择一个和你产品关联的订单号 (in this example ``SO007`` ).
 
 .. i18n: .. figure:: images/mrp_production_form_new.png
 .. i18n:    :scale: 75
@@ -291,37 +291,37 @@ You will see the production order for CPU_GEN, but not the one for PC2 because i
    :scale: 75
    :align: center
 
-   *Details of a Production Order*
+   *生产订单详细资料*
 
 .. i18n: The system shows you that you have to manufacture product CPU_GEN using the components: MB1, CPU1, FAN, RAM. You can then confirm the production twice:
 ..
 
-The system shows you that you have to manufacture product CPU_GEN using the components: MB1, CPU1, FAN, RAM. You can then confirm the production twice:
+系统会告诉你，你制造产品 CPU_GEN 必须使用的组件: MB1, CPU1, FAN, RAM. 您可以再次确认生产订单:
 
 .. i18n: Start production: consumption of raw materials,
 ..
 
-Start production: consumption of raw materials,
+开始生产: 原料消耗,
 
 .. i18n: Produce: manufacturing of finished product.
 ..
 
-Produce: manufacturing of finished product.
+生产: 生产成品.
 
 .. i18n: Click the ``Start Production`` button, then click the ``Edit`` button, and edit the line for the product MB1. Enter a lot number for it by putting the cursor in the field :guilabel:`Production Lot` and pressing :kbd:`<F1>` to create a new lot. Enter an internal reference, for example: ``MB1345678``. The system may then show you a warning because this lot is not in stock, but you can ignore this message.
 ..
 
-Click the ``Start Production`` button, then click the ``Edit`` button, and edit the line for the product MB1. Enter a lot number for it by putting the cursor in the field :guilabel:`Production Lot` and pressing :kbd:`<F1>` to create a new lot. Enter an internal reference, for example: ``MB1345678``. The system may then show you a warning because this lot is not in stock, but you can ignore this message.
+单击 ``Start Production`` 按钮, 然后单击 ``Edit`` 按钮, 然后编辑该行的产品 MB1. 把光标定位在域 :guilabel:`Production Lot` 输入批号，快捷键 :kbd:`<F1>` 创建一个新批号. 输入一个内部的参考，例如: ``MB1345678``. 系统可能给你一个警告，因为这一个批号没有库存, 你可以忽略此消息.
 
 .. i18n: Click the ``Produce`` button to manufacture the finished product.
 ..
 
-Click the ``Produce`` button to manufacture the finished product.
+单击 ``Produce`` 按钮，制造成品.
 
 .. i18n: The production order has to be in the closed state as shown in the figure :ref:`fig-mrpprdfrm`.
 ..
 
-The production order has to be in the closed state as shown in the figure :ref:`fig-mrpprdfrm`.
+生产订单的关闭状态，如下图中所示 :ref:`fig-mrpprdfrm`.
 
 .. i18n: .. _fig-mrpprdfrm:
 .. i18n: 
@@ -338,7 +338,7 @@ The production order has to be in the closed state as shown in the figure :ref:`
    :scale: 75
    :align: center
 
-   *Production Order after the Different Stages*
+   *生产订单后的不同阶段*
 
 .. i18n: Finished Product Manufacturing
 .. i18n: ++++++++++++++++++++++++++++++
