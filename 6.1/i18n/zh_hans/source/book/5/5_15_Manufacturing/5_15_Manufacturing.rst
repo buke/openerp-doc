@@ -351,13 +351,12 @@ PC2 电脑分两步来制造:
 .. i18n: of the computer PC2 using the order created earlier. Return to the Manufacturing Orders menu and look at the orders Ready to Produce through  :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
 ..
 
-Having manufactured the intermediate product CPU_GEN, OpenERP automatically proposes the manufacturing
-of the computer PC2 using the order created earlier. Return to the Manufacturing Orders menu and look at the orders Ready to Produce through  :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
+经过中间产品 CPU_GEN 的制造, OpenERP 自动建议使用先前创建的 PC2 的订单制造. 返回到“生产订单”菜单 ，可以通过菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` 看到订单准备生产.
 
 .. i18n: You will find computer PC2 which has been sold to the customer (source document SO007), as shown in the figure hereafter.
 ..
 
-You will find computer PC2 which has been sold to the customer (source document SO007), as shown in the figure hereafter.
+你能找到电脑 PC2 已经销售给客户 (源文件 SO007), 如图所示.
 
 .. i18n: .. figure:: images/mrp_production_list_end_new.png
 .. i18n:     :scale: 75
@@ -370,7 +369,7 @@ You will find computer PC2 which has been sold to the customer (source document 
     :scale: 75
     :align: center
     
-    *Completed Production for PC2*
+    *完成 PC2 的生产*
 
 .. i18n: Now that the production has been completed, the product sold to the customer has been manufactured and the raw materials have been consumed and taken out of stock.
 .. i18n:  
@@ -384,16 +383,15 @@ You will find computer PC2 which has been sold to the customer (source document 
 .. i18n:     * automatically creating analytical accounting entries.
 ..
 
-Now that the production has been completed, the product sold to the customer has been manufactured and the raw materials have been consumed and taken out of stock.
+现在的生产已经完成, 销售给客户的产品已生产完成和原材料已出库被消耗.
  
 .. tip:: Automatic Actions
 
-    As well as managing the use of materials and the production of stocks, manufacturing can have the following
-    automatic effects which are detailed further on in the chapter:
+    使用按库存生产的材料, 生产完成后将自动影响到下面几处， 更详细的介绍在后面章节介绍:
     
-    * adding value to stock,
-    * generating operations for assembly staff,
-    * automatically creating analytical accounting entries.
+    * 增加库存,
+    * 为装配人员自动生成操作,
+    * 自动创建财务相关分录以及分析.
 
 .. i18n: Subproduct Production
 .. i18n: +++++++++++++++++++++
