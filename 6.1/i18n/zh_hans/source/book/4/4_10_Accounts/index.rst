@@ -68,7 +68,7 @@
 .. i18n:         financial accounts.
 ..
 
-..注释::独立于财务会计
+..注释:: 独立于财务会计
 
         在某些软件中，分析会计是财务会计的扩展 - 例如，通过使用帐户代码的最后两个数字来表示分析会计帐户。
 
@@ -107,13 +107,13 @@
 .. i18n:   management.
 ..
 
-*你可以管理很多不同的分析操作，
+* 你可以管理很多不同的分析操作，
 
-*因为它的独立性，在经营活动中，你可以在任何时候修改分析计划，
+* 因为它的独立性，在经营活动中，你可以在任何时候修改分析计划，
 
-*你能避免财务会计科目的爆炸行增长，
+* 你能避免财务会计科目的爆炸行增长，
 
-*即使是那些不使用OpenERP的财务会计功能的公司也可以使用分析会计管理业务。
+* 即使是那些不使用OpenERP的财务会计功能的公司也可以使用分析会计管理业务。
 
 .. i18n: .. tip:: Who Benefits from Analytic Accounts?
 .. i18n: 
@@ -123,7 +123,7 @@
 .. i18n:         The main users of analytic accounts should be the directors, general managers and project managers.
 ..
 
-..提示::谁受益于分析会计？
+.. 提示:: 谁受益于分析会计？
 
         不同于财务会计，OpenERP的分析会计不只是记账工具，可以作为公司里面任何一个人的管理工具。 （这就是为什么他们
         也被称为管理会计）。
@@ -140,8 +140,6 @@
 .. i18n: with :mod:`sale` and its dependencies installed, and no particular chart of accounts configured.
 ..
 
-For this chapter, you should start with a fresh database that includes demo data,
-with :mod:`sale` and its dependencies installed, and no particular chart of accounts configured.
 在本章中，你应该使用一个包括了演示数据的全新数据库，安装`销售`及其依赖模块，并没有什么特别的会计科目配置
 
 .. i18n: .. raw:: html
