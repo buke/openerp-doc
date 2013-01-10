@@ -70,12 +70,12 @@ Launchpad 帐号
 .. i18n: Enter your e-mail address and wait for an e-mail which will guide you through the process needed to create your login.
 ..
 
-Enter your e-mail address and wait for an e-mail which will guide you through the process needed to create your login.
+输入您的e-mail 地址，然后收取邮件，指导您创建登录。
 
 .. i18n: This login is only needed if you intend to commit on bazaar on openerp-commiter or on your own branch.
 ..
 
-This login is only needed if you intend to commit on bazaar on openerp-commiter or on your own branch.
+使用bazaar 提交代码到 openerp-commiter 或 你自己的分支上的时候，才需要您登录
 
 .. i18n: How to commit ?
 .. i18n: +++++++++++++++
@@ -89,16 +89,14 @@ This login is only needed if you intend to commit on bazaar on openerp-commiter 
 .. i18n: commit.
 ..
 
-Once your login is created, you need to create some ssh keys and insert them on
-your login page (see create ssh keys on the left). These ssh keys are needed to
-commit.
+当你创建完用户之后，你需要创建 ssh 密钥，然后将密钥添加到您的登录页中（页面左边有如何创建ssh 密钥）。
+这个 ssh 密钥必须要提交。
 
 .. i18n: I advise you to follow these instructions to complete the creation of your
 .. i18n: ssh keys: https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
 ..
 
-I advise you to follow these instructions to complete the creation of your
-ssh keys: https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
+建议您按照以下指引完成创建SSH密钥: https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
 
 .. i18n: How to use Bazaar ?
 .. i18n: +++++++++++++++++++
