@@ -68,7 +68,7 @@
 .. i18n:         financial accounts.
 ..
 
-..注释:: 独立于财务会计
+.. note:: 独立于财务会计
 
         在某些软件中，分析会计是财务会计的扩展 - 例如，通过使用帐户代码的最后两个数字来表示分析会计帐户。
 
@@ -123,7 +123,7 @@
 .. i18n:         The main users of analytic accounts should be the directors, general managers and project managers.
 ..
 
-.. 提示:: 谁受益于分析会计？
+.. tip:: 谁受益于分析会计？
 
         不同于财务会计，OpenERP的分析会计不只是记账工具，可以作为公司里面任何一个人的管理工具。 （这就是为什么他们
         也被称为管理会计）。
