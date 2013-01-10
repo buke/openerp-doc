@@ -96,7 +96,7 @@ Launchpad 帐号
 .. i18n: ssh keys: https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
 ..
 
-建议您按照以下指引完成创建SSH密钥: https://help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
+建议您按照以下指引完成创建SSH密钥: https://help.launchpad.net/您的账户名/CreatingAnSSHKeyPair
 
 .. i18n: How to use Bazaar ?
 .. i18n: +++++++++++++++++++
@@ -108,7 +108,7 @@ Bazaar使用指导
 .. i18n: There are two ways to work on bzr. Either you make a checkout or create a local branch.
 ..
 
-There are two ways to work on bzr. Either you make a checkout or create a local branch.
+有2种方式开始工作。检出代码或是创建一个本地分支。
 
 .. i18n: Checkout method::
 .. i18n: 
@@ -117,7 +117,7 @@ There are two ways to work on bzr. Either you make a checkout or create a local 
 .. i18n:   bzr ci                                     -- to commit
 ..
 
-Checkout method::
+检出方法::
 
   bzr co lp:~openerp/openobject-addons/trunk -- to make a checkout
   bzr up                                     -- to make an update
@@ -130,7 +130,7 @@ Checkout method::
 .. i18n:   bzr push lp:~<url>                           -- to include your changes in the remote branch
 ..
 
-Creating a branch::
+创建分支::
 
   bzr branch lp:~<url> <local dir>             -- to create a branch locally
   bzr pull                                     -- to update the branch
@@ -141,7 +141,7 @@ Creating a branch::
 .. i18n:   bzr help
 ..
 
-In any case, when you experience some problems, you can do::
+当你遇到问题，无论是什么情况，都可以输入::
 
   bzr help
 
@@ -150,7 +150,7 @@ In any case, when you experience some problems, you can do::
 .. i18n:   bzr help branch
 ..
 
-or ``bzr help <command>``. e.g.::
+或者 ``bzr help <command>``. e.g.::
 
   bzr help branch
 
@@ -167,7 +167,7 @@ or ``bzr help <command>``. e.g.::
 .. i18n:   bzr: ERROR: Repository KnitPackRepository is not compatible with repository RemoteRepository
 ..
 
-Checkout does not work, I have this message error::
+检出代码不成功，如下提示::
 
   bzr lp:~<url> 
   bzr: ERROR: Repository KnitPackRepository is not compatible with repository RemoteRepository
@@ -175,12 +175,12 @@ Checkout does not work, I have this message error::
 .. i18n: There are two ways to correct it.
 ..
 
-There are two ways to correct it.
+有2种方法可以修正.
 
 .. i18n: Instead of using ``bzr co lp:~<url>``, use ``bzr co bzr+ssh://<yourlaunchpad login>@bazaar.launchpad.net/~<url>``
 ..
 
-Instead of using ``bzr co lp:~<url>``, use ``bzr co bzr+ssh://<yourlaunchpad login>@bazaar.launchpad.net/~<url>``
+使用 ``bzr co bzr+ssh://<yourlaunchpad login>@bazaar.launchpad.net/~<url>`` , 代替使用  ``bzr co lp:~<url>`` 。
 
 .. i18n: check this url: https://bugs.launchpad.net/bzr/+bug/205579. Generally, you do::
 .. i18n: 
@@ -188,7 +188,7 @@ Instead of using ``bzr co lp:~<url>``, use ``bzr co bzr+ssh://<yourlaunchpad log
 .. i18n:  bzr reconfigure --checkout
 ..
 
-check this url: https://bugs.launchpad.net/bzr/+bug/205579. Generally, you do::
+查看一下地址: https://bugs.launchpad.net/bzr/+bug/205579. 通常，你可以这么做::
 
  bzr branch lp:~<url> 
  bzr reconfigure --checkout
