@@ -24,7 +24,7 @@ OpenERP 文档 v6.1
 .. i18n:   guidelines.
 ..
 
-.. Tip:: 在线的 OpenERP 文档旨在为企业管理和最佳开发实践提供参考。
+.. Tip:: OpenERP 在线文档旨在为企业管理和最佳开发实践提供参考。
   此外您可以查看 `printed books`_ 和 `PDF versions`_.
   
   我们同时也需求翻译者的帮助，请查看 :ref:`documentation_translation` 指南.
