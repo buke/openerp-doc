@@ -37,7 +37,7 @@
 ..
 
 设置数据库
-------------------------
+----------
 
 .. i18n: To set up a system for these examples, create a new database with demonstration data in it, and
 .. i18n: select the :guilabel:`Extended` interface when you log in as the *admin* user. You can enter your own
@@ -66,7 +66,7 @@
 ..
 
 从供应商询价
--------------------------------
+------------
 
 .. i18n: To enter data for a new supplier price request (i.e. request for quotation), use the menu :menuselection:`Purchases --> Purchase Management -->
 .. i18n: Request for Quotation`. When you click :guilabel:`New`, OpenERP opens a blank request for quotation form that you use for requesting prices from a supplier. This is shown in the figure :ref:`fig-pfrm`. If the price request came from an automatic procurement created by OpenERP, you will find a reference to the document that generated the request in the :guilabel:`Origin` field.
@@ -121,14 +121,14 @@ The internal reference, the date and the warehouse the products should be delive
 .. i18n:         Searching for a supplier is limited to all of the partners in the system that have the :guilabel:`Supplier` checkbox checked. If you do not find your supplier, it might be worth checking the whole list of all partners to make sure that the supplier does not yet exist without the Supplier checkbox being checked.
 ..
 
-.. tip:: Supplier Selection
+.. tip:: 供应商
 
-        Searching for a supplier is limited to all of the partners in the system that have the :guilabel:`Supplier` checkbox checked. If you do not find your supplier, it might be worth checking the whole list of all partners to make sure that the supplier does not yet exist without the Supplier checkbox being checked.
+        如果你发现在系统找不到你录入的供应合作伙伴,那你就需要确认在录入合作伙伴的时候,是否已经将 :guilabel:`供应商` 的勾选项勾上了. 如果忘记了,请到合作伙伴列表中找到它,并勾选上.
 
 .. i18n: Once the main body of the purchase order has been completed, you can enter the product lines.
 ..
 
-Once the main body of the purchase order has been completed, you can enter the product lines.
+采购订单主体部分输入完成后,就可以录入采购订单明细行了.
 
 .. i18n: .. figure:: images/purchase_line_form.png
 .. i18n:    :scale: 75
