@@ -405,9 +405,9 @@ PC2 电脑分两步来制造:
 .. i18n: same finished product from raw materials (A + B > C). With Subproduct management, the manufacturing result can be to have both finished products and secondary products (A + B > C + D).
 ..
 
-If you need to manage subproducts, you should install the module :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-
-products). The normal behaviour of manufacturing in OpenERP enables you to manufacture several units of the
-same finished product from raw materials (A + B > C). With Subproduct management, the manufacturing result can be to have both finished products and secondary products (A + B > C + D).
+如果您需要管理的子产品, 你应该安装的模块 :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-
+products). 生产的业务过程，在OpenERP您可以从原材料
+制造几个单位的成品 (A + B > C). 在子产品管理, 制造的结果可以是有两个成品和子产品 (A + B > C + D).
 
 .. i18n: .. note:: Subproduct Material
 .. i18n: 
@@ -416,18 +416,18 @@ same finished product from raw materials (A + B > C). With Subproduct management
 .. i18n:     (or the offcuts may have value for the company if they can be used elsewhere).
 ..
 
-.. note:: Subproduct Material
+.. note:: 子产品材料
 
-    In OpenERP, subproduct material corresponds to secondary products that are a by-product of the main manufacturing
-    process. For example, cutting planks of timber will produce other planks but these bits of timber are too small 
-    (or the offcuts may have value for the company if they can be used elsewhere).
+    在 OpenERP, 子产品材料对应在产品制造主产品过程中的第二个产品
+    例如, 切割木板的木材会产生其他的木板，但这些木板太小，不能做主要的产品。
+    (如果他们能用在其他地方，或许切下部分具有价值).
 
 .. i18n: If the module :mod:`mrp_subproduct` has been installed, you get a new tab Sub products in the Bill of Material
 .. i18n: that lets you set secondary products resulting from the manufacturing of the finished product.
 ..
 
-If the module :mod:`mrp_subproduct` has been installed, you get a new tab Sub products in the Bill of Material
-that lets you set secondary products resulting from the manufacturing of the finished product.
+如果模块 :mod:`mrp_subproduct` 已经安装, 你将在 BOM上看到一个新的标签页，
+在这里你可以设置子产品的制造成品.
 
 .. i18n: .. figure:: images/mrp_bom_subproduct.png
 .. i18n:     :scale: 75
@@ -440,7 +440,7 @@ that lets you set secondary products resulting from the manufacturing of the fin
     :scale: 75
     :align: center
     
-    *Definition of Subproducts*
+    *定义子产品*
 
 .. i18n: When OpenERP generates a production order based on a bill of materials that uses a secondary product, you pick
 .. i18n: up the list of all products in the second tab of the production order ``Finished Products``.
@@ -452,8 +452,8 @@ that lets you set secondary products resulting from the manufacturing of the fin
 .. i18n:     *Production Order producing Several Finished Products*
 ..
 
-When OpenERP generates a production order based on a bill of materials that uses a secondary product, you pick
-up the list of all products in the second tab of the production order ``Finished Products``.
+当 OpenERP 基于物料清单生成生产订单使用辅助产品时, 你可以在产品订单的 ``Finished Products``
+标签页中看到所有完成产品的列表.
     
 .. figure:: images/mrp_production.png
     :scale: 75
