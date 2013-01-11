@@ -133,7 +133,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n: Location of development version + specifics if necessary to precise
 ..
 
-Location of development version + specifics if necessary to precise
+如需要精确位置，开发版本+细节。
 
 .. i18n: Configuration
 .. i18n: =============
@@ -149,19 +149,19 @@ Location of development version + specifics if necessary to precise
 
 .. _configuration-files-link:
 
-Two configuration files are available:
+有2种配置文件：
 
 .. i18n:     * one for the client: ~/.openerprc
 .. i18n:     * one for the server: ~/.openerp_serverrc
 ..
 
-    * one for the client: ~/.openerprc
-    * one for the server: ~/.openerp_serverrc
+    * 客户端配置: ~/.openerprc
+    * 服务端配置: ~/.openerp_serverrc
 
 .. i18n: Those files follow the convention used by python's ConfigParser module.
 ..
 
-Those files follow the convention used by python's ConfigParser module.
+这些文件按照 python ConfigParser 模块惯例设置。
 
 .. i18n: Lines beginning with "#" or ";" are comments.
 ..
