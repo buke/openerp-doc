@@ -3,9 +3,9 @@
 .. i18n: =========================================
 ..
 
-=========================================
+=================
 OpenERP 开发入门
-=========================================
+=================
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
@@ -97,8 +97,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n:   sudo apt-get install graphviz ghostscript postgresql python-imaging python-matplotlib 
 ..
 
-Some dependencies are necessary to use OpenERP. Depending on your environment, you might have to install the following packets::
-
+为使用 OpenERP 需要安装一些依赖包。根据您的环境，可能需要安装以下包::
   sudo apt-get install graphviz ghostscript postgresql python-imaging python-matplotlib 
 
 .. i18n: You then have to initialise the database. This will create a new openerp role::
