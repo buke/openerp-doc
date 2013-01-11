@@ -464,7 +464,8 @@ products). 生产的业务过程，在OpenERP您可以从原材料
 .. i18n: Secondary products enable you to generate several types of products from the same raw materials and manufacturing methods - only these are not used in the calculation of requirements. Then, if you need the secondary products, OpenERP will not ask you to manufacture another product to use the waste products and secondary products of this production. In this case, you should enter another production order for the secondary product.
 ..
 
-Secondary products enable you to generate several types of products from the same raw materials and manufacturing methods - only these are not used in the calculation of requirements. Then, if you need the secondary products, OpenERP will not ask you to manufacture another product to use the waste products and secondary products of this production. In this case, you should enter another production order for the secondary product.
+第二产品可以让你生成一些类型的产品用同样的原材料和制造方法 - 只有在不使用这些要求的计算. 然后, 如果你需要第二产品, OpenERP 不会问你制造其他产品使用废弃产品和第二产品. 
+在这种情况下, 你应该进入为第二产品的另一个生产订单.
 
 .. i18n: .. note:: Services in Manufacturing
 .. i18n: 
@@ -479,13 +480,11 @@ Secondary products enable you to generate several types of products from the sam
 
 .. note:: Services in Manufacturing
 
-    Unlike most software for production management, OpenERP manages services as well as stockable products. So
-    it is possible to put products of type Service in a bill of materials. These do not appear in the production 
-    order, but their requirements will be taken into account.
+    不同于大多数软件的生产管理, OpenERP 管理服务作为库存商品. 所以
+    它可以把服务类型的产品放在BOM中. 这些不出现在生产订单，但他们的要求将被考虑到.
     
-    If they are defined as Make to Order, OpenERP will generate a task for the manufacturing or a subcontract
-    order for the operations. The behaviour will depend on the Supply Method configured in the product form: Buy
-    or Produce.
+    如果它们被定义为 Make to Order 按订单生产, OpenERP 将生成一个任务或转包生产的操作. 
+    这个行为将取决于产品的配置供给方法: 购买还是生产。
 
 .. i18n: Scrapping
 .. i18n: +++++++++
