@@ -217,7 +217,7 @@ Fields 内容是 strings 类型,保存在以 UTF-8 编码的 XML 格式的文件
 
     * **eval** 属性允许将一些 python 代码放进 xml 中: 这里 groups_id 字段是一个多对多(many2many)的关系. 对于这样一个字段, "[(6,0,[group_admin])]" 的意思为 : 删除所有与当前用户相关的组，并使用 [group_admin] 作为新的关联组 (and group_admin 是另一个记录的 id ).
 
-    * The **search** attribute allows to find the record to associate when you do not know its xml id. You can thus specify a search criteria to find the wanted record. The criteria is a list of tuples of the same form than for the predefined search method. If there are several results, an arbitrary one will be chosen (the first one):
+    * **search** 属性允许你在不指定 xml id 的情况下. 查找相关的记录. 你可以指定一个搜索条目来寻找想要查询的字段. 条目是一个 tuple 的 lists 用于预定义的搜索方法, 如果有多个结果， 通常选中(第一个):
 
 .. i18n:     <field name="partner_id" search="[]" model="res.partner"/>
 ..
@@ -227,12 +227,12 @@ Fields 内容是 strings 类型,保存在以 UTF-8 编码的 XML 格式的文件
 .. i18n: This is a classical example of the use of ``search`` in demo data: here we do not really care about which partner we want to use for the test, so we give an empty list. Notice the **model** attribute is currently mandatory.
 ..
 
-This is a classical example of the use of ``search`` in demo data: here we do not really care about which partner we want to use for the test, so we give an empty list. Notice the **model** attribute is currently mandatory.
+只是 ``search`` 在演示数据的一个经典的例子：这里我们并不关心用哪一个 partner 来进行测试，所以我们给出一个空的 list . 注意 **model** 属性是必须的.
 
 .. i18n: Some typical XML elements are described below.
 ..
 
-Some typical XML elements are described below.
+一些典型的 XML 元素描述如下.
 
 .. i18n: Record Tag
 .. i18n: ++++++++++
@@ -244,18 +244,18 @@ Some typical XML elements are described below.
 .. i18n: The addition of new data is made with the **record** tag. This one takes a mandatory attribute : **model**. Model is the object name where the insertion has to be done. The tag record can also take an optional attribute: **id**. If this attribute is given, a variable of this name can be used later on, in the same file, to make reference to the newly created resource ID.
 ..
 
-The addition of new data is made with the **record** tag. This one takes a mandatory attribute : **model**. Model is the object name where the insertion has to be done. The tag record can also take an optional attribute: **id**. If this attribute is given, a variable of this name can be used later on, in the same file, to make reference to the newly created resource ID.
+通过 **record** 标签来实现新数据的添加. 这里 : **model** 属性是必须的. Model 是插入数据的对象名. 它还有一个可选的属性: **id**. 如果给出该属性, 在同一个文件中, 这个名字对应的变量将在以后使用, 以便生成新产生资源 ID 的引用.
 
 .. i18n: A **record** tag may contain field tags. They indicate the record's **fields** value. If a field is not specified the default value will be used.
 ..
 
-A **record** tag may contain field tags. They indicate the record's **fields** value. If a field is not specified the default value will be used.
+一个 **record** 标签可以包含多个 field 标签. 他们指定了记录的 **fields** 值. 如果不指定一个 field 默认值将会被使用.
 
 .. i18n: Example
 .. i18n: """""""
 ..
 
-Example
+例子
 """""""
 
 .. i18n: .. code-block:: xml
