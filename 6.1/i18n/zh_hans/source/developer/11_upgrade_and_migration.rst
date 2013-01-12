@@ -19,32 +19,32 @@
 
 .. _data-serialization:
 
-数据持久化
+数据序列化
 ==================
 
 .. i18n: During OpenERP installation, two steps are necessary to create and feed the database:
 ..
 
-During OpenERP installation, two steps are necessary to create and feed the database:
+在 OpenERP 安装的时候, 创建和填充数据库是必须的两个步骤:
 
 .. i18n:    1. Create the SQL tables
 .. i18n:    2. Insert the different data into the tables
 ..
 
-   1. Create the SQL tables
-   2. Insert the different data into the tables
+   1. 创建 SQL 表
+   2. 插入不同的数据到表中
 
 .. i18n: The creation (or modification in the case of an upgrade) of SQL tables is automated thanks to the description of objects in the server.
 ..
 
-The creation (or modification in the case of an upgrade) of SQL tables is automated thanks to the description of objects in the server.
+由于服务器中的对象描述，SQL表的创建和修改时自动的.
 
 .. i18n: With OpenERP, everything except the business logic of objects is stored in the database. 
 .. i18n: We find for example:
 ..
 
-With OpenERP, everything except the business logic of objects is stored in the database. 
-We find for example:
+使用 OpenERP, 除了对象的业务逻辑以外，其它都存在数据库中. 
+例如(不存入数据库):
 
 .. i18n:     * the definitions of the reports,
 .. i18n:     * the default values for fields,
@@ -53,11 +53,11 @@ We find for example:
 .. i18n:     * etc.
 ..
 
-    * the definitions of the reports,
-    * the default values for fields,
-    * the definition of client interfaces for each document (views),
-    * the relationships between menus, buttons and actions
-    * etc.
+    * reports的定义,
+    * fields的默认值,
+    * 每个文档(views)的用户接口的定义 ,
+    * 菜单，按钮和动作的关系
+    * 等等其他.
 
 .. i18n: There must be a mechanism to describe, modify and reload these different kinds of data. 
 .. i18n: OpenERP data may be specified in CSV, XML or YAML serialization files provided by 
@@ -65,10 +65,9 @@ We find for example:
 .. i18n: database tables.
 ..
 
-There must be a mechanism to describe, modify and reload these different kinds of data. 
-OpenERP data may be specified in CSV, XML or YAML serialization files provided by 
-modules, and loaded during module installation/upgrade in order to fill or update the
-database tables.
+必须有一个机制去描述, 修改和装载这些不同的数据. 
+OpenERP 的数据可以以模块提供的 CSV, XML or YAML 的序列化文件的形式指定模块 
+modules, 并在模块安装和升级时装载以便填充和升级数据库表.
 
 .. i18n: .. _xml-serialization:
 .. i18n: 
@@ -78,7 +77,7 @@ database tables.
 
 .. _xml-serialization:
 
-XML 数据持久化
+XML 数据序列化
 ----------------------
 
 .. i18n: Since version 4.2, OpenERP provides an XML-based data serialization format.
