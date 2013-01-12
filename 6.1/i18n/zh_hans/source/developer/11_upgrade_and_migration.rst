@@ -208,14 +208,14 @@ Fields 内容是 strings 类型,保存在以 UTF-8 编码的 XML 格式的文件
 .. i18n: The``company_id`` field is a many-to-one relation from the user object to the company object, and **main_company** is the id of to associate.
 ..
 
-The``company_id`` field is a many-to-one relation from the user object to the company object, and **main_company** is the id of to associate.
+``company_id`` 字段是一个多对一(many2one) 从USER对象到 COMPANY 对象, **main_company** 是关系的 id.
 
 .. i18n:     * The **eval** attribute allows to put some python code in the xml: here the groups_id field is a many2many. For such a field, "[(6,0,[group_admin])]" means : Remove all the groups associated with the current user and use the list [group_admin] as the new associated groups (and group_admin is the id of another record).
 .. i18n: 
 .. i18n:     * The **search** attribute allows to find the record to associate when you do not know its xml id. You can thus specify a search criteria to find the wanted record. The criteria is a list of tuples of the same form than for the predefined search method. If there are several results, an arbitrary one will be chosen (the first one):
 ..
 
-    * The **eval** attribute allows to put some python code in the xml: here the groups_id field is a many2many. For such a field, "[(6,0,[group_admin])]" means : Remove all the groups associated with the current user and use the list [group_admin] as the new associated groups (and group_admin is the id of another record).
+    * **eval** 属性允许将一些 python 代码放进 xml 中: 这里 groups_id 字段是一个多对多(many2many)的关系. 对于这样一个字段, "[(6,0,[group_admin])]" 的意思为 : 删除所有与当前用户相关的组，并使用 [group_admin] 作为新的关联组 (and group_admin 是另一个记录的 id ).
 
     * The **search** attribute allows to find the record to associate when you do not know its xml id. You can thus specify a search criteria to find the wanted record. The criteria is a list of tuples of the same form than for the predefined search method. If there are several results, an arbitrary one will be chosen (the first one):
 
