@@ -17,15 +17,13 @@ OpenERP 第一步
 .. i18n:  and offers unmatched functionality.
 ..
 
- OpenERP is an impressive software system, being easy to use and yet providing great benefits
- in helping you manage your company.
- It is easy to install under both Windows and Linux compared to other enterprise-scale systems,
- and offers unmatched functionality.
+ OpenERP是一个非常棒的应用系统，它容易上手操作而且可以很好地帮助你管理公司。
+ 相比其他企业级的应用软件，它可以很简单地安装在Windows和Linux操作系统上，并提供很多实用的功能。
 
 .. i18n:  The objective of this first part of the book is to help you start discovering OpenERP in practice.
 ..
 
- The objective of this first part of the book is to help you start discovering OpenERP in practice.
+ 本书第一部分的目的是帮助你开始在练习中了解OpenERP。
 
 .. i18n:  The first chapter, :ref:`ch-inst`, gives detailed guidance for installing it.
 .. i18n:  If you are not a system administrator, or if you have already installed
@@ -44,21 +42,16 @@ OpenERP 第一步
 .. i18n:    *Options for reading this part of the book*
 ..
 
- 第一部分, :ref:`ch-inst` , gives detailed guidance for installing it.
- If you are not a system administrator, or if you have already installed
- OpenERP, or if you are planning to use an online SaaS provider, then you can skip this chapter and
- move straight to the next chapter, :ref:`ch-guided`. 
- There we take you on a step-by-step guided tour using the information 
- in the demonstration database.
+ 第一章, :ref:`安装与初始配置` , OpenERP的详细安装配置指导.
+ 如果你不是系统管理，或者你已经安装好OpenERP，或者你打算选择在线SaaS服务商，那么你可以跳过这章，阅读下章:ref:`漫游指南`。
+ 我们会一步一步地带领你浏览使用demo数据。
  
- If you have already used OpenERP (or Tiny ERP) a bit then you can move to the third chapter in this part of the book.
- In :ref:`ch-real` you can try out a real case, from scratch in a new database,
- by developing a complete business workflow that runs from purchase to sale of goods.
- 
+ 如果你曾经使用过OpenERP（或者Tiny ERP），那么你可以直接阅读第三章。
+ 在:ref:`如何应用到你的业务中`，你可以尝试根据实际案例创建一个新的帐套，并模拟运行一个从采购到销售的完整业务流程。
  .. figure:: images/sect1_outline.png
    :align: center
 
-   *Options for reading this part of the book*
+   *如何选择阅读本书第一部分的内容*
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
