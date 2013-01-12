@@ -1625,7 +1625,7 @@ Field Tag
 
 Value tag
 +++++++++
-* if the value can be evaluated(like res_id is available), we write value tag as follows:
+* 如果Tag能被评估(like res_id is available), 像下面一样写 value tag :
     **-**
     **!function {model: account.invoice, name: pay_and_reconcile}:**
     **- eval: "obj(ref('test_order_1')).amount_total"**
@@ -1634,7 +1634,7 @@ Value tag
 .. i18n:     This will fetch the 'amount_total' value of a 'sale.order' record with res_id 'test_order_1'
 ..
 
-    This will fetch the 'amount_total' value of a 'sale.order' record with res_id 'test_order_1'
+    这会捕获一个 'sale.order' 记录的 'amount_total' 值伴随 res_id 'test_order_1'
 
 .. i18n: * If the value is to be searched on some model based on a criteria, we write value tag as follows:
 .. i18n:     **-**
@@ -1644,12 +1644,12 @@ Value tag
 .. i18n:     This will fetch all those account.account records whose type is equal to 'cash'
 ..
 
-* If the value is to be searched on some model based on a criteria, we write value tag as follows:
+* 如果值是在一些基于条目的模块上被搜索, 那么就像下面一样写 value tag :
     **-**
     **!function {model: account.invoice, name: pay_and_reconcile}:**
     **- model: account.account**
     **search: "[('type', '=', 'cash')]"**
-    This will fetch all those account.account records whose type is equal to 'cash'
+    这将抓取所有 account.account 记录类型等于 'cash'
 
 .. i18n: Test Tag
 .. i18n: ++++++++
@@ -1663,7 +1663,7 @@ Test Tag
 .. i18n:     **- state == "manual"**
 ..
 
-* specify the test directly
+* 直接指定测试
     **Ex:  - picking_ids[0].state == "done"**
     **- state == "manual"**
 
@@ -1686,7 +1686,7 @@ comment
 
 Asserts and Python code
 +++++++++++++++++++++++
-To create an invoice, python code could be written as:
+为了创建一个发票，python 代码应该这样写:
 
 .. i18n: **-**
 .. i18n:   **!python {model: account.invoice}: |**
@@ -1700,7 +1700,7 @@ To create an invoice, python code could be written as:
 .. i18n: The invoice must be in draft state:
 ..
 
-The invoice must be in draft state:
+发票必须在 draft 状态:
 
 .. i18n: **-**
 .. i18n:   **!assert {model: account.invoice , id: invoice1, string: "the invoice is now in Draft state"}:**
@@ -1714,7 +1714,7 @@ The invoice must be in draft state:
 .. i18n: To test that all account are in a tree data structure, we write the below python code:
 ..
 
-To test that all account are in a tree data structure, we write the below python code:
+测试所有在树形数据结构的账户, 我们写下面的 python 代码:
 
 .. i18n: **-**
 .. i18n:   **!python {model: account.account}:**
@@ -1790,11 +1790,11 @@ To test that all account are in a tree data structure, we write the below python
 .. i18n:     * Run the server with '--log-level=test' option
 ..
 
-Running tests
+运行测试
 +++++++++++++
-    * Save the file with '.yml' extension
-    * Add the yaml file under 'demo_xml' in terp file
-    * Run the server with '--log-level=test' option
+    * 以扩展名 '.yml' 保存文件
+    * 添加 yaml 文件到 'demo_xml' 下
+    * 以参数 '--log-level=test' 运行服务器
 
 .. i18n: .. _csv_serialization:
 .. i18n: 
