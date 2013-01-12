@@ -83,12 +83,12 @@ XML 数据序列化
 .. i18n: Since version 4.2, OpenERP provides an XML-based data serialization format.
 ..
 
-Since version 4.2, OpenERP provides an XML-based data serialization format.
+4.2版本之后, OpenERP 提供基于XML的数据序列化格式.
 
 .. i18n: The basic format of an OpenERP XML file is as follows:
 ..
 
-The basic format of an OpenERP XML file is as follows:
+基本的 OpenERP XML 文件格式如下:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -136,12 +136,12 @@ The basic format of an OpenERP XML file is as follows:
 .. i18n: Fields contents are strings that must be encoded as UTF-8 in XML files.
 ..
 
-Fields contents are strings that must be encoded as UTF-8 in XML files.
+Fields 内容是 strings 类型,保存在以 UTF-8 编码的 XML 格式的文件中.
 
 .. i18n: Let's review an example taken from the OpenERP source (base_demo.xml in the base module):
 ..
 
-Let's review an example taken from the OpenERP source (base_demo.xml in the base module):
+下面是一个来自 OpenERP 的源码的例子 (base_demo.xml 在 base 模块中):
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -187,14 +187,14 @@ Let's review an example taken from the OpenERP source (base_demo.xml in the base
 .. i18n: This last record defines the admin user :
 ..
 
-This last record defines the admin user :
+最后的字段定义的 admin user :
 
 .. i18n:     * The fields login, password, etc are straightforward.
 .. i18n:     * The **ref** attribute allows to fill relations between the records :
 ..
 
-    * The fields login, password, etc are straightforward.
-    * The **ref** attribute allows to fill relations between the records :
+    * 登录，密码等字段比较直接.
+    * **ref** 属性用于填充两个记录之间的关系 :
 
 .. i18n: .. code-block:: xml
 .. i18n: 
