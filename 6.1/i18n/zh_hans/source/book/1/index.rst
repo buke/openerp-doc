@@ -42,12 +42,12 @@ OpenERP 第一步
 .. i18n:    *Options for reading this part of the book*
 ..
 
- 第一节, :ref:`安装与初始配置` , OpenERP的详细安装配置指导.
- 如果你不是系统管理，或者你已经安装好OpenERP，或者你打算选择在线SaaS服务商，那么你可以跳过这章，阅读下一节 :ref:`漫游指南`。
+ 第一节, :ref:`ch-inst` , OpenERP的详细安装配置指导.
+ 如果你不是系统管理，或者你已经安装好OpenERP，或者你打算选择在线SaaS服务商，那么你可以跳过这章，阅读下一节  :ref:`ch-guided` 。
  我们会一步一步地带领你浏览使用demo数据。
  
  如果你曾经使用过OpenERP（或者Tiny ERP），那么你可以直接阅读第三节。
- 在 :ref:`如何应用到你的业务中`，你可以尝试根据实际案例创建一个新的帐套，并模拟运行一个从采购到销售的完整业务流程。
+ 在 :ref:`ch-real` ，你可以尝试根据实际案例创建一个新的帐套，并模拟运行一个从采购到销售的完整业务流程。
  .. figure:: images/sect1_outline.png
    :align: center
 
