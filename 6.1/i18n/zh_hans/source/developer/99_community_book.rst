@@ -69,7 +69,7 @@ OpenERP 社区团队地址: https://launchpad.net/~openerp-community
 .. i18n: Members of the quality and committer team are automatically members of the community.
 ..
 
-Members of the quality and committer team are automatically members of the community.
+`社区` 组的用户也自动成为 `质量` 与 `提交` 组的成员.
 
 .. i18n: Once you have configured your Launchpad account, get Bazaar version control to pull the source from Launchpad.
 ..
@@ -84,7 +84,7 @@ NoteThib: viré les explications sur comment installer bazaar, je propos de mett
 .. i18n: If you experience problems with Bazaar, please read the :ref:`bazaar-faq-link` before asking any questions.
 ..
 
-If you experience problems with Bazaar, please read the :ref:`bazaar-faq-link` before asking any questions.
+当你遇到关于 `Bazaar` 的使用问题前, 请参阅 :ref:`bazaar-faq-link` .
 
 .. i18n: Working with Branch
 .. i18n: -------------------
