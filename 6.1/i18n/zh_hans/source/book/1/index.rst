@@ -66,10 +66,10 @@ OpenERP 第一步
     :maxdepth: 1
   
 
-    在线订购 & 开始
-    安装与初始配置
-    OpenERP 漫游指南
-    如何应用到你的业务中?
+    1_0_Subscribe_Start/index
+    1_1_Inst_Config/index
+    1_2_Guided_Tour/index
+    1_3_Real_Case/index
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
