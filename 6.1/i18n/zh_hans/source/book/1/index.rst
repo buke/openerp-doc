@@ -23,7 +23,7 @@ OpenERP 第一步
 .. i18n:  The objective of this first part of the book is to help you start discovering OpenERP in practice.
 ..
 
- 本书第一部分的目的是帮助你开始在练习中了解OpenERP。
+ 本书第一章的目的是帮助你开始在练习中了解OpenERP。
 
 .. i18n:  The first chapter, :ref:`ch-inst`, gives detailed guidance for installing it.
 .. i18n:  If you are not a system administrator, or if you have already installed
@@ -42,16 +42,16 @@ OpenERP 第一步
 .. i18n:    *Options for reading this part of the book*
 ..
 
- 第一章, :ref:`安装与初始配置` , OpenERP的详细安装配置指导.
- 如果你不是系统管理，或者你已经安装好OpenERP，或者你打算选择在线SaaS服务商，那么你可以跳过这章，阅读下章:ref:`漫游指南`。
+ 第一节, :ref:`安装与初始配置` , OpenERP的详细安装配置指导.
+ 如果你不是系统管理，或者你已经安装好OpenERP，或者你打算选择在线SaaS服务商，那么你可以跳过这章，阅读下一节 :ref:`漫游指南`。
  我们会一步一步地带领你浏览使用demo数据。
  
- 如果你曾经使用过OpenERP（或者Tiny ERP），那么你可以直接阅读第三章。
- 在:ref:`如何应用到你的业务中`，你可以尝试根据实际案例创建一个新的帐套，并模拟运行一个从采购到销售的完整业务流程。
+ 如果你曾经使用过OpenERP（或者Tiny ERP），那么你可以直接阅读第三节。
+ 在 :ref:`如何应用到你的业务中`，你可以尝试根据实际案例创建一个新的帐套，并模拟运行一个从采购到销售的完整业务流程。
  .. figure:: images/sect1_outline.png
    :align: center
 
-   *如何选择阅读本书第一部分的内容*
+   *如何选择阅读本书第一章的内容*
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
@@ -64,11 +64,12 @@ OpenERP 第一步
 
 .. toctree::
     :maxdepth: 1
+  
 
-    1_0_Subscribe_Start/index
-    1_1_Inst_Config/index
-    1_2_Guided_Tour/index
-    1_3_Real_Case/index
+    在线订购 & 开始
+    安装与初始配置
+    OpenERP 漫游指南
+    如何应用到你的业务中?
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
