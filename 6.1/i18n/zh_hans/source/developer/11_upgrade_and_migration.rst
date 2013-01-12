@@ -1461,7 +1461,7 @@ url
 .. i18n: ------------------
 ..
 
-Writing YAML Tests
+写一个 YAML 测试
 ------------------
 
 .. i18n: .. note::
@@ -1471,7 +1471,7 @@ Writing YAML Tests
 
 .. note::
 
-    Please see also section :ref:`yaml-testing-guidelines`
+    参考第三部分 :ref:`yaml-testing-guidelines` 自动化YAML测试指南
 
 .. i18n: **Write manually**
 .. i18n:     * Record CRUD
@@ -1480,21 +1480,21 @@ Writing YAML Tests
 .. i18n:     * Pure Python code
 ..
 
-**Write manually**
-    * Record CRUD
-    * Workflow transition
-    * Assertions (one expression like in XML)
-    * Pure Python code
+**手工写**
+    * 记录的 CRUD
+    * 工作流过渡
+    * 段言 (像在 XML 中的语句)
+    * 纯 Python 代码
 
 .. i18n: **Use base_module_record(er)**
 ..
 
-**Use base_module_record(er)**
+**使用 base_module_record(er)**
 
 .. i18n:     * Generate YAML file with record and workflow
 ..
 
-    * Generate YAML file with record and workflow
+    * 生成带有 record 和 workflow 的 YAML 文件
 
 .. i18n:     .. figure::  images/record_object.png
 .. i18n:        :align: center
@@ -1505,16 +1505,16 @@ Writing YAML Tests
     .. figure::  images/record_object.png
        :align: center
 
-    * Update this YAML with assertions / Python code
+    * 用 assertions / Python 代码更新这个 YAML 
 
 .. i18n: .. warning:: Important
 .. i18n: 
 .. i18n:    As yaml is structured with indentation(like Python), each child tag(sub-tag) must be indented as compared to its parent tag.
 ..
 
-.. warning:: Important
+.. warning:: 重要
 
-   As yaml is structured with indentation(like Python), each child tag(sub-tag) must be indented as compared to its parent tag.
+   yaml 的结构采用(像 Python)缩进, 每一个 child 标签(sub-tag) 相对于父标签进行缩进.
 
 .. i18n: Field Tag
 .. i18n: +++++++++
@@ -1547,7 +1547,7 @@ Field Tag
 ..
 
 * text
-    + text with special characters at beginning or at end must be enclosed with double quotes.
+    + 用双引号在前面或后面包含输入的文字.
         **Ex: name: "[PC1] Basic PC"**
 
 * integer and float
@@ -1561,18 +1561,18 @@ Field Tag
     **date_start: str(time.localtime()[0] - 1) + -08-07**
 
 * selection
-    + give the shortcut
+    + 给出一个缩写
         **Ex: title: M.**
 
 * many2one
-    + if its a reference to res_id, specify the res_id
+    + 如果它是 res_id 的引用, 指向 res_id
         **Ex: user_id: base.user_root**
 
 .. i18n:     + if its value is based on search criteria specify the model to search on and the criteria
 .. i18n:         **Ex: object_id: !ref {model: ir.model, search: "[('model','=','crm.claim')]”}**
 ..
 
-    + if its value is based on search criteria specify the model to search on and the criteria
+    + 如果它的值是基于搜索条目，那么指定 model 到搜索条目
         **Ex: object_id: !ref {model: ir.model, search: "[('model','=','crm.claim')]”}**
 
 .. i18n: * one2many
@@ -1608,7 +1608,7 @@ Field Tag
 ..
 
 * many2many
-    + start each record in many2many field with a space and a hyphen
+    + 用每一个 many2many 字段，以空格和连字符开始
         **Ex: type_ids:**
         **- project_tt_specification **
         **- project_tt_development**
