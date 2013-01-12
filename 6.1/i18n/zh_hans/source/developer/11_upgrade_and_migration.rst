@@ -289,7 +289,7 @@ field tag
 .. i18n: The attributes for the field tag are the following:
 ..
 
-The attributes for the field tag are the following:
+对应的属性如下:
 
 .. i18n:     * **name**
 .. i18n:           o mandatory attribute indicating the field name
@@ -300,11 +300,11 @@ The attributes for the field tag are the following:
 ..
 
     * **name**
-          o mandatory attribute indicating the field name
+          o 必须的属性，用于指定字段名称
     * **eval**
-          o python expression that indicating the value to add
+          o 用于指定添加值的 python 语句
     * **ref**
-          o reference to an id defined in this file
+          o 定义在此文件中的 id 的引用
 
 .. i18n: function tag
 .. i18n: ++++++++++++
@@ -322,13 +322,13 @@ function tag
     * model:
     * name:
     * eval
-          o should evaluate to the list of parameters of the method to be called, excluding cr and uid
+          o 用于评价将被调用的方法的属性列表，包括 cr 和 uid 
 
 .. i18n: Example
 .. i18n: """""""
 ..
 
-Example
+例子
 """""""
 
 .. i18n: .. code-block:: xml
@@ -356,7 +356,7 @@ getitem tag
 .. i18n: Takes a subset of the evaluation of the last child node of the tag.
 ..
 
-Takes a subset of the evaluation of the last child node of the tag.
+采用标签最后一个子节点的子集.
 
 .. i18n:     * type
 .. i18n:           - int or list
@@ -373,13 +373,13 @@ Takes a subset of the evaluation of the last child node of the tag.
 .. i18n: """""""
 ..
 
-Example
+例子
 """""""
 
 .. i18n: Evaluates to the first element of the list of ids returned by the function node:
 ..
 
-Evaluates to the first element of the list of ids returned by the function node:
+节点返回的一个 ids 的列表的第一个元素:
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -408,7 +408,7 @@ Evaluates to the first element of the list of ids returned by the function node:
 
 .. _yaml-serialization:
 
-YAML 数据持久化
+YAML 数据序列化
 -----------------------
 
 .. i18n: YAML is a **human-readable** data serialization format that takes concepts from
@@ -419,12 +419,10 @@ YAML 数据持久化
 .. i18n: the following advantages:
 ..
 
-YAML is a **human-readable** data serialization format that takes concepts from
-programming languages such as C, Perl, and **Python**, and ideas from **XML**
-and the data format of electronic mail.
+YAML 是 **human-readable** 可读的数据序列化格式 概念源于 C, Perl, **Python**, 主意来自 **XML**
+和电子邮件的数据格式.
 YAML stands for *YAML Ain't Markup Language* (yes, that's a recursive acronym).
-YAML is available as a format for OpenERP data **as of OpenERP 6.0**, featuring
-the following advantages:
+YAML 用于 OpenERP 数据格式 **as of OpenERP 6.0**, 有以下优点:
 
 .. i18n:     * User friendly format as an alternative to our current XML data format.
 .. i18n:     * Same system to load data or tests, integrated in modules.
@@ -432,21 +430,21 @@ the following advantages:
 .. i18n:     * Simpler for non developers to write functional tests.
 ..
 
-    * User friendly format as an alternative to our current XML data format.
-    * Same system to load data or tests, integrated in modules.
-    * Built in OpenERP so that you can develop complex Python tests.
-    * Simpler for non developers to write functional tests.
+    * 作为当前的 XML 格式的一个用户友善的备选格式.
+    * 在相同的系统模块中进行数据的装载，测试集成.
+    * 内建与 OpenERP 以便开发复杂的 Python 测试.
+    * 方便非开发人员写功能测试.
 
 .. i18n: The following section compares an XML record with an equivalent YAML record.
 ..
 
-The following section compares an XML record with an equivalent YAML record.
+下面是一个 XML 记录和 YAML 记录的比较.
 
 .. i18n: First the XML Record using the current XML serialization format
 .. i18n: (see :ref:`previous section <xml-serialization>`)
 ..
 
-First the XML Record using the current XML serialization format
+首先，XML 记录使用当前的 XML 序列化格式：
 (see :ref:`previous section <xml-serialization>`)
 
 .. i18n: .. code-block:: xml
