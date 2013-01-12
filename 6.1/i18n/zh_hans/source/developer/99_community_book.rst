@@ -147,7 +147,7 @@ This is the official and proposed way to contribute on OpenERP and OpenObject.
 .. i18n:   bzr ci -m "Testing Modifications"
 ..
 
-This will download all components of openerp (server, client, addons) and create links of modules in addons on your server so that you can use it directly. You can change the bzr_set.py file to select what you want to download exactly. Now, you can edit the code and commit in your local branch.::
+这些命令将下载运行 OpenERP 的所有的源码包含(server, client, addons), 接下来,将 addons 文件夹软链到 server addons 文件夹下,就可以直接使用 addons 中的所有业务模块了. 现在你可以修改 bzr_set.py 中代码源为你本地地址, 并可以开始编辑代码, 提交代码到你自己的本地代码分支. ::
 
   EDIT addons/account/account.py
   cd addons
@@ -890,7 +890,7 @@ If you're a blueprint owner and want Launchpad to know about updates to the rela
 .. i18n: * https://blueprints.launchpad.net/~openerp-commiter
 ..
 
-The Blueprints for OpenERP are listed here:
+ Blueprints for OpenERP are listed here:
 	
 * https://blueprints.launchpad.net/openerp
 * https://blueprints.launchpad.net/~openerp-commiter
