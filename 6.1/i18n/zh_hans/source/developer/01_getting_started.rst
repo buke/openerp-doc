@@ -542,14 +542,14 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 -------------------------
  
   -d DB_NAME, --database=DB_NAME
-                        specify the database name
+                        指定数据库名
   -r DB_USER, --db_user=DB_USER
-                        specify the database user name
+                        数据库用户名
   -w DB_PASSWORD, --db_password=DB_PASSWORD
-                        specify the database password
-  --pg_path=PG_PATH   specify the pg executable path
-  --db_host=DB_HOST   specify the database host
-  --db_port=DB_PORT   specify the database port
+                        数据库密码
+  --pg_path=PG_PATH   PG bin 路径
+  --db_host=DB_HOST   数据库主机名或IP地址
+  --db_port=DB_PORT   数据库端口
  
 多语言相关参数:
 -----------------------------
@@ -574,16 +574,13 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
     section of the user manual. Option '-l' is mandatory.
  
   -l LANGUAGE, --language=LANGUAGE
-                       specify the language of the translation file. Use it
-                       with --i18n-export and --i18n-import
+                       指定翻译文件。与 --i18n-export 或 --i18n-import一起使用。
   --i18n-export=TRANSLATE_OUT
-                       export all sentences to be translated to a CSV file
-                       and exit
+                       导出翻译语言为CSV文件，然后结束
   --i18n-import=TRANSLATE_IN
-                       import a CSV file with translations and exit
+                       导入CSV翻译文件，然后结束
   --modules=TRANSLATE_MODULES
-                       specify modules to export. Use in combination with
-                       --i18n-export
+                       指定要导出模块翻译。与 --i18n-export 一起使用
 
 .. i18n: Options from previous versions:
 .. i18n: -------------------------------
@@ -593,5 +590,4 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 
 其它兼容旧版源码参数:
 -------------------------------
-Some options were removed in version 6. For example, ``price_accuracy`` is now
-configured through the :ref:`decimal_accuracy` screen.
+某些参数在OE6中被移除。如 ``price_accuracy`` 现在是通过  :ref:`decimal_accuracy`  配置。
