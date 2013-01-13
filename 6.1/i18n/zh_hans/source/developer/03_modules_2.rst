@@ -746,11 +746,12 @@ domain: 相关字段的Domain restriction
 .. i18n: :char:
 ..
 
-:字符串(char):
+:char:
 
 .. i18n:   A string of limited length. The required size parameter determines its size.
 ..
 
+  字符串(char):
   限定长度的字符串，size属性定义字符串长度。
 
 .. i18n:   Syntax::
