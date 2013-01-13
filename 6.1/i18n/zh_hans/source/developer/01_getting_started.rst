@@ -173,14 +173,14 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n:   openerp-server.py -s
 ..
 
-The client configuration file is automatically generated upon the first start. The one of the server can automatically be created using the command: ::
-
+客户端第一次启动会自动生成配置文件。
+服务端配置文件可以使用下面命令生成: ::
   openerp-server.py -s
 
 .. i18n: If they are not found, the server and the client will start with the default configuration.
 ..
 
-If they are not found, the server and the client will start with the default configuration.
+如果上面的配置文件不存在，服务端和客户端将按照默认配置启动。
 
 .. i18n: **Server Configuration File**
 ..
@@ -190,7 +190,8 @@ If they are not found, the server and the client will start with the default con
 .. i18n: The server configuration file .openerp_serverrc is used to save server startup options. Here is the list of the available options:
 ..
 
-The server configuration file .openerp_serverrc is used to save server startup options. Here is the list of the available options:
+服务端配置文件  .openerp_serverrc  用于保存服务启动参数。
+以下是可用的参数:
 
 .. i18n: :interface:
 .. i18n:     Address to which the server will be bound 
@@ -225,21 +226,21 @@ The server configuration file .openerp_serverrc is used to save server startup o
 ..
 
 :translate_in:
-    File used to translate OpenERP to your language 
+    导入翻译文件
 
 .. i18n: :translate_out:
 .. i18n:     File used to export the language OpenERP use 
 ..
 
 :translate_out:
-    File used to export the language OpenERP use 
+    导出翻译文件
 
 .. i18n: :language:
 .. i18n:     Use this language as the language of the server. This must be specified as an ISO country code, as specified by the W3C. 
 ..
 
 :language:
-    Use this language as the language of the server. This must be specified as an ISO country code, as specified by the W3C. 
+    默认载入语言. 必须是符合 W3C 标准的 ISO 国家代码，
 
 .. i18n: :verbose:
 .. i18n:     Enable debug output 
@@ -302,21 +303,21 @@ The server configuration file .openerp_serverrc is used to save server startup o
 ..
 
 :db_host:
-    specify the database host 
+    PG数据库主机名
 
 .. i18n: :db_port:
 .. i18n:     specify the database port 
 ..
 
 :db_port:
-    specify the database port 
+    PG 数据库端口
 
 .. i18n: :translate_modules:
 .. i18n:     Specify modules to export. Use in combination with --i18n-export 
 ..
 
 :translate_modules:
-    Specify modules to export. Use in combination with --i18n-export 
+    指定导出模块，与 --i18n-export 参数一起使用
 
 .. i18n: You can create your own configuration file by specifying -s or --save on the server command line. If you would like to write an alternative configuration file, use -c <config file> or --config=<config file>
 .. i18n: Here is a basic configuration for a server::
@@ -332,8 +333,9 @@ The server configuration file .openerp_serverrc is used to save server startup o
 .. i18n:         reportgz = False
 ..
 
-You can create your own configuration file by specifying -s or --save on the server command line. If you would like to write an alternative configuration file, use -c <config file> or --config=<config file>
-Here is a basic configuration for a server::
+通过指定  -s 或 --save 参数从命令行启动服务，可以创建你自己的配置文件。
+你也可以使用 -c <配置文件路径> 或 --config=<配置文件路径> 参数，加载配置文件启动服务。
+以下是基本的服务端配置::
 
         [options]
         verbose = False
@@ -399,7 +401,7 @@ Here is a basic configuration for a server::
 .. i18n:         server = localhost
 ..
 
-Full Example for Server V5.0 ::
+完整例子 Server V5.0 ::
 
         [printer]
         path = none
@@ -510,32 +512,31 @@ Full Example for Server V5.0 ::
 .. i18n: -----------------------------
 ..
 
-  --version             show program version number and exit
-  -h, --help            show this help message and exit
+  --version             显示版本信息，然后结束
+  -h, --help            显示帮助信息，然后结束
   -c CONFIG, --config=CONFIG
-                        specify alternate config file
-  -s, --save            save configuration to ~/.terp_serverrc
-  -v, --verbose         enable debugging
-  --pidfile=PIDFILE     file where the server pid will be stored
-  --logfile=LOGFILE     file where the server log will be stored
+                        指定配置文件
+  -s, --save            保存配置文件到 ~/.terp_serverrc
+  -v, --verbose         开启调试模式
+  --pidfile=PIDFILE     存储服务启动的 PID 文件
+  --logfile=LOGFILE     存储LOG的文件
   -n INTERFACE, --interface=INTERFACE
-                        specify the TCP IP address
-  -p PORT, --port=PORT  specify the TCP port
+                        监听IP地址
+  -p PORT, --port=PORT  监听 TCP 端口
   --net_interface=NETINTERFACE
-                        specify the TCP IP address for netrpc
-  --net_port=NETPORT    specify the TCP port for netrpc
-  --no-netrpc           disable netrpc
-  --no-xmlrpc           disable xmlrpc
-  -i INIT, --init=INIT  init a module (use "all" for all modules)
+                        netrpc 监听IP地址
+  --net_port=NETPORT    netrpc 监听端口
+  --no-netrpc           禁止 netrpc 协议
+  --no-xmlrpc           禁止 xmlrpc 协议
+  -i INIT, --init=INIT  初始化模块 ("all" 参数为初始化所有模块)
   --without-demo=WITHOUT_DEMO
-                        load demo data for a module (use "all" for all
-                        modules)
+                        加载 demo 数据 ( "all" 参数为加载所有模块的demo 数据)
   -u UPDATE, --update=UPDATE
-                        update a module (use "all" for all modules)
-  --stop-after-init     stop the server after it initializes
-  --debug               enable debug mode
-  -S, --secure          launch server over https instead of http
-  --smtp=SMTP_SERVER    specify the SMTP server for sending mail
+                        升级模块 ( "all" 参数为升级所有模块)
+  --stop-after-init     初始化后停止运行
+  --debug               开启调试模式
+  -S, --secure          https 协议
+  --smtp=SMTP_SERVER    SMTP 服务器
  
 数据库相关参数:
 -------------------------
