@@ -9,8 +9,8 @@ Objects, Fields and Methods
 .. i18n: ---------------
 ..
 
-OpenERP Objects
----------------
+OpenERP 对象
+------------
 
 .. i18n: .. This chapter is dedicated to detailed objects definition:
 .. i18n:     all fields
@@ -26,7 +26,7 @@ OpenERP Objects
 .. i18n: All the ERP's pieces of data are accessible through "objects". As an example, there is a res.partner object to access the data concerning the partners, an account.invoice object for the data concerning the invoices, etc...
 ..
 
-我们可以通过“对象”访问所有ERP的数据。举个例子，可以通过“res.partner”对象访问“partners”相关的数据，通过“account.invoice”对象访问“invoices”相关的数据。
+我们可以通过 `对象` 访问所有ERP的数据。举个例子，可以通过 `res.partner` 对象访问 `合作伙伴` 相关的数据，通过 `account.invoice` 对象访问 `发票` 相关的数据。
 
 .. i18n: Please note that there is an object for every type of resource, and not an
 .. i18n: object per resource. We have thus a res.partner object to manage all the
@@ -522,8 +522,8 @@ Inheritance by Delegation - _inherits
 
 .. _fields-link:
 
-Fields Introduction
--------------------
+字段(Fields) 简介
+-----------------
 
 .. i18n: Objects may contain different types of fields. Those types can be divided into
 .. i18n: three categories: simple types, relation types and functional fields. The
@@ -614,7 +614,7 @@ domain: 相关字段的Domain restriction
 .. i18n:     Default value: []. 
 ..
 
-    Default value: []. 
+    缺省值: []. 
 
 .. i18n:     Example: domain=[('field','=',value)])
 .. i18n: :invisible: Hide the field's value in forms. For example, a password.
@@ -641,15 +641,15 @@ domain: 相关字段的Domain restriction
 .. i18n: --------------
 ..
 
-Type of Fields
---------------
+字段类型
+--------
 
 .. i18n: Basic Types
 .. i18n: +++++++++++
 ..
 
-Basic Types
-+++++++++++
+基础类型
+++++++++
 
 .. i18n: :boolean:
 ..
@@ -659,16 +659,16 @@ Basic Types
 .. i18n: 	A boolean (true, false).
 ..
 
-	A boolean (true, false).
+	布尔型(boolean) (true, false).
 
 .. i18n: 	Syntax::
 .. i18n: 
 .. i18n:                 fields.boolean('Field Name' [, Optional Parameters]),
 ..
 
-	Syntax::
+	语法::
 
-                fields.boolean('Field Name' [, Optional Parameters]),
+                fields.boolean('字段名称' [, 可选参数]),
 
 .. i18n: :integer:
 ..
@@ -678,16 +678,16 @@ Basic Types
 .. i18n: 	An integer.
 ..
 
-	An integer.
+	整型(integer).
 
 .. i18n: 	Syntax::
 .. i18n: 
 .. i18n:                 fields.integer('Field Name' [, Optional Parameters]),
 ..
 
-	Syntax::
+	语法::
 
-                fields.integer('Field Name' [, Optional Parameters]),
+                fields.integer('字段名称' [, 可选参数]),
 
 .. i18n: :float:
 ..
@@ -697,7 +697,7 @@ Basic Types
 .. i18n:     A floating point number.
 ..
 
-    A floating point number.
+    浮点型(float).
 
 .. i18n:     Syntax::
 .. i18n: 
@@ -722,9 +722,9 @@ Basic Types
 .. i18n:             Optional Parameters]),
 ..
 
-    Syntax::
+    语法::
 
-                fields.float('Field Name' [, Optional Parameters]),
+                fields.float('字段名称' [, 可选参数]),
 
     .. note::
 
@@ -736,7 +736,7 @@ Basic Types
             converted to its binary representation) and this can lead to rounding
             errors. You should always use the digits parameter for monetary amounts.
 
-    Example::
+    例子::
 
         'rate': fields.float(
             'Relative Change rate',
@@ -746,7 +746,7 @@ Basic Types
 .. i18n: :char:
 ..
 
-:char:
+:字符串(char):
 
 .. i18n:   A string of limited length. The required size parameter determines its size.
 ..
@@ -765,12 +765,12 @@ Basic Types
 .. i18n:         'city' : fields.char('City Name', size=30, required=True),
 ..
 
-  Syntax::
+  语法::
 
   	fields.char(
-  		'Field Name', 
+  		'字段名称', 
   		size=n [, 
-  		Optional Parameters]), # where ''n'' is an integer.
+  		可选参数]), # 参数 ''n'' 指明了字符串字段的长度.
 
   Example::
 
