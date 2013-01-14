@@ -99,8 +99,8 @@ Example 1
 .. i18n: (where cr is the current row, from the database cursor, uid is the current user's ID for security checks, and ID is the sale order's ID or list of IDs if we want more than one)
 ..
 
-(where cr is the current row, from the database cursor, uid is the current user's ID for security checks, and ID is the sale order's ID or list of IDs if we want more than one)
 (数据库游标中，cr是当前行，uid是当前用户的ID,为了安全起见，ID是销售订单的ID，如果要得到多个结果的时候，ID就为多个销售订单ID的列表)
+
 .. i18n: Suppose you want to get: the country name of the first contact of a partner related to the ID sale order. You can do the following in OpenERP::
 .. i18n: 
 .. i18n:     country_name = sale.partner_id.address[0].country_id.name
