@@ -94,6 +94,7 @@ Example 1
 Suppose sale is a variable on a record of the sale.order object related to the 'sale_order' table. You can acquire such a variable doing this.::
 
     sale = self.browse(cr, uid, ID)
+
 假设销售在sale.order对象中相关的sale_order表中是一个可变记录，你可以用使用下面的代码得到这个变量：
     sale = self.browse(cr, uid, ID)
 .. i18n: (where cr is the current row, from the database cursor, uid is the current user's ID for security checks, and ID is the sale order's ID or list of IDs if we want more than one)
@@ -109,8 +110,10 @@ Suppose sale is a variable on a record of the sale.order object related to the '
 Suppose you want to get: the country name of the first contact of a partner related to the ID sale order. You can do the following in OpenERP::
 
     country_name = sale.partner_id.address[0].country_id.name
+
 假设你想要根据第一个合作伙伴相关的销售订单ID取得相应的国家名，那么你可以在OpenERP中如下实现：
-    country_name = sale.partner_id.address[0].country_id.name	
+    country_name = sale.partner_id.address[0].country_id.name
+
 .. i18n: If you want to write the same thing in traditional SQL development, it will be in python: (we suppose cr is the cursor on the database, with psycopg)
 ..
 
