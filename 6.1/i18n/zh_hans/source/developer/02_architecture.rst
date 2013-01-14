@@ -65,6 +65,12 @@ In OpenERP, we can apply this model-view-controller semantic with
     * view : views are defined in XML files in OpenERP.
     * controller : The objects of OpenERP. 
 
+在OpenERP中，我们可以这样应用model-view-controller语义：
+
+    * Model : PostGreSQL数据表
+    * View : 在OpenERP中定义XML文件 
+    * Controller : OpenERP的对象
+
 .. i18n: MVCSQL
 .. i18n: ------
 ..
