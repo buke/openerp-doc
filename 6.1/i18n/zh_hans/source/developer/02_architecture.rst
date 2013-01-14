@@ -106,11 +106,8 @@ Example 1
 .. i18n:     country_name = sale.partner_id.address[0].country_id.name
 ..
 
-Suppose you want to get: the country name of the first contact of a partner related to the ID sale order. You can do the following in OpenERP::
+假设你想要根据第一个合作伙伴相关的销售订单ID取得相应的国家名，那么你可以在OpenERP中如下实现:
 
-    country_name = sale.partner_id.address[0].country_id.name
-
-假设你想要根据第一个合作伙伴相关的销售订单ID取得相应的国家名，那么你可以在OpenERP中如下实现：
     country_name = sale.partner_id.address[0].country_id.name
 
 .. i18n: If you want to write the same thing in traditional SQL development, it will be in python: (we suppose cr is the cursor on the database, with psycopg)
