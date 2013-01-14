@@ -92,12 +92,10 @@ Example 1
 .. i18n:     sale = self.browse(cr, uid, ID)
 ..
 
-Suppose sale is a variable on a record of the sale.order object related to the 'sale_order' table. You can acquire such a variable doing this.::
+假设销售在sale.order对象中相关的sale_order表中是一个可变记录，你可以用使用下面的代码得到这个变量:
 
     sale = self.browse(cr, uid, ID)
 
-假设销售在sale.order对象中相关的sale_order表中是一个可变记录，你可以用使用下面的代码得到这个变量：
-    sale = self.browse(cr, uid, ID)
 .. i18n: (where cr is the current row, from the database cursor, uid is the current user's ID for security checks, and ID is the sale order's ID or list of IDs if we want more than one)
 ..
 
