@@ -445,7 +445,7 @@ YAML 用于 OpenERP 数据格式 **as of OpenERP 6.0**, 有以下优点:
 ..
 
 首先，XML 记录使用当前的 XML 序列化格式：
-(see :ref:`previous section <xml-serialization>`)
+(参阅 :ref:`previous section <xml-serialization>` )
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -626,11 +626,11 @@ data
 .. i18n:        noupdate: 0
 ..
 
-* **Compulsory attributes**: None
+* **必选属性**: None
 
-* **Optional attributes**: noupdate \: 0 | 1
+* **可选属性**: noupdate \: 0 | 1
 
-* **Child_tags**:
+* **子节点**:
 
   - menuitem
 
@@ -650,7 +650,7 @@ data
 
   - ir_set
 
-* **Example**:
+* **样例**:
   ::
 
     -
@@ -664,7 +664,7 @@ data
 
 record
 """"""
-* **Tag**: record
+* **标签**: record
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:                 - model
@@ -699,22 +699,22 @@ record
 .. i18n:                 order_id: sale_order_so4
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
                 - model
 
-* **Optional attributes**: noupdate \: 0 | 1
+* **可选属性**: noupdate \: 0 | 1
 
-* **Child_tags**:
+* **子节点标签**:
             - field
 
-* **Optional attributes**:
+* **可选属性**:
                       - id
 
                       - forcreate
 
                       - context
 
-* **Example**:
+* **样例**:
   ::
 
     -
@@ -767,12 +767,12 @@ field
 .. i18n:     -product_id: product.product_product_pc1
 ..
 
-* **Tag**: field
+* **标签**: field
 
-* **Compulsory attributes**:
+* **必选属性**:
                 - name
 
-* **Optional attributes**:
+* **可选属性**:
                       - type
 
                       - ref
@@ -786,10 +786,10 @@ field
                       - model
 
                       - use
-* **Child_tags**:
+* **子节点标签**:
             - text node
 
-* **Example**:
+* **样例**:
   ::
 
     -price_unit: 450
@@ -802,7 +802,7 @@ field
 
 workflow
 """"""""
-* **Tag**: workflow
+* **标签**: workflow
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:                 - model
@@ -828,20 +828,20 @@ workflow
 .. i18n:        search: [('type', '=', 'cash')]
 ..
 
-* **Compulsory attributes**:
+* **必填属性**:
                 - model
 
                 - action
 
-* **Optional attributes**:
+* **可选属性**:
                  - uid
 
                  - ref
 
-* **Child_tags**:
+* **子节点标签**:
             - value
 
-* **Example**:
+* **样例**:
   ::
 
    -
@@ -858,7 +858,7 @@ workflow
 
 function
 """"""""
-* **Tag**: function
+* **标签**: function
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:                 - model
@@ -884,22 +884,22 @@ function
 .. i18n:       model: sale.order
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
                 - model
 
                 - name
 
-* **Optional attributes**:
+* **可选属性**:
                  - id
 
                  - eval
 
-* **Child_tags**:
+* **子节点标签**:
             - value
 
             - function
 
-* **Example**:
+* **样例**:
   ::
 
    -
@@ -914,7 +914,7 @@ function
 
 value
 """"""
-* **Tag**: value
+* **标签**: value
 
 .. i18n: * **Compulsory attributes**: None
 .. i18n: 
@@ -934,18 +934,18 @@ value
 .. i18n:       model: sale.order
 ..
 
-* **Compulsory attributes**: None
+* **必选属性**: None
 
-* **Optional attributes**:
+* **可选属性**:
                  - model
 
                  - search
 
                  - eval
 
-* **Child_tags**: None
+* **子节点属性**: None
 
-* **Example**:
+* **样例**:
   ::
 
      -eval: "[obj(ref('test_order_1')).id]"
@@ -958,7 +958,7 @@ value
 
 menuitem
 """"""""
-* **Tag**: menuitem
+* **标签**: menuitem
 
 .. i18n: * **Compulsory attributes**: None
 .. i18n: 
@@ -994,9 +994,9 @@ menuitem
 .. i18n:        icon: terp-administration}
 ..
 
-* **Compulsory attributes**: None
+* **必选属性**: None
 
-* **Optional attributes**:
+* **可选属性**:
                  - id
 
                  - name
@@ -1017,9 +1017,9 @@ menuitem
 
                  - menu
 
-* **Child_tags**: None
+* **子节点标签**: None
 
-* **Example**:
+* **样例**:
   ::
 
      -
@@ -1034,7 +1034,7 @@ menuitem
 
 act_window
 """"""""""
-* **Tag**: act_window
+* **标签**: act_window
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:                 - id
@@ -1078,14 +1078,14 @@ act_window
 .. i18n:        id:act_menu_create, name: Create Menu}
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
                 - id
 
                 - name
 
                 - res_model
 
-* **Optional attributes**:
+* **可选属性**:
 
                 - domain
 
@@ -1109,9 +1109,9 @@ act_window
 
                 - groups
 
-* **Child_tags**: None
+* **子节点标签**: None
 
-* **Example**:
+* **样例**:
   ::
 
      -
@@ -1126,7 +1126,7 @@ act_window
 
 report
 """"""
-* **Tag**: report
+* **标签**: report
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:                 - string
@@ -1178,14 +1178,14 @@ report
 .. i18n:         name: ir.module.reference}
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
                 - string
 
                 - model
 
                 - name
 
-* **Optional attributes**:
+* **可选属性**:
 
                 - id
 
@@ -1215,9 +1215,9 @@ report
 
                 - groups
 
-* **Child_tags**: None
+* **子节点标签**: None
 
-* **Example**:
+* **样例**:
   ::
 
      -
@@ -1234,7 +1234,7 @@ report
 
 ir_set
 """"""
-* **Tag**: ir_set
+* **标签**: ir_set
 
 .. i18n: * **Compulsory attributes**: None
 .. i18n: 
@@ -1253,14 +1253,14 @@ ir_set
 .. i18n:     value: tax_seller
 ..
 
-* **Compulsory attributes**: None
+* **必选属性**: None
 
-* **Optional attributes**: None
+* **可选属性**: None
 
-* **Child_tags**:
+* **子节点属性**:
             - field
 
-* **Example**:
+* **样例**:
   ::
 
    -
@@ -1276,7 +1276,7 @@ ir_set
 
 python
 """"""
-* **Tag**: Python
+* **标签**: Python
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:             - model
@@ -1291,14 +1291,14 @@ python
 .. i18n:    Python code
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
             - model
 
-* **Optional attributes**: None
+* **可选属性**: None
 
-* **Child_tags**: None
+* **子节点标签**: None
 
-* **Example**:
+* **样例**:
   ::
 
    Python code
@@ -1310,7 +1310,7 @@ python
 
 delete
 """"""
-* **Tag**: delete
+* **标签**: delete
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:             - model
@@ -1329,17 +1329,17 @@ delete
 .. i18n:      !delete {model: ir.actions, search: "[(model,like,auction.)]"}
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
             - model
 
-* **Optional attributes**:
+* **可选属性**:
                 - id
 
                 - search
 
-* **Child_tags**: None
+* **子节点标签**: None
 
-* **Example**:
+* **样例**:
   ::
 
    -
@@ -1352,7 +1352,7 @@ delete
 
 assert
 """"""
-* **Tag**: assert
+* **标签**: assert
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:             - model
@@ -1376,20 +1376,20 @@ assert
 .. i18n:         - state == "progress"
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
             - model
 
-* **Optional attributes**:
+* **可选属性**:
                 - id
 
                 - search
 
                 - string
 
-* **Child_tags**:
+* **子节点标签**:
         - test
 
-* **Example**:
+* **样例**:
   ::
 
    -
@@ -1404,7 +1404,7 @@ assert
 
 test
 """"
-* **Tag**: test
+* **标签**: test
 
 .. i18n: * **Compulsory attributes**:
 .. i18n:             - expr
@@ -1419,15 +1419,15 @@ test
 .. i18n:     - picking_ids[0].state == "done"
 ..
 
-* **Compulsory attributes**:
+* **必选属性**:
             - expr
 
-* **Optional attributes**: None
+* **可选属性**: None
 
-* **Child_tags**:
+* **子节点标签**:
         - text node
 
-* **Example**::
+* **样例**::
 
     - picking_ids[0].state == "done"
 
@@ -1438,7 +1438,7 @@ test
 
 url
 """"
-* **Tag**: url
+* **标签**: url
 
 .. i18n: * **Compulsory attributes**: -
 .. i18n: 
@@ -1449,13 +1449,13 @@ url
 .. i18n: * **Example**: -
 ..
 
-* **Compulsory attributes**: -
+* **必选属性**: -
 
-* **Optional attributes**: -
+* **可选属性**: -
 
-* **Child_tags**: -
+* **子节点标签**: -
 
-* **Example**: -
+* **样例**: -
 
 .. i18n: Writing YAML Tests
 .. i18n: ------------------
