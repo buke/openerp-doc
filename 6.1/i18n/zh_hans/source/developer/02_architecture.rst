@@ -83,8 +83,9 @@ MVCSQL
 ..
 
 Example 1
-例子1
 +++++++++
+例子1
++++++
 
 .. i18n: Suppose sale is a variable on a record of the sale.order object related to the 'sale_order' table. You can acquire such a variable doing this.::
 .. i18n: 
