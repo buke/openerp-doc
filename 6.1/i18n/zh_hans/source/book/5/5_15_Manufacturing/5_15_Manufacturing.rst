@@ -496,9 +496,7 @@ products). 生产的业务过程，在OpenERP您可以从原材料
 .. i18n: If you have to scrap the final product before it is finished, you will have to scrap every component allowed for this product. 
 ..
 
-If you have to scrap the final product before it is finished, you will have to scrap every component allowed for this product. 
-
-    如果在产品没有完成之前想废弃它，你将不得不废弃制造这件产品的所有原材料
+如果在产品没有完成之前想废弃它，你将不得不废弃制造这件产品的所有原材料
 
 .. i18n: .. figure:: images/mo_scrap.png
 .. i18n:     :scale: 75
@@ -517,8 +515,8 @@ If you have to scrap the final product before it is finished, you will have to s
 
 .. i18n: If you scrap a Product to Finish, you will get the situation illustrated in the previous figure. A finished product will be *created* and put in the scrapped virtual location. A new Product to Finish has been added to the manufacturing order.
 ..
-   如果你废弃一件成品，
-If you scrap a Product to Finish, you will get the situation illustrated in the previous figure. A finished product will be *created* and put in the scrapped virtual location. A new Product to Finish has been added to the manufacturing order.
+
+   如果你废弃一件成品， you will get the situation illustrated in the previous figure. A finished product will be *created* and put in the scrapped virtual location. A new Product to Finish has been added to the manufacturing order.
 
 .. i18n: .. tip:: Scrap a product
 .. i18n: 
