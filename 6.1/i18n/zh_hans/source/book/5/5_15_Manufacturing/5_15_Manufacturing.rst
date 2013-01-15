@@ -180,7 +180,7 @@
 .. i18n: you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 ..
 
-报价单建好后, 你可以通过按钮 :guilabel:`Confirm Order` 来立即确认订单.at the bottom to the right. Keep note of the order reference because this
+报价单建好后, 你可以通过按钮 :guilabel:`Confirm Order` 来立即确认订单. at the bottom to the right. Keep note of the order reference because this
 follows all through the process. Usually, in a new database, this will be ``SO007`` . At this stage,
 you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 
@@ -258,8 +258,7 @@ PC2 电脑分两步来制造:
 .. i18n: list of orders to start (``Ready to Produce``) and the estimated start date (``Scheduled Date``) to meet the customer delivery date.
 ..
 
-生产主管可以使用菜单
-:menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`看到生产订单. 然后，您可以得到一个
+生产主管可以使用菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` 看到生产订单. 然后，您可以得到一个
 准备生产的订单列表 (``Ready to Produce``) 和预计开始日期 (``Scheduled Date``) 满足客户的交付日期.
 
 .. i18n: .. figure:: images/mrp_production_list_new.png
@@ -405,8 +404,7 @@ PC2 电脑分两步来制造:
 .. i18n: same finished product from raw materials (A + B > C). With Subproduct management, the manufacturing result can be to have both finished products and secondary products (A + B > C + D).
 ..
 
-如果您需要管理的子产品, 你应该安装的模块 :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-
-products). 生产的业务过程，在OpenERP您可以从原材料
+如果您需要管理的子产品, 你应该安装的模块 :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-products). 生产的业务过程，在OpenERP您可以从原材料
 制造几个单位的成品 (A + B > C). 在子产品管理, 制造的结果可以是有两个成品和子产品 (A + B > C + D).
 
 .. i18n: .. note:: Subproduct Material
@@ -509,14 +507,13 @@ products). 生产的业务过程，在OpenERP您可以从原材料
     :scale: 75
     :align: center
     
-    *Scrapping a Product to Finish*
-
-     成品废弃
+    *成品废弃*
 
 .. i18n: If you scrap a Product to Finish, you will get the situation illustrated in the previous figure. A finished product will be *created* and put in the scrapped virtual location. A new Product to Finish has been added to the manufacturing order.
 ..
 
    如果你废弃一件成品， 你可以在当前的图片中得到提示。一件成品将被创建并放在废弃的虚拟仓库中。已完成的新产品将被添加到制造订单中。
+
  .. i18n: .. tip:: Scrap a product
 .. i18n: 
 .. i18n:     To scrap a product, you have to edit the manufacturing order and then select the product to be
@@ -526,6 +523,7 @@ products). 生产的业务过程，在OpenERP您可以从原材料
 .. tip:: Scrap a product
 
     废弃一件产品, 你必须编辑制造订单,然后选择产品，通过点击来取消左边有小铅笔在的项。
+
 .. i18n: This new product has been added for the following reason: when you have to manufacture a product and if this product
 .. i18n: has to be scrapped, you have to produce another product to replace the scrapped one. The reason why 
 .. i18n: you have to scrap each component manually is that the production problem can come from one component.
