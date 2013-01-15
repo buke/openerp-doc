@@ -17,7 +17,7 @@
 .. i18n: Since version 4.2 of OpenERP, the XML api provides several features to test your modules. They allow you to
 ..
 
-Since version 4.2 of OpenERP, the XML api provides several features to test your modules. They allow you to
+自OpenERP 4.2版以来, 新增了利用XML文件进行模块测试的功能. 可以完成:
 
 .. i18n:     * test the properties of your records, your class invariants etc.
 .. i18n:     * test your methods
@@ -31,7 +31,7 @@ Since version 4.2 of OpenERP, the XML api provides several features to test your
 .. i18n: This thus allows you to simulate user interaction and automatically test your modules.
 ..
 
-This thus allows you to simulate user interaction and automatically test your modules.
+可以利用这些来模拟一个用户与系统的交互来测试你的模块.
 
 .. i18n: Generalities
 .. i18n: ------------
@@ -40,7 +40,7 @@ This thus allows you to simulate user interaction and automatically test your mo
 ..
 
 概述
-------------
+----
  
 As you will see in the next pages, unit testing through OpenERP's XML can be done using three main tags: <assert>, <workflow> and <function>. All these tags share some common optional attributes:
 
