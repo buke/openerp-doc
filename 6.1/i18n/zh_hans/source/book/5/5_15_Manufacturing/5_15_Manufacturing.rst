@@ -31,7 +31,7 @@
 .. i18n: Of course, you can also start production manually by clicking the button :guilabel:`New` in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
 ..
 
-当然, 你可以在菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` , 点击 :guilabel:`New` 按钮手动建立生产订单 .
+当然, 你也可以在菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` , 点击 :guilabel:`New` 按钮手动建立生产订单 .
 
 .. i18n: .. figure:: images/mrp_manual.png
 .. i18n:    :scale: 75
@@ -516,9 +516,8 @@ products). 生产的业务过程，在OpenERP您可以从原材料
 .. i18n: If you scrap a Product to Finish, you will get the situation illustrated in the previous figure. A finished product will be *created* and put in the scrapped virtual location. A new Product to Finish has been added to the manufacturing order.
 ..
 
-   如果你废弃一件成品， you will get the situation illustrated in the previous figure. A finished product will be *created* and put in the scrapped virtual location. A new Product to Finish has been added to the manufacturing order.
-
-.. i18n: .. tip:: Scrap a product
+   如果你废弃一件成品， 你可以在当前的图片中得到提示。一件成品将被创建并放在废弃的虚拟仓库中。已完成的新产品将被添加到制造订单中。
+ .. i18n: .. tip:: Scrap a product
 .. i18n: 
 .. i18n:     To scrap a product, you have to edit the manufacturing order and then select the product to be
 .. i18n:     scrapped by clicking the little pencil at the left of the item.
@@ -526,16 +525,13 @@ products). 生产的业务过程，在OpenERP您可以从原材料
 
 .. tip:: Scrap a product
 
-    To scrap a product, you have to edit the manufacturing order and then select the product to be
-    scrapped by clicking the little pencil at the left of the item.
-
+    废弃一件产品, 你必须编辑制造订单,然后选择产品，通过点击来取消左边有小铅笔在的项。
 .. i18n: This new product has been added for the following reason: when you have to manufacture a product and if this product
 .. i18n: has to be scrapped, you have to produce another product to replace the scrapped one. The reason why 
 .. i18n: you have to scrap each component manually is that the production problem can come from one component.
 ..
 
-This new product has been added for the following reason: when you have to manufacture a product and if this product
-has to be scrapped, you have to produce another product to replace the scrapped one. The reason why 
+新产品由于以下的原因添加：当你要废弃一件你生产了的产品，你必须要生产另一件产品来代替这个被废弃的产品。这就是你为什么 The reason why 
 you have to scrap each component manually is that the production problem can come from one component.
 
 .. i18n: If the production process is finished and you see that you have to scrap the finished product, you will
