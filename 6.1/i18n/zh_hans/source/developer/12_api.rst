@@ -11,8 +11,8 @@ API 接口
 .. i18n: =========================
 ..
 
-Web Services 服务
-=========================
+使用Web服务（Working with Web Services）
+=======================================
 
 .. i18n: Given the architecture of OpenERP, it is not possible to reliably access the
 .. i18n: database with the PostgreSQL client or through a direct connection method
@@ -47,34 +47,31 @@ Web Services 服务
 .. i18n: use between applications written in Python.
 ..
 
-Web Services 支持协议
---------------------------------
-The currently supported protocols are XML-RPC and Net-RPC. XML-RPC is one of the
-first standard for web services, and can be used in almost any language.
-It is a pretty verbose protocol, which may sometimes introduce a bit of latency.
-Net-RPC, on the other hand, is an optimized protocol particularly designed for
-use between applications written in Python.
+支持的网络服务协议（Supported Web Services Protocols）
+-----------------------------------------------------
+目前支持的协议是XML-RPC和Net-RPC。XML-RPC是用于Web服务的第一批标准之一，
+几乎可以再任何语言中使用。这是一个非常详细的协议，而且在需要的时候可以引入潜在位。
+另一方面，Net-RPC是一个优化的协议，特别用在Python编写的应用程序之间。.
 
 .. i18n: Support for REST-style webservices is planned for future releases of OpenERP.
 ..
 
-Support for REST-style webservices is planned for future releases of OpenERP.
+对于REST风格的web服务的支持在将来的OpenErp发布包中支持。
 
 .. i18n: Support for the SOAP protocol is deprecated at the moment, but could maybe be
 .. i18n: revived if sufficient interest is found in the community.
 ..
 
-Support for the SOAP protocol is deprecated at the moment, but could maybe be
-revived if sufficient interest is found in the community.
+对于SOAP协议，目前的OPenErp已经不再支持，但是如果在社区有足够的爱好者的话将来可能恢复。
 
 .. i18n: Available Web Services
 .. i18n: ----------------------
 .. i18n: The OpenERP server provides you with the following web services.
 ..
 
-可用 Web Services
-----------------------
-The OpenERP server provides you with the following web services.
+可用的Web服务（Available Web Services）
+--------------------------------------
+OpenERP 为你提供了以下的Web服务.
 
 .. i18n: .. note::
 .. i18n:     You may find out the details of each service in the corresponding class
@@ -82,8 +79,7 @@ The OpenERP server provides you with the following web services.
 ..
 
 .. note::
-    You may find out the details of each service in the corresponding class
-    in the server sources, in bin/service/web_services.py .
+    你能在服务的源码（/bin/service/web_services.py）的对应类里面找到每种服务的细节 .
 
 .. i18n: :db:
 .. i18n:     Provides functions to create, drop, backup and restore databases.
@@ -91,8 +87,8 @@ The OpenERP server provides you with the following web services.
 ..
 
 :db:
-    Provides functions to create, drop, backup and restore databases.
-    Use with caution!
+    提供函数创建、删除、备份、恢复数据库.
+    请谨慎使用!
 
 .. i18n: :common:
 .. i18n:     Lets you log in and out of OpenERP, and provides various utility functions. You
@@ -101,9 +97,7 @@ The OpenERP server provides you with the following web services.
 ..
 
 :common:
-    Lets you log in and out of OpenERP, and provides various utility functions. You
-    will need to call the function "login" before you can use most of the other
-    web services.
+    让你登录和退出 OpenERP, 并且提供各种实用功能。你只有登录后才能使用其他的网络服务.
 
 .. i18n: :object:
 .. i18n:     The most useful web service, as it provides access to the OpenERP Objects.
@@ -114,11 +108,9 @@ The OpenERP server provides you with the following web services.
 ..
 
 :object:
-    The most useful web service, as it provides access to the OpenERP Objects.
-    Most notably, the function "execute" lets you call methods of the Objects, such
-    as moste of the ORM methods to search, read and write records. It can also be
-    used to call any other method of the object, such as computing a price for
-    example.
+    这是最有用的网络服务，因为通过它可以访问 OpenERP 对象.
+    值得注意的是, 函数 "execute" 让你调用对象的方法，
+    比如可以搜索的大部分的ORM方法，读写记录。它也可以用来调用价格计算等对象的其他方法.
 
 .. i18n: .. note::
 .. i18n:     Here is a quick reminder of the main ORM methods:
@@ -150,79 +142,74 @@ The OpenERP server provides you with the following web services.
 ..
 
 .. note::
-    Here is a quick reminder of the main ORM methods:
+    主要的 ORM 方法一览:
     
     create({'field':'value'})
-          * Creates a new record with the specified value
-          * Returns: id of the new record
+          * 创建一个具有指定值的新纪录
+          * Returns: 新纪录的ID
     
     search([('arg1','=','value1')...], offset=0, limit=1000)
-          * arg1, arg2, .. ,argN: list of tuples specifying search criteria
-          *	offset: optional number of records to skip
-          * limit: optional max number of records to return
-          * Returns: list of IDS of records matching the given criteria 
+          * arg1, arg2, .. ,argN: 指定列表的搜索条件
+          *	offset: 跳过的可选的记录
+          * limit: 返回的最大数量的记录
+          * Returns: 匹配给定条件的记录 
     
     read([IDS], ['field1','field2',...])
-          * fields: optional list of field names to return (default: all fields)
-          * Returns: the id of each record and the values of the requested field
+          * fields: 返回的字段名字（默认全部返回） (default: all fields)
+          * Returns: 每条记录的ID和请求字段的值
       
     write([IDS], {'field1':'value1','field2':3})
-          * values: dictionary of field values to update
-          * Updates records with given ids with the given values
+          * values: 更新的字段的值
+          * Updates 对给定的记录按照给定的值进行更新
           * Returns: True
     
     unlink([IDS])
-          * Deletes records with the given ids
+          * 按照给定的IDS删除记录
           * Returns: True
           
-    browse() can't be used through web services.
+    通过 Web 服务不能使用 Browse() 函数.
 
 .. i18n: Another useful function is "exec_workflow", which lets you make a record
 .. i18n: progress through a workflow.
 ..
 
-Another useful function is "exec_workflow", which lets you make a record
-progress through a workflow.
+另一个有用的功能是 "exec_workflow", 它可以让你通过工作流制定记录的进展.
 
 .. i18n: :wizard:
 ..
 
-:wizard:
+:向导:
 
 .. i18n: Provides access to the old-style wizards. Please note that the new-style wizards
 .. i18n: are based on the ORM, and as such they can be accessed though the "object" web
 .. i18n: service.
 ..
 
-Provides access to the old-style wizards. Please note that the new-style wizards
-are based on the ORM, and as such they can be accessed though the "object" web
-service.
+提供对旧式的向导。新风格的向导是基于ORM的，因此他们可以通过 "object" web 服务来进行访问.
 
 .. i18n: :report:
 ..
 
-:report:
+:报告:
 
 .. i18n: Lets you generate and retrieve reports.
 ..
 
-Lets you generate and retrieve reports.
+让你生成和检索报告.
 
 .. i18n: Example : writing data through the Web Services
 .. i18n: -----------------------------------------------
 ..
 
-示例 : 利用 Web Services 服务更新OpenERP数据
------------------------------------------------
+例子：通过Web服务写入数据（Example:writing data through the Web Service）
+------------------------------------------------------------------------
 
 .. i18n: Here is an example process that you could follow to write data. You will find
 .. i18n: more detailed examples for XML-RPC in various programming languages in the next
 .. i18n: chapter.
 ..
 
-Here is an example process that you could follow to write data. You will find
-more detailed examples for XML-RPC in various programming languages in the next
-chapter.
+下面是一个写数据的例子程序。在下一章你会发现关于多种编程语言 XML-RPC的更详尽的例子.
 
 .. i18n: #.  login: call "login" in the web service "common" with the following
 .. i18n:     parameters:
@@ -241,15 +228,13 @@ chapter.
 .. i18n:         * some data to be recorded
 ..
 
-#.  login: call "login" in the web service "common" with the following
-    parameters:
+#.  login: 在Web服务 "common" 中调用 "login" 函数，使用下面的参数:
 
         * database
         * user name
         * password
 
-#.  create a new partner: call "execute" in the web service "object" with the
-    following parameters:
+#.  创建一个新的合作者: 在Web服务 "object" 中调用 "execute" 函数，使用下面的参数:
 
         * database
         * user id provided by "login" in step 1.
