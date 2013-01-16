@@ -402,7 +402,7 @@ Python
 .. i18n:     * **Create a partner and their address**
 ..
 
-    * **Create a partner and their address**
+    * **创建一个合伙人和他的地址**
 
 .. i18n:   ::
 .. i18n: 
