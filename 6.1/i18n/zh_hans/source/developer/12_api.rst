@@ -245,7 +245,7 @@ OpenERP 为你提供了以下的Web服务.
 .. i18n: The data mentioned above is a dictionary of keys and values, for example:
 ..
 
-The data mentioned above is a dictionary of keys and values, for example:
+上面提到的数据都是键值对, 比如:
 
 .. i18n:     * name: Fabien Pinckaers
 .. i18n:     * lang: fr_FR
@@ -261,50 +261,48 @@ The data mentioned above is a dictionary of keys and values, for example:
 .. i18n: your data - a critical requirement for all ERP applications.
 ..
 
-But more complex data structures can also be sent - for example you could record
-a partner and their addresses, all in a single call to the web service.
-In that case, all the data is processed by the server during the same
-database transaction - meaning you are sure to keep a consistent state for
-your data - a critical requirement for all ERP applications.
+但是更复杂的数据结构也可以发送。比如你可以在一个单一的Web服务调用中创建一个合作者
+和他的地址。在那种情况下，所有的数据在服务的相同的数据库事务中来处理。这意味.
+着你一定要保存好你的数据一致性的状态。这是对所有ERP应用的关键要求.
 
 .. i18n: XML-RPC Web services
 .. i18n: ====================
 ..
 
-XML-RPC 接口
-====================
+XML-RPC Web服务(XML-RPC Web Services)
+=====================================
 
 .. i18n: XML-RPC is known as a web service. Web services are a set of tools that let one build distributed applications on top of existing web infrastructures. These applications use the Web as a kind of "transport layer" but don't offer a direct human interface via the browser.[1] Extensible Markup Language (XML) provides a vocabulary for describing Remote Procedure Calls (RPC), which is then transmitted between computers using the HyperText Transfer Protocol (HTTP). Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
 ..
 
-XML-RPC is known as a web service. Web services are a set of tools that let one build distributed applications on top of existing web infrastructures. These applications use the Web as a kind of "transport layer" but don't offer a direct human interface via the browser.[1] Extensible Markup Language (XML) provides a vocabulary for describing Remote Procedure Calls (RPC), which is then transmitted between computers using the HyperText Transfer Protocol (HTTP). Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
+XML-RPC 是一个著名的Web服务. Web 服务是一个工具，它可以再现有的网络基础设施上面设置分布式的应用程序。这些应用程序使用一种传输层的网络但是并不提供直接通过浏览器的人机界面。可扩展标记语言(XML)提供了描述远程过程调用(RPC)的词汇表，RPC是使用超文本传输协议（HTTP）	在计算机之间传输。实际上，RPC让各开发者自行定义网络调用中的接口。这些接口可以是很简单的一个函数调用也可以像大型API那样复杂.
 
 .. i18n: XML-RPC therefore allows two or more computers running different operating systems and programs written in different languages to share processing. For example, a Java application could talk with a Perl program, which in turn talks with Python application that talks with ASP, and so on. System integrators often build custom connections between different systems, creating their own formats and protocols to make communications possible, but one can often end up with a large number of poorly documented single-use protocols. The RPC approach spares programmers the trouble of having to learn about underlying protocols, networking, and various implementation details.
 ..
 
-XML-RPC therefore allows two or more computers running different operating systems and programs written in different languages to share processing. For example, a Java application could talk with a Perl program, which in turn talks with Python application that talks with ASP, and so on. System integrators often build custom connections between different systems, creating their own formats and protocols to make communications possible, but one can often end up with a large number of poorly documented single-use protocols. The RPC approach spares programmers the trouble of having to learn about underlying protocols, networking, and various implementation details.
+XML-RPC 允许在两台或者更多运行不同操作系统和不同语言程序的计算机之间协同处理。比如，一个JAVA应用可以和一个Perl应用会谈，一个Perl应用可以同一个同ASP会谈的PYTHON应用会谈，等等。系统集成商往往在不同系统之间建立自己的连接，创建它们自己定义的格式的协议来进行通信，但是这造成了大量的不常使用的协议。RPC方法的程序员无需了解底层的协议、网络以及各种实施细则.
 
 .. i18n: XML-RPC can be used with Python, Java, Perl, PHP, C, C++, Ruby, Microsoft’s .NET and many other programming languages. Implementations are widely available for platforms such as Unix, Linux, Windows and the Macintosh.
 ..
 
-XML-RPC can be used with Python, Java, Perl, PHP, C, C++, Ruby, Microsoft’s .NET and many other programming languages. Implementations are widely available for platforms such as Unix, Linux, Windows and the Macintosh.
+XML-RPC 可以同 Python, Java, Perl, PHP, C, C++, Ruby, Microsoft’s .NET 以及许多其他的编程语言来一起使用。它的实现被广泛用于 Unix, Linux, Windows 和 Macintosh 的平台.
 
 .. i18n: An XML-RPC call is conducted between two parties: the client (the calling process) and the server (the called process). A server is made available at a particular URL (such as http://example.org:8080/rpcserv/).
 ..
 
-An XML-RPC call is conducted between two parties: the client (the calling process) and the server (the called process). A server is made available at a particular URL (such as http://example.org:8080/rpcserv/).
+一个 XML-RPC 调用实在双方之间进行的，客户端(调用程序)和服务器(被调用过程)。服务时提供在一个特定的URL上的，比如 (such as http://example.org:8080/rpcserv/).
 
 .. i18n: The above text just touches the surface of XML-RPC. I recommend O'Reilly's "Programming Web Service with XML-RPC" for further reading. One may also wish to review the following links:
 ..
 
-The above text just touches the surface of XML-RPC. I recommend O'Reilly's "Programming Web Service with XML-RPC" for further reading. One may also wish to review the following links:
+上面我们只是接触了 XML-RPC 的表面. 我推荐 O'Reilly's "Programming Web Service with XML-RPC" 进行进一步的学习。还可以阅读以下几个环节:
 
 .. i18n: Interfaces
 .. i18n: ----------
 ..
 
-接口
-----------
+接口（InterFaces）
+-----------------
 
 .. i18n: XML-RPC
 .. i18n: +++++++
@@ -323,19 +321,19 @@ XML-RPC 架构
 .. i18n: OpenERP is a based on a client/server architecture. The server and the client(s) communicate using the XML-RPC protocol. XML-RPC is a very simple protocol which allows the client to do remote procedure calls. The called function, its arguments, and the result of the call are transported using HTTP and encoded using XML. For more information on XML-RPC, please see: http://www.xml-rpc.com.
 ..
 
-OpenERP is a based on a client/server architecture. The server and the client(s) communicate using the XML-RPC protocol. XML-RPC is a very simple protocol which allows the client to do remote procedure calls. The called function, its arguments, and the result of the call are transported using HTTP and encoded using XML. For more information on XML-RPC, please see: http://www.xml-rpc.com.
+OpenERP 基于C/S体系结构。服务器和客户端之间的通信使用XML-RPC协议。XML-RPC是一个非常简单的协议，它允许客户端进行远程过程调用。被调用的函数，它的参数，调用结果通过XML编码并且使用HTTP进行传输。欲了解更多的关于XML-RPC的详尽信息，请参阅: http://www.xml-rpc.com.
 
 .. i18n: Architecture
 .. i18n: """"""""""""
 ..
 
-架构
-""""""""""""
+架构(Architecture)
+""""""""""""""""""
 
 .. i18n: The diagram below synthesizes the client server architecture of OpenERP. OpenERP server and OpenERP clients communicate using XML-RPC.
 ..
 
-The diagram below synthesizes the client server architecture of OpenERP. OpenERP server and OpenERP clients communicate using XML-RPC.
+下面的图标综合了OpenERP的客户端和服务器结构。OpenERP的服务器和客户端通信使用 XML-RPC.
 
 .. i18n: .. figure:: images/tech_arch.png
 .. i18n:   :scale: 85
@@ -354,22 +352,22 @@ The diagram below synthesizes the client server architecture of OpenERP. OpenERP
 .. i18n: The logic of OpenERP is configured on the server side. The client is very simple; it is only used to post data (forms, lists, trees) and to send back the result to the server. The updates and the addition of new functionality don't need the clients to be frequently upgraded. This makes OpenERP easier to maintain.
 ..
 
-The logic of OpenERP is configured on the server side. The client is very simple; it is only used to post data (forms, lists, trees) and to send back the result to the server. The updates and the addition of new functionality don't need the clients to be frequently upgraded. This makes OpenERP easier to maintain.
+OpenERP 的逻辑实在服务器一段配置的。客户端是很简单的，它是仅用于POST的数据(forms, lists, trees)并且把结果发回服务器。新功能的更新和加入并不需要客户端的升级，这使得OpenERP更容易维护.
 
 .. i18n: The client doesn't understand what it posts. Even actions like 'Click on the print icon' are sent to the server to ask how to react.
 ..
 
-The client doesn't understand what it posts. Even actions like 'Click on the print icon' are sent to the server to ask how to react.
+客户端并不明白POST的内容。即使像点击打印图标的行动时发送到服务器并且询问如何作出反应.
 
 .. i18n: The client operation is very simple; when a user makes an action (save a form, open a menu, print, ...) it sends this action to the server. The server then sends the new action to execute to the client.
 ..
 
-The client operation is very simple; when a user makes an action (save a form, open a menu, print, ...) it sends this action to the server. The server then sends the new action to execute to the client.
+客户端的操作时很简单的，当客户发出一个动作（保存一个表格、打开一个目录、打印…）它发送动作到服务器。然后服务器执行客户端的请求并将结果发送回来.
 
 .. i18n: There are three types of action;
 ..
 
-There are three types of action;
+下面是三种行为;
 
 .. i18n:     * Open a window (form or tree)
 .. i18n:     * Print a document
