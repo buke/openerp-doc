@@ -1,4 +1,3 @@
-
 .. i18n: .. _web_cherrypy:
 .. i18n: 
 .. i18n: ==================
@@ -9,7 +8,7 @@
 .. _web_cherrypy:
 
 ==================
-What is Cherrypy ?
+Cherrypy 是嘛东西?
 ==================
 
 .. i18n: CherryPy is a pythonic, object-oriented HTTP framework.
@@ -27,10 +26,9 @@ What is Cherrypy ?
 .. i18n: 	cherrypy.quickstart(HelloWorld())
 ..
 
-CherryPy is a pythonic, object-oriented HTTP framework.
- 
-CherryPy allows developers to build web applications in much the same way they would build any other 
-object-oriented Python program. This results in smaller source code developed in less time.
+CherryPy 是个典型的面向对象的 HTTP 开发框架.
+
+CherryPy 可以让开发者可以象开发类似其他Python面向对象的程序那样简单并快速地去开发一个Web应用. 下面就是一个简单的例子:
 	
 ::
 
