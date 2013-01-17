@@ -213,40 +213,35 @@ Python 代码
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-Email 动作
-~~~~~~~~~~
+邮件行为Email Action
+~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: This action fulfills a  common requirement for all business process, sending a confirmation by email
 .. i18n: whenever sales order, purchase order, invoice, payment or shipping of
 .. i18n: goods takes place. 
 ..
 
-This action fulfills a  common requirement for all business process, sending a confirmation by email
-whenever sales order, purchase order, invoice, payment or shipping of
-goods takes place. 
+邮件行为是所有业务过程的共同要求，比如通过邮件确认销售订单、购买订单、发票、付款、货物运输等. 
 
 .. i18n: Using this action does not require a dedicated email
 .. i18n: server: any existing SMTP email server and account can be used,
 .. i18n: including free email account (Gmail, Yahoo !, etc...)
 ..
 
-Using this action does not require a dedicated email
-server: any existing SMTP email server and account can be used,
-including free email account (Gmail, Yahoo !, etc...)
+为了达到这个目的，我们只需要进行简单的配置就可以使邮件很容易的快速发送了。尽管不需要设置你自己的邮件服务器，你可以使用你想用的邮件服务和账号。尽管你没有自己的邮件服务，你可以使用免费的邮件服务账号，比如Gmail、Yahoo等等。
+(Gmail, Yahoo !, etc...)
 
 .. i18n: *Server Configuration*
 ..
 
-*服务器配置*
+*邮件服务配置*
 
 .. i18n: The OpenERP server must know how to connect to the SMTP server. This
 .. i18n: can be done from the command line when starting the server or by
 .. i18n: editing the configuration file. Here are the command line options:
 ..
 
-The OpenERP server must know how to connect to the SMTP server. This
-can be done from the command line when starting the server or by
-editing the configuration file. Here are the command line options:
+启用OpenErp服务时，我们提供下列参数:
 
 .. i18n: ::
 .. i18n: 
@@ -287,7 +282,7 @@ an invoice is confirmed
 .. i18n: Important Fields are:
 ..
 
-重点字段:
+重要字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -303,18 +298,10 @@ an invoice is confirmed
 .. i18n:           exist in the model.
 ..
 
-:Object: the object affected by the workflow on for which we want to
-         run the action
-:Contact: the field from which action will find the email address of
-          the recipient of the email. The system will displays all the
-          fields related to the object selected in the Object field. 
-:Message: the message template with the fields that will filled using
-          the current object. The notation is the same as the one used
-          RML to design reports: you can use the [[ ]] + HTML tags to
-          design in the HTML format. For example to get the partner
-          name we can use [[ object.partner_id.name ]], object refers
-          to the current object and we can access any fields which
-          exist in the model.
+:Object: 选择实现工作流服务器行为将要执行的对象
+:Contact: 这个字段表示我们想发送的目标邮件地址，并且在这个字段中系统会显示出相近的地址对象. 
+:Message: 在这个字段中你可以提供与当前对象相近的邮件信息模板。在发送时它会自动合并。用的格式语言与我们用来设计报表rmi的语言一致，
+          这里我们可以使用HTML规范中的标签来规范字段中的任何对象。比如上图中我们选择了[[]]发票对象.
 
 .. i18n: After configuring this action, whenever an invoice is confirmed, an
 .. i18n: email such as the following is sent:
