@@ -111,30 +111,30 @@ They are allowed to :
 The community contributors team list include the following teams, most
 specific to a given category of OpenERP features:
 
-.. i18n:  * Accounting Addons: https://launchpad.net/~account-core-editors
-.. i18n:  * Accounting and Financial Reports Addons https://launchpad.net/~account-report-core-editor
-.. i18n:  * Account Payment Addons https://launchpad.net/~account-payment-team
-.. i18n:  * Banking Addons https://launchpad.net/~banking-addons-team
-.. i18n:  * E-commerce addons https://launchpad.net/~ecommerce-addons-core-editors
-.. i18n:  * Stock and Logistic Addons https://launchpad.net/~stock-logistic-core-editors
-.. i18n:  * Contract Management Addons https://launchpad.net/~contract-management-core-editors
-.. i18n:  * Department Management Addons https://launchpad.net/~department-core-editors
-.. i18n:  * HR Addons https://launchpad.net/~hr-core-editors
-.. i18n:  * Hotel Core Editors https://launchpad.net/~hotel-core-editors
-.. i18n:  * Margin Analysis Addons https://launchpad.net/~margin-analysis-core-editors
-.. i18n:  * Medical OpenERP https://launchpad.net/~oemedical-commiter
-.. i18n:  * Medical OpenERP (Functional and Technical Discussions) https://launchpad.net/~oemedical-driver
-.. i18n:  * Partner and Contact Addons https://launchpad.net/~partner-contact-core-editors
-.. i18n:  * Product Related Addons https://launchpad.net/~product-core-editors
-.. i18n:  * Project Addons https://launchpad.net/~project-core-editors
-.. i18n:  * Purchase Addons https://launchpad.net/~purchase-core-editors
-.. i18n:  * Sale Addons https://launchpad.net/~sale-core-editors
-.. i18n:  * Server Environment and Tools Addons https://launchpad.net/~server-env-tools-core-editors
-.. i18n:  * Webkit Utils Addons https://launchpad.net/~webkit-utils-core-editors
-.. i18n:  * Report Printing and Sending Addons https://launchpad.net/~report-print-send-core-editors
-.. i18n:  * Geospatial addons https://launchpad.net/~geospatial-addons-core-editors
-.. i18n:  * Web-addons for OpenERP https://launchpad.net/~webaddons-core-editors
-..
+.. i18n:   * Accounting Addons: https://launchpad.net/~account-core-editors
+.. i18n:   * Accounting and Financial Reports Addons https://launchpad.net/~account-report-core-editor
+.. i18n:   * Account Payment Addons https://launchpad.net/~account-payment-team
+.. i18n:   * Banking Addons https://launchpad.net/~banking-addons-team
+.. i18n:   * E-commerce addons https://launchpad.net/~ecommerce-addons-core-editors
+.. i18n:   * Stock and Logistic Addons https://launchpad.net/~stock-logistic-core-editors
+.. i18n:   * Contract Management Addons https://launchpad.net/~contract-management-core-editors
+.. i18n:   * Department Management Addons https://launchpad.net/~department-core-editors
+.. i18n:   * HR Addons https://launchpad.net/~hr-core-editors
+.. i18n:   * Hotel Core Editors https://launchpad.net/~hotel-core-editors
+.. i18n:   * Knowledge Addons https://launchpad.net/knowledge-addons-team
+.. i18n:   * Margin Analysis Addons https://launchpad.net/~margin-analysis-core-editors
+.. i18n:   * Medical OpenERP https://launchpad.net/~oemedical-commiter
+.. i18n:   * Medical OpenERP (Functional and Technical Discussions) https://launchpad.net/~oemedical-driver
+.. i18n:   * Partner and Contact Addons https://launchpad.net/~partner-contact-core-editors
+.. i18n:   * Product Related Addons https://launchpad.net/~product-core-editors
+.. i18n:   * Project Addons https://launchpad.net/~project-core-editors
+.. i18n:   * Purchase Addons https://launchpad.net/~purchase-core-editors
+.. i18n:   * Sale Addons https://launchpad.net/~sale-core-editors
+.. i18n:   * Server Environment and Tools Addons https://launchpad.net/~server-env-tools-core-editors
+.. i18n:   * Webkit Utils Addons https://launchpad.net/~webkit-utils-core-editors
+.. i18n:   * Report Printing and Sending Addons https://launchpad.net/~report-print-send-core-editors
+.. i18n:   * Geospatial addons https://launchpad.net/~geospatial-addons-core-editors
+.. i18n:   * Web-addons for OpenERP https://launchpad.net/~webaddons-core-editors
 
  * Accounting Addons: https://launchpad.net/~account-core-editors
  * Accounting and Financial Reports Addons https://launchpad.net/~account-report-core-editor
@@ -146,6 +146,7 @@ specific to a given category of OpenERP features:
  * Department Management Addons https://launchpad.net/~department-core-editors
  * HR Addons https://launchpad.net/~hr-core-editors
  * Hotel Core Editors https://launchpad.net/~hotel-core-editors
+ * Knowledge Addons https://launchpad.net/knowledge-addons-team
  * Margin Analysis Addons https://launchpad.net/~margin-analysis-core-editors
  * Medical OpenERP https://launchpad.net/~oemedical-commiter
  * Medical OpenERP (Functional and Technical Discussions) https://launchpad.net/~oemedical-driver
