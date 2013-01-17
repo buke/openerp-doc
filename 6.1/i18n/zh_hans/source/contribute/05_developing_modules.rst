@@ -267,6 +267,7 @@ and is summarized below.
 .. i18n:  * Management Systems : https://launchpad.net/openerp-mgmtsystem
 .. i18n:  * Web-Addons for OpenERP : https://launchpad.net/web-addons
 .. i18n:  * Geospatial Addons for OpenERP : https://launchpad.net/geospatial-addons
+.. i18n:  * Knowledge Management Addons https://launchpad.net/knowledge-addons
 ..
 
  * Stock and Logistic Barcode: https://launchpad.net/stock-logistic-barcode
@@ -311,6 +312,7 @@ and is summarized below.
  * Management Systems : https://launchpad.net/openerp-mgmtsystem
  * Web-Addons for OpenERP : https://launchpad.net/web-addons
  * Geospatial Addons for OpenERP : https://launchpad.net/geospatial-addons
+ * Knowledge Management Addons https://launchpad.net/knowledge-addons
 
 .. i18n: Some of them are waiting on their owner to bring some modifications so they can fit into other projects (changing team, series,...).
 .. i18n: Should you be one of these owners, please inform the others on the mailing-list when ready.
