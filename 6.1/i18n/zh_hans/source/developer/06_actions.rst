@@ -4,7 +4,7 @@
 ..
 
 ==========
-服务端动作
+服务行为
 ==========
 
 .. i18n: Introduction
@@ -23,25 +23,22 @@
 .. i18n: or invoices.
 ..
 
-Server action is an new feature available since the OpenERP
-version 5.0 beta. This is an useful feature to fulfill customer
-requirements. It provides a quick and easy configuration for day to
-day requirements such as sending emails on confirmation of sale
-orders or invoice, logging operations on invoices (confirm, cancel,
-etc.), or running wizard/report on confirmation of sales, purchases,
-or invoices.
+服务行为(Server Action)是OpenErp 5.0以来推出的一项新的功能。对于客户来说，
+这是一个有趣的功能，可以充分满足他们的要求。它可以为客户日常的一些业务要求提供简单而又快速的配置。
+比如发送销售订单的电子确认邮件、货物的确认，货物的操作记录（确认、取消等）、
+或者需要一个可以进行销售购买和发票确认的向导报告操作的系统.
 
 .. i18n: Step 1: Definition of Server Action 
 .. i18n: -----------------------------------
 ..
 
-第一步：定义服务端动作
+第一步：服务器操作的定义
 -----------------------------------
 
 .. i18n: Here is the list of the different action types supplied under the Server Action.
 ..
 
-下面列举了支持的服务端动作类型:
+下面列举了服务器操作的行为类型:
 
 .. i18n:        * Client Action
 .. i18n:        * Dummy
@@ -55,25 +52,23 @@ or invoices.
 .. i18n:        * Multi Action
 ..
 
-       * Client Action
-       * Dummy
-       * Iteration
-       * Python Code
-       * Trigger
+       * 客户端行为Client Action
+       * 虚拟行为Dummy
+       * 迭代器Iteration
+       * Python 代码
+       * 触发器Trigger
        * Email
-       * SMS
-       * Create Object
-       * Write Object
-       * Multi Action
+       * 消息服务SMS
+       * 创建对象Create Object
+       * 操作对象Write Object
+       * 多重行为Multi Action
 
 .. i18n: Each type of action has special features and different configuration
 .. i18n: parameters. The following sections review each action type and
 .. i18n: describe how to configure them, together with a list of parameters affecting the system.
 ..
 
-Each type of action has special features and different configuration
-parameters. The following sections review each action type and
-describe how to configure them, together with a list of parameters affecting the system.
+每一种行为类型具有特殊的功能和不同的配置参数。我们接下来将看到每一种行为类型的不同的参数配置是如何影响系统的.
 
 .. i18n: .. _client-action:
 .. i18n: 
@@ -83,8 +78,8 @@ describe how to configure them, together with a list of parameters affecting the
 
 .. _client-action:
 
-客户端动作
-~~~~~~~~~~
+客户端行为（Client Action）
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: This action executes on the client side. It can be used to run a
 .. i18n: wizard or report on the client side. For example, a Client Action can
@@ -95,13 +90,10 @@ describe how to configure them, together with a list of parameters affecting the
 .. i18n: Client Action to print the invoice after it has been confirmed.
 ..
 
-This action executes on the client side. It can be used to run a
-wizard or report on the client side. For example, a Client Action can
-print an invoice after it has been confirmed and run the payment wizard. Technically we
-can run any client action executed on client side. This includes ir.actions.report.custom,
-ir.actions.report.xml, ir.actions.act_window, ir.actions.wizard, and
-ir.actions.url. In the following example, we can configure a
-Client Action to print the invoice after it has been confirmed.
+这一行为在客户端执行，而且在客户端运行向导报告是一个好的主意。使用这种类型的行为可以使我们的系统像ERP一样在对发票进行确认后再打印。
+它也会在发票确认后进入付款向导。从技术上来讲我们能够运行所有客户执行的行为。我们能够执行 ir.actions.report.custom,
+ir.actions.report.xml, ir.actions.act_window, ir.actions.wizard, 和
+ir.actions.url. 下面这个例子向我们演示了如何配置客户端行为来打印确认后的发票.
 
 .. i18n: .. image:: images/client_action.png
 ..
@@ -111,7 +103,7 @@ Client Action to print the invoice after it has been confirmed.
 .. i18n: Important fields are:
 ..
 
-重点字段:
+重要字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -119,10 +111,8 @@ Client Action to print the invoice after it has been confirmed.
 .. i18n:                 client side. It must have one of the following types:
 ..
 
-:Object: the object affected by the workflow on for which we want to
-         run the action
-:Client Action: the client action, which will be executed on the
-                client side. It must have one of the following types:
+:Object: 选择实现工作流服务器行为将要执行的对象
+:Client Action: 选择客户端边执行的行为，这些行为可以是如下种类种的一个:
 
 .. i18n: * ir.actions.report.custom
 .. i18n: * ir.actions.report.xml
@@ -141,17 +131,16 @@ Client Action to print the invoice after it has been confirmed.
 .. i18n: ~~~~~~~~~
 ..
 
-Iteration
-~~~~~~~~~
+迭代器Iteration
+~~~~~~~~~~~~~~~
 
 .. i18n: Using a Python loop expression, it is possible to iterate over a
 .. i18n: server action.  For example, when confirming a inward stock move, each
 .. i18n: line item must be historized. You can loop on expression object.move_lines and create another server action which is referred to do the historizing job.
 ..
 
-Using a Python loop expression, it is possible to iterate over a
-server action.  For example, when confirming a inward stock move, each
-line item must be historized. You can loop on expression object.move_lines and create another server action which is referred to do the historizing job.
+在Python的循环表达式基础上，你可以遍历服务器的行为。比如：当你确认一只股票出现向内移动时，
+你希望每一个行子项显示出它的历史变化，你能循环遍历这个对象。这种移动行子项并且创造另一个服务行为的动作被称为historising job.
 
 .. i18n: Python Code
 .. i18n: ~~~~~~~~~~~
@@ -167,34 +156,29 @@ Python 代码
 .. i18n: not needed.
 ..
 
-This action type is used to execute multiline python code. The
-returned value is the value of the variable ``action``, defaulting to
-``{}``. This makes sense only if you want to pop a specific
-window(form) specific to the context, but a return value is generally
-not needed.
+这个行为类型是执行一个多行的Python代码. 返回的值返回的值是变量 ``action``, 缺省值是
+``{}``. 如果你想弹出一个带有特定内容的特定的窗体的话, 这是很有用的.恕我直言，你不会需要的一个返回值.
 
 .. i18n: Note: The code is executed using Python's ``exec`` built-in
 .. i18n: function. This function is run in a dedicated namespace containing the
 .. i18n: following identifiers: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
 ..
 
-Note: The code is executed using Python's ``exec`` built-in
-function. This function is run in a dedicated namespace containing the
-following identifiers: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
+记住: 被执行的代码使用了Python的 ``exec`` 函数. 这个函数在字典的命名空间定义，
+具有如下变量: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
 
 .. i18n: Trigger
 .. i18n: ~~~~~~~~
 ..
 
-触发器
-~~~~~~
+触发器Trigger
+~~~~~~~~~~~~~
 
 .. i18n: Any transition of the workflow can be triggered using this action. The
 .. i18n: options you need to set are:
 ..
 
-Any transition of the workflow can be triggered using this action. The
-options you need to set are:
+任何工作流的转换都可以使用触发。你需要设定的选型是:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -208,23 +192,17 @@ options you need to set are:
 .. i18n:                select the right trigger. Models are shown in brackets. 
 ..
 
-:Object: the object affected by the workflow on for which we want to
-         run the action
-:Workflow on: The target object on which you want to trigger the
-                 workflow.
-:Trigger on: the ID of the target model record, e.g. Invoice if you want to trigger a change on an invoice. 
-:Trigger Name: the signal you have to use to initiate the
-               transition. The drop down lists all possible
-               triggers. Note: the list contains all possible
-               transitions from other models also, so ensure you
-               select the right trigger. Models are shown in brackets. 
+:Object: 我们想执行行为的受工作流影响的对象.
+:Workflow on: 触发工作流的目标对象.
+:Trigger on: 字段应该填入目标模式记录的 ID, 比如. 如果你想触发一个发票的改变，你应该填入这个发票的 ID. 
+:Trigger Name: 是用来初始化转换的信号。下拉列表框列出了所有可能的触发.
+               记住: 列出了多有可能的转换，所欲确认你选择了正确的转换。括号内给出的是模型. 
 
 .. i18n: The following example shows the configuration of a trigger used to
 .. i18n: automatically confirm invoices:
 ..
 
-The following example shows the configuration of a trigger used to
-automatically confirm invoices:
+下面的示例演示了一个触发器用来配置自动确认发票:
 
 .. i18n: .. image:: images/trigger_action.png
 ..
