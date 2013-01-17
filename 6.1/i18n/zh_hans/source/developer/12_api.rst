@@ -539,7 +539,7 @@ PHP
 .. i18n: **Download the XML-RPC framework for PHP**
 ..
 
-**下载 XML-RPC PHP Liberay**
+**下载 XML-RPC PHP Library**
 
 .. i18n: windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.sourceforge.net/ The latest stable release is version 2.2 released on February 25, 2007
 ..
@@ -549,7 +549,7 @@ windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.so
 .. i18n: **Setup the XML-RPC for PHP**
 ..
 
-**配置 PHP XML-RPC Liberay**
+**配置 PHP XML-RPC Library**
 
 .. i18n: extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory place the xmlrpc.inc in the php library folder restart the apache/iis server
 ..
@@ -894,7 +894,7 @@ JAVA
 .. i18n: **Download the apache XML-RPC framework for JAVA**
 ..
 
-**下载 JAVA XML-RPC Liberay**
+**下载 JAVA XML-RPC Library**
 
 .. i18n: Download the xml-rpc framework for java from http://ws.apache.org/xmlrpc/ The latest stable release is version 3.1 released on August 12, 2007.
 .. i18n: All OpenERP errors throw exceptions because the framework allows only an int as the error code where OpenERP returns a string.
