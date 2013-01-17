@@ -15,7 +15,7 @@
 .. i18n: To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
 ..
 
-To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
+为了清楚的演示财务分析，下面以三个不同类型的公司为例进行演示：
 
 .. i18n:         #. Industrial Manufacturing Enterprise,
 .. i18n: 
@@ -40,12 +40,13 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 .. i18n: In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
 ..
 
-In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
-
+In 
+在制造行业，财务分析图表（analytic charts of accounts）常常是按照公司本身的部门和产品来组织的。
 .. i18n: So the objective is to examine the costs, sales and margins by department and by product. The first level of the structure comprises the different departments, and the lower levels represent the product ranges the company makes and sells.
 ..
 
-So the objective is to examine the costs, sales and margins by department and by product. The first level of the structure comprises the different departments, and the lower levels represent the product ranges the company makes and sells.
+因此，财务分析的目标就是按照部门和产品审查成本，销售和利润.第一层由不同的部门组成，下边的一层代表公司所生产和销售的产品范围。
+
 
 .. i18n: .. note::  Analytic Chart of Accounts for an Industrial Manufacturing Company
 .. i18n: 
