@@ -684,14 +684,14 @@ All of the above modules are found in ``extra-addons``, except for the :mod:`mem
 OpenERP provides many tools for managing relationships with partners. These are available through
 the :menuselection:`Sales` menu.
 
-.. i18n: .. tip::  :guilabel:`CRM & SRM`
+.. i18n: .. tip::  CRM & SRM
 .. i18n: 
 .. i18n: 	``CRM`` stands for Customer Relationship Management, a standard term for systems that manage client and
 .. i18n: 	customer relations. ``SRM`` stands for Supplier Relationship Management, and is commonly used for
 .. i18n: 	functions that manage your communications with your suppliers.
 ..
 
-.. tip::  :guilabel:`CRM & SRM`
+.. tip::  CRM & SRM
 
 	``CRM`` stands for Customer Relationship Management, a standard term for systems that manage client and
 	customer relations. ``SRM`` stands for Supplier Relationship Management, and is commonly used for
