@@ -46,7 +46,9 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 ..
 
 要运行这段代码, 只需要在命令行进入该代码文件夹, 运行下面的命令:
-	**python hello.py**
+::
+
+	python hello.py
 		
 然后 使用浏览器访问地址: http://localhost:8080
 
@@ -56,27 +58,29 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: ctrl+c in command window to terminate the application
 ..
 
-The rendering:
-	**Hello World!**
-		
-ctrl+c in command window to terminate the application
+浏览器上就显示出结果:
+::
+
+	Hello World!
+
+这时, 在命令行窗口上按下 Ctrl+C 键便可以终止程序的运行.
 
 .. i18n: Statement **import cherrypy** imports the main CherryPy module.
 ..
 
-Statement **import cherrypy** imports the main CherryPy module.
+
+代码 **import cherrypy** 将引入 CherryPy 模块扩展.
 
 .. i18n: An instance of class **HelloWorld** is the object that will be **published.**
 ..
 
-An instance of class **HelloWorld** is the object that will be **published.**
+**HelloWorld** 类的定义则会将完成类的方法的发布.
 
 .. i18n: Method **index()** is called when the root URL for the site(e.g., http://localhost:8080) is requested, 
 .. i18n: This method returns the **contents** of the Web page(the **'Hello World!'** string)
 ..
 
-Method **index()** is called when the root URL for the site(e.g., http://localhost:8080) is requested, 
-This method returns the **contents** of the Web page(the **'Hello World!'** string)
+有一个必须定义的 **index()** 方法则默认为URL(如: http://localhost:8080)中的网站root, 该方法返回的字符串将做为网页中的 **内容** (如本例中的 **'Hello World!'**).
 
 .. i18n: Statement **index.exposed = True** tells CherryPy that method **index()** will be exposed
 ..
