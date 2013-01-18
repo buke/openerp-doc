@@ -45,10 +45,10 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: Direct your browser to http://localhost:8080
 ..
 
-Start the application at the command prompt(after navigating to its folder):
+要运行这段代码, 只需要在命令行进入该代码文件夹, 运行下面的命令:
 	**python hello.py**
 		
-Direct your browser to http://localhost:8080
+然后 使用浏览器访问地址: http://localhost:8080
 
 .. i18n: The rendering:
 .. i18n: 	**Hello World!**
