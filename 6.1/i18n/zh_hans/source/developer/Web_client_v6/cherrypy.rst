@@ -85,14 +85,14 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: Statement **index.exposed = True** tells CherryPy that method **index()** will be exposed
 ..
 
-Statement **index.exposed = True** tells CherryPy that method **index()** will be exposed
+代码 **index.exposed = True** 则表明 **index()** 方法是要开放出去的.
 
 .. i18n: -	Only exposed methods can be called to answer a request
 .. i18n: -	Lets the user to select which methods of an object are Web accessible
 .. i18n: -	Can also place the decoration **@cherrypy.expose** immediately before the method:
 ..
 
--	Only exposed methods can be called to answer a request
+-	只有开放出去的方法,才可以处理各种HTTP请求.
 -	Lets the user to select which methods of an object are Web accessible
 -	Can also place the decoration **@cherrypy.expose** immediately before the method:
 
