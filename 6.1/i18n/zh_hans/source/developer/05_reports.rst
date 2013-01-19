@@ -18,13 +18,13 @@ OpenERP 主要有三种类型的报表:
 ..
 
     * OpenOffice.org 报表
-    * RML 报表
-    * 自定义报表 (基于 PostgreSQL 视图和显示接口) 
+    * XML 报表
+    * 自定义报表 (基于 PostgreSQL 视图，显示在界面上) 
 
 .. i18n: This chapter mainly describes OpenOffice.org reports, and then XSL:RML reports. Custom reports are described in section Advanced Modeling - Reporting With PostgreSQL Views.
 ..
 
-这一部分主要描述 OpenOffice.org 报表, 和 XSL:RML 报表. 自定义报表在高级模块部分描述 -  PostgreSQL 视图报表.
+这一部分主要描述 OpenOffice.org 报表, 和 XSL:XML 报表. 自定义报表在高级建模部分描述 -  PostgreSQL 基于数据库视图的报表.
 
 .. i18n: OpenOffice.org reports
 .. i18n: ======================
@@ -41,7 +41,7 @@ OpenOffice.org 报表
 .. i18n: OpenOffice.org reports are the most commonly used report formats. OpenOffice.org Writer is used (in combination with [[1]]) to generate a RML template, which in turn is used to generate a pdf printable report.
 ..
 
-OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML模板，而RML模板用来生成pdf报表。
+OpenOffice.org是OpenERP中最常用的报表格式。OpenOffice.org Writer被用来生成RML模板，而RML模板用来生成pdf报表。
 
 .. i18n: .. figure::  images/ooo_report_overview.png
 .. i18n:    :scale: 85
@@ -74,7 +74,7 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 .. i18n:     * We use a .SXW file for the template, which is the OpenOffice 1.0 format. The template includes expressions in brackets or OpenOffice fields to point where the data from the OpenERP server will be filled in. This document is only used for developers, as a help-tool to easily generate the .RML file. OpenERP does not need this .SXW file to print reports. 
 ..
 
-    * 我们用OpenOffice1.0的.sxw文件作为模板。模板中包含用括号括起来的表达式或OpenOffice字段(field)，用来提供 给OpenERP server填充数据。但这只是作为一种较容易的方法，提供给开发者生成.RML文件。OpenERP并不需要SXW文件产生报表。 
+    * 我们用OpenOffice1.0的.sxw文件作为模板。模板中包含用中括号括起来的表达式或OpenOffice字段(field)，用来提供给OpenERP server填充数据。但这只是作为帮助开发者更直观地生成.RML文件的一种方法。OpenERP并不需要SXW文件产生报表。 
 
 
 .. i18n: **The .RML template**
@@ -101,7 +101,7 @@ OpenOffice.org是通用的报表格式。OpenOffice.org Writer被用来生成RML
 .. i18n: in the .RML file will be replaced by the name of the country of the partner of the printed invoice. This report engine produce the same .RML file where all expressions have been replaced by real data.
 ..
 
-在.RML文件中，将以(打印)发票上parter的城市名称替换掉相应表达式。报表引擎以真实数据替换所有表达式之后，生成相同的.RML文件。
+在.RML文件中，将以发票上客户的城市名称替换掉相应表达式。报表引擎以真实数据替换所有表达式之后，生成相同的.RML文件。
 
 .. i18n: **The final document**
 ..
@@ -153,7 +153,7 @@ OpenOffice 报表中的动态内容
 .. i18n: In the .SXW/.RML reports, you can put some Python code that accesses the OpenERP objects in brackets. The context of the code (the variable's values you can use) is the following:
 ..
 
-SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中的对象(object)。代码(可以使用变量)如下:
+SXW/RML报表中，你可以在中括号中加入Python代码，以获得OpenERP中的对象(object)。代码可以使用如下变量
 
 .. i18n: **Available variables**
 ..
@@ -171,10 +171,10 @@ SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中
 .. i18n:     * **user** : the user object launching the report. 
 ..
 
-    * **objects** : 将要打印的object列表(例如发票（invoice)对象）.
+    * **objects** : 将要打印的object记录(例如发票（invoice)对象）.
     * **data** : 向导(wizard)中获得的数据
-    * **time** : Python的time模块(查看Python文档获取更多信息).
-    * **user** : 创建这个报表的用户. 
+    * **time** : Python的time模块(详见Python文档).
+    * **user** : 运行这个报表的用户. 
 
 .. i18n:  **Available functions**
 ..
@@ -196,7 +196,7 @@ SXW/RML报表中，你可以在括号中加入Python代码，以获得OpenERP中
 .. i18n:     * **removeParentNode('tr')** : removes the parent node of type 'tr', this parameter is usually used together with a conditional (see examples below)
 ..
 
-    * **setLang('fr')** : 根据国际化自动切换语言 (字段...).
+    * **setLang('fr')** : 设置语言用于自动取得字段翻译.
     * **repeatIn(list, varname[, tagname])** : 重复 模板(template)当前部分list中的对象 (整个文档, 当前段落, 表格中的当前行) 可以使用模板(template)的 varname标签 。 从 4.1.X版开始, 你可以使用第三个参数(可选的)选择你想在.RML标记(RML tag)中重复的内容
     * **setTag('para','xpre')** : 在rml文档中(由sxw转换)，用其它标记(0tag) (xpre 是一个预处理格式的段落，preformatted paragraph),替换封闭的 RML 标签 (一般是 ‘para’)(?)
     * **removeParentNode('tr')** : 移除类型'tr'的父结点, 这个参数经常在条件语句中使用 (如下例)
