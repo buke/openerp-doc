@@ -39,8 +39,13 @@ Of course, companies often work together with an external accountant who keeps t
 .. i18n: It provides an easy way to follow up your suppliers and customers. You could use this simplified accounting in case you work with an (external) account to keep your books, and you still want to keep track of payments. The ``Invoicing`` system includes receipts and vouchers (an easy way to keep track of sales and purchases). It also offers you an easy method to register payments, without you having to encode complete abstracts of account.
 ..
 
-The specific and easy-to-use `Invoicing` system in OpenERP allows you to keep track of your accounting, even when you are not an accountant.
-It provides an easy way to follow up your suppliers and customers. You could use this simplified accounting in case you work with an (external) account to keep your books, and you still want to keep track of payments. The ``Invoicing`` system includes receipts and vouchers (an easy way to keep track of sales and purchases). It also offers you an easy method to register payments, without you having to encode complete abstracts of account.
+Openerp中明确并易用的 `开票` 系统使你能跟踪你的账务，甚至当你不是一个财务人员，
+它提供了一个简单的方法来跟踪你的供应商和客户。
+You could use this simplified accounting in case you work with an (external) account to keep your books, 
+and you still want to keep track of payments. 
+``开票`` 系统包括了收款和付款 (简单方法来跟踪销售和采购). 
+试图用一个简单的方法来登记付款，不需要你的编写完整科目摘要
+
 
 .. i18n: Simple Customer Receipts
 .. i18n: ------------------------
