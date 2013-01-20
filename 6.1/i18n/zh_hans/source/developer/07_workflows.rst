@@ -789,8 +789,8 @@ Expressions(表达式)
 .. i18n:       + Testers
 ..
 
-      + 研发员
-      + 测试员
+       + 研发员
+       + 测试员
 
 .. i18n:   * Sales manager
 .. i18n: 
