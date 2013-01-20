@@ -93,8 +93,8 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 ..
 
 -	只有开放出去的方法,才可以处理各种HTTP请求.
--	Lets the user to select which methods of an object are Web accessible
--	Can also place the decoration **@cherrypy.expose** immediately before the method:
+-	让开发人员自主控制对象的方法是否开放为Web请求更简单快捷.
+-	在方法前使用代码 **@cherrypy.expose** 同样也能立即发布该方法:
 
 .. i18n: ::
 .. i18n: 
@@ -112,7 +112,7 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: Statement, **cherrypy.quickstart(HelloWorld())**
 ..
 
-Statement, **cherrypy.quickstart(HelloWorld())**
+代码 **cherrypy.quickstart(HelloWorld())** 是将对象做为 CherryPy 的HTTP Handle 启动 CherryPy 的 Web 服务.
 
 .. i18n: 	**publishes** an instance of the HelloWorld class
 .. i18n: 	
