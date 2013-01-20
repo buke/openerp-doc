@@ -779,18 +779,15 @@ Expressions(表达式)
 .. i18n:   * Technical manager
 .. i18n: 
 .. i18n:     - Lead developer
+.. i18n:        + Developers
+.. i18n:        + Testers
 ..
 
   * 技术经理
 
     - 研发组长
-
-.. i18n:       + Developers
-.. i18n:       + Testers
-..
-
-       + 研发员
-       + 测试员
+        + 研发员
+        + 测试员
 
 .. i18n:   * Sales manager
 .. i18n: 
