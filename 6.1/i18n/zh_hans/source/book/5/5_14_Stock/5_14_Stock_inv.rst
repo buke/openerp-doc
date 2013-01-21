@@ -64,8 +64,8 @@ A warehouse is defined by a link between three locations:
 .. i18n: * Customer orders (using the definition of a point of sale, which is linked to a warehouse).
 ..
 
-* The :guilabel:`Location Stock` field shows the place of products available for delivery to a customer directly from
-  this warehouse. Availability is given by all the products in that location and any child locations.
+* :guilabel:`库位库存` 字段显示了可以直接从这个仓库交付给客户的可用的产品. 
+  可用数 给出在这个库位以及子库位的所有产品。
 
 * The :guilabel:`Location Input` field shows where ordered products are received from a supplier in that warehouse. It
   can be the same as the stock location if, for example, you want to do a quality control operation on
@@ -79,16 +79,16 @@ A warehouse is defined by a link between three locations:
 	:scale: 75
 	:align: center
 	
-	*Warehouse Parameters*
+	*仓库参数*
   
-You can also set an address for the warehouse. This address should ideally be an address of your company. Once
-the warehouse has been defined, it can be used in:
 
-* Minimum stock rules,
+你也能为仓库设置一个地址。这个地址应该是你的公司的一个地址。一旦仓库被定义，你能用在：
 
-* Supplier orders,
+* 最小库存规则,
 
-* Customer orders (using the definition of a point of sale, which is linked to a warehouse).
+* 供应商订单,
+
+* 客户订单 (用在 POS的定义，关联到一个仓库).
 
 .. i18n: Automatic Procurement
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
