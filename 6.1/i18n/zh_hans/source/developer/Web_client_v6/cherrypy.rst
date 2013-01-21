@@ -130,14 +130,14 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: Webserver receives the request for URL http://localhost:8080 
 ..
 
-	**publishes** an instance of the HelloWorld class
+	**发布** HelloWorld 类的实例
 	
-	-	And it starts the embedded webserver
-	-	Runs until explicitly interrupted(ctrl+c)
+	-	启动内嵌 webserver 
+	-	直到按(Ctrol+C)键结束运行
 	
-When the application is executed, the CherryPy server is started with the default configuration
+当应用运行时, CherryPy 是以默认配置运行的.
 	
--	Listening on **localhost**  at port **8080**
+-	监听地址 **localhost**  监听端口 **8080**
 -	Defaults overriden by using a configuration file or dictionary
 	
 	-	**cherrypy.config.update({'server.socket_port':8010})**
