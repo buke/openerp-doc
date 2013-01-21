@@ -26,12 +26,11 @@
 .. i18n: configure a new warehouse.
 ..
 
-Warehouses are designed for physical locations from which you can deliver to the customer, and to which you
-receive raw materials. When you buy products from a supplier, you should take account of the Warehouse you use
-for this purchase. This also enables the end user to not have to choose from a list of locations, but simply a
-real warehouse.
-Use the menu :menuselection:`Warehouse --> Configuration --> Warehouse Management --> Warehouses`, then click New to 
-configure a new warehouse.
+仓库被设计为物理位置，可以发运给客户并且接收原料。
+当你从供应商处购买产品，你将考虑这次采购要使用的仓库。
+这也使得最终用户不必选择库位的列表，而是一个真实的仓库
+
+使用菜单 :menuselection:`仓库 --> 设置 --> 仓库管理 --> 仓库`, 然后点击新建配置一个新的仓库.
 
 .. i18n: A warehouse is defined by a link between three locations:
 ..
