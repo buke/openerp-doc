@@ -24,6 +24,14 @@ OpenERP 中文文档翻译计划
 * 下面是个超链格式,下划线后面的空格必须保留 （请到 Code、RAW 方式查看）
   `下载页 <http://www.openerp.com/downloads>`_    ':'. 
 
+* 请特别关注一下下面几次提交的修正:
+- https://github.com/buke/openerp-doc/commit/68c87d2af47e6f376c5f76b69e9e0300dc2448b5
+- https://github.com/buke/openerp-doc/commit/a2add7f6e5d18cb219611032b20fbd957ab659e4
+- https://github.com/buke/openerp-doc/commit/18212099ba59d3bf389e3160ba9d5b9b1e56a2ce
+- https://github.com/buke/openerp-doc/commit/9720b826f9eedd3a0c8499e46613b050fdf1cfbf
+- https://github.com/buke/openerp-doc/commit/068a6b4953d6022c1f6cc0d4a6e72a2e69974550
+
+
 不要修改
 * 请注意 rst 文件中. 以 ".. i18n " 打头的 严禁修改. 不小心修改的, 请及时改回.
 * 编辑表格的时候，特别注意要补足空格，恢复原有样式。否则表格有可能丢失
