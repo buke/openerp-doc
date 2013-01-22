@@ -47,13 +47,13 @@ Debian/Ubuntu安装
 .. i18n: How to get .deb packages
 ..
 
- .deb packages安装包下载
+ .deb 安装包下载
 
 .. i18n: Sources
 .. i18n: -------
 ..
 
-源码
+获取源代码
 ----
 
 .. i18n: In order to get the sources, you will need Bazaar version control to pull the source from Launchpad. Check how to get Bazaar according to your development environment. After having installed and configured Bazaar, setup your development environment by typing::
@@ -61,7 +61,7 @@ Debian/Ubuntu安装
 .. i18n:   mkdir source;cd source
 ..
 
-为了获取源代码,您将需要使用版本控制工具从Launchpad检出源码。根据你的开发环境检查如何得到Bazaar。Bazaar,安装和配置后,设置您的开发环境中通过输入如下命令（自行定义目录名称）::
+为了获取源代码,您需要使用版本控制工具从Launchpad网站检出源码。根据你的开发环境检查如何安装Bazaar。安装和配置好bazaar后,输入如下命令准备开发环境::
 
   mkdir source;cd source
 
@@ -70,7 +70,7 @@ Debian/Ubuntu安装
 .. i18n:   bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh
 ..
 
-输入下面的命令从官网源码获取安装脚本::
+输入下面的命令获取OpenERP设置脚本::
 
   bzr cat -d lp:~openerp-dev/openerp-tools/trunk setup.sh | sh
 
@@ -79,16 +79,18 @@ Debian/Ubuntu安装
 .. i18n:   make init-trunk
 ..
 
-下面命令从官网源码获取当前代码分支::
+下面命令获取OpenERP当前开发分支源代码::
 
   make init-trunk
+
+（译注：这里要执行很长很长很长的时间，别傻等，去睡吧）
 
 .. i18n: The makefile contains other options. For details about options, please type::
 .. i18n: 
 .. i18n:   make
 ..
 
-mark命令通过如下命令可以查看其它关于mark命令的选项::
+通过如下命令可以查看其它关于make命令的选项::
 
   make
 
@@ -98,6 +100,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 ..
 
 为使用 OpenERP 需要安装一些依赖包。根据您的环境，可能需要安装以下包::
+
   sudo apt-get install graphviz ghostscript postgresql python-imaging python-matplotlib 
 
 .. i18n: You then have to initialise the database. This will create a new openerp role::
@@ -105,7 +108,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n:   make db-setup
 ..
 
-然后你需要初始化一个数据库.这样将创建一个新的openerp角色::
+然后你需要初始化数据库。这里将创建一个新的openerp角色::
 
   make db-setup
 
@@ -121,7 +124,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n: Testing your installation can be done on http://localhost:8069/
 ..
 
-可以通过 http://localhost:8069/ 可以测试你的安装
+可以通过 http://localhost:8069/ 测试你安装好的OpenERP
 
 .. i18n: Development version
 .. i18n: -------------------
@@ -133,7 +136,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n: Location of development version + specifics if necessary to precise
 ..
 
-如需要精确位置，开发版本+细节。
+预留章节，用于明确开发版本和其他细节
 
 .. i18n: Configuration
 .. i18n: =============
@@ -149,24 +152,24 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 
 .. _configuration-files-link:
 
-有2种配置文件：
+有2个配置文件：
 
 .. i18n:     * one for the client: ~/.openerprc
 .. i18n:     * one for the server: ~/.openerp_serverrc
 ..
 
-    * 客户端配置: ~/.openerprc
-    * 服务端配置: ~/.openerp_serverrc
+    * 客户端配置文件: ~/.openerprc
+    * 服务端配置文件: ~/.openerp_serverrc
 
 .. i18n: Those files follow the convention used by python's ConfigParser module.
 ..
 
-这些文件按照 python ConfigParser 模块惯例设置。
+这些文件遵循python的ConfigParser模块规范。
 
 .. i18n: Lines beginning with "#" or ";" are comments.
 ..
 
-以"#"或者";"进行行注释。
+以"#"或者";"开头的行是注释。
 
 .. i18n: The client configuration file is automatically generated upon the first start. The one of the server can automatically be created using the command: ::
 .. i18n: 
@@ -185,7 +188,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n: **Server Configuration File**
 ..
 
-**Server 配置文件**
+**服务端配置文件**
 
 .. i18n: The server configuration file .openerp_serverrc is used to save server startup options. Here is the list of the available options:
 ..
@@ -198,7 +201,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 ..
 
 :interface:
-    绑定监听IP地址
+    服务器绑定的IP地址
 
 .. i18n: :port:
 .. i18n:     Port the server will listen on 
@@ -296,28 +299,28 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 ..
 
 :pg_path:
-    指定PostgreSQL数据库维护可执行文件路径
+    指定PostgreSQL数据库可执行文件路径
 
 .. i18n: :db_host:
 .. i18n:     specify the database host 
 ..
 
 :db_host:
-    PG数据库主机名
+    PostgreSQL数据库主机名
 
 .. i18n: :db_port:
 .. i18n:     specify the database port 
 ..
 
 :db_port:
-    PG 数据库端口
+    PostgreSQL数据库端口
 
 .. i18n: :translate_modules:
 .. i18n:     Specify modules to export. Use in combination with --i18n-export 
 ..
 
 :translate_modules:
-    指定导出模块，与 --i18n-export 参数一起使用
+    指定导出翻译模块，与 --i18n-export 参数一起使用
 
 .. i18n: You can create your own configuration file by specifying -s or --save on the server command line. If you would like to write an alternative configuration file, use -c <config file> or --config=<config file>
 .. i18n: Here is a basic configuration for a server::
@@ -401,7 +404,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n:         server = localhost
 ..
 
-完整例子 Server V5.0 ::
+OpenERP GTK 客户端V5.0的配置文件示例 ::
 
         [printer]
         path = none
@@ -516,7 +519,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
   -h, --help            显示帮助信息，然后结束
   -c CONFIG, --config=CONFIG
                         指定配置文件
-  -s, --save            保存配置文件到 ~/.terp_serverrc
+  -s, --save            保存配置文件到 ~/.openerp_serverrc
   -v, --verbose         开启调试模式
   --pidfile=PIDFILE     存储服务启动的 PID 文件
   --logfile=LOGFILE     存储LOG的文件
@@ -547,7 +550,7 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
                         数据库用户名
   -w DB_PASSWORD, --db_password=DB_PASSWORD
                         数据库密码
-  --pg_path=PG_PATH   PG bin 路径
+  --pg_path=PG_PATH   PostgreSQL可执行文件所在路径
   --db_host=DB_HOST   数据库主机名或IP地址
   --db_port=DB_PORT   数据库端口
  
@@ -570,17 +573,17 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n:                        --i18n-export
 ..
 
-    Use these options to translate OpenERP to another language. See i18n
-    section of the user manual. Option '-l' is mandatory.
+    用这些选项把OpenERP翻译成其他语言。详见OpenERP用户手册的
+    多语言章节。 '-l' 选项是必输的。
  
   -l LANGUAGE, --language=LANGUAGE
-                       指定翻译文件。与 --i18n-export 或 --i18n-import一起使用。
+                       指定翻译语言。与 --i18n-export 或 --i18n-import一起使用。
   --i18n-export=TRANSLATE_OUT
                        导出翻译语言为CSV文件，然后结束
   --i18n-import=TRANSLATE_IN
                        导入CSV翻译文件，然后结束
   --modules=TRANSLATE_MODULES
-                       指定要导出模块翻译。与 --i18n-export 一起使用
+                       指定要导出翻译的模块。与 --i18n-export 一起使用
 
 .. i18n: Options from previous versions:
 .. i18n: -------------------------------
@@ -588,6 +591,6 @@ mark命令通过如下命令可以查看其它关于mark命令的选项::
 .. i18n: configured through the :ref:`decimal_accuracy` screen.
 ..
 
-其它兼容旧版源码参数:
+之前版本的配置选项:
 -------------------------------
-某些参数在OE6中被移除。如 ``price_accuracy`` 现在是通过  :ref:`decimal_accuracy`  配置。
+某些参数在OpenERP6中被移除了。如 ``price_accuracy`` 现在是通过  :ref:`decimal_accuracy`  配置。
