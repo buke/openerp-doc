@@ -67,12 +67,12 @@
 .. i18n: These two attributes might be set on any of those tags (for <functions>, only the root <function> tag may accept it) or on the <data> tag itself. If you set a context attribute on both, they will be merged automatically.
 ..
 
-These two attributes might be set on any of those tags (for <functions>, only the root <function> tag may accept it) or on the <data> tag itself. If you set a context attribute on both, they will be merged automatically.
+这2个属性可设置在任意标签（对于 <functions> 标签，只有根 root <functions> 标签可用）中，或 <data> 标签本身。如果你同时设置，context 会自动合并。
 
 .. i18n: Notice that Unit Testing tags will not be interpreted inside a <data> tag set in noupdate.
 ..
 
-Notice that Unit Testing tags will not be interpreted inside a <data> tag set in noupdate.
+注意：单元测试标签在<data> 里设置为 noupdate 时，将不会被解析。
 
 .. i18n: Using unit tests
 .. i18n: ----------------
