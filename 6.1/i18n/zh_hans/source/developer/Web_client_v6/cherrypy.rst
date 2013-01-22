@@ -138,12 +138,12 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 当应用运行时, CherryPy 是以默认配置运行的.
 	
 -	监听地址 **localhost**  监听端口 **8080**
--	Defaults overriden by using a configuration file or dictionary
+-	这些默认值都可以使用配置文件进行覆盖修改
 	
 	-	**cherrypy.config.update({'server.socket_port':8010})**
-	-	Now it will run on port 8010.
+	-	这样就将监听端口修改为8010了.
 	
-Webserver receives the request for URL http://localhost:8080 
+服务器的访问地址为: http://localhost:8080 
 
 .. i18n: -	Searches for the best method to handle the request,starting from the **HelloWorld** instance
 .. i18n: -	CherryPy calls **HelloWorld().index()**
