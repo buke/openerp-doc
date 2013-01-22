@@ -275,4 +275,4 @@ PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户�
 
 .. tip:: 开发手册
 
-        你能在开发手册找到配置文件有关的信息, 章节:ref:`Configuration <configuration-files-link>`
+        你能在开发手册找到配置文件有关的信息, 章节 :ref:`Configuration <configuration-files-link>`
