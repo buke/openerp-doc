@@ -150,9 +150,9 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: -	Result of the call is sent back to the browser as the content of the index page for the website
 ..
 
--	Searches for the best method to handle the request,starting from the **HelloWorld** instance
--	CherryPy calls **HelloWorld().index()**
--	Result of the call is sent back to the browser as the content of the index page for the website
+-	从 **HelloWorld** 类中找最匹配的方法来处理Web请求.
+-	调用 **HelloWorld().index()** 方法.
+-	方法返回给请求用户的浏览器内显示.
 
 .. i18n: Cherrypy Application Facts
 .. i18n: ==========================
