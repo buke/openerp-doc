@@ -24,9 +24,9 @@
 .. i18n:     * manipulate your objects to check your workflows and specific methods 
 ..
 
-    * test the properties of your records, your class invariants etc.
-    * test your methods
-    * manipulate your objects to check your workflows and specific methods 
+    * 测试记录属性，类常量等。
+    * 测试您的方法
+    * 操作对象，以检查流程和特殊方法
 
 .. i18n: This thus allows you to simulate user interaction and automatically test your modules.
 ..
@@ -41,8 +41,8 @@
 
 概述
 ----
- 
-As you will see in the next pages, unit testing through OpenERP's XML can be done using three main tags: <assert>, <workflow> and <function>. All these tags share some common optional attributes:
+
+单元测试主要通过 OpenERP XML 文件的三个标签 : <assert>, <workflow> 和 <function> 来完成。其共有属性如下：
 
 .. i18n: :uid:
 ..
@@ -52,7 +52,7 @@ As you will see in the next pages, unit testing through OpenERP's XML can be don
 .. i18n: 	allows you to do the tag interpretation through a specific User ID (you must specify the XML id of that user, for example "base.user_demo") 
 ..
 
-	allows you to do the tag interpretation through a specific User ID (you must specify the XML id of that user, for example "base.user_demo") 
+	允许一个特殊的  User ID 来完成交互 (你必须指定该用户的 XML id, 如 "base.user_demo") 
 
 .. i18n: :context:
 ..
