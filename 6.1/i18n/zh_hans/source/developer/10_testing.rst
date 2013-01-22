@@ -52,7 +52,7 @@
 .. i18n: 	allows you to do the tag interpretation through a specific User ID (you must specify the XML id of that user, for example "base.user_demo") 
 ..
 
-	允许一个特殊的  User ID 来完成交互 (你必须指定该用户的 XML id, 如 "base.user_demo") 
+	可指定 User ID 来完成交互 (你必须指定该用户的 XML id, 如 "base.user_demo") 
 
 .. i18n: :context:
 ..
@@ -62,7 +62,7 @@
 .. i18n: 	allows you to specify a context dictionary (given as a Python expression) to use when applicable (for <function> notice that not all objects methods take a context attribute so it won't be automatically transmitted to them, however it applies on <value>) 
 ..
 
-	allows you to specify a context dictionary (given as a Python expression) to use when applicable (for <function> notice that not all objects methods take a context attribute so it won't be automatically transmitted to them, however it applies on <value>) 
+	可指定上下文字典（Python 表达式）内容（对于 <function> 标签需注意不是所有对象方法都会读取 context ，因此上下文不一定会传递。但对 <value> 标签可用）
 
 .. i18n: These two attributes might be set on any of those tags (for <functions>, only the root <function> tag may accept it) or on the <data> tag itself. If you set a context attribute on both, they will be merged automatically.
 ..
