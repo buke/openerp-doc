@@ -173,9 +173,8 @@ CherryPy 可以让你开发出内嵌Python标准应用多线程Web服务的强�
 .. i18n: everything you would expect from a decent web framework. 
 ..
 
-Beyond this functionality, CherryPy pretty much stays out of your way. You are free to use any kind of templating, 
-data access etc. technology you want. CherryPy can also handle sessions, static files, cookies, file uploads and 
-everything you would expect from a decent web framework. 
+除此之外, CherryPy 还会原汁原味地保留你的应用. 你可以自由地使用各种各样的模板,数据存取等技术方案. 
+CherryPy 也能处理诸如 Session, 静态文件, Cookie, 文件上传等几乎所有 Web 应用中涉及到的东西.
 
 .. i18n: Features
 .. i18n: ========
