@@ -162,12 +162,11 @@ CherryPy 可以让开发者可以象开发类似其他Python面向对象的程�
 .. i18n: CherryPy applications run on Windows, Linux, Mac OS X and any other platform supporting Python. 
 ..
 
-Cherrypy Application Facts
+Cherrypy 应用实例
 ==========================
-Your CherryPy powered web applications are in fact stand-alone Python applications embedding their 
-own multi-threaded web server. You can deploy them anywhere you can run Python applications. 
-Apache is not required, but it's possible to run a CherryPy application behind it (or lighttpd, or IIS). 
-CherryPy applications run on Windows, Linux, Mac OS X and any other platform supporting Python. 
+CherryPy 可以让你开发出内嵌Python标准应用多线程Web服务的强大的Web应用. 你可以在任何可以运行Python程序的环境下布曙它. 
+并不需要Apache, 但你可以在Apache(或者 lightpd 甚至 IIS)中调用 CherryPy 应用. 
+可以运行于 Windows, Linux, Max OS X 以及其他的支持 Python 语言的操作系统.
 
 .. i18n: Beyond this functionality, CherryPy pretty much stays out of your way. You are free to use any kind of templating, 
 .. i18n: data access etc. technology you want. CherryPy can also handle sessions, static files, cookies, file uploads and 
