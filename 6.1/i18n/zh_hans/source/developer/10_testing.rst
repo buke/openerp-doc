@@ -84,9 +84,10 @@
 .. i18n: You can declare unit tests in all your .XML files. We suggest you to name the files like this:
 ..
 
-You can declare unit tests in all your .XML files. We suggest you to name the files like this:
+-You can declare unit tests in all your .XML files. We suggest you to name the files like this:
++你可以在XML文件中声名单元测试,我们建议你如下面的样子命名：
 
-.. i18n:     * module_name_test.xml 
+-.. i18n:     * module_name_test.xml 
 ..
 
     * module_name_test.xml 
