@@ -48,6 +48,7 @@ OpenERP 第一步
  
  如果你曾经使用过OpenERP（或者Tiny ERP），那么你可以直接阅读第三节。
  在 :ref:`ch-real` ，你可以尝试根据实际案例创建一个新的帐套，并模拟运行一个从采购到销售的完整业务流程。
+
  .. figure:: images/sect1_outline.png
    :align: center
 

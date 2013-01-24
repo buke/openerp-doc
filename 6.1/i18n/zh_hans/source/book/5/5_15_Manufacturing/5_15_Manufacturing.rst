@@ -514,7 +514,7 @@ PC2 电脑分两步来制造:
 
    如果你废弃一件成品， 你可以在当前的图片中得到提示。一件成品将被创建并放在废弃的虚拟仓库中。已完成的新产品将被添加到制造订单中。
 
- .. i18n: .. tip:: Scrap a product
+.. i18n: .. tip:: Scrap a product
 .. i18n: 
 .. i18n:     To scrap a product, you have to edit the manufacturing order and then select the product to be
 .. i18n:     scrapped by clicking the little pencil at the left of the item.
