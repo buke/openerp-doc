@@ -190,17 +190,17 @@ CherryPy 也能处理诸如 Session, 静态文件, Cookie, 文件上传等几乎
 .. i18n: -	Built-in profiling, coverage, and testing support.
 ..
 
-Features
+功能
 ========
--	A **fast**, HTTP/1.1-compliant, WSGI thread-pooled webserver. Typically, CherryPy itself takes only 1-2ms per page!
--	Support for any other WSGI-enabled webserver or adapter, including Apache, IIS, lighttpd, mod_python, FastCGI, SCGI, and mod_wsgi 
--	Easy to run multiple HTTP servers (e.g. on multiple ports) at once
--	A powerful configuration system for developers and deployers alike
--	A flexible plugin system
--	Built-in tools for caching, encoding, sessions, authorization, static content, and many more
--	A native mod_python adapter 
--	A complete test suite 
--	Swappable and customisable... everything.
+-	**高效的**, 兼容HTTP/1.1, 支持 WSGI 线程池的webserver. 通常 CherryPy 处理页面本身耗时仅 1-2ms!
+-	支持其他任何支持 WSGI 的webserver, 诸如 Apache, IIS, lighttpd, mod_python, FastCGI, SCGI, 和 mod_wsgi 等等.
+-	多HTTP实例服务.
+-	强大的开发与布曙配置系统.
+-	灵活的扩展性能.
+-	内建 缓存, 编码, SESSION, 身份认证, 静态化 等支持.
+-	内置支持 mod_python .
+-	完整的测试套件.
+-	任意交互与定制.
 -	Built-in profiling, coverage, and testing support.
 
 .. i18n: Consider these examples (**root** is conceptual, referring to the root of the document tree),
