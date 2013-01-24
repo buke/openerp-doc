@@ -176,8 +176,8 @@ Debian/Ubuntu安装
 .. i18n:   openerp-server.py -s
 ..
 
-客户端第一次启动会自动生成配置文件。
-服务端配置文件可以使用下面命令生成: ::
+客户端第一次启动会自动生成配置文件。服务端配置文件可以使用下面命令生成: ::
+
   openerp-server.py -s
 
 .. i18n: If they are not found, the server and the client will start with the default configuration.

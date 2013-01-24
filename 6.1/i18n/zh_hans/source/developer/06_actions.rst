@@ -79,7 +79,7 @@
 .. _client-action:
 
 客户端行为（Client Action）
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: This action executes on the client side. It can be used to run a
 .. i18n: wizard or report on the client side. For example, a Client Action can
