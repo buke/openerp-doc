@@ -211,7 +211,7 @@ CherryPy 也能处理诸如 Session, 静态文件, Cookie, 文件上传等几乎
 .. i18n: 	**root.otherpage = OtherPage()**
 ..
 
-Consider these examples (**root** is conceptual, referring to the root of the document tree),
+看看下面的例子 (**root** 是指向网站根目录的一个参考),
 	**root = HelloWorld()**
 	
 	**root.onepage = OnePage()**
@@ -221,12 +221,12 @@ Consider these examples (**root** is conceptual, referring to the root of the do
 .. i18n: URL http://localhost:8080/onepage points at the 1st object,
 ..
 
-URL http://localhost:8080/onepage points at the 1st object,
+URL http://localhost:8080/onepage 指向了 OnePage() 的对象实例,
 
 .. i18n: URL http://localhost:8080/otherpage points at the 2nd.
 ..
 
-URL http://localhost:8080/otherpage points at the 2nd.
+URL http://localhost:8080/otherpage 指向了 OtherPage() 的对象实例.
 
 .. i18n: Consider,
 .. i18n: 	**root.some = Page()**
@@ -234,7 +234,7 @@ URL http://localhost:8080/otherpage points at the 2nd.
 .. i18n: 	**root.some.page = Page()** 
 ..
 
-Consider,
+又如,
 	**root.some = Page()**
 	
 	**root.some.page = Page()** 
@@ -243,8 +243,7 @@ Consider,
 .. i18n: If this object is exposed (or its **index** method is), it’s called for that URL
 ..
 
-URL http://localhost:8080/some/page  is mapped to the **root.some.page** object. 
-If this object is exposed (or its **index** method is), it’s called for that URL
+URL http://localhost:8080/some/page  请求映射转给了 **root.some.page** 对象开放出来的方法(诸如 **index** 方法). 
 
 .. i18n: In our HelloWorld example, adding the http://.../onepage to OnePage() mapping could be done as:
 ..
