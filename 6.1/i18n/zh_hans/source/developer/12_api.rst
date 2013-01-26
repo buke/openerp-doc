@@ -1583,4 +1583,4 @@ Perl 代码示例
 在 OpenERP 的 GTK 或 web 客户端的一切活动都是通过 XML/RPC webservices. 启动 openERP GTK 客户端
 使用 ./openerp-client.py -l debug_rpc (or debug_rpc_answer) 然后你可以在 GTK 客户端操作，查看客户端操作日志，
 你将看到webservice的标签。通过在日志中创建缩进将帮助您
-你要找出它的web服务.
+找出它的web服务.
