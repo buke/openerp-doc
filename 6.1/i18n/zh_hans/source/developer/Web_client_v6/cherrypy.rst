@@ -248,7 +248,7 @@ URL http://localhost:8080/some/page  请求映射转给了 **root.some.page** �
 .. i18n: In our HelloWorld example, adding the http://.../onepage to OnePage() mapping could be done as:
 ..
 
-In our HelloWorld example, adding the http://.../onepage to OnePage() mapping could be done as:
+在本例中, 为本例添加 http://.../onepage 访问到 OnePage() 可以象下面这样搞定: 
 
 .. i18n: ::
 .. i18n: 
@@ -280,7 +280,7 @@ In our HelloWorld example, adding the http://.../onepage to OnePage() mapping co
 .. i18n: In the address bar of the browser, put http://localhost:8080/onepage 
 ..
 
-In the address bar of the browser, put http://localhost:8080/onepage 
+打开浏览器地址栏输入 http://localhost:8080/onepage
 
 .. i18n: The Index Method
 .. i18n: ================
