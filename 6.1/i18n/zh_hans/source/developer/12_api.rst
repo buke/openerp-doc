@@ -352,7 +352,7 @@ OpenERP 基于C/S体系结构。服务器和客户端之间的通信使用XML-RP
 .. i18n: The logic of OpenERP is configured on the server side. The client is very simple; it is only used to post data (forms, lists, trees) and to send back the result to the server. The updates and the addition of new functionality don't need the clients to be frequently upgraded. This makes OpenERP easier to maintain.
 ..
 
-OpenERP 的逻辑实在服务器一段配置的。客户端是很简单的，它是仅用于POST的数据(forms, lists, trees)并且把结果发回服务器。新功能的更新和加入并不需要客户端的升级，这使得OpenERP更容易维护.
+OpenERP 的逻辑是在服务器端配置的。客户端是很简单的，它是仅用于POST的数据(forms, lists, trees)并且把结果发回服务器。新功能的更新和加入并不需要客户端的升级，这使得OpenERP更容易维护.
 
 .. i18n: The client doesn't understand what it posts. Even actions like 'Click on the print icon' are sent to the server to ask how to react.
 ..
@@ -1125,7 +1125,7 @@ Python 代码示例
 .. i18n: Example of creation of a partner and their address.
 ..
 
-Example of creation of a partner and their address.
+创建合作伙伴和他们的地址的例子.
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1189,7 +1189,7 @@ Example of creation of a partner and their address.
 .. i18n: To get the UID of a user, you can use the following script:
 ..
 
-To get the UID of a user, you can use the following script:
+用下面的脚本来获得用户的 UID :
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -1371,7 +1371,7 @@ PHP 代码示例
 .. i18n: Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
 ..
 
-Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
+下面的例子是如何使用 PHP 创建一个合作伙伴. 这里使用 phpxmlrpc 库, 在 sourceforge 上有效.
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -1447,7 +1447,7 @@ Here is an example on how to insert a new partner using PHP. This example makes 
 
 Perl 代码示例
 -------------
-Here is an example in Perl for creating, searching and deleting a partner.
+下面的例子是使用 Perl 创建、查找、删除一个合作伙伴.
 
 .. i18n: .. code-block:: perl
 .. i18n: 
@@ -1580,7 +1580,7 @@ Here is an example in Perl for creating, searching and deleting a partner.
 .. i18n: spot which webservice you want.
 ..
 
-Everything done in the GTK or web client in OpenERP is through XML/RPC webservices. Start openERP GTK client
-using ./openerp-client.py -l debug_rpc (or debug_rpc_answer) then do what you want in the GTK client and watch
-your client logs, you will find out the webservice signatures. By creating indents in the logs will help you to
-spot which webservice you want.
+在 OpenERP 的 GTK 或 web 客户端的一切活动都是通过 XML/RPC webservices. 启动 openERP GTK 客户端
+使用 ./openerp-client.py -l debug_rpc (or debug_rpc_answer) 然后你可以在 GTK 客户端操作，查看客户端操作日志，
+你将看到webservice的标签。通过在日志中创建缩进将帮助您
+你要找出它的web服务.
