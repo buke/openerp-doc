@@ -289,18 +289,18 @@ URL http://localhost:8080/some/page  请求映射转给了 **root.some.page** �
 .. i18n: -	It’s only called for a full match on the URL
 ..
 
-The Index Method
+Index 方法
 ================
--	Method **index()**, like the **index.html** file, is the default page for any internal node in the object tree
--	Can take additional keyword arguments, mapped to the form variables as sent via its GET or POST methods
--	It’s only called for a full match on the URL
+-	**index()** 方法就如同 **index.html** 文件一样, 是系统默认访问文档.
+-	附带参数与页面表单的GET POST参数对应.
+-	仅在URL与方法路径完全一致的情况下才被调用.
 
 .. i18n: Calling Other Methods
 .. i18n: =====================
 .. i18n: CherryPy can also directly call methods in the published objects if it receives a URL that is directly mapped to them—e.g.,
 ..
 
-Calling Other Methods
+其他方法
 =====================
 CherryPy can also directly call methods in the published objects if it receives a URL that is directly mapped to them—e.g.,
 
