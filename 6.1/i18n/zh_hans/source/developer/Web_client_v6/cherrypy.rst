@@ -302,7 +302,7 @@ Index 方法
 
 其他方法
 =====================
-CherryPy can also directly call methods in the published objects if it receives a URL that is directly mapped to them—e.g.,
+对象所发布出去的方法均被CherryPy映射为可访问的 URL.
 
 .. i18n: ::
 .. i18n: 
@@ -332,7 +332,7 @@ CherryPy can also directly call methods in the published objects if it receives 
 .. i18n: Then request http://localhost:8080/test 
 ..
 
-Then request http://localhost:8080/test 
+按上面的代码,只需要请求 http://localhost:8080/test 就可以访问 HelloWorld 对象的 test 方法了.
 
 .. i18n: When CherryPy receives a request for the /**test** URL, it calls the test() function.
 ..
