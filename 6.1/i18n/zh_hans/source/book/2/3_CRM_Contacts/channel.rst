@@ -19,7 +19,7 @@
 .. i18n: OpenERP will help you to manage your Channel Partners. You can geolocalize your opportunities by going to :menuselection:`Administration --> Modules --> Modules` and then typing :mod:`crm_partner_assign` in the ``Name`` field. Check the module and click the button at the end of the line (after the ``State`` field) to plan the module for installation. Notice that the ``State`` will change to 'To be installed'. In the Actions at the right, click `Apply Scheduled Upgrades`. The module will be installed and the menus :menuselection:`Sales --> Configuration --> Leads & Opportunities --> Partner Grade` and :menuselection:`Sales --> Reporting --> Opportunity Assignment Analysis` will be added.
 ..
 
-OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域化，只需要在 :菜单项:`管理 --> 模块 --> 模块` 在Modules的 ``Name`` 字段中输入: `crm_partner_assign` . 进行检索再点击最后一行的按钮 (在 ``State`` 字段后) 进行模块的安装. 注意 ``State`` 会转变为'将要安装的模块'. 点击执行左侧的动作`执行已安排的升级`. 模块将被安装，并且增加以下菜单:`销售 --> 设置 --> 线索 & 商机 --> 业务伙伴级别` 与 `销售 --> 报告 --> 商机指定分析`.
+OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域化，只需要在 :menuselection:`管理 --> 模块 --> 模块` 在Modules的 ``Name`` 字段中输入: `crm_partner_assign` . 进行检索再点击最后一行的按钮 (在 ``State`` 字段后) 进行模块的安装. 注意 ``State`` 会转变为'将要安装的模块'. 点击执行左侧的动作`执行已安排的升级`. 模块将被安装，并且增加以下 :menuselection:`销售 --> 设置 --> 线索 & 商机 --> 业务伙伴级别` 与 `销售 --> 报告 --> 商机指定分析`.
 
 .. i18n: .. note:: CRM Configuration Wizard
 .. i18n: 
@@ -45,7 +45,7 @@ OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域�
 .. i18n: Through :menuselection:`Sales --> Configuration --> Leads & Opportunities --> Partner Grade`, you can create partner grades to classify your partners, such as Gold Partner, Silver Partner, Ready Partner. These grades will be used to determine who gets assigned which kind of opportunities.
 ..
 
-通过菜单项:`销售 --> 设置 --> 线索 & 商机 --> 业务伙伴级别`, 可以创建业务伙伴级别对业务伙伴进行分类, 例如金牌业务伙伴, 银牌业务伙伴, 准业务伙伴. 这些级别将会被用来确定谁可以得到哪些商机.
+通过 :menuselection:`销售 --> 设置 --> 线索 & 商机 --> 业务伙伴级别`, 可以创建业务伙伴级别对业务伙伴进行分类, 例如金牌业务伙伴, 银牌业务伙伴, 准业务伙伴. 这些级别将会被用来确定谁可以得到哪些商机.
 
 .. i18n: Assign the grades to the partners on the `Geo Localization` tab of the Customer form. Also assign a `Weight` to determine the probability of assigning opportunities to a partner. The weight might for instance be how much the partner pays for their channel partner contract.
 ..
