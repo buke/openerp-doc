@@ -26,7 +26,7 @@ OpenERP 将帮助你管理你的渠道业务伙伴. 可以将商机进行区域�
 .. i18n:         When you click `Apply Scheduled Upgrades`, the Configuration Wizard will be displayed. You can cancel it if you need no other CRM modules to be installed.
 ..
 
-.. note:: CRM 配置向导
+.. 注意:: CRM 配置向导
 
         当你点击`执行已安排的升级`, 配置向导将会显示. 如果不需要安装其他CRM模块，可以点击取消配置向导.
 
