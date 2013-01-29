@@ -52,7 +52,7 @@
 .. i18n: The community team is available on launchpad: https://launchpad.net/~openerp-community
 ..
 
-The community team is available on launchpad: https://launchpad.net/~openerp-community
+社区贡献团队在launchpad: https://launchpad.net/~openerp-community
 
 .. i18n: .. _community_contrib_teams:
 .. i18n: 
