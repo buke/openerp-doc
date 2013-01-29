@@ -47,10 +47,7 @@
 .. i18n: posting patch.
 ..
 
-Contributors are people who want to help the project improve, add
-functionality and improve stability. Anyone can contribute on the project
-by reporting bugs, proposing some improvement and
-posting patch.
+贡献者帮助项目提高，添加新功能以及提高稳定性。任何人都可以通过提交bug报告，提出改进建议和发布补丁来为项目做贡献
 
 .. i18n: The community team is available on launchpad: https://launchpad.net/~openerp-community
 ..
