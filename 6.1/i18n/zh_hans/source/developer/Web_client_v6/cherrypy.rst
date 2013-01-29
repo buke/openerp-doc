@@ -337,12 +337,12 @@ Index 方法
 .. i18n: When CherryPy receives a request for the /**test** URL, it calls the test() function.
 ..
 
-When CherryPy receives a request for the /**test** URL, it calls the test() function.
+当 CherryPy 处理URL为 /**test** 的请求时, 会自动调用 test() 来处理.
 
 .. i18n: -	It can be a plain function, or a method of any object—any callable will do.
 ..
 
--	It can be a plain function, or a method of any object—any callable will do.
+-	可以是平常的 function, 也可以是任何可以调用的任意对象的方法.
 
 .. i18n: If CherryPy finds a full match and the last object in the match is a **callable**.
 ..
