@@ -347,12 +347,12 @@ Index 方法
 .. i18n: If CherryPy finds a full match and the last object in the match is a **callable**.
 ..
 
-If CherryPy finds a full match and the last object in the match is a **callable**.
+CherryPy 会去查找所有满足条件的对象的可调用方法,并调用最后一个匹配的方法. 
 
 .. i18n: -	A method, function, or any other Python object that supports the **__call__** method and the callable doesn't contain a valid **index()** method.
 ..
 
--	A method, function, or any other Python object that supports the **__call__** method and the callable doesn't contain a valid **index()** method.
+-	方法,函数甚至那些支持 **__call__** 属性的对象,以及那些连 **index()** 方法都没有的对象都可以做 CherryPy 的事件处理.
 
 .. i18n: Then the object itself is called.
 ..
