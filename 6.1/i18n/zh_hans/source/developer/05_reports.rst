@@ -196,15 +196,15 @@ SXW/RML报表中，你可以在中括号中加入Python代码，以获得OpenERP
 .. i18n:     * **removeParentNode('tr')** : removes the parent node of type 'tr', this parameter is usually used together with a conditional (see examples below)
 ..
 
-    * **setLang('fr')** : 设置语言用于自动取得字段翻译.
-    * **repeatIn(list, varname[, tagname])** : 重复 模板(template)当前部分list中的对象 (整个文档, 当前段落, 表格中的当前行) 可以使用模板(template)的 varname标签 。 从 4.1.X版开始, 你可以使用第三个参数(可选的)选择你想在.RML标记(RML tag)中重复的内容
-    * **setTag('para','xpre')** : 在rml文档中(由sxw转换)，用其它标记(0tag) (xpre 是一个预处理格式的段落，preformatted paragraph),替换封闭的 RML 标签 (一般是 ‘para’)(?)
+    * **setLang('fr')** : 设置语言，用于自动取得对应翻译.
+    * **repeatIn(list, varname[, tagname])** : 遍历模板当前部分list中的对象 (整个文档, 当前段落, 表格中的当前行)，可以在模板中使用varname作为变量名。 从 4.1.X版开始, 你可以使用第三个(可选的)参数指定循环结果放在哪个.RML标记中.
+    * **setTag('para','xpre')** : 在由sxw转换rml文档过程中，替换指定标记。这里是用xpre替换para (xpre 是一个预定义格式的段落)。(?)
     * **removeParentNode('tr')** : 移除类型'tr'的父结点, 这个参数经常在条件语句中使用 (如下例)
 
 .. i18n: Example of useful tags:
 ..
 
-有用的标签举例:
+标签示例:
 
 .. i18n:     * **[[ repeatIn(objects,'o') ]]** : Loop on each objects selected for the print.
 .. i18n:     * **[[ repeatIn(o.invoice_line,'l') ]]** : Loop on every line
@@ -223,27 +223,27 @@ SXW/RML报表中，你可以在中括号中加入Python代码，以获得OpenERP
 .. i18n:     * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : If the type is 'in_invoice' or 'out_invoice' then the word 'Invoice' is printed, if it's neither the first node above it of type 'tr' will be removed.
 ..
 
-    * **[[ repeatIn(objects,'o') ]]** : 循环打印选中的objects.
-    * **[[ repeatIn(o.invoice_line,'l') ]]** : 循环每行数据.
+    * **[[ repeatIn(objects,'o') ]]** : 循环objects，指定变量名为o.
+    * **[[ repeatIn(o.invoice_line,'l') ]]** : 对o的invoice_line循环，指定变量名为'l'.
     * **[[ repeatIn(o.invoice_line,'l', 'td') ]]** : 循环每行，并为每行数据创建一个单元格
-    * **[[ (o.prop=='draft')and 'YES' or 'NO' ]]** : 根据标记(tag)‘prop’打印 YES或 NO
-    * **[[ round(o.quantity * o.price * 0.9, 2) ]]** : 可以进行计算.
+    * **[[ (o.prop=='draft')and 'YES' or 'NO' ]]** : 根据变量‘prop’输出YES或 NO
+    * **[[ round(o.quantity * o.price * 0.9, 2) ]]** : 可以进行变量计算.
     * **[[ '%07d' % int(o.number) ]]** : 数字的格式化输出
-    * **[[ reduce(lambda x, obj: x+obj.qty , list , 0 ) ]]** : 列表中所有 qty 的和 (尝试列表中的每个 “object” )
-    * **[[ user.name ]]** : 用户名
-    * **[[ setLang(o.partner_id.lang) ]]** : 本地化输出(和翻译有关)
+    * **[[ reduce(lambda x, obj: x+obj.qty , list , 0 ) ]]** : 列表中所有对象 qty 字段值的和 (可以试一下用 “object” 作为列表变量)
+    * **[[ user.name ]]** : 打印报表的当前用户名
+    * **[[ setLang(o.partner_id.lang) ]]** : 从变量中取得语言
     * **[[ time.strftime('%d/%m/%Y') ]]** : 以dd/MM/YYYY格式输出时间, 查阅python文档获得关于“%d”的帮助, ...
     * **[[ time.strftime(time.ctime()[0:10]) ]]** 或 **[[ time.strftime(time.ctime()[-4:]) ]]** : 只输出日期.
     * **[[ time.ctime() ]]** : 输出当前日期 & 时间
     * **[[ time.ctime().split()[3] ]]** : 只输出时间
-    * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : 如果type是 ‘in_invoice’ 或‘out_invoice’ 那么输出 ‘Invoice’；如果 不是，‘tr’类型的节点会被删除.
+    * **[[ o.type in ['in_invoice', 'out_invoice'] and 'Invoice' or removeParentNode('tr') ]]** : 如果type是 ‘in_invoice’ 或‘out_invoice’ 那么输出 ‘Invoice’；如果 不是，‘tr’类型的父节点会被删除.
 
 .. i18n: One more interesting tag: if you want to print out the creator of an entry 
 .. i18n: (create_uid) or the last one who wrote on an entry (write_uid) you have to add 
 .. i18n: something like this to the class your report refers to:
 ..
 
-一个有趣的标记(tag)：如果想输出当前条目(entry)的创建者(create_uid)或者最后一位修改者(write_uid)你需要在你的报表类(class)中加入如下:
+一个有趣的标记(tag)：如果想输出当前记录的创建者(create_uid)或者最后一位修改者你需要在报表要输出的类中加入如下字段:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -257,7 +257,7 @@ SXW/RML报表中，你可以在中括号中加入Python代码，以获得OpenERP
 .. i18n: and then in your report it's like this to print out the corresponding name:
 ..
 
-如果你的报表会类似输出相应的名字:
+然后在报表中用这个变量输出相应的名字:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -274,7 +274,7 @@ SXW/RML报表中，你可以在中括号中加入Python代码，以获得OpenERP
 .. i18n: construct something like this:
 ..
 
-有时你希望打印遇到的特定情况。 你可以根据python的逻辑操作符＂not＂,＂and＂,＂or＂构造自己的判断语句。
+有时你希望根据条件打印。 你可以用python的逻辑操作符＂not＂,＂and＂,＂or＂构造自己的判断语句。
 Python中的每个对象都有自己的逻辑值(TRUE或FALSE):
 
 .. i18n: .. code-block:: python
@@ -311,8 +311,8 @@ Python中的每个对象都有自己的逻辑值(TRUE或FALSE):
  
 如果 o.prop是 ‘draft’, 那么计算结果为:
 	#. `o.prop == 'draft'` 为 `True`.
-	#. `True and 'YES'` 为 `'YES'`. 因为左项为 "true" 值，和右项 `and` 计算后为真.
-	#. `'YES' or 'NO'` is `'YES'`. 左项为真， or操作会忽略右项。只计算左项值.
+	#. `True and 'YES'` 为 `'YES'`. 左项为 真时, 返回右项, 否则返回左项.这里返回字符串'YES'.
+	#. `'YES' or 'NO'` is `'YES'`. 左项为真， or操作会忽略右项。只计算左项值.返回字符串'YES'.
 
 .. i18n: If `o.prop` is something else like `'confirm'`, then it evaluates like this:
 .. i18n: 	#. `o.prop == 'draft'` is `False`.
@@ -337,7 +337,7 @@ Python中的每个对象都有自己的逻辑值(TRUE或FALSE):
 .. i18n: python function "filter" can... filter: try something like:
 ..
 
-python 函数 “filter” 可以... filter: 尝试如下:
+可以用python的“filter”函数。示例:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -356,7 +356,7 @@ python 函数 “filter” 可以... filter: 尝试如下:
 .. i18n: To display binary field image on report (to be checked)
 ..
 
-报表中显示二进制字段图像 (待查)
+报表中显示二进制字段图像
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -428,7 +428,7 @@ SXW 转 RML 代码的安装，适用于Windows用户
 .. i18n: """""""""""""""""""""""""""""""""""""""""""""""""""
 ..
 
-SXW 转 RML 代码的安装，适用于linux(开源)用户
+SXW 转 RML 代码的安装，适用于linux用户
 """"""""""""""""""""""""""""""""""""""""""""
 
 .. i18n: The **tiny_sxw2rml.py** can be found in the **base_report_designer** OpenERP module at this location::
@@ -494,7 +494,7 @@ Server PDF 输出
 
 关于
 """""
-To generate the pdf from the rml file, OpenERP needs a rml parser.
+要根据rml文件生成pdf，OpenERP需要一个rml解释器.
 
 .. i18n: Parser
 .. i18n: """"""
@@ -628,18 +628,18 @@ xml 定义
 .. i18n:     * **header**: allows to enable or disable the report header. To edit them for a specific company, go to: Administration -> Users -> Company's structure -> Companies. There, select and edit your company: the "Header/Footer" tab allows you to edit corporate header/footer.  
 ..
 
-    * **id**: OpenERP中的报表id，类似openerp中的其他xml标记(tag)
-    * **string**: Client 端按钮显示的文字
+    * **id**: OpenERP中的报表id，类似openerp中的其他xml标记
+    * **string**: 客户端按钮显示的文字
     * **model**: 报表中用到的object
-    * **name**: 除了第一个 "report 之后显示的名字"
+    * **name**: parse中注册的报表名字去掉"report." 之后的部分
     * **rml**: rml 文件路径
-    * **auto**: boolean值指定server是/否生成默认的解释器
-    * **header**: 是否允许页眉(report header)。 如果需要编辑, 遵循如下方式: Administration -> Users -> Company’s structure -> Companies. 选择并编辑您的公司: 其中 “Header/Footer” 标签 允许你编辑相应的 header/footer.  
+    * **auto**: 指定server是否生成默认的解释器
+    * **header**: 是否允许页眉(report header)。 如果需要编辑, 进入如下菜单: Administration -> Users -> Company’s structure -> Companies. 选择并编辑您的公司: 其中 “Header/Footer” 标签 允许你编辑相应的 header/footer.  
 
 .. i18n: .. _Python's boolean operators: http://docs.python.org/library/stdtypes.html#boolean-operations-and-or-not
 ..
 
-.. _Python's boolean operators: http://docs.python.org/library/stdtypes.html#boolean-operations-and-or-not
+.. _Python的逻辑操作: http://docs.python.org/library/stdtypes.html#boolean-operations-and-or-not
 
 .. i18n: XSL:RML reports
 .. i18n: ===============
@@ -651,14 +651,14 @@ XSL:RML 报表
 .. i18n: RML reports don't require programming but require two simple XML files to be written:
 ..
 
-RML 报表不需要编程，但是需要两种简单的 XML 文件:
+XML 报表不需要编程，但是需要两种简单的 XML 文件:
 
 .. i18n:     * a file describing the data to export (\*.xml)
 .. i18n:     * a file containing the presentation rules to apply to that data (\*.xsl)
 ..
 
-    * 一种文件描述导出数据 (\*.xml)
-    * 一种可以包含数据和表现规则的文件 (\*.xsl)
+    * 一种文件描述输出的数据 (\*.xml)
+    * 一种文件描述输出的格式 (\*.xsl)
 
 .. i18n: .. figure::  images/automatic-reports.png
 .. i18n:    :scale: 85
@@ -672,9 +672,9 @@ RML 报表不需要编程，但是需要两种简单的 XML 文件:
 .. i18n: The role of the XML template is to describe which fields of the resource have to be exported (by the server). The XSL:RML style sheet deals with the layout of the exported data as well as the "static text" of reports. Static text is referring to the text which is common to all reports of the same type (for example, the title of table columns).
 ..
 
-XML模板(template)主要描述哪些域(field)的资源需要(由server)导出. 
-XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的 "static text" 一样. 
-"static text" 是指在报表中相同、不怎么变化的部分，比如表格头部的标题(title of table column).
+XML模板主要描述记录的哪些字段需要输出. 
+XSL:RML 样式表单(style sheet)处理输出数据，以及报表中的静态文本. 
+静态文本是指在报表中不怎么变化的部分，比如表格头部的标题.
 
 .. i18n: **Example**
 ..
@@ -684,7 +684,7 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 .. i18n: Here is, as an example, the different files for the simplest report in the ERP.
 ..
 
-下面给出一个例子，说明生成ERP报表的不同文件.
+下面给出一个例子，列出用于生成ERP报表的不同文件.
 
 .. i18n: .. figure::  images/ids-report.png
 .. i18n:    :scale: 85
@@ -1102,7 +1102,7 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 .. i18n: 	    </document> 
 ..
 
-**对应的RML文件 (生成的)**
+**生成的RML文件**
 ::
 
 	<?xml version="1.0"?>
@@ -1202,7 +1202,7 @@ XSL:RML 样式表单(style sheet)处理输出数据，就像报表(report)中的
 .. i18n: For more information on the formats used:
 ..
 
-更多所用格式的帮助:
+详见以下文档:
 
 .. i18n:     * `RML user guide`_
 .. i18n:     * `XSL specification`_ 
@@ -1239,7 +1239,7 @@ XML 模板
 .. i18n: XML templates are simple XML files describing which fields among all available object fields are necessary for the report.
 ..
 
-XML 模板(template)是简单XML文件，用来描述报表所有可用的object字段(field)中哪些字段(object fields)是有用的(available).
+XML 模板是简单XML文件，用来描述报表所有可用的object字段中哪些字段是有用的.
 
 .. i18n: File format
 .. i18n: +++++++++++
@@ -1251,7 +1251,7 @@ XML 模板(template)是简单XML文件，用来描述报表所有可用的object
 .. i18n: Tag names can be chosen arbitrarily (it must be valid XML though). In the XSL file, you will have to use those names. Most of the time, the name of a tag will be the same as the name of the object field it refers to.
 ..
 
-标签(tag)名称可以任意(但在XML中必须是有效的)。XSL文件中，你要使用到这些名称。大多数情况下，标签名(the name of tag)和引用的对象字段(object field)是一致的.
+标签(tag)名称可以任意(但在XML中必须是有效的)。XSL文件中，你要使用到这些名称。大多数情况下，标签名和对象字段保持一致.
 
 .. i18n: Nodes without **type** attribute are transferred identically into the XML destination file (the data file). Nodes with a type attribute will be parsed by the server and their content will be replaced by data coming from objects. In addition to the type attribute, nodes have other possible attributes. These attributes depend on the type of the node (each node type supports or needs different attributes). Most node types have a name attribute, which refers to the  **name** of a field of the object on which we work.
 ..
