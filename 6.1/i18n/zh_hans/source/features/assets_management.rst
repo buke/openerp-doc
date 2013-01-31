@@ -1,9 +1,8 @@
-
 .. i18n: Assets Management
 .. i18n: =================
 ..
 
-Assets Management
+固定资产管理
 =================
 
 .. i18n: For businesses from foundries to pharmaceuticals, tracking a complex fixed
@@ -37,7 +36,7 @@ to the financial and analytic accounting modules for a maximum of power.
 .. i18n: -----------
 ..
 
-Key Points:
+关键点:
 -----------
 
 .. i18n: * Different methods of costing,
@@ -51,7 +50,7 @@ Key Points:
 .. i18n: ---------------------
 ..
 
-Integration Benefits:
+整合的益处:
 ---------------------
 
 .. i18n: * Fully integrated to the financial and analytic accounting modules
