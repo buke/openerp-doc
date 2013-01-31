@@ -11,7 +11,7 @@
 .. i18n: overpayment, regulatory non-compliance, and inefficiency.
 ..
 
-对于炼钢厂、制药厂这样的行业，用OpenERP来追踪其复杂的固定资产库存真的很容易。一个好的固定资产管理模块会让你避免税务过度支付、不符合规定以及低效率带来的百万计美元损失。
+对于炼钢厂、制药厂这样的行业，用OpenERP来追踪其复杂的固定资产库存真的很容易。一个好的固定资产管理模块会让你避免税务过度支付、不符合规定、以及低效率带来的百万计美元损失。
 
 .. i18n: Manages your assets easily with OpenERP. This module is fully integrated
 .. i18n: to the financial and analytic accounting modules for a maximum of power.
