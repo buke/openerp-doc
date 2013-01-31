@@ -64,7 +64,7 @@ to the financial and analytic accounting modules for a maximum of power.
 .. i18n: ------
 ..
 
-Links:
+链接:
 ------
 
 .. i18n: * Modules:  account_asset
