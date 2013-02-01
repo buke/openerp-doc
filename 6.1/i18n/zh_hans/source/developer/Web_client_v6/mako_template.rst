@@ -1,4 +1,3 @@
-
 .. i18n: .. _mako_template:
 .. i18n: 
 .. i18n: =============
@@ -9,13 +8,13 @@
 .. _mako_template:
 
 =============
-Mako Template
+Mako 模板
 =============
 
 .. i18n: Mako is a template library written in Python. 
 ..
 
-Mako is a template library written in Python. 
+**Mako** 是Python语言的一个模板处理库.
 
 .. i18n: It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
 ..
