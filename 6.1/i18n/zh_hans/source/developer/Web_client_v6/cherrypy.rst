@@ -357,14 +357,14 @@ CherryPy 会去查找所有满足条件的对象的可调用方法,并调用最�
 .. i18n: Then the object itself is called.
 ..
 
-Then the object itself is called.
+然后对象会被调用.
 
 .. i18n: These rules are needed because classes in Python are callables (for producing instances).
 ..
 
-These rules are needed because classes in Python are callables (for producing instances).
+在生产环境中, Python 的类能调用是很必须的.
 
 .. i18n: CherryPy supports both the GET and POST method for forms.
 ..
 
-CherryPy supports both the GET and POST method for forms.
+而且 CherryPy 的表单还支持 POST 及 GET 方法处理.
