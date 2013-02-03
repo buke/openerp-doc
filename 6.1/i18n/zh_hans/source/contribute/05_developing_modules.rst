@@ -427,6 +427,7 @@ The structure of a module should be::
 
 Each object defined in your module must have at least one security rule
 defined on it to make it accessible.
+模块中定义的每个模块必须有至少一条安全规则，使得它可被访问
 
 .. i18n: Coding Guidelines
 .. i18n: #################
