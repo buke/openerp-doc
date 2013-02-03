@@ -757,12 +757,12 @@ Search criteria: search available on all columns of the list view
 .. i18n: The default language for every development must be U.S. English.
 ..
 
-The default language for every development must be U.S. English.
+每个开发的默认语言必须是 U.S. English.
 
 .. i18n: For menus and fields, use uppercase for all first letters, excluding conjections:
 ..
 
-For menus and fields, use uppercase for all first letters, excluding conjections:
+对菜单和字段，第一个字母使用大些rs, 除非是 连词:
 
 .. i18n:   * Chart of Accounts
 ..
@@ -789,23 +789,23 @@ For menus and fields, use uppercase for all first letters, excluding conjections
   * one2many fields should respect this regex: '.*_ids'
   * one2many relation table should respect this regex: '.*_rel'
   * many2many fields should respect this regex: '.*_ids'
-  * use underscore to separate words
-  * avoid using uppercase
-  * if a field is composed of several words, start with the most important words
+  * 使用下划线 分割单词
+  * 避免使用大写
+  * 如果一个字段有几个单词组成，用最重要的单词开头
 
 .. i18n: Model Naming Conventions
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-模型命名惯例
+模块命名惯例
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. i18n: * All objects must start with the name of the module they are defined in.
 .. i18n: * If an object is composed of several words, use points to separate words
 ..
 
-* All objects must start with the name of the module they are defined in.
-* If an object is composed of several words, use points to separate words
+* 所有对象必须用定义他们的模块的名称开头.
+* 乳沟一个对象名称由几个单词组成，用 小数点 分割单词
 
 .. i18n: Terminology
 .. i18n: ^^^^^^^^^^^
