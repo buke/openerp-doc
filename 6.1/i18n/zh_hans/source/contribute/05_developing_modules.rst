@@ -425,8 +425,6 @@ The structure of a module should be::
 .. i18n: defined on it to make it accessible.
 ..
 
-Each object defined in your module must have at least one security rule
-defined on it to make it accessible.
 模块中定义的每个模块必须有至少一条安全规则，使得它可被访问
 
 .. i18n: Coding Guidelines
@@ -464,8 +462,8 @@ Reporting
 .. i18n:     - right: between 12 and 13
 ..
 
-  * use the Helvetica font everywhere
-  * margins (in millimeters):
+  * 每个地方使用 Helvetica 字体
+  * 边缘 (用毫米表示):
 
     - top: 14
     - bottom: 16
