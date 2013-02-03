@@ -64,24 +64,24 @@ Now the number of third party dependencies are reduced to 3-4 pure Python librar
 you can install within the local lib dir with the help of `populate.sh` script, found under 
 the same lib directory.
 	
--	Just get the source from Launchpad, run the **populate.sh** and launch the web client...
+-	仅需要从 Launchpad 获取源码后, 运行 **populate.sh** 就可以完成 web client 的启动...
 
 .. i18n: The initial test results are very impressive.
 ..
 
-The initial test results are very impressive.
+	整个测试效果会让你惊叹!.
 
 .. i18n: We have seen 3-5 times speed improvement.
 ..
 
-We have seen 3-5 times speed improvement.
+一般3-5次后的提速效果就很明显了.
 
 .. i18n: Against OpenERP Web 5.0
 .. i18n: =======================
 ..
 
-Against OpenERP Web 5.0
-=======================
+弥补 OpenERP Web 5.0 不足
+===========================
 
 .. i18n: Here are the benchmark results of the latest stable 6.0 version against the stable 5.0 branch which is running over TurboGears.
 ..
