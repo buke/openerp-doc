@@ -94,17 +94,17 @@
 .. i18n: If your tests are declared as demo data in the __openerp__.py, they will be checked at the installation of the system with demo data. Example of usage, testing the demo sale order produce a correct amount in the generated invoice.
 ..
 
-If your tests are declared as demo data in the __openerp__.py, they will be checked at the installation of the system with demo data. Example of usage, testing the demo sale order produce a correct amount in the generated invoice.
+如果你的测试在 __openerp__.py 作为演示数据申明，那么将会在系统安装演示数据时检查。例如，在生成发票过程中，测试销售订单是否产生了正确的金额。
 
 .. i18n: If your tests are declared like init data, they will be checked at all installation of the software. Use it to test the consistency of the software after installation.
 ..
 
-If your tests are declared like init data, they will be checked at all installation of the software. Use it to test the consistency of the software after installation.
+如果你的测试申明为初始数据（init），那么将在模块安装时检查。可以在模块安装后检查数据的一致性。
 
 .. i18n: If your tests are declared in update sections, the tests are checked at the installation and also at all updates. Use it to tests consistencies, invariants of the module. Example: The sum of the credits must be equal to the sum of the debits for all non draft entries in the accounting module. Putting tests in update sections is very useful to check consistencies of migrations or new version upgrades. 
 ..
 
-If your tests are declared in update sections, the tests are checked at the installation and also at all updates. Use it to tests consistencies, invariants of the module. Example: The sum of the credits must be equal to the sum of the debits for all non draft entries in the accounting module. Putting tests in update sections is very useful to check consistencies of migrations or new version upgrades. 
+如果你的测试数据在升级部分申明，那么将在模块安装和升级时检查。用于检查数据一致性和常量。例如，会计模块中，所有非草稿状态分录总和贷方必须等于借方。将测试放在升级章节中，在模块迁移和升级中是非常有用的。
 
 .. i18n: Assert Tag
 .. i18n: ----------
@@ -116,7 +116,7 @@ If your tests are declared in update sections, the tests are checked at the inst
 .. i18n: The assert tag allows you to define some assertions that have to be checked at boot time. Example :
 ..
 
-The assert tag allows you to define some assertions that have to be checked at boot time. Example :
+断言标签允许你定义某些断言，这些断言将会启动的时候检查。如：
 
 .. i18n: .. code-block:: xml
 .. i18n: 	
