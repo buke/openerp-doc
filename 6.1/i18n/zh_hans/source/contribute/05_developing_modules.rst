@@ -606,14 +606,14 @@ Reporting
 .. i18n: modules on which it depends.
 ..
 
-The name of the module are all lowercase, each word separated by underscores.
-Always start with the most relevant words, which are preferably names of other
-modules on which it depends.
+模块的名称全部小写，每个单词用下划线分割。
+总是用最重要、最相关的单词开头，区别其它模块的最好的名称
+
 
 .. i18n: Example:
 ..
 
-Example:
+例如：
 
 .. i18n:   * account_invoice_layout
 ..
@@ -630,14 +630,15 @@ Example:
 .. i18n: Each module must contain at least:
 ..
 
-Each module must contain at least:
+ 
+每个模块至少包括：
 
 .. i18n:   * name
 .. i18n:   * description
 ..
 
-  * name
-  * description
+  * name 模块名称
+  * description  模块说明
 
 .. i18n: Modules Description
 .. i18n: ^^^^^^^^^^^^^^^^^^^
@@ -656,16 +657,17 @@ Each module must contain at least:
 .. i18n: Each module must contain:
 ..
 
-Each module must contain:
+
+每个模块必须包含：
 
 .. i18n:   * A list of dependencies amongst others modules: ['account','sale']
 .. i18n: 
 .. i18n:   * Provide only highest requirement level, not need to set ['account','base','product','sale']
 ..
 
-  * A list of dependencies amongst others modules: ['account','sale']
 
-  * Provide only highest requirement level, not need to set ['account','base','product','sale']
+  * 一个与其它模块的依赖关系的列表： ['account','sale']
+  * 只需提供最高的需求级别，不需要设置 ['account','base','product','sale']
 
 .. i18n: Module Content
 .. i18n: ^^^^^^^^^^^^^^
@@ -677,16 +679,15 @@ Each module must contain:
 .. i18n: Each module must contain demo data for every object defined in the module.
 ..
 
-Each module must contain demo data for every object defined in the module.
+每个模块必须为 模块中定义的对象包含演示数据 
 
 .. i18n: If you implemented workflows in the module, create demo data that passes
 .. i18n: most branches of your workflow. You can use the module recorder to help you
 .. i18n: build such demo data.
 ..
-
-If you implemented workflows in the module, create demo data that passes
-most branches of your workflow. You can use the module recorder to help you
-build such demo data.
+ 
+如果你要在模块中实现工作流，创建 传递你工作流的多数分支的演示数据 。
+你能使用模块记录器（ module recorder）来帮助你建立这样的演示数据
 
 .. i18n: Menus
 .. i18n: ^^^^^
@@ -706,8 +707,8 @@ build such demo data.
 .. i18n:   * Avoid abbreviations in menus if possible. Example: BoMs -> Bills of Materials
 ..
 
-  * Use plural forms: *Customer Invoice*, should be *Customer Invoices*
-  * Avoid abbreviations in menus if possible. Example: BoMs -> Bills of Materials
+  * 使用复数形式s: *Customer Invoice*, 命名为 *Customer Invoices*
+  * 如果可能，在菜单中避免缩略语. 例如: BoMs -> Bills of Materials
 
 .. i18n: Order of the menus
 .. i18n: ##################
@@ -745,7 +746,7 @@ The *Reporting* menu is at the bottom of the list, use a sequence=50.
 .. i18n: Search criteria: search available on all columns of the list view
 ..
 
-Search criteria: search available on all columns of the list view
+搜索条件: 搜索可用在列表视图的所有列
 
 .. i18n: Default Language
 .. i18n: ^^^^^^^^^^^^^^^^
@@ -762,7 +763,7 @@ Search criteria: search available on all columns of the list view
 .. i18n: For menus and fields, use uppercase for all first letters, excluding conjections:
 ..
 
-对菜单和字段，第一个字母使用大些rs, 除非是 连词:
+对菜单和字段，第一个字母使用大写, 除非是 连词:
 
 .. i18n:   * Chart of Accounts
 ..
