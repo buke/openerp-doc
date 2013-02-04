@@ -706,7 +706,7 @@ Reporting
 .. i18n:   * Avoid abbreviations in menus if possible. Example: BoMs -> Bills of Materials
 ..
 
-  * 使用复数形式s: *Customer Invoice*, 命名为 *Customer Invoices*
+  * 使用复数形式: *Customer Invoice*, 命名为 *Customer Invoices*
   * 如果可能，在菜单中避免缩略语. 例如: BoMs -> Bills of Materials
 
 .. i18n: Order of the menus
