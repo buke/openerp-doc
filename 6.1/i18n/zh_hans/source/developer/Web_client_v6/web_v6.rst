@@ -86,7 +86,7 @@ the same lib directory.
 .. i18n: Here are the benchmark results of the latest stable 6.0 version against the stable 5.0 branch which is running over TurboGears.
 ..
 
-Here are the benchmark results of the latest stable 6.0 version against the stable 5.0 branch which is running over TurboGears.
+下面是 6.0 版与 5.0 版就web性能方面做的测试报告:
 
 .. i18n: The benchmark test used Apache Benchmark Tool against larger Customer Invoice Form view.
 ..
@@ -136,10 +136,10 @@ Here are the benchmark results of the latest stable 6.0 version against the stab
 ..
 
 .. csv-table::
-	:header: "Result of OpenERP Web 5.0 (TurboGears + Kid)","Result of OpenERP Web 6.0 (CherryPy3 + Mako)"
+	:header: "OpenERP Web 5.0 (TurboGears + Kid)","OpenERP Web 6.0 (CherryPy3 + Mako)"
 	:widths: 50,50
 	
-	"This is ApacheBench, Version 2.3 <$Revision: 655654 $>","This is ApacheBench, Version 2.3 <$Revision: 655654 $>"
+	"ApacheBench工具, 版本 2.3 <内部版本: 655654>","ApacheBench工具, 版本 2.3 <内部版本: 655654>"
 	"Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/","Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/"
 	"Licensed to The Apache Software Foundation, http://www.apache.org/","Licensed to The Apache Software Foundation, http://www.apache.org/"
 	"Benchmarking localhost (be patient).....done","Benchmarking localhost (be patient).....done"
@@ -184,9 +184,9 @@ Here are the benchmark results of the latest stable 6.0 version against the stab
 .. i18n: -	Like reducing RPC calls, catching results of some computationally heavy functions.
 ..
 
-Conclusion
+测试结果
 ==========
--	You can see significant performance boost in second test result. 
--	We observed 3-5 times speedup. 
--	There is still room to improve the performance further.
--	Like reducing RPC calls, catching results of some computationally heavy functions.
+-	报告显示, 第二列的测试结果明显好于第一列. 
+-	3-5次缓存加速明显. 
+-	还有进一步提升性能的空间.
+-	如还可以再减少一些RPC调用, 有一些获取结果后仍有一定量的冗余计算.
