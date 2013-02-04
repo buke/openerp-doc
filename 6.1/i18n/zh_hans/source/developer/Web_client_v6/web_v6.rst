@@ -51,7 +51,7 @@ CherryPy Server.
 .. i18n: This greatly reduces the pain of getting started with and deploying of OpenERP Web client.
 ..
 
-这大大减少了痛苦的开始使用和部署在 OpenERP Web client.
+这大大减少了使用和部署OpenERP Web client的难度.
 
 .. i18n: Now the number of third party dependencies are reduced to 3-4 pure Python libraries which 
 .. i18n: you can install within the local lib dir with the help of `populate.sh` script, found under 
@@ -91,7 +91,7 @@ Here are the benchmark results of the latest stable 6.0 version against the stab
 .. i18n: The benchmark test used Apache Benchmark Tool against larger Customer Invoice Form view.
 ..
 
-The benchmark test used Apache Benchmark Tool against larger Customer Invoice Form view.
+使用 Apache ap.exe 工具对处理大量的 客户发票表单为例做性能测试.
 
 .. i18n: .. csv-table::
 .. i18n: 	:header: "Result of OpenERP Web 5.0 (TurboGears + Kid)","Result of OpenERP Web 6.0 (CherryPy3 + Mako)"
