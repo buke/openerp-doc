@@ -805,7 +805,7 @@ The *Reporting* menu is at the bottom of the list, use a sequence=50.
 ..
 
 * 所有对象必须用定义他们的模块的名称开头.
-* 乳沟一个对象名称由几个单词组成，用 小数点 分割单词
+* 如果一个对象名称由几个单词组成，用 小数点 分割单词
 
 .. i18n: Terminology
 .. i18n: ^^^^^^^^^^^
