@@ -19,12 +19,12 @@ Mako 模板
 .. i18n: It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
 ..
 
-It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
+它能提供编译为常见的非XML语法的高性能的Python模块.
 
 .. i18n: Mako's syntax and API borrows from the best ideas of many others, including Django templates, Cheetah, Myghty, and Genshi. 
 ..
 
-Mako's syntax and API borrows from the best ideas of many others, including Django templates, Cheetah, Myghty, and Genshi. 
+Mako 的语法及API融合了很多模块系统的亮点, 如常用的 Django, Cheetah, Myghty, Genshi等等. 
 
 .. i18n: Conceptually, Mako is an embedded Python (i.e. Python Server Page) language, which refines the familiar ideas of 
 .. i18n: componentized layout and inheritance to produce one of the most straightforward and flexible models available, 
