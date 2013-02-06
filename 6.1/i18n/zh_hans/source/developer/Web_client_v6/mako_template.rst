@@ -82,7 +82,7 @@ while also maintaining close ties to Python calling and scoping semantics.
 .. i18n: ========
 ..
 
-Features
+功能
 ========
 
 .. i18n: Super-simple API. For basic usage, just one class, Template is needed:
@@ -144,7 +144,7 @@ these results for a simple three-sectioned layout:
 .. i18n: 	-	inheritance is dynamic ! Specify a function instead of a filename to calculate inheritance on the fly for every request.
 ..
 
--	**Standard template features**
+-	**标准模板功能**
  
 	-	control structures constructed from real Python code (i.e. loops, conditionals)
 	-	straight Python blocks, inline or at the module-level
@@ -169,13 +169,13 @@ these results for a simple three-sectioned layout:
 .. i18n: ========
 ..
 
-Examples
+例子
 ========
 
 .. i18n: -	**Basic Usage**
 ..
 
--	**Basic Usage**
+-	**基本用法**
 
 .. i18n: ::
 .. i18n: 
