@@ -53,8 +53,8 @@
 ..
 
 风险与整合的成本是企业从ERP系统中获利的重要的障碍。这就是为什么今天中小型企业很少使用ERP的原因。
-另外，像SAP、微软和Oracle这样的大型ERP软件供应商也还不能解决ERP软件强大的处理能力与用户对ERP系统的简单性和灵活性的普遍需求。
-但这却正是中小型企业所需要的。
+另外，像SAP、微软和Oracle这样的大型ERP软件供应商也还不能解决ERP软件强大的处理能力与用户对ERP系统的简单性和
+灵活性的普遍需求。但这却正是中小型企业所需要的。
 
 
 .. i18n: The development processes of Open Source Software, and the new business models adopted by their
@@ -86,7 +86,8 @@
 ..
 
 因为有成千上万的贡献者与合作伙伴在同一个项目上通力合作，所以软件的质量极大地得益于彼此之间的审查。
-你不可能同时做所有的事情：会计，软件开发，销售，ISO9001质量管理，农产品专家，药品专家，这些只是其中的一部分而已。
+你不可能同时做所有的事情：会计，软件开发，销售，ISO9001质量管理，农产品专家，药品专家，这些只是其中的一部分
+而已。
 
 .. i18n: Faced with these wide-ranging requirements, what could be better than a worldwide network of
 .. i18n: partners and contributors?
@@ -159,8 +160,9 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: Over 800 developers participate in the projects on the collaborative development system.
 ..
 
-结果非常优秀。OpenERP（原本称作Tiny ERP）是一个管理软件，在全世界范围内它比其它的同类软件获得更多的下载次数，每天超过600次。
-现在它支持18中语言并且有一个世界范围的合作伙伴和贡献者网络。超过800名开发者共同参与并开发了这个项目。
+结果非常优秀。OpenERP（原本称作Tiny ERP）是一个管理软件，在全世界范围内它比其它的同类软件获得更多的下载次数，
+每天超过600次。现在它支持18中语言并且有一个世界范围的合作伙伴和贡献者网络。超过800名开发者共同参与并开发了这
+个项目。
 
 .. i18n: To our knowledge, OpenERP is the only management system which is routinely used not only by big
 .. i18n: companies but also by very small companies and independent companies. This diversity is an
@@ -187,9 +189,10 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: factory on some remote industrial estate.
 ..
 
-最后我们希望说明的是，本软件诞生于高质量的代码，良好的体系结构和免费的技术。事实上，你可能惊讶的（如果你从事IT行业）发现OpenERP
-的下载包只有差不多6MB. 在安装时展开后，它的大小会改变，这主要是由于官方的翻译也被打包在里面，而不是因为代码的原因。但是我们希望表达的远不止于此。
-自从那些地处偏远的工厂的所有者预期可以从ERP受益开始至今，我们已经走过了如此长的一段路。
+最后我们希望说明的是，本软件诞生于高质量的代码，良好的体系结构和免费的技术。事实上，你可能惊讶的（如果你从事IT
+行业）发现OpenERP的下载包只有差不多6MB. 在安装时展开后，它的大小会改变，这主要是由于官方的翻译也被打包在里面，
+而不是因为代码的原因。但是我们希望表达的远不止于此。自从那些地处偏远的工厂的所有者预期可以从ERP受益开始至今，我
+们已经走过了如此长的一段路。
 
 .. i18n: Why this book?
 .. i18n: --------------
@@ -203,7 +206,8 @@ automation module for ordering sandwiches, which can take care of the eating pre
 .. i18n: lists because our approach is intended to be different.
 ..
 
-很多书告诉读者该如何管理企业，同样也有很多书致力于指导读者如何使用一款特定的软件。我们并不想像他们那样，因为我们的方向是不同的。
+很多书告诉读者该如何管理企业，同样也有很多书致力于指导读者如何使用一款特定的软件。我们并不想像他们那样，因为
+我们的方向是不同的。
 
 .. i18n: Having restructured and reorganized many businesses, we wanted our management experience to generate
 .. i18n: a work that is both instructive and practical. It was important for us not to write a manual about
