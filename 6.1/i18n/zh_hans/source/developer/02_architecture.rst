@@ -199,7 +199,7 @@ Loops and special fields
 .. i18n: Suppose now that you want to compute the totals of 10 sales order by countries. You can do this in OpenERP within a OpenERP object:
 ..
 
-Suppose now that you want to compute the totals of 10 sales order by countries. You can do this in OpenERP within a OpenERP object:
+假如现在你想计算一个区域10个销售订单总数. 在OpenERP中通过一个对象如下操作:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -225,7 +225,7 @@ Suppose now that you want to compute the totals of 10 sales order by countries. 
 .. i18n: And, to print them as a good way, you can add this on your object:
 ..
 
-And, to print them as a good way, you can add this on your object:
+并且, 你能加打印他们的好的方法到你的对象中:
 
 .. i18n: .. code-block:: python
 .. i18n: 
