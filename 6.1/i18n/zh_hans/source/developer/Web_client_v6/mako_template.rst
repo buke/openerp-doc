@@ -31,9 +31,8 @@ Mako 的语法及API融合了很多模块系统的亮点, 如常用的 Django, C
 .. i18n: while also maintaining close ties to Python calling and scoping semantics.
 ..
 
-Conceptually, Mako is an embedded Python (i.e. Python Server Page) language, which refines the familiar ideas of 
-componentized layout and inheritance to produce one of the most straightforward and flexible models available, 
-while also maintaining close ties to Python calling and scoping semantics.
+从概念上讲, Mako 属于一种内嵌Python语言(如Python的服务端页面). 这样模板开发者精确的想法布局实现及简单而直接地继承.
+模式灵活同时还保证了与应用与Python的调用及语义的紧密联系.
 
 .. i18n: ::
 .. i18n: 
