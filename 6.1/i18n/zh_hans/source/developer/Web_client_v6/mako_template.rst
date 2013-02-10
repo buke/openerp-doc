@@ -87,7 +87,7 @@ Mako 的语法及API融合了很多模块系统的亮点, 如常用的 Django, C
 .. i18n: Super-simple API. For basic usage, just one class, Template is needed:
 ..
 
-Super-simple API. For basic usage, just one class, Template is needed:
+API简洁, 最简单的例子, 只需要引用一个 Template class 即可.
 
 .. i18n: ::
 .. i18n: 
