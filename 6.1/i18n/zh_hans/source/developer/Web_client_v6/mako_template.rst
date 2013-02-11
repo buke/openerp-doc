@@ -103,7 +103,7 @@ API简洁, 最简单的例子, 只需要引用一个 Template class 即可.
 .. i18n: For filesystem management and template caching, add the TemplateLookup class.
 ..
 
-For filesystem management and template caching, add the TemplateLookup class.
+另一个例子,使用文件模板以及模板缓存,模板文件优先查询的处理.
 
 .. i18n: Insanely Fast. An included bench suite, adapted from a suite included with Genshi, has 
 .. i18n: these results for a simple three-sectioned layout: 
