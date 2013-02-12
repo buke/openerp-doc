@@ -220,8 +220,7 @@ You will find information about:
 .. i18n: extensions.
 ..
 
-A database of all the modules available for use gives you free access to most of the known OpenERP
-extensions.
+所有可用模块的数据库应用让你自由接入到已知的OpenERP的扩展当中
 
 .. i18n: * **Launchpad** https://code.launchpad.net/~openerp/
 ..
@@ -233,9 +232,8 @@ extensions.
 .. i18n: become the central location for OpenERP technology.
 ..
 
-The most recent communication tool is the launchpad system, which now hosts all of OpenERP's
-source code (using the *bzr* source code control system) and is used for reporting faults. It is
-become the central location for OpenERP technology.
+最近的传输通讯工具是那个主控所有系列OpenERP源码（使用*bzr*源码控制系统）
+和用作报告错误的launchpad系统。它已占据OpenERP技术的核心位置。
 
 .. i18n: OpenERP Partners
 .. i18n: ^^^^^^^^^^^^^^^^
