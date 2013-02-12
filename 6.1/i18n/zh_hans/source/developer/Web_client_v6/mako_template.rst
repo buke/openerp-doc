@@ -145,7 +145,7 @@ these results for a simple three-sectioned layout:
 
 -	**标准模板功能**
  
-	-	control structures constructed from real Python code (i.e. loops, conditionals)
+	-	模板结构,逻辑控制使用标准Python语法(如 循环语句, 条件语句等)
 	-	straight Python blocks, inline or at the module-level
 
 -	**Callable blocks**
