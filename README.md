@@ -76,3 +76,5 @@ https://github.com/buke/openerp-doc/wiki/%E6%9C%AF%E8%AF%AD%E8%A1%A8
 2. OpenERP 官方文档 http://doc.openerp.com
 3. 维基百科: 科技条目翻译指引 http://zh.wikipedia.org/wiki/Wikipedia:%E7%A7%91%E6%8A%80%E6%9D%A1%E7%9B%AE%E7%BF%BB%E8%AF%91%E6%8C%87%E5%BC%95
 4. CNKI 翻译助手 http://dict.cnki.net/
+5. 翻译图文教程: http://shine-it.net/index.php/topic,4536.html
+
