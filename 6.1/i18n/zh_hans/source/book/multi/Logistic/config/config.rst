@@ -8,7 +8,7 @@
 .. i18n: Let us start by configuring the different components we need. In the next sections, we will define:
 ..
 
-Let us start by configuring the different components we need. In the next sections, we will define:
+那么我们从配置所需的不同组件开始。在下一个章节，我们就会去定义组件内容：
 
 .. i18n: 	* The companies' structure
 .. i18n: 		* Companies
@@ -56,9 +56,9 @@ Let us start by configuring the different components we need. In the next sectio
 
 .. toctree::
 
-   config_company
-   config_product
-   config_stock
+   配置公司
+   配置产品
+   配置库存
    
    
 .. Copyright © Open Object Press. All rights reserved.
