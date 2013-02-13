@@ -426,7 +426,7 @@ Only value and function tags have meaning as function child nodes (using other t
 .. i18n: This document describes all tests that are made each time someone install OpenERP on a computer. You can then assume that all these tests are valid as we must launch them before publishing a new module or a release of OpenERP.
 ..
 
-This document describes all tests that are made each time someone install OpenERP on a computer. You can then assume that all these tests are valid as we must launch them before publishing a new module or a release of OpenERP.
+这个文档描述的是所有人在计算机上安装OpenERP的测试。你可以假设所有测试都已通过致使我们必须更新整合到发行版的新模块中或者一个新OpenERP候选版本中。
 
 .. i18n: Integrity tests on migrations
 .. i18n: -----------------------------
