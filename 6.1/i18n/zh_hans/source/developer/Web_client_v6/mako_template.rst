@@ -148,7 +148,7 @@ these results for a simple three-sectioned layout:
 	-	模板结构,逻辑控制使用标准Python语法(如 循环语句, 条件语句等)
 	-	straight Python blocks, inline or at the module-level
 
--	**Callable blocks**
+-	**可重复使用模板块**
 
 	-	can access variables from their enclosing scope as well as the template's request context
 	-	can be nested arbitrarily
@@ -157,7 +157,7 @@ these results for a simple three-sectioned layout:
 	-	calls to functions can define any number of sub-blocks of content which are accessible to the called 
 		function (i.e. "component-call-with-content"). This is the basis for nestable custom tags.
 
--	**Inheritance**
+-	**模板继承**
 
 	-	supports "multi-zoned" inheritance - define any number of areas in the base template to be overridden.
 	-	supports "chaining" style inheritance - call next.body() to call the "inner" content.
