@@ -17,6 +17,7 @@ OpenERP 中文文档翻译计划
 *  本翻译计划不设门槛，人人都可以参与。
 *  翻译者可以直接在 github 上直接编辑，或用git commit ，建议直接在github 上直接编辑。
 *  参与翻译需要一个github 帐号，有帐号的同学直接将github 帐号发给 wangbuke，来获取编辑权限。
+*  图文教程: http://shine-it.net/index.php/topic,4536.html
 
 翻译说明
 -----------
@@ -76,5 +77,5 @@ https://github.com/buke/openerp-doc/wiki/%E6%9C%AF%E8%AF%AD%E8%A1%A8
 2. OpenERP 官方文档 http://doc.openerp.com
 3. 维基百科: 科技条目翻译指引 http://zh.wikipedia.org/wiki/Wikipedia:%E7%A7%91%E6%8A%80%E6%9D%A1%E7%9B%AE%E7%BF%BB%E8%AF%91%E6%8C%87%E5%BC%95
 4. CNKI 翻译助手 http://dict.cnki.net/
-5. 翻译图文教程: http://shine-it.net/index.php/topic,4536.html
+
 
