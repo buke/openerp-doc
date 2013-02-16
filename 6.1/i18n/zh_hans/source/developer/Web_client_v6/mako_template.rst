@@ -151,7 +151,7 @@ these results for a simple three-sectioned layout:
 -	**可重复使用模板块**
 
 	-	can access variables from their enclosing scope as well as the template's request context
-	-	can be nested arbitrarily
+	-	模块任意嵌套
 	-	can specify regular Python argument signatures
 	-	outer-level callable blocks can be called by other templates or controller code (i.e. "method call")
 	-	calls to functions can define any number of sub-blocks of content which are accessible to the called 
