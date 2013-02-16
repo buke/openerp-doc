@@ -194,12 +194,12 @@ these results for a simple three-sectioned layout:
 .. i18n: The text argument to **Template** is **compiled** into a Python module representation.
 ..
 
-The text argument to **Template** is **compiled** into a Python module representation.
+传给 **Template** 的模板文本被处理成一种类似 Python 模块的对象.
 
 .. i18n: This module contains a function called render_body(),which produces the output of the template.
 ..
 
-This module contains a function called render_body(),which produces the output of the template.
+这个模块对象有一个 **render_body()** 方法, 用于将模板处理为最终的输出结果.
 
 .. i18n: When mytemplate.render() is called, Mako sets up a runtime environment for the template and calls 
 .. i18n: the render_body() function, capturing the output into a buffer and returning its string contents.
