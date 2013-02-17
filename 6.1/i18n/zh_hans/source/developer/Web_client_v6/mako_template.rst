@@ -205,8 +205,8 @@ these results for a simple three-sectioned layout:
 .. i18n: the render_body() function, capturing the output into a buffer and returning its string contents.
 ..
 
-When mytemplate.render() is called, Mako sets up a runtime environment for the template and calls 
-the render_body() function, capturing the output into a buffer and returning its string contents.
+当 mytemplate.render() 时，Mako 会处理当前的运行环境并调用 render_body() 方法渲染模板后返回处理结果为一个
+字符串.
 
 .. i18n: The code inside the render_body() function has access to a namespace of variables. You can specify 
 .. i18n: these variables by sending them as additional keyword arguments to the **render()** method:
