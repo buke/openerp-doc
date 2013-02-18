@@ -233,12 +233,12 @@ these variables by sending them as additional keyword arguments to the **render(
 .. i18n: -	**Using File-based Templates**
 ..
 
--	**Using File-based Templates**
+-	**基于文件的模板**
 
 .. i18n: A **Tempalte** can also load its template source code from a file, using the filename keyword argument:
 ..
 
-A **Tempalte** can also load its template source code from a file, using the filename keyword argument:
+使用文件做为模板代码源, 只需要使用 **filename** 参数指定文件路径即可:
 
 .. i18n: ::
 .. i18n: 
