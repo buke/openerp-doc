@@ -255,9 +255,11 @@ might correspond to a set of pre-printed barcodes that you stick on each product
 .. i18n: Production Lots` or :menuselection:`Warehouse --> Traceability --> Packs`.
 ..
 
-If you key in the lot numbers for stock moves as described above, you can investigate the traceability of any
-given lot number. Go to the menu :menuselection:`Warehouse --> Traceability -->
-Production Lots` or :menuselection:`Warehouse --> Traceability --> Packs`.
+如果你在收/发货时 为移库单录入了批次号, 那你以后就可以用这个批次号进行移库追踪.
+相应菜单项:
+英文 :menuselection:`Warehouse --> Traceability -->
+Production Lots` 或者 :menuselection:`Warehouse --> Traceability --> Packs`
+中文 :menuselection:`仓库 --> 可追溯的 --> 生产批次` 或者 :menuselection:`仓库 --> 可追溯的 --> 包装`.
 
 .. i18n: .. tip:: Product Shortcuts
 .. i18n: 
