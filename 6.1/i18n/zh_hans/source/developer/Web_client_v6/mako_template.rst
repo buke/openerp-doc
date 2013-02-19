@@ -258,7 +258,7 @@ these variables by sending them as additional keyword arguments to the **render(
 .. i18n: -	**Using TemplateLookup**
 ..
 
--	**Using TemplateLookup**
+-	**使用 TemplateLookup 匹配最佳模板**
 
 .. i18n: All of the examples thus far have dealt with the usage of a single **Template** object.
 ..
@@ -317,13 +317,13 @@ which will search in the current directory  for the file "header.txt".
 .. i18n: ======
 ..
 
-Syntax
+语法
 ======
 
 .. i18n: -	**Expression Substitution**
 ..
 
--	**Expression Substitution**
+-	**表达式**
 
 .. i18n: The simplest expression is just a variable substitution.
 ..
