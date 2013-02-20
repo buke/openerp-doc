@@ -15,7 +15,7 @@
 .. _ch-projects:
 
 *******************
-驱动项目
+很棒的项目管理
 *******************
 
 .. i18n:  *If you have a good system to manage tasks, your whole company will benefit.
@@ -28,14 +28,11 @@
 .. i18n: select the generic chart of accounts. 
 ..
 
- *If you have a good system to manage tasks, your whole company will benefit.
- OpenERP's project management application enables you to efficiently manage and track tasks,
- work on them effectively, quickly delegate them while keeping close track of your delegated tasks.
- OpenERP also helps people in the company to organize their personal time,
- and this chapter proposes a methodology aimed at improving the productivity of managers.*
- 
-Start with a fresh database that includes demo data, install Sales Management (:mod:`sale`) and Project Management (:mod:`project`) and 
-select the generic chart of accounts. 
+ *如果您有一个好的系统来管理任务，您的整个公司都将受益。OpenERP的项目管理模块能让你有效地管理和跟踪任务，有效地开展工作, 
+ 迅速委派任务并同时保持密切跟踪您委派的任务。OpenERP还有助于贵公司的人组织他们的个人时间，本章提出了一种旨在提高管理者的
+ 生产力的方法。
+
+新建一个包含演示数据的帐套，安装“销售管理”和“项目管理”并选择通用总账科目表
 
 .. i18n: .. raw:: html
 .. i18n: 
