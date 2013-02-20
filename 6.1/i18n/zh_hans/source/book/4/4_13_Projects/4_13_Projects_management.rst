@@ -72,7 +72,8 @@
 .. i18n: There is a direct link between the project and the analytic account, because for each new project created, OpenERP will automatically create the corresponding analytic account in the `Projects` analytic chart of accounts. Note that you have no access to the analytic account directly from a project.
 ..
 
-There is a direct link between the project and the analytic account, because for each new project created, OpenERP will automatically create the corresponding analytic account in the `Projects` analytic chart of accounts. Note that you have no access to the analytic account directly from a project.
+这里项目和辅助核算可以直接关联，这是因为每创建一新的项目，OpenERP会在 `项目` 辅助核算表中自动创建对应的辅助核算项。
+注意您不能从项目中直接存取辅助核算。
 
 .. i18n: Creating Projects and Related Tasks
 .. i18n: -----------------------------------
