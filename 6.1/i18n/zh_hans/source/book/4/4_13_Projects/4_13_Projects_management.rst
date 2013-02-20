@@ -10,23 +10,21 @@
 .. i18n: time plans and budgets, to control invoicing and to manage your different contracts.
 ..
 
-In the previous chapter you learned more about the financial management of projects, based on
-OpenERP's analytic accounts, structured into cases. This way of working enables you to analyze
-time plans and budgets, to control invoicing and to manage your different contracts.
+在前面的章节中，您基于OpenERP的辅助核算、实例结构了解了项目的财务管理。这种工作方式使您能够分析时间计划和预算，
+和管理不同合同的发票。
 
 .. i18n: Here we will explain operational project management to organize tasks and plan the work you
 .. i18n: need to get the tasks completed. All the necessary operations are carried out from the
 .. i18n: :menuselection:`Project` menu.
 ..
 
-Here we will explain operational project management to organize tasks and plan the work you
-need to get the tasks completed. All the necessary operations are carried out from the
-:menuselection:`Project` menu.
+在这里，我们将解释使用项目管理模块来组织任务和计划您需要完成的工作。所有必要的操作均出自于 :menuselection:`Project` 
+菜单中。
 
 .. i18n: .. tip:: Remember that you will have less options in Simplified view than in Extended view.
 ..
 
-.. tip:: Remember that you will have less options in Simplified view than in Extended view.
+.. tip:: 记得您在简化界面中比在扩展界面中选项更少.
 
 .. i18n: .. index::
 .. i18n:    single: project
@@ -47,21 +45,18 @@ need to get the tasks completed. All the necessary operations are carried out fr
 .. i18n: 	completed through OpenERP) they are still two different concepts, each making its own contribution to a flexible workflow.
 ..
 
-.. note:: Project
+.. note:: 项目
 
-	In OpenERP, a project is represented by a set of tasks to be completed.
-	Projects have a tree structure that can be divided into phases and sub-phases.
-	This structure is very useful to organise your work.
+	在OpenERP中，项目代表了一系列需完成的任务。项目有一个树状结构，可以划分阶段和子阶段。这种结构非常有益于组织您
+	的工作。
 
-	Whereas analytic accounts look at the past activities of the company, Project Management's role is
-	to plan the future.
-	Even though there is a close link between the two (such as where a project has been planned and then
-	completed through OpenERP) they are still two different concepts, each making its own contribution to a flexible workflow.
+	相对于辅助核算是审视公司过去的活动，工程管理的作用是规划未来。虽然在两者之间存在密切的联系（如项目已通过OpenERP
+	计划和完成），他们仍然是两个不同的概念，各自形成自己的工作流程。
 
 .. i18n: Most customer projects are represented by:
 ..
 
-Most customer projects are represented by:
+大多数自定义项目由以下构成:
 
 .. i18n: * one or several analytic accounts in the Accounting System, to keep track of the contract and its
 .. i18n:   different phases,
@@ -70,11 +65,9 @@ Most customer projects are represented by:
 .. i18n:   be completed.
 ..
 
-* one or several analytic accounts in the Accounting System, to keep track of the contract and its
-  different phases,
+* 总账系统中一个或多个辅助核算以跟踪合同及其不同阶段,
 
-* one or several projects in Project Management, to track the project and the different tasks to
-  be completed.
+* 项目管理系统中一个或多个项目以跟踪需完成的不同任务.
 
 .. i18n: There is a direct link between the project and the analytic account, because for each new project created, OpenERP will automatically create the corresponding analytic account in the `Projects` analytic chart of accounts. Note that you have no access to the analytic account directly from a project.
 ..
@@ -92,26 +85,23 @@ There is a direct link between the project and the analytic account, because for
 .. i18n: Click :guilabel:`New` and give your new project a :guilabel:`Project Name`.
 ..
 
-To define a new project, go to the menu :menuselection:`Project --> Project --> Projects`.
-Click :guilabel:`New` and give your new project a :guilabel:`Project Name`.
+定义一个新项目，到菜单 :menuselection:`Project --> Project --> Projects` ，点击 :guilabel:`New` 并给项目一个 :guilabel:`Project Name` .
 
 .. i18n: You can put this project into a hierarchy, as a child of a :guilabel:`Parent Project`, and
 .. i18n: assign a :guilabel:`Project Manager`.
 .. i18n: Enter the general duration by completing :guilabel:`Start Date` and :guilabel:`End Date`.
 ..
 
-You can put this project into a hierarchy, as a child of a :guilabel:`Parent Project`, and
-assign a :guilabel:`Project Manager`.
-Enter the general duration by completing :guilabel:`Start Date` and :guilabel:`End Date`.
+您可以将这个项目作为一个 :guilabel:`Parent Project` 的子项放入一个层次结构中，并指派一个 :guilabel:`Project Manager` 。
+通过输入 :guilabel:`Start Date` 和 :guilabel:`End Date` 确定总持续时间。
 
 .. i18n: The `Administration` tab displays information about Planned Time and the Time Spent on the project according to the task work completed.
 .. i18n: By checking the box :guilabel:`Warn Manager`, you configure the system to automatically send the project manager
 .. i18n: an OpenERP `Request` every time a task is closed.
 ..
 
-The `Administration` tab displays information about Planned Time and the Time Spent on the project according to the task work completed.
-By checking the box :guilabel:`Warn Manager`, you configure the system to automatically send the project manager
-an OpenERP `Request` every time a task is closed.
+`Administration` 选项卡显示关于计划时间的信息，并根据已完成任务计算项目花费的时间。如果选中了 :guilabel:`Warn Manager` 选择框，
+您可设置系统在每一任务完成时向项目经理发一条 `Request` 。万一项目运行时间过长，它可升级成另一项目。在 `提升` 处选择需提升成项目的已进行任务。
 
 .. i18n: In case a project takes too long, it can also be escalated to another project. This feature is available if you have installed the module :mod:`project_issue`, which can be done by selecting :guilabel:`Issues Tracker` in the :guilabel:`Reconfigure` wizard. In :guilabel:`Project Escalation`, enter the project that will be used for escalated tasks.
 .. i18n: Define a generic :guilabel:`Reply-To Email Address` linked to all automated mails; this allows you to receive replies directly in OpenERP.
@@ -119,13 +109,12 @@ an OpenERP `Request` every time a task is closed.
 ..
 
 In case a project takes too long, it can also be escalated to another project. This feature is available if you have installed the module :mod:`project_issue`, which can be done by selecting :guilabel:`Issues Tracker` in the :guilabel:`Reconfigure` wizard. In :guilabel:`Project Escalation`, enter the project that will be used for escalated tasks.
-Define a generic :guilabel:`Reply-To Email Address` linked to all automated mails; this allows you to receive replies directly in OpenERP.
-You can also link to a :guilabel:`Working Time` category, which will be used to calculate the Project's time line, i.e. through a Gantt chart.
+为自动电子邮件定义一个一般的 :guilabel:`Reply-To Email Address` ；这允许您直接从OpenERP中接收回复。您可定义一个 :guilabel:`Working Time` 类型，这可用于计算项目时间，特别是通过甘特图。
 
 .. i18n: The status of a project can take the following values:
 ..
 
-The status of a project can take the following values:
+项目有如下状态:
 
 .. i18n: * \ ``Open``\: the project is being carried out,
 .. i18n: 
@@ -138,20 +127,20 @@ The status of a project can take the following values:
 .. i18n: * \ ``Template``\: the project can be used as a template to make projects based on this.
 ..
 
-* \ ``Open``\: the project is being carried out,
+* \ ``打开``\: 项目开出来了,
 
-* \ ``Pending``\: the project is paused,
+* \ ``中止``\: 项目暂停,
 
-* \ ``Cancelled``\: the project has been cancelled and therefore aborted,
+* \ ``取消``\: 项目因为取消而中断,
 
-* \ ``Closed``\: the project has been successfully completed,
+* \ ``关闭``\: 项目成功结束,
 
 * \ ``Template``\: the project can be used as a template to make projects based on this.
 
 .. i18n: On the `Members` tab, add :guilabel:`Members` to the project; this is related to access rights too.
 ..
 
-On the `Members` tab, add :guilabel:`Members` to the project; this is related to access rights too.
+在 `Members` 选项卡，将 :guilabel:`Members` 添加到该项目，这与访问权限有关。
 
 .. i18n: On the `Billing` tab, you find information to invoice your customer.
 .. i18n: Select the `Customer`; the Invoice address will automatically be filled from the customer form.
@@ -160,16 +149,14 @@ On the `Members` tab, add :guilabel:`Members` to the project; this is related to
 .. i18n: OpenERP allows you to set a `Max. Invoice Price` for the project (or sub-project). The `Invoiced Amount` shows the total amount that has already been invoiced for the project concerned. 
 ..
 
-On the `Billing` tab, you find information to invoice your customer.
-Select the `Customer`; the Invoice address will automatically be filled from the customer form.
-To generate invoices based on time spent on tasks, if activated on a project, you may install :mod:`project_timesheet` by selecting :guilabel:`Bill Time on Tasks` in the :guilabel:`Reconfigure` wizard.
-Then you can complete the invoicing data, such as `Sale Pricelist` and `Invoice Task Work` to directly invoice from task work done.
-OpenERP allows you to set a `Max. Invoice Price` for the project (or sub-project). The `Invoiced Amount` shows the total amount that has already been invoiced for the project concerned. 
+在 `Billing` 选项卡，您能看到客户的发票信息。选择 `Customer` ，客户表单的“客户地址”会自动填入。您必须完成其他信息，
+比如 :mod:`销售价格表` 和在任务完成后直接 :guilabel:`按任务进展开票` 。OpenERP允许您设置项目（或自项目）的 `最大开票价` 。
+`已开票金额` 显示的是相关项目的已开发票的总金额。
 
 .. i18n: If you want to automatically keep your customer informed about the progress of the project, check `Warn Partner`. 
 ..
 
-If you want to automatically keep your customer informed about the progress of the project, check `Warn Partner`. 
+如果您想自动使您的客户了解项目的进展情况，选中 `通知业务伙伴`。（通知合作伙伴）
 
 .. i18n: .. note:: Warn Partner Setup
 .. i18n: 
@@ -181,14 +168,12 @@ If you want to automatically keep your customer informed about the progress of t
 .. i18n:    OpenERP displays a number of variables at the bottom of this tab.
 ..
 
-.. note:: Warn Partner Setup
+.. note:: 通知业务伙伴
 
-   If you check :guilabel:`Warn Partner`, you should define a generic Mail Header and Mail Footer in the
-   :guilabel:`Billing` tab that will be used in the automated email (*Extended view* only).
-   OpenERP prepares an email the user can send to the customer
-   each time that a task is completed. The contents of this email are based on details of the project
-   task, and can be modified by the user before the email is sent.
-   OpenERP displays a number of variables at the bottom of this tab.
+   如果您选中 :guilabel:`通知业务伙伴` ，在 :guilabel:`发票` 页签中需要您定义一个常用的 `邮件头` 和 `邮件页脚` 用于
+   自动生成的电子邮件（仅扩展用户界面）。OpenERP会准备好电子邮件，用户可以在每个任务结束后发给客户。这封电子邮件的
+   内容是基于项目任务的详细信息，并且在发送电子邮件之前，可以由用户修改。在这个页签下面，OpenERP显示了多个可用于电
+   子邮件的变量。
 
 .. i18n: .. note:: Study of Customer Satisfaction
 .. i18n: 
@@ -201,7 +186,7 @@ If you want to automatically keep your customer informed about the progress of t
 .. i18n: 	OpenERP also allows you to create your own surveys. 
 ..
 
-.. note:: Study of Customer Satisfaction
+.. note:: 客户满意度的研究
 
 	Some companies run a system where emails are automatically sent at the end of a task requesting the
 	customer to complete an online survey.
