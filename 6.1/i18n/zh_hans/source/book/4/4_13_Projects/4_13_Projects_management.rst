@@ -189,18 +189,16 @@ In case a project takes too long, it can also be escalated to another project. T
 
 .. note:: 客户满意度的研究
 
-	Some companies run a system where emails are automatically sent at the end of a task requesting the
-	customer to complete an online survey.
-	This survey enables a company to ask several questions about the work carried out, to gauge customer
-	satisfaction as the project progresses.
+	一些企业运行的电子邮件系统自动发送请求客户的任务，以完成一项网上调查结束。这项调查使公司询问有关工作开展的
+	一些问题，来衡量顾客对项目进展的满意程度。
 
-	This function can also be used by ISO 9001-certified companies, to measure customer satisfaction.
-	OpenERP also allows you to create your own surveys. 
+	此功能也可用于通过ISO 9001认证的公司，来衡量顾客的满意度。 OpenERP还允许您创建自己的调查。
 
 .. i18n: The `Task Stages` tab allows you to define stages that help you divide your tasks. You can add a sequence number to set the stage order, allowing you to prioritize your task work, i.e. first you will have the Specification stage and then Development.
 ..
 
-The `Task Stages` tab allows you to define stages that help you divide your tasks. You can add a sequence number to set the stage order, allowing you to prioritize your task work, i.e. first you will have the Specification stage and then Development.
+`Task Stages` 选项卡允许您定义阶段帮助你分割您的任务。您可以添加一个序列号来设置各阶段顺序，使您考虑优先的工作任务，
+即：首先，您将先有 `详细说明书` 阶段然后才是 `开发` 。
 
 .. i18n: Managing Tasks
 .. i18n: --------------
@@ -212,7 +210,7 @@ The `Task Stages` tab allows you to define stages that help you divide your task
 .. i18n: Once a project has been defined, you can enter the tasks to be executed. You have two possibilities for this:
 ..
 
-Once a project has been defined, you can enter the tasks to be executed. You have two possibilities for this:
+一旦一个项目已被定义，你可以输入要执行的任务。这有两种方法：
 
 .. i18n: * click the :guilabel:`ACTION` button :guilabel:`Tasks` to the right of the project form, then click :guilabel:`New`,
 .. i18n: 
@@ -220,15 +218,14 @@ Once a project has been defined, you can enter the tasks to be executed. You hav
 .. i18n:   to an existing project.
 ..
 
-* click the :guilabel:`ACTION` button :guilabel:`Tasks` to the right of the project form, then click :guilabel:`New`,
+* 点在项目表单右边的 :guilabel:`ACTION` :guilabel:`Tasks` ，然后点 :guilabel:`New` 按钮,
 
-* from the menu :menuselection:`Project --> Project --> Tasks`, create a new task and assign it
-  to an existing project.
+* 从菜单 :menuselection:`Project --> Project --> Tasks` ，创建一个新任务并将其分配到现有项目.
 
 .. i18n: Each task has one of the following states:
 ..
 
-Each task has one of the following states:
+每个任务包含以下状态:
 
 .. i18n: * \ ``Draft``\: the task has been entered but has not yet been validated by the person who will
 .. i18n:   have to do it,
@@ -242,25 +239,23 @@ Each task has one of the following states:
 .. i18n: * \ ``Pending``\: task is waiting for response of someone else (e.g. customer information).
 ..
 
-* \ ``Draft``\: the task has been entered but has not yet been validated by the person who will
-  have to do it,
+* \ ``草稿``\: 任务已经录入但尚未得到有权限的人的审核,
 
-* \ ``In Progress``\: you can start working on the task, hence the task is in progress,
+* \ ``打开``\: 您可以开始工作或该任务已在运作,
 
-* \ ``Done``\: task is completed,
+* \ ``关闭``\: 任务已经结束,
 
-* \ ``Cancelled``\: task work is no longer required,
+* \ ``中止``\: 已不需要该任务,
 
-* \ ``Pending``\: task is waiting for response of someone else (e.g. customer information).
+* \ ``待决``\: 任务在等待其他人的响应（如客户信息）.
 
 .. i18n: A task can be assigned to a user, who then becomes responsible for closing it. But you could also
 .. i18n: leave it unassigned so that nobody specific will be responsible: various team members instead are
 .. i18n: made jointly responsible for working on tasks they have the skills for.
 ..
 
-A task can be assigned to a user, who then becomes responsible for closing it. But you could also
-leave it unassigned so that nobody specific will be responsible: various team members instead are
-made jointly responsible for working on tasks they have the skills for.
+一个任务可以被分配给一个用户，他将负责关闭该任务。但你也可以不分配特定人员：取而代之的是各团队成员共同负责他们的
+各自擅长的任务。
 
 .. i18n: .. figure::  images/service_task.png
 .. i18n:    :scale: 75
@@ -273,16 +268,15 @@ made jointly responsible for working on tasks they have the skills for.
    :scale: 75
    :align: center
 
-   *Tasks in Project Management*
+   *项目管理中的任务*
 
 .. i18n: Each user manages his or her own task using the various menus available. To open the list of
 .. i18n: unclosed tasks that have been specifically assigned to you, go to the menu :menuselection:`Project --> Project --> Tasks`. Or to open the unassigned tasks, go to :menuselection:`Project --> Project --> Tasks` and then click \ ``Clear``\ button
 .. i18n: and then \ ``Unassigned``\   button.
 ..
 
-Each user manages his or her own task using the various menus available. To open the list of
-unclosed tasks that have been specifically assigned to you, go to the menu :menuselection:`Project --> Project --> Tasks`. Or to open the unassigned tasks, go to :menuselection:`Project --> Project --> Tasks` and then click \ ``Clear``\ button
-and then \ ``Unassigned``\   button.
+每个用户利用现有的各种菜单管理自己的任务。要打开已专门指派给您未关闭的任务列表，到菜单 :menuselection:`Project --> Project --> Tasks` 。
+或是打开未指派的任务，到 :menuselection:`Project --> Project --> Tasks` 然后点 \ ``Clear``\ 按钮再点  \ ``Unassigned``\ 按钮。.
 
 .. i18n: .. tip:: Shortcuts
 .. i18n: 
@@ -290,15 +284,15 @@ and then \ ``Unassigned``\   button.
 .. i18n: 	have to consult this menu several times a day.
 ..
 
-.. tip:: Shortcuts
+.. tip:: 快捷方式
 
-	Every user should create a link in their own shortcuts to the :menuselection:`Tasks` menu, because they will
-	have to consult this menu several times a day.
+	每个用户最好在自己的快捷方式里建立到 :menuselection:`Tasks` 菜单的链接，因为他们将不得不每日多次访问该菜单。
 
 .. i18n: The `Delegations` tab allows you to define links between your tasks. From `Parent Tasks` set the tasks that are related to this task. Use this feature to define the order in which tasks need to be accomplished, i.e. task 2 may not be executed before task 1.
 ..
 
-The `Delegations` tab allows you to define links between your tasks. From `Parent Tasks` set the tasks that are related to this task. Use this feature to define the order in which tasks need to be accomplished, i.e. task 2 may not be executed before task 1.
+`委派` 标签允许你定义你的任务之间的联系。从 `Parent Tasks` 设置和本任务相关联的任务。通过这个方式可以定义需完成任务
+的顺序，举例说，任务2不能先于任务1运行。
 
 .. i18n: .. index::
 .. i18n:    single: invoicing; tasks
@@ -317,7 +311,7 @@ The `Delegations` tab allows you to define links between your tasks. From `Paren
 .. i18n: Several methods of invoicing have already been described:
 ..
 
-Several methods of invoicing have already been described:
+开票的几种方法:
 
 .. i18n: * invoicing from a sales order,
 .. i18n: 
@@ -328,13 +322,13 @@ Several methods of invoicing have already been described:
 .. i18n: * manual invoicing.
 ..
 
-* invoicing from a sales order,
+* 根据销售订单开票,
 
-* invoicing on the basis of analytic costs (service times, expenses),
+* 基于成本（服务时间、费用）开票,
 
-* invoicing on the basis of deliveries,
+* 基于发货单开票,
 
-* manual invoicing.
+* 手工开票.
 
 .. i18n: Although invoicing tasks might appear useful, in certain situations it is best to invoice from the
 .. i18n: service or purchase orders instead. These methods of invoicing are more flexible, with various
@@ -343,11 +337,8 @@ Several methods of invoicing have already been described:
 .. i18n: invoicing method that you already have.
 ..
 
-Although invoicing tasks might appear useful, in certain situations it is best to invoice from the
-service or purchase orders instead. These methods of invoicing are more flexible, with various
-pricing levels set out in the pricelist, and different products that can be invoiced. And it is
-helpful to limit the number of invoicing methods in your company by extending the use of an
-invoicing method that you already have.
+虽然开票任务可能看起来很有用，但在特定情况下，最好从服务商开票或用采购订单代替。这种开票方式更灵活，可根据价目表开出
+不同价位的发票，不同产品也可以进行发票开具。扩大你已有的开票方式对限制你公司的开票方式数量也有帮助。
 
 .. i18n: If you want to connect your Sales Order with Project tasks you should create
 .. i18n: products such as \ ``Consultant``\  and \ ``Senior Developer``\ . These products should be configured
@@ -356,25 +347,23 @@ invoicing method that you already have.
 .. i18n: You can even take this further by adding a default project to your product. In the Product form, on the `Procurement & Locations` tab, enter the default project to which the automatically created task (from the sales order) should be linked.
 ..
 
-If you want to connect your Sales Order with Project tasks you should create
-products such as \ ``Consultant``\  and \ ``Senior Developer``\ . These products should be configured
-with :guilabel:`Product Type` \ ``Service``\ , a :guilabel:`Procurement Method` of \ ``Make to Order``\  ,
-and a :guilabel:`Supply Method` of \ ``Produce``\. Once you have set this up, OpenERP automatically creates a task in project management when the order is approved.
-You can even take this further by adding a default project to your product. In the Product form, on the `Procurement & Locations` tab, enter the default project to which the automatically created task (from the sales order) should be linked.
+如果你想连接你的销售订单与项目任务，你应该创建类似 \ ``咨询``\ 和 \ ``深度开发``\ 这样的产品。这些产品应如下配置：:guilabel:`产品类型` 是 \ ``服务``\ ，
+:guilabel:`生产方法` 是 \ ``据订单生产``\ ， :guilabel:`供应方法` 是 \ ``生产``\ 。一旦你按此设置，当订单被批准时OpenERP会自动在项目管理中创建一个任务。你甚至
+可以在产品中添加一个默认项目。在“产品”表单中，在 `需求与库位` 页签中，输入可以（从销售订单）自动创建任务的默认项目。
 
 .. i18n: You can also change some of the order parameters, which affects the invoice:
 ..
 
-You can also change some of the order parameters, which affects the invoice:
+您还可以改变某些参数的顺序，从而影响发票:
 
 .. i18n: *  :guilabel:`Shipping Policy` : \ ``Invoice on Order After Delivery`` \ (when the task is closed),
 .. i18n: 
 .. i18n: *  :guilabel:`Invoice On` : \ ``Shipped Quantities`` \ (actual hours in the task).
 ..
 
-*  :guilabel:`Shipping Policy` : \ ``Invoice on Order After Delivery`` \ (when the task is closed),
+*  :guilabel:`出运政策` : \ ``发票交付后``\ （任务关闭时） 
 
-*  :guilabel:`Invoice On` : \ ``Shipped Quantities`` \ (actual hours in the task).
+*  :guilabel:`发票当时情况` : \ ``实际发货量`` \ (任务的实际工时).
 
 .. i18n: Create the `Sales Order` using the product :guilabel:`Consultant` with the above configuration and confirm it.
 .. i18n: You can find the task created from this sale order using the menu :menuselection:`Project --> Project --> Tasks`.
