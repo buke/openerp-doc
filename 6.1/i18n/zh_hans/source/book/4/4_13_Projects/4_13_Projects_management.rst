@@ -372,11 +372,10 @@ In case a project takes too long, it can also be escalated to another project. T
 .. i18n: As an example, the new task `SO008:Create SRS` generated from sales order `SO0008` is shown in following figure.
 ..
 
-Create the `Sales Order` using the product :guilabel:`Consultant` with the above configuration and confirm it.
-You can find the task created from this sale order using the menu :menuselection:`Project --> Project --> Tasks`.
-Once you find that task, click on the :guilabel:`Start Task` button in order to start it.  You have to manually assign the
-project for this task, unless you specified a default project in the Product form. When you complete the task, enter the information in the :guilabel:`Task Work` field. Then click the :guilabel:`Done` button in order to indicate to OpenERP that this task is finished.
-As an example, the new task `SO008:Create SRS` generated from sales order `SO0008` is shown in following figure.
+利用上述配置创建产品为 :guilabel:`咨询` 的 `销售订单` ，并确认它。您使用 :menuselection:`Project --> Project --> Tasks` 菜单
+会发现根据销售订单创建的 :guilabel:`任务` 。一旦找到该任务，点击 `开始任务` 按钮以启用它。您必须手动指派这项任务所属的项目，
+除非你在产品表单提供默认的项目。当你完成任务后，在 :guilabel:`工作任务` 字段中输入完成信息。单击 :guilabel:`完成` 按钮，以
+通知OpenERP已完成这个任务。作为一个例子，新任务 `SO008：Create SRS` 如下图所示，据销售订单 `SO008` 生成的 `SO008：Create SRS` 。
 
 .. i18n: .. figure::  images/project_task_from_sale_order.png
 .. i18n:    :scale: 75
@@ -389,21 +388,19 @@ As an example, the new task `SO008:Create SRS` generated from sales order `SO000
    :scale: 75
    :align: center
 
-   *Task created from Sales Order*
+   *创建自销售订单的任务*
 
 .. i18n: .. tip:: You need to carefully configure the analytic account related to this project. If you use the Billing tab of the project to do this, the analytic account linked to the project will automatically get the related settings.
 ..
 
-.. tip:: You need to carefully configure the analytic account related to this project. If you use the Billing tab of the project to do this, the analytic account linked to the project will automatically get the related settings.
+.. tip:: 你需要仔细配置有关这个项目的辅助核算，如果您使用项目的 `结算` 标签来做到这一点，与项目有关的成本帐户将自动获得相关的设置。
 
 .. i18n: After finishing this task, go to the menu :menuselection:`Project --> Invoicing --> Invoice Tasks Work` in order to
 .. i18n: find the list of uninvoiced task works.
 .. i18n: Click the action :guilabel:`Invoice analytic lines` when you want to create an invoice for this task work.
 ..
 
-After finishing this task, go to the menu :menuselection:`Project --> Invoicing --> Invoice Tasks Work` in order to
-find the list of uninvoiced task works.
-Click the action :guilabel:`Invoice analytic lines` when you want to create an invoice for this task work.
+任务结束后，到菜单 :menuselection:`项目 --> 开发票 --> 根据任务开票` 去找未开票任务。 当您想根据任务开发票时点击 :guilabel:`辅助核算记录` 行。
 
 .. i18n: .. figure::  images/project_invoice_from_task_work.png
 .. i18n:    :scale: 70
@@ -430,9 +427,7 @@ Click the action :guilabel:`Invoice analytic lines` when you want to create an i
 .. i18n: :guilabel:`Deadline`.
 ..
 
-Several methods can be used for ordering tasks by their respective priorities. OpenERP orders
-tasks based on a function of the following fields: :guilabel:`Sequence`, :guilabel:`Priority`, and
-:guilabel:`Deadline`.
+有多种方法可以按各自重点确定任务的顺序。OpenERP按照以下方面的功能为任务排序： :guilabel:`序列` ， :guilabel:`优先次序` ， :guilabel:`最后期限` 。
 
 .. i18n: Use the :guilabel:`Sequence` field on the second tab, :guilabel:`Extra Info`, to plan a
 .. i18n: project made up of several tasks. In the case of an IT project, for example, where development tasks
@@ -440,17 +435,15 @@ tasks based on a function of the following fields: :guilabel:`Sequence`, :guilab
 .. i18n: so on. When you first open the list of project tasks, they are listed in their sequence order. You can simply drag and drop tasks to change their sequence.
 ..
 
-Use the :guilabel:`Sequence` field on the second tab, :guilabel:`Extra Info`, to plan a
-project made up of several tasks. In the case of an IT project, for example, where development tasks
-are done in a given order, the first task to do will be sequence number 1, then numbers 2, 3, 4 and
-so on. When you first open the list of project tasks, they are listed in their sequence order. You can simply drag and drop tasks to change their sequence.
+使用第二张表单中的 :guilabel:`序列` 功能，:guilabel:`附加信息` 来为由多项任务组成的项目作规划。以软件项目举一个例子，所开发的
+任务已给出序列，第一项任务为序号一号，以此类推2,3,4等。当你第一次打开项目任务的列表，任务已按序号排列好。你可简单地拖放
+任务来改变顺序。
 
 .. i18n: You can use one of these three ordering methods, or combine several of them, depending on the
 .. i18n: project.
 ..
 
-You can use one of these three ordering methods, or combine several of them, depending on the
-project.
+你可从这三种排序的方式中选一种，或者综合运用，这由项目决定。
 
 .. i18n: .. index::
 .. i18n:    single: module; scrum
@@ -473,16 +466,13 @@ project.
 .. i18n: 	Look at the site: http://controlchaos.com for more information on the Scrum methodology.
 ..
 
-.. note:: Agile Methods
+.. note:: 灵活的方式
 
-	OpenERP implements the agile methodology Scrum for IT development projects in the :mod:`project_scrum`
-	module.
+	OpenERP为软件开发项目项目组合模块补充了灵活的方法论 :mod:`project_scrum` ,
 
-	Scrum supplements the task system with the following concepts:
-	long-term planning, sprints, iterative development, progress meetings, burndown chart, and product
-	backlog.
+	`Srum` 为系统补充了以下概念：长期计划，冲刺，重复开发，进度报告会议，燃尽图，产品订单。
 
-	Look at the site: http://controlchaos.com for more information on the Scrum methodology.
+	查看以下网址: http://controlchaos.com 获取更多有关 `Srum` 的信息。
 
 .. i18n: .. figure::  images/service_project_gantt.png
 .. i18n:    :scale: 75
@@ -495,7 +485,7 @@ project.
    :scale: 75
    :align: center
 
-   *Gantt chart, calculated for earliest delivery*
+   *甘特图，计算最早发运日期*
 
 .. i18n: You can set the Working Time in the project file. If you do not specify
 .. i18n: anything, OpenERP assumes by default that you work 8 hours a day from Monday to Sunday. Once the
@@ -503,10 +493,8 @@ project.
 .. i18n: calculates a project plan for earliest delivery using task ordering and the working time.
 ..
 
-You can set the Working Time in the project file. If you do not specify
-anything, OpenERP assumes by default that you work 8 hours a day from Monday to Sunday. Once the
-time is specified you can call up a project Gantt chart from Tasks. The system then
-calculates a project plan for earliest delivery using task ordering and the working time.
+你可在项目文件中设定工作时间。如果不设定，OpenERP会默认为周一到周日每天工作八小时。时间确定后，你可从任务中得到甘特图。
+系统之后根据任务顺序和工作时间制定最快完成任务的项目计划。
 
 .. i18n: .. tip:: Calendar View
 .. i18n: 
@@ -521,11 +509,9 @@ calculates a project plan for earliest delivery using task ordering and the work
 .. i18n: 	*Calendar View of the System Tasks*
 ..
 
-.. tip:: Calendar View
+.. tip:: 日历视图
 
-	OpenERP can give you a calendar view of the different tasks in both the web client and the GTK client.
-	This is all based on the deadline data and displays only tasks that have a deadline.
-	You can then delete, create or modify tasks using drag and drop (only in web).
+	OpenERP在web客户端和Gtk客户端下都提供不同任务的日历视图。您可以通过拖放删除、创建、修改任务（仅限于web客户端）。
 
 	.. figure::  images/service_task_calendar.png
 	   :scale: 65
@@ -550,9 +536,7 @@ calculates a project plan for earliest delivery using task ordering and the work
 .. i18n: you do it this way.
 ..
 
-To delegate a task to another user, you can just change the person responsible for that task. However,
-the system does not help you track tasks that you have delegated, such as monitoring of work done, if
-you do it this way.
+通过委派任务给另外一个用户，您可以变更任务负责人。但是，通过这种方法系统无法帮助您跟踪您委派出去的任务，比方监控工作是否完成。
 
 .. i18n: .. figure::  images/service_task_delegate.png
 .. i18n:    :scale: 75
@@ -565,12 +549,12 @@ you do it this way.
    :scale: 75
    :align: center
 
-   *Form for Delegating a Task to Another User*
+   *委派任务给其他人表单*
 
 .. i18n: Instead, you can use the :guilabel:`Delegate` button on a task.
 ..
 
-Instead, you can use the :guilabel:`Delegate` button on a task.
+作为替代，您可以在任务上使用 :guilabel:`委派` 按钮。
 
 .. i18n: .. *Delegate* \ ``Pending``\
 ..
@@ -587,18 +571,14 @@ Instead, you can use the :guilabel:`Delegate` button on a task.
 .. i18n: delegated down in the hierarchy.
 ..
 
-The system enables you to modify tasks at all levels in the chain of delegation, to add additional
-information. A task can therefore start as a global objective and become more detailed as it is
-delegated down in the hierarchy.
+您可用该系统调整任务链中不同级别的任务，添加补充信息。任务由一项整体的目标开始，按照等级委托下来变得具体化。
 
 .. i18n: The second tab on the task form gives you a complete history of the chain of delegation for each
 .. i18n: task. You can find a link to the parent task there, and the different tasks that have been
 .. i18n: delegated.
 ..
 
-The second tab on the task form gives you a complete history of the chain of delegation for each
-task. You can find a link to the parent task there, and the different tasks that have been
-delegated.
+任务表单第二页签，给您一委派任务的完整的历史。您可以找到一个父任务的链接，以及已委派的不同任务。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
