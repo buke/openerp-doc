@@ -263,7 +263,7 @@ these variables by sending them as additional keyword arguments to the **render(
 .. i18n: All of the examples thus far have dealt with the usage of a single **Template** object.
 ..
 
-All of the examples thus far have dealt with the usage of a single **Template** object.
+到目前, 所有的例子还都是只使用单一的 **Template** 模板.
 
 .. i18n: If the code within those templates tries to locate another template resource, 
 .. i18n: it will need some way to find them, using simple URI strings.	
