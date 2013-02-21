@@ -269,8 +269,7 @@ these variables by sending them as additional keyword arguments to the **render(
 .. i18n: it will need some way to find them, using simple URI strings.	
 ..
 
-If the code within those templates tries to locate another template resource, 
-it will need some way to find them, using simple URI strings.	
+如果模板代码中引用一个本地的另一个模板资源, Mako 则可以使用简单的 URI 串来指定查找位置.
 
 .. i18n: For this need, the resolution of other templates from within a template is accomplished by the **TemplateLookup** class. 
 ..
