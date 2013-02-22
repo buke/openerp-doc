@@ -274,7 +274,7 @@ these variables by sending them as additional keyword arguments to the **render(
 .. i18n: For this need, the resolution of other templates from within a template is accomplished by the **TemplateLookup** class. 
 ..
 
-For this need, the resolution of other templates from within a template is accomplished by the **TemplateLookup** class. 
+因此, **TemplateLookup** 类就解决了在一个模板中引用其它模板的问题.
 
 .. i18n: This class is constructed given a list of directories in which to search for templates, as well as keyword arguments 
 .. i18n: that will be passed to the **Template** objects it creates:
