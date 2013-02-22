@@ -1,4 +1,3 @@
-
 .. i18n: .. include:: <isonum.txt>
 ..
 
@@ -9,9 +8,9 @@
 .. i18n:    single: workflow
 ..
 
-.. index::
-   single: Process
-   single: workflow
+.. 索引::
+   single: 流程
+   single: 工作流
 
 .. i18n: .. _ch-process:
 .. i18n: 
@@ -23,7 +22,7 @@
 .. _ch-process:
 
 *******
-Process
+ 流程
 *******
 
 .. i18n:  *If you have reached this far in the book, your mind may well be reeling with the number
