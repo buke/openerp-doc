@@ -9,8 +9,8 @@
 ..
 
 .. index::
-   single: 流程
-   single: 工作流
+   single: Process
+   single: workflow
 
 .. i18n: .. _ch-process:
 .. i18n: 
@@ -22,7 +22,7 @@
 .. _ch-process:
 
 *******
- 流程
+流程
 *******
 
 .. i18n:  *If you have reached this far in the book, your mind may well be reeling with the number
