@@ -102,14 +102,15 @@
 ..
 
 `Administration` 选项卡显示关于计划时间的信息，并根据已完成任务计算项目花费的时间。如果选中了 :guilabel:`Warn Manager` 选择框，
-您可设置系统在每一任务完成时向项目经理发一条 `Request` 。万一项目运行时间过长，它可升级成另一项目。在 `提升` 处选择需提升成项目的已进行任务。
+您可设置系统在每一任务完成时向项目经理发一条 `Request` 。
 
 .. i18n: In case a project takes too long, it can also be escalated to another project. This feature is available if you have installed the module :mod:`project_issue`, which can be done by selecting :guilabel:`Issues Tracker` in the :guilabel:`Reconfigure` wizard. In :guilabel:`Project Escalation`, enter the project that will be used for escalated tasks.
 .. i18n: Define a generic :guilabel:`Reply-To Email Address` linked to all automated mails; this allows you to receive replies directly in OpenERP.
 .. i18n: You can also link to a :guilabel:`Working Time` category, which will be used to calculate the Project's time line, i.e. through a Gantt chart.
 ..
 
-In case a project takes too long, it can also be escalated to another project. This feature is available if you have installed the module :mod:`project_issue`, which can be done by selecting :guilabel:`Issues Tracker` in the :guilabel:`Reconfigure` wizard. In :guilabel:`Project Escalation`, enter the project that will be used for escalated tasks.
+万一项目运行时间过长，它可升级成另一项目 :mod:`project_issue` 。在 :guilabel:`提升` 处选择需提升成项目的已进行任务。
+which can be done by selecting  in the :guilabel:`Reconfigure` wizard. In :guilabel:`Project Escalation`, enter the project that will be used for escalated tasks.
 为自动电子邮件定义一个一般的 :guilabel:`Reply-To Email Address` ；这允许您直接从OpenERP中接收回复。您可定义一个 :guilabel:`Working Time` 类型，这可用于计算项目时间，特别是通过甘特图。
 
 .. i18n: The status of a project can take the following values:
