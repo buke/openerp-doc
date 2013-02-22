@@ -8,7 +8,7 @@
 .. i18n:    single: workflow
 ..
 
-.. 索引::
+.. index::
    single: 流程
    single: 工作流
 
@@ -140,13 +140,13 @@ have appeared numerous tools:
 .. i18n: * The company Quality Manual.
 ..
 
-* The ISO9001 quality standard,
+* ISO9001 质量标准,
 
-* Business Process Management (BPM) tools,
+* 业务流程管理工具(BPM),
 
 * Use Case workflows, and formalized standards such as UML,
 
-* The company Quality Manual.
+* 公司质量手册.
 
 .. i18n: The problem is that these tools are usually quite separate from your management
 .. i18n: system and often reserved for the use of just a few specific people in your
