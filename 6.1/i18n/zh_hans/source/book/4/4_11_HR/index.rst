@@ -24,28 +24,22 @@
 .. i18n:  represented by an analytic account.*
 ..
 
- *This chapter describes OpenERP's main Human Resources and Employee Services features.
- Most of the solutions discussed after this chapter concern management by
- business or by project, and depend mostly on analytic accounting, with each business or project
- represented by an analytic account.*
+ *本章描述OpenERP的主要人力资源及雇员服务功能. 在财务分析的基础上, 有很多关于业务或项目方面的管理方案.*
 
 .. i18n: A company's effectiveness depends on its employees' good work. OpenERP's Human
 .. i18n: Resources modules enable you to manage important aspects of staff work efficiently, such as their
 .. i18n: skills, contracts, and working time.
 ..
 
-A company's effectiveness depends on its employees' good work. OpenERP's Human
-Resources modules enable you to manage important aspects of staff work efficiently, such as their
-skills, contracts, and working time.
+一个公司的有效性取决于其雇员的优异的工作。OpenERP的人力资源模块，使您能够管理员工的工作效率的重要方面，
+如他们的技能，合同，工作时间。
 
 .. i18n: For this chapter, you should start with a fresh database that includes demo data.
 .. i18n: To configure the Human Resource Application you should check `Human Resources` in the
 .. i18n: following configuration wizard.
 ..
 
-For this chapter, you should start with a fresh database that includes demo data.
-To configure the Human Resource Application you should check `Human Resources` in the
-following configuration wizard.
+本章，将有一个新的数据库（包括演示数据）。你需要检查以下人力资源配置向导从而安装人力资源应用。
 
 .. i18n: .. figure::  images/config_wiz_HR.png
 .. i18n:    :scale: 75
