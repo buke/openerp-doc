@@ -403,9 +403,8 @@ Finally Part Eight, :ref:`part-config`, structured in two chapters, explains fir
 
 	                **Fabien Pinckaers**
 
-			Fabien Pinckaers was only eighteen years old when he started his first company.
-			Today, over ten years later, he has founded and managed several new technology companies,
-			all based on Free / Open Source software.
+			Fabien Pinckaers 18岁开始创业。10年后的今天，他已经创立并管理着几个高科技公司，
+                        都是关于免费/开源软件的。
 
 			He originated Tiny ERP, now OpenERP, and is the director of two companies including Tiny sprl,
 			the editor of OpenERP. In three years he has grown the Tiny group from one to sixty-five
