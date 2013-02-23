@@ -399,7 +399,7 @@ Finally Part Eight, :ref:`part-config`, structured in two chapters, explains fir
 .. i18n: 			Follow Els on her blog http://training-openerp.blogspot.com/ or on twitter elsvanvossel.
 ..
 
-	.. note::  *About the authors*
+	.. note::  *关于作者*
 
 	                **Fabien Pinckaers**
 
