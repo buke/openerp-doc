@@ -21,7 +21,7 @@
 .. i18n: OpenERP provides many tools for managing customer and supplier accounts. In this part we will explain:
 ..
 
-OpenERP provides many tools for managing customer and supplier accounts. In this part we will explain:
+OpenERP提供多种工具用来分析客户和供应商帐户。本章我们将解释：
 
 .. i18n: * financial analysis of partners, to understand the reports that enable you to carry out an analysis
 .. i18n:   of all of your partners,
