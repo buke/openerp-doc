@@ -179,7 +179,6 @@ automation module for ordering sandwiches, which can take care of the eating pre
 
 这种多样性还发生在不同的部门和行业中，他们都使用OpenERP，包括农产品，纺织品，公开拍卖，IT，和行业协会。
 
-
 .. i18n: Last but not least, such software has arisen from the blend of high code quality, well-judged architecture and
 .. i18n: use of free technologies. In fact, you may be surprised (if you are an IT person) to find that the
 .. i18n: download size of OpenERP is only around 6 MB. When that is expanded during installation its size is mostly
