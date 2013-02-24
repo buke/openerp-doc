@@ -304,7 +304,7 @@ that will be passed to the **Template** objects it creates:
 .. i18n: Above, we created a textual template which includes the file "header.txt". 
 ..
 
-Above, we created a textual template which includes the file "header.txt". 
+上面的代码, 则创建了一个引用了 "header.txt" 文件的模板.
 
 .. i18n: In order for it to have somewhere to look for "header.txt", we passed a **TemplateLookup** object to it, 
 .. i18n: which will search in the current directory  for the file "header.txt".
