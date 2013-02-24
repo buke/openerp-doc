@@ -22,17 +22,16 @@
 .. i18n: points:
 ..
 
-Whether you want to test OpenERP or put it into full production, you have at least two possible starting
-points:
+无论是测试OpenERP或是布署到生产环境，你至少有两个途径：
 
 .. i18n: * you can use OpenERP Online by subscribing to http://www.openerp.com/online/;
 .. i18n: 
 .. i18n: * you can install the solution on your own computers to test it in your company's system environment.
 ..
 
-* you can use OpenERP Online by subscribing to http://www.openerp.com/online/;
+* 您可以使用OpenERP的在线服务,网址为http://www.openerp.com/online/;
 
-* you can install the solution on your own computers to test it in your company's system environment.
+* 你可安装到自己的计算机以便使用自己公司的环境来测试。
 
 .. i18n: In this chapter, the easy-to-use *OpenERP Online* solution will be briefly explained. For more information about installing OpenERP on your computer, please refer to the chapter :ref:`part5-crm-install`.
 ..
