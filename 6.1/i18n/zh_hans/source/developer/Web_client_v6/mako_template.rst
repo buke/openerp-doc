@@ -280,6 +280,7 @@ these variables by sending them as additional keyword arguments to the **render(
 .. i18n: that will be passed to the **Template** objects it creates:
 ..
 
+该类将按给定的目录列表查找模板，
 This class is constructed given a list of directories in which to search for templates, as well as keyword arguments 
 that will be passed to the **Template** objects it creates:
 
