@@ -40,9 +40,7 @@
 .. i18n:  its process and workflow diagrams.*
 ..
 
- *If you have reached this far in the book, your mind may well be reeling with the number
- of new documents (based on business objects) and processes that you need to encounter to
- model and manage your business.*
+ *在学习流程之前,你可能不是很清楚哪些带编号的业务对象,更没有头绪如何去实现模型和业务之间的流程.*
  
  *OpenERP's process module, which is installed automatically when a process-aware module
  is installed, shows you cross-functional processes and technical workflows for those
