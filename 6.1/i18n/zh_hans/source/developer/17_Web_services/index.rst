@@ -39,7 +39,7 @@
 .. i18n: :backup:
 ..
 
-:备份:
+:backup:
 
 .. i18n:     pg_dump terp >terp.sql
 ..
@@ -49,7 +49,7 @@
 .. i18n: :restore:
 ..
 
-:恢复:
+:restore:
 
 .. i18n:     createdb terp --encoding=unicode
 .. i18n:     psql terp < terp.sql
