@@ -39,7 +39,7 @@
 .. i18n: :backup:
 ..
 
-:backup:
+:备份:
 
 .. i18n:     pg_dump terp >terp.sql
 ..
@@ -49,7 +49,7 @@
 .. i18n: :restore:
 ..
 
-:restore:
+:恢复:
 
 .. i18n:     createdb terp --encoding=unicode
 .. i18n:     psql terp < terp.sql
@@ -66,7 +66,7 @@
 .. i18n: ===================
 ..
 
-The objects methods
+对象方法
 ===================
 
 .. i18n:    #. create({'field':'value'})
