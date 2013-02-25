@@ -113,11 +113,11 @@ WebservicesXMLRPC
 ..
 
 #. XML-RPC
-      * standard: http://www.xmlrpc.org
+      * 标准: http://www.xmlrpc.org
       * RPC Over HTTP
-      * Function Parameters & Result encoded in XML
-#. Principle;
-      * calls to objects methodes;
+      * 函数参数 & xml格式的返回值
+#. 规则;
+      * 调用对象方法;
             - read, write
             - create
             - unlink (=delete)
@@ -164,7 +164,7 @@ PHP 例子
 .. i18n: Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
 ..
 
-Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
+这是一个使用php插入合伙人的例子.这个例子使用phpxmlrpc类库，可以在sourceforge上找到。
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -245,7 +245,7 @@ Python 例子
 .. i18n: Example of creation of a partner and their address.
 ..
 
-Example of creation of a partner and their address.
+创建合伙人及其地址的例子。
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -309,7 +309,7 @@ Example of creation of a partner and their address.
 .. i18n: To get the UID of a user, you can use the following script:
 ..
 
-To get the UID of a user, you can use the following script:
+可以通过下面的脚本取得用户的UID:
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -325,7 +325,7 @@ To get the UID of a user, you can use the following script:
 .. i18n: CRUD example:
 ..
 
-CRUD example:
+增删改查例子：
 
 .. i18n: .. code-block:: python
 .. i18n: 
@@ -428,8 +428,8 @@ CRUD example:
 .. i18n:    3. ids = sock.execute(dbname, uid, pwd, 'account.invoice', 'search', [('number', 'ilike', invoicenumber), ('type', '=', 'out_invoice')])
 ..
 
-   1. PRINT INVOICE
-   2. IDS is the invoice ID, as returned by:
+   1. 打印发票
+   2. IDS就是发票的ID:
    3. ids = sock.execute(dbname, uid, pwd, 'account.invoice', 'search', [('number', 'ilike', invoicenumber), ('type', '=', 'out_invoice')])
 
 .. i18n: .. code-block:: python
