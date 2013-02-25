@@ -310,8 +310,7 @@ that will be passed to the **Template** objects it creates:
 .. i18n: which will search in the current directory  for the file "header.txt".
 ..
 
-In order for it to have somewhere to look for "header.txt", we passed a **TemplateLookup** object to it, 
-which will search in the current directory  for the file "header.txt".
+为了让系统能找到 "header.txt" 模板, 我们传了一个 **TemplateLookup** 对象过去,告诉系统从当前文件夹中查找 "header.txt".
 
 .. i18n: Syntax
 .. i18n: ======
