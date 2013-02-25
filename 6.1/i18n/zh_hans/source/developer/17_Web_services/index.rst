@@ -164,7 +164,7 @@ PHP 例子
 .. i18n: Here is an example on how to insert a new partner using PHP. This example makes use the phpxmlrpc library, available on sourceforge.
 ..
 
-这是一个使用php插入合伙人的例子.这个例子使用phpxmlrpc类库，可以在sourceforge上找到。
+这是一个使用php插入合作伙伴的例子.这个例子使用phpxmlrpc类库，可以在sourceforge上找到。
 
 .. i18n: .. code-block:: php
 .. i18n: 
@@ -245,7 +245,7 @@ Python 例子
 .. i18n: Example of creation of a partner and their address.
 ..
 
-创建合伙人及其地址的例子。
+创建合作伙伴及其地址的例子。
 
 .. i18n: .. code-block:: python
 .. i18n: 
