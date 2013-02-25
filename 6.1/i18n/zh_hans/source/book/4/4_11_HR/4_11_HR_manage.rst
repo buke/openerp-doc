@@ -18,8 +18,7 @@
 .. i18n: current list of collaborators.
 ..
 
-To establish a system that is integrated into the company's management, you need to start with a
-current list of collaborators.
+为了建立一个公司管理系统，你需要启动当前列表中的一个用户。
 
 .. i18n: .. note:: Do not confuse employees and users
 .. i18n: 
@@ -31,19 +30,18 @@ current list of collaborators.
 .. i18n: 	users but some users are not employees: external partners can have access to parts of the system.
 ..
 
-.. note:: Do not confuse employees and users
+.. note:: 不要混淆员工和用户
 
-	For OpenERP, “employee” represents all of the physical people who have a work contract with
-	the company. This includes all types of contracts: contracts with both fixed and indeterminate time
-	periods, and also independent and freelance service contracts.
+	就ERP而言，所谓 ``员工`` 是指与公司签署劳动合同的人。包括所有类型的合同：长期的和临时的，也
+	包括全职的和兼职的。
 
-	A “user” is a physical person who is given access to the company's systems. Most employees are
-	users but some users are not employees: external partners can have access to parts of the system.
+	所谓 ``用户`` 是指有权访问公司系统的人。绝大部分的员工是用户，但是一些用户却不是员工，例如外部
+	合作伙伴可以访问系统的部分模块。
 
 .. i18n: Here are some examples of functions which depend on the accuracy of the employee list:
 ..
 
-Here are some examples of functions which depend on the accuracy of the employee list:
+一些取决于员工名单准确性的功能如下所示:
 
 .. i18n: * the cost of a service, which depends on the employee's working contract,
 .. i18n: 
@@ -55,14 +53,13 @@ Here are some examples of functions which depend on the accuracy of the employee
 .. i18n:   company.
 ..
 
-* the cost of a service, which depends on the employee's working contract,
+* 服务成本，取决于员工的劳动合同,
 
-* project planning, which depends on the work pattern of the project contributors,
+* 工程计划，取决于工程贡献者的工作模式,
 
-* the client billing rate, which probably depends on the employee's job function,
+* 客户端计费率，可能取决于员工的工作职能,
 
-* the chain of command, or responsibilities, which is related to the hierarchical structure of the
-  company.
+* 连锁的命令或者责任，与公司的分层结构相关.
 
 .. i18n: Link employees and OpenERP users to facilitate the management of rights
 .. i18n: -----------------------------------------------------------------------
@@ -74,7 +71,7 @@ Here are some examples of functions which depend on the accuracy of the employee
 .. i18n: To define a new employee in OpenERP, use the menu :menuselection:`Human Resources --> Employees`.
 ..
 
-To define a new employee in OpenERP, use the menu :menuselection:`Human Resources --> Employees`.
+在ERP 的 :menuselection:`人力资源 --> 员工` :menuselection:`Human Resources --> Employees` 中建立一个新员工. 
 
 .. i18n: .. figure::  images/service_employee_form.png
 .. i18n:    :scale: 75
@@ -94,18 +91,16 @@ To define a new employee in OpenERP, use the menu :menuselection:`Human Resource
 .. i18n: employee by filling in a new :guilabel:`User` form through the :guilabel:`User` field.
 ..
 
-Start by entering the employee's name in :guilabel:`Name` and the company that this employee works for
-in :guilabel:`Company`. You can then create a new user of the OpenERP system linked to this
-employee by filling in a new :guilabel:`User` form through the :guilabel:`User` field.
+在 :guilabel:`名称` 框输入员工姓名和在 :guilabel:`公司` 框输入员工所在公司的名称。然后在 :guilabel:`用户` 中填写一个新用户从而建立一个新的ERP系统
+ :guilabel:`用户` 。
 
 .. i18n: Even if the employee is not a user, it is best if you
 .. i18n: create a system access for most of your staff just so that you can control their access rights from
 .. i18n: the outset (and you can do that through this field if you need to).
 ..
 
-Even if the employee is not a user, it is best if you
-create a system access for most of your staff just so that you can control their access rights from
-the outset (and you can do that through this field if you need to).
+即使这个员工不是用户，你最好为你的员工创建一个系统账号以便于你可以从一开始就掌控他们的访问权限（如果你需要你可以
+通过这个模块这么做）。
 
 .. i18n: .. tip:: Employee and User link.
 .. i18n: 
@@ -116,18 +111,16 @@ the outset (and you can do that through this field if you need to).
 .. i18n: 	relevant forms, such as services and expense records.
 ..
 
-.. tip:: Employee and User link.
+.. tip:: 员工和用户的关联
 
-	If the employee has a user account on the system, you always link his or her user
-	account to the employee form.
+	如果员工在系统中有用户名，你可以通过他（她）的用户名连接到员工表。
 
-	Creating this link enables automatic completion to be done on the :guilabel:`Employee` field in the
-	relevant forms, such as services and expense records.
+	创建这个链接后员工模块中的相关界面中的 :guilabel:`员工` 字段能够自动完成，例如服务和费用记录。
 
 .. i18n: Then enter the employee's address.
 ..
 
-Then enter the employee's address.
+输入员工地址.
 
 .. i18n: .. todo:: We need to give better guidance about Partners vs Employees just here.
 ..
@@ -143,13 +136,9 @@ Then enter the employee's address.
 .. i18n: the accounts – so you can track salary payments, for example.
 ..
 
-This appears in the partner contact form in OpenERP. Since
-employees are people that have contracts with your company, it is logical that they have entries
-like any other partner in your database. So enter the name of the employee as a new partner Name and
-the address in the Partner Contact section of the General tab.
-Then all of the functions that apply to a partner can also be
-applied to an employee. This is particularly useful for tracking debits and credits in
-the accounts – so you can track salary payments, for example.
+这个出现在ERP中的合作伙伴联系表中，自员工与公司签订合同开始，他们就可以像数据库中其他合作伙伴一样有记录。因此在
+合作伙伴联系一栏输入员工的名字和地址。然后所有的功能既适用于一个合作伙伴也适用于一个员工。这个对于跟踪账户中借贷
+方很有用-例如你可以跟踪薪酬支付。
 
 .. i18n: To help employees encode and validate timesheets and attendances, you can install :mod:`hr_timesheet_sheet` by selecting :guilabel:`Timesheets` in the :guilabel:`Reconfigure` wizard.
 .. i18n: You can then set both an analytic journal and a linked product to this employee
@@ -158,11 +147,8 @@ the accounts – so you can track salary payments, for example.
 .. i18n: form with the following information:
 ..
 
-To help employees encode and validate timesheets and attendances, you can install :mod:`hr_timesheet_sheet` by selecting :guilabel:`Timesheets` in the :guilabel:`Reconfigure` wizard.
-You can then set both an analytic journal and a linked product to this employee
-in the :guilabel:`Timesheets` tab. If
-you do it that way, then this information can be used to track services. For now, just complete the
-form with the following information:
+你可以通过在 :guilabel:`配置导向` 中选择工时表安装 :mod:`hr_timesheet_sheet` ，帮助 :guilabel:`员工们` 编制和确认 :guilabel:`工时表` 和考勤。然后你可以在工时表中
+为这个员工设立一个成本凭证薄和一个产品。如果你这么做了，这些信息将用于跟踪服务。现在，完成下列表单信息:
 
 .. i18n: *  :guilabel:`Analytic Journal` : usually a ``Timesheet Journal``,
 .. i18n: 
@@ -170,10 +156,9 @@ form with the following information:
 .. i18n:    for example as ``Service on Timesheet``.
 ..
 
-*  :guilabel:`Analytic Journal` : usually a ``Timesheet Journal``,
+*  :guilabel:`Analytic Journal` : 通常是一个 ``工时表日志``,
 
-*  :guilabel:`Product` : a service product that describes how this employee would be charged out,
-   for example as ``Service on Timesheet``.
+*  :guilabel:`Product` : 一个描述了这个员工被解除的服务产品，例如 ``工时服务表`` 。
 
 .. i18n: .. index::
 .. i18n:    single: employee; billing
@@ -194,16 +179,13 @@ form with the following information:
 .. i18n: title, and hourly costs.
 ..
 
-To be able to use the timesheets at all, you must first define those employees who are system users.
-The employee definition forms contain the information necessary to use that sheet, such as the job
-title, and hourly costs.
+你首先必须要确认员工是系统用户，才能够使用工时表。员工基本信息包括必要的信息，例如职务和小时成本。
 
 .. i18n: Two fields will be of particular interest to you for managing timesheets: the :guilabel:`Analytic
 .. i18n: Journal` and the :guilabel:`Product`.
 ..
 
-Two fields will be of particular interest to you for managing timesheets: the :guilabel:`Analytic
-Journal` and the :guilabel:`Product`.
+:guilabel:`成本凭证薄` 和 :guilabel:`产品` 这两模块有利于管理工时表.
 
 .. i18n: All the analytic entries about the costs of service times will be stored in the analytic journal.
 .. i18n: These enable you to isolate the cost of service from other company costs, such as the purchase of raw
@@ -211,24 +193,21 @@ Journal` and the :guilabel:`Product`.
 .. i18n: separate costs by department or by function.
 ..
 
-All the analytic entries about the costs of service times will be stored in the analytic journal.
-These enable you to isolate the cost of service from other company costs, such as the purchase of raw
-materials, expenses receipts and subcontracting. You can use different journals for each employee to
-separate costs by department or by function.
+所有关于服务次数成本的分析将保存在成本凭证薄中。它们能帮助你将服务成本与公司的其他成本分开，例如原材料的购买，
+费用和分包。你可以通过部门或者功能给每个员工指定不同的成本凭证薄来区分成本。
 
 .. i18n: The employee is also associated with a product in your database in OpenERP. An employee is linked
 .. i18n: with a product, so they can be 'bought' (subcontracting) or 'invoiced' (project management). You have
 .. i18n: to create a product for each job type in your company.
 ..
 
-The employee is also associated with a product in your database in OpenERP. An employee is linked
-with a product, so they can be 'bought' (subcontracting) or 'invoiced' (project management). You have
-to create a product for each job type in your company.
+员工也与ERP数据库中的一个产品相关联。一个员工与一个产品相关联，所以他们可以是 '购买'（分包）也可以是 '开票'（
+项目管理）。你必须为每一个工作类型建立一个产品。
 
 .. i18n: The following information is important in the product form:
 ..
 
-The following information is important in the product form:
+在产品界面中下列信息至关重要:
 
 .. i18n: *  :guilabel:`Name` : \ ``Secretary`` \,  \ ``Salesperson`` \ or \ ``Project Manager``\
 .. i18n: 
@@ -243,17 +222,17 @@ The following information is important in the product form:
 .. i18n: *  :guilabel:`Costing Method` : either \ ``Standard Price``\  or  \ ``Average Price``\
 ..
 
-*  :guilabel:`Name` : \ ``Secretary`` \,  \ ``Salesperson`` \ or \ ``Project Manager``\
-
-*  :guilabel:`Product Type` : \ ``Service``\
-
-*  :guilabel:`Unit of Measure` : \ ``Hour`` \ or \ ``Day``\
-
-*  :guilabel:`Cost Price`
-
-*  :guilabel:`Sale Price`
-
-*  :guilabel:`Costing Method` : either \ ``Standard Price``\  or  \ ``Average Price``\
+*  :guilabel:`名称` : \ ``秘书`` \， \ ``销售人员`` \ 或者 \ ``项目经理`` \, 
+                                                                             
+*  :guilabel:`产品类型` : \ ``服务``\                                        
+                                                                             
+*  :guilabel:`计量单位` : \ ``小时`` \ 或者 \ ``天``\                        
+                                                                             
+*  :guilabel:`成本价格`                                                      
+                                                                             
+*  :guilabel:`销售价格`                                                      
+                                                                             
+*  :guilabel:`成本计算方法` : \ ``标准价格``\  或者  \ ``平均价格``\         
 
 .. i18n: .. index::
 .. i18n:    single: module; product_index
@@ -267,14 +246,14 @@ The following information is important in the product form:
 .. i18n: 	When the `Costing Method` is `Average Price` in the `Product` form, you can have a button :guilabel:`Update`, beside the `Cost Price` field, that opens up a wizard for changing the cost price.
 ..
 
-.. tip:: Price Indexation
+.. tip:: 价格指数
 
-	When the `Costing Method` is `Average Price` in the `Product` form, you can have a button :guilabel:`Update`, beside the `Cost Price` field, that opens up a wizard for changing the cost price.
+	当在 `产品` 页面中 `成本计算方法` 是 `平均价格法` 时，你可以使用 `成本价格` 字段旁边的 :guilabel:`更新` 按钮打开更换成本价格的向导。
 
 .. i18n: In summary, each company employee corresponds, in most cases, to:
 ..
 
-In summary, each company employee corresponds, in most cases, to:
+总之，每一个公司员工应该对应下列主要事项:
 
 .. i18n: * a :guilabel:`Partner`
 .. i18n: 
@@ -283,16 +262,16 @@ In summary, each company employee corresponds, in most cases, to:
 .. i18n: * a :guilabel:`System User`.
 ..
 
-* a :guilabel:`Partner`
+* :guilabel:`合作伙伴`
 
-* an :guilabel:`Employee` form,
+* :guilabel:`员工` 表,
 
-* a :guilabel:`System User`.
+* :guilabel:`系统用户`.
 
 .. i18n: And each company job position corresponds to a :guilabel:`Product`.
 ..
 
-And each company job position corresponds to a :guilabel:`Product`.
+一个公司工作职位对应一个 :guilabel:`产品` 。
 
 .. i18n: .. index::
 .. i18n:    single: module; hr_contract
@@ -315,18 +294,14 @@ And each company job position corresponds to a :guilabel:`Product`.
 .. i18n: 	overheads associated with pay.
 ..
 
-.. note:: Time Charge Rates
+.. note:: 工时价格
 
-	By default, the hourly cost of an employee is given by the standard cost of the product linked to
-	that employee.
-	But if you install the :mod:`hr_contract` module, it is possible to manage contracts differently.
-	The hourly cost of the employee is then automatically calculated from their employment contract
-	when they enter their timesheet data.
+	默认地，员工小时成本来自于员工对应产品的标准成本。
+	但如果你安装了 ``人力资源合同`` :mod:`hr_contract` 模块，将可以管理不同的合同。当员工输入他们的工时数据时，员工的小时成本
+	将根据员工的雇用合同自动计算。
 
-	To do this, the software uses a factor defined in the contract type
-	(for example, the gross monthly salary, calculated per day).
-	Ideally, this factor should take into account the salary costs, taxes, insurances and other
-	overheads associated with pay.
+	为此，软件中用一个因素定义合同类型（例如总月工资，每天计算）。理想地，这个因素应该考虑到工资
+	成本，税，保险和其他费用支付。
 
 .. i18n: .. index::
 .. i18n:    single: employee; categories
@@ -345,7 +320,8 @@ And each company job position corresponds to a :guilabel:`Product`.
 .. i18n: You must create and assign employee categories for employees in order to be able to assign and manage leave and allocation requests by category. You can define employee categories from :menuselection:`Human Resources --> Configuration --> Human Resources --> Employees --> Categories of Employee`. For a new category, define its name in :guilabel:`Category`. A category may also be assigned a :guilabel:`Parent Category`.
 ..
 
-You must create and assign employee categories for employees in order to be able to assign and manage leave and allocation requests by category. You can define employee categories from :menuselection:`Human Resources --> Configuration --> Human Resources --> Employees --> Categories of Employee`. For a new category, define its name in :guilabel:`Category`. A category may also be assigned a :guilabel:`Parent Category`.
+（你必须为员工建立和分派类型）以便于（能够根据类型）分配和管理（离开和分配要求）。你可以在 :menuselection:`人力资源 --> 结构 --> 人力资源 --> 员工 --> 员工分类` :menuselection:`Human Resources --> Configuration --> Human Resources --> Employees --> Categories of Employee`
+中将 :guilabel:`员工分类` 。在分类框填入一个新的分类名称从而建立一个新的分类。一个分类也可以被分配一个 :guilabel:`父类` 。
 
 .. i18n: .. figure::  images/employee_categories.png
 .. i18n:    :scale: 75
@@ -363,7 +339,8 @@ You must create and assign employee categories for employees in order to be able
 .. i18n: To link an employee to a category, open the employee form through :menuselection:`Human Resources --> Human Resources --> Employees`. In the :guilabel:`Categories` tab, you can assign more than one category to an employee by clicking :guilabel:`Add` and selecting a category.
 ..
 
-To link an employee to a category, open the employee form through :menuselection:`Human Resources --> Human Resources --> Employees`. In the :guilabel:`Categories` tab, you can assign more than one category to an employee by clicking :guilabel:`Add` and selecting a category.
+从 :menuselection:`人力资源 --> 人力资源 --> 员工` :menuselection:`Human Resources --> Human Resources --> Employees` 中找到员工将其归到一个 :guilabel:`分类` 中。在 :guilabel:`分类` 栏中，你可以通过选择 :guilabel:`添加` 和选定一个分类将一个员工归到
+不止一个类别中。
 
 .. i18n: .. figure::  images/employee_assign_category.png
 .. i18n:    :scale: 75
@@ -381,7 +358,9 @@ To link an employee to a category, open the employee form through :menuselection
 .. i18n: Now, when you create a new leave or allocation request from the menuitems under :menuselection:`Human Resources --> Holidays`, if your :guilabel:`Leave Category` or :guilabel:`Allocation Category` is ``By Employee Category``, then you must choose a pre-defined :guilabel:`Category`. The request will then be applicable to all those employees who belong to the category selected. For example, you can create an allocation request for employees belonging to the ``Trainee`` category, entitling them to fewer leaves than the rest of the employees.
 ..
 
-Now, when you create a new leave or allocation request from the menuitems under :menuselection:`Human Resources --> Holidays`, if your :guilabel:`Leave Category` or :guilabel:`Allocation Category` is ``By Employee Category``, then you must choose a pre-defined :guilabel:`Category`. The request will then be applicable to all those employees who belong to the category selected. For example, you can create an allocation request for employees belonging to the ``Trainee`` category, entitling them to fewer leaves than the rest of the employees.
+现在，当你在 :menuselection:`人力资源 --> 假期` :menuselection:`Human Resources --> Holidays` 下面的菜单中建立一个新的 :guilabel:`离开` 或者 :guilabel:`分配请求` ，如果你的 :guilabel:`离开类别` 或者分配类别是 :guilabel:`员工类别` ，那么
+你必须选者一个预先定义的 :guilabel:`类别` 。这个请求将适用于所有属于这个类别的员工。例如你可以为 ``学员`` 类别的员工建立一个分配要求，
+使他们的离开少于其他员工。
 
 .. i18n: .. index::
 .. i18n:    single: employee; contracts
@@ -401,8 +380,7 @@ Now, when you create a new leave or allocation request from the menuitems under 
 .. i18n: The configuration wizard to install this module is shown below.
 ..
 
-If you install the :mod:`hr_contract` module you can link contract details to the employee record.
-The configuration wizard to install this module is shown below.
+如果你安装了 ``人力资源合同`` :mod:`hr_contract` 模块，你就可以打开合同明细员工记录。这个模块的安装如下图所示:
 
 .. i18n: .. figure::  images/config_wiz_contract.png
 .. i18n:    :scale: 75
@@ -420,7 +398,7 @@ The configuration wizard to install this module is shown below.
 .. i18n: Define new contract types at :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Contract Types`.
 ..
 
-Define new contract types at :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Contract Types`.
+在 :menuselection:`人力资源 --> 设置 --> 人力资源 --> 合同 --> 合同类型` :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Contract Types` 中建立一个新的合同类型。
 
 .. i18n: .. figure::  images/hr_contract_type_list.png
 .. i18n:    :scale: 75
@@ -438,7 +416,7 @@ Define new contract types at :menuselection:`Human Resources --> Configuration -
 .. i18n: You may similarly define wage types at :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Wage Type`. Enter the following details in the form:
 ..
 
-You may similarly define wage types at :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Wage Type`. Enter the following details in the form:
+你可以用同样方法在 :menuselection:`人力资源 --> 设置 --> 人力资源 --> 合同 --> 工资类型` :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Wage Type` 中建立一个新的工资类型。在表格中输入下列信息:
 
 .. i18n: *  :guilabel:`Wage Type Name` : A name for the wage type.
 .. i18n: *  :guilabel:`Wage Period` : Select a pre-defined wage period. Wage periods are defined at :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Wage period`.
@@ -446,10 +424,10 @@ You may similarly define wage types at :menuselection:`Human Resources --> Confi
 .. i18n: *  :guilabel:`Factor for hour cost` : Used by the timesheet system to compute the price of an hour of work based on the contract of an employee.
 ..
 
-*  :guilabel:`Wage Type Name` : A name for the wage type.
-*  :guilabel:`Wage Period` : Select a pre-defined wage period. Wage periods are defined at :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Wage period`.
-*  :guilabel:`Type` : Either ``Gross`` or ``Net``.
-*  :guilabel:`Factor for hour cost` : Used by the timesheet system to compute the price of an hour of work based on the contract of an employee.
+*  :guilabel:`工资类型名称` : 一个工资类型名称.
+*  :guilabel:`工资期间` : 选择一个预先定义的工资期间。工资期间在 :menuselection:`人力资源 --> 配置 --> 人力资源 --> 合同 --> 工资期间` :menuselection:`Human Resources --> Configuration --> Human Resources --> Contract --> Wage period` 中设定。
+*  :guilabel:`类型` : ``毛工资`` 或者 ``净工资`` 。
+*  :guilabel:`小时成本因素` : 根据每个员工的合同通过工时系统计算每小时工作价格。
 
 .. i18n: .. figure::  images/hr_wage_type.png
 .. i18n:    :scale: 75
@@ -467,7 +445,7 @@ You may similarly define wage types at :menuselection:`Human Resources --> Confi
 .. i18n: Using :menuselection:`Human Resources --> Human Resources --> Contracts` you can create and edit contracts.
 ..
 
-Using :menuselection:`Human Resources --> Human Resources --> Contracts` you can create and edit contracts.
+你可以在 :menuselection:`人力资源 --> 人力资源 --> 合同` :menuselection:`Human Resources --> Human Resources --> Contracts` 中建立和编辑合同。
 
 .. i18n: .. figure::  images/service_hr_contract.png
 .. i18n:    :scale: 75
@@ -485,7 +463,7 @@ Using :menuselection:`Human Resources --> Human Resources --> Contracts` you can
 .. i18n: You can enter information about the employment contract for the employee, such as:
 ..
 
-You can enter information about the employment contract for the employee, such as:
+你可以输入员工雇用合同的信息，如下:
 
 .. i18n: *  :guilabel:`Contract Reference`
 .. i18n: 
@@ -506,23 +484,23 @@ You can enter information about the employment contract for the employee, such a
 .. i18n: *  :guilabel:`Trial End Date` : End date for the contract trial period, if any.
 ..
 
-*  :guilabel:`Contract Reference`
+*  :guilabel:`合同编码`
 
-*  :guilabel:`Job Title`
+*  :guilabel:`职务名称`
 
-*  :guilabel:`Working Schedule`
+*  :guilabel:`工作安排`
 
-*  :guilabel:`Start Date`
+*  :guilabel:`开始日期`
 
-*  :guilabel:`End Date`
+*  :guilabel:`结束日期`
 
-*  :guilabel:`Wage Type` : Select one from pre-defined wage types.
+*  :guilabel:`薪酬结构` : 在预先定义的工资期间选择一个。
 
-*  :guilabel:`Contract Type` : Select one from pre-defined contract types.
+*  :guilabel:`合同类型` : 在预先定义的合同期间选择一个。
 
-*  :guilabel:`Trial Start Date` : Start date for the contract trial period, if any.
+*  :guilabel:`试用期开始日期` : 开始日期为合同的试用期。
 
-*  :guilabel:`Trial End Date` : End date for the contract trial period, if any.
+*  :guilabel:`试用期结束日期` : 结束日期为合同的试用期。
 
 .. i18n: .. index::
 .. i18n:    single: employee; sign in / sign out
@@ -543,32 +521,27 @@ You can enter information about the employment contract for the employee, such a
 .. i18n: using the menu :menuselection:`Human Resources --> Attendances --> Sign in / Sign out`.
 ..
 
-In some companies, staff have to sign in when they arrive at work and sign out again at the end of
-the day. If each employee has been linked to a system user, then they can sign into OpenERP by
-using the menu :menuselection:`Human Resources --> Attendances --> Sign in / Sign out`.
+在一些公司中，员工必须上班时签入，下班时签出。如果员工是系统用户，他们可以在ERP中使用 :menuselection:`人力资源 --> 考勤 --> 签入/签出` :menuselection:`Human Resources --> Attendances --> Sign in / Sign out` 
+进行签字（签入/签出）。
 
 .. i18n: If an employee has forgotten to sign out on leaving, the system proposes that they sign out manually
 .. i18n: and type in the time that they left when they come in again the next day. This gives you a simple way
 .. i18n: of managing forgotten sign-outs.
 ..
 
-If an employee has forgotten to sign out on leaving, the system proposes that they sign out manually
-and type in the time that they left when they come in again the next day. This gives you a simple way
-of managing forgotten sign-outs.
+如果一个员工下班时忘记签出，系统将在第二天他们准备下班签出时，建议他们手工签出。这是一个管理忘记签出的简单方法。
 
 .. i18n: Find employee attendance details from their forms in
 .. i18n: :menuselection:`Human Resources --> Employees`.
 ..
 
-Find employee attendance details from their forms in
-:menuselection:`Human Resources --> Employees`.
+在 :menuselection:`人力资源 --> 员工` :menuselection:`Human Resources --> Employees` 中的员工表格中找到员工考勤详情。
 
 .. i18n: To get the detail of attendances from an employee's form in OpenERP, you can use the
 .. i18n: available reports:
 ..
 
-To get the detail of attendances from an employee's form in OpenERP, you can use the
-available reports:
+你可以使用下列有效记录，在ERP的员工表格中看到员工考勤详情:
 
 .. i18n: *  :guilabel:`Attendances By Month`
 .. i18n: 
@@ -577,25 +550,23 @@ available reports:
 .. i18n: *  :guilabel:`Attendance Error Report`
 ..
 
-*  :guilabel:`Attendances By Month`
+*  :guilabel:`每月考勤`
 
-*  :guilabel:`Attendances By Week`
+*  :guilabel:`每周考勤`
 
-*  :guilabel:`Attendance Error Report`
+*  :guilabel:`考勤异常记录`
 
 .. i18n: The last report highlights errors in attendance data entry.
 .. i18n: It shows you whether an employee has entered the time of
 .. i18n: entry or exit manually and the differences between the actual and expected sign out time and the sign in time.
 ..
 
-The last report highlights errors in attendance data entry.
-It shows you whether an employee has entered the time of
-entry or exit manually and the differences between the actual and expected sign out time and the sign in time.
+最后一份报告显示在考勤数据中输入的错误。显示员工是否手工输入进入或者离开时间以及事实和期望签出签入时间的区别。
 
 .. i18n: The second report shows the attendance data for the selected month.
 ..
 
-The second report shows the attendance data for the selected month.
+第二份报告显示选定月份的考勤数据。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
