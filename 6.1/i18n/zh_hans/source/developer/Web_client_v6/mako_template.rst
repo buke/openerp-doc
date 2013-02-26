@@ -327,7 +327,7 @@ that will be passed to the **Template** objects it creates:
 .. i18n: The simplest expression is just a variable substitution.
 ..
 
-The simplest expression is just a variable substitution.
+模板最简单的表达式就是模板变量的替换了.
 
 .. i18n: The syntax for this is the ${} construct, which is inspired by Perl, Genshi, JSP EL, and others:
 ..
