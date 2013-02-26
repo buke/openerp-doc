@@ -42,11 +42,7 @@
 
  *在学习流程之前,你可能不是很清楚哪些带编号的业务对象,更没有头绪如何去实现模型和业务之间的流程.*
  
- *OpenERP's process module, which is installed automatically when a process-aware module
- is installed, shows you cross-functional processes and technical workflows for those
- nodes in the process that have them. This visualization is invaluable for documentation - 
- but it also goes a step further. You can modify processes and workflows and even generate
- entirely new processes and workflows for your various document types.*
+ *在安装有流程功能的模块时,OpenERP的流程模块会被自动安装，流程里的各节点之间的跨职能的流程和工作流技术细节会被很好地展示。这种可视化对流程规范来说是非常重要- 甚至还可以更深一步。你可以修改已有的流程和工作流，甚至可以根据不同的单据类型重新产生新的流程和工作流.*
  
  *If your starting point is a specific document, such as
  an invoice or order, then you will also be shown the exact position of that document on 
