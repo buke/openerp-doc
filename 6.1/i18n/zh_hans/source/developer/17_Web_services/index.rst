@@ -125,27 +125,27 @@ WebservicesXMLRPC
 .. i18n: XML-RPC is known as a web service. Web services are a set of tools that let one build distributed applications on top of existing web infrastructures. These applications use the Web as a kind of "transport layer" but don't offer a direct human interface via the browser.[1] Extensible Markup Language (XML) provides a vocabulary for describing Remote Procedure Calls (RPC), which is then transmitted between computers using the HyperText Transfer Protocol (HTTP). Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
 ..
 
-XML-RPC is known as a web service. Web services are a set of tools that let one build distributed applications on top of existing web infrastructures. These applications use the Web as a kind of "transport layer" but don't offer a direct human interface via the browser.[1] Extensible Markup Language (XML) provides a vocabulary for describing Remote Procedure Calls (RPC), which is then transmitted between computers using the HyperText Transfer Protocol (HTTP). Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
+XML-RPC被称为Web应用服务. Web应用服务是一组用于在现存网络架构上构建和发布应用程序的工具.这些应用程序把Web当作"传输层"的一种使用,但没有通过浏览器提供直接的人机接口.[1] 扩展标识语言 (XML) 提供了一个词汇来描述远程过程调用(RPC), 然后在电脑之间使用超文本传输协议(HTTP)进行传输. 实际上, RPC给开发人员提供了一种可以通过网络调用自定义接口的机制.这些接口可以是简单的一个单一的函数调用或者是一个很大的API集.
 
 .. i18n: XML-RPC therefore allows two or more computers running different operating systems and programs written in different languages to share processing. For example, a Java application could talk with a Perl program, which in turn talks with Python application that talks with ASP, and so on. System integrators often build custom connections between different systems, creating their own formats and protocols to make communications possible, but one can often end up with a large number of poorly documented single-use protocols. The RPC approach spares programmers the trouble of having to learn about underlying protocols, networking, and various implementation details.
 ..
 
-XML-RPC therefore allows two or more computers running different operating systems and programs written in different languages to share processing. For example, a Java application could talk with a Perl program, which in turn talks with Python application that talks with ASP, and so on. System integrators often build custom connections between different systems, creating their own formats and protocols to make communications possible, but one can often end up with a large number of poorly documented single-use protocols. The RPC approach spares programmers the trouble of having to learn about underlying protocols, networking, and various implementation details.
+系统集成商通常构建定制不同系统之间的连接,创建他们自己的格式和协议使得通信成为可能,但经常会因大量缺乏文档的一次性协议而告终.RPC方法省去程序员不少麻烦，不用了解底层协议,网络和各种实现细节
 
 .. i18n: XML-RPC can be used with Python, Java, Perl, PHP, C, C++, Ruby, Microsoft’s .NET and many other programming languages. Implementations are widely available for platforms such as Unix, Linux, Windows and the Macintosh.
 ..
 
-XML-RPC can be used with Python, Java, Perl, PHP, C, C++, Ruby, Microsoft’s .NET and many other programming languages. Implementations are widely available for platforms such as Unix, Linux, Windows and the Macintosh.
+XML-RPC 可以用于 Python, Java, Perl, PHP, C, C++, Ruby, Microsoft’s .NET 和更多其它的编程语言. 实际被广泛用于平台如Unix、Linux、Windows和Macintosh.
 
 .. i18n: An XML-RPC call is conducted between two parties: the client (the calling process) and the server (the called process). A server is made available at a particular URL (such as http://example.org:8080/rpcserv/).
 ..
 
-An XML-RPC call is conducted between two parties: the client (the calling process) and the server (the called process). A server is made available at a particular URL (such as http://example.org:8080/rpcserv/).
+一个XML-RPC调用分为两部分: 客户端 (调用进程) 和服务端 (被调用进程). 一个服务端可以是一个特定的URL (例如 http://example.org:8080/rpcserv/).
 
 .. i18n: The above text just touches the surface of XML-RPC. I recommend O'Reilly's "Programming Web Service with XML-RPC" for further reading. One may also wish to review the following links:
 ..
 
-The above text just touches the surface of XML-RPC. I recommend O'Reilly's "Programming Web Service with XML-RPC" for further reading. One may also wish to review the following links:
+以上只涵盖了XML-RPC的表面. 我建议进一步阅读O'Reilly'的"Programming Web Service with XML-RPC". 你也可以看看下面的连接:
 
 .. i18n: XML-RPC Home Page\\\\ XML-RPC for C and C++\\\\ The Apache XML-RPC Project\\\\ Expat: The XML Parser\\\\
 ..
