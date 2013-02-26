@@ -25,7 +25,7 @@ OpenERP 中文文档翻译计划
 *  只有 openerp-doc / 6.1 / i18n / zh_hans / source  目录下的文档是需要翻译的，其他文档请勿修改！
 *  模块技术指南部分（openerp-doc / 6.1 / source / technical_guide ） ，社区意见是暂时先不要翻译，理由是：非常技术化，而且过时了
 * 下面是个超链格式,下划线后面的空格必须保留 （请到 Code、RAW 方式查看）
-  `下载页 <http://www.openerp.com/downloads>`_    ':'. 
+  \`下载页 <http://www.openerp.com/downloads>\`_    ':'. 
 
 * 请特别关注一下下面几次提交的修正:
 - https://github.com/buke/openerp-doc/commit/68c87d2af47e6f376c5f76b69e9e0300dc2448b5
