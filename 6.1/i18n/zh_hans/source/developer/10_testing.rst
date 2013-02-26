@@ -139,7 +139,7 @@
 .. i18n: For more complex tests it is not always sufficient to compare a result to a string. To do that you may instead omit the tag's content and just put an expression that must evaluate to True:
 ..
 
-在更复杂的测试中，仅仅匹配字符串结果是远远不够的。你可以在标签中使用计算结果为 True 的复杂表达式。
+在更复杂的测试中，仅仅匹配字符串结果是远远不够的。因此你反而要删去在标签中原有的字符串使用逻辑正确的复杂表达式。
 
 .. i18n: .. code-block:: xml
 .. i18n: 	
