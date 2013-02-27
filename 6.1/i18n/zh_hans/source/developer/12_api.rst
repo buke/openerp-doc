@@ -402,7 +402,7 @@ Python
 .. i18n:     * **Create a partner and their address**
 ..
 
-    * **创建一个合伙人和他的地址**
+    * **创建一个合作伙伴和他的地址**
 
 .. i18n:   ::
 .. i18n: 
@@ -1541,7 +1541,7 @@ Perl 代码示例
   print Dumper($server);
 
   #
-  # 创建合伙人
+  # 创建合作伙伴
   #
   my $partner_data = {'name'=>'MyNewPartnerName',
                     'active'=> 'True',
@@ -1551,7 +1551,7 @@ Perl 代码示例
   print Dumper($partner_id);
 
   #
-  # 搜索合伙人
+  # 搜索合作伙伴
   #
   my $query = [['vat', '=', 'ZZZZZ']];
 
@@ -1568,7 +1568,7 @@ Perl 代码示例
   <STDIN>;
 
   #
-  # 删除合伙人
+  # 删除合作伙伴
   #
   my $results = $server->call('execute',$db, $uid, $pw, $model, 'unlink', $ids);
 
