@@ -544,7 +544,7 @@ PHP
 .. i18n: windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.sourceforge.net/ The latest stable release is version 2.2 released on February 25, 2007
 ..
 
-windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.sourceforge.net/ The latest stable release is version 2.2 released on February 25, 2007
+windows / linux: 从 http://phpxmlrpc.sourceforge.net/ 上下载xmlrpc框架，目前最新的正式版本是2007年2月25日发行的2.2版本
 
 .. i18n: **Setup the XML-RPC for PHP**
 ..
@@ -554,7 +554,7 @@ windows / linux: download the xml-rpc framework for php from http://phpxmlrpc.so
 .. i18n: extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory place the xmlrpc.inc in the php library folder restart the apache/iis server
 ..
 
-extract file xmlrpc-2.2.tar.gz and take the file xmlrpc.inc from lib directory place the xmlrpc.inc in the php library folder restart the apache/iis server
+从xmlrpc-2.2.tar.gz 解压出xmlrpc.inc 文件，把这个文件放到php函数库文件夹中,重启apache/iis 服务器
 
 .. i18n: **Demo script**
 ..
@@ -900,7 +900,7 @@ JAVA
 .. i18n: All OpenERP errors throw exceptions because the framework allows only an int as the error code where OpenERP returns a string.
 ..
 
-Download the xml-rpc framework for java from http://ws.apache.org/xmlrpc/ The latest stable release is version 3.1 released on August 12, 2007.
+从 http://ws.apache.org/xmlrpc/ 上下载java xmlrpc框架，目前最新版本是2007年8月发布的3.1版本.
 All OpenERP errors throw exceptions because the framework allows only an int as the error code where OpenERP returns a string.
 
 .. i18n: **Demo script**
@@ -1308,7 +1308,7 @@ PRINT(打印) 示例代码:
 .. i18n:    3. ids = sock.execute(dbname, uid, pwd, 'account.invoice', 'search', [('number', 'ilike', invoicenumber), ('type', '=', 'out_invoice')])
 ..
 
-   1. PRINT INVOICE
+   1. 打印发票
    2. IDS is the invoice ID, as returned by:
    3. ids = sock.execute(dbname, uid, pwd, 'account.invoice', 'search', [('number', 'ilike', invoicenumber), ('type', '=', 'out_invoice')])
 
@@ -1528,7 +1528,7 @@ Perl 代码示例
   my($db) = 'put_your_dbname_here';
   my($model) = 'res.partner';
 
-  #login
+  #登录
   my $server_url = 'http://localhost:8069/xmlrpc/common';
   my $server = Frontier::Client->new('url' => $server_url);
   my $uid = $server->call('login',$db,$user,$pw);
@@ -1541,7 +1541,7 @@ Perl 代码示例
   print Dumper($server);
 
   #
-  # CREATE A PARTNER
+  # 创建合伙人
   #
   my $partner_data = {'name'=>'MyNewPartnerName',
                     'active'=> 'True',
@@ -1551,7 +1551,7 @@ Perl 代码示例
   print Dumper($partner_id);
 
   #
-  # SEARCH PARTNERS
+  # 搜索合伙人
   #
   my $query = [['vat', '=', 'ZZZZZ']];
 
@@ -1561,14 +1561,14 @@ Perl 代码示例
 
   print Dumper($ids);
 
-  #Here waiting for user input
+  #这里等待用户输入
   #OpenERP interface my be checked if partner is shown there
 
   print $/."Check OpenERP if partner is inserted. Press ENTER".$/;
   <STDIN>;
 
   #
-  # DELETE PARTNER DATA
+  # 删除合伙人
   #
   my $results = $server->call('execute',$db, $uid, $pw, $model, 'unlink', $ids);
 
