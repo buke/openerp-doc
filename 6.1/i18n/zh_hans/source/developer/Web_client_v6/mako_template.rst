@@ -634,8 +634,8 @@ which enable packages of defs to be sent as arguments to other def calls (not as
 .. i18n: as well as locally defined “packages” of functions.	
 ..
 
-It allows access to all the rendering functions and metadata of other template files, plain Python modules, 
-as well as locally defined “packages” of functions.	
+这允许访问所有的渲染函数及其它模板文件的元数据, plain Python modules, 
+甚至本地定义的函数包.	
 
 .. i18n: ::
 .. i18n: 
@@ -654,7 +654,7 @@ as well as locally defined “packages” of functions.
 .. i18n: handles multiline comments:
 ..
 
-handles multiline comments:
+处理多行内容:
 
 .. i18n: ::
 .. i18n: 
@@ -667,11 +667,11 @@ handles multiline comments:
 ::
 
 	<%doc>
-	    Multi line comments
-	    Using doc tag
+	    多行内容
+	    使用文档标签
 	</%doc>
 
 .. i18n: For More Details visit the documentation: http://www.makotemplates.org/docs/index.html
 ..
 
-For More Details visit the documentation: http://www.makotemplates.org/docs/index.html
+更多的资料，请访问访官方文档: http://www.makotemplates.org/docs/index.html
