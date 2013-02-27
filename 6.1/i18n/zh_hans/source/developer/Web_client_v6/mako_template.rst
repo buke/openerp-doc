@@ -332,7 +332,7 @@ that will be passed to the **Template** objects it creates:
 .. i18n: The syntax for this is the ${} construct, which is inspired by Perl, Genshi, JSP EL, and others:
 ..
 
-The syntax for this is the ${} construct, which is inspired by Perl, Genshi, JSP EL, and others:
+${} 的语法类似于 Perl, Genshi, JSP EL等模板系统的语法:
 
 .. i18n:     **${x}**
 ..
@@ -363,13 +363,13 @@ The syntax for this is the ${} construct, which is inspired by Perl, Genshi, JSP
 .. i18n: 	-	as well as try/except
 ..
 
--	**Controller Structures**
+-	**流程控制**
 
-	-	Conditionals(i.e if/else)
+	-	条件语句(如: if/else)
 
-	-	loops(for and while)
+	-	循环语句(如: for 与 while)
 
-	-	as well as try/except
+	-	异常控制(如: try/except)
 
 .. i18n: control structures are written using the % marker followed by a regular Python control expression, 
 .. i18n: and are “closed” by using another % marker with the tag “end<name>“, where “<name>” is the keyword of the expression:
