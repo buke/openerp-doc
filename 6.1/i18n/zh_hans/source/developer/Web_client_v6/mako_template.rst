@@ -375,8 +375,8 @@ ${} 的语法类似于 Perl, Genshi, JSP EL等模板系统的语法:
 .. i18n: and are “closed” by using another % marker with the tag “end<name>“, where “<name>” is the keyword of the expression:
 ..
 
-control structures are written using the % marker followed by a regular Python control expression, 
-and are “closed” by using another % marker with the tag “end<name>“, where “<name>” is the keyword of the expression:
+模板的流程控制完全使用 Python 语言的流程控制语法, 只不过, 在模板流程控制结束, 需要使用 "%end<name>"来做为控制结束符.
+其中 "<name>" 为控制语句的 Python 保留字. 例如:
 
 .. i18n: ::
 .. i18n: 
