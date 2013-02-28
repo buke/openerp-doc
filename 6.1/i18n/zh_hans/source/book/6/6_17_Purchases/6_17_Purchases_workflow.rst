@@ -144,7 +144,8 @@ The internal reference, the date and the warehouse the products should be delive
    *Purchase Order Line*
 
 .. i18n: When you have selected the product, OpenERP automatically completes the other fields in the form:
-..当你选择了产品后, OpenERP 会自动填充其它字段:
+
+当你选择了产品后, OpenERP 会自动填充其它字段:
 
 .. i18n: * :guilabel:`Product UoM`, taken from the :guilabel:`Purchase Unit of Measure` field in the product form,
 .. i18n: 
