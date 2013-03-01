@@ -63,8 +63,8 @@
 .. i18n: and one unit of Product C.
 ..
 
-The different components to produce one unit of Product A are one unit of Product B
-and one unit of Product C.
+一个 Product A 由一个 Product B
+和一个 Product C 组成.
 
 .. i18n: .. table:: Companies and Products
 .. i18n:    
