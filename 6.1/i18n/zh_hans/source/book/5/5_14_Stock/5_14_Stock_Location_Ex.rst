@@ -237,10 +237,10 @@ OpenERP US 移动到 OpenERP SA 出售给客户.
 .. i18n: reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
 ..
 
-Once again due to the use of two companies, you have to confirm different deliveries. One to deliver the product 
-from OpenERP US to OpenERP SA and another to deliver the product from OpenERP SA to the customer.
-Now you have to confirm the delivery of the three units from OpenERP US to OpenERP SA, then to confirm the 
-reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
+由于两家公司应用, 你需要确认不同的交付. 一产品交付 
+从OpenERP US 到 OpenERP SA ，另一产品交付从 OpenERP SA 到客户.
+现在你可以确认交付3个产品从 OpenERP US 到 OpenERP SA, 然后 
+OpenERP SA 确认接收完成, 交付产品给最终客户.	
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
