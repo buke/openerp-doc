@@ -63,8 +63,8 @@
 .. i18n: and one unit of Product C.
 ..
 
-一个 Product A 由一个 Product B
-和一个 Product C 组成.
+生产一个 Product A 不同成分是一个 Product B
+和一个 Product C .
 
 .. i18n: .. table:: Companies and Products
 .. i18n:    
