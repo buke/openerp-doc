@@ -36,7 +36,7 @@
 .. i18n: In this chapter, the easy-to-use *OpenERP Online* solution will be briefly explained. For more information about installing OpenERP on your computer, please refer to the chapter :ref:`part5-crm-install`.
 ..
 
-In this chapter, the easy-to-use *OpenERP Online* solution will be briefly explained. For more information about installing OpenERP on your computer, please refer to the chapter :ref:`part5-crm-install`.
+本章将简要说明简单易用的*OpenERP在线服务*。 有关安装OpenERP在您计算机上的更多信息, 请参阅 :ref:`part5-crm-install`.
 
 .. i18n: .. note:: Some Interesting Websites from OpenERP
 .. i18n: 
