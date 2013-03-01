@@ -207,16 +207,16 @@
 .. i18n: OpenERP US to OpenERP SA to be sold to the customer.
 ..
 
-Because we are working in two different companies, different stock moves have been generated. The products have to move 
-from OpenERP SA to OpenERP US for the products C. After the manufacturing process, the products A have to move from
-OpenERP US to OpenERP SA to be sold to the customer.
+因为我们用了两个不同公司做案例, 生成了不同的库存移动. 产品从 
+OpenERP SA 移动到了 OpenERP US 做为 products C. 通过制造过程后, products A 从
+OpenERP US 移动到 OpenERP SA 出售给客户.
 
 .. i18n: Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
 .. i18n: status. So you can run the production of the three units of Product A.
 ..
 
-Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
-status. So you can run the production of the three units of Product A.
+一旦你对 products B 和 C 配置了不同的移动, 生产订单在 `ready to produce`
+状态. 你就可以开始 3个 Product A 的制造.
 
 .. i18n: .. figure:: images/start_production.png
 .. i18n: 	:scale: 75
