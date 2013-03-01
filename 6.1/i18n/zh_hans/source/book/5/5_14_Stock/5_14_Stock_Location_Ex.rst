@@ -26,13 +26,13 @@
 .. i18n: the Stock Location to determine where to take these products.
 ..
 
-我们有三个产品: Product A, Product B 和 Product C. 每个产品, 我们将定义库位，以确定从那个地方来取这些产品.
+我们有三个产品: `Product A`, `Product B` 和 `Product C`. 每个产品, 我们将定义库位，以确定从那个地方来取这些产品.
 
 .. i18n: To make one unit of Product A, we need the Product B and the Product C. So we will have to define a 
 .. i18n: *Bill of Material*.
 ..
 
-一个 Product A, 我们需要 Product B 和 Product C. 因此我们需要定义一个产品A的 *物料清单*.
+一个 `Product A`, 我们需要 `Product B` 和 `Product C`. 因此我们需要定义一个产品A的 *物料清单*.
 
 .. i18n: .. table:: Bill of Materials
 .. i18n: 
@@ -63,8 +63,7 @@
 .. i18n: and one unit of Product C.
 ..
 
-生产一个 Product A 不同成分是一个 Product B
-和一个 Product C .
+生产一个 `Product A` 不同成分是一个 `Product B` 和一个 `Product C` .
 
 .. i18n: .. table:: Companies and Products
 .. i18n:    
@@ -169,8 +168,7 @@
 .. i18n: you will have the following procurements:
 ..
 
-通过这样的配置, 当销售订单确定销售 3 个 Product A 并且计划被执行,
-你将得到下面的需求:
+通过这样的配置, 当销售订单确定销售 3 个 `Product A` 并且计划被执行, 你将得到下面的需求:
 
 .. i18n: .. figure:: images/procurement.png
 .. i18n: 	:scale: 90
@@ -207,16 +205,14 @@
 .. i18n: OpenERP US to OpenERP SA to be sold to the customer.
 ..
 
-因为我们用了两个不同公司做案例, 生成了不同的库存移动. 产品从 
-OpenERP SA 移动到了 OpenERP US 做为 products C. 通过制造过程后, products A 从
-OpenERP US 移动到 OpenERP SA 出售给客户.
+因为我们用了两个不同公司做案例, 生成了不同的库存移动. 产品从 `OpenERP SA` 移动到了 `OpenERP US` 做为 `Products C`. 通过制造
+过程后, `Products A` 从 `OpenERP US` 移动到 `OpenERP SA` 出售给客户.
 
 .. i18n: Once you have confirmed the different moves for the products B and C, the Manufacturing Order is in `ready to produce`
 .. i18n: status. So you can run the production of the three units of Product A.
 ..
 
-一旦你对 products B 和 C 配置了不同的移动, 生产订单在 `ready to produce`
-状态. 你就可以开始 3个 Product A 的制造.
+一旦你对 `Products B` 和 `Products C` 配置了不同的移动, 生产订单在 `待生产` 状态. 你就可以开始 3个 `Product A` 的制造.
 
 .. i18n: .. figure:: images/start_production.png
 .. i18n: 	:scale: 75
@@ -237,10 +233,8 @@ OpenERP US 移动到 OpenERP SA 出售给客户.
 .. i18n: reception of the products in OpenERP SA and finally, deliver the products to you final customer.	
 ..
 
-由于两家公司应用, 你需要确认不同的交付. 一产品交付 
-从OpenERP US 到 OpenERP SA ，另一产品交付从 OpenERP SA 到客户.
-现在你可以确认交付3个产品从 OpenERP US 到 OpenERP SA, 然后 
-OpenERP SA 确认接收完成, 交付产品给最终客户.	
+由于两家公司应用, 你需要确认不同的交付. 一产品交付 从 `OpenERP US` 到 `OpenERP SA` ，另一产品交付从 `OpenERP SA` 到客户.
+现在你可以确认交付3个产品从 `OpenERP US` 到 `OpenERP SA`, 然后 `OpenERP SA` 确认接收完成, 交付产品给最终客户.	
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
