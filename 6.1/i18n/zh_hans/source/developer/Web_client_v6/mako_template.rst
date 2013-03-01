@@ -430,12 +430,12 @@ ${} 的语法类似于 Perl, Genshi, JSP EL等模板系统的语法:
 .. i18n: -	**Python Blocks**
 ..
 
--	**Python Blocks**
+-	**Python 代码块**
 
 .. i18n: Any arbitrary block of python can be dropped in using the <% %> tags:
 ..
 
-Any arbitrary block of python can be dropped in using the <% %> tags:
+你可以在模板的 <% %> 标符内随意使用 Python 代码:
 
 .. i18n: ::
 .. i18n: 
