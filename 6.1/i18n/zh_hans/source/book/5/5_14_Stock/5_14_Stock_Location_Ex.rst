@@ -113,7 +113,7 @@
    Get Product from Transit Pull Product C OpenERP US receives the Product C
    ======================== ==== ========= ======================================================
    
-Here are the details of the different flows:
+这里是各种详细的工作流:
 
 .. i18n: .. figure:: images/ask_production.png
 .. i18n: 	:scale: 75
@@ -169,8 +169,8 @@ Here are the details of the different flows:
 .. i18n: you will have the following procurements:
 ..
 
-With this configuration, when a Sales Order for 3 units of Product A is confirmed and the scheduler has been launched,
-you will have the following procurements:
+通过这样的配置, 当销售订单确定销售 3 个 Product A 并且计划被执行,
+你将得到下面的需求:
 
 .. i18n: .. figure:: images/procurement.png
 .. i18n: 	:scale: 90
@@ -187,7 +187,7 @@ you will have the following procurements:
 	
 	*Procurements View*
 	
-And the following stock moves have been generated:
+并且生成下面的库存移动:
 
 .. i18n: .. figure:: images/stock_moves_ex.png
 .. i18n: 	:scale: 90
