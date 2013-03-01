@@ -44,9 +44,7 @@
  
  *在安装有流程功能的模块时,OpenERP的流程模块会被自动安装，流程里的各节点之间的跨职能的流程和工作流技术细节会被很好地展示。这种可视化对流程规范来说是非常重要- 甚至还可以更深一步。你可以修改已有的流程和工作流，甚至可以根据不同的单据类型重新产生新的流程和工作流.*
  
- *If your starting point is a specific document, such as
- an invoice or order, then you will also be shown the exact position of that document on 
- its process and workflow diagrams.*
+ *如果你从发票或订单这类特定的单据进入,那你可以看到这个单据在工作流程图上的确切位置*
 
 .. i18n: .. index::
 .. i18n:    single: module; sale
