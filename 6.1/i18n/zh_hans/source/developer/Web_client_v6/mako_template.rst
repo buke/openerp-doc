@@ -536,7 +536,7 @@ Also defines caching characteristics.
 .. i18n: just accepts a file argument and calls in the rendered result of that file:
 ..
 
-just accepts a file argument and calls in the rendered result of that file:
+只需要传递一个参数就可以调用该参数对应的模板.
 
 .. i18n: Also accepts arguments which are available as <%page> arguments in the receiving template:
 ..
