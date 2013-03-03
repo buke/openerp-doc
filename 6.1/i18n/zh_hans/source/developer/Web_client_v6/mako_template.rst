@@ -466,7 +466,8 @@ ${} 的语法类似于 Perl, Genshi, JSP EL等模板系统的语法:
 .. i18n: A variant on <% %> is the module-level code block, denoted by <%! %>.
 ..
 
-A variant on <% %> is the module-level code block, denoted by <%! %>.
+
+<% %> Python 代码块的另一种方式是可以使用 <%! %> 做为定界符.
 
 .. i18n: Code within these tags is executed at the module level of the template, and not within the rendering function of the template.
 ..
