@@ -70,8 +70,8 @@
 .. i18n: and :mod:`hr_holidays`.
 ..
 
-在本章，你有一个包含销售模块(:mod:`sale`)且带演示数据的新数据库就可以开始,跟销售关联的模块都会被自动安装,流程模块(:mod:'process')是其中之一,也不必去配置好科目表.
-对于本章的第二个例子,你还需要安装一些诸如(:mod:`hr_attendance`),(:mod:`hr_contract`)和(:mod:`hr_holidays`)一些相关的人事模块(:mod:`hr`).
+在本章，你有一个包含销售模块(:mod:`sale`)且带演示数据的新数据库就可以开始，跟销售关联的模块都会被自动安装，流程模块(:mod:'process')是其中之一，也不必去配置好科目表.
+对于本章的第二个例子，你还需要安装一些诸如(:mod:`hr_attendance`)，(:mod:`hr_contract`)和(:mod:`hr_holidays`)一些相关的人事模块(:mod:`hr`).
 
 .. i18n: .. raw:: html
 .. i18n: 
