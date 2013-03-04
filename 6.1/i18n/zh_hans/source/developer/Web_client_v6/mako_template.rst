@@ -472,7 +472,7 @@ ${} 的语法类似于 Perl, Genshi, JSP EL等模板系统的语法:
 .. i18n: Code within these tags is executed at the module level of the template, and not within the rendering function of the template.
 ..
 
-Code within these tags is executed at the module level of the template, and not within the rendering function of the template.
+模板里这个标签内的代码可以执行, 但是函数定义里的代码并不立即执行.
 
 .. i18n: ::
 .. i18n: 
