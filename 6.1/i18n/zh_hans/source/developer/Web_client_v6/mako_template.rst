@@ -511,7 +511,7 @@ memory (which can be only once per application, or more, depending on the runtim
 .. i18n: This tag defines general characteristics of the template, including caching arguments, and optional lists of arguments which the template expects when invoked.
 ..
 
-This tag defines general characteristics of the template, including caching arguments, and optional lists of arguments which the template expects when invoked.
+<%page> 标签是在模板中常用的标签, 在标签内可以配置页面的缓存参数,以及模板引用时需要的一些可选择的列表.
 
 .. i18n: Also defines caching characteristics.
 ..
