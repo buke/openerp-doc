@@ -10,8 +10,7 @@
 .. i18n: gaps in stock moves.
 ..
 
-The double-entry management in OpenERP enables you to run very advanced traceability. All
-operations are formalized in terms of stock moves, so it is very easy to search for the cause of any
+OpenERP 的物流借鉴财务的复式记帐, 使得物流的跟踪变得相当灵活. 所有的操作都依托于 ``stock.move`` , so it is very easy to search for the cause of any
 gaps in stock moves.
 
 .. i18n: .. index::
