@@ -225,7 +225,7 @@ could achieve that in OpenERP.
 .. i18n: an advanced management system into place.
 ..
 
-This is what we will consider OpenERP to be: not an end in itself but just the tool you use to put
+这也是我们OpenERP所希望做到的: not an end in itself but just the tool you use to put
 an advanced management system into place.
 
 .. i18n: Who is it for?
