@@ -116,9 +116,9 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: `Form` view is displayed when you click a specific customer to start editing or when you create a new customer.
 ..
 
-在讲解如何创建合作伙伴之前, just a quick word on the different ways of representing partners in OpenERP.
-`List` view shows a list of customers (the default representation when you click the Customers menu). In this view, you can see several customers at a time.
-`Form` view is displayed when you click a specific customer to start editing or when you create a new customer.
+在讲解如何创建合作伙伴之前, 仅说两句OPENERP中合作伙伴不同的显示方式.
+列表视图显示客户列表(你点击客户菜单时的默认显示).这种视图下，你可以同一时间查看到多个客户信息.
+你选择特定客户开始编辑，或者创建一个新客户时，则显示为表单视图.
 
 .. i18n: To create a new partner (a company, customer, supplier, ...) or to display the list of existing customers, use the menu :menuselection:`Sales --> Address Book --> Customers`. This menu does not only allow you to create a new partner, but also to search for partners.
 ..
