@@ -70,7 +70,7 @@
 .. i18n: 	<menuitem name="Sales Management/Sales Order/Sales Order in Progress" id="menu_action_order_tree4" action="action_order_tree4"/>
 ..
 
-在server/bin/addons/sale/sale_view.xml中，我们有：
+在server/bin/addons/sale/sale_view.xml中，我们有:
 ::
 
 	<menuitem name="Sales Management/Sales Order/Sales Order in Progress" id="menu_action_order_tree4" action="action_order_tree4"/>
@@ -94,14 +94,14 @@
 .. i18n: =======
 ..
 
-Actions
+动作
 =======
 
 .. i18n: Introduction
 .. i18n: ------------
 ..
 
-Introduction
+介绍
 ------------
 
 .. i18n: The actions define the behavior of the system in response to the actions of the users ; login of a new user, double-click on an invoice, click on the action button, ...
@@ -125,8 +125,8 @@ actions定义系统的行为来响应用户的动作；登录的新用户，双�
 
     * Window: 打开一个新窗口
     * Report: 打印报表
-          o Custom Report: The personalized reports
-          o RML Report: The XSL:RML reports
+          o Custom Report: 自定义报表
+          o RML Report: XSL:RML 报表
     * Wizard: 开始向导
     * Execute: server端方法的执行。
     * Group: 在一个组中集合多个动作
@@ -149,7 +149,7 @@ actions定义系统的行为来响应用户的动作；登录的新用户，双�
 .. i18n: -----------------
 ..
 
-Example of events
+事件样例
 -----------------
 
 .. i18n: In OpenERP, all the actions are described and not configured. Two examples:
@@ -168,13 +168,13 @@ Example of events
 .. i18n: +++++++++++++++++++
 ..
 
-Opening of the menu
+打开菜单
 +++++++++++++++++++
 
 .. i18n: When the user open the option of the menu "Operations > Partners > Partners Contact", the next steps are done to give the user information on the action to undertake.
 ..
 
-当用户打开菜单选择“Operations > Partners > Partners Contact”，下一步是给用户该动作承诺的信息。
+当用户打开菜单选择 "Operations > Partners > Partners Contact"，下一步是给用户该动作承诺的信息。
 
 .. i18n:    1. Search the action in the IR.
 .. i18n:    2. Execution of the action
@@ -191,7 +191,7 @@ Opening of the menu
 .. i18n: +++++++++++++++
 ..
 
-User connection
+用户登陆
 +++++++++++++++
 
 .. i18n: When a new user is connected to the server, the client must search the action to use for the first screen of this user. Generally, this action is: open the menu in the 'Operations' section.
