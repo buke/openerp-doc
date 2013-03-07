@@ -34,7 +34,7 @@
 .. i18n: Each partner can have an unlimited number of contacts. OpenERP also allows you to have several contacts with the same address type for one partner. You can easily link several Invoice addresses to a customer, for instance. 
 ..
 
-Each partner can have an unlimited number of contacts. OpenERP also allows you to have several contacts with the same address type for one partner. You can easily link several Invoice addresses to a customer, for instance. 
+每个合作伙伴可以有无数个联系人. Openerp同样允许一个合作伙伴有多个相同地址类型的联系人.比如，你可以轻松地链接多个开票地址给一个客户. 
 
 .. i18n: .. note:: Address Types
 .. i18n: 
@@ -116,7 +116,7 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: `Form` view is displayed when you click a specific customer to start editing or when you create a new customer.
 ..
 
-Before explaining you how to create a partner, just a quick word on the different ways of representing partners in OpenERP.
+在讲解如何创建合作伙伴之前, just a quick word on the different ways of representing partners in OpenERP.
 `List` view shows a list of customers (the default representation when you click the Customers menu). In this view, you can see several customers at a time.
 `Form` view is displayed when you click a specific customer to start editing or when you create a new customer.
 
