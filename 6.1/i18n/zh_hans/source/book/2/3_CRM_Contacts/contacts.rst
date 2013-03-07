@@ -28,13 +28,15 @@
 .. i18n: A ``Contact`` represents a person who works for a partner.
 ..
 
-在OPENERP中，合作伙伴和联系人之间有什么区别呢？ 合作伙伴代表一个与你有业务来往的个体 - 客户, 潜在客户, 甚至你公司的员工. 在其他CRM软件中, 合作伙伴也称为一个账户.
-联系人则代表合作伙伴中的个人.
+在OPENERP中，合作伙伴和联系人之间有什么区别呢？ ``合作伙伴`` 代表一个与你有业务来往的个体 - 客户, 潜在客户, 甚至你公司的
+员工.在其他CRM软件中, 合作伙伴也称为一个账户.
+``联系人`` 则代表合作伙伴中的个人.
 
 .. i18n: Each partner can have an unlimited number of contacts. OpenERP also allows you to have several contacts with the same address type for one partner. You can easily link several Invoice addresses to a customer, for instance. 
 ..
 
-每个合作伙伴可以有无数个联系人. Openerp同样允许一个合作伙伴有多个相同地址类型的联系人.比如，你可以轻松地链接多个开票地址给一个客户. 
+每个合作伙伴可以有无数个联系人. Openerp同样允许一个合作伙伴有多个相同地址类型的联系人.比如，你可以轻松地链接多个开票地址
+给一个客户. 
 
 .. i18n: .. note:: Address Types
 .. i18n: 
@@ -53,7 +55,8 @@
 	
 
 	例如：, 合作伙伴(*公司*) 可以有一个发运地址以区别于公司的开票地址.
-	如果地址类型被正确指定, OpenERP 在创建单据的时候，能自动选择合适的地址 ---- 发票地址被指派为 地址类型为“发票”，否则是默认地址。
+	如果地址类型被正确指定, OpenERP 在创建单据的时候，能自动选择合适的地址 ---- 发票地址被指派为 地址类型为 `发票` ，
+	否则是默认地址。
 
 .. i18n: The concept of a partner in OpenERP is much more flexible than in many other management applications. Why is that? Because a partner can be your supplier and your customer at the same time.
 .. i18n: As a consequence, any data you update for that partner will apply to both customer and supplier! Thanks to this, you no longer need to update your address book several times (or even in several places) for the same partner.
@@ -81,9 +84,9 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: * the :menuselection:`Notes` tab is an area for free text notes.
 ..
 
-*  :guilabel:`一般` 标签包括了合作伙伴不同联系人的信息, 邮政，通信和合作伙伴属于的分类,
+* :guilabel:`一般` 标签包括了合作伙伴不同联系人的信息, 邮政，通信和合作伙伴属于的分类,
 
-*  :guilabel:`销售和采购` 标签包括了诸如默认销售员、销售团队等信息，以及网站,
+* :guilabel:`销售和采购` 标签包括了诸如默认销售员、销售团队等信息，以及网站,
 
 * :menuselection:`日志` 标签提供了该合作伙伴相关的完整 ``通信日志`` (会议, 营销活动,
   线索和商机, 电话访问, emails) . The events the partner has been involved in are created automatically by
@@ -117,8 +120,8 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 ..
 
 在讲解如何创建合作伙伴之前，仅说两句OPENERP中合作伙伴不同的显示方式。
-列表视图显示客户列表(你点击客户菜单时的默认显示)。这种视图下，你可以同一时间查看到多个客户信息。
-当你选择特定客户开始编辑，或者创建一个新客户时，则显示为表单视图。
+`列表` 视图显示客户列表(你点击客户菜单时的默认显示)。这种视图下，你可以同一时间查看到多个客户信息。
+当你选择特定客户开始编辑，或者创建一个新客户时，则显示为 `表单` 视图。
 
 .. i18n: To create a new partner (a company, customer, supplier, ...) or to display the list of existing customers, use the menu :menuselection:`Sales --> Address Book --> Customers`. This menu does not only allow you to create a new partner, but also to search for partners.
 ..
