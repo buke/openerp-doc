@@ -15,7 +15,7 @@
 .. i18n: In OpenERP, you have the choice between three ways to receive goods from suppliers. 
 ..
 
-In OpenERP, you have the choice between three ways to receive goods from suppliers. 
+在OpenERP中, you have the choice between three ways to receive goods from suppliers. 
 
 .. i18n: The first method is to manually enter the information in the incoming shipment. To receive the products
 .. i18n: through this method, you have to go to :guilabel:`Incoming Shipments` section in the :guilabel:`Warehouse 
