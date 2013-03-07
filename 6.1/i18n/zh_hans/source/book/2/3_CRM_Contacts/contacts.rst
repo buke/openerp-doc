@@ -28,8 +28,8 @@
 .. i18n: A ``Contact`` represents a person who works for a partner.
 ..
 
-What is the difference between a partner and a contact in OpenERP? A ``Partner`` represents an entity that you do business with - a customer, a prospect, or even an employee of your company. In other CRM applications, a partner is also referred to as an Account.
-A ``Contact`` represents a person who works for a partner.
+在OPENERP中，合作伙伴和联系人之间有什么区别呢？ 合作伙伴代表一个与你有业务来往的个体 - 客户, 潜在客户, 甚至你公司的员工. 在其他CRM软件中, 合作伙伴也称为一个账户.
+联系人则代表合作伙伴中的个人.
 
 .. i18n: Each partner can have an unlimited number of contacts. OpenERP also allows you to have several contacts with the same address type for one partner. You can easily link several Invoice addresses to a customer, for instance. 
 ..
