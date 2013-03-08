@@ -11,8 +11,7 @@
 .. i18n: by OpenERP from the goods receipt and confirmation of the supplier invoice.
 ..
 
-To manage purchases by project, you should use analytic accounts. 
-You can set an analytic account on each line of a supplier order. 
+使用辅助核算可以协助你更好地管理采购. 一般只需要在采购单的明细上设置对应的辅助核算项. 
 The analytic costs linked to this purchase will be managed
 by OpenERP from the goods receipt and confirmation of the supplier invoice.
 
