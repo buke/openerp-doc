@@ -126,7 +126,8 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: To create a new partner (a company, customer, supplier, ...) or to display the list of existing customers, use the menu :menuselection:`Sales --> Address Book --> Customers`. This menu does not only allow you to create a new partner, but also to search for partners.
 ..
 
-创建一个新的合作伙伴(公司，客户，供应商 ...) 或者打开已存在的客户列表, 使用菜单 :菜单选项:`销售 -->地址簿--> 客户`.这个菜单不仅可以创建新的合作伙伴，也可以用来查找合作伙伴.
+创建一个新的合作伙伴(公司，客户，供应商 ...) 或者打开已存在的客户列表, 使用菜单 :menuselection:`销售 -->地址簿--> 客户` :menuselection:`Sales --> Address Book --> Customers` .
+这个菜单不仅可以创建新的合作伙伴，也可以用来查找合作伙伴.
 
 .. i18n: .. figure::  images/crm_partner_default.jpeg
 .. i18n:    :scale: 100
