@@ -126,7 +126,7 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: To create a new partner (a company, customer, supplier, ...) or to display the list of existing customers, use the menu :menuselection:`Sales --> Address Book --> Customers`. This menu does not only allow you to create a new partner, but also to search for partners.
 ..
 
-To create a new partner (a company, customer, supplier, ...) or to display the list of existing customers, use the menu :menuselection:`Sales --> Address Book --> Customers`. This menu does not only allow you to create a new partner, but also to search for partners.
+创建一个新的合作伙伴(公司，客户，供应商 ...) 或者打开已存在的客户列表, 使用菜单 :菜单选项:`销售 -->地址簿--> 客户`.这个菜单不仅可以创建新的合作伙伴，也可以用来查找合作伙伴.
 
 .. i18n: .. figure::  images/crm_partner_default.jpeg
 .. i18n:    :scale: 100
@@ -139,26 +139,26 @@ To create a new partner (a company, customer, supplier, ...) or to display the l
    :scale: 100
    :align: center
 
-   *A Customer Form*
+   *客户表单*
 
 .. i18n: .. note:: Mandatory 
 .. i18n: 
 .. i18n:         Blue fields are always mandatory, meaning that you have to enter a value there. It is impossible to save changes as long as a blue field is not completed.
 ..
 
-.. note:: Mandatory 
+.. note:: 必填项
 
-        Blue fields are always mandatory, meaning that you have to enter a value there. It is impossible to save changes as long as a blue field is not completed.
+        蓝色区域是必填项, 意思就是必须在这里输入一个值。只要蓝色区域没有填写完成，就不能保存这次修改。
 
 .. i18n: You should at least enter the company's ``Name`` in the partner form. Some fields are text fields, other fields may be linked to existing data that have been entered elsewhere, such as ``Countries``. 
 ..
 
-You should at least enter the company's ``Name`` in the partner form. Some fields are text fields, other fields may be linked to existing data that have been entered elsewhere, such as ``Countries``. 
+在合作伙伴表单上你至少要输入这个公司的 ``名字`` 。有些字段是文本字段，其他字段可能链接到别的地方已经填写过的数据, 比如 ``国家``。
 
 .. i18n: Create a customer with the following data:
 ..
 
-Create a customer with the following data:
+根据以下资料创建一个新的客户：
 
 .. i18n: * :guilabel:`Name` : \ ``Smith and Offspring``\ ,
 .. i18n: 
@@ -173,40 +173,40 @@ Create a customer with the following data:
 .. i18n: * :guilabel:`Save` the form.
 ..
 
-* :guilabel:`Name` : \ ``Smith and Offspring``\ ,
+* :guilabel:`名称` : \ ``Smith and Offspring``\ ,
 
-* :guilabel:`Customer` checkbox : \ ``checked``\ ,
+* :guilabel:`客户` 选择框 : \ ``勾选``\ ,
 
-* :guilabel:`Supplier` checkbox : \ ``unchecked``\ ,
+* :guilabel:`供应商` 选择框 : \ ``不勾选``\ ,
 
-* :guilabel:`Contact Name` : \ ``Stephen Smith``\ ,
+* :guilabel:`联系人名称` : \ ``Stephen Smith``\ ,
 
-* :guilabel:`Type` : \ ``Default``\, in the Postal Address section,
+* :guilabel:`类型` : \ ``默认``\, 在邮政地址部分，
 
-* :guilabel:`Save` the form.
+* :guilabel:`保存` 这个表单。
 
 .. i18n: .. tip:: Email
 .. i18n: 
 .. i18n:       If you use the email gateway, the Outlook or the Thunderbird plugin, do not forget to register an email addresses to each contact, so that the gateway will automatically attach incoming emails to the right partner.
 ..
 
-.. tip:: Email
+.. tip:: 电子邮件
 
-      If you use the email gateway, the Outlook or the Thunderbird plugin, do not forget to register an email addresses to each contact, so that the gateway will automatically attach incoming emails to the right partner.
+      如果你要使用Email网关，OUTLOOK或者迅雷插件, 请不要忘记给每一个联系人登记Email地址， 那么这个网关就会把自动地接收到的邮件附给对应的合作伙伴.
 
 .. i18n: To update a partner, open the corresponding form, select `Edit` and change the required fields. As explained before, when a company is both one of your customers and a supplier, you just have to edit the partner form once to have changes applied to both customer and supplier.
 ..
 
-To update a partner, open the corresponding form, select `Edit` and change the required fields. As explained before, when a company is both one of your customers and a supplier, you just have to edit the partner form once to have changes applied to both customer and supplier.
+更新合作伙伴信息， 打开对应的表单，选择`编辑`然后修改需要更新的字段。正如之前解释过的，当一个公司既是供应商又是客户时，你只需要编辑一次这个合作伙伴表单，就会自动应用到供应商和客户上。
 
 .. i18n: .. note:: Checkboxes
 .. i18n: 
 .. i18n:        Why is it important for you to correctly set the Customer and Supplier checkboxes in the partner form? These checkboxes are designed to enable OpenERP to quickly select the partners who should be displayed in some drop-down boxes. An example: when you select a partner in a Sales Quotation, OpenERP will only allow you to select from the list of Customers. And that is precisely what the Customer checkbox is used for. 
 ..
 
-.. note:: Checkboxes
+.. note::选择框
 
-       Why is it important for you to correctly set the Customer and Supplier checkboxes in the partner form? These checkboxes are designed to enable OpenERP to quickly select the partners who should be displayed in some drop-down boxes. An example: when you select a partner in a Sales Quotation, OpenERP will only allow you to select from the list of Customers. And that is precisely what the Customer checkbox is used for. 
+      为什么说在合作伙伴表单中正确地设置客户和供应商的选择框是很重要的呢? 这些选择框的设计是为了能让Openerp快速的选择那些下拉框显示的合作伙伴。比如：当在一张销售报价单中你要选择一个合作伙伴时， Openerp只允许你在客户列表中选择.这正是客户选择框的用处。 
 
 .. i18n: .. index:: Contact; Address
 ..
