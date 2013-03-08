@@ -242,7 +242,10 @@ so that your security is enhanced in normal production use.
 .. i18n: This module allows you to keep your data confidential for a given database. This process is useful if you want to use the migration process and protect your own or your customers' confidential data. The principle is that you run an anonymization tool which will hide your confidential data (they are replaced by 'XXX' characters). Then you can send the anonymized database to the migration team. Once you get back your migrated database, you restore it and reverse the anonymisation process to recover your previous data.
 ..
 
-我们提供了一个的选项，让您的数据通过我们的 :mod:`anonymization` 模块来隐匿起来.这个模块可以让你保持一个指定数据库的数据机密性。 这是非常有用的功能，在你要迁移数据的过程中保护您自己或您的客户的机密数据。其原理是，你运行一个隐匿数据的工具，它会隐藏你的机密数据（它们被替换为'XXX'字符）。然后，您就可以发送已经经过隐匿的数据给你的数据库迁移团队。一旦你数据库迁移完成，可以还原和恢复回以前的隐匿数据。
+我们提供了一个的选项，让您的数据通过我们的 :mod:`anonymization` 模块来隐匿起来.这个模块可以让你保持一个指定数据库的数据机密性。
+这是非常有用的功能，在你要迁移数据的过程中保护您自己或您的客户的机密数据。其原理是，你运行一个隐匿数据的工具，它会隐藏你的
+机密数据（它们被替换为'XXX'字符）。然后，您就可以发送已经经过隐匿的数据给你的数据库迁移团队。一旦你数据库迁移完成，可以还
+原和恢复回以前的隐匿数据。
 
 .. i18n: We suggest you to work on a copy of your database, so be sure to make a backup before starting the anonymisation process.
 ..
