@@ -1,9 +1,8 @@
-
 .. i18n: OpenERP Publisher Warranty Migration
 .. i18n: ====================================
 ..
 
-OpenERP Publisher Warranty Migration
+OpenERP Publisher Warranty 迁移
 ====================================
 
 .. i18n: .. toctree::
