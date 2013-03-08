@@ -204,7 +204,7 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n:        Why is it important for you to correctly set the Customer and Supplier checkboxes in the partner form? These checkboxes are designed to enable OpenERP to quickly select the partners who should be displayed in some drop-down boxes. An example: when you select a partner in a Sales Quotation, OpenERP will only allow you to select from the list of Customers. And that is precisely what the Customer checkbox is used for. 
 ..
 
-.. note::选择框
+.. note:: 选择框
 
       为什么说在合作伙伴表单中正确地设置客户和供应商的选择框是很重要的呢? 这些选择框的设计是为了能让Openerp快速的选择那些下拉框显示的合作伙伴。比如：当在一张销售报价单中你要选择一个合作伙伴时， Openerp只允许你在客户列表中选择.这正是客户选择框的用处。 
 
