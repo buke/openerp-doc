@@ -108,17 +108,13 @@
 .. i18n: different tasks.
 ..
 
-The organization and quality of a company is typically related to its maturity. A mature
-company is one where processes are well established, and where staff do not
-waste much time searching for documents or trying to find out how to do their
-different tasks.
+一个公司组织结构的优劣通常要看这个公司的是否成熟。一个成熟的公司需要有一个完善的流程，员工能够根据流程快速找到所需文档,知道如何去完成各种任务.
 
 .. i18n: From this need for effective organization and explicit quality improvement,
 .. i18n: have appeared numerous tools:
 ..
 
-From this need for effective organization and explicit quality improvement,
-have appeared numerous tools:
+有很多现成的工具可以满足建立有效的组织结构或提高组织结构品质的需求:
 
 .. i18n: * The ISO9001 quality standard,
 .. i18n: 
@@ -133,7 +129,7 @@ have appeared numerous tools:
 
 * 业务流程管理工具(BPM),
 
-* Use Case workflows, and formalized standards such as UML,
+* 类似统一建模语言(UML)的用例工作流或正式标准规范,
 
 * 公司质量手册.
 
