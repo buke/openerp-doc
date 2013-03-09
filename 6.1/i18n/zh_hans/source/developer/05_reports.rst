@@ -1239,7 +1239,7 @@ XML 模板
 .. i18n: XML templates are simple XML files describing which fields among all available object fields are necessary for the report.
 ..
 
-XML 模板是简单XML文件，用来描述报表所有可用的object字段中哪些字段是有用的.
+XML 模板是简单的XML文件，用来描述object字段中哪些要在报表上显示.
 
 .. i18n: File format
 .. i18n: +++++++++++
@@ -1251,22 +1251,22 @@ XML 模板是简单XML文件，用来描述报表所有可用的object字段中�
 .. i18n: Tag names can be chosen arbitrarily (it must be valid XML though). In the XSL file, you will have to use those names. Most of the time, the name of a tag will be the same as the name of the object field it refers to.
 ..
 
-标签(tag)名称可以任意(但在XML中必须是有效的)。XSL文件中，你要使用到这些名称。大多数情况下，标签名和对象字段保持一致.
+标签(tag)名称可以任意(但必须是有效XML标签)。在XSL文件中，你要用这些名称来定义。大多数情况下，标签名和对象字段保持一致.
 
 .. i18n: Nodes without **type** attribute are transferred identically into the XML destination file (the data file). Nodes with a type attribute will be parsed by the server and their content will be replaced by data coming from objects. In addition to the type attribute, nodes have other possible attributes. These attributes depend on the type of the node (each node type supports or needs different attributes). Most node types have a name attribute, which refers to the  **name** of a field of the object on which we work.
 ..
 
-没有类型 **type** 属性 are transferred identically into the XML destination file (the data file). 的结点(node)被转换成XML目标文件(作为数据用)。有类型属性(type attribute)的结点(node)及其内容被server解释，并由object中的数据替换。这些属性(attribute)根据结点的类型 (每个结点支持或者需要不同的属性，attribute) 而不同。大部分结点类型都有名字 **name** 属性，指代这相应object的名字字段(name of field) .
+没有**type** 属性的节点会直接复制到目标XML文件(数据文件)。有**type**属性的结点及其内容被server解析并由object中的实际数据替换。除了type属性，节点还可以有其他属性。这些属性基于type属性，type不同的节点属性也不同。大部分结点类型都有 **name** 属性，指向相应object的字段名称 .
 
 .. i18n: As for the "browse" method on objects, field names in reports can use a notation similar to the notation found in object oriented programming languages. It means that "relation fields" can be used as "bridges" to fetch data from other (related) objects.
 ..
 
-关于object中的 "browse" 方法，报表的字段名称是可以使用一种类似面向对象语言中的notation来表示。这意为着 "(关联字段)是可以用这种类似 "bridges" (桥)的方式获得相关对象数据.
+类似object中的 "browse" 方法，报表中的字段名称可以使用一种类似面向对象语言中的符号来表示。这意味可以用关系字段来作为桥梁来获取相关对象的数据。
 
 .. i18n: Let's use the "account.transfer" object as an example. It contains a partner_id field. This field is a relation field ("many to one") pointing to the "res.partner" object. Let's suppose that we want to create a report for transfers and in this report, we want to use the name of the recipient partner. This name could be accessed using the following expression as the name of the field:
 ..
 
-让我们试用 "account.transfer" 对象来举例。Account.transfer对象包含一个partner_id字段，这个字段是一 个指向"res.partner" 对象的 ("many to one")(多对一)的关系。我们假设要创建一个转账(transfers)的报表,，而报表中需要从partner中选择收款人。我们可以这样写以获得收 款人的名字字段:
+以 "account.transfer" 对象为例。Account.transfer对象包含一个partner_id字段，这个字段是一 个指向"res.partner" 对象的多对一关系字段。我们假设要创建一个转账的报表,，而报表中需要用到业务伙伴的名称。我们可以这样写:
 
 .. i18n:     partner_id.name 
 ..
@@ -1290,9 +1290,9 @@ XML 模板是简单XML文件，用来描述报表所有可用的object字段中�
 .. i18n:     * **fields**: when this type of node is used, the server will generate a node in the XML data file for each unique value of the field whose name is given in the name attribute. 
 ..
 
-    * **field**: 最简单的类型。有这种类型的结点(node),server都会用已知字段(field)的名字属性替换掉node的内容. 
+    * **field**: 最简单的类型。针对这种类型的结点，服务器会用同名字段值来替换节点内容。 
 
-    * **fields**: 这种结点(node)类型，server会在XML数据文件中生成一个和已知名字属性唯一相同的结点(?). 
+    * **fields**: 这种结点类型，服务器会在XML数据文件中生成一个和name属性相同的唯一结点. 
 
 .. i18n:     Notes:
 ..
@@ -1319,12 +1319,12 @@ XML 模板是简单XML文件，用来描述报表所有可用的object字段中�
 .. i18n: 	<name type="field" name="partner_id.name"/> 
 ..
 
-        ** 这个结点(node)类型经常使用 "id" 作为名字属性。user使用选择resource的接口创建结点(node)时，会受到影响. 
-        ** 结点(node)的语法 <node type="fields" name="field_name"> 和SQL语句 "SELECT FROM object_table WHERE id in identifier_list **GROUP BY** field_name" 相似，其中identifier_list 是::user (in the interface)可以通过接口选择使用的resource . 
+        ** 这种结点通常使用 "id" 作为名称。其行为是为用户在界面上选择的每个记录创建一个节点。 
+        ** 结点语法 <node type="fields" name="field_name"> 类似SQL语句 "SELECT FROM object_table WHERE id in identifier_list **GROUP BY** field_name" 相似，其中identifier_list 是::user 在界面上选择的对象记录。 
 
     * **eval**: 这个结点(node)类型计算 *expr* 属性中表达式(expression)的值。表达式(expression)可以是python表达式，也可以是object的字段名字. 
 
-    * **zoom**: 这个结点(node)类型允许 "enter" 通过relation字段使用name属性中列出的资源. 意味着子结点(child node)不用其他对象名字字段做前缀也可以使用资源字段(fields of that source)。在上面的例子中，我们可以通过以下方式获得parter的name字段: 
+    * **zoom**: 这个结点(node)类型允许通过name属性指定的关系字段进入另一个对象。也就是说子节点的name属性不需要用关系字段名作为前缀了。如上例，我们可以通过以下方式获得parter的name字段: 
 
   ::
 
@@ -1341,16 +1341,16 @@ XML 模板是简单XML文件，用来描述报表所有可用的object字段中�
 .. i18n: The **zoom** type is only useful when we want to recover several fields in the same object.
 ..
 
- **zoom** 类型往往用于恢复同一个object的多个字段(field).
+ **zoom** 类型往往用于显示同一个object的多个字段.
 
 .. i18n:     * **function**: returns the result of the call to the function whose name is given in the name attribute. This function must be part of the list of predefined functions. For the moment, the only available function is today, which returns the current date. 
 .. i18n: 
 .. i18n:     * **call**: calls the object method whose name is given in the name attribute with the arguments given in the args attribute. The result is stored into a dictionary of the form {'name_of_variable': value, ... } and can be accessed through child nodes. These nodes must have a value attribute which correspond to one of the keys of the dictionary returned by the method. 
 ..
 
-    * **function**: 返回name属性中所调用函数的结果。这个函数必须是提前定义的。暂时可用的函数是today，用来返回现在日期. 
+    * **function**: 返回name属性中所调用函数的结果。这个函数必须是提前定义的。暂时可用的函数是today，用来返回当前日期. 
 
-    * **call**: calls对象name属性是方法名称，args属性是参数名称。函数的结果放进一个字典(dictionary)，形如：{'name_of_variable': value, ... } 这个结果可以被子结点使用。使用call类型的结点必须有相应的value属性，以和调用方法所返回的字典键(key)匹配. 
+    * **call**: 调用name属性指定的对象方法，args属性是参数名称。函数的结果放进一个字典(dictionary)，形如：{'name_of_variable': value, ... } 这个结果可以被子结点使用。这些子结点必须有相应的value属性，以和调用方法所返回字典的一个键值(key)匹配. 
 
 .. i18n: **Example**:
 .. i18n: ::
@@ -1376,12 +1376,12 @@ XML 模板是简单XML文件，用来描述报表所有可用的object字段中�
 .. i18n: **TODO**: documenter format methode appellée def compute_buyer_costs(self, cr, uid, ids, \*args):
 ..
 
-**TODO**: documenter format methode appellée def compute_buyer_costs(self, cr, uid, ids, \*args):
+**TODO**: 要调用的方法 def compute_buyer_costs(self, cr, uid, ids, \*args):
 
 .. i18n:     * **attachment**: extract the first attachment of the resource whose id is taken from the field whose name is given in the name attribute, and put it as an image in the report. 
 ..
 
-    * **attachment**: 提取属性name中对应id的资源，作为报表的图像(image). 
+    * **attachment**: 提取属性name中对应id的记录的第一个附件，可以在报表中显示图片。 
 
 .. i18n: Example:
 .. i18n: 	<image type="attachment" name="id"/> 
@@ -1463,22 +1463,22 @@ XSL:RML 样式表
 .. i18n: There are two possibilities to do a XSL style sheet for a report. Either making everything by yourself, or use our predefined templates
 ..
 
-生成报表的XSL样式表有两个可选项. 两者都可以我们自己定制, 或者，使用我们自己定制的模板(template)
+为报表定义XSL样式表有两个选项. 或者完全自定义, 或者使用模版
 
 .. i18n: Either freestyle or use corporate_defaults + rml_template
 ..
 
-可以是freestyle,也可以用 corporate_defaults + rml_template
+可以是自由格式，也可以用公司表头 + RML模版
 
 .. i18n:     import rml_template.xsl 
 ..
 
-    引入 rml_template.xsl 
+    导入 rml_template.xsl 
 
 .. i18n:         required templates:
 ..
 
-        需要的模板:
+        必须的模板:
 
 .. i18n:             - frames? 
 .. i18n:             - stylesheet 
@@ -1504,7 +1504,7 @@ Translations
 .. i18n: As OpenERP can be used in several languages, reports must be translatable. But in a report, everything doesn't have to be translated : only the actual text has to be translated, not the formatting codes. A field will be processed by the translation system if the XML tag which surrounds it (whatever it is) has a t="1" attribute. The server will translate all the fields with such attributes in the report generation process.
 ..
 
-OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言。但是一个报表中，并不是所有项目都被翻译，比如动态的文本需要翻译转换，而格式 代码(format code)则不需要。一个字段如果包在XML标签(类似 t="1" )，翻译系统就会处理它。server会在报表生成过程中处理所有这样的字段.
+OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言。但是一个报表中，并不是所有项目都被翻译，比如动态的文本需要翻译转换，而格式代码(format code)则不需要。一个字段如果包含在有t="1"这个属性的XML标签内，翻译系统就会处理它。服务器会在报表生成过程中处理所有这样的字段.
 
 .. i18n: Useful links
 .. i18n: ++++++++++++
@@ -1601,7 +1601,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 .. i18n: 	    </xsl:stylesheet> 
 ..
 
-示例 (使用公司表头 corporate defaults)
+示例 (使用公司表头)
 ++++++++++++++++++++++++++++++++++++++
 ::
 
@@ -1677,7 +1677,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 .. i18n: ================================
 ..
 
-没有公司表头( corporate header )的示例
+没有公司表头的示例
 ======================================
 
 .. i18n: **Example (with corporate defaults):**
@@ -1731,7 +1731,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 .. i18n: 	</xsl:stylesheet>
 ..
 
-**示例 (使用默认的公司表头 corporate defaults):**
+**示例 (使用公司表头):**
 ::
 
 	<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" :xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1785,7 +1785,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 .. i18n: =========================================
 ..
 
-每个报表都有自己的公司表头( corporate header )
+每个报表都有自己的公司表头
 ==============================================
 
 .. i18n: **Example (with corporate defaults):**
@@ -1802,7 +1802,7 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 .. i18n: 	    </xsl:stylesheet> 
 ..
 
-**示例 (使用默认的公司表头 corporate defaults):**
+**示例 (使用默认的公司表头):**
 ::
 
 	    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" :xmlns:fo="http://www.w3.org/1999/XSL/Format">
@@ -1819,20 +1819,20 @@ OpenERP可以使用多种语言，因此报表必须可以翻译成多种语言�
 .. i18n: =========
 ..
 
-条形码(Bar Codes) 
+条形码
 =================
 
 .. i18n: Barcodes in RML files
 .. i18n: ---------------------
 ..
 
-RML 文件中的条形码(Barcodes)
+RML 文件中的条形码
 ----------------------------
 
 .. i18n: Barcodes can be generated using the <barCode> tag in RML files. The following formats are supported:
 ..
 
-可以在RML 文件中使用<barCode>标签生成条形码(Barcodes)。 支持以下格式:
+可以在RML 文件中使用<barCode>标签生成条形码。 支持以下格式:
 
 .. i18n:     * codabar
 .. i18n:     * code11
@@ -1974,7 +1974,7 @@ OpenERP 5.0-rc3 中还是不能使用Unicode 报表的。症结在于OpenERP使�
 .. i18n: that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.org/wiki/index.php?title=Main_Page They can be installed
 ..
 
-that can be used for this purpose are in the DejaVu family. http://dejavu-fonts.org/wiki/index.php?title=Main_Page They can be installed
+来自DejaVu 一族，可用于解决此问题. 可访问 http://dejavu-fonts.org/wiki/index.php?title=Main_Page 安装
 
 .. i18n:     * in the ReportLab's fonts directory,
 .. i18n:     * system-wide and include that directory in rl_config.py,
@@ -2167,9 +2167,9 @@ Mako 模板
 
 eg::
 
-    this is x: ${x}
+    这是x: ${x}
 
-  	上式被模板输出流解析(template output stream)，从本地上下文(localcontext)传递给模板生成函数(template rendering function).
+  	上面表达式中“这是x”字符串直接输出，而${}里的x值来自报表解析器的localcontext中.
 
   	标签 ${} 中的代码直接被Python解析.
 
