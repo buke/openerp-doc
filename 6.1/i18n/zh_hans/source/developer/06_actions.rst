@@ -306,8 +306,7 @@ Python 代码
 .. i18n: email such as the following is sent:
 ..
 
-After configuring this action, whenever an invoice is confirmed, an
-email such as the following is sent:
+完成上面的服务器动作配置后, 随便你啥时候确认发票的时候,都会自动发送类似下面的Email:
 
 .. i18n: .. image:: images/email_confirm.png
 ..
