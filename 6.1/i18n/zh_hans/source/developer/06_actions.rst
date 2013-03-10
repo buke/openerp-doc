@@ -4,7 +4,7 @@
 ..
 
 ==========
-服务行为
+服务器动作
 ==========
 
 .. i18n: Introduction
@@ -23,7 +23,7 @@
 .. i18n: or invoices.
 ..
 
-服务行为(Server Action)是OpenErp 5.0以来推出的一项新的功能。对于客户来说，
+服务器动作(Server Action)是OpenErp 5.0以来推出的一项新的功能。对于客户来说，
 这是一个有趣的功能，可以充分满足他们的要求。它可以为客户日常的一些业务要求提供简单而又快速的配置。
 比如发送销售订单的电子确认邮件、货物的确认，货物的操作记录（确认、取消等）、
 或者需要一个可以进行销售购买和发票确认的向导报告操作的系统.
@@ -271,8 +271,7 @@ Python 代码
 .. i18n: an invoice is confirmed
 ..
 
-Here is an example configuration an action which sends an email when
-an invoice is confirmed
+下面以为发票确认后自动发送一封邮件为例, 来配置一个服务器动作:
 
 .. i18n: .. image:: images/email_action.png
 ..
