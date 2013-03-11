@@ -383,7 +383,7 @@ to build complex expressions.
 .. i18n: *You must select the all required fields from the target model*
 ..
 
-*You must select the all required fields from the target model*
+*你必须选择该 对象 的所有必填字段*
 
 .. i18n: :Record Id: the field in which the  id of the new record is
 .. i18n:             stored. This is used to refer to the same object in future
