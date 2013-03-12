@@ -18,11 +18,7 @@
 .. i18n: objective.
 ..
 
-Processes are at the heart of a company: they form a structure for all
-activities that enable the company to function effectively. A company's human
-dimension is often disconnected from its processes at the moment, preventing
-individual employees' aspirations from being directed towards a collective
-objective.
+信息管理已成为公司 发展战略的一个主要因素。如何安全地将正确的信息尽可能有效的传给适合的人更是其中的重点。建立文档管理系统就是提供给公司将各种形式的资料统一存放的一种方法。
 
 .. i18n: From a mapping process, integrating management and the changing needs of each
 .. i18n: employee becomes very useful for the fulfilment of each. Based on that, each
