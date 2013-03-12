@@ -24,8 +24,7 @@
 .. i18n: :menuselection:`Knowledge --> Configuration --> Document Management --> Directories' Structure`.
 ..
 
-The first configuration step is to create a directory structure that will be used to classify your
-document set. You can use the structure automatically proposed by OpenERP from the menu
+为了更好地分类各类文档, 咱们配置第一步就是要建立一个合理的FTP目录结构. 进入菜单 :menuselection:`知识管理 --> 配置 --> 文档管理 --> 目录结构` 
 :menuselection:`Knowledge --> Configuration --> Document Management --> Directories' Structure`.
 
 .. i18n: .. figure::  images/document_structure.png
