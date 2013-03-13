@@ -150,9 +150,8 @@ OpenERP 解决方案
 .. i18n: automation module for ordering sandwiches, which can take care of the eating preferences of your staff.
 ..
 
-They range from specific modules like the EDI interface for agricultural products,
-which has been used to interface with Match and Leclerc stores, up to the generic demonstration
-automation module for ordering sandwiches, which can take care of the eating preferences of your staff.
+这些模块的范围从能和勒克莱尔商店对接的农产品的EDI接口模块，
+到可以照顾你的员工的饮食偏好的订购三明治通用演示自动化模块。
 
 .. i18n: The results are rather impressive. OpenERP (originally called Tiny ERP) is a Management
 .. i18n: Software that is downloaded more than any other in the world, with over 600 downloads per day.
