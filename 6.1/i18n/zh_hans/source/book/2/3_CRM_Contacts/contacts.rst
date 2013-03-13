@@ -207,7 +207,9 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 
 .. note:: 选择框
 
-      为什么说在合作伙伴表单中正确地设置客户和供应商的选择框是很重要的呢? 这些选择框的设计是为了能让Openerp快速的选择那些下拉框显示的合作伙伴。比如：当在一张销售报价单中你要选择一个合作伙伴时， Openerp只允许你在客户列表中选择.这正是客户选择框的用处。 
+      为什么说在合作伙伴表单中正确地设置客户和供应商的选择框是很重要的呢? 这些选择框的设计是为了能让Openerp快速的选择那些
+      下拉框显示的合作伙伴。比如：当在一张销售报价单中你要选择一个合作伙伴时， Openerp只允许你在客户列表中选择.这正是客户
+      选择框的用处。 
 
 .. i18n: .. index:: Contact; Address
 ..
@@ -231,7 +233,7 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: Contacts can be entered into the :guilabel:`General` tab of the **Customer** form, or from the list of addresses in the :menuselection:`Sales --> Address Book --> Addresses` menu.
 ..
 
-联系人信息记录在 :guilabel:**客户** 表单的`一般`选项中 ，或者地址列表中 :menuselection:`销售 --> 地址簿 --> 地址` 菜单。:menuselection:`Sales --> Address Book --> Addresses` 
+联系人信息记录在 **客户** 表单的 :guilabel:`一般` 选项中 ，或者地址列表中 :menuselection:`销售 --> 地址簿 --> 地址` :menuselection:`Sales --> Address Book --> Addresses` 菜单。 
 
 .. i18n: .. tip:: Same Contact, Different Partners 
 .. i18n: 
