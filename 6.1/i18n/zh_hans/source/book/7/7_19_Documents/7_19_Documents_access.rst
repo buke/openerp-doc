@@ -45,9 +45,8 @@
 .. i18n: following address:
 ..
 
-In addition to the usual access to documents through OpenERP, you will be able to connect to them
-directly through the file system using the FTP protocol. To connect to the FTP server, use the
-following address:
+我们除了能在 OpenERP 中直接管理各种文档外,甚至还可以使用FTP 客户端工具直接连接 OpenERP 的FTP服务器对文档进行各种管理.
+常见的 OpenERP FTP服务器地址为:
 
 .. i18n: ========= ==========================================
 .. i18n: Parameter Value
