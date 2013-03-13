@@ -231,7 +231,7 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: Contacts can be entered into the :guilabel:`General` tab of the **Customer** form, or from the list of addresses in the :menuselection:`Sales --> Address Book --> Addresses` menu.
 ..
 
-联系人信息记录在 **客户** 表单的 :guilabel:`一般` 选项中 ，或者地址列表中 :menuselection:`销售 --> 地址簿 --> 地址` 菜单。menuselection:`Sales --> Address Book --> Addresses` menu.
+联系人信息记录在 :guilabel:**客户** 表单的`一般`选项中 ，或者地址列表中 :menuselection:`销售 --> 地址簿 --> 地址` 菜单。:menuselection:`Sales --> Address Book --> Addresses` menu.
 
 .. i18n: .. tip:: Same Contact, Different Partners 
 .. i18n: 
@@ -240,7 +240,7 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 
 .. tip:: Same Contact, Different Partners 
 
-      Do you have contacts who work for several companies, and need to be linked to several partners? Check out the :ref:`ch-contact` chapter.
+      你是否有联系人属于多个公司的， 并且需要链接到多个合作伙伴？ 查阅 :ref:`ch-contact` 章节。
 
 .. i18n: Customizing Partner Fields
 .. i18n: --------------------------
@@ -252,14 +252,14 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: OpenERP also allows you to customize the ``Partner`` view to your needs. Click the `Manage Views` option if you want to add fields, delete fields or change the order of fields in a view.
 ..
 
-OpenERP also allows you to customize the ``Partner`` view to your needs. Click the `Manage Views` option if you want to add fields, delete fields or change the order of fields in a view.
+OpenERP同样允许根据你的需要定义合作伙伴视图。如果你要添加字段，删除字段或者修改视图中的字段顺序，点击 `管理视图`选项。
 
 .. i18n: Let us add the ``Birthday`` field to a contact, in the `Addresses` form view. To do so, go to the :menuselection:`Sales -->
 .. i18n: Address Book --> Addresses` menu and open any address in Form view. In the right menu bar, click `Manage Views`, then `Edit` because the corresponding view will already be preselected.
 ..
 
-Let us add the ``Birthday`` field to a contact, in the `Addresses` form view. To do so, go to the :menuselection:`Sales -->
-Address Book --> Addresses` menu and open any address in Form view. In the right menu bar, click `Manage Views`, then `Edit` because the corresponding view will already be preselected.
+在`地址`表单视图中给联系人添加一个``生日``  字段。要这样做, 转到 :menuselection:`Sales -->
+Address Book --> Addresses`  :menuselection:`销售 -->地址簿 --> 地址`菜单 并打开任意一张表单视图。 在右侧菜单栏，点击 `管理视图`, 然后 `编辑`因为相应的视图已经被选定。
 
 .. i18n: Go to the last line of the view and click the blue plus (+) sign to add a field to the `Communication` group. Proceed as in the figure below, then click the `Update` button.
 ..
