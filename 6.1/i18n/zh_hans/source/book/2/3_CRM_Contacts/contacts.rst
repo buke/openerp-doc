@@ -259,7 +259,7 @@ OpenERP同样允许根据你的需要定义合作伙伴视图。如果你要添�
 ..
 
 在`地址`表单视图中给联系人添加一个``生日``  字段。要这样做, 转到 :menuselection:`Sales -->
-Address Book --> Addresses`  :menuselection:`销售 -->地址簿 --> 地址`菜单 并打开任意一张表单视图。 在右侧菜单栏，点击 `管理视图`, 然后 `编辑`因为相应的视图已经被选定。
+Address Book --> Addresses`  menuselection:`销售 -->地址簿 --> 地址` 菜单 并打开任意一张表单视图。 在右侧菜单栏，点击 `管理视图`, 然后 `编辑`因为相应的视图已经被选定。
 
 .. i18n: Go to the last line of the view and click the blue plus (+) sign to add a field to the `Communication` group. Proceed as in the figure below, then click the `Update` button.
 ..
