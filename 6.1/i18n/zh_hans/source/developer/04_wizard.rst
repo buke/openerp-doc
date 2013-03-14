@@ -2001,7 +2001,7 @@ Convert the views into real view records defined on the model of your wizard:
 .. i18n: ------------------------------------------
 ..
 
-Old Wizard File : wizard_product_margin.py
+旧的向导文件 : wizard_product_margin.py
 ------------------------------------------
 
 .. i18n: .. code-block:: python
@@ -2027,7 +2027,7 @@ Old Wizard File : wizard_product_margin.py
 .. i18n: --------------------------------------------------------------
 ..
 
-New Wizard File : wizard/<<module_name>>_<<filename>>_view.xml
+新的向导文件 : wizard/<<module_name>>_<<filename>>_view.xml
 --------------------------------------------------------------
 
 .. i18n: .. code-block:: xml
