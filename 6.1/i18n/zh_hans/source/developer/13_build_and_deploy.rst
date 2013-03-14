@@ -10,7 +10,7 @@
 .. i18n: This page describes how to build a custom version of OpenERP for Windows.
 ..
 
-This page describes how to build a custom version of OpenERP for Windows.
+这个页面描述了如果在windows平台下搭建指定版本的OpenERP
 
 .. i18n: Building
 .. i18n: ========
