@@ -435,27 +435,23 @@ following example writes 'Additional Information' on the same object
 .. i18n: an email on confirmation of an invoice. This requires creating 3 server actions:
 ..
 
-This action allows to execute  multiple server actions on the same
-business operation. For instance, it can be used to print *and* send
-an email on confirmation of an invoice. This requires creating 3 server actions:
+这个动作允许在同一个商务活动中执行多个服务端动作. 例如, 可以打印 *并* 发送一封邮件确认发票. 这需要创建三个服务端动作:
 
 .. i18n:   * Print Invoice
 .. i18n:   * Invoice Confirmation Email !!
 .. i18n:   * Multi Action
 ..
 
-  * Print Invoice
-  * Invoice Confirmation Email !!
-  * Multi Action
+  * 打印发票
+  * 发票确认邮件
+  * 多重动作
 
 .. i18n: There is a fundamental restriction on this action: it can execute many actions at the server side, but only
 .. i18n: one single client action. It is therefore not possible to print a
 .. i18n: report and execute a wizard at the same time. 
 ..
 
-There is a fundamental restriction on this action: it can execute many actions at the server side, but only
-one single client action. It is therefore not possible to print a
-report and execute a wizard at the same time. 
+这个动作有一点限制的地方: 可以在服务端执行多个动作, 但是只有一个客户端动作. 这也是为什么不能在执行打印报表的同时无法打开珍上向导的原因. 
 
 .. i18n: .. image:: images/multi_action.png
 ..
