@@ -24,7 +24,7 @@ creates its own entries, for example.
 
 This section deals with
 
-.. i18n: * managing bank statements,
+.. i18n: * 管理银行对账单,
 .. i18n: 
 .. i18n: * managing cash,
 .. i18n: 
