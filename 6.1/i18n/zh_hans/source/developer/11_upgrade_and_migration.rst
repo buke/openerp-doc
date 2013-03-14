@@ -2808,7 +2808,7 @@ a record with ``forcecreate="False"``.
 .. i18n: Some data is automatically loaded at the installation of OpenERP:
 ..
 
-Data
+数据
 """"
 Some data is automatically loaded at the installation of OpenERP:
 
@@ -2830,7 +2830,7 @@ This data is also migrated to a new version if you run --update or --init.
 .. i18n: """"""""""
 ..
 
-Workflows
+工作流
 """"""""""
 
 .. i18n: Workflows are also upgraded automatically. If some activities are removed, the documents states evolves automatically to the preceding activities. That ensure that all documents are always in valid states.
@@ -2847,7 +2847,7 @@ You can freely remove activities in your XML files. If workitems are in this act
 .. i18n: """""""""""""""""""""""""""""""""""""""
 ..
 
-Things to care about during development
+开发过程中需要注意的事项
 """""""""""""""""""""""""""""""""""""""
 
 .. i18n: Since version 3.0.2 of OpenERP, you can not use twice the same 'id="..."' during resource creation in your XML files, unless they are in two different modules.
@@ -2893,7 +2893,7 @@ It is important to put id="...." to all record that are important for the next v
 .. i18n: """"""""""""""
 ..
 
-Custom modules
+自定义模块
 """"""""""""""
 
 .. i18n: For example, if you want to override the view of an object named 'invoice_form' in your xml file (id="invoice_form"). All you have to do is redefine this view in your custom module with the same id. You can prefix ids with the name of the module to reference an id defined in another module.
@@ -2904,7 +2904,7 @@ For example, if you want to override the view of an object named 'invoice_form' 
 .. i18n: Example:
 ..
 
-Example:
+例子:
 
 .. i18n:     <record model="ir.ui.view" id="account.invoice_form">
 .. i18n:     ...
@@ -2934,7 +2934,7 @@ In this migration system, you do not have to delete any resource. The migration 
 .. i18n: """""""""
 ..
 
-Demo data
+演示数据
 """""""""
 
 .. i18n: Demo data does not have to be upgraded; because it was probably modified or 
@@ -2961,12 +2961,12 @@ init:
 .. i18n:     modify/add/delete demo data and built-in data
 ..
 
-    modify/add/delete demo data and built-in data
+    修改/添加/删除演示数据和内置数据
 
 .. i18n: update:
 ..
 
-update:
+更新:
 
 .. i18n:     modify/add/delete non demo data
 ..
@@ -2976,7 +2976,7 @@ update:
 .. i18n: Examples of built-in (non demo) data:
 ..
 
-Examples of built-in (non demo) data:
+内置（非演示）数据例子:
 
 .. i18n:     * Menu structure,
 .. i18n:     * View definition,
@@ -2984,9 +2984,9 @@ Examples of built-in (non demo) data:
 .. i18n:     * Everything that has an `id` attribute in the XML data declaration (if no attr noupdate="1" in the header)
 ..
 
-    * Menu structure,
-    * View definition,
-    * Workflow description, ...
+    * 菜单结构,
+    * 视图定义,
+    * 工作流描述, ...
     * Everything that has an `id` attribute in the XML data declaration (if no attr noupdate="1" in the header)
 
 .. i18n: What's going on during the update process:
