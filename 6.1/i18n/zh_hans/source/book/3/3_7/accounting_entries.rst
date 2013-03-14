@@ -302,7 +302,8 @@ accounts to use and must have mastered the ideas of credit and debit.
 .. i18n: Bank and Cash --> Cash Registers`. At the start of the day you set the opening amount of cash in the entry (:guilabel:`Opening Balance`). Then open the cashbox to start making entries from the :guilabel:`Cash Transactions` tab.
 ..
 
-To manage cash, you can use the menu :menuselection:`Accounting -->
+要进入现金管理, 请点击菜单 :menuselection:`会计 -->
+银行和现金 --> 现金记录` :menuselection:`Accounting -->
 Bank and Cash --> Cash Registers`. At the start of the day you set the opening amount of cash in the entry (:guilabel:`Opening Balance`). Then open the cashbox to start making entries from the :guilabel:`Cash Transactions` tab.
 
 .. i18n: .. figure::  images/account_cash_registers.png
