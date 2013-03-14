@@ -475,12 +475,9 @@ report and execute a wizard at the same time.
 .. i18n:                 the first will be executed. 
 ..
 
-:Object: the object affected by the workflow on for which we want to
-         run the action
-:Other Actions: the list of server action. Any number of actions can
-                be selected, but beware of the restriction mentioned
-                above: if you select more than one Client action, only
-                the first will be executed. 
+:Object: 这个对象受到我们想要执行动作的影响
+:Other Actions: 服务动作清单.任意数量的动作都可以被选择,但是小心上面提到的限制: 
+                如果你选择的客户端动作数量超过一个，那么只有第一个动作会被执行. 
 
 .. i18n: Step 2: Mapping Server actions to workflows
 .. i18n: -------------------------------------------
@@ -493,8 +490,7 @@ report and execute a wizard at the same time.
 .. i18n: set up to trigger them.
 ..
 
-Server actions by themselves are useless, until a workflow stage is
-set up to trigger them.
+服务端的动作除非在工作流中触发，否则是无用的
 
 .. i18n: Workflows can be accessed at: Administration >> Customization >>
 .. i18n: Workflow Definitions >> Workflows. Open the corresponding workflow,
@@ -502,10 +498,9 @@ set up to trigger them.
 .. i18n: Select the server action in the box.
 ..
 
-Workflows can be accessed at: Administration >> Customization >>
-Workflow Definitions >> Workflows. Open the corresponding workflow,
-edit the stage at which the server action needs to be triggered. Then 
-Select the server action in the box.
+工作流可以在: Administration >> Customization >>
+Workflow Definitions >> Workflows中访问. 打开相应的工作流,
+编辑要被触发的服务端动作. 选择要执行的动作.
 
 .. i18n: The following example shows how to associate the Print invoice action
 .. i18n: to the Open state of the Invoice workflow:
