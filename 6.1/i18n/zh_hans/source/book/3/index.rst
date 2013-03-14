@@ -11,16 +11,11 @@
 管理你的账簿
 #################
 
-.. i18n:  When it is well integrated with the management system, an accounting system offers a company special
-.. i18n:  benefits in addition to the obvious abilities it should have to report on the financial position.
-.. i18n:  This part deals with the practical aspects of accounting, and accounting's role throughout the whole
-.. i18n:  company.
+.. i18n:  如果管理系统很好的集成了会计系统，将会受惠于来自财务管理方面的显著支持。
+.. i18n:  本部分涉及到会计实务处理和整个公司的会计角色规划。
 ..
 
- When it is well integrated with the management system, an accounting system offers a company special
- benefits in addition to the obvious abilities it should have to report on the financial position.
- This part deals with the practical aspects of accounting, and accounting's role throughout the whole
- company.
+ 如果管理系统很好的集成了会计系统，将会受惠于来自财务管理方面的显著支持。本部分涉及到会计实务处理和整个公司的会计角色规划。
 
 .. i18n:  OpenERP's accounting modules enable you to not only manage your operations clearly,
 .. i18n:  following the workflow from invoicing to payment,
