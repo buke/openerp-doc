@@ -2171,13 +2171,13 @@ if you define an action to open the second view of a wizard.
 .. i18n: ------------
 ..
 
-In Menu Item
+菜单选项
 ------------
 
 .. i18n: To open a wizard view via a menuitem you can use the following syntax for the menu, using the XML id of the corresponding act_window.
-..
+.
 
-To open a wizard view via a menuitem you can use the following syntax for the menu, using the XML id of the corresponding act_window.
+你可以使用下面的菜单语法打开一个wizard视图,  使用相应的act_window的XML id.
 
 .. i18n: .. code-block:: xml
 .. i18n: 
