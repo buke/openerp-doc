@@ -23,17 +23,13 @@
 .. i18n:  depending on the analysis.
 ..
 
- OpenERP's accounting modules enable you to not only manage your operations clearly,
- following the workflow from invoicing to payment,
- but also to use various tools for financial analysis based on both real-time data and recent history
- depending on the analysis.
+ OpenERP的会计模块不仅仅帮助您更明确的遵循出票到付款的会计业务操作，还能通过使用多种财务工具基于实时数据和历史数据进行分析。
 
 .. i18n:  Your accounting structure can be completely configured from A to Z to match the needs of your
 .. i18n:  company very closely.
 ..
 
- Your accounting structure can be completely configured from A to Z to match the needs of your
- company very closely.
+ 您的会计账户结构可以完全按照A到Z配置好，从而最大可能的贴近您的公司业务情况。
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
