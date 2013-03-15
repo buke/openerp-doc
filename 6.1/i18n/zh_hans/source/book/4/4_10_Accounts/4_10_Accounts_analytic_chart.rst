@@ -236,17 +236,17 @@ The examples above are based on a breakdown of the costs of the company. Analyti
 .. i18n: Law firms generally adopt management by case, where each case represents a current client file. All of the expenses and products are then attached to a given file.
 ..
 
-Law firms generally adopt management by case, where each case represents a current client file. All of the expenses and products are then attached to a given file.
+律师事务所普遍采取按案件管理，每个案件代表了相对应的一个当前客户的档案。所有的费用和产品，都归属到一个给定的档案。
 
 .. i18n: A principal preoccupation of law firms is the invoicing of hours worked, and the profitability by case and by employee.
 ..
 
-A principal preoccupation of law firms is the invoicing of hours worked, and the profitability by case and by employee.
+一个律师事务所主要关注的是每小时的收费以及每个案件和雇员的盈利能力。
 
 .. i18n: Mechanisms used for encoding the hours worked will be covered in detail in `Human Resources`. Like most system processes, hours worked are integrated into the analytic accounting. Every time an employee enters a timesheet for a number of hours, that automatically generates analytic accounts corresponding to the cost of those hours in the case concerned. The hourly charge is a function of the employee's salary.
 ..
 
-Mechanisms used for encoding the hours worked will be covered in detail in `Human Resources`. Like most system processes, hours worked are integrated into the analytic accounting. Every time an employee enters a timesheet for a number of hours, that automatically generates analytic accounts corresponding to the cost of those hours in the case concerned. The hourly charge is a function of the employee's salary.
+工时编制机制将在下一章《领导并激励你的员工》中详细地介绍。像大多数系统进程，工时都纳入分析账户。每次当一个雇员在时间表里填写小时数，这些小时数将自动生成分析账户将这些时间的成本对应到相关案件上。每小时收费是以员工的工资进行换算。
 
 .. i18n: .. index::
 .. i18n:    single: absences
@@ -258,7 +258,7 @@ Mechanisms used for encoding the hours worked will be covered in detail in `Huma
 .. i18n: So a law firm will opt for an analytic representation which reflects the management of the time that employees work on the different client cases.
 ..
 
-So a law firm will opt for an analytic representation which reflects the management of the time that employees work on the different client cases.
+因此，律师事务将会选择一个能够反映每个员工在服务于不同客户案件的时间管理分析。
 
 .. i18n: .. note::  *Example Representation of an Analytic Chart of Accounts for a Law Firm*
 .. i18n: 
@@ -287,51 +287,51 @@ So a law firm will opt for an analytic representation which reflects the managem
 .. i18n:                             * Case 2.1
 ..
 
-.. note::  *Example Representation of an Analytic Chart of Accounts for a Law Firm*
+.. note::  *针对一家律师事务所的账户分析表作案例演示*
 
-                #. Absences
+                #. 缺勤
 
-                        * Paid Absences
+                        * 带薪缺勤
 
-                        * Unpaid Absences
+                        * 无薪缺勤
 
-                #. Internal Projects
+                #. 内部项目
 
-                        * Administrative
+                        * 行政管理
 
-                        * Others
+                        * 其他
 
-                #. Client Cases
+                #. 客户案例
 
-                        * Client 1
+                        * 客户 1
 
-                            * Case 1.1
+                            * 案例 1.1
 
-                            * Case 1.2
+                            * 案例 1.2
 
-                        * Client 2
+                        * 客户 2
 
-                            * Case 2.1
+                            * 案例 2.1
 
 .. i18n: All expenses and sales are then attached to a case. This gives the profitability of each case and, at a consolidated level, of each client.
 ..
 
-All expenses and sales are then attached to a case. This gives the profitability of each case and, at a consolidated level, of each client.
+所有费用和销售所得都关联到一个案例，这就能得到在每一个客户每个案例在综合水平下的盈利能力。
 
 .. i18n: Billing for the different cases is a bit unusual. The cases do not match any entry in the general account nor do they come from purchase or sales invoices. They are represented by the various analytic operations and do not have exact counterparts in the general accounts. They are calculated on the basis of the hourly cost per employee. These entries are automatically created when billing worksheets.
 ..
 
-Billing for the different cases is a bit unusual. The cases do not match any entry in the general account nor do they come from purchase or sales invoices. They are represented by the various analytic operations and do not have exact counterparts in the general accounts. They are calculated on the basis of the hourly cost per employee. These entries are automatically created when billing worksheets.
+不同案例帐单是有点不同。案例与普通帐的任何会计分录都不相符并且也不是来自采购发票或销售发票。它们由各种分析操作表示，在普通帐户中没有对应。它们都基于雇员工作的小时成本基础上计算。这些分录在计费工作表上自动创建。
 
 .. i18n: At the end of the month when you pay salaries and benefits, you integrate them into the general accounts but not in the analytic accounts, because they have already been accounted for in billing each account. A report that relates data from the analytic and general accounts then lets you compare the totals, so you can readjust your estimates of hourly cost per employee depending on the time actually worked.
 ..
 
-At the end of the month when you pay salaries and benefits, you integrate them into the general accounts but not in the analytic accounts, because they have already been accounted for in billing each account. A report that relates data from the analytic and general accounts then lets you compare the totals, so you can readjust your estimates of hourly cost per employee depending on the time actually worked.
+在月底支付工资和福利时，你将它们记入普通账户中，但不在分析账户中，因为他们已被占为每个账户的计费。你可以出一份报告，比较辅助核算项和普通账户数据的汇总，以便你可以调整员工实际工作的每小时成本。
 
 .. i18n: The following table shows an example of different analytic entries that you can find for your analytic account:
 ..
 
-The following table shows an example of different analytic entries that you can find for your analytic account:
+下表给出了不同的辅助核算分录的例子：
 
 .. i18n: .. csv-table:: Analytic Entries for the Account Chart (Case 2)
 .. i18n:    :header: "Title","Account","Amount","","General Account","Debit","Credit"
@@ -346,32 +346,32 @@ The following table shows an example of different analytic entries that you can 
 .. i18n:    "Staff salaries","","","","6201 – Salaries","","3 000"
 ..
 
-.. csv-table:: Analytic Entries for the Account Chart (Case 2)
-   :header: "Title","Account","Amount","","General Account","Debit","Credit"
+.. csv-table:: 会计科目表的辅助核算分录（案例2）
+   :header: "科目","账户","金额","","总账","借","贷"
    :widths: 15, 10, 8, 2, 15, 8, 8
 
-   "Study the file (1 h)","Case 1.1","-15","","","",""
-   "Search for information (3 h)","Case 1.1","-45","","","",""
-   "Consultation (4 h)","Case 2.1","-60","","","",""
-   "Service charges","Case 1.1","280","","705 – Billing services","","280"
-   "Stationery purchase","Administrative","-42","","601 – Furniture purchase","42",""
-   "Fuel Cost -Client trip","Case 1.1","-35","","613 – Transports","35",""
-   "Staff salaries","","","","6201 – Salaries","","3 000"
+   "研究案例（1小时）","案例 1.1","-15","","","",""
+   "搜索信息（3小时）","案例 1.1","-45","","","",""
+   "咨询服务（4小时）","案例 2.1","-60","","","",""
+   "服务费","案例 1.1","280","","705 – 结算服务","","280"
+   "购买文具","行政","-42","","601 – 购买家具","42",""
+   "燃料成本-拜访客户","案例 1.1","-35","","613 – 运输","35",""
+   "工作人员薪金","","","","6201 – 薪金","","3 000"
 
 .. i18n: Such a structure allows you to make a detailed study of the profitability of various transactions. In this example, the cost of Case 1.1 is 95.00 (the sum of the analytic costs of studying the files, searching for information and fuel costs), but has been invoiced at 280.00, which gives you a gross profit of 185.00.
 ..
 
-Such a structure allows you to make a detailed study of the profitability of various transactions. In this example, the cost of Case 1.1 is 95.00 (the sum of the analytic costs of studying the files, searching for information and fuel costs), but has been invoiced at 280.00, which gives you a gross profit of 185.00.
+你会看到，它使您可以详细分析了解来自不同会计事项的盈利。在本例中的1.1案例的成本是95.00（分析费用的总和，包括研究分析案例文档、搜索信息和服务费），但开票是280.00，带来的利润总额是185.00。
 
 .. i18n: But an interest in analytical accounts is not limited to a simple analysis of the profitability of different cases.
 ..
 
-But an interest in analytical accounts is not limited to a simple analysis of the profitability of different cases.
+但在辅助核算项的重点不是仅限于简单的分析不同案例的盈利情况。
 
 .. i18n: The same data can be used for automatic recharging of the services to the client at the end of the month. To invoice clients, just take the analytic costs in that month and apply a selling price factor to generate the invoice. Invoicing mechanisms for this are explained in greater detail in `Services & Project Management`. If the client requires details of the services used on the case, you can print the service entries in the analytic account for this case.
 ..
 
-The same data can be used for automatic recharging of the services to the client at the end of the month. To invoice clients, just take the analytic costs in that month and apply a selling price factor to generate the invoice. Invoicing mechanisms for this are explained in greater detail in `Services & Project Management`. If the client requires details of the services used on the case, you can print the service entries in the analytic account for this case.
+这些产生自客户服务的相同数据可在月末自动收取服务成本。给客户的发票只需要在本月的分析成本基础上再加上一个销售价格系数即可。开票机制对此能为提供优质的服务做出最详细的解释。假如客户要求列出在此案例中提供的具体服务，那么你可以把这个辅助核算项中的关于这个案例的服务分录打印出来。
 
 .. i18n: .. tip:: Invoicing Analytic Costs
 .. i18n: 
@@ -385,16 +385,11 @@ The same data can be used for automatic recharging of the services to the client
 .. i18n:         to the client.
 ..
 
-.. tip:: Invoicing Analytic Costs
+.. tip:: 结算分析成本
 
-        Most software that manages billing enables you to recharge hours worked.
-        In OpenERP, these services are automatically represented by analytic costs.
-        But many other OpenERP documents can also generate analytic costs, such as credit notes and
-        purchases of goods.
+        大多数管理软件允许你收回花费的工时，在OpenERP里这些服务是通过成本的有效性分析来自动体现的，但是在很多其它的OpenERP 文档中也能生成分析成本，如信用票据和货物采购。
 
-        So when you invoice the client at the end of the month, it is possible for you to include all the
-        analytic costs, and not just the hours worked. So, for example, you can easily recharge the whole cost of your journeys
-        to the client.
+        所以，当你在月底开发票给你的客户时，它包括所有的分析成本，而不仅仅是投入的工时。例如，你可以轻易的收回你为你的客户在整个流程中垫付的整体成本。
 
 .. i18n: Case 3: IT Services Company
 .. i18n: ---------------------------
