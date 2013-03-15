@@ -15,7 +15,7 @@
 .. i18n: To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
 ..
 
-To illustrate analytic accounts clearly, you will follow three use cases, each in one of three different types of company:
+为了清楚地说明分析会计，将使用三个案例，分别应用在三个不同类型的公司：
 
 .. i18n:         #. Industrial Manufacturing Enterprise,
 .. i18n: 
@@ -66,9 +66,9 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 
 .. note:: 工业制造公司的分析科目表
 
-                #. 市场营销部
+                #. 市场部
 
-                #. 商业部门
+                #. 商务部
 
                 #. 行政部
 
@@ -128,7 +128,7 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
    "","","","","","行政部","-1 000"
    "","","","","","产品 / 系列 1","-2 000"
    "","","","","","产品 / 系列 2","-2 000"
-   "PR ","614","450","","","市场部","-450 "
+   "公关 ","614","450","","","市场部","-450 "
 
 .. i18n: The analytic representation by department enables you to investigate the costs allocated to each department in the company.
 ..
