@@ -24,11 +24,11 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 .. i18n:         #. IT Services Company.
 ..
 
-        #. Industrial Manufacturing Enterprise,
+        #. 制造行业企业,
 
-        #. Law Firm,
+        #. 律师事务所,
 
-        #. IT Services Company.
+        #. IT服务公司.
 
 .. i18n: Case 1: Industrial Manufacturing Enterprise
 .. i18n: -------------------------------------------
@@ -40,12 +40,12 @@ To illustrate analytic accounts clearly, you will follow three use cases, each i
 .. i18n: In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
 ..
 
-In industry, you will often find analytic charts of accounts structured into departments and products the company itself is built on.
+在工业中，你会经常发现分析科目表建立在部门和产品上，这也是公司建立的基础。
 
 .. i18n: So the objective is to examine the costs, sales and margins by department and by product. The first level of the structure comprises the different departments, and the lower levels represent the product ranges the company makes and sells.
 ..
 
-So the objective is to examine the costs, sales and margins by department and by product. The first level of the structure comprises the different departments, and the lower levels represent the product ranges the company makes and sells.
+因此，目标是研究部门和产品的成本，销售和利润。结构的第一级由不同的部门构成，下级代表公司制造和销售的产品系列。
 
 .. i18n: .. note::  Analytic Chart of Accounts for an Industrial Manufacturing Company
 .. i18n: 
@@ -64,21 +64,21 @@ So the objective is to examine the costs, sales and margins by department and by
 .. i18n:                         * Product Range 2
 ..
 
-.. note::  Analytic Chart of Accounts for an Industrial Manufacturing Company
+.. note:: 工业制造公司的分析科目表
 
-                #. Marketing Department
+                #. 市场营销部
 
-                #. Commercial Department
+                #. 商业部门
 
-                #. Administration Department
+                #. 行政部
 
-                #. Production
+                #. 生产部
 
-                        * Product Range 1
+                        * 产品系列 1
 
-                        * Sub-groups
+                        * 子产品系列
 
-                        * Product Range 2
+                        * 产品系列 2
 
 .. i18n: .. index::
 .. i18n:    pair: cost; allocation
@@ -90,12 +90,12 @@ So the objective is to examine the costs, sales and margins by department and by
 .. i18n: In daily use, it is useful to mark the analytic account on each purchase invoice. The analytic account is the one to which the costs of that purchase should be allocated. When the invoice is approved, it will automatically generate the entries for both the general and the corresponding analytic accounts. So, for each entry on the general accounts, there is at least one analytic entry that allocates costs to the department which incurred them.
 ..
 
-In daily use, it is useful to mark the analytic account on each purchase invoice. The analytic account is the one to which the costs of that purchase should be allocated. When the invoice is approved, it will automatically generate the entries for both the general and the corresponding analytic accounts. So, for each entry on the general accounts, there is at least one analytic entry that allocates costs to the department which incurred them.
+在日常使用中，将每次采购发票标注到相应的分析账户是非常有用的。分析账户是采购成本的分配。当发票被核准时，它会自动生成财务和相应的分析账户的分录。因此，在每个总账分录上至少有一个分析账户分录以分配发生成本的部门。
 
 .. i18n: Here is a possible breakdown of some general accounting entries for the example above, allocated to various analytic accounts:
 ..
 
-Here is a possible breakdown of some general accounting entries for the example above, allocated to various analytic accounts:
+这里有上面的例子中的一些的会计分录，归集到多个分析账户：
 
 .. i18n: .. csv-table::  Breakdown of general and analytic accounting entries (Case 1)
 .. i18n:    :header: "General accounts","","","","","Analytic accounts",""
@@ -114,31 +114,31 @@ Here is a possible breakdown of some general accounting entries for the example 
 .. i18n:    "PR ","614","450","","","Marketing","-450 "
 ..
 
-.. csv-table::  Breakdown of general and analytic accounting entries (Case 1)
-   :header: "General accounts","","","","","Analytic accounts",""
+.. csv-table::  财务和分析会计分录明细（案例1）
+   :header: "一般会计账户","","","","","分析账户",""
    :widths: 10,5,5,5,2,10,8
 
-   "Title","Account","Debit","Credit","","Account","Value"
-   "Purchase of Raw Material","600","1500","","","Production / Range 1","-1 500"
-   "Subcontractors","602","450","","","Production / Range 2","-450"
-   "Credit Note for defective materials","600","","200","","Production / Range 1","200"
-   "Transport charges","613","450","","","Production / Range 1","-450"
-   "Staff costs","6201","10000","","","Marketing","-2 000"
-   "","","","","","Commercial","-3 000"
-   "","","","","","Administrative","-1 000"
-   "","","","","","Production / Range 1","-2 000"
-   "","","","","","Production / Range 2","-2 000"
-   "PR ","614","450","","","Marketing","-450 "
+   "标题","账户","借","贷","","账户","金额"
+   "购买原材料","600","1500","","","产品 / 系列 1","-1 500"
+   "分包商","602","450","","","产品 / 系列 2","-450"
+   "有缺陷的材料","600","","200","","产品 / 系列 1","200"
+   "运输费用","613","450","","","产品 / 系列 1","-450"
+   "员工成本","6201","10000","","","市场部","-2 000"
+   "","","","","","商务部","-3 000"
+   "","","","","","行政部","-1 000"
+   "","","","","","产品 / 系列 1","-2 000"
+   "","","","","","产品 / 系列 2","-2 000"
+   "PR ","614","450","","","市场部","-450 "
 
 .. i18n: The analytic representation by department enables you to investigate the costs allocated to each department in the company.
 ..
 
-The analytic representation by department enables you to investigate the costs allocated to each department in the company.
+按部门分析可以让您审查分配到公司各部门的成本。
 
 .. i18n: So, the analytic chart of accounts shows the distribution of the company's costs using the example above:
 ..
 
-So, the analytic chart of accounts shows the distribution of the company's costs using the example above:
+因此，分析科目表显示上面的例子中的公司的成本分布：
 
 .. i18n: .. csv-table::  Analytic chart of accounts (Case 1)
 .. i18n:    :header: "Account","Total"
@@ -152,26 +152,26 @@ So, the analytic chart of accounts shows the distribution of the company's costs
 .. i18n:    "Product Range 2","-2 450"
 ..
 
-.. csv-table::  Analytic chart of accounts (Case 1)
-   :header: "Account","Total"
+.. csv-table::  账目分析图表（案例1）
+   :header: "账户","合计"
    :widths: 10, 5
 
-   "Marketing Department","-2 450 "
-   "Commercial Department","-3 000 "
-   "Administration Department","-1 000 "
-   "Production","-6 200 "
-   "Product Range 1","-3 750"
-   "Product Range 2","-2 450"
+   "市场部","-2 450 "
+   "商务部","-3 000 "
+   "行政部","-1 000 "
+   "产品","-6 200 "
+   "产品 系列 1","-3 750"
+   "产品 系列 2","-2 450"
 
 .. i18n: In this example of a hierarchical structure in OpenERP, you can analyse not only the costs of each product range, but also the costs of the whole production. The balance of a summary account (*Production*) is the sum of the balances of the child accounts.
 ..
 
-In this example of a hierarchical structure in OpenERP, you can analyse not only the costs of each product range, but also the costs of the whole production. The balance of a summary account (*Production*) is the sum of the balances of the child accounts.
+在这个OpenERP分层结构的例子中，你不仅可以分析每个产品系列的成本，也可以分析整个产品的成本。汇总账户（产品）的余额是子账户余额的合计。
 
 .. i18n: A report that relates both general accounts and analytic accounts enables you to get a breakdown of costs within a given department. An analysis of the Production / Product Range 1 department is shown in this table:
 ..
 
-A report that relates both general accounts and analytic accounts enables you to get a breakdown of costs within a given department. An analysis of the Production / Product Range 1 department is shown in this table:
+一份联系总账和分析账户的报告是你了解成本构成在一个被指定的部门。对产品/系列1的分析如下表中所示：
 
 .. i18n: .. csv-table:: Report merging both general and analytic accounts for a department (Case 1)
 .. i18n:    :header: "Production / Product Range 1",""
@@ -184,20 +184,20 @@ A report that relates both general accounts and analytic accounts enables you to
 .. i18n:    "Total","-3 750"
 ..
 
-.. csv-table:: Report merging both general and analytic accounts for a department (Case 1)
-   :header: "Production / Product Range 1",""
+.. csv-table:: 部门一般账户和分析账户的合并报告（案例1）
+   :header: "产品 / 系列 1",""
    :widths: 10,5
 
-   "General Account","Amount"
-   "600 – Raw Materials","- 1 300"
-   "613 – Transport charges","- 450"
-   "6201 – Staff costs","-2 000"
-   "Total","-3 750"
+   "一般账户","金额"
+   "600 – 原材料","- 1 300"
+   "613 – 运输费","- 450"
+   "6201 – 员工成本","-2 000"
+   "合计","-3 750"
 
 .. i18n: The examples above are based on a breakdown of the costs of the company. Analytic allocations can be just as effective for sales. That gives you the profitability (sales - costs) of different departments.
 ..
 
-The examples above are based on a breakdown of the costs of the company. Analytic allocations can be just as effective for sales. That gives you the profitability (sales - costs) of different departments.
+上面的例子是基于一个公司的成本构成明细。成本分配的分析对销售一样有效。这提供了不同部门的盈利能力（销售-成本）。
 
 .. i18n: .. note::  Representation by Unique Product Range
 .. i18n: 
@@ -213,18 +213,13 @@ The examples above are based on a breakdown of the costs of the company. Analyti
 .. i18n:         for its own marketing costs?
 ..
 
-.. note::  Representation by Unique Product Range
+.. note::  独特的产品系列的代表性
 
-        This analytic representation by department and by product range is generally used by trading
-        companies and industries.
+        这种按部门和产品系列的分析表示通常用于贸易公司和生产企业。
 
-        A variant of this, is not to break it down by sales and marketing departments, but to assign each
-        cost to its corresponding product range.
-        This will give you an analysis of the profitability of each product range.
+        这方面的一个变种是不区分销售和营销部门，而是将每项成本分配给其相应的产品系列。这样就能得到每个产品系列的盈利能力分析。
 
-        Choosing one over the other depends on how you look at your marketing effort.
-        Is it a global cost allocated in some general way, or is each product range responsible
-        for its own marketing costs?
+        选择其他方式，取决于你如何看待你的营销效能。它是总成本集中分配的一般方式还是每个产品系列都应分摊该产品自身营销成本？
 
 .. i18n: Case 2:  Law Firm
 .. i18n: -----------------
@@ -347,7 +342,7 @@ The examples above are based on a breakdown of the costs of the company. Analyti
 ..
 
 .. csv-table:: 会计科目表的辅助核算分录（案例2）
-   :header: "科目","账户","金额","","总账","借","贷"
+   :header: "标题","账户","金额","","总账","借","贷"
    :widths: 15, 10, 8, 2, 15, 8, 8
 
    "研究案例（1小时）","案例 1.1","-15","","","",""
