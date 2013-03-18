@@ -15,7 +15,7 @@
 .. i18n: OpenERP allows you to define a specific location to keep track of your manufacturing moves. 
 ..
 
-OpenERP allows you to define a specific location to keep track of your manufacturing moves. 
+OpenERP 中为了跟踪生产过程中的物料,你可以定义一种特殊的生产库位.
 
 .. i18n: To get an overview of all stock moves, go to :menuselection:`Warehouse --> Traceability --> Stock Moves`. You can enter your Production location in the ``Location`` search field and then group by Source or Destination according to the moves you would like to check.
 ..
