@@ -396,7 +396,7 @@
 .. i18n: Most IT service companies face the following problems:
 ..
 
-Most IT service companies face the following problems:
+大部分IT服务公司需要面对以下问题：
 
 .. i18n: * project planning,
 .. i18n: 
@@ -405,16 +405,16 @@ Most IT service companies face the following problems:
 .. i18n: * managing support contracts.
 ..
 
-* project planning,
+* 项目规划,
 
-* invoicing, profitability and financial follow-up of projects,
+* 开票结算，盈利能力和项目的后续资金问题,
 
-* managing support contracts.
+* 合同管理支持.
 
 .. i18n: To deal with these problems, you would use an analytic chart of accounts structured by project and by contract. A representation of that is given in the following example:
 ..
 
-To deal with these problems, you would use an analytic chart of accounts structured by project and by contract. A representation of that is given in the following example:
+为了解决这些问题，你应该在项目和合同中使用辅助核算科目表的结构分析图表。以下的示例中对此作一个演示:
 
 .. i18n: .. note::  *Example Analytic Representation of a Chart of Accounts for an IT Services Company*
 .. i18n: 
@@ -445,48 +445,48 @@ To deal with these problems, you would use an analytic chart of accounts structu
 .. i18n:                         * Customer Y
 ..
 
-.. note::  *Example Analytic Representation of a Chart of Accounts for an IT Services Company*
+.. note::  *示例演示分析一家IT服务公司的会计科目表*
 
-                #. Internal Projects
+                #. 内部项目
 
-                        * Administrative and Commercial
+                        * 行政管理与商务
 
-                        * Research and Development
+                        * 研发
 
-                #. Client Projects
+                #. 客户项目
 
-                        * Client 1
+                        * 客户 1
 
-                            * Project 1.1
+                            * 项目 1.1
 
-                            * Project 1.2
+                            * 项目 1.2
 
-                        * Client 2
+                        * 客户 2
 
-                            * Project 2.1
+                            * 项目 2.1
 
-                            * Project 2.2
+                            * 项目 2.2
 
-                #. Support Contracts – 20h
+                #. 技术支持合同 – 20小时
 
-                        * Customer X
+                        * 顾客 X
 
-                        * Customer Y
+                        * 顾客 Y
 
 .. i18n: The management of services, expenditures and sales is similar to that presented above for lawyers. Invoicing and the study of profitability are also similar.
 ..
 
-The management of services, expenditures and sales is similar to that presented above for lawyers. Invoicing and the study of profitability are also similar.
+服务管理，支出和销售管理要和上面给律师事务所演示的类似。进销存和盈利能力分析也很相似。
 
 .. i18n: But now look at support contracts. These contracts are usually limited to a prepaid number of hours. Each service posted in the analytic accounts shows the remaining hours of support. To manage support contracts, you would use the quantities and not the amounts in the analytic entries.
 ..
 
-But now look at support contracts. These contracts are usually limited to a prepaid number of hours. Each service posted in the analytic accounts shows the remaining hours of support. To manage support contracts, you would use the quantities and not the amounts in the analytic entries.
+但现在看技术支持合同。这些合同通常只限于预付的工作时数。每个服务在分析账户中过账后会显示剩余的技术支持时间。对于技术支持服务合同的管理你应该使用工程量，而不是在辅助核算分录上的金额。
 
 .. i18n: In OpenERP, each analytic line lists the number of units sold or used, as well as what you would usually find there – the amount in currency units (USD or GBP, or whatever other choice you make). So you can sum the quantities sold and used on each analytic account to determine whether any hours of the support contract remain.
 ..
 
-In OpenERP, each analytic line lists the number of units sold or used, as well as what you would usually find there – the amount in currency units (USD or GBP, or whatever other choice you make). So you can sum the quantities sold and used on each analytic account to determine whether any hours of the support contract remain.
+在Open ERP里每个分析行列出已出售的或者使用掉的数量单位，跟你通常在此发现的计量单位 - 金额的货币单位（美元或英镑，或任何其他你所选择的货币单位）。所以，你可以在每一个辅助核算项里累加统计已出售的和使用掉的数量，以确定是否还有剩余服务时间供技术支持合同继续使用。
 
 .. i18n: .. index::
 .. i18n:    pair: cost; allocation
@@ -498,7 +498,8 @@ In OpenERP, each analytic line lists the number of units sold or used, as well a
 .. i18n: To differentiate services from other costs in the analytic account, you use the concept of the analytic journal. Analytic entries are then allocated into the different journals:
 ..
 
-To differentiate services from other costs in the analytic account, you use the concept of the analytic journal. Analytic entries are then allocated into the different journals:
+为区分服务和来自分析帐户中其它费用，你应该使用辅助核算项的方案。
+辅助核算分录分配到不同的日记账中去：
 
 .. i18n: * service journal,
 .. i18n: 
@@ -509,28 +510,28 @@ To differentiate services from other costs in the analytic account, you use the 
 .. i18n: * purchase journal.
 ..
 
-* service journal,
+* 服务日记账,
 
-* expense journal,
+* 费用日记账,
 
-* sales journal,
+* 销售日记账,
 
-* purchase journal.
+* 采购日记账.
 
 .. i18n: To obtain the detailed breakdown of a support contract, you only have to look at the service journal for the analytic account corresponding to the contract in question.
 ..
 
-To obtain the detailed breakdown of a support contract, you only have to look at the service journal for the analytic account corresponding to the contract in question.
+因此为了获取支持服务合同的分解明细，你只需要在相应合同的辅助核算项中查找服务日志。
 
 .. i18n: Finally, the analytic account can be used to forecast future needs. For example, monthly planning of staff on different projects can be seen as an analytic budget limited to the service journal. Accounting entries are expressed in quantities (such as number of hours, and numbers of products), and in amounts in units of currency (USD or GBP for instance).
 ..
 
-Finally, the analytic account can be used to forecast future needs. For example, monthly planning of staff on different projects can be seen as an analytic budget limited to the service journal. Accounting entries are expressed in quantities (such as number of hours, and numbers of products), and in amounts in units of currency (USD or GBP for instance).
+最后，辅助核算项可以用来预测未来的需求。例如，每月的工作人员在不同的项目计划安排，可以看作是服务日志的分析预算上限。会计分录上表示为数量（如小时数，产品数量）和金额的货币单位（也许是美元或英镑）。
 
 .. i18n: So you can set up planning on just the basis of quantities. Analysing the analytic budget enables you to compare the budget (that is, your plan) to the services actually carried out by month end.
 ..
 
-So you can set up planning on just the basis of quantities. Analysing the analytic budget enables you to compare the budget (that is, your plan) to the services actually carried out by month end.
+所以，你可以以数量为基础设置计划。分析预算可以让你比较把你的预算案（也就是说，你的预算计划）和你时间执行了的服务在月底进行比较。
 
 .. i18n: .. tip:: Cash Budgets
 .. i18n: 
@@ -544,16 +545,13 @@ So you can set up planning on just the basis of quantities. Analysing the analyt
 .. i18n:         But since you know your selling price for each of the different projects, you can see that it is easy to use the plan in the analytic accounts to more precisely forecast the amounts that you will invoice in the coming months.
 ..
 
-.. tip:: Cash Budgets
+.. tip:: 现金预算案
 
-        Problems of cash management are amongst the main difficulties encountered by small growing businesses.
-        It is really difficult to predict the amount of cash that will be available when a company is young
-        and rapidly growing.
+        关于可用现金预测问题是新创企业或者快速成长型企业所遇到的常见主要困难。
 
-        If the company adopts management by case, then staff planning can be represented in the analytic
-        accounts report, as you have seen.
+        如果该公司采用了专案管理，那么正如你所看到的，人员雇佣规划可以由辅助核算项的报告来表示。        
 
-        But since you know your selling price for each of the different projects, you can see that it is easy to use the plan in the analytic accounts to more precisely forecast the amounts that you will invoice in the coming months.
+        只要你知道每个的项目的出售价格，你可以轻松的使用辅助核算项中的计划案来更准确地预测在未来数月你要开出发票的金额。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
