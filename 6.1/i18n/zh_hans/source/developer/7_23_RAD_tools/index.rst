@@ -491,10 +491,9 @@ window as displayed below.
 .. i18n: Report> About in menu bar.
 ..
 
-About
+关于
 ------
-The about window shows version and copyright information. You can access it from Open
-Report> About in menu bar.
+这个关于窗口显示着版权和版本信息.你可以在菜单栏上的报表>关于中打开窗口.
 
 .. i18n: .. image:: images/18.png
 ..
