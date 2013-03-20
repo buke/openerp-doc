@@ -26,7 +26,7 @@ DIA
 .. i18n: The module is located in the extra_addons branch: https://code.launchpad.net/openobject-addons
 ..
 
-The module is located in the extra_addons branch: https://code.launchpad.net/openobject-addons
+模块在 extra_addons 项目的分支中: https://code.launchpad.net/openobject-addons
 
 .. i18n: To use the module you need to make **codegen_openerp.py** accessible from dia, usually in your **/usr/share/dia/python** directory and make sure that it gets loaded once. To do it, just open dia and open a **Python Console** from the **Dialog Menu**, and type there "import codegen_openerp". If everything goes alright you will have a new option in your "Export..." dialog named "PyDia Code Generation (OpenERP)" that will create a zip module from your UML diagram.
 ..
