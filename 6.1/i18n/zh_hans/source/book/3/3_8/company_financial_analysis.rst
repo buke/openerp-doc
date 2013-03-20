@@ -22,7 +22,7 @@
 ..
 
 OpenERP 使用总账和辅助核算来管理预算
-进入菜单o :menuselection:设置Settings --> 模块Modules --> 模块Modules` 并安装模块 :mod:`account_budget` 就可以做这些工作了.
+进入菜单 :menuselection:`设置Settings --> 模块Modules --> 模块Modules` 并安装模块 :mod:`account_budget` 就可以做这些工作了.
 
 .. i18n: The first step in defining budgets is to determine the general accounts for which you want to keep budgets (typically expense or income accounts).
 .. i18n: That is what you will use ``Budgetary Positions`` for, from the menu :menuselection:`Accounting --> Configuration --> Budgets --> Budgetary Positions`. Here you can select the general accounts for which you want to keep budgets. The aim is to group general accounts logically, according to sales or purchases, for instance. OpenERP has no limitations as to the account types that can be used for budgeting.
