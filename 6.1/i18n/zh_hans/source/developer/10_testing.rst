@@ -139,7 +139,7 @@
 .. i18n: For more complex tests it is not always sufficient to compare a result to a string. To do that you may instead omit the tag's content and just put an expression that must evaluate to True:
 ..
 
-在更复杂的测试中，仅仅匹配字符串结果是远远不够的。因此你反而要删去在标签中原有的字符串使用逻辑正确的复杂表达式。
+在更复杂的测试中，也可以使用计算结果为 True 的 python 表达式。
 
 .. i18n: .. code-block:: xml
 .. i18n: 	
@@ -161,7 +161,8 @@
 .. i18n: The severity attribute defines the level of the assertion: debug, info, warning, error or critical. The default is error. If an assertion of too high severity fails, an exception is thrown and the parsing stops. If that happens during server initialization, the server will stop. Else the exception will be transmitted to the client. The level at which a failure will throw an exception is by default at warning, but can be specified at server launch through the ``--assert-exit-level`` argument.
 ..
 
-The severity attribute defines the level of the assertion: debug, info, warning, error or critical. The default is error. If an assertion of too high severity fails, an exception is thrown and the parsing stops. If that happens during server initialization, the server will stop. Else the exception will be transmitted to the client. The level at which a failure will throw an exception is by default at warning, but can be specified at server launch through the ``--assert-exit-level`` argument.
+severity 标签定义了断言的级别：debug, info, warning, error 或 critical，默认值为 error 。如果断言严重失败，那么将抛出一个异常，然后停止解析。如果是发生在服务初始化阶段，你们程序将中止。除此之外，其它的所有异常将会发送到客户端。默认情况下，系统将会在 warning 级别抛出失败异常，但可以通过 --assert-exit-leve 启动参数设置。
+
 
 .. i18n: As sometimes you do not know the id when you're writing the test, you can use a search instead. So we can define another example, which will be always true:
 ..
