@@ -15,10 +15,7 @@
 .. i18n: Budgets are important for a company to get a good grip on forecasted expenses and revenues. They allow you to measure your actual financial performance against the planned one.
 ..
 
-Budgets are important for a company to get a good grip on forecasted expenses and revenues. 
-They allow you to measure your actual financial performance against the planned one.
 对于公司来说预算，是非常重要的，使功能能很好地控制并预计费用和收入。他们使你能衡量你的针对于计划的实际财务表现。
-
 
 .. i18n: OpenERP manages its budgets using both General and Analytic Accounts.
 .. i18n: Go to :menuselection:`Settings --> Modules --> Modules` and install :mod:`account_budget` to be able to do this.
