@@ -91,14 +91,14 @@ OpenERP 在线使用
 .. i18n: Nothing is easier for you to discover OpenERP than subscribing to the OpenERP Online offer. You just need a web browser to get started.
 ..
 
-Nothing is easier for you to discover OpenERP than subscribing to the OpenERP Online offer. You just need a web browser to get started.
+你想要了解OpenERP,没有比OpenERP在线提供的更容易的了. 你只需要一个浏览器就可以开始了.
 
 .. i18n: The Online service can be particularly useful to small companies, that just want to get going quickly at low cost.
 .. i18n: You have immediate access to OpenERP's Integrated Management System built on the type of enterprise architecture used in many organizations.
 ..
 
-The Online service can be particularly useful to small companies, that just want to get going quickly at low cost.
-You have immediate access to OpenERP's Integrated Management System built on the type of enterprise architecture used in many organizations.
+在线服务对小公司特别有益, 花费很低的成本就可以快速的使用.
+你能立即进入可管理多组织架构的类型的企业的OpenERP完整的管理系统.
 
 .. i18n: OpenERP's Online offer includes several services: hosting at high bandwidth, database management, stable security update, backups, maintenance (24/7 server monitoring), bug fixing and migrations.
 ..
