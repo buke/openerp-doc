@@ -51,17 +51,17 @@
 .. i18n:    * Community discussion forum where you can often receive assistance: http://www.openerp.com/forum/.
 ..
 
-.. note:: Some Interesting Websites from OpenERP
+.. note:: OpenERP 相关的一些网站地址:
 
-   * Main Site: http://www.openerp.com,
+   * 官网: http://www.openerp.com,
 
-   * OpenERP Online Site: http://www.openerp.com/online,
+   * OpenERP 在线: http://www.openerp.com/online,
    
-   * Online demo at http://demo.openerp.com,
+   * 在线 demo: http://demo.openerp.com,
 
-   * Documentation site: http://doc.openerp.com/,
+   * 文档: http://doc.openerp.com/,
 
-   * Community discussion forum where you can often receive assistance: http://www.openerp.com/forum/.
+   * 你可以在社区论坛里得到帮助: http://www.openerp.com/forum/.
 
 .. i18n: .. tip:: Current documentation
 .. i18n: 
@@ -69,10 +69,10 @@
 .. i18n:    each new version, so you should always check each release's documentation on the website for the latest installation procedures.
 ..
 
-.. tip:: Current documentation
+.. tip:: 当前文档
 
-   The procedure for installing OpenERP will change and improve with
-   each new version, so you should always check each release's documentation on the website for the latest installation procedures.
+   安装OpenERP的过程在每个新版本都有所改变和改进,
+   因此你应当在网站上为最新的安装程序查找相应的发行文档.
 
 .. i18n: Use OpenERP Online
 .. i18n: ------------------
