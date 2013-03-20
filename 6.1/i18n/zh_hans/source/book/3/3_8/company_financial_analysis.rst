@@ -15,14 +15,14 @@
 .. i18n: Budgets are important for a company to get a good grip on forecasted expenses and revenues. They allow you to measure your actual financial performance against the planned one.
 ..
 
-对于公司来说预算，是非常重要的，使功能能很好地控制并预计费用和收入。他们使你能衡量你的针对于计划的实际财务表现。
+对于公司来说，预算是非常重要的，使你能很好地控制并预计费用和收入。他们使你能衡量财务状况相对于计划的实际表现。
 
 .. i18n: OpenERP manages its budgets using both General and Analytic Accounts.
 .. i18n: Go to :menuselection:`Settings --> Modules --> Modules` and install :mod:`account_budget` to be able to do this.
 ..
 
-OpenERP manages its budgets using both General and Analytic Accounts.
-Go to :menuselection:`Settings --> Modules --> Modules` and install :mod:`account_budget` to be able to do this.
+OpenERP 使用总账和辅助核算来管理预算
+进入菜单o :menuselection:设置Settings --> 模块Modules --> 模块Modules` 并安装模块 :mod:`account_budget` 就可以做这些工作了.
 
 .. i18n: The first step in defining budgets is to determine the general accounts for which you want to keep budgets (typically expense or income accounts).
 .. i18n: That is what you will use ``Budgetary Positions`` for, from the menu :menuselection:`Accounting --> Configuration --> Budgets --> Budgetary Positions`. Here you can select the general accounts for which you want to keep budgets. The aim is to group general accounts logically, according to sales or purchases, for instance. OpenERP has no limitations as to the account types that can be used for budgeting.
