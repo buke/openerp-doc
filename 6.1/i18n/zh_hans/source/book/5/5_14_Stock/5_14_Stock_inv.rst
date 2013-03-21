@@ -100,7 +100,7 @@ A warehouse is defined by a link between three locations:
 .. i18n: Several methods of automatically procuring products can be carried out by OpenERP:
 ..
 
-OpenERP 有多种自动采购产品的方法：
+OpenERP 有多种自动供应(procurement)产品的方法：
 
 .. i18n: * the workflow used by products that have the procurement method *Make to Order*,
 .. i18n: 
@@ -131,7 +131,7 @@ The last two methods are described below.
 .. i18n: :menuselection:`Warehouse --> Automatic Procurements --> Minimum Stock Rules`.
 ..
 
-To automatically make stock replenishment proposals, you can use minimum stock rules. Go to the menu
+当希望自动产生补货请求是，你可以使用最小库存规则. 菜单路径：
 :menuselection:`Warehouse --> Automatic Procurements --> Minimum Stock Rules`.
 
 .. i18n: The rule is the following: if the virtual stock for the given location is lower than the minimum stock indicated in
@@ -219,8 +219,7 @@ quantities. It takes into account the calculation of orders and receipts to come
 .. i18n: Requests for Quotation`.
 ..
 
-Once the rules have been properly configured, the purchasing manager only needs to look at the list
-of orders for confirmation with the supplier using the menu :menuselection:`Purchases --> Purchase Management -->
+一旦规则被正确设置，采购经理只需要查看订单(采购订单)列表与供应商进行确认，菜单路径为 :menuselection:`Purchases --> Purchase Management -->
 Requests for Quotation`.
 
 .. i18n: .. note:: Procurement
@@ -231,10 +230,10 @@ Requests for Quotation`.
 ..
 
 .. note:: Procurement
-
-   Note that the procurement does not require that you buy from a supplier. If the product has a
-   :guilabel:`Supply Method` ``Produce``, the scheduler will generate a Manufacturing order instead of a
-   supplier order.
+   
+   注意，供应请求不一定有要求你从供应商处购买，如果产品有一个属性
+   :guilabel:`Supply Method` ``Produce``,(注：即供应方式为生产) 
+   主生产计划(scheduler)会产生一个生产工单，而不是一个采购订单
 
 .. i18n: You can also set multiple quantities in the minimum stock rules. If you set a multiple quantity of 3
 .. i18n: the system will propose procurement of 15 pieces, and not the 13 it really needs. In this case, it
