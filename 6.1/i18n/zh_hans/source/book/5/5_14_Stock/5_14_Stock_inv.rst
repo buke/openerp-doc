@@ -100,7 +100,7 @@ A warehouse is defined by a link between three locations:
 .. i18n: Several methods of automatically procuring products can be carried out by OpenERP:
 ..
 
-Several methods of automatically procuring products can be carried out by OpenERP:
+OpenERP 有多种自动采购产品的方法：
 
 .. i18n: * the workflow used by products that have the procurement method *Make to Order*,
 .. i18n: 
@@ -111,9 +111,9 @@ Several methods of automatically procuring products can be carried out by OpenER
 
 * the workflow used by products that have the procurement method *Make to Order*,
 
-* using minimum stock rules for *Make to Stock* products,
+* 对于*Make to Stock*产品(存货制造)，可以使用最小库存规则
 
-* using the master production schedule for *Make to Stock* products.
+* 对于*Make to Stock*产品(存货制造)，使用主生产计划(Master Production Schedule)
 
 .. i18n: The last two methods are described below.
 ..
@@ -139,9 +139,8 @@ To automatically make stock replenishment proposals, you can use minimum stock r
 .. i18n: maximum level given in the rule.
 ..
 
-The rule is the following: if the virtual stock for the given location is lower than the minimum stock indicated in
-the rule, the system will automatically propose a procurement to increase the level of virtual stock to the
-maximum level given in the rule.
+规则如下：如果指定地点(location)的虚拟库存(virtual stock)比规则中指定的最小库存量少，
+系统会自动建议采购，增加虚拟库存(virtual stock)的数量至规则中规定的最大值
 
 .. i18n: .. figure:: images/stock_min_rule.png
 .. i18n: 	:scale: 75
@@ -186,7 +185,7 @@ quantities. It takes into account the calculation of orders and receipts to come
 .. i18n: Take the following example:
 ..
 
-Take the following example:
+如下面的例子：
 
 .. i18n: * Products in stock: 15
 .. i18n: 
@@ -195,25 +194,25 @@ Take the following example:
 .. i18n: * Products in manufacturing: 2
 ..
 
-* Products in stock: 15
+* 库存中的产品数量：15
 
-* Products ordered but not delivered: 5
+* 已下单(Sales Order?)但是未发货的数量：5
 
-* Products in manufacturing: 2
+* 在制数量：2
 
 .. i18n: The rules defined are:
 ..
 
-The rules defined are:
+定义的规则为：
 
 .. i18n: * Minimum stock: 13
 .. i18n: 
 .. i18n: * Maximum stock: 25.
 ..
 
-* Minimum stock: 13
+* 最小库存: 13
 
-* Maximum stock: 25.
+* 最大库存: 25.
 
 .. i18n: Once the rules have been properly configured, the purchasing manager only needs to look at the list
 .. i18n: of orders for confirmation with the supplier using the menu :menuselection:`Purchases --> Purchase Management -->
