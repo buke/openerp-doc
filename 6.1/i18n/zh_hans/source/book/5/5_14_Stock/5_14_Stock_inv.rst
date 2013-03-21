@@ -231,7 +231,7 @@ Requests for Quotation`.
 
 .. note:: Procurement
    
-   注意，供应请求不一定有要求你从供应商处购买，如果产品有一个属性
+   注意，供应请求不一定要求你从供应商处购买，如果产品有一个属性
    :guilabel:`Supply Method` ``Produce``,(注：即供应方式为生产) 
    主生产计划(scheduler)会产生一个生产工单，而不是一个采购订单
 
@@ -240,9 +240,8 @@ Requests for Quotation`.
 .. i18n: automatically rounds the quantity upwards.
 ..
 
-You can also set multiple quantities in the minimum stock rules. If you set a multiple quantity of 3
-the system will propose procurement of 15 pieces, and not the 13 it really needs. In this case, it
-automatically rounds the quantity upwards.
+你也可以在规则中设置最小包装量(multiple quantities). 如果你设置的最小包装量为3，系统会建议一个15pieces的供应，
+而不是真正需要的13。在这种情况下，系统会自动根据最小包装量取上整数。（注：即根据最小包装取整，多买一个最小包装的量）
 
 .. i18n: .. note:: Maximum Quantity
 .. i18n: 
@@ -256,12 +255,10 @@ automatically rounds the quantity upwards.
 
 .. note:: Maximum Quantity
 
-	Pay attention to the fact that the maximum quantity is not the maximum you will have in stock. 
-	If we take the following situation: a company has 10 pieces of product with minimum stock rules defined 
-	for this product by `Min quantity = 10`, `Max quantity = 30` and `Qty multiple = 12`. If an order of 2 
-	pieces comes, a purchase of 24 pieces order will be executed. The first 12 pieces will be ordered to reach
-	the minimum quantity and the other 12 to reach the maximum quantity. At the end, the stock of this product 
-	will be equal to 32 pieces.
+        注意一个事实，最大数量不是你库存的最大量。
+        比如：一个公司有10 pieces的产品，最小库存规则设置为，`最小数量 = 10`, `最大数量 = 30` 及 `最小包装 = 12`
+        如果有一个预计的2 piece订单（销售订单），系统执行计算后会产生一个24 pieces的采购需求。
+        第一个12 pieces会用于达到最小数量，第二个12 pieces用于达到最大数量。
 
 .. i18n: In a minimum stock rule, when you indicate a warehouse, it suggests a stock location by default in
 .. i18n: that warehouse. You can change that default location when the scheduler completes.
