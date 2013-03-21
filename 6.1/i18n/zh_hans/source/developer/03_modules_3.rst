@@ -1345,11 +1345,11 @@ Group
 .. i18n:     * **string**: (optional) If set, a frame will be drawn around the group of fields, with a label containing the string. Otherwise, the frame will be invisible.
 ..
 
-    * **colspan**: the number of columns to use
-    * **rowspan**: the number of rows to use
-    * **expand**: if we should expand the group or not
-    * **col**: the number of columns to provide (to its children)
-    * **string**: (optional) If set, a frame will be drawn around the group of fields, with a label containing the string. Otherwise, the frame will be invisible.
+    * **colspan**: 被使用的列数
+    * **rowspan**: 被使用的行数
+    * **expand**: 是否扩展该分组
+    * **col**:被提供的列数 (给他的下级)
+    * **string**: (可选) 如果设置了，将在字段组周围绘制一个框架, 包括这个string作为标签. 否则，这个框架是不可见的.
 
 .. i18n: :Example:
 ..
