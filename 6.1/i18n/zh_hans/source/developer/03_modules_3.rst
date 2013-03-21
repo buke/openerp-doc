@@ -1408,7 +1408,7 @@ Page
 .. i18n: +++++++++++++
 ..
 
-Data Elements
+数据元素
 +++++++++++++
 
 .. i18n: Field
@@ -1421,7 +1421,7 @@ Field
 .. i18n: :guilabel:`attributes for the "field" tag`
 ..
 
-:guilabel:`attributes for the "field" tag`
+:guilabel:`"field" tag的属性`
 
 .. i18n:     * ``select="1"``: mark this field as being one of the search criteria for 
 .. i18n:         this resource's search view. A value of 1 means that the field is
@@ -1471,29 +1471,28 @@ Field
 .. i18n:           + Example: (in product.product)
 ..
 
-    * ``select="1"``: mark this field as being one of the search criteria for 
-        this resource's search view. A value of 1 means that the field is
-        included in the basic search, and a value of 2 means that it is in
-        the advanced search.
+    * ``select="1"``: 标记这个是search 视图的搜索条件之一 。
+        数值1 意思是这个字段被被包括在基本搜索里
+        数值2 意思是这个字段在高级搜索中.
 
-    * ``colspan="4"``: the number of columns on which a field must extend.
+    * ``colspan="4"``: 字段被扩展开的列数.
 
-    * ``readonly="1"``: set the widget as read only
+    * ``readonly="1"``: 设置位置 只读
 
-    * ``required="1"``: the field is marked as required. If a field is marked as required, a user has to fill it the system won't save the resource if the field is not filled. This attribute supersede the required field value defined in the object.
+    * ``required="1"``: 该字段被标记为 必须. 如果字段被标记为必须,用户必须填写它，如果字段不填，系统不会保存资源。这个属性将取代 对象中的定义的required 字段值.
 
-    * ``nolabel="1"``: hides the label of the field (but the field is not hidden in the search view).
+    * ``nolabel="1"``: 隐藏字段的便签(但是这个字段在 search 视图不会被隐藏).
 
-    * ``invisible="True"``: hides both the label and the field.
+    * ``invisible="True"``: 隐藏标签和字段.
 
-    * ``password="True"``: replace field values by asterisks, "*".
+    * ``password="True"``: 用 星号替换字段值, "*".
 
-    * ``string=""``: change the field label. Note that this label is also used in the search view: see select attribute above).
+    * ``string=""``: 改变字段的标签. 注意，这个标签也会用在search视图: 看上面的 select 属性).
 
-    * ``domain``: can restrict the domain.
+    * ``domain``: 约束条件.
           + Example: domain="[('partner_id','=',partner_id)]"
 
-    * ``widget``: can change the widget.
+    * ``widget``: 可改变 widget.
           + Example: widget="one2many_list"
                 - one2one_list
                 - one2many_list
@@ -1505,18 +1504,18 @@ Field
                 - float_time
                 - reference
 
-    * ``mode``: sequences of the views when switching.            
+    * ``mode``: 视图切换时的顺序.
         + Example: mode="tree,graph"
 
-    * ``on_change``: define a function that is called when the content of the field changes.
+    * ``on_change``: 定义一个 函数，当字段内容被改变时调用.
           + Example: on_change="onchange_partner(type,partner_id)"
-          + See the :ref:`on change event <onchange-event-link>` for details.
+          + 要更详细的内容，查看 :ref:`on change event <onchange-event-link>` .
 
-    * ``attrs``: Permits to define attributes of a field depends on other fields of the same window. (It can be use on     page, group, button and notebook tag also)
-          + Format: "{'attribute':[('field_name','operator','value'),('field_name','operator','value')],'attribute2':[('field_name','operator','value'),]}"
-          + where attribute will be readonly, invisible, required
-          + Default value: {}.
-          + Example: (in product.product)
+    * ``attrs``: 允许定义一个字段的取决于同一窗口其它字段 的属性 . (也可用在 page, group, button and notebook 标签中o)
+          + 格式: "{'attribute':[('field_name','operator','value'),('field_name','operator','value')],'attribute2':[('field_name','operator','value'),]}"
+          + 这里的 attribute 是 readonly, invisible, required
+          + 默认值: {}.
+          + 例子在: (in product.product)
 
 .. i18n:         .. code-block:: xml
 .. i18n: 
