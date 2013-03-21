@@ -68,7 +68,7 @@
 .. i18n: The figure :ref:`fig-accanmv` represents the entries in an analytic account for a customer project.
 ..
 
-图ref:`fig-accanmv`的辅助核算会计记录了客户项目并为客户项目展示辅助核算会计中的分录条目。
+图 :ref:`fig-accanmv` 的辅助核算会计记录了客户项目并为客户项目展示辅助核算会计中的分录条目。
 
 .. i18n: You can see there:
 ..
@@ -102,12 +102,13 @@
 .. i18n: Even though most analytic entries are produced automatically by the other OpenERP documents, it is sometimes necessary to record manual entries. It is usually needed for certain analytic operations which have no counterpart in the general accounts.
 ..
 
-尽管大多数辅助核算分录目由其他Open ERP文件自动生成，有时使用手动记录分录还是必要的。它通常需要一定的分析操作，而它在总账里没有对应的操作。
+尽管大多数辅助核算分录目由其他Open ERP文件自动生成，有时使用手动记录分录还是必要的。它通常需要一定的分析操作，而它在总账
+里没有对应的操作。
 
 .. i18n: To record manual entries, go to the menu :menuselection:`Accounting --> Journal Entries --> Analytic Journal Items` and click the :guilabel:`Create` button.
 ..
 
-使用手动记录分录，请使用菜单“会计→账簿的分录→辅助核算明细”，然后点击“新建”按钮。
+使用手动记录分录，请使用 :menuselection:`会计 --> 账簿的分录 --> 辅助核算明细` :menuselection:`Accounting --> Journal Entries --> Analytic Journal Items` ，然后点击 :guilabel:`新建` 按钮。
 
 .. i18n: .. index::
 .. i18n:    single: analytic; entries
@@ -146,7 +147,8 @@
 
 .. tip::  输入日期
 
-        在编辑列表中选择输入一个日期，你可以在web客户端或者在GTK客户端中使用日历小工具，，如果你只输入一个月中的某一天，当您按下Tab键时Open ERP系统会自动填充年份和月份。
+        在编辑列表中选择输入一个日期，你可以在web客户端或者在GTK客户端中使用日历小工具，如果你只输入一个月中的某一天，
+        当您按下Tab键时Open ERP系统会自动填充年份和月份。
 
 .. i18n: .. note:: Example Cost Redistribution
 .. i18n: 
@@ -160,7 +162,8 @@
 
 .. note:: 成本的分摊示例
 
-        辅助核算操作中的手工录入数据分录的用途之一是成本分摊。例如，一个已交付的项目的研发，可再次使用在另一个项目上，你可以分摊部分成本到这个项目上。
+        辅助核算操作中的手工录入数据分录的用途之一是成本分摊。例如，一个已交付的项目的研发，可再次使用在另一个项目上，你
+        可以分摊部分成本到这个项目上。
 
         在这种情况下，在第一个帐户上做一个正数的分录，第二个项目的帐户上做一个相同数额的负数分录。
 
@@ -189,15 +192,19 @@
 * 关于服务的分录为这项特定项目的服务成本生成一个辅助核算分录,
 
 * 生产产品生成一个关于该产品范围内的每一项操作的生产成本分录。
+
 .. i18n: Other documents linked to one of these three operations produce analytic records indirectly. For example, when you are entering a customer sales order, you can link it to the customer's analytic account. When you are managing by case or project, mark the project with that order. This order will then generate a customer invoice, which will be linked to the analytic account. When the invoice is validated, it will automatically create general and analytic accounting records for the corresponding project.
 ..
 
-其他文件关联到这三个操作中的任何一个产生间接的辅助核算记录。例如，当你进入客户的销售订单，你可以把它链接到客户的辅助核算项。当您管理案子或项目时，把项目同订单做上标记。这个订单将生成客户发票，这将关联到辅助核算项。当发票得到确认时，它会自动为相应的项目创建辅助核算会计记录。
+其他文件关联到这三个操作中的任何一个产生间接的辅助核算记录。例如，当你进入客户的销售订单，你可以把它链接到客户的辅助核算
+项。当您管理案子或项目时，把项目同订单做上标记。这个订单将生成客户发票，这将关联到辅助核算项。当发票得到确认时，它会自动
+为相应的项目创建辅助核算会计记录。
 
 .. i18n: Expense receipts from an employee can be linked to an analytic account for reimbursement. When a receipt is approved by the company, a purchase invoice is created. This invoice represents a debit on the company in favour of the employee. Each line of the purchase invoice is then linked to an analytic account which automatically allocates the costs for that receipt to the corresponding project.
 ..
 
-来自雇员的费用收据可以关联到辅助核算项报销。当收据得到公司批准时，购买发票将会被创建。这发票作为员工福利登在公司的借方。每一行购买发票自动链接到一个辅助核算项，分摊成本到相应的项目。
+来自雇员的费用收据可以关联到辅助核算项报销。当收据得到公司批准时，购买发票将会被创建。这发票作为员工福利登在公司的借方。
+每一行购买发票自动链接到一个辅助核算项，分摊成本到相应的项目。
 
 .. i18n: To visualise the general entries following these different actions, you can use one of the following menus:
 ..
@@ -209,9 +216,9 @@
 .. i18n:         #. To see the entries per account, per user, per product or per partner, you can use the menu :menuselection:`Accounting --> Reporting --> Statistic Reports --> Analytic Entries Analysis`.
 ..
 
-        #. 查看的所有分录, :menuselection:`会计 --> 账簿的分录 --> 辅助核算明细`
+        #. 查看的所有分录, :menuselection:`会计 --> 账簿的分录 --> 辅助核算明细` :menuselection:`Accounting --> Journal Entries --> Analytic Journal Items`
 
-        #. 2.   查看每个帐户的分录，每个用户，每个产品或每个业务伙伴，你可以使用菜单 :menuselection:`会计 --> 报告 --> 统计报表 --> 辅助核算分析`.
+        #. 查看每个帐户的分录，每个用户，每个产品或每个业务伙伴，你可以使用菜单 :menuselection:`会计 --> 报告 --> 统计报表 --> 辅助核算分析` :menuselection:`Accounting --> Reporting --> Statistic Reports --> Analytic Entries Analysis`.
 
 .. i18n: .. figure::  images/account_analytic_analysis2.png
 .. i18n:    :scale: 85
