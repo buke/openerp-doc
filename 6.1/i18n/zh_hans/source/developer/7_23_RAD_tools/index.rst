@@ -31,7 +31,9 @@ DIA
 .. i18n: To use the module you need to make **codegen_openerp.py** accessible from dia, usually in your **/usr/share/dia/python** directory and make sure that it gets loaded once. To do it, just open dia and open a **Python Console** from the **Dialog Menu**, and type there "import codegen_openerp". If everything goes alright you will have a new option in your "Export..." dialog named "PyDia Code Generation (OpenERP)" that will create a zip module from your UML diagram.
 ..
 
-To use the module you need to make **codegen_openerp.py** accessible from dia, usually in your **/usr/share/dia/python** directory and make sure that it gets loaded once. To do it, just open dia and open a **Python Console** from the **Dialog Menu**, and type there "import codegen_openerp". If everything goes alright you will have a new option in your "Export..." dialog named "PyDia Code Generation (OpenERP)" that will create a zip module from your UML diagram.
+要在Dia中使用 **codegen_openerp** 模块, 通常在 **/usr/share/dia/python** 路径下载入一次即可, 只需要打开 Dia 并且从 **Dialog Menu**
+菜单下打开 **Python Console**, 在Python 交互窗口中输入 "import codegen_openerp". 如果不出意外的话,你就可以在 "PyDia Code Generation (OpenERP)"
+对话框中 选择 "Export..." 来导出并创建一个由UML设计自动生成的 zip 格式的OpenERP 模块了.
 
 .. i18n: To install win Dia in windows, first install Python-2.3.5, then when you install Dia, you will have an option to install the python plug-in. After this, put the codegen_openerp.py file in **C:\\Program Files\\Dia** and you will have the export function in Dia.
 ..
