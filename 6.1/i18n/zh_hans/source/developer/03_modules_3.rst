@@ -2,14 +2,14 @@
 .. i18n: ================
 ..
 
-Views and Events
+视图和事件
 ================
 
 .. i18n: Introduction to Views
 .. i18n: ---------------------
 ..
 
-Introduction to Views
+介绍视图
 ---------------------
 
 .. i18n: As all program data is stored in objects, as explained in the Objects section, how are these objects exposed to the user ? We will try to answer this question in this section.
@@ -41,7 +41,7 @@ Introduction to Views
 .. i18n: ++++++++++++++++
 ..
 
-Views principles
+视图原理
 ++++++++++++++++
 
 .. i18n: Views describe how each object (type of resource) is displayed. More precisely, for each object, we can define one (or several) view(s) to describe which fields should be drawn and how.
@@ -70,7 +70,7 @@ Views principles
 .. i18n: ----------
 ..
 
-Form views
+Form 视图
 ----------
 
 .. i18n: The field disposition in a form view always follows the same principle. Fields are distributed on the screen following the rules below:
@@ -137,7 +137,7 @@ Form views
 .. i18n: -----------
 ..
 
-Tree views
+Tree 视图
 -----------
 
 .. i18n: These views are used when we work in list mode (in order to visualise several resources at once) and in the search screen. These views are simpler than the form views and thus have less options.
@@ -158,7 +158,7 @@ Tree views
 .. i18n: --------------
 ..
 
-Graph views
+Graph 视图
 --------------
 
 .. i18n: A graph is a new mode of view for all views of type form. If, for example, a sale order line must be visible as list or as graph, define it like this in the action that opens this sale order line. Do not set the view mode as "tree,form,graph" or "form,graph" - it must be "graph,tree" to show the graph first or "tree,graph" to show the list first. (This view mode is extra to your "form,tree" view and should have a separate menu item):
@@ -232,7 +232,7 @@ view_mode::
 .. i18n: The graph view
 ..
 
-The graph view
+graph 视图
 
 .. i18n: A view of type graph is just a list of fields for the graph.
 ..
