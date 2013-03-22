@@ -284,7 +284,7 @@ that warehouse. You can change that default location when the scheduler complete
 .. i18n: customer's and production counterparts.
 ..
 
-A location is one component of the warehouses that is used to managed all types of storage places, such as at the 
+一个库位（或 货位）是仓库中的一个组成部分，用来管理所有类型的库存位置。 such as at the 
 customer's and production counterparts.
 
 .. i18n: There are different types of locations that allow you to structure your warehouses according to your needs.
@@ -295,9 +295,11 @@ customer's and production counterparts.
 .. i18n: to define new locations.
 ..
 
-There are different types of locations that allow you to structure your warehouses according to your needs.
+根据你的需求，在你（在系统中）构建你的仓库时候，可以设置不同类型的库位。
 Locations are structured hierarchically to account for the subdivision of a warehouse into sections, aisles, and/or
-cupboards. The hierarchical view also enables you to structure virtual locations such as production counterparts.
+cupboards.
+(译：库位是多层级结构的，用于将仓库分为更小的子层级，如 区域、通道 或者 cupboards(货架？))
+The hierarchical view also enables you to structure virtual locations such as production counterparts.
 That gives you a finer level of analysis.
 Go to the menu :menuselection:`Warehouse --> Configuration --> Warehouse Management --> Locations`, then click New 
 to define new locations.
