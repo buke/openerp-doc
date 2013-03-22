@@ -171,11 +171,10 @@ OpenERP中，伙伴库位（partner locations）的库存并不属于你的公�
 .. i18n:      counterpart's location.
 ..
 
-.. note:: Accounts
+.. note:: 账目(Accounts)
 
-     In managing stock, a gap between the data in the software and real quantities in stock is
-     difficult to avoid.
-     Double-entry stock management gives twice as many opportunities to find an error.
+     在管理库存时候，软件数据和实际库存有差异是难以避免的。
+     复式库存管理提供了2倍的机会来发现一个错误（即提供了双重数据进行复查）
      If you forget two items of stock, this error will automatically be reflected in the
      counterpart's location.
 
@@ -208,9 +207,8 @@ them, or carry out a stock inventory operation, stock moves are carried out ever
 .. i18n: when you compare the stock shown in software with real stock numbers counted in the stores.
 ..
 
-You have seen a fairly simple example of goods receipt and product delivery, but some operations are
-less obvious – a stock inventory operation, for example. An inventory operation is carried out
-when you compare the stock shown in software with real stock numbers counted in the stores.
+你已经看过了一个简单的产品接收和发货的例子，但是有些操作是不明显的 - 如库存的物理盘点操作。
+例如，当你对软件中的库存数量和实际的库存数量进行一次比对时，会进行物理盘点
 
 .. i18n: .. index::
 .. i18n:    single: Stock; Inventory operation
@@ -229,10 +227,12 @@ when you compare the stock shown in software with real stock numbers counted in 
 ..
 
 In OpenERP, with its double-entry stock management, you would use stock moves for this inventory
-operation. That helps you manage your stock traceability. Suppose there are 26 bicycles in real stock, but
-OpenERP shows 28 in the system. You then have to reduce the number in OpenERP to 26. This
-reduction of 2 units is considered as a loss or destruction of products and the correction is
-carried out as in the following operation:
+operation. That helps you manage your stock traceability. 
+例如实际库存有26辆自行车，但是OpenERP显示系统中有28个自行车。
+你需要从OpenERP中讲数量减少至26.
+这个减少的2辆自行车会视为一个产品的丢失(loss)或者损耗(destruction)。
+数量的更正由下面两个操作完成：
+（注：相当于用一次库存转移做了盘亏）
 
 .. i18n: .. table:: Inventory Operation to Adjust Stock
 .. i18n: 
@@ -256,7 +256,7 @@ carried out as in the following operation:
 .. i18n: The product stock under consideration then becomes:
 ..
 
-The product stock under consideration then becomes:
+综合以上，产品库存变为：
 
 .. i18n: .. table:: Real and Counterpart Stocks when Operations are Completed
 .. i18n: 
@@ -287,8 +287,8 @@ The product stock under consideration then becomes:
 ..
 
 This example shows one of the great advantages of this approach in terms of performance analysis.
-After a few months, you can just make a stock valuation of the location :menuselection:`Inventory Control --> Location Structure 
---> Virtual Locations --> Inventory Loss` to give you the value of the company's stock losses in the given period.
+几个月以后，你能简单做一个库存评估(stock valuation)，路径为 :menuselection:`Inventory Control --> Location Structure 
+--> Virtual Locations --> Inventory Loss` 来获得一个在此期间公司库存损耗的数据。
 
 .. i18n: Now see how the following manufacturing operation is structured in OpenERP. To make a bicycle you
 .. i18n: need two wheels and a frame. This means that there should be a reduction of two wheels and a frame
@@ -296,10 +296,11 @@ After a few months, you can just make a stock valuation of the location :menusel
 .. i18n: moving products out of and into physical stock. The stock operations for this are as follows:
 ..
 
-Now see how the following manufacturing operation is structured in OpenERP. To make a bicycle you
-need two wheels and a frame. This means that there should be a reduction of two wheels and a frame
-from real stock and the addition of a bicycle there. The consumption / production is formalized by
-moving products out of and into physical stock. The stock operations for this are as follows:
+现在看一下，以下的生产操作在OpenERP中是如何记录(structured)的。
+生产一辆自行车你需要2个轮子以及1个车架。
+这意味着物理库存需要减少2个轮子以及1个车架，同时增加1辆自行车。
+这个 物料消耗/生产完工 的过程是通过从物理库存中对物料进行（原材料）发料和（成品）入库来实现的。
+以下是这个例子的库存操作数据：
 
 .. i18n: .. table:: Stock Situation Resulting from Manufacturing
 .. i18n: 
