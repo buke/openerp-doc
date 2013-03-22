@@ -156,9 +156,11 @@ OpenERP中，伙伴库位（partner locations）的库存并不属于你的公�
 .. i18n:         To manage Consignment Stock, you need to define the location for the consignment customer or supplier as part of your own stock and not as a partner location.
 ..
 
-.. tip:: Consignment Stock
-
-        To manage Consignment Stock, you need to define the location for the consignment customer or supplier as part of your own stock and not as a partner location.
+.. tip:: 委托库存，或托管库存(Consignment Stock)
+（注：即你的公司负责库存管理，但是所有权（物权）仍然属于供应商或者销售客户的库存。）
+        
+        为管理托管库存，你需要为供应商或者客户定义专门的库位（托管类型的库位），而不是将其定义为一个合作方库位（partner location）
+        
 
 .. i18n: .. note:: Accounts
 .. i18n: 
