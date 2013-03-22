@@ -140,7 +140,7 @@
 .. i18n: as a constraint rather than a helpful daily management tool.
 ..
 
-问题是这些工具通常跟管理系统是分开的，只是被公司里的个别人所使用。它们往往不是放在在管理系统之中处理而是分开处理。当你问公司员工关于ISO9001时,你会发现它只是被看作一个规约，而不是一个非常有用的日常管理工具。
+问题是这些工具通常跟管理系统是分开的，只是被公司里的个别人所使用。它们往往不是放在在管理系统之中处理而是分开处理。当你向公司员工问及ISO9001时,你会发现它只是被看作一个规约，而不是一个非常有用的日常管理工具。
 
 .. i18n: To help the company meet its quality requirements and to form these processes
 .. i18n: into assistance integrated with everyday work, OpenERP supplies a Corporate
