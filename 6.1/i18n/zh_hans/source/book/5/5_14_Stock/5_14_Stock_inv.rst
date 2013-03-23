@@ -507,13 +507,15 @@ OpenERP中的库位是可以相互链接在一起，以定义产品的路径的�
 .. i18n: The *Manual Operation* mode will create an internal move order to the linked location once products arrive in the
 .. i18n: source locations. This order will wait for a confirmation of the move by a user. This enables you to have a list of
 .. i18n: moves to do, proposed by the system and confirmed by the storesperson. 
-..*手工操作*模式，一旦货物到达源库位，(系统)会创建一张内部物料搬运单(从当前库位)至链接库位
+..
+*手工操作*模式，一旦货物到达源库位，(系统)会创建一张内部物料搬运单(从当前库位)至链接库位
 物料搬运单会等待用户的确认(confirmation of the move)。
 This enables you to have a list of moves to do, 
 物料搬运单由系统建议，由仓管员(storesperson)确认。
 
 .. i18n: The *Automatic Move* mode will do the same, but will not wait for a confirmation from the user. Products will automatically be sent to the linked location without any intervening manual operation to do. This corresponds to the case where, for simplicity, you delete a step in the process so the end user can set off the process automatically.
-..*自动移动(Automatic Move)*模式会做相同的事情,但不会等待一个用户的确认(即移动步骤系统自动完成了)。
+..
+*自动移动(Automatic Move)*模式会做相同的事情,但不会等待一个用户的确认(即移动步骤系统自动完成了)。
 不需要人工的接入，产品会自动发送到链接库位。
 这适合于，为了简化操作，你删除了系统上的一个操作步骤，用户自己完成这个(物理的)操作流程。
 (即系统上少操作一步，但是现实中库存人员还是做了两步，如检验-入库)
@@ -521,7 +523,8 @@ This enables you to have a list of moves to do,
 .. i18n: The *Automatic No Step Added* mode will not include the additional stock move, but will change the destination
 .. i18n: move transparently to assign the linked location. You could then assign a destination location to which you
 .. i18n: send all the products that arrive in your warehouse. The storesperson will modify the goods receipt note.
-.. *自动无步骤添加(Automatic No Step Added)* 模式不会包含额外的库存移动，但会透明的将目标库位进行更改至链接库位。(即直接更改目标库位，不会产生上面两个模式中的物料搬运单)
+.. 
+*自动无步骤添加(Automatic No Step Added)* 模式不会包含额外的库存移动，但会透明的将目标库位进行更改至链接库位。(即直接更改目标库位，不会产生上面两个模式中的物料搬运单)
 You could then assign a destination location to which you
 send all the products that arrive in your warehouse. The storesperson will modify the goods receipt note.
 
