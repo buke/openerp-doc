@@ -410,7 +410,7 @@ example. You can then give it the address of that customer or supplier. Go to th
 .. i18n: 	that you create consignment locations as part of your internal stock.
 ..
 
-.. note:: Consigned Stock
+.. note:: 托管库存(Consigned Stock)
 
 	Consigned stock is stock that is owned by you (valued in your accounts), but is physically stocked by your supplier.
 	Or, conversely, it could be stock owned by your customer (not valued by you), but stocked in your company. Make sure
@@ -426,7 +426,7 @@ given by the field ``Parent Location``. That also enables you to manage complex 
 .. i18n: For example, you could imagine the following scenario: **One Company with Two Warehouses**
 ..
 
-For example, you could imagine the following scenario: **One Company with Two Warehouses**
+例如，你可以想象一下以下场景：*一个公司有两个仓库*
 
 .. i18n: A company has a warehouse in Paris and in Bordeaux. For some orders, you have to deliver the products from Paris,
 .. i18n: and for others from Bordeaux. But you should also specify a fictitious warehouse that OpenERP uses to calculate
@@ -435,11 +435,11 @@ For example, you could imagine the following scenario: **One Company with Two Wa
 .. i18n: and Bordeaux. You create the following physical locations:
 ..
 
-A company has a warehouse in Paris and in Bordeaux. For some orders, you have to deliver the products from Paris,
-and for others from Bordeaux. But you should also specify a fictitious warehouse that OpenERP uses to calculate
-whether it should deliver products from Paris or from Bordeaux.
-To do this in OpenERP, you would create a third warehouse ‘France’ which consolidates the warehouses in Paris
-and Bordeaux. You create the following physical locations:
+一个公司有两个仓库，一个在巴黎，一个在波尔多。对于某些销售订单，你需要从巴黎发货，另外一些订单需要由波尔多进行发货。
+但你仍需要指定一个虚拟的仓库给OpenERP,让系统计算他应该由巴黎还是波尔多进行发货。
+在OpenERP里面，你可以设置一个(虚拟)仓库“法国”，组合(consolidates)了巴黎仓库和波尔多仓库。
+(注：也就是设定了 法国.巴黎，以及 法国.波尔多 ？)
+你建立了以下物理库位：
 
 .. i18n: * Company
 .. i18n: 
@@ -467,12 +467,11 @@ and Bordeaux. You create the following physical locations:
       * Warehouse Paris
 
       * Warehouse Bordeaux			
-			
-OpenERP will then deliver the goods from the warehouse that has the ordered product in stock. When products
-are available in several warehouses, OpenERP will select the nearest warehouse. To formalize the notion of
-distance between warehouses you should use the geographic co-ordinates (X, Y, Z) of the different stores to
-enable OpenERP to search for the nearest goods.
-The same co-ordinates could also be used to structure the shelves, aisles and interior rooms in a warehouse.
+	
+OpenERP会从有产品库存的仓库发货。
+当产品在几个仓库均有货时，OpenERP会选择最近的仓库(进行发货)。
+为了让系统知道仓库之间的距离，你需要为每个仓库设置地理坐标(X,Y,Z)，以便OpenERP搜索最近的货物。
+同样，坐标可以用于构建仓库的货架、货道和内部房间。(注：即仓库内部坐标)
 
 .. i18n: Linked Locations
 .. i18n: ^^^^^^^^^^^^^^^^
@@ -485,48 +484,53 @@ The same co-ordinates could also be used to structure the shelves, aisles and in
 .. i18n: rules such as: all products that enter the warehouse should automatically be sent to quality control. The warehouse
 .. i18n: and quality control are represented by two different locations.
 ..
-
-Locations in OpenERP can be linked between each other to define paths followed by products. So you can define
-rules such as: all products that enter the warehouse should automatically be sent to quality control. The warehouse
-and quality control are represented by two different locations.
+OpenERP中的库位是可以相互链接在一起，以定义产品的路径的。
+因此你能够定义如下规则：所有进入仓库的产品会自动的发送至质量监控(即检验货位)。
+仓储和质检由两个不同的货位表示(即类似于收货时，在一个货位做质检，另外一个货位做储存)
 
 .. i18n: Then when a product arrives in a location, OpenERP can automatically suggest that you send the product to
 .. i18n: another linked location. Three link modes are available:
 ..
 
-Then when a product arrives in a location, OpenERP can automatically suggest that you send the product to
-another linked location. Three link modes are available:
+这样，当一个货物到达库位时候，OpenERP会自动建议你将货物发送到一个链接的库位。
+有3种链接的模式：
 
 .. i18n: * Manual Operation,
 .. i18n: * Automatic Move,
 .. i18n: * Automatic No Step Added.
 ..
 
-* Manual Operation,
-* Automatic Move,
-* Automatic No Step Added.
+* 手工操作(Manual Operation),
+* 自动移动(Automatic Move),
+* 自动无步骤添加(Automatic No Step Added).
 
 .. i18n: The *Manual Operation* mode will create an internal move order to the linked location once products arrive in the
 .. i18n: source locations. This order will wait for a confirmation of the move by a user. This enables you to have a list of
 .. i18n: moves to do, proposed by the system and confirmed by the storesperson. 
 ..
 
-The *Manual Operation* mode will create an internal move order to the linked location once products arrive in the
-source locations. This order will wait for a confirmation of the move by a user. This enables you to have a list of
-moves to do, proposed by the system and confirmed by the storesperson. 
+*手工操作*模式，一旦货物到达源库位，(系统)会创建一张内部物料搬运单(从当前库位)至链接库位
+物料搬运单会等待用户的确认(confirmation of the move)。
+This enables you to have a list of moves to do, 
+物料搬运单由系统建议，由仓管员(storesperson)确认。
 
 .. i18n: The *Automatic Move* mode will do the same, but will not wait for a confirmation from the user. Products will automatically be sent to the linked location without any intervening manual operation to do. This corresponds to the case where, for simplicity, you delete a step in the process so the end user can set off the process automatically.
 ..
 
-The *Automatic Move* mode will do the same, but will not wait for a confirmation from the user. Products will automatically be sent to the linked location without any intervening manual operation to do. This corresponds to the case where, for simplicity, you delete a step in the process so the end user can set off the process automatically.
+*自动移动(Automatic Move)*模式会做相同的事情,
+但不会等待一个用户的确认(即移动步骤系统自动完成了)。
+不需要人工的接入，产品会自动发送到链接库位。
+这适合于，为了简化操作，你删除了系统上的一个操作步骤，用户自己完成这个(物理的)操作流程。
+(即系统上少操作一步，但是现实中库存人员还是做了两步，如检验-入库)
 
 .. i18n: The *Automatic No Step Added* mode will not include the additional stock move, but will change the destination
 .. i18n: move transparently to assign the linked location. You could then assign a destination location to which you
 .. i18n: send all the products that arrive in your warehouse. The storesperson will modify the goods receipt note.
 ..
 
-The *Automatic No Step Added* mode will not include the additional stock move, but will change the destination
-move transparently to assign the linked location. You could then assign a destination location to which you
+ *自动无步骤添加(Automatic No Step Added)* 模式不会包含额外的库存移动
+但会透明的将目标库位进行更改至链接库位。(即直接更改目标库位，不会产生上面两个模式中的物料搬运单)
+You could then assign a destination location to which you
 send all the products that arrive in your warehouse. The storesperson will modify the goods receipt note.
 
 .. i18n: .. tip:: Product Logistics
