@@ -331,7 +331,7 @@ to define new locations.
 .. index::
    single: Stock; Location types
    
-* ``供应商库位``: virtual location representing the source location for products received from suppliers,
+* ``供应商库位``: 虚拟货位，代表产品是从供应商处接收的(如收货时候，源货位就是供应商货位，代表供应商库存减少)
 
 .. i18n: * ``View``: shows that the location is only an organizational node for the hierarchical structure, and
 .. i18n:   cannot be involved in stock moves itself. The view type is not made into a leaf node in a
@@ -356,19 +356,18 @@ to define new locations.
   cannot be involved in stock moves itself. The view type is not made into a leaf node in a
   structure – it usually has children.
   
-* ``内部库位``: physical location inside your own stock,
+* ``内部库位``:  您仓库中的物理货位
 
-* ``客户库位``: virtual location representing the destination for products sent to customers,
+* ``客户库位``: 虚拟货位，表示货物发送给了客户，(如销售订单发货后，客户货位增加，表示已经发给了客户)
 
 * ``盘点/损耗库位``: virtual location serving as the counterpart for inventory operations used to correct stock levels (physical inventories),
 
 * ``Procurement``: virtual location serving as temporary counterpart for procurement operations when you do not yet know the source (supplier or production). Products in this location should be zero after the scheduler run
   completes,
   
-* ``生产库位``: virtual counterpart location for production operations; consuming raw material and sending
-  finished products,
+* ``生产库位``: 生产过程的虚拟货位，用来记录原材料消耗(发放至此货位)以及成品完工来源
 
-* ``多公司间中转库位``: used as an intermediate location in a multi-company environment.
+* ``多公司间中转库位``: 用于多组织环境中的中间过程货位。(如两个组织间调拨时候，货物仍在途的情况)
 
 .. i18n: You can have several locations of the same type. In that case, your product, supplier and warehouse configurations
 .. i18n: determine the location that is to be used for any given operation.
@@ -385,8 +384,10 @@ determine the location that is to be used for any given operation.
 
 库位地址
 ^^^^^^^^^^^^^^^^^^
-Each location can have a specific address that enables you to create a location for a customer or a supplier, for
-example. You can then give it the address of that customer or supplier. Go to the partner form to tell OpenERP it should use this location rather than the default location given to partner deliveries.
+每个库位可以指定一个地址，使你能够给客户或者供应商建立一个库位。
+如：你能够设置库位地址为供应商或者客户的地址。
+去 业务合作伙伴 界面，告诉OpenERP，他应该使用这个库位，而不是默认库位
+(Go to the partner form to tell OpenERP it should use this location rather than the default location given to partner deliveries.)
 
 .. i18n: .. tip:: Subcontracting Production
 .. i18n: 
