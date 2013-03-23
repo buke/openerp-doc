@@ -49,7 +49,8 @@ For further guidance to install Dia in Windows you can refer to this link	(http:
 .. i18n: If you find that the zip file is corrupt, use DiskInternals ZipRepair utility to repair the zip file before you'll be able to import it - make sure the zip file you import has the same name you saved as. 
 ..
 
-If you find that the zip file is corrupt, use DiskInternals ZipRepair utility to repair the zip file before you'll be able to import it - make sure the zip file you import has the same name you saved as. 
+如果你得到最终的ZIP文件不能正常打开, 只需要使用 DiskInternals ZipRepais utility 工具来修复一下zip 文件,即可在OpenERP
+中正常导入了. 当然,你不能修改zip文件的文件名. 因为文件名必须与你的模块名保持一致.
 
 .. i18n: Open Office Report Designer
 .. i18n: ===========================
