@@ -38,7 +38,8 @@ DIA
 .. i18n: To install win Dia in windows, first install Python-2.3.5, then when you install Dia, you will have an option to install the python plug-in. After this, put the codegen_openerp.py file in **C:\\Program Files\\Dia** and you will have the export function in Dia.
 ..
 
-To install win Dia in windows, first install Python-2.3.5, then when you install Dia, you will have an option to install the python plug-in. After this, put the codegen_openerp.py file in **C:\\Program Files\\Dia** and you will have the export function in Dia.
+要安装 Dia for windows, 你需要先安装 Python-2.3.5, 再安装 Dia, 就可以选择是否安装 Dia 的plug-in.  然后再将 **codegen_openerp.py**
+文件复制到 **C:\\Program Files\\Dia** , 然后你的Dia 就可以实现导出 OpenERP 模块的功能了.
 
 .. i18n: For further guidance to install Dia in Windows you can refer to this link	(http://openerpdev.blogspot.com/2009/11/rad-with-openerp.html)
 ..
