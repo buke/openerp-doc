@@ -44,7 +44,7 @@ DIA
 .. i18n: For further guidance to install Dia in Windows you can refer to this link	(http://openerpdev.blogspot.com/2009/11/rad-with-openerp.html)
 ..
 
-For further guidance to install Dia in Windows you can refer to this link	(http://openerpdev.blogspot.com/2009/11/rad-with-openerp.html)
+Dia for Windows 的安装请参阅 (http://openerpdev.blogspot.com/2009/11/rad-with-openerp.html)
 
 .. i18n: If you find that the zip file is corrupt, use DiskInternals ZipRepair utility to repair the zip file before you'll be able to import it - make sure the zip file you import has the same name you saved as. 
 ..
