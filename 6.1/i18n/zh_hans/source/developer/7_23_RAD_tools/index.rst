@@ -56,7 +56,7 @@ Dia for Windows 的安装请参阅 (http://openerpdev.blogspot.com/2009/11/rad-w
 .. i18n: ===========================
 ..
 
-Open Office Report Designer
+Open Office 报表设计工具
 ===========================
 
 .. i18n: Installation
@@ -64,9 +64,9 @@ Open Office Report Designer
 .. i18n: Openoffice.org Report Designer plugin is very easy to install and use. The plugin is a bundle of two files: openofficereport.zip and Makefile. We have installation procedure.
 ..
 
-Installation
+安装
 ------------
-Openoffice.org Report Designer plugin is very easy to install and use. The plugin is a bundle of two files: openofficereport.zip and Makefile. We have installation procedure.
+Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两个文件: openofficereport.zip 与 Makefile. 下面来看看具体的安装步骤.
 
 .. i18n: * Install using Extension Manager in Openoffice.org Writer
 ..
