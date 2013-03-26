@@ -71,14 +71,13 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: * Install using Extension Manager in Openoffice.org Writer
 ..
 
-* Install using Extension Manager in Openoffice.org Writer
+* 在 Openoffice Writer 中插件管理中心安装.
 
 .. i18n: Installing by Extension Manager is interactive installation procedure, for installation you
 .. i18n: have to use Tools -> Extension Manager provided by Openoffice.org Writer.
 ..
 
-Installing by Extension Manager is interactive installation procedure, for installation you
-have to use Tools -> Extension Manager provided by Openoffice.org Writer.
+要安装设计器插件,需要在菜单 :menuitemselection:`Tools --> Extension Manager` 去激活安装.
 
 .. i18n: .. image:: images/1_1.png
 ..
