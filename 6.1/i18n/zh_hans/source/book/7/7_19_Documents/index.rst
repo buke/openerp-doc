@@ -21,11 +21,7 @@
 .. i18n:  forms, in one place.*
 ..
 
- *Information management has become a major strategic factor in companies' development.
- It is important to get the right information circulated to the right people, as efficiently
- as possible, yet still keep it secure.
- Document management provides a way for companies to organize their information, in all its
- forms, in one place.*
+ *信息管理已成为公司 发展战略的一个主要因素。如何安全地将正确的信息尽可能有效地传递给适合的人更是其中的重点。建立文档管理系统就是提供了公司把各种形式的资料统一存放的一种方法。*
 
 .. i18n: The objectives of document management include easier archiving, access and reference, intelligent
 .. i18n: classification and distribution of documents and the information they contain. It concerns sets of
@@ -34,20 +30,14 @@
 .. i18n: datasheets.
 ..
 
-The objectives of document management include easier archiving, access and reference, intelligent
-classification and distribution of documents and the information they contain. It concerns sets of
-all sorts of company documents such as work procedures, meeting reports, documents received from
-customers and suppliers, documents sent to customers, faxes, sales presentations and product
-datasheets.
+文档管理的目标包括更便捷归档，访问和引用，智能分类和分发文件以及他们所包含的内容。它就像公司的文件集合，涉及各种工作程序，会议报告，从客户和供应商收到的文件，发送给客户的文件、传真、销售演示和产品资料等
 
 .. i18n: For this chapter you should start with a fresh database that includes demo data,
 .. i18n: with :mod:`sale`, :mod:`document` and their dependencies installed and 
 .. i18n: no particular chart of accounts configured. 
 ..
 
-For this chapter you should start with a fresh database that includes demo data,
-with :mod:`sale`, :mod:`document` and their dependencies installed and 
-no particular chart of accounts configured. 
+在本章，我们应该从一个新的包含demo数据的数据库开始，安装 :mod:`sale`, :mod:`document` 模块以及他们的依赖模块而没有单独的账户配置图。
 
 .. i18n: .. raw:: html
 .. i18n: 
