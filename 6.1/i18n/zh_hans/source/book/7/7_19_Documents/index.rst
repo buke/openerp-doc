@@ -37,7 +37,7 @@
 .. i18n: no particular chart of accounts configured. 
 ..
 
-在本章，我们应该从一个新的包含demo数据的数据库开始，安装 :mod:`sale`, :mod:`document` 模块以及他们的依赖模块而没有单独的账户配置图。
+在本章，我们应该从一个新的包含demo数据的数据库开始，安装 `sale`, `document` 模块以及他们的依赖模块而没有单独的账户配置图。
 
 .. i18n: .. raw:: html
 .. i18n: 
