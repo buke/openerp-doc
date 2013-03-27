@@ -68,7 +68,7 @@
 ..
 
 每种类型的动作具有不同的功能和不同的配置参数。我们接下来将看到每种类型的动作，
-如何配置，影响系统的参数。
+如何配置，以及影响系统的参数。
 
 .. i18n: .. _client-action:
 .. i18n: 
@@ -90,10 +90,10 @@
 .. i18n: Client Action to print the invoice after it has been confirmed.
 ..
 
-这一行为在客户端执行，而且在客户端运行向导报告是一个好的主意。使用这种类型的行为可以使我们的系统像ERP一样在对发票进行确认后再打印。
-它也会在发票确认后进入付款向导。从技术上来讲我们能够运行所有客户执行的行为。我们能够执行 ir.actions.report.custom,
+这一动作在客户端执行，可以用来执行一个向导或报表。例如，一个客户端动作可以先打印一张发票随后运行付款向导。
+从技术上来讲我们能够运行所有客户端执行的动作。包括ir.actions.report.custom,
 ir.actions.report.xml, ir.actions.act_window, ir.actions.wizard, 和
-ir.actions.url. 下面这个例子向我们演示了如何配置客户端行为来打印确认后的发票.
+ir.actions.url. 下面这个例子向我们配置一个客户端动作来确认发票后立即打印.
 
 .. i18n: .. image:: images/client_action.png
 ..
@@ -103,7 +103,7 @@ ir.actions.url. 下面这个例子向我们演示了如何配置客户端行为�
 .. i18n: Important fields are:
 ..
 
-重要字段:
+要关注的字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -111,8 +111,8 @@ ir.actions.url. 下面这个例子向我们演示了如何配置客户端行为�
 .. i18n:                 client side. It must have one of the following types:
 ..
 
-:Object: 选择实现工作流服务器行为将要执行的对象
-:Client Action: 选择客户端边执行的行为，这些行为可以是如下种类种的一个:
+:Object: 动作相关工作流对应的对象
+:Client Action: 选择要执行的动作，这些动作必须是如下种类中的一个:
 
 .. i18n: * ir.actions.report.custom
 .. i18n: * ir.actions.report.xml
@@ -131,7 +131,7 @@ ir.actions.url. 下面这个例子向我们演示了如何配置客户端行为�
 .. i18n: ~~~~~~~~~
 ..
 
-迭代器Iteration
+循环
 ~~~~~~~~~~~~~~~
 
 .. i18n: Using a Python loop expression, it is possible to iterate over a
@@ -139,8 +139,9 @@ ir.actions.url. 下面这个例子向我们演示了如何配置客户端行为�
 .. i18n: line item must be historized. You can loop on expression object.move_lines and create another server action which is referred to do the historizing job.
 ..
 
-在Python的循环表达式基础上，你可以遍历服务器的行为。比如：当你确认一只股票出现向内移动时，
-你希望每一个行子项显示出它的历史变化，你能循环遍历这个对象。这种移动行子项并且创造另一个服务行为的动作被称为historising job.
+输入一个python变量作为循环表达式，然后选择要在这个表达式的结果集上遍历执行的服务端动作。
+例如，确认一张入库单以后，每个移库行都要记录一下状态的变更。可以把 object.move_lines
+作为表达式，然后创建另一个服务器动作来实现记录状态变更的功能。
 
 .. i18n: Python Code
 .. i18n: ~~~~~~~~~~~
@@ -156,16 +157,16 @@ Python 代码
 .. i18n: not needed.
 ..
 
-这个行为类型是执行一个多行的Python代码. 返回的值返回的值是变量 ``action``, 缺省值是
-``{}``. 如果你想弹出一个带有特定内容的特定的窗体的话, 这是很有用的.恕我直言，你不会需要的一个返回值.
+这个动作类型是执行一个多行的Python代码. 返回的值是 ``action``变量的值, 缺省值是
+``{}``. 仅在你需要弹出特定内容的特定窗体的时候需要返回值，一般来说返回空即可.
 
 .. i18n: Note: The code is executed using Python's ``exec`` built-in
 .. i18n: function. This function is run in a dedicated namespace containing the
 .. i18n: following identifiers: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
 ..
 
-记住: 被执行的代码使用了Python的 ``exec`` 函数. 这个函数在字典的命名空间定义，
-具有如下变量: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
+记住: 这些代码用Python的 ``exec`` 函数来执行. 这个函数有一些内置的变量可用，
+如: ``object``, ``time``, ``cr``, ``uid``, ``ids``.
 
 .. i18n: Trigger
 .. i18n: ~~~~~~~~
@@ -178,7 +179,7 @@ Python 代码
 .. i18n: options you need to set are:
 ..
 
-任何工作流的转换都可以使用触发。你需要设定的选型是:
+任何工作流的迁移都可以用这个来触发。你需要设定的参数是:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -192,17 +193,17 @@ Python 代码
 .. i18n:                select the right trigger. Models are shown in brackets. 
 ..
 
-:Object: 我们想执行行为的受工作流影响的对象.
-:Workflow on: 触发工作流的目标对象.
-:Trigger on: 字段应该填入目标模式记录的 ID, 比如. 如果你想触发一个发票的改变，你应该填入这个发票的 ID. 
-:Trigger Name: 是用来初始化转换的信号。下拉列表框列出了所有可能的触发.
-               记住: 列出了多有可能的转换，所欲确认你选择了正确的转换。括号内给出的是模型. 
+:Object: 动作相关工作流对应的对象.
+:Workflow on: 要触发的工作流对应的对象.
+:Trigger on: 源对象中指向目标对象的字段名. 
+:Trigger Name: 是用来触发迁移的信号signal。下拉列表框列出了数据库中所有信号.
+               注意：这里可选的是所有信号，但实际上你应该选择目标对象对应的才有意义。下拉选项括号内给出的是对象名. 
 
 .. i18n: The following example shows the configuration of a trigger used to
 .. i18n: automatically confirm invoices:
 ..
 
-下面的示例演示了一个触发器用来配置自动确认发票:
+下图演示了如何配置实现自动触发确认发票的动作:
 
 .. i18n: .. image:: images/trigger_action.png
 ..
@@ -213,7 +214,7 @@ Python 代码
 .. i18n: ~~~~~~~~~~~~~
 ..
 
-邮件行为Email Action
+邮件动作 Email Action
 ~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: This action fulfills a  common requirement for all business process, sending a confirmation by email
@@ -221,15 +222,14 @@ Python 代码
 .. i18n: goods takes place. 
 ..
 
-邮件行为是所有业务过程的共同要求，比如通过邮件确认销售订单、购买订单、发票、付款、货物运输等. 
+发邮件是所有业务处理的通用需求，比如通过邮件确认销售订单、采购订单、发票、付款、发货等. 
 
 .. i18n: Using this action does not require a dedicated email
 .. i18n: server: any existing SMTP email server and account can be used,
 .. i18n: including free email account (Gmail, Yahoo !, etc...)
 ..
 
-为了达到这个目的，我们只需要进行简单的配置就可以使邮件很容易的快速发送了。尽管不需要设置你自己的邮件服务器，你可以使用你想用的邮件服务和账号。尽管你没有自己的邮件服务，你可以使用免费的邮件服务账号，比如Gmail、Yahoo等等。
-(Gmail, Yahoo !, etc...)
+不需要自己搭建邮件服务器，你可以使用现有的免费邮件服务账号，比如Gmail、Yahoo等等。
 
 .. i18n: *Server Configuration*
 ..
@@ -281,7 +281,7 @@ Python 代码
 .. i18n: Important Fields are:
 ..
 
-重要字段:
+关注以下字段:
 
 .. i18n: :Object: the object affected by the workflow on for which we want to
 .. i18n:          run the action
@@ -297,10 +297,10 @@ Python 代码
 .. i18n:           exist in the model.
 ..
 
-:Object: 选择实现工作流服务器行为将要执行的对象
-:Contact: 这个字段表示我们想发送的目标邮件地址，并且在这个字段中系统会显示出相近的地址对象. 
-:Message: 在这个字段中你可以提供与当前对象相近的邮件信息模板。在发送时它会自动合并。用的格式语言与我们用来设计报表rmi的语言一致，
-          这里我们可以使用HTML规范中的标签来规范字段中的任何对象。比如上图中我们选择了[[]]发票对象.
+:Object:  动作相关的工作流相关的对象
+:Contact: 告诉系统我们要使用的收件人地址从对象的哪个字段来 
+:Message: 这个邮件模版里可以使用对象的字段作为占位符，在发送邮件时它会被字段值替换。用的格式与我们用来设计rml报表一样，
+          用[[ object.partner_id.name ]]来表示变量，还可以使用HTML标记来格式化。object就是我们上面指定的对象，可以使用其中的任意字段。
 
 .. i18n: After configuring this action, whenever an invoice is confirmed, an
 .. i18n: email such as the following is sent:
