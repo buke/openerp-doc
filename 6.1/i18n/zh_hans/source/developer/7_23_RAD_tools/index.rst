@@ -87,7 +87,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: In Extension Manager you have Add button, by clicking add button you will get opendialog box from which you will have to select ".zip" file.
 ..
 
-In Extension Manager you have Add button, by clicking add button you will get opendialog box from which you will have to select ".zip" file.
+在插件管理器窗口中, 点击 `Add` 按钮弹出文件选择框, 这时你选择下载的插件 openofficereport.zip 文件进行安装.
 
 .. i18n: .. image:: images/1_2.png
 ..
@@ -97,7 +97,7 @@ In Extension Manager you have Add button, by clicking add button you will get op
 .. i18n: After installation you will get OpenERP Report Menu and its Toolbar in Openoffice.org Writer.
 ..
 
-After installation you will get OpenERP Report Menu and its Toolbar in Openoffice.org Writer.
+插件安装完毕后,你可以在 Openoffice.org Writer 中发现多出来一个 `OpenERP Report` 菜单项.
 
 .. i18n: .. image:: images/2.png
 ..
@@ -111,7 +111,7 @@ After installation you will get OpenERP Report Menu and its Toolbar in Openoffic
 .. i18n: Open Report > Server Parameters.
 ..
 
-Server Parameters
+配置连接参数
 -----------------
 This Functionality is used to connect with OpenERP Server with different login mode.
 You can access that functionality by clicking on OpenERP button on toolbar or just go to
@@ -146,7 +146,7 @@ There is one additional functionality of changing server parameters by clicking 
 .. i18n: -----------------
 ..
 
-Open a New report
+创建一个新报表
 -----------------
 
 .. i18n: You can open this dialog box by clicking on Open Report -> Open a new report
@@ -176,7 +176,7 @@ This is first process to create new report, so you have to select module. By cli
 .. i18n: * The loop can be put into a table (the lines will then be repeated) or into an OpenOffice.org section.
 ..
 
-Add a loop
+循环
 ----------
 This functionality is used to create repeatIn statement in Open Report. You see this
 dialog box by clicking on Open Report -> Add a loop from menubar or just on this
@@ -214,8 +214,8 @@ some English type of name as here displayed | .partner.|
 .. i18n: button from toolbar. Also select the multiple field .
 ..
 
-Add a field
------------
+添加字段打印
+-----------------
 This functionality is used to create field statement in OpenReport. You see this dialog box
 by clicking on Open Report > Add a field from menubar or just this
 button from toolbar. Also select the multiple field .
@@ -229,7 +229,7 @@ button from toolbar. Also select the multiple field .
 .. i18n: -----------------
 ..
 
-Add an expression
+使用表达式
 -----------------
 
 .. i18n: This functionality is used to create expression which we can not add by using fields in
@@ -288,8 +288,8 @@ After click on 'ok' button you will get expression object just like displayed be
 .. i18n: It create the set Lang tag.
 ..
 
-Add lang tag
-------------
+使用翻译标签
+----------------
 As OpenERP can be used in several languages, reports must be translatable.
 But in a report, everything mustn't be translated: only the actual text and not the
 formatting codes. A field will be processed by the translation system if the XML tag
@@ -307,7 +307,7 @@ It create the set Lang tag.
 ..
 
 Modify
-------
+-----------------
 
 .. i18n: This functionality is used to modify existing repeatIn, Fields, or Expression in Open
 .. i18n: Report.
@@ -394,7 +394,7 @@ Bracket > Fields from menubar.
 .. i18n: --------------
 ..
 
-Add Attachment
+添加附件
 --------------
 
 .. i18n: You can attach the report with record using attachment and the model which add in
@@ -424,7 +424,7 @@ Note: Server side Add the base_model module this module available in trunk-extra
 .. i18n: * When you click on Export to RML It will open save file dialog box in which you can specify file name and destination of rml file to save
 ..
 
-Export to RML
+导出RML文件
 -------------
 * This functionality is used to generate rml from sxw. 
 * You Can access this tool from Open Report -> Export to RML in menubar.
@@ -438,8 +438,8 @@ Export to RML
 .. i18n: * You can access this feature by using clicking on Open Report > Send to the Server in menubar *
 ..
 
-Send to the Server
--------------------
+保存报表到OpenERP
+-----------------------
 This is the most important functionality available in Open Report Design tools
 * The basic feature of this functionality is to add new report or update existing report to Open Servein RML as well as SXW format.
 * You can access this feature by using clicking on Open Report > Send to the Server in menubar *
@@ -453,7 +453,7 @@ This is the most important functionality available in Open Report Design tools
 .. i18n: -----------------------
 ..
 
-Modify Existing Report
+修改报表
 -----------------------
 
 .. i18n: Openoffice.org Report Design tool provide functionality of modify existing report which
