@@ -198,7 +198,8 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: To update a partner, open the corresponding form, select `Edit` and change the required fields. As explained before, when a company is both one of your customers and a supplier, you just have to edit the partner form once to have changes applied to both customer and supplier.
 ..
 
-更新合作伙伴信息， 打开对应的表单，选择`编辑`然后修改需要更新的字段。正如之前解释过的，当一个公司既是供应商又是客户时，你只需要编辑一次这个合作伙伴表单，就会自动应用到供应商和客户上。
+更新合作伙伴信息， 打开对应的表单，选择 `编辑` 然后修改需要更新的字段。正如之前解释过的，当一个公司既是供应商又是客户时，你
+只需要编辑一次这个合作伙伴表单，就会自动应用到供应商和客户上。
 
 .. i18n: .. note:: Checkboxes
 .. i18n: 
@@ -254,13 +255,13 @@ OpenERP中合作伙伴的概念要比许多其他管理应用程序灵活得多.
 .. i18n: OpenERP also allows you to customize the ``Partner`` view to your needs. Click the `Manage Views` option if you want to add fields, delete fields or change the order of fields in a view.
 ..
 
-OpenERP同样允许根据你的需要定义合作伙伴视图。如果你要添加字段，删除字段或者修改视图中的字段顺序，点击 `管理视图`选项。
+OpenERP同样允许根据你的需要定义合作伙伴视图。如果你要添加字段，删除字段或者修改视图中的字段顺序，点击 `管理视图` 选项。
 
 .. i18n: Let us add the ``Birthday`` field to a contact, in the `Addresses` form view. To do so, go to the :menuselection:`Sales -->
 .. i18n: Address Book --> Addresses` menu and open any address in Form view. In the right menu bar, click `Manage Views`, then `Edit` because the corresponding view will already be preselected.
 ..
 
-在`地址`表单视图中给联系人添加一个``生日``  字段。要这样做, 转到 :menuselection:`Sales -->
+在 `地址` 表单视图中给联系人添加一个 ``生日`` 字段。要这样做, 转到 :menuselection:`Sales -->
 Address Book --> Addresses`:menuselection:`销售 -->地址簿 --> 地址` 菜单并打开任意一张表单视图。 在右侧菜单栏，点击 `管理视图`, 然后 `编辑`,因为相应的视图已经被选定。
 
 .. i18n: Go to the last line of the view and click the blue plus (+) sign to add a field to the `Communication` group. Proceed as in the figure below, then click the `Update` button.
