@@ -23,22 +23,21 @@
 .. i18n: or invoices.
 ..
 
-服务器动作(Server Action)是OpenErp 5.0以来推出的一项新的功能。对于客户来说，
-这是一个有趣的功能，可以充分满足他们的要求。它可以为客户日常的一些业务要求提供简单而又快速的配置。
-比如发送销售订单的电子确认邮件、货物的确认，货物的操作记录（确认、取消等）、
-或者需要一个可以进行销售购买和发票确认的向导报告操作的系统.
+服务器动作(Server Action)是OpenErp 5.0以来推出的一项新的功能。这个功能对于满足客户需求非常有用。
+它可以为客户常见的一些业务要求提供简单而又快速的配置界面。
+比如确认销售订单或发票时发送电子邮件、记录发票的开具和作废、或者在确认订单和发票的时候运行向导。
 
 .. i18n: Step 1: Definition of Server Action 
 .. i18n: -----------------------------------
 ..
 
-第一步：服务器操作的定义
+第一步：服务器动作的定义
 -----------------------------------
 
 .. i18n: Here is the list of the different action types supplied under the Server Action.
 ..
 
-下面列举了服务器操作的行为类型:
+下面列举了服务器动作的动作类型:
 
 .. i18n:        * Client Action
 .. i18n:        * Dummy
@@ -52,23 +51,24 @@
 .. i18n:        * Multi Action
 ..
 
-       * 客户端行为Client Action
-       * 虚拟行为Dummy
-       * 迭代器Iteration
+       * 客户端动作 Client Action
+       * 无动作 Dummy
+       * 迭代器 Iteration
        * Python 代码
-       * 触发器Trigger
-       * Email
-       * 消息服务SMS
-       * 创建对象Create Object
-       * 操作对象Write Object
-       * 多重行为Multi Action
+       * 触发器 Trigger
+       * 邮件 Email
+       * 短信 SMS
+       * 创建对象 Create Object
+       * 修改对象 Write Object
+       * 多个动作 Multi Action
 
 .. i18n: Each type of action has special features and different configuration
 .. i18n: parameters. The following sections review each action type and
 .. i18n: describe how to configure them, together with a list of parameters affecting the system.
 ..
 
-每一种行为类型具有特殊的功能和不同的配置参数。我们接下来将看到每一种行为类型的不同的参数配置是如何影响系统的.
+每种类型的动作具有不同的功能和不同的配置参数。我们接下来将看到每种类型的动作，
+如何配置，影响系统的参数。
 
 .. i18n: .. _client-action:
 .. i18n: 
@@ -78,7 +78,7 @@
 
 .. _client-action:
 
-客户端行为（Client Action）
+客户端动作（Client Action）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: This action executes on the client side. It can be used to run a
