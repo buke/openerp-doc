@@ -451,7 +451,8 @@ following example writes 'Additional Information' on the same object
 .. i18n: report and execute a wizard at the same time. 
 ..
 
-这个动作有一点限制的地方: 可以在服务端执行多个动作, 但是只有一个客户端动作. 这也是为什么不能在执行打印报表的同时无法打开珍上向导的原因. 
+这个动作有一点限制的地方: 可以在服务端执行多个动作, 但是只有一个客户端动作. 这也是为什么不能在执行打印报表的同时无法打开
+珍上向导的原因. 
 
 .. i18n: .. image:: images/multi_action.png
 ..
@@ -494,9 +495,8 @@ following example writes 'Additional Information' on the same object
 .. i18n: Select the server action in the box.
 ..
 
-工作流可以在: Administration >> Customization >>
-Workflow Definitions >> Workflows中访问. 打开相应的工作流,
-编辑要被触发的服务端动作. 选择要执行的动作.
+工作流可以在: :menuselection:`Administration --> Customization --> Workflow Definitions --> Workflows` 中访问. 打开相应的
+工作流,编辑要被触发的服务端动作. 选择要执行的动作.
 
 .. i18n: The following example shows how to associate the Print invoice action
 .. i18n: to the Open state of the Invoice workflow:
