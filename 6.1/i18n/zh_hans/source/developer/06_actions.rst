@@ -495,7 +495,7 @@ following example writes 'Additional Information' on the same object
 .. i18n: Select the server action in the box.
 ..
 
-工作流可以在: :menuselection:`Administration --> Customization --> Workflow Definitions --> Workflows` 中访问. 打开相应的
+工作流可以在: :menuselection:`设置(Administration) --> 自定义(Customization) --> 工作流(Workflow Definitions) --> 工作流(Workflows)` 中访问. 打开相应的
 工作流,编辑要被触发的服务端动作. 选择要执行的动作.
 
 .. i18n: The following example shows how to associate the Print invoice action
