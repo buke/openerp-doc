@@ -3,17 +3,15 @@
 .. i18n: ==========================================
 ..
 
-The Importance of Good Document Management
-==========================================
+良好的文档管理系统的重要性
+===============================
 
 .. i18n: Globalization means that workplaces are ever more geographically dispersed. This means that
 .. i18n: documents are also used more than ever by people in several
 .. i18n: countries and continents for communicating and collaborating.
 ..
 
-Globalization means that workplaces are ever more geographically dispersed. This means that
-documents are also used more than ever by people in several
-countries and continents for communicating and collaborating.
+全球化意味着工作地点更分散。这意味着文件的使用在国家与大洲之间的沟通和协作中更加频繁。
 
 .. i18n: You will see communication problems even between employees in the same office because they do not have
 .. i18n: easy access to the documents that they need. You find some documents kept by someone in the accounts
