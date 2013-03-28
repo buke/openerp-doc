@@ -113,14 +113,13 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 
 配置连接参数
 -----------------
-This Functionality is used to connect with OpenERP Server with different login mode.
-You can access that functionality by clicking on OpenERP button on toolbar or just go to
-Open Report > Server Parameters.
+你可以在菜单: :menuselection:`OpenERP Report --> Server Parameters` 或者点击工具栏上的 OpenERP 按钮,就可以以不同的用户
+身份连接到 OpenERP Server.
 
 .. i18n: The screen will look like
 ..
 
-The screen will look like
+点开后弹出窗体:
 
 .. i18n: .. image:: images/3.png
 ..
