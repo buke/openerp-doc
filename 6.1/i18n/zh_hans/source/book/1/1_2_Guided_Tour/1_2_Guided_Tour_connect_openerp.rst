@@ -11,9 +11,9 @@
 .. i18n: :guilabel:`Start Configuration`.
 ..
 
-Since this is the first time you have connected to OpenERP, you will be given the opportunity
-to configure the system. You may choose to either :guilabel:`Skip Configuration Wizards`
-or :guilabel:`Start Configuration`. We shall proceed with system configuration by clicking
+由于这是您第一次连接到 OpenERP, 你将有机会来配置系统.
+你可以选择其中一种 :guilabel:`Skip Configuration Wizards`
+或 :guilabel:`Start Configuration`. 我们将继续通过点击系统配置
 :guilabel:`Start Configuration`.
 
 .. i18n: Configuration consists of a set of wizards that help you through options for the installed modules.
@@ -22,8 +22,8 @@ or :guilabel:`Start Configuration`. We shall proceed with system configuration b
 .. i18n:     #.  :guilabel:`Configure Your Interface` : select ``Simplified`` and click :guilabel:`Next`.
 ..
 
-Configuration consists of a set of wizards that help you through options for the installed modules.
-Hardly anything is installed, so this is a very simple process at the moment.
+配置包括一组向导，它可以帮助你通过选项来安装模块。
+安装过程在这块是一个非常简单的.
    
     #.  :guilabel:`Configure Your Interface` : select ``Simplified`` and click :guilabel:`Next`.
 
