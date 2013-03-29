@@ -19,26 +19,21 @@
 .. i18n: form – quite a free-for-all.
 ..
 
-You will see communication problems even between employees in the same office because they do not have
-easy access to the documents that they need. You find some documents kept by someone in the accounts
-office, shared directories that serve everybody, some documents in paper form, others in electronic
-form – quite a free-for-all.
+你会看到即使在同一个办公室的雇员之间沟通都是有问题的，因为他们不容易获得他们所需要的文件。
+你发现有些文件是存放在在财务办公室。有些是作为每个人都可以访问的共享目录，有些文件是纸质，有些是电子文档。
 
 .. i18n: An explosion in the number of documents that a company needs does not help. If their storage and
 .. i18n: indexation are badly organized, these documents become useless because they are almost impossible to
 .. i18n: find.
 ..
 
-An explosion in the number of documents that a company needs does not help. If their storage and
-indexation are badly organized, these documents become useless because they are almost impossible to
-find.
+通过增加文件数量是解决不了这些问题的。如果文件的存档和索引组织得不好，这些文件就会变得毫无作用，因为他们是如此难以检索。
 
 .. i18n: The results of poor document management can lead to a significant loss of time. Ask yourself how
 .. i18n: often you find yourself looking for:
 ..
 
-The results of poor document management can lead to a significant loss of time. Ask yourself how
-often you find yourself looking for:
+文件管理不善的结果可能导致耗费大量的时间。问问自己，用了多久你才找到以下你所需要的文件：
 
 .. i18n: * A supplier catalogue that has been sent to a purchasing manager,
 .. i18n: 
@@ -60,24 +55,23 @@ often you find yourself looking for:
 .. i18n: * A complete history of communications between yourselves and a supplier about a given contract.
 ..
 
-* A supplier catalogue that has been sent to a purchasing manager,
+* 一份已经发送给采购经理的供应商目录，
 
-* A customer contract signed several months ago,
+* 一位客户几个月前签订的合同，
 
-* The final set of Terms and Conditions offered to a specific customer,
+* 提供给某个客户的条款和细则最终本，
 
-* The documents required for employing a new member of staff,
+* 对于雇佣新员工的要求细则的文档，
 
-* An order confirmation sent by a customer to one of your salespeople or, perhaps even more common,
-  when the relevant salesperson has gone on vacation, if you ever received such an order confirmation,
+* 由客户发送到销售人员的已确认的订单，甚至更为常见的：你收到订单确认但是相关的销售人员去度假了，
 
-* A procedure from your quality manual if there has been a process fault,
+* 一本你的有某个工序出错了的质量手册，
 
-* An email which was sent to one of your colleagues,
+* 一封已经发送你同事的电子邮件，
 
-* A document that you need to be a template for a specific type of contract,
+* 一个你需要的特定类型的合同样本，
 
-* A complete history of communications between yourselves and a supplier about a given contract.
+* 一份关于合同上的供应商的完整通信历史。
 
 .. i18n: Even worse than the loss of time, perhaps, the lack of good document management is bad for the
 .. i18n: quality of your organization and the service provided by your company. In such a company it is likely
