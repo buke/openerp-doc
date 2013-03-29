@@ -11,17 +11,16 @@
 .. i18n: you will have to find somebody who does have it to create this seed database.
 ..
 
-Use the technique outlined in :ref:`ch-inst` to create a new database, \ ``openerp_ch02``\  . This
-database will contain the demonstration data provided with OpenERP and a large proportion of the
-core OpenERP functionality. You will need to know your super administrator password for this – or
-you will have to find somebody who does have it to create this seed database.
+概述使用的技术 :ref:`ch-inst` 创建一个新的数据库, \ ``openerp_ch02``\  . 这个
+数据库包含OpenERP提供的示例数据和OpenERP大范围的核心功能.
+你需要知道系统的超级管理员的密码 – 你就可以了解到创建其他数据库.
 
 .. i18n: Start the database creation process from the :guilabel:`Login` page by clicking
 .. i18n: :guilabel:`Databases` and then completing the following fields on the :guilabel:`Create Database` form:
 ..
 
-Start the database creation process from the :guilabel:`Login` page by clicking
-:guilabel:`Databases` and then completing the following fields on the :guilabel:`Create Database` form:
+从这里启动数据库的创建 :guilabel:`Login` 页然后点击
+:guilabel:`Databases` 然后打开 :guilabel:`Create Database` 填写下列字段完成表单:
 
 .. i18n: *  :guilabel:`Super admin password` : by default it is \ ``admin``\  , if you or your system
 .. i18n:    administrator have not changed it,
@@ -37,8 +36,7 @@ Start the database creation process from the :guilabel:`Login` page by clicking
 .. i18n: *  :guilabel:`Confirm password` : \ ``admin``\  .
 ..
 
-*  :guilabel:`Super admin password` : by default it is \ ``admin``\  , if you or your system
-   administrator have not changed it,
+*  :guilabel:`Super admin password` : 缺省是 \ ``admin``\  , 如果你的系统管理员没有更改,
 
 *  :guilabel:`New database name` : \ ``openerp_ch02``\  ,
 
