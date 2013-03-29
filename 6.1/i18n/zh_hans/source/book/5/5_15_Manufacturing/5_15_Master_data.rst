@@ -229,9 +229,8 @@ To describe how this shelf should be assembled, you define a bill of materials f
 .. i18n: calculate the actual products that will be consumed:
 ..
 
-The bills of materials are then used by the software to calculate the raw material needs based on the
-requirements of the finished products. So if you want to manufacture 10 shelves, the system can
-calculate the actual products that will be consumed:
+物料清单被系统用来，根据成品的需求，计算原材料的物料需求。
+如果你想制作10个书架，系统会计算出实际会消耗的原材料数量：
 
 .. i18n: .. table:: Total Quantities per Shelf
 .. i18n: 
@@ -322,9 +321,8 @@ and click the `New` button to define a new bill of materials.
 .. i18n: name of the bill of materials and the default Unit of Measure for this product.
 ..
 
-In the ``Product`` field of the bill of materials, you should set the finished product, which will be
-manufactured or assembled. Once the product has been selected, OpenERP automatically completes the
-name of the bill of materials and the default Unit of Measure for this product.
+在物料清单页面的``产品``字段，你需要填写成品料号，即最终生产完工的产成品。
+一旦料号呗选择，OpenERP自动填入物料清单的名字，以及产品的主单位(UOM)。
 
 .. i18n: The type of BoM (:guilabel:`BoM Type` : ``Sets/Phantom`` or ``Normal BoM``) and
 .. i18n: the :guilabel:`Routing` field will be described in more detail later in the chapter.
