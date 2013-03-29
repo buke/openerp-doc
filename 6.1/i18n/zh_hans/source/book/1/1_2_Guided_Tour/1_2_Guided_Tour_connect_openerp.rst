@@ -11,9 +11,9 @@
 .. i18n: :guilabel:`Start Configuration`.
 ..
 
-Since this is the first time you have connected to OpenERP, you will be given the opportunity
-to configure the system. You may choose to either :guilabel:`Skip Configuration Wizards`
-or :guilabel:`Start Configuration`. We shall proceed with system configuration by clicking
+由于这是您第一次连接到 OpenERP, 你将有机会来配置系统.
+你可以选择其中一种 :guilabel:`Skip Configuration Wizards`
+或 :guilabel:`Start Configuration`. 我们将继续通过点击系统配置
 :guilabel:`Start Configuration`.
 
 .. i18n: Configuration consists of a set of wizards that help you through options for the installed modules.
@@ -22,10 +22,10 @@ or :guilabel:`Start Configuration`. We shall proceed with system configuration b
 .. i18n:     #.  :guilabel:`Configure Your Interface` : select ``Simplified`` and click :guilabel:`Next`.
 ..
 
-Configuration consists of a set of wizards that help you through options for the installed modules.
-Hardly anything is installed, so this is a very simple process at the moment.
+配置包括一组向导，它可以帮助你通过选项来安装模块。
+安装过程在这块是一个非常简单的.
    
-    #.  :guilabel:`Configure Your Interface` : select ``Simplified`` and click :guilabel:`Next`.
+    #.  :guilabel:`Configure Your Interface` : 选择 ``Simplified`` 并点击 :guilabel:`Next`.
 
 .. i18n:     #.  At the :guilabel:`Company Configuration` step, you should select your own :guilabel:`Company Name` and 
 .. i18n: 	:guilabel:`Currency`. You may add your company address, contact and other details and a logo,
@@ -36,13 +36,13 @@ Hardly anything is installed, so this is a very simple process at the moment.
 .. i18n: 	You are now connected to OpenERP and can start using the system as an Administrator.
 ..
 
-    #.  At the :guilabel:`Company Configuration` step, you should select your own :guilabel:`Company Name` and 
-	:guilabel:`Currency`. You may add your company address, contact and other details and a logo,
-	if you have one, that appears on reports. Then, click :guilabel:`Next`.
+    #.  在 :guilabel:`Company Configuration` 步骤, 输入你自己的 :guilabel:`Company Name` 和 
+	:guilabel:`Currency`. 这里可以加公司地址, 联系方式等其他详细信息和公司 Logo,
+	如果你有的话, Logo将在报表上展示. 然后, 点击 :guilabel:`Next`.
 
-    #.  The :guilabel:`Install Applications` section would enable you to add applications to
-	your system. For now, click :guilabel:`Skip` to proceed without installing any applications.
-	You are now connected to OpenERP and can start using the system as an Administrator.
+    #.  在 :guilabel:`Install Applications` 部分将允许你添加应用到你的
+	系统中. 眼下, 点击 :guilabel:`Skip` 不安装任何应用.
+	你现在连接到 OpenERP 可以开始以管理员用户来使用系统.
 
 .. i18n: .. index::
 .. i18n:    single:  administrator

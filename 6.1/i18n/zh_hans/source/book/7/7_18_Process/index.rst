@@ -148,10 +148,7 @@
 .. i18n: of your management system.
 ..
 
-To help the company meet its quality requirements and to form these processes
-into assistance integrated with everyday work, OpenERP supplies a Corporate
-Intelligence\ |reg| tool that enables you to put company processes at the heart
-of your management system.
+为了帮助公司满足其管理质量的追求并且把这些管理流程融入到日常工作，OpenERP提供了一个能让你把公司的流程置入管理系统的企业级智能工具\ |reg| .
 
 .. i18n: The system enables:
 ..
