@@ -151,7 +151,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: You can open this dialog box by clicking on Open Report -> Open a new report
 ..
 
-You can open this dialog box by clicking on Open Report -> Open a new report
+点击 :menuselection:`OpenERP Report --> Open a new report` 打开创建新报表的对话框.
 
 .. i18n: .. image:: images/4.png
 ..
