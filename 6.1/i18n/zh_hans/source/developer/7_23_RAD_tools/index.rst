@@ -129,12 +129,12 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: After giving proper Server URL you can select Database available in selected server and login as the given user.
 ..
 
-After giving proper Server URL you can select Database available in selected server and login as the given user.
+指定正确的 Server URL 后, 你就可以用相应的用户登陆进该 OpenERP Server了.
 
 .. i18n: There is one additional functionality of changing server parameters by clicking on 'Change' button
 ..
 
-There is one additional functionality of changing server parameters by clicking on 'Change' button
+你还可以通过点击 'Change' 按钮来修改这些配置参数. 
 
 .. i18n: .. image:: images/3_1.png
 ..
