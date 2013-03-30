@@ -321,7 +321,7 @@ and click the `New` button to define a new bill of materials.
 .. i18n: name of the bill of materials and the default Unit of Measure for this product.
 ..
 
-在物料清单页面的``产品``字段，你需要填写成品料号，即最终生产完工的产成品。
+在物料清单页面的 ``产品`` 字段，你需要填写成品料号，即最终生产完工的产成品。
 一旦料号呗选择，OpenERP自动填入物料清单的名字，以及产品的主单位(UOM)。
 
 .. i18n: The type of BoM (:guilabel:`BoM Type` : ``Sets/Phantom`` or ``Normal BoM``) and
