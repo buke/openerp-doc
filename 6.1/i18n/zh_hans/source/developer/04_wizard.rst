@@ -2214,5 +2214,4 @@ if you define an action to open the second view of a wizard.
 .. i18n: 5. Finally, you need to cleanup the module, update the python __init__.py files if you have changed the python file name for the wizard, and add your new XML files in the update_xml list in the __openerp__.py file.
 ..
 
-5. Finally, you need to cleanup the module, update the python __init__.py files if you have changed the python file name for the wizard, and add your new XML files in the update_xml list in the __openerp__.py file.
-最后，你必须清理模块，如果你修改该了向导python文件名，那么必须更新python的__init__.py文件，同时对你新的XML文件加入到__openerp__.py文件的update_xml字段中。
+5.最后，你必须清理模块，如果你修改该了向导python文件名，那么必须更新python的__init__.py文件，同时对你新的XML文件加入到__openerp__.py文件的update_xml字段中。
