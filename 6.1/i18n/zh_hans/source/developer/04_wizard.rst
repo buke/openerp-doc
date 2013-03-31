@@ -2175,9 +2175,8 @@ if you define an action to open the second view of a wizard.
 ------------
 
 .. i18n: To open a wizard view via a menuitem you can use the following syntax for the menu, using the XML id of the corresponding act_window.
-.
 
-你可以使用下面的菜单语法打开一个wizard视图,  使用相应的act_window的XML id.
+你可以使用下面的菜单语法打开一个向导视图(wizard view),  使用相应的act_window的XML id.
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2199,7 +2198,7 @@ if you define an action to open the second view of a wizard.
 .. i18n: 4. To open a wizard view via a button in another form you can use the following syntax for the button, using the XML id of the corresponding act_window. This can be used to have multiple steps in your wizard:
 ..
 
-4. To open a wizard view via a button in another form you can use the following syntax for the button, using the XML id of the corresponding act_window. This can be used to have multiple steps in your wizard:
+4.打开向导视图(wizard view)经由“其他”按钮你可以使用下面的语法，应用相应的act_window里的XML id，构建按钮。这个常被应用到制作多步骤向导中。
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2216,3 +2215,4 @@ if you define an action to open the second view of a wizard.
 ..
 
 5. Finally, you need to cleanup the module, update the python __init__.py files if you have changed the python file name for the wizard, and add your new XML files in the update_xml list in the __openerp__.py file.
+最后，你必须清理模块，如果你修改该了向导python文件名，那么必须更新python的__init__.py文件，同时对你新的XML文件加入到__openerp__.py文件的update_xml字段中。
