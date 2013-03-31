@@ -17,10 +17,10 @@
 .. i18n: manufacturing plan is given by the figure :ref:`fig-mrparm2`.
 ..
 
-Bills of Materials are documents that describe the list of raw materials used to make a finished
-product. To illustrate the concept of specification, you will work on a shelf (or cabinet) where the
+物料清单(Bill of Materials)是用来列举制造一个成品(finished product)所需要的原材料(raw materials)列表。
+To illustrate the concept of specification, you will work on a shelf (or cabinet) where the
 manufacturing plan is given by the figure :ref:`fig-mrparm2`.
-
+(为了解释本章节的内容，你会生产一个生产计划指定的书架(或橱柜).)
 .. i18n: .. _fig-mrparm2:
 .. i18n: 
 .. i18n: .. figure:: images/mrp_armoire.png
@@ -41,7 +41,8 @@ manufacturing plan is given by the figure :ref:`fig-mrparm2`.
 .. i18n: The shelf is assembled from raw materials and intermediate assemblies. The Image Code refers to the picture, the Product Reference is the corresponding code in OpenERP.
 ..
 
-The shelf is assembled from raw materials and intermediate assemblies. The Image Code refers to the picture, the Product Reference is the corresponding code in OpenERP.
+书架由原材料和中间件(intermediate assemblies)组成。
+ The Image Code refers to the picture, the Product Reference is the corresponding code in OpenERP.
 
 .. i18n: Change the unit of the Wood Lintel 4m (LIN40) product to ``m`` instead of PCE.
 ..
@@ -110,7 +111,9 @@ Change the unit of the Wood Lintel 4m (LIN40) product to ``m`` instead of PCE.
 .. i18n: To describe how this shelf should be assembled, you define a bill of materials for each intermediate product and for the final shelf assembly. These are shown in the tables below. You can start from the demo data and complete them according to the specifications. To create or change a bill of materials, go to :menuselection:`Manufacturing --> Master Data --> Bill of Materials`.
 ..
 
-To describe how this shelf should be assembled, you define a bill of materials for each intermediate product and for the final shelf assembly. These are shown in the tables below. You can start from the demo data and complete them according to the specifications. To create or change a bill of materials, go to :menuselection:`Manufacturing --> Master Data --> Bill of Materials`.
+为了揭示书架是如何组装的(assembled)，你需要定义每个中间件(intermediate product)的BOM以及最终书架的BOM。
+BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成这些BOM。
+新建或者更改BOM(bill of materials)，菜单路径为 :menuselection:`Manufacturing --> Master Data --> Bill of Materials`.
 
 .. i18n: .. table:: Bill of Materials for 1 SHE100 Unit (already defined)
 .. i18n: 
@@ -328,15 +331,14 @@ and click the `New` button to define a new bill of materials.
 .. i18n: the :guilabel:`Routing` field will be described in more detail later in the chapter.
 ..
 
-The type of BoM (:guilabel:`BoM Type` : ``Sets/Phantom`` or ``Normal BoM``) and
-the :guilabel:`Routing` field will be described in more detail later in the chapter.
+BOM的类型 (:guilabel:`BoM Type` : ``Sets/Phantom`` or ``Normal BoM``) 及 :guilabel:`routing` field ，会在后续章节解释。
 
 .. i18n: Now you can select the raw materials (``Components``) that are used to manufacture the finished
 .. i18n: product. The quantities are set out based on the quantities of finished product and the quantities needed to produce them from the bill of materials.
 ..
 
-Now you can select the raw materials (``Components``) that are used to manufacture the finished
-product. The quantities are set out based on the quantities of finished product and the quantities needed to produce them from the bill of materials.
+现在你可以选择最终用来生产成品的原材料 (``Components``) 。
+The quantities are set out based on the quantities of finished product and the quantities needed to produce them from the bill of materials.
 
 .. i18n: .. index::
 .. i18n:    single: BoM; revisions
@@ -348,7 +350,7 @@ product. The quantities are set out based on the quantities of finished product 
 .. i18n: The second tab, :guilabel:`Revisions`, is used to register all the changes made to the bill of materials. On each change, you can specify a revision number and some notes on the modifications you carried out.
 ..
 
-The second tab, :guilabel:`Revisions`, is used to register all the changes made to the bill of materials. On each change, you can specify a revision number and some notes on the modifications you carried out.
+第二个标签页, :guilabel:`Revisions`, 用来记录该BOM的所有更改信息。 在每次更改BOM的时候，你需要指定一个新的版本号，同时填写本次BOM更改的内容描述。
 
 .. i18n: .. note:: Simplified View
 .. i18n: 
@@ -429,7 +431,9 @@ The final part of the third tab lets you set some properties for the product's m
 .. i18n: In OpenERP, each line of a bill of materials may itself be a bill of materials. This allows you to define BoMs with several levels. Instead of defining several BoMs for the shelf in the figure :ref:`fig-mrparm2`, you could define the single bill of materials below:
 ..
 
-In OpenERP, each line of a bill of materials may itself be a bill of materials. This allows you to define BoMs with several levels. Instead of defining several BoMs for the shelf in the figure :ref:`fig-mrparm2`, you could define the single bill of materials below:
+在OpenERP中，物料清单(Bill of materials)的每一行(物料)可能自己就是一个BOM。
+这就允许你将BOM定义为多层的(several levels)
+Instead of defining several BoMs for the shelf in the figure :ref:`fig-mrparm2`, you could define the single bill of materials below:
 
 .. i18n: .. table:: Single Bill of Materials for 1 SHE100 Unit
 .. i18n: 
