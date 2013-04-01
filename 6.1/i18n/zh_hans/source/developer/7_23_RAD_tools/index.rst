@@ -163,9 +163,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: 'Use Module in Report' selected module will be used to create report.
 ..
 
-By using above window you can select module for which you want to create report.
-This is first process to create new report, so you have to select module. By clicking on
-'Use Module in Report' selected module will be used to create report.
+在上面的窗口中,选择相应模块来创建与该模块相关的报表.
 
 .. i18n: Add a loop
 .. i18n: ----------
