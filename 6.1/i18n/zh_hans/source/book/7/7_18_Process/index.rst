@@ -153,7 +153,7 @@
 .. i18n: The system enables:
 ..
 
-The system enables:
+这个系统能做到:
 
 .. i18n: * new employees to learn how to use the software by graphically and dynamically, discovering how each
 .. i18n:   document and action works,
@@ -171,20 +171,17 @@ The system enables:
 .. i18n: * an employee to become more aware of his role in the whole environment.
 ..
 
-* new employees to learn how to use the software by graphically and dynamically, discovering how each
-  document and action works,
+* 通过软件直观动态给新员工显示各种单据内容和其作业操作,
 
-* easy access to the all the links to a document and everything that is attached to it,
+* 很容易访问到每个单据的所有关联内容,
 
-* people to see both a high-level map and the detail of all the company's processes,
+* 让大家既能看到公司的整体流程图,又能知道公司流程的所有细节,
 
-* access to a graphical model and integrated quality manual for rapid access that depends on the
-  work context,
+* 通过图形化模块和集成的质量手册能够快速访问到作业所需内容,
 
-* use of a knowledge base and capitalization of that knowledge for all of the company's actions in
-  the form of interactive processes,
+* 将知识库包括公司所有对运营有价值资料应用到交互形式的流程之中,
 
-* an employee to become more aware of his role in the whole environment.
+* 让员工可以更了解自己在整个公司里的职责.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
