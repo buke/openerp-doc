@@ -175,10 +175,9 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 
 循环
 ----------
-This functionality is used to create repeatIn statement in Open Report. You see this
-dialog box by clicking on Open Report -> Add a loop from menubar or just on this
-button from toolbar.
-* The loop can be put into a table (the lines will then be repeated) or into an OpenOffice.org section.
+为了在 OpenERP Report 中循环输出数据. 只需要打开菜单 :menuselection:`OpenERP Report --> Add a loop` 或者 点击工具栏的
+按钮 激活下面的窗口.
+* 循环部分也可以放到表格或者OpenOffice.org的部件中.
 
 .. i18n: .. image:: images/5.png
 ..
