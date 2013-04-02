@@ -23,13 +23,7 @@
 .. i18n: there, so that the software is robust.
 ..
 
-Workflows are used to define the behaviour of a given document. They are used
-by developers and system implementers to determine which object should execute
-which actions and at which moments. These are principally technical processes
-defined in a vertical way on the lifecycle of a complete object (represented by
-a document). Changing a workflow will have a direct impact on the behaviour of
-the software in response to user actions. You handle all possible exceptions
-there, so that the software is robust.
+工作流通常用于定义给定单据的行为。它们是被开发人员使用且由系统实施者来确定哪个对象在哪个时刻应执行哪些操作。这些主要是整个对象（比如一个单据）生命周期的垂直方式 中定义的技术流程。工作流的改变会对用户操作所对应的软件行为产生直接的影响。在哪里你要处理所有可能的异常，让软件很健全.
 
 .. i18n: .. figure:: images/process_sale_workflow.png
 .. i18n:    :scale: 75
@@ -42,7 +36,7 @@ there, so that the software is robust.
    :scale: 75
    :align: center
 
-   *Example of a workflow handling a customer order*
+   *一个客户订单的工作流范例*
 
 .. i18n: Unlike workflows, user processes represent workflows across all of a company
 .. i18n: and its documents. They are used by end-users to locate an action for more
