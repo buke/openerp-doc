@@ -1995,7 +1995,7 @@ New Wizard File : <<module_name>>_<<filename>>.py
 .. i18n: Convert the views into real view records defined on the model of your wizard: 
 ..
 
-Convert the views into real view records defined on the model of your wizard: 
+转换视图到实际视图(real view)显示你的向导模块定义：
 
 .. i18n: Old Wizard File : wizard_product_margin.py
 .. i18n: ------------------------------------------
@@ -2095,7 +2095,7 @@ Default_focus attribute
 .. i18n: Note: For all states in the old wizard, we need to create buttons in new approach.      
 ..
 
-Note: For all states in the old wizard, we need to create buttons in new approach.      
+注意：在旧向导全部状态下，我们应该用新途径建立按钮。
 
 .. i18n: 2. To open the new wizard, you need to register an action that opens the first view on your wizard object. You will need to do the same for each view if your wizard contains several views. To make the view open in a pop-up window you can add a special target='new' field in the action: 
 ..
@@ -2214,4 +2214,4 @@ if you define an action to open the second view of a wizard.
 .. i18n: 5. Finally, you need to cleanup the module, update the python __init__.py files if you have changed the python file name for the wizard, and add your new XML files in the update_xml list in the __openerp__.py file.
 ..
 
-5.最后，你必须清理模块，如果你修改该了向导python文件名，那么必须更新python的__init__.py文件，同时对你新的XML文件加入到__openerp__.py文件的update_xml字段中。
+5.最后，你必须清理模块，如果你修改该了向导python文件名，那么必须更新__init__.py的python文件，同时对你新的XML文件加入到__openerp__.py文件的update_xml字段中。
