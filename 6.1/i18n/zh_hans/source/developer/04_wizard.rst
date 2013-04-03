@@ -2095,7 +2095,7 @@ Default_focus attribute
 .. i18n: Note: For all states in the old wizard, we need to create buttons in new approach.      
 ..
 
-注意：在旧向导全部状态下，我们应该用新途径建立按钮。
+Note: 在旧向导全部状态下，我们应该用新途径建立按钮。
 
 .. i18n: 2. To open the new wizard, you need to register an action that opens the first view on your wizard object. You will need to do the same for each view if your wizard contains several views. To make the view open in a pop-up window you can add a special target='new' field in the action: 
 ..
