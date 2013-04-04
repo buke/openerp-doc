@@ -187,7 +187,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: After click on 'ok' button you will get repeatIn object just like displayed below.
 ..
 
-After click on 'ok' button you will get repeatIn object just like displayed below.
+点击 'OK' 按钮,就可以得到一个可循环的对象,参见下图:
 
 .. i18n: .. image:: images/5_1.png
 ..
@@ -199,9 +199,8 @@ After click on 'ok' button you will get repeatIn object just like displayed belo
 .. i18n: some English type of name as here displayed | .partner.|
 ..
 
-Above report statement is written in Input Field a special functionality available in
-Openoffice.org. In which main statement available in background and it will display
-some English type of name as here displayed | .partner.|
+上面完成了在 OpenOffice.org 报表中使用一个 Input 字段的功能. 并且这个字段会在文档上表现为一个深色背景以及
+你在变量名那里输入的英文: } .partner.|
 
 .. i18n: Add a field
 .. i18n: -----------
