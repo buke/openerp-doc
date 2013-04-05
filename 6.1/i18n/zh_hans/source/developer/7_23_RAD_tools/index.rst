@@ -230,8 +230,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: Open Report. You see this dialog box by clicking on OpenReport - >Add an expression from menubar.
 ..
 
-This functionality is used to create expression which we can not add by using fields in
-Open Report. You see this dialog box by clicking on OpenReport - >Add an expression from menubar.
+还可以为 OpenERP Report 针对字段创建一些表达式. 点击 :menuselection:`OpenERP Report --> Add an expression` 象下图这样.
 
 .. i18n: * Using the Expression button you can enter expressions in the Python language. These expressions can use all of the object's fields for their calculations. For example if you make a report on an order you can use the following expression:
 ..
