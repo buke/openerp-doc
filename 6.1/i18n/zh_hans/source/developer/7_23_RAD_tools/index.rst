@@ -211,9 +211,8 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 
 添加字段打印
 -----------------
-This functionality is used to create field statement in OpenReport. You see this dialog box
-by clicking on Open Report > Add a field from menubar or just this
-button from toolbar. Also select the multiple field .
+如果需要在 OpenERP Report 中使用对象的其他字段, 你需要点开工具栏按钮或者 :menuselection:`OpenERP Report --> Add a Field` 菜单
+打开下图的对话框,选择一个或者多个字段.
 
 .. i18n: .. image:: images/6.png
 ..
