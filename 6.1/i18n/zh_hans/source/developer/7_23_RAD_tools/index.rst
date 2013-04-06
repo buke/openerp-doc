@@ -235,7 +235,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: * Using the Expression button you can enter expressions in the Python language. These expressions can use all of the object's fields for their calculations. For example if you make a report on an order you can use the following expression:
 ..
 
-* Using the Expression button you can enter expressions in the Python language. These expressions can use all of the object's fields for their calculations. For example if you make a report on an order you can use the following expression:
+* 点 Expression 按钮,你可以直接输入 Python表达式. 表达式可以用于报表涉及对象的所有字段计算. 例如, 你可以在订单报表中使用如下的表达式:
 
 .. i18n: .. code-block:: python
 .. i18n: 
