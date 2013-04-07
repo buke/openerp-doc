@@ -524,7 +524,7 @@ To configure a rule on an object, use the menu :menuselection:`Administration --
 Security --> Record Rules`. The fields in the ``ir.rule`` object describe:
 
 
-要设置对象上的规则，使用菜单:menuselection:`Administration -->
+要设置对象上的规则，使用菜单 :menuselection:`Administration -->
 安全设定 --> 记录规则` 。 ``ir.rule`` 对象中的字段领域描述：
 
 
