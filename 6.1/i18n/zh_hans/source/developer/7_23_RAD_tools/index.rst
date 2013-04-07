@@ -254,7 +254,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: In this example, amount_total is a field from the order object. The result will be 90% of the total of the order, formatted to two decimal places.
 ..
 
-In this example, amount_total is a field from the order object. The result will be 90% of the total of the order, formatted to two decimal places.
+在上面的例子中, amount_total 是订单对象的一个字段. 上面的表达式则将字段的金额9折后按两位小数的格式输出.
 
 .. i18n: .. image:: images/7.png
 ..
@@ -264,7 +264,7 @@ In this example, amount_total is a field from the order object. The result will 
 .. i18n: After click on 'ok' button you will get expression object just like displayed below
 ..
 
-After click on 'ok' button you will get expression object just like displayed below
+点击 'ok' 按钮后, 就会得到一个 `表达式` 对象, 如下图所示
 
 .. i18n: .. image:: images/7_1.png
 ..
