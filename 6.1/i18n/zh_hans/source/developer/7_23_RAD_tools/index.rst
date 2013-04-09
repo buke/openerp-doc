@@ -283,11 +283,9 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 
 使用翻译标签
 ----------------
-因为 OpenERP 是多语言的, 所以报表也必须要支持多语言翻译. 担是报表中并非所有项都需要翻译:  类似那些用于格式
-化输入的部分,就不应该做翻译处理. A field will be processed by the translation system if the XML tag
-which surrounds it (whatever it is) has a t="1" attribute. The server will translate all the
-fields with such attributes in the report generation process.
-It create the set Lang tag.
+因为 OpenERP 是多语言的, 所以报表也必须要支持多语言翻译. 但是报表中并非所有项都需要翻译:  类似那些用于格式
+化输入的部分,就不应该做翻译处理. 如果XML标签含有属性 `t="1"` 的话, 则这个字段会被处理成多语言字段. 在报表生
+成的时候, 服务器会自动处理该字段为含有<lang>标签的字段.
 
 .. i18n: .. image:: images/8.png
 ..
