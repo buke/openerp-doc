@@ -296,7 +296,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: ------
 ..
 
-Modify
+修改
 -----------------
 
 .. i18n: This functionality is used to modify existing repeatIn, Fields, or Expression in Open
@@ -304,14 +304,13 @@ Modify
 .. i18n: * This functionality will work with cursor you have to place your current cursor before the report statement and it will open dialog box after detecting that statement is either Expression, RepeatIn or Fields.
 ..
 
-This functionality is used to modify existing repeatIn, Fields, or Expression in Open
-Report.
+修改 OpenERP Report 中的 repeatIn, 字段及表达式.
 * This functionality will work with cursor you have to place your current cursor before the report statement and it will open dialog box after detecting that statement is either Expression, RepeatIn or Fields.
 
 .. i18n: * You see this dialog by clicking on Open Report -> Modify from menubar. 
 ..
 
-* You see this dialog by clicking on Open Report -> Modify from menubar. 
+* 点击 :menuselection:`OpenERP Report --> Modify` 菜单弹出下面的对话框.
 
 .. i18n: .. image:: images/9.png
 ..
