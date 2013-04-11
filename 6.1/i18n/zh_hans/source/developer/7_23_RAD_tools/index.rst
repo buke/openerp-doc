@@ -415,8 +415,8 @@ Note: Server side Add the base_model module this module available in trunk-extra
 
 导出RML文件
 -------------
-* This functionality is used to generate rml from sxw. 
-* You Can access this tool from Open Report -> Export to RML in menubar.
+* 可以将 sxw 文件转化生成相应的 rml 文件.
+* 点击 :menuselection:`OpenERP Report --> Export to RML` 菜单.
 * The basic feature of this functionality is now you can create your rml file in just few mouse clicks. The  main requirements of this utility is you must have to save your report in Open Server using Send to the Server functionality. 
 * When you click on Export to RML It will open save file dialog box in which you can specify file name and destination of rml file to save
 
