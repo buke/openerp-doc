@@ -205,8 +205,7 @@ OpenERP涵盖以下主要评价功能:
 ..
 
 一个评价计划是一系列的阶段，每一阶段对应一个评价表。这个评价表只不过是一个调查，一个通过问卷调查评估的工具。在
- :menuselection:`工具 --> 调查 --> 定义调查 --> 调查` :menuselection:`Tools --> Surveys --> Define Surveys --> Surveys` 中设定调查。一个评价开始后，采访要求在评价计划的基础上自动创建。如果你要建立额外的采访要求，你
-必须将采访与 :guilabel:`调查` 相连接。这个调查可以处于任何状态（甚至是 ``草稿`` ），但是要启用采访时，调查必须处于 ``打开`` 状态。
+ :menuselection:`工具 --> 调查 --> 定义调查 --> 调查` :menuselection:`Tools --> Surveys --> Define Surveys --> Surveys` 中设定调查。一个评价开始后，采访要求在评价计划的基础上自动创建。如果你要建立额外的采访要求，你必须将采访与 :guilabel:`调查` 相连接。这个调查可以处于任何状态（甚至是 ``草稿`` ），但是要启用采访时，调查必须处于 ``打开`` 状态。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..

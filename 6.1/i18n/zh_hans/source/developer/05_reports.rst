@@ -332,7 +332,7 @@ Python中的每个对象都有自己的逻辑值(TRUE或FALSE):
 .. i18n: section on `Python's boolean operators`_.
 ..
 
-可以使用更复杂的的结构. 可以参照python 手册章节 `Python's boolean operators`_ .
+可以使用更复杂的的结构。可以参照python 手册章节 `Python's boolean operators`_ 。
 
 .. i18n: python function "filter" can... filter: try something like:
 ..

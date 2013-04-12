@@ -215,7 +215,7 @@ Python 代码
 ..
 
 邮件动作 Email Action
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. i18n: This action fulfills a  common requirement for all business process, sending a confirmation by email
 .. i18n: whenever sales order, purchase order, invoice, payment or shipping of

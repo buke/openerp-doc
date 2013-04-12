@@ -184,8 +184,7 @@ OpenERP 为高效的假期管理流程提供了如下的功能:
 
 员工点击 :guilabel:`确认` 后将准假申请提交给他的领导等待审批。经理可以在 :menuselection:`人力资源 --> 假期 --> 准假申请` :menuselection:`Human Resources --> Holidays --> Leave Requests` （还是“要审批的请假申请”）”中
 找到等待审批的员工准假申请，可以点击 :guilabel:`清除` 或者 :guilabel:`过滤器` 。经理可以打开一个待审批的申请然后点击 :guilabel:`拒绝` 按钮拒绝申请或者点击
- :guilabel:`审批` 按钮批准申请。如果是 :guilabel:`双重验证` 类型的准假申请，最后审批的经理将决定申请的最终结果，申请将从最后的 ``待审批`` 变为
- ``已审批`` 或者 ``拒绝`` 。
+:guilabel:`审批` 按钮批准申请。如果是 :guilabel:`双重验证` 类型的准假申请，最后审批的经理将决定申请的最终结果，申请将从最后的 ``待审批`` 变为 ``已审批`` 或者 ``拒绝`` 。
  
 .. i18n: .. index::
 .. i18n:    single: holidays; previous requests
