@@ -323,8 +323,8 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 .. i18n: displayed below give following window.
 ..
 
-After placing your cursor at the beginning of the report statement press modify button
-from toolbar or click on Open Report -> Modify . It will detect the type of that statement
+将光标置于你要修改的部分的最前面, 点击菜单 :menuselection:`OpenERP Report --> Modify` 或者点击工具栏的修改按钮.
+It will detect the type of that statement
 weather its is Field, Expression or RepeatIn and generate window accordingly as
 displayed below give following window.
 
