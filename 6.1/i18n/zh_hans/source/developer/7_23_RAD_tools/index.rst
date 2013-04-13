@@ -468,7 +468,8 @@ below.
 .. i18n: window as displayed below.
 ..
 
-点击 `Save to Temp Directory` 按钮打开下图的窗口, 可以删除或者编辑现有的报表.
+现在你可以选择打开现有的报表, 或者删除掉现有的报表. 打开报表则会将服务器的报表保存到一个临时文件夹里,再调用可用
+的编辑器打开. 如图所示
 
 .. i18n: .. image:: images/17.png
 ..
