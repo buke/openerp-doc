@@ -468,9 +468,7 @@ below.
 .. i18n: window as displayed below.
 ..
 
-It will open existing report and you can delete the existing report.
-By clicking on Save to Temp Directory button you will get opened report in new writer
-window as displayed below.
+点击 `Save to Temp Directory` 按钮打开下图的窗口, 可以删除或者编辑现有的报表.
 
 .. i18n: .. image:: images/17.png
 ..
