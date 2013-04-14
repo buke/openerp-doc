@@ -324,9 +324,7 @@ Openoffice.org 报表设计器插件方便安装与使用. 整个插件只有两
 ..
 
 将光标置于你要修改的部分的最前面, 点击菜单 :menuselection:`OpenERP Report --> Modify` 或者点击工具栏的修改按钮.
-It will detect the type of that statement
-weather its is Field, Expression or RepeatIn and generate window accordingly as
-displayed below give following window.
+系统会自动根据所修改的部分的类型(字段,表达式,循环)自动调出类似下面的对应的修改窗口.
 
 .. i18n: .. image:: images/10.png
 ..
