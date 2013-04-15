@@ -1,4 +1,3 @@
-
 .. i18n: .. _part-trade:
 .. i18n: 
 .. i18n: ####################
@@ -9,7 +8,7 @@
 .. _part-trade:
 
 ####################
-Manage your Business
+基本的业务流程
 ####################
 
 .. i18n:  These two chapters are about selling and purchasing products and services.
@@ -18,7 +17,7 @@ Manage your Business
 .. i18n:  
 ..
 
- These two chapters are about selling and purchasing products and services.
+ 这两章的内容则讲解了产品与服务的基本的采购与销售操作.
  
 .. todo:: Give it more description than this!
  
