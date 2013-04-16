@@ -11,9 +11,8 @@
 .. i18n: by OpenERP from the goods receipt and confirmation of the supplier invoice.
 ..
 
-使用辅助核算可以协助你更好地管理采购. 一般只需要在采购单的明细上设置对应的辅助核算项. 
-The analytic costs linked to this purchase will be managed
-by OpenERP from the goods receipt and confirmation of the supplier invoice.
+使用辅助核算可以协助你更好地管理采购. 一般只需要在采购单的明细上设置对应的辅助核算项. 这时, 一但确认并开出供应商发票后,
+这一笔采购相关的辅助核算成本就会被记录下来.
 
 .. i18n: .. index::
 .. i18n:    single: module; hr_timesheet_invoice
