@@ -36,8 +36,8 @@ OpenERP Server 链接 PostgreSQL 错误
 .. i18n: Otherwise you may encounter error messages as shown below:
 ..
 
-If you are initializing a database from the command-line with a custom username/role (-r) and password (-w), ensure that you have created a corresponding PostgreSQL user for the same.
-Otherwise you may encounter error messages as shown below:
+如果你从命令行用指定的用户名/角色（-r）和密码（-w）初始化一个数据库，请确保你已经创建了一个一致的 POstgreSQL 用户。
+否则你会遇到如下显示的错误信息：
 
 .. i18n: .. figure:: ../../img/user_fail.png
 .. i18n:    :scale: 50
@@ -51,12 +51,12 @@ Otherwise you may encounter error messages as shown below:
 .. i18n: *User authentication failure*
 ..
 
-*User authentication failure*
+*User authentication failure* *用户认证失败*
 
 .. i18n: You may also face another problem similar to this situation:
 ..
 
-You may also face another problem similar to this situation:
+你也会遇到其它的类似下述情形的问题：
 
 .. i18n: .. figure:: ../../img/101_erp2pgsql_conn_fail.png
 .. i18n:    :scale: 50
