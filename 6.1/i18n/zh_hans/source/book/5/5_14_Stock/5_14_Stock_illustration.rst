@@ -316,7 +316,7 @@ This example shows one of the great advantages of this approach in terms of perf
 .. i18n:    ========================================= =========== ================================
 ..
 
-.. table:: Stock Situation Resulting from Manufacturing
+.. table:: 制造后库存状态
 
    ========================================= =========== ================================
    Location                                  Products    Step
@@ -333,8 +333,7 @@ This example shows one of the great advantages of this approach in terms of perf
 .. i18n: finished products.
 ..
 
-So now you have got the outcome you need from the consumption of raw materials and the manufacturing of
-finished products.
+至此你已得到从消耗材料到产出成品的预期结果.
 
 .. i18n: .. note::  Assessing Created Value
 .. i18n: 
@@ -346,14 +345,12 @@ finished products.
 .. i18n:     In this case, the raw material value is deducted from the finished product value.
 ..
 
-.. note::  Assessing Created Value
+.. note::  计算增值金额
 
-    You might already have noticed a useful effect of this approach:
-    if you do a stock valuation in the ``Virtual Locations > Production`` location you get
-    a statement of value created by your company (as a negative amount).
-    Stock valuation in any given location is calculated by multiplying quantities of products in
-    stock by their cost.
-    In this case, the raw material value is deducted from the finished product value.
+    你应该已经注意到这个方法的一个很有用的功能:
+    如果你查看 ``Virtual Locations > Production`` 这个虚拟库位的库存金额合计，就是贵公司的增值部分 (以负数表示).
+    库位的库存金额合计是由库存产品数量乘以成本价计算得来的.
+    这里是原材料的金额减去产成品的金额.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
