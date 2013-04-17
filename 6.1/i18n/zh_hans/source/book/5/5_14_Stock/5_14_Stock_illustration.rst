@@ -46,8 +46,8 @@
 .. i18n: empty and no operation is in progress nor planned.
 ..
 
-The structure of stock locations is shown by the figure :ref:`fig-stloctree`. Stocks are assumed to be totally
-empty and no operation is in progress nor planned.
+库位结构基于系统初始安装后的库位层次结构图 :ref:`fig-stloctree`. 假定还没有任何存货
+也没有尚在进行中或已经计划的存货相关操作.
 
 .. i18n: If you order '30 bicycles' from a supplier, OpenERP will do the following operations on receipt of the products:
 ..
@@ -67,10 +67,10 @@ empty and no operation is in progress nor planned.
 .. table:: Stock Move Operation from Suppliers to Stock
 
    ================================================== =============
-   Location                                           Products
+   库位                                                产品
    ================================================== =============
-   Partner Locations > Suppliers                      -30 bicycles
-   Physical Locations > OpenERP S.A. > Stock          +30 bicycles
+   伙伴库位 > 供应商                                   -30 辆自行车
+   实际库位 > OpenERP S.A. > 存货                      +30 辆自行车
    ================================================== =============
 
 .. i18n: If you deliver 2 bicycles to a European customer, you will get the following transactions for the
@@ -89,13 +89,13 @@ empty and no operation is in progress nor planned.
 .. i18n:    ================================================== =============
 ..
 
-.. table:: Stock Move Operation from Stock to European Customers
+.. table:: 出货给欧洲客户后库位中的存货移动
 
    ================================================== =============
-   Location                                           Products
+   库位                                                产品
    ================================================== =============
-   Physical Locations > OpenERP S.A. > Stock          -2 bicycles
-   Partner Locations > Customers > European Customers +2 bicycles
+   实际库位 > OpenERP S.A. > 存货                      -2 辆自行车
+   伙伴库位 > 客户 > 欧洲客户                          +2 辆自行车
    ================================================== =============
 
 .. i18n: When the two operations are complete, you will see the following stock in each location:
@@ -114,14 +114,14 @@ empty and no operation is in progress nor planned.
 .. i18n:    ================================================== =============
 ..
 
-.. table:: Resulting Stock Situation
+.. table:: 库位中的库存状态
 
    ================================================== =============
-   Location                                           Products
+   库位                                                产品
    ================================================== =============
-   Partner Locations > Suppliers                      -30 bicycles
-   Physical Locations > OpenERP S.A. > Stock          +28 bicycles
-   Partner Locations > Customers > European Customers +2 bicycles
+   伙伴库位 > 供应商                                   -30 辆自行车
+   实际库位 > OpenERP S.A. > 存货                      +28 辆自行车
+   伙伴库位 > 客户 > 欧洲客户                          +2 辆自行车
    ================================================== =============
 
 .. i18n: So you can see that the sum of the stocks of a product in all the locations in OpenERP is always
@@ -139,7 +139,7 @@ empty and no operation is in progress nor planned.
 .. i18n: stock, because that will help when you carry out detailed stock management analysis.
 ..
 
-Partner locations (customers and suppliers) ，are not located under your company in the hierarchical
+Partner locations (customers and suppliers) are not located under your company in the hierarchical
 structure, so their contents are not considered as part of your own stock. So if you just look at
 the physical locations inside your own company, those two bicycles are no longer in your company.
 Although they are no longer in your own physical stock, it is still very useful to see them in your customer's
