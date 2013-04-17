@@ -44,13 +44,13 @@ working ``Make to Order``, the workflow will be:
 .. i18n: #. Delivery and invoicing to the customer.
 ..
 
-#. Customer Order,
+#. 客户下订单,
 
-#. Procurement Order on supplier,
+#. 给供应商下达采购订单,
 
-#. Receive invoice and goods from the supplier,
+#. 供应商送货并开具供应商发票,
 
-#. Delivery and invoicing to the customer.
+#. 发货给客户并开具客户发票.
 
 .. i18n: When re-invoicing based on costs you would get the following workflow:
 ..
