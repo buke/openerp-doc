@@ -146,12 +146,12 @@
 ..
 
 本章中你可以使用上一章用过的带示例数据的数据库,
-已经安装仓库管理及相关模块(下表中模块）.
+已经安装仓库管理及相关模块.
 
 .. i18n: In this chapter, the following modules will be used:
 ..
 
-In this chapter, the following modules will be used:
+本章中我们要用到以下模块:
 
 .. i18n: .. table:: List of modules
 .. i18n: 
