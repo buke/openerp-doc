@@ -111,7 +111,7 @@
    :scale: 75
    :align: center
 
-   *Location Structure when OpenERP has just been installed*
+   *系统初始安装后的库位层次结构图*
 
 .. i18n: .. note::  Hierarchical Stock Locations
 .. i18n: 
