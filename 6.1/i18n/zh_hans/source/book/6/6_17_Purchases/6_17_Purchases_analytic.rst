@@ -89,12 +89,11 @@ When re-invoicing based on costs you would get the following workflow:
 .. i18n:    Look at :ref:`ch-accts` for more information on the use of analytic accounts.
 ..
 
-.. tip:: Analytic Multi-plans
+.. tip:: 辅助核算方案
 
-   If you want several analysis plans, you should install the module :mod:`purchase_analytic_plans`.
-   These let you split a line on a supplier purchase order into several accounts and analytic
-   plans.
-   Look at :ref:`ch-accts` for more information on the use of analytic accounts.
+   如果你有几种辅助核算方案, 你就需要安装模块 :mod:`purchase_analytic_plans`. 这个模块可以实现将采购单的明细再
+   按你设定的核算方案进行拆分.
+   参阅 :ref:`ch-accts` 了解更多关于辅助核算的内容.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
