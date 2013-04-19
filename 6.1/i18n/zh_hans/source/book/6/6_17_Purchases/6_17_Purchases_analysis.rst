@@ -150,11 +150,10 @@ When re-invoicing based on costs you would get the following workflow:
 .. i18n:  more than accountants - they are for general managers and project managers, too.*
 ..
 
-.. tip:: Analytic Multi-plans
+.. tip:: 辅助核算方案
 
-   If you want several analysis plans, you should install the module :mod:`purchase_analytic_plans`.
-   These let you split a line on a supplier purchase order into several accounts and analytic
-   plans.
+   如果你有几种辅助核算方案, 你就需要安装模块 :mod:`purchase_analytic_plans`. 这个模块可以实现将采购单的明细再
+   按你设定的核算方案进行拆分.
 
  *Sitting at the heart of your company's processes, analytic accounts (or cost accounts) are
  indispensable tools for managing your operations well. Unlike your financial accounts, they are for
