@@ -315,16 +315,16 @@ different types of company:
 .. i18n: 	#. IT Services Company.
 ..
 
-	#. Industrial Manufacturing Enterprise.
+	#. 工业制造企业.
 
-	#. Law Firm.
+	#. 律师事务所.
 
-	#. IT Services Company.
+	#. IT服务公司.
 
 .. i18n: *Case 1: Industrial Manufacturing Enterprise*
 ..
 
-*Case 1: Industrial Manufacturing Enterprise*
+*案例1: 工业制造企业*
 
 .. i18n: In industry, you will often find analytic charts of accounts structured into the departments and
 .. i18n: products that the company itself is built on.
