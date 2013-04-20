@@ -1299,9 +1299,9 @@ where
 .. i18n:     def fnct(self, cr, uid, ids, field_name, arg, context):
 ..
 
-fnct parameter
+fnct 参数
 """"""""""""""
-If *method* is True, the signature of the method must be::
+如果 *method* 是 True, 那么 方法的声明必须是这样的::
 
     def fnct(self, cr, uid, ids, field_name, arg, context):
 
@@ -1310,7 +1310,7 @@ If *method* is True, the signature of the method must be::
 .. i18n:     def fnct(cr, table, ids, field_name, arg, context):
 ..
 
-otherwise (if it is a global function), its signature must be::
+否则 (如果是个全局函数), 他的声明必须是::
 
     def fnct(cr, table, ids, field_name, arg, context):
 
