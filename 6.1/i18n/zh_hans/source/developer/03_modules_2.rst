@@ -1250,8 +1250,7 @@ Functional Fields
 .. i18n: than being stored in the database).
 ..
 
-功能字段是通过函数计算了值的字段。 (rather
-than being stored in the database).
+函数字段是通过函数计算了值的字段。 (而不是存储在数据库中).
 
 .. i18n: **Parameters:** ::
 .. i18n: 
@@ -1259,7 +1258,7 @@ than being stored in the database).
 .. i18n:         fnct_search=None, obj=None, method=False, store=False, multi=False
 ..
 
-**Parameters:** ::
+**参数:** ::
 
     fnct, arg=None, fnct_inv=None, fnct_inv_arg=None, type="float",
         fnct_search=None, obj=None, method=False, store=False, multi=False
@@ -1285,20 +1284,13 @@ where
 .. i18n:       parameter will be calculated in a single function call. 
 ..
 
-    * :guilabel:`fnct` is the function or method that will compute the field 
-      value. It must have been declared before declaring the functional field.
-    * :guilabel:`fnct_inv` is the function or method that will allow writing
-      values in that field.
-    * :guilabel:`type` is the field type name returned by the function. It can
-      be any field type name except function.
-    * :guilabel:`fnct_search` allows you to define the searching behaviour on
-      that field.
-    * :guilabel:`method` whether the field is computed by a method (of an
-      object) or a global function
-    * :guilabel:`store` If you want to store field in database or not. Default
-      is False.
-    * :guilabel:`multi` is a group name. All fields with the same `multi`
-      parameter will be calculated in a single function call. 
+    * :guilabel:`fnct` 是计算字段值的函数或者方法。它必须在声明该函数字段前定义。
+    * :guilabel:`fnct_inv` 用来为改制段写入值的函数或者方法.
+    * :guilabel:`type` 由函数返回的字段类型名称. 可以是函数以外的任何字段类型名称.
+    * :guilabel:`fnct_search` 允许你在该字段上面定义搜索行为.
+    * :guilabel:`method` 指明了该字段是由一个方法（属于对象）或者一个全局函数计算的。
+    * :guilabel:`store` 是否要储存该字段在数据库中。默认是 False.
+    * :guilabel:`multi` 是一个组名. 所有具有相同 `multi` 参数的字段将被在单次函数调用中计算。 
 
 .. i18n: fnct parameter
 .. i18n: """"""""""""""
