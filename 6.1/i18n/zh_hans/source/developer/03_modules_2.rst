@@ -1301,7 +1301,7 @@ where
 
 fnct 参数
 """"""""""""""
-如果 *method* 是 True, 那么 方法的声明必须是这样的::
+如果 *method* 是 True, 那么方法的声明必须是这样的::
 
     def fnct(self, cr, uid, ids, field_name, arg, context):
 
@@ -1310,7 +1310,7 @@ fnct 参数
 .. i18n:     def fnct(cr, table, ids, field_name, arg, context):
 ..
 
-否则 (如果是个全局函数), 他的声明必须是::
+否则(如果是个全局函数), 它的声明必须是这样::
 
     def fnct(cr, table, ids, field_name, arg, context):
 
