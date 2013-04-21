@@ -370,8 +370,7 @@ receipt and invoicing if you return to the list of orders.
 .. i18n: by order:
 ..
 
-To control supplier invoicing, OpenERP provides three systems as standard, which can differ order
-by order:
+采购发票的开票控制在OpenERP中可以有三种情形,而且可以每次采购使用不同的开票方式:
 
 .. i18n: * :guilabel:`From Order` : invoicing based on quantities ordered,
 .. i18n: 
@@ -380,11 +379,11 @@ by order:
 .. i18n: * :guilabel:`Manual` : manual invoicing.
 ..
 
-* :guilabel:`From Order` : invoicing based on quantities ordered,
+* :guilabel:`基于订单` : 当订单确认时,就开据采购发票(挂应付款项),
 
-* :guilabel:`From Picking` : invoicing based on quantities received,
+* :guilabel:`基于收货` : 只在收货的时候开具采购发票,
 
-* :guilabel:`Manual` : manual invoicing.
+* :guilabel:`手工开票` : 由人工控制什么时候开采购发票挂应收账.
 
 .. i18n: The mode of invoicing control is set in the second tab of the purchase order in the field
 .. i18n: :guilabel:`Invoicing Control`.
