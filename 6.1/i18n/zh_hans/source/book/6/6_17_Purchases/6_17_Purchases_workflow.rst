@@ -159,16 +159,15 @@ The internal reference, the date and the warehouse the products should be delive
 .. i18n:   depending on the rules seen in :ref:`Financial Analysis <ch-financial>`.
 ..
 
-* :guilabel:`Product UoM`, taken from the :guilabel:`Purchase Unit of Measure` field in the product form,
+* :guilabel:`单位`, 默认与对应产品的对应的 :guilabel:`采购单位`,
 
-* The :guilabel:`Description` of the product in the supplier's language,
+* :guilabel:`描述`, 按供应商语言翻译的产品描述,
 
-* :guilabel:`Scheduled Date`, calculated from the order date and the delivery lead time for the supplier (for the given product),
+* :guilabel:`采购日期`, 按对应产品定义的供应商的提前供货周期计算出的计划采购执行日期,
 
-* :guilabel:`Unit Price`, taken from the supplier's pricelist,
+* :guilabel:`单价`, 来自系统定义的供应商价格表,
 
-* :guilabel:`Taxes`, taken from the information on the product form and partner form,
-  depending on the rules seen in :ref:`Financial Analysis <ch-financial>`.
+* :guilabel:`税`, 从产品与供应商定义中得出的应缴纳的各种税, 还取决于 :ref:`Financial Analysis <ch-finanicial>` 中定义的各种规则.
 
 .. i18n: .. tip:: Product Wording and Code
 .. i18n: 
