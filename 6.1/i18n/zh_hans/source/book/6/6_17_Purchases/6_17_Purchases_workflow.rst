@@ -274,9 +274,7 @@ order and complete its details.
 .. i18n: No further changes are possible.
 ..
 
-When you want to approve the order, use the button :guilabel:`Convert to Purchase Order`. The price
-request then passes into the ``Approved`` state. 
-No further changes are possible.
+当确认该询价订单时,只需要点 :guilabel:`转换为采购订单`, 这里询价单的价格就被确认,后续采购流程再也不能更改.
 
 .. i18n: .. figure:: images/purchase_process.png
 .. i18n:    :scale: 75
