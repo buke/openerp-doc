@@ -176,7 +176,7 @@ The internal reference, the date and the warehouse the products should be delive
 
 .. tip:: Product Wording and Code
 
-        When you enter supplier names in the product form, you can set a name and a product code for each individual supplier. If you do that, OpenERP will then use those details instead of your own internal product names for that selected supplier.
+        当你选择了供应商后, 系统还能将你录入的产品及产品编码替换为你单独为这个供应商指定的 供应商的产品名称以及供应商的产品代码.
 
 .. i18n: If you work with management by case, you can also set the analytic account that should be used to
 .. i18n: report all the purchase costs. The costs will then be reported at the receipt of the supplier
