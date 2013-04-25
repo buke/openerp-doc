@@ -142,7 +142,7 @@ OpenERP 解决方案
 .. i18n: by simply grouping and configuring the most suitable modules. Hundreds of modules are available.
 ..
 
-所以你将找到适合各种需求的模块，可供选择的模块有上百种，你可以通过简单的分组和配置找到最适合的模块，利用他们
+所以你将找到适合各种需求的模块，可供选择的模块有上百种，你可以通过简单的分组和配置找到最适合的模块，利用它们
 为你的公司建立起量身定制的系统。
 
 .. i18n: They range from specific modules like the EDI interface for agricultural products,
@@ -160,7 +160,7 @@ OpenERP 解决方案
 ..
 
 结果非常优秀。OpenERP（原本称作Tiny ERP）是一个管理软件，在全世界范围内它比其它的同类软件获得更多的下载次数，
-每天超过600次。现在它支持18中语言并且有一个世界范围的合作伙伴和贡献者网络。超过800名开发者共同参与并开发了这
+每天超过600次。现在它支持18种语言并且有一个世界范围的合作伙伴和贡献者网络。超过800名开发者共同参与并开发了这
 个项目。
 
 .. i18n: To our knowledge, OpenERP is the only management system which is routinely used not only by big
