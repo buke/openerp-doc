@@ -23,7 +23,9 @@
 .. i18n: Workflows are entirely customizable, they can be adapted to the flows and trade logic of almost any company. The workflow system makes OpenERP very flexible and allows it to easily support changing needs without having to program new functionality.
 ..
 
-工作流程是完全可以定制的，这些流程可以调整适用于几乎所有公司的作业流程和交易逻辑。 这个工作流程系统使OpenERP非常有弹性，而且可以不用编程增加新功能,就可以支持不断变化的需要。
+工作流程是完全可以定制的，这些流程可以调整适用于几乎所有公司的作业流程和交易逻辑。 这个工作流程系统使OpenERP非常有弹性，
+而且可以不用编程增加新功能,就可以支持不断变化的需要。
+
 .. i18n: **Goals**
 ..
 
