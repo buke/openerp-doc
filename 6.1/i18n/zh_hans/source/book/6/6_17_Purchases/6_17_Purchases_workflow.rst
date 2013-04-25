@@ -301,9 +301,7 @@ order and complete its details.
 .. i18n: menu :menuselection:`Warehouse --> Warehouse Management --> Incoming Shipments`.
 ..
 
-Once the order has been approved, OpenERP automatically prepares the goods receipt order in the
-draft state for you. To get a list of the products you are waiting for from your suppliers, use the
-menu :menuselection:`Warehouse --> Warehouse Management --> Incoming Shipments`.
+当采购订单确认后, OpenERP 会自动生成准备状态的收货单, 要看有哪些产品是准备收货状态,进菜单 :menuselection:`仓库(Warehouse) --> 仓库管理(Warehouse Management) --> 收货(Incoming Shipments)` . 
 
 .. i18n: .. tip:: Purchasing Services
 .. i18n: 
