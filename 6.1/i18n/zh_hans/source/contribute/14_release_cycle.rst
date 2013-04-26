@@ -53,7 +53,7 @@ As an illustration, here is a prospective list of future releases:
   - 09/2012: 7.0 LTS
   - 03/2013: 7.1
 
-2. How long are LTS version actually supported? And what do you mean exactly by 'supported'?
+2. 什么时候实际支持LTS版本？并且如何理解您说的“支持”？
 
 .. i18n: The OpenERP Publisher's Warranty contract covers the 3 last LTS version in parallel. This means that when a new LTS version is released, an older version reaches its end-of-life, and is not supported anymore.
 .. i18n: As an example, 6.0 LTS will be supported along with 7.0 LTS and 8.0 LTS, but will reach end-of-life when 9.0 LTS is released.
