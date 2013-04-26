@@ -69,7 +69,7 @@ You can also read in detail our bug correction policy here: http://doc.openerp.c
 .. i18n: 3. What is the difference between a LTS version and another major version? Is the upgrade procedure different?
 ..
 
-3. What is the difference between a LTS version and another major version? Is the upgrade procedure different?
+3. 一个LTS版本和另一个主要版本之间的区别是什么？升级过程有什么不同？
 
 .. i18n: Apart from the extended support period, a LTS version is just a normal major version. Any major version introduces many new features and improvements, and some changes that may not be fully compatible with previous version. This is true for non-LTS major versions too. For each major version, you can upgrade via OPW's migration services.
 ..
@@ -79,7 +79,7 @@ Apart from the extended support period, a LTS version is just a normal major ver
 .. i18n: 4. What is the difference between a minor/patch version and a major version? Is the upgrade procedure different?
 ..
 
-4. What is the difference between a minor/patch version and a major version? Is the upgrade procedure different?
+4. 轻微/修补程序版本和主要版本之间的区别是什么？升级过程有什么不同？
 
 .. i18n: Major versions introduce new features and may not be directly compatible with previous stable series. As a result, a complete migration process has to be followed when going from one major version to the next. This is available via the OPW.
 .. i18n: Minor versions only introduce bug corrections, but no new features, so the upgrade procedure is built-in in OpenERP Server. You simply need to restart the server once with the additional options "-d <DB> -u all".
