@@ -183,9 +183,7 @@ The internal reference, the date and the warehouse the products should be delive
 .. i18n: invoice.
 ..
 
-If you work with management by case, you can also set the analytic account that should be used to
-report all the purchase costs. The costs will then be reported at the receipt of the supplier
-invoice.
+如果你想按项目来管理采购成本, 你可以使用辅助核算科目来完成, 所有项目的采购成本是基于该项目的供应商发票而核算出来的成本.
 
 .. i18n: .. index::
 .. i18n:    single: module; purchase_analytic_analysis
@@ -203,7 +201,7 @@ invoice.
 .. i18n:    :guilabel:`Configure`.
 ..
 
-.. tip:: Management by Case
+.. tip:: 按项目核算成本
 
    Analytic accounts can be very useful for all companies that manage costs by case, by site, by
    project or by folder.
