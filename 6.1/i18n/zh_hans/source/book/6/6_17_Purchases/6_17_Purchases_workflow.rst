@@ -203,11 +203,9 @@ The internal reference, the date and the warehouse the products should be delive
 
 .. tip:: 按项目核算成本
 
-   Analytic accounts can be very useful for all companies that manage costs by case, by site, by
-   project or by folder.
-   To work with several analytic axes, you should install the module :mod:`purchase_analytic_plans`,
-   by selecting :guilabel:`Purchase Analytic Plans` in the :guilabel:`Reconfigure` wizard and clicking
-   :guilabel:`Configure`.
+   辅助核算在多公司的各种维度的成本核算上面发挥了相当重要的作用.
+   为了让辅助核算能处理多维度, 你需要安装模块 :mod:`purchase_analytic_plans`, 并点击 :guilabel:`配置` 中的 :guilabel:`重新配置`
+   向导, 选中 :guilabel:`采购辅助核算方案`.
 
 .. i18n: .. index::
 .. i18n:    single: module; account_analytic_default
