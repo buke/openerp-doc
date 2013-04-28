@@ -221,9 +221,8 @@ The internal reference, the date and the warehouse the products should be delive
 .. i18n: automatically as a dependency of :mod:`purchase_analytic_plans`).
 ..
 
-To make sure that the analytic account is automatically selected according to the partner, the date, the
-products or the user, you can install the module :mod:`account_analytic_default` (which is installed
-automatically as a dependency of :mod:`purchase_analytic_plans`).
+安装了模块 :mod:`account_analytic_default` (你安装模块 :mod:`purchase_analytic_plans` 的同时会自动安装这个模块) 后, 你就可以根据 `合作伙伴`
+ `日期` `产品`以及`登陆用户` 创建多种辅助科目默认值的规则,而自动选择匹配的默认核算科目.
 
 .. i18n: In the :guilabel:`Notes` tab of the product line, you can enter a note that will be attached when the order
 .. i18n: confirmation or price quotation is printed. This note can be predefined on the product form to
