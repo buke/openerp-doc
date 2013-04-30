@@ -379,8 +379,7 @@ receipt and invoicing if you return to the list of orders.
 .. i18n: :guilabel:`Invoicing Control`.
 ..
 
-The mode of invoicing control is set in the second tab of the purchase order in the field
-:guilabel:`Invoicing Control`.
+发票开票方式在采购单的第二个页签的 :guilabel:`开票方式(Invoicing Control)` 字段来选择.
 
 .. i18n: .. figure:: images/purchase_form_tab2.png
 .. i18n:    :scale: 75
