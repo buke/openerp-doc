@@ -223,7 +223,7 @@
 ..
 
 安装了模块 :mod:`account_analytic_default` (你安装模块 :mod:`purchase_analytic_plans` 的同时会自动安装这个模块) 后, 你就可以根据 `合作伙伴`
- `日期` `产品`以及`登陆用户` 创建多种辅助科目默认值的规则,而自动选择匹配的默认核算科目.
+`日期` `产品`以及`登陆用户` 创建多种辅助科目默认值的规则,而自动选择匹配的默认核算科目.
 
 .. i18n: In the :guilabel:`Notes` tab of the product line, you can enter a note that will be attached when the order
 .. i18n: confirmation or price quotation is printed. This note can be predefined on the product form to
@@ -240,8 +240,7 @@ by express delivery as specified in our contract reference 1234.”
 .. i18n: the supplier. You can set a note for the attention of the supplier in the form's third tab.
 ..
 
-Once the document has been completed, you can print it as a price estimate to send to
-the supplier. You can set a note for the attention of the supplier in the form's third tab.
+订单制单完成后, 你可以将其打印做为询价函发送给供应商. 你还可以在单据第三页签添加一些供应商的备注信息.
 
 .. i18n: .. figure:: images/purchase_quotation.png
 .. i18n:    :scale: 75
