@@ -114,8 +114,9 @@
 .. i18n: The internal reference, the date and the warehouse the products should be delivered to, are completed automatically by OpenERP, but you can change these values if needed. Next, when you select a supplier, OpenERP automatically completes the contact address for the supplier. The pricelist is also automatically completed from the pricelist in the supplier form. This should bring in all of the conditions that you have negotiated with the supplier for a given period.
 ..
 
-The internal reference, the date and the warehouse the products should be delivered to, are completed automatically by OpenERP, but you can change these values if needed. Next, when you select a supplier, OpenERP automatically completes the contact address for the supplier. The pricelist is also automatically completed from the pricelist in the supplier form. This should bring in all of the conditions that you have negotiated with the supplier for a given period.
-
+默认情况下, 采购日期,仓库以及产品的交货期会自动生成,当然,如果需要的话这些值你也可以更改. 接着选定供应商后,
+供应商默认的收货人(或者默认的联系人)以及同该供应商达成的采购价格表(采购协议)也会自动带出,
+ 
 .. i18n: .. tip:: Supplier Selection
 .. i18n: 
 .. i18n:         Searching for a supplier is limited to all of the partners in the system that have the :guilabel:`Supplier` checkbox checked. If you do not find your supplier, it might be worth checking the whole list of all partners to make sure that the supplier does not yet exist without the Supplier checkbox being checked.
