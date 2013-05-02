@@ -91,8 +91,7 @@
 .. i18n: employee by filling in a new :guilabel:`User` form through the :guilabel:`User` field.
 ..
 
-在 :guilabel:`名称` 框输入员工姓名和在 :guilabel:`公司` 框输入员工所在公司的名称。然后在 :guilabel:`用户` 中填写一个新用户从而建立一个新的ERP系统
- :guilabel:`用户` 。
+在 :guilabel:`名称` 框输入员工姓名和在 :guilabel:`公司` 框输入员工所在公司的名称。然后在 :guilabel:`用户` 中填写一个新用户从而建立一个新的ERP系统 :guilabel:`用户` 。
 
 .. i18n: Even if the employee is not a user, it is best if you
 .. i18n: create a system access for most of your staff just so that you can control their access rights from
