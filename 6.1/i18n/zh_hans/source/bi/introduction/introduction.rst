@@ -19,7 +19,7 @@ Comparing to most current business intelligence software in the market, our goal
 .. i18n: -----------------
 ..
 
-For the end-user:
+对最终用户而言:
 -----------------
 
 .. i18n: * Easy and fast to use: a simple web-interface that has no dependencies and can be integrated in proprietary
