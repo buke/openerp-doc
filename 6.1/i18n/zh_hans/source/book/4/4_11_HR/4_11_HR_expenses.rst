@@ -53,7 +53,7 @@
 .. i18n: The expense sheet must be signed by the employee, who also attaches its receipts to the expense sheet.
 ..
 
-员工费用可以一个星期一报也可以一个月一报。在一个星期或者一个月结束时，员工可以将确认好的所有费用及费用清单发
+员工费用可以一个星期一报也可以一个月一报。在一个星期或者一个月结束时，员工可以将复核好的所有费用及费用清单发
 给部门经理。经理负责批准本部门所有的费用报销申请。费用清单上必须有员工的签字，同时也必须将收据附在费用清单上。
 
 .. i18n: Once the sheet has been approved by the head of department, it is sent to the Accounting department, which registers the
@@ -61,7 +61,7 @@
 .. i18n: who originally advanced the money.
 ..
 
-一旦部门领导批准费用清单后，费用清单将被送到财务部门（记录了公司对员工的负债）。财务可以用支票支付报销费用
+一旦部门经理批准费用清单后，费用清单将被送到财务部门（记录了公司对员工的负债）。财务可以用支票支付报销费用
 也可以以员工最初提供的支付方式支付报销费用。
 
 .. i18n: Some receipts are for project expenses, so these can then be attached to an analytic account. The
