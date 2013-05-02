@@ -52,7 +52,7 @@
    :scale: 75
    :align: center
 
-   *Human Resources Application in the Configuration wizard*
+   *配置向导中的人力资源模块*
 
 .. i18n: .. raw:: html
 .. i18n: 
