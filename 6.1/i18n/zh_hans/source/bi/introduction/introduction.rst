@@ -1,4 +1,3 @@
-
 .. i18n: What is for User?
 .. i18n: =================
 ..
@@ -9,7 +8,7 @@ What is for User?
 .. i18n: The Open Object Business Intelligence system aims to be a full featured open source Business Intelligence system written in Python. It implements a HOLAP (Hybrid OLAP = ROLAP + MOLAP) cube and a MDX query engine based on SQLAlchemy.
 ..
 
-The Open Object Business Intelligence system aims to be a full featured open source Business Intelligence system written in Python. It implements a HOLAP (Hybrid OLAP = ROLAP + MOLAP) cube and a MDX query engine based on SQLAlchemy.
+Open Object Business Intelligence系统的目标是成为一个全功能的用Python编写的开源商业智能系统。 It implements a HOLAP (Hybrid OLAP = ROLAP + MOLAP) cube and a MDX query engine based on SQLAlchemy.
 
 .. i18n: Comparing to most current business intelligence software in the market, our goal is to produce a BI for the mid market. It has to be:
 ..
