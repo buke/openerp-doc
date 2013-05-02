@@ -253,13 +253,15 @@ by express delivery as specified in our contract reference 1234.”
    :scale: 75
    :align: center
 
-   *Printing the Supplier Price Quotation*
+   *打印采购询价函*
 
 .. i18n: Then leave the document in the ``Request for Quotation`` state. When you receive a response from the supplier, use the menu
 .. i18n: :menuselection:`Purchases --> Purchase Management --> Requests for Quotation`. Select the
 .. i18n: order and complete its details.
 ..
 
+当询价函得到供应商的反馈后, 要将询价 ``转为订单`` 或者 ``取消`` 该询价,只需要点击菜单 :menuselection:`采购(Purchase) --> 采购管理(Purchase Management) --> 询价单(Request for Quotation)` 后,
+进入相关单据点击相应的操作按钮即可.
 Then leave the document in the ``Request for Quotation`` state. When you receive a response from the supplier, use the menu
 :menuselection:`Purchases --> Purchase Management --> Requests for Quotation`. Select the
 order and complete its details.
@@ -282,7 +284,7 @@ order and complete its details.
    :scale: 75
    :align: center
 
-   *Purchase Order Process*
+   *采购订单处理流程*
 
 .. i18n: Goods Receipt
 .. i18n: -------------
