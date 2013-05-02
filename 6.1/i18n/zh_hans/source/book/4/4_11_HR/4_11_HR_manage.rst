@@ -32,7 +32,7 @@
 
 .. note:: 不要混淆员工和用户
 
-	就ERP而言，所谓 ``员工`` 是指与公司签署劳动合同的人。包括所有类型的合同：长期的和临时的，也
+	就OpenERP而言，所谓 ``员工`` 是指与公司签署劳动合同的人。包括所有类型的合同：长期的和临时的，也
 	包括全职的和兼职的。
 
 	所谓 ``用户`` 是指有权访问公司系统的人。绝大部分的员工是用户，但是一些用户却不是员工，例如外部
@@ -84,7 +84,7 @@
    :scale: 75
    :align: center
 
-   *Form describing an employee*
+   *员工详细信息表单*
 
 .. i18n: Start by entering the employee's name in :guilabel:`Name` and the company that this employee works for
 .. i18n: in :guilabel:`Company`. You can then create a new user of the OpenERP system linked to this
