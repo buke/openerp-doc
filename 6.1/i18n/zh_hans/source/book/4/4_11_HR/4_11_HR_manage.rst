@@ -71,7 +71,7 @@
 .. i18n: To define a new employee in OpenERP, use the menu :menuselection:`Human Resources --> Employees`.
 ..
 
-在ERP 的 :menuselection:`人力资源 --> 员工` :menuselection:`Human Resources --> Employees` 中建立一个新员工. 
+在OpenERP中使用菜单`人力资源 --> 员工` 中定义一个新员工. 
 
 .. i18n: .. figure::  images/service_employee_form.png
 .. i18n:    :scale: 75
