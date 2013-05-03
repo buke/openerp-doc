@@ -231,10 +231,9 @@
 .. i18n: by express delivery as specified in our contract reference 1234.”
 ..
 
-In the :guilabel:`Notes` tab of the product line, you can enter a note that will be attached when the order
-confirmation or price quotation is printed. This note can be predefined on the product form to
-automatically appear on each order for that product. For example, you can enter “Do not forget to send
-by express delivery as specified in our contract reference 1234.”
+在采购订单明细里添加产品时你可以添加一个 :guilabel:`备注(Notes)` , 这个备注会在订单确认及询价函中附加传递给供应商.
+而且这个备注也可以放在产品定义窗体中, 以便每次选择该产品时自动带出. 如: 你可以输入类似"Do not forget to send
+by express delivery as specified in our contract reference 1234."
 
 .. i18n: Once the document has been completed, you can print it as a price estimate to send to
 .. i18n: the supplier. You can set a note for the attention of the supplier in the form's third tab.
