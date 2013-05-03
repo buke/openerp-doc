@@ -32,10 +32,10 @@
 
 .. note:: 不要混淆员工和用户
 
-	就OpenERP而言，所谓 ``员工`` 是指与公司签署劳动合同的人。包括所有类型的合同：长期的和临时的，也
+	就OpenERP而言，所谓 ``员工`` 是指与公司签署劳动合同的自然人。包括所有类型的合同：长期的和临时的，也
 	包括全职的和兼职的。
 
-	所谓 ``用户`` 是指有权访问公司系统的人。绝大部分的员工是用户，但是一些用户却不是员工，例如外部
+	所谓 ``用户`` 是指有权访问公司系统的自然人。绝大部分的员工是用户，但是一些用户却不是员工，例如外部
 	合作伙伴可以访问系统的部分模块。
 
 .. i18n: Here are some examples of functions which depend on the accuracy of the employee list:
@@ -55,7 +55,7 @@
 
 * 服务成本，取决于员工的劳动合同,
 
-* 工程计划，取决于工程贡献者的工作模式,
+* 项目计划，取决于工程贡献者的工作模式,
 
 * 客户端计费率，可能取决于员工的工作职能,
 
@@ -98,8 +98,8 @@
 .. i18n: the outset (and you can do that through this field if you need to).
 ..
 
-即使这个员工不是用户，你最好为你的员工创建一个系统账号以便于你可以从一开始就掌控他们的访问权限（如果你需要你可以
-通过这个模块这么做）。
+即使这个员工不是用户，最好也为该员工创建一个系统账号以便于您可以从一开始就掌控他们的访问权限（如果您需要您可以
+通过这个字段这么做）。
 
 .. i18n: .. tip:: Employee and User link.
 .. i18n: 
@@ -137,7 +137,7 @@
 
 这个出现在ERP中的合作伙伴联系表中，自员工与公司签订合同开始，他们就可以像数据库中其他合作伙伴一样有记录。因此在
 合作伙伴联系一栏输入员工的名字和地址。然后所有的功能既适用于一个合作伙伴也适用于一个员工。这个对于跟踪账户中借贷
-方很有用-例如你可以跟踪薪酬支付。
+方特别有用-例如您可以跟踪薪酬支付。
 
 .. i18n: To help employees encode and validate timesheets and attendances, you can install :mod:`hr_timesheet_sheet` by selecting :guilabel:`Timesheets` in the :guilabel:`Reconfigure` wizard.
 .. i18n: You can then set both an analytic journal and a linked product to this employee
