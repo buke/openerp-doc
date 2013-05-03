@@ -18,7 +18,7 @@
 .. i18n: current list of collaborators.
 ..
 
-为了建立一个公司管理系统，你需要启动当前列表中的一个用户。
+为了建立一个和整个公司管理系统集成在一起的系统，您需要建立当前员工的清单。
 
 .. i18n: .. note:: Do not confuse employees and users
 .. i18n: 
