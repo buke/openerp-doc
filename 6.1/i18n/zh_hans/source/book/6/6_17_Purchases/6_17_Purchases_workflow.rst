@@ -37,7 +37,7 @@
 ..
 
 设置数据库
-----------
+-------------
 
 .. i18n: To set up a system for these examples, create a new database with demonstration data in it, and
 .. i18n: select the :guilabel:`Extended` interface when you log in as the *admin* user. You can enter your own
@@ -261,9 +261,6 @@ by express delivery as specified in our contract reference 1234."
 
 当询价函得到供应商的反馈后, 要将询价 ``转为订单`` 或者 ``取消`` 该询价,只需要点击菜单 :menuselection:`采购(Purchase) --> 采购管理(Purchase Management) --> 询价单(Request for Quotation)` 后,
 进入相关单据点击相应的操作按钮即可.
-Then leave the document in the ``Request for Quotation`` state. When you receive a response from the supplier, use the menu
-:menuselection:`Purchases --> Purchase Management --> Requests for Quotation`. Select the
-order and complete its details.
 
 .. i18n: When you want to approve the order, use the button :guilabel:`Convert to Purchase Order`. The price
 .. i18n: request then passes into the ``Approved`` state. 
@@ -305,10 +302,9 @@ order and complete its details.
 .. i18n:     There is no service receipt equivalent to a goods receipt.
 ..
 
-.. tip:: Purchasing Services
+.. tip:: 服务类型产品的采购
 
-    If you buy services from your supplier, OpenERP does not generate a goods receipt note.
-    There is no service receipt equivalent to a goods receipt.
+    如果你向供应商采购服务类型的产品, OpenERP 不会生成相应的收货单, 在OpenERP中,服务类型的产品是没有收货操作的.
 
 .. i18n: Select the document that corresponds to the item that you are receiving. Usually, the goods receipt
 .. i18n: note is found by making a search on the order reference or the supplier name. You can then confirm
