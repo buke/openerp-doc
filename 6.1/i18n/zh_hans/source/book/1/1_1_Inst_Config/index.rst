@@ -29,8 +29,7 @@
 .. i18n:  a Windows or Linux or Macintosh computer).*
 ..
 
- *Installing OpenERP under Windows or Linux to get familiar with the software should take you only half an
- hour or so and needs only a couple of operations.*
+ *要熟悉OpenERP,可以自己在Windows或Linux下安装OpenERP，安装过程大概只需要半个小时左右。*
  
  *The first operation is to install the application and database server on a server PC (that is
  a Windows or Linux or Macintosh computer).*
@@ -67,11 +66,9 @@ some demonstration data to test the installation.
 
 .. note:: Renaming from Tiny ERP to OpenERP
 
-   Tiny ERP was renamed to OpenERP early in 2008, so anyone who has used Tiny ERP should be
-   equally at home with OpenERP. Both names refer to the same software, so there is no
-   functional difference between versions 4.2.X of OpenERP and 4.2.X of Tiny ERP. This book
-   applies to versions of OpenERP from 6.1.0 onwards, with references to earlier versions from
-   time to time.
+   早在2008年，Tiny ERP更名为OpenERP, 所有使用过Tiny ERP的用户应该同样熟悉OpenERP。两个名字所指的是同一个软件，
+   因此OpenERP的4.2.X版本和Tiny ERP的4.2.X版本在功能上没有差别。本书适用于OpenERP 6.1.0以及之后的版本，但也会
+   时常参考到6.1之前的版本。
 
 .. i18n: .. index::
 .. i18n:    single:SaaS
