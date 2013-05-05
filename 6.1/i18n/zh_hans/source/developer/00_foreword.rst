@@ -19,14 +19,15 @@
 .. i18n: any arbitrary complex module in OpenERP.
 ..
 
-OpenERP是由Python和Postgresql搭建而成的开发环境，特别是对象关系映射（ORM）
-能让我们轻松开发复杂的的OpenERP模块。
+OpenERP是一个强大的开发环境。由于它结合运用了Python和PostgreSQL，尤其是它采用对象关系映射（ORM），
+您可以以此为平台，开发出任意复杂的模块。
+
 
 .. i18n: Who is this book for ?
 .. i18n: ======================
 ..
 
-本书目标读者
+本书的目标读者
 ======================
 
 .. i18n: Content of the book
