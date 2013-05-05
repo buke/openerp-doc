@@ -311,9 +311,7 @@ by express delivery as specified in our contract reference 1234."
 .. i18n: the receipt of the products.
 ..
 
-Select the document that corresponds to the item that you are receiving. Usually, the goods receipt
-note is found by making a search on the order reference or the supplier name. You can then confirm
-the receipt of the products.
+收货时通常根据订单编号或者供应商名称进行筛选,然后选择适合的收货条目进行收货产生相应的供应商收货凭据.
 
 .. i18n: As described in :ref:`ch-stocks`, if you receive only part of the order, OpenERP
 .. i18n: manages the remainder of that order.
