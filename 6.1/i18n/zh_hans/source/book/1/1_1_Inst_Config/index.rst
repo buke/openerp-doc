@@ -31,8 +31,7 @@
 
  *要熟悉OpenERP,可以自己在Windows或Linux下安装OpenERP，安装过程大概只需要半个小时左右。*
  
- *The first operation is to install the application and database server on a server PC (that is
- a Windows or Linux or Macintosh computer).*
+ *第一步是在一台服务器PC（即Windows或Linux或Macintosh电脑）上安装OpenERP和数据库服务器（即PostgreSQL）。*
 
 .. i18n:  *You have a choice of approaches for the second operation:
 .. i18n:  either use standard web
@@ -45,12 +44,9 @@
 .. i18n:    single: Tiny ERP
 ..
 
- *You have a choice of approaches for the second operation:
- either use standard web
- clients that can be found on anybody's PC, or install application clients on each intended user's PC.*
+ *第二步你可以选择使用网页浏览器或在用户的电脑上安装OpenERP客户端软件来访问OpenERP服务器*
  
-When you first install OpenERP, you will set up a database containing a little functionality and
-some demonstration data to test the installation.
+当你安装完OpenERP后，接下来就要创建一个包含一些演示数据的数据库，以便测试安装是否成功。
  
 .. index::
    single: Tiny ERP
@@ -64,9 +60,9 @@ some demonstration data to test the installation.
 .. i18n:    time to time.
 ..
 
-.. note:: Renaming from Tiny ERP to OpenERP
+.. note:: Tiny ERP 更名为 OpenERP
 
-   早在2008年，Tiny ERP更名为OpenERP, 所有使用过Tiny ERP的用户应该同样熟悉OpenERP。两个名字所指的是同一个软件，
+   早在2008年，Tiny ERP更名为OpenERP，所有使用过Tiny ERP的用户应该同样熟悉OpenERP。两个名字所指的是同一个软件，
    因此OpenERP的4.2.X版本和Tiny ERP的4.2.X版本在功能上没有差别。本书适用于OpenERP 6.1.0以及之后的版本，但也会
    时常参考到6.1之前的版本。
 
