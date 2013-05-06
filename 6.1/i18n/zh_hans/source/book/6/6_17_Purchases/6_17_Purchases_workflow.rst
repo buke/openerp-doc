@@ -2,7 +2,7 @@
 .. i18n: =======================================
 ..
 
-完整工作流的所有元素
+完备的采购工作流程
 =======================================
 
 .. i18n: The supplier or purchase order is the document that lets you manage price negotiations, control supplier invoices, handle goods receipts and synchronize all of these documents.
@@ -387,7 +387,7 @@ receipt and invoicing if you return to the list of orders.
    :scale: 75
    :align: center
 
-   *Purchase Order, Invoice Control*
+   *采购订单 与 发票开票*
 
 .. i18n: .. tip:: Default Value
 .. i18n: 
@@ -396,11 +396,10 @@ receipt and invoicing if you return to the list of orders.
 .. i18n:    installation.
 ..
 
-.. tip:: Default Value
+.. tip:: 默认值
 
-   A company generally uses a single invoicing control method for all of its invoices.
-   So you are advised to set a default value in the :guilabel:`Invoicing Control` field after
-   installation.
+   因为大多数公司的发票开票控制(什么时候开具采购收据)基本上是不会变动的. 所以,你可以在模块安装完成时就在 :guilabel:`发票控制(Invoicing Control)`
+   里选择适当的值做为默认值.然后采购开票时,就会自动使用该默认值.
 
 .. i18n: Control based on Orders
 .. i18n: -----------------------
