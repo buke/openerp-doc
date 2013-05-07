@@ -15,7 +15,7 @@
 
 .. _sect-dbcreate:
 
-数据库创建
+数据库的创建
 ==========
 
 .. i18n: Use the technique outlined in this section to create a new database, \ ``openerp_ch01`` \. This
@@ -423,7 +423,7 @@ administration and use of OpenERP.
 .. i18n: =========================
 ..
 
-进一步 OpenERP 功能
+为OpenERP添加新功能
 ===================
 
 .. i18n: The database you have created and managed so far is based on the core OpenERP functionality that you
@@ -471,7 +471,7 @@ OpenERP application server.
 .. i18n: -----------------
 ..
 
-扩展 OpenERP 功能
+扩展OpenERP
 -------------------
 
 .. i18n: To extend OpenERP you will need to copy modules into the \ ``addons`` \ directory. That is in
