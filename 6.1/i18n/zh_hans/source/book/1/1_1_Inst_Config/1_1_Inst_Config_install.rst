@@ -30,8 +30,8 @@ OpenERP的安装
 .. i18n:    "From source, for all Linux systems","More than half an hour","Medium to slightly difficult","This is the method recommended for production environments because it is easy to keep it up to date."
 ..
 
-.. csv-table:: Comparison of the different methods of installation on Windows or Linux
-   :header: "Method","Average Time","Level of Complexity","Notes"
+.. csv-table:: Windows或Linux上各种安装方法对比
+   :header: "方法","平均所需时间","复杂程度","说明"
    :widths: 20,15,15,30
 
    "OpenERP Demo","无需安装","简单","对于快速评估非常有用，无需安装。"
@@ -54,11 +54,9 @@ OpenERP的安装
 .. i18n: well.
 ..
 
-This auto-installer enables you to install the whole system in just a few mouse clicks. The initial
-configuration is set up during installation, making it possible to start using it very quickly as
-long as you do not want to change the underlying code. It is aimed at the installation of everything
-on a single PC, but you can later connect GTK clients from other PCs, Macs and Linux boxes to it as
-well.
+只需点击几次鼠标，此安装包就能帮你安装好整个系统。初始配置已经在安装过程中设置好，如果你不想改变源代码，
+就可以立即投入使用。此方法在一台电脑上安装所有的组件，但你可以通过GTK客户端从其它电脑上，包括PC、Mac和Linux，
+进行连接访问。 
 
 .. i18n: The first step is to download the OpenERP installer. At this stage you must choose which version
 .. i18n: to install – the stable version or the development version. If you are planning to put it straight
