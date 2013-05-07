@@ -15,15 +15,15 @@
 .. _custinv:
 
 #############################
-客户发票和支付
+客户的开票和支付流程
 #############################
 
 .. i18n: OpenERP provides various features to keep track of your invoicing and payments. The simple workflow of invoicing,
 .. i18n: with efficient encoding of the payment process of your customers, makes OpenERP more adoptable. In this section, we discuss two processes, the easy workflow for non-accountants who just want to keep track of their payments, and the complete accounting section. Note that only the customer process will be described, but of course OpenERP offers equal invoicing and payment methods for suppliers.
 ..
-
-OpenERP provides various features to keep track of your invoicing and payments. The simple workflow of invoicing,
-with efficient encoding of the payment process of your customers, makes OpenERP more adoptable. 在本节中, we discuss two processes, the easy workflow for non-accountants who just want to keep track of their payments, and the complete accounting section. Note that only the customer process will be described, but of course OpenERP offers equal invoicing and payment methods for suppliers.
+OpenERP提供了多种方式来跟踪你的开票和付款记录。简单的开票流程以及高效的客户付款过程自动编目，使得OpenERP更易于被采用。
+在本节中，我们讨论两个流程：一个是面向仅需跟踪付款记录的非会计人员的“简单流程”；另一个是完整会计流程。注：这里仅以客户流程
+为例进行描述，当然对于供应商来说，OpenERP提供相同的开票和付款方法。
 
 .. i18n: .. raw:: html
 .. i18n: 
