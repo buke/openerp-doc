@@ -1,9 +1,8 @@
-
 .. i18n: The Installation of OpenERP
 .. i18n: ===========================
 ..
 
-安装 OpenERP
+OpenERP的安装
 ===========================
 
 .. i18n: Whether you are from a small company investigating how OpenERP works, or you are part of the IT staff of a
@@ -11,16 +10,14 @@
 .. i18n: is to install it or to find a working installation.
 ..
 
-Whether you are from a small company investigating how OpenERP works, or you are part of the IT staff of a
-larger organization and have been asked to assess OpenERP's capabilities, your first requirement
-is to install it or to find a working installation.
+也许您是来自一个小型公司，想要看看OpenERP能否有效帮助公司成长，或是来自大型机构的IT职员，想要评估OpenERP的综合功能和性能，
+您的第一步就是要安装上她或者找到一个已经安装好的实例来进行测试。
 
 .. i18n: The table below summarizes the various installation methods that will be described in the following
 .. i18n: sections.
 ..
 
-The table below summarizes the various installation methods that will be described in the following
-sections.
+下表中简要列出了各种安装方法，之后会做详细描述。
 
 .. i18n: .. csv-table:: Comparison of the different methods of installation on Windows or Linux
 .. i18n:    :header: "Method","Average Time","Level of Complexity","Notes"
@@ -37,20 +34,18 @@ sections.
    :header: "Method","Average Time","Level of Complexity","Notes"
    :widths: 20,15,15,30
 
-   "OpenERP Demo","No installation","Simple","Very useful for quick evaluations because no need to install anything."
-   "All-in-one Windows Installer","A few minutes","Simple","Very useful for quick evaluations because it installs all of the components pre-configured on one computer (using the GTK client)."
-   "Independent installation on Windows","Half an hour","Medium","Enables you to install the components on different computers. Can be put into production use."
-   "Ubuntu Linux packages","A few minutes","Simple","Simple and quick but the Ubuntu packages are not always up to date."
-   "From source, for all Linux systems","More than half an hour","Medium to slightly difficult","This is the method recommended for production environments because it is easy to keep it up to date."
+   "OpenERP Demo","无需安装","简单","对于快速评估非常有用，无需安装。"
+   "All-in-one Windows Installer","约几分钟","简单","对于快速评估非常有用，会在一台电脑上安装所有的预先配置好的组件（使用GTK客户端）。"
+   "Independent installation on Windows","约半小时","中级难度","可是你在不同电脑上安装各部分组件。可投入生产环境使用。"
+   "Ubuntu Linux packages","约几分钟","简单","简单而快捷，但Ubuntu包不是一直都是最新的。"
+   "From source, for all Linux systems","超过1小时","中级~高级难度","此方法建议在生产环境中使用，容易保持最新。"
 
 .. i18n: Each time a new release of OpenERP is made, OpenERP supplies a complete Windows auto-installer for
 .. i18n: it. This contains all of the components you need – the PostgreSQL database server, the OpenERP
 .. i18n: application server and the GTK application client.
 ..
 
-Each time a new release of OpenERP is made, OpenERP supplies a complete Windows auto-installer for
-it. This contains all of the components you need – the PostgreSQL database server, the OpenERP
-application server and the GTK application client.
+每当OpenERP发布新版本时，也会提供完整的Windows自动安装包下载。它包含所有必需的组件包括PostgreSQL数据库服务器、OpenERP应用服务器以及GTK应用客户端。
 
 .. i18n: This auto-installer enables you to install the whole system in just a few mouse clicks. The initial
 .. i18n: configuration is set up during installation, making it possible to start using it very quickly as
