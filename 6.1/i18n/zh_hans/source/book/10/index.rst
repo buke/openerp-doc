@@ -12,8 +12,8 @@
 .. i18n: in amongst software from giants such as SAP, Oracle and Microsoft,
 .. i18n: and from the small software developers in their own niches.
 ..
-横览企业管理系统这个千变万化生态圈，不管是在诸如SAP、甲骨文（Oracle）、微软（Microsoft）等软件巨头的统治领域，还是
-在小型软件开发者的一亩三分地，OpenERP俨然已经树立起自己免费接替者的角色。
+横览企业管理系统这个千变万化生态圈，不管是在诸如SAP、甲骨文（Oracle）、微软（Microsoft）等软件巨头的统治领域，
+还是在小型软件开发者的一亩三分地，OpenERP俨然已经树立起自己免费接替者的角色。
 
 .. i18n: Until now, only two main alternatives existed for systems that manage a company's information:
 .. i18n: install a proprietary ERP system, complete but usually overweight, inflexible, and expensive;
@@ -21,9 +21,9 @@
 .. i18n: integrated, and incomplete.
 ..
 
-迄今为止，企业如何管理自己的信息系统，只有两种方法可选：购买并安装一套专有的、完整的，但常常又是用力
-过头的、难以适应改变的，并且是昂贵的ERP系统；或者是内部自行开发一套系统，仅仅适用于现有需求，但进一步
-开发又非常昂贵、整合性不高，并且不是很完整。
+迄今为止，企业如何管理自己的信息系统，只有两种方法可选：购买并安装一套专有的、完整的，但常常又是用力过头的、
+难以适应改变的，并且是昂贵的ERP系统；或者是内部自行开发一套系统，仅仅适用于现有需求，但进一步开发又非常昂贵、
+整合性不高，并且不是很完整。
 
 
 .. i18n: With its free business model, OpenERP combines the advantages of a complete ERP system with the
@@ -33,8 +33,8 @@
 .. i18n: you can then freely update it as your needs evolve.
 ..
 
-OpenERP凭借其自由的商业模型，整合了ERP系统应有的完整性和环境可适应性（灵活性）。开发的源代码、项目的
-通用灵活性，及其成百上千个模块，可以让你通过适当选择组合，即可构建一套自有的解决方案，并根据发展的需求，自由更新。
+OpenERP凭借其自由的商业模型，整合了ERP系统应有的完整性和环境可适应性（灵活性）。开发的源代码、项目的通用灵活性，
+及其成百上千个模块，可以让你通过适当选择组合，即可构建一套自有的解决方案，并根据发展的需求，自由更新。
 
 .. i18n: The results will be at the top end of what you might expect from any ERP system,
 .. i18n: let alone an Open Source system.
