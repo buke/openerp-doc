@@ -319,10 +319,8 @@ by express delivery as specified in our contract reference 1234."
 .. i18n: You can cancel it if you think that you will never receive the remaining products.
 ..
 
-As described in :ref:`ch-stocks`, if you receive only part of the order, OpenERP
-manages the remainder of that order.
-A second receipt note is then automatically created for the goods not received.
-You can cancel it if you think that you will never receive the remaining products.
+正如 :ref:`ch-stocks` 所讲, 在OpenERP中, 采购订单部分收货流程也相当棒.收一次货后会自动创建余下的收货明细,当你觉得可
+以不用收余下的货品时,你可以随时取消.
 
 .. i18n: After receiving the goods, OpenERP will show you which orders are open and the state of their
 .. i18n: receipt and invoicing if you return to the list of orders.
