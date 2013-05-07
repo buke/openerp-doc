@@ -72,10 +72,10 @@
 .. i18n: Request for Quotation`. When you click :guilabel:`New`, OpenERP opens a blank request for quotation form that you use for requesting prices from a supplier. This is shown in the figure :ref:`fig-pfrm`. If the price request came from an automatic procurement created by OpenERP, you will find a reference to the document that generated the request in the :guilabel:`Origin` field.
 ..
 
-选择菜单 :menuselection:`Purchases --> Purchase Management -->Request for Quotation` ，
+选择菜单 :menuselection:`采购(Purchases) --> 采购管理(Purchase Management) --> 采购询价(Request for Quotation)` ，
 输入一个新的询价（例如,request for quotation）。点击 :guilabel:`New` ，OpenERP打开一个空的询价表单，
 用来输入从供应商询到的价格。如图所示 :ref:`fig-pfrm` 。如果询价是OpenERP自动处理，
-您可以看到一个引用文档，在询价的:guilabel:`Origin` 字段。
+您可以看到一个引用文档，在询价的 :guilabel:`Origin` 字段。
 
 .. i18n: .. _fig-pfrm:
 .. i18n: 
