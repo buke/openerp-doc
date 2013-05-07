@@ -21,7 +21,8 @@
 .. i18n: setting parameters in the new :guilabel:`Warnings` tab on each of the forms.
 ..
 
-通过安装警告消息与预警管理  :mod:`warning`  模块，您可以为业务伙伴和产品设置警告消息。安装之后，可以在业务伙伴或产品的页面上的“警告”  :guilabel:`Warnings`  选项卡上设置参数。
+通过安装警告消息与预警管理  :mod:`warning`  模块，您可以为业务伙伴和产品设置警告消息。安装之后，可以在业务伙伴或产品的页面上
+的 :guilabel:`警告(Warnings)` 选项卡上设置参数。
 
 .. i18n: You can select any of the following types of warnings and create different warnings for purchases and for sales:
 ..
@@ -35,11 +36,11 @@
 .. i18n: * :guilabel:`Blocking Message`: The message displayed will cause an exception and block the workflow.
 ..
 
-* :guilabel:`No Message` 无消息: 不显示任何信息。
+* :guilabel:`无消息(No Message)` : 不显示任何信息。
 
-* :guilabel:`Warning` 警告: 显示您输入的信息。
+* :guilabel:`警告(Warning)` : 显示您输入的信息。
 
-* :guilabel:`Blocking Message` 阻止: 将抛出一个异常，并停止工作流。
+* :guilabel:`阻止(Blocking Message)` : 将抛出一个异常，并停止工作流。
 
 .. i18n: You can activate alerts for a series of events. For each alert, you should enter a message that will
 .. i18n: be displayed when the event concerned is started.
@@ -86,7 +87,7 @@
 .. i18n: invoice for that customer, the alert message will be attached as shown in the figure :ref:`fig-warnsmp`.
 ..
 
-例如：如果您为某客户开票配置一条警告消息之后，当财务人员为该客户录入发票时，就会看到一条警告消息，如图:ref:“fig-warnsmp”。
+例如：如果您为某客户开票配置一条警告消息之后，当财务人员为该客户录入发票时，就会看到一条警告消息，如图 :ref:`fig-warnsmp` 。
 
 .. i18n: .. _fig-warnsmp:
 .. i18n: 
