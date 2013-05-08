@@ -15,7 +15,7 @@
 .. _ch-configacct:
 
 ********************************
-从 A 到 Z 配置科目
+从 A 到 Z 配置会计
 ********************************
 
 .. i18n:  *Accounts have be configured to meet your company's needs.
@@ -24,8 +24,8 @@
 ..
 
  *会计科目可按公司要求配置
- 本章介绍如何修改会计科目表, 分类账, 权限, 初始余额和会计设置的默认值。
- *
+ 本章介绍如何修改会计科目表, 分类账, 权限, 初始余额和会计初始设置的默认值。*
+ 
 
 .. i18n: Good accounting software requires great usability and simplicity of data entry, as well as flexibility in configuring its different components.
 .. i18n: You should be able to easily modify the accounting module to meet your own needs, so that you can optimise it for the way you want to use it.
