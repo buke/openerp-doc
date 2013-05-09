@@ -137,7 +137,7 @@ which can be done by selecting  in the :guilabel:`Reconfigure` wizard. In :guila
 
 * \ ``关闭``\: 项目成功结束,
 
-* \ ``Template``\: the project can be used as a template to make projects based on this.
+* \ ``模板``\: 该项目作为模板以据此创建新项目。
 
 .. i18n: On the `Members` tab, add :guilabel:`Members` to the project; this is related to access rights too.
 ..
@@ -152,13 +152,13 @@ which can be done by selecting  in the :guilabel:`Reconfigure` wizard. In :guila
 ..
 
 在 `Billing` 选项卡，您能看到客户的发票信息。选择 `Customer` ，客户表单的“客户地址”会自动填入。您必须完成其他信息，
-比如 :mod:`销售价格表` 和在任务完成后直接 :guilabel:`按任务进展开票` 。OpenERP允许您设置项目（或自项目）的 `最大开票价` 。
+比如 :mod:`销售价格表` 和在任务完成后直接 :guilabel:`按任务进展开票` 。OpenERP允许您设置项目（或子项目）的 `最大开票价` 。
 `已开票金额` 显示的是相关项目的已开发票的总金额。
 
 .. i18n: If you want to automatically keep your customer informed about the progress of the project, check `Warn Partner`. 
 ..
 
-如果您想自动使您的客户了解项目的进展情况，选中 `通知业务伙伴`。（通知合作伙伴）
+如果您想自动使您的客户了解项目的进展情况，选中 `通知业务伙伴`。
 
 .. i18n: .. note:: Warn Partner Setup
 .. i18n: 
@@ -190,8 +190,8 @@ which can be done by selecting  in the :guilabel:`Reconfigure` wizard. In :guila
 
 .. note:: 客户满意度的研究
 
-	一些企业运行的电子邮件系统自动发送请求客户的任务，以完成一项网上调查结束。这项调查使公司询问有关工作开展的
-	一些问题，来衡量顾客对项目进展的满意程度。
+	一些企业运行的电子邮件系统在任务完成时自动发送邮件，请求客户完成网上调查。这项调查通过公司询问有关工作开展的
+	一些问题，来衡量顾客对项目进程中的满意程度。
 
 	此功能也可用于通过ISO 9001认证的公司，来衡量顾客的满意度。 OpenERP还允许您创建自己的调查。
 
