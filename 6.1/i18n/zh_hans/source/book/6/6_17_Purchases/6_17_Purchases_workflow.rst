@@ -326,8 +326,7 @@ by express delivery as specified in our contract reference 1234."
 .. i18n: receipt and invoicing if you return to the list of orders.
 ..
 
-After receiving the goods, OpenERP will show you which orders are open and the state of their
-receipt and invoicing if you return to the list of orders.
+收货操作后, 会跳转到采购订单列表页中, 在这个列表里,你可以清楚地了解到每个订单的收货情况及发票开具情况.
 
 .. i18n: .. figure:: images/purchase_list.png
 .. i18n:    :scale: 75
@@ -340,7 +339,7 @@ receipt and invoicing if you return to the list of orders.
    :scale: 75
    :align: center
 
-   *List of Open Orders, and their Receipt and Invoice Status*
+   *采购订单列表及收货,发票进度*
 
 .. i18n: Control of Invoicing
 .. i18n: --------------------
