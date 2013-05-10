@@ -7,7 +7,7 @@
 .. i18n: =======
 ..
 
-用户手册
+手册
 =======
 
 .. i18n: .. index::
@@ -25,7 +25,7 @@
 .. i18n: You can fill in the blanks in the structure of the wiki page from the menu :menuselection:`Knowledge --> Collaborative Content --> Wiki pages`.
 ..
 
-每一个管理系统会有相应的用户手册，手册一般按相应的ISO标准所要求的结构来编制。
+每一个管理系统会有相应的手册，手册一般按相应的ISO标准所要求的结构来编制。
 你可以从菜单:menuselection:`知识库 --> 协作内容 --> Wiki页面`进入Wiki页面，开始撰写用户手册。
 
 .. i18n: .. figure::  images/mgmtsystem_manual.png
@@ -39,7 +39,7 @@
    :scale: 75
    :align: center
 
-   *Quality manual*
+   *质量手册*
 
 .. i18n: Procedures and Environmental Aspects
 .. i18n: ====================================
