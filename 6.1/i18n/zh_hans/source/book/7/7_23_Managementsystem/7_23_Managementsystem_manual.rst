@@ -7,7 +7,7 @@
 .. i18n: =======
 ..
 
-指南
+用户手册
 =======
 
 .. i18n: .. index::
@@ -25,7 +25,8 @@
 .. i18n: You can fill in the blanks in the structure of the wiki page from the menu :menuselection:`Knowledge --> Collaborative Content --> Wiki pages`.
 ..
 
-Each management system starts with a manual reflecting the structure of the corresponding ISO standards. 
+每一个管理系统会有相应的用户手册，手册一般按相应的ISO标准所要求的结构来编制。
+你可以从菜单:menuselection:`知识库 --> 协作内容 --> Wiki页面`进入Wiki页面，开始撰写用户手册。
 You can fill in the blanks in the structure of the wiki page from the menu :menuselection:`Knowledge --> Collaborative Content --> Wiki pages`.
 
 .. i18n: .. figure::  images/mgmtsystem_manual.png
@@ -45,7 +46,7 @@ You can fill in the blanks in the structure of the wiki page from the menu :menu
 .. i18n: ====================================
 ..
 
-程序和环境方面
+程序和环境因素
 ====================================
 
 .. i18n: .. index::
@@ -65,8 +66,8 @@ You can fill in the blanks in the structure of the wiki page from the menu :menu
 .. i18n: They are both managed through wiki pages in the same menu as the manual and the structure is already provided.
 ..
 
-Once you have created your manual, you will have to complete it with procedures or environmental aspects. 
-They are both managed through wiki pages in the same menu as the manual and the structure is already provided.
+当系统手册编制完成后，你必须编制一系列适用的程序文件来支撑手册，并考虑环境因素的影响。
+这些文件都可以通过Wiki页面来进行管理，访问菜单同上所述。
 
 .. i18n: .. figure:: images/mgmtsystem_procedure.png
 .. i18n:    :scale: 75
@@ -80,7 +81,7 @@ They are both managed through wiki pages in the same menu as the manual and the 
 .. i18n: You can also detail your procedures with work instructions by creating new wiki pages.
 ..
 
-You can also detail your procedures with work instructions by creating new wiki pages.
+你可以进一步的编制工作指导书，即创建新的Wiki页面，来更详细补充说明程序文件。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
