@@ -18,8 +18,7 @@
 .. i18n:  organization can fulfill all tasks required to achieve its objectives.*
 ..
 
- *A management system is the framework of processes and procedures used to ensure that an 
- organization can fulfill all tasks required to achieve its objectives.*
+ *管理体系是过程和程序的框架，用来保证组织机构可以有效地完成所有需要的工作，从而达到目标*
 
 .. i18n: The objective of management system is to provide all the required applications to manage your
 .. i18n: manuals, procedures, environmental aspects, work instructions, audits, nonconformities, 
