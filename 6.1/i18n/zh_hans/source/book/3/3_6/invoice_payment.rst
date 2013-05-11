@@ -58,13 +58,12 @@ and you still want to keep track of payments.
 .. i18n: Sales Receipts are merely a kind of sales ticket and not a real invoice.
 ..
 
-When you sell products to a customer, you can give him a true invoice or a `Sales Receipt`, which is also called `Customer Receipt`.
-Sales Receipts are merely a kind of sales ticket and not a real invoice.
+当你卖产品给客户时，你可以给他一个真正的发票或销售收据，这也被称为客户收据。销售收据仅仅是一种销售小票，而不是一个真正的发票。
 
 .. i18n: When the sales receipt is confirmed, OpenERP creates journal items automatically and you can record the customer payment related to this sales receipt. The easy invoicing system does not require extensive accounting setup, so you will be up and running quickly!
 ..
 
-When the sales receipt is confirmed, OpenERP creates journal items automatically and you can record the customer payment related to this sales receipt. The easy invoicing system does not require extensive accounting setup, so you will be up and running quickly!
+当销售收据确认后，OpenERP的自动创建销售记录，并记录客户有关这张收据的付款情况。 简单的发票系统并不需要做大量的会计配置，因此您能很快上线并快速使用!
 
 .. i18n: You can create and modify a sales receipt from the menu :menuselection:`Accounting --> Customers --> Sales Receipt`.
 ..
