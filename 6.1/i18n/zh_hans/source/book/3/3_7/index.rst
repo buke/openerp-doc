@@ -15,17 +15,13 @@
 ************
 
 .. i18n:  *This chapter traces the basic accounting workflow in OpenERP, from entering an invoice to
-.. i18n: registering payments. The various operations are described, from the entry of accounting receipts to
-.. i18n: the treatment of the reconciliation process, including payment orders.*
+.. i18n:   registering payments. The various operations are described, from the entry of accounting receipts to
+.. i18n:   the treatment of the reconciliation process, including payment orders.*
 ..
 
 *本章分析OpenERP的会计的基本工作流，从填写发票到确认付款。介绍了具体各种操作，不仅包括会计凭据的分录填写制单，还有对账过程的账务处理（包括订单付款等）。*
 
- *This chapter traces the basic accounting workflow in OpenERP, from entering an invoice to
- registering payments. The various operations are described, from the entry of accounting receipts to
- the treatment of the reconciliation process, including payment orders.*
-
-.. i18n: Accounting is at the heart of managing a company: all the company's operations have an impact here.
+ .. i18n: Accounting is at the heart of managing a company: all the company's operations have an impact here.
 .. i18n: It has an informational role (how much cash is there? what debts need to be repaid? what is the stock
 .. i18n: valuation?) and, because of the information it provides, a reliable and detailed accounting system
 .. i18n: can and should have a major decision-making role.
