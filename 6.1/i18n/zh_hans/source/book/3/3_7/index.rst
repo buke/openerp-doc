@@ -14,9 +14,12 @@
 从开票到支付
 ************
 
-.. i18n:  *本章分析OpenERP的会计的基本工作流，从填写发票到确认付款。
-.. i18n:  介绍了具体各种操作，不仅包括会计凭据的分录填写制单，还有对账过程的账务处理（包括订单付款等）。*
+.. i18n:  *This chapter traces the basic accounting workflow in OpenERP, from entering an invoice to
+.. i18n: registering payments. The various operations are described, from the entry of accounting receipts to
+.. i18n: the treatment of the reconciliation process, including payment orders.*
 ..
+
+*本章分析OpenERP的会计的基本工作流，从填写发票到确认付款。介绍了具体各种操作，不仅包括会计凭据的分录填写制单，还有对账过程的账务处理（包括订单付款等）。*
 
  *This chapter traces the basic accounting workflow in OpenERP, from entering an invoice to
  registering payments. The various operations are described, from the entry of accounting receipts to
@@ -28,7 +31,7 @@
 .. i18n: can and should have a major decision-making role.
 ..
 
-总帐是公司管理的核心: all the company's operations have an impact here.
+总帐是公司管理的核心: 公司所有的业务都会影响她.
 It has an informational role (how much cash is there? what debts need to be repaid? what is the stock
 valuation?) and, because of the information it provides, a reliable and detailed accounting system
 can and should have a major decision-making role.
