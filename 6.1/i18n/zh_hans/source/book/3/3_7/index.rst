@@ -28,7 +28,7 @@
 .. i18n: can and should have a major decision-making role.
 ..
 
-Accounting is at the heart of managing a company: all the company's operations have an impact here.
+总帐是公司管理的核心: all the company's operations have an impact here.
 It has an informational role (how much cash is there? what debts need to be repaid? what is the stock
 valuation?) and, because of the information it provides, a reliable and detailed accounting system
 can and should have a major decision-making role.
