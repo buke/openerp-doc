@@ -58,7 +58,7 @@ and you still want to keep track of payments.
 .. i18n: Sales Receipts are merely a kind of sales ticket and not a real invoice.
 ..
 
-当你卖产品给客户时，你可以给他一个真正的发票或销售收据，这也被称为客户收据。销售收据仅仅是一种销售小票，而不是一个真正的发票。
+您你卖产品给客户时，您可以给他一个真正的发票或销售收据，这也被称为客户收据。销售收据仅仅是一种销售小票，而不是一个真正的发票。
 
 .. i18n: When the sales receipt is confirmed, OpenERP creates journal items automatically and you can record the customer payment related to this sales receipt. The easy invoicing system does not require extensive accounting setup, so you will be up and running quickly!
 ..
@@ -68,7 +68,7 @@ and you still want to keep track of payments.
 .. i18n: You can create and modify a sales receipt from the menu :menuselection:`Accounting --> Customers --> Sales Receipt`.
 ..
 
-You can create and modify a sales receipt from the menu :menuselection:`Accounting --> Customers --> Sales Receipt`.
+您可以通过以下菜单创建和修改销售收据 :menuselection:`Accounting --> Customers --> Sales Receipt`.
 
 .. i18n: .. figure::  images/account_customer_receipt2.png
 .. i18n:    :scale: 75
@@ -81,14 +81,14 @@ You can create and modify a sales receipt from the menu :menuselection:`Accounti
    :scale: 75
    :align: center
 
-   *Defining a Customer Receipt*
+   *创建客户收据*
 
 .. i18n: .. note:: Extended View
 .. i18n: 
 .. i18n:     To display Sales and Purchase Receipts in the Customers / Suppliers menu, you need to use the ``Extended`` view. The view can be changed with the user ``Preferences`` button next to the ``Home`` button in the main toolbar.
 ..
 
-.. note:: Extended View
+.. 注释:: 扩展试图
 
     To display Sales and Purchase Receipts in the Customers / Suppliers menu, you need to use the ``Extended`` view. The view can be changed with the user ``Preferences`` button next to the ``Home`` button in the main toolbar.
 
