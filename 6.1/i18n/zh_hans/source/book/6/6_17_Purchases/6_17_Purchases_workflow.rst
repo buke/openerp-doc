@@ -434,9 +434,8 @@ OpenERP会自动处理发票相关的采购成本会计凭证分录.
 .. i18n: controlled by goods receipt.
 ..
 
-This method of controlling invoices is often used in service companies, because the invoiced amounts
-correspond to the ordered amounts. In logistics, by contrast, you most often work with invoicing
-controlled by goods receipt.
+基于订单的发票控制方式一般用于服务类供应商,因为服务行业的开据的发票金额与订单的金额通常是一致的. 而大多数情况下
+一般企业都通常采用基于收/发货单的发票控制方式.
 
 .. i18n: Control based on Goods Receipt
 .. i18n: ------------------------------
