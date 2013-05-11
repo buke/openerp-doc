@@ -19,18 +19,15 @@
 .. i18n:   the treatment of the reconciliation process, including payment orders.*
 ..
 
-*本章分析OpenERP的会计的基本工作流，从填写发票到确认付款。介绍了具体各种操作，不仅包括会计凭据的分录填写制单，还有对账过程的账务处理（包括订单付款等）。*
+*本章分析OpenERP的会计的基本工作流，从填写发票到确认付款。介绍了具体各种操作，不仅包括填写会计凭证的分录，还有对账过程的账务处理（包括付款单等）。*
 
- .. i18n: Accounting is at the heart of managing a company: all the company's operations have an impact here.
+.. i18n: Accounting is at the heart of managing a company: all the company's operations have an impact here.
 .. i18n: It has an informational role (how much cash is there? what debts need to be repaid? what is the stock
 .. i18n: valuation?) and, because of the information it provides, a reliable and detailed accounting system
 .. i18n: can and should have a major decision-making role.
 ..
 
-总帐是公司管理的核心: 公司所有的业务都会影响她.
-It has an informational role (how much cash is there? what debts need to be repaid? what is the stock
-valuation?) and, because of the information it provides, a reliable and detailed accounting system
-can and should have a major decision-making role.
+总帐是公司管理的核心: 公司所有的业务都会影响它。它是一个信息员（有多少现金？什么样的债务需要偿还呢？库存价值多少？），并且，因为它提供的信息，可靠和详细的会计系统可以并且应该有一个重大决策的地位。
 
 .. i18n: In most companies, accounting is limited to producing statutory reports and satisfying the
 .. i18n: directors' curiosity about certain strategic decisions, and to printing the balance sheet and the
