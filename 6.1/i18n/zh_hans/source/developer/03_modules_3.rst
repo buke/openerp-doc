@@ -2547,7 +2547,8 @@ colours in a tree view.
         Here is the first view for the model 'client'.
         We don't specify a priority field, which means 
         by default 16.
-	dclient
+	这是模型‘client'的第一个视图。
+	我们不指定priority字段，意味着是默认值16
     -->
     <record model="ir.ui.view" id="client_form_view_1">
         <field name="name">client.form.view1</field>
@@ -2562,6 +2563,7 @@ colours in a tree view.
     <!--
         A second view, which show fields in an other order.
         We specify a priority of 15.
+	在 用另外的顺序显示字段的第二个视图，我们指定了priority为15.
     -->
     <record model="ir.ui.view" id="client_form_view_2">
         <field name="name">client.form.view2</field>
@@ -2638,7 +2640,8 @@ Specify per-action view
     <!--
         This action open the default view (in our case,
         the view with the highest priority, the second one)
-    -->
+	此actionb打开了默认视图（在我们的例子中，这个视
+		图有最优先级 ，第二个方法  -->
     <record 
     	model="ir.actions.act_window" 
     	id="client_form_action">
@@ -2650,6 +2653,7 @@ Specify per-action view
 
     <!--
         This action open the view we specify.
+	这个 action 打开我们指定的视图
     -->
     <record 
     	model="ir.actions.act_window" 
@@ -2686,22 +2690,21 @@ Specify per-action view
 
 .. note::
 
-    Remember to use the module name (*module.view_id*) in the *ref* attribute if 
-    you are referring to a view defined in another module.
+    记住，如果在 *ref* 属性中涉及在另外模块定义的一个视图，要使用模块名 (*module.view_id*) .
 
 .. i18n: Specify views for related fields
 .. i18n: ++++++++++++++++++++++++++++++++
 ..
 
-Specify views for related fields
+为关联字段related fields指定视图
 ++++++++++++++++++++++++++++++++
 
 .. i18n: Using the context
 .. i18n: """""""""""""""""
 ..
 
-Using the context
-"""""""""""""""""
+使用上下文 context
+"""""""""""“”“”""""""
 
 .. i18n: The *view_id* method works very well for menus/actions, but how can you specify the view to use for a one2many
 .. i18n: field, for example? When you have a one2many field, two views are used, a tree view (**in blue**), and a form view when
@@ -2754,7 +2757,7 @@ view_id方法对于menus/actions效果很好，但是你如何为one2many字段�
 .. i18n: If you don't specify the views, OpenERP will choose one in this order :
 ..
 
-如果你不想指定视图，OpenERP将会在以下的order中选择一个：
+如果你不想指定视图，OpenERP将会用以下的顺序选择一个：
 
 .. i18n: 1. It will use the <form> or <tree> view defined **inside** the field (see below)
 .. i18n: 2. Else, it will use the views with the highest priority for this object.
@@ -2772,7 +2775,7 @@ view_id方法对于menus/actions效果很好，但是你如何为one2many字段�
 
 .. note::
 
-    The context keys are named <view_type>_view_ref.
+    上下文关键字（context keys）被命名为 <view_type>_view_ref.
 
 .. i18n: .. note::
 .. i18n: 
@@ -2791,13 +2794,13 @@ view_id方法对于menus/actions效果很好，但是你如何为one2many字段�
 .. i18n: """"""""""""""
 ..
 
-Using subviews
-""""""""""""""
+使用子视图
+“”“""""""""
 
 .. i18n: In the case of relational fields, you can create a view directly inside a field :
 ..
 
-对于相关的字段，你可以直接在一个字段中创建一个视图：
+对于关联字段（related fields），你可以直接在一个字段中创建一个视图：
 
 .. i18n: .. code-block:: xml
 .. i18n: 
@@ -2909,7 +2912,7 @@ Using subviews
 .. i18n: ------
 ..
 
-Events
+事件
 ------
 
 .. i18n: .. _onchange-event-link:
@@ -2920,8 +2923,8 @@ Events
 
 .. _onchange-event-link:
 
-On Change
-+++++++++
+On Change  事件
++++++++++++++++
 
 .. i18n: The on_change attribute defines a method that is called when the content of a view field has changed.
 ..
@@ -3013,13 +3016,13 @@ On Change
 ..
 
     ``domain``
-      {field: domain}的一个映射
+    ``{field: domain}`` 的一个映射
 
 .. i18n:       The returned domains should be set on the fields instead of the
 .. i18n:       default ones.
 ..
 
-      这个返回的domains在字段上设置，而不是之前默认的。
+      这个返回的domains将被设置在该字段上，以替换默认的一个。
 
 .. i18n:     ``value``
 .. i18n:       A mapping of ``{field: value}}``, the values will be set on the
@@ -3028,11 +3031,11 @@ On Change
 ..
 
     ``value``
-      field: value}的映射，这个值将会在相对应的字段上设置，可能触发新的改变或是属性的改变。
+    ``{field: value}}`` 的映射，这个值将会在相对应的字段上设置，可能触发新的onchanges或是attrs changes。
 
 .. i18n:     ``warning`` A dict with the keys ``title`` and ``message``. Both
 .. i18n:       are mandatory. Indicate that an error message should be
 .. i18n:       displayed to the user.
 ..
 
-    ``warning`` 有关键字title和message（两个是必须的）的字典。指出显示给用户的错误信息。
+    ``warning`` 有关键字``title`` 和 ``message``（两个是必须的）的字典。指出显示给用户的错误信息。
