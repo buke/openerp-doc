@@ -2473,7 +2473,7 @@ colours in a tree view.
 .. i18n: ---------------------------------
 ..
 
-Specify the views you want to use
+指定你要使用的视图
 ---------------------------------
 
 .. i18n: There are some cases where you would like to specify a view other than the default:
