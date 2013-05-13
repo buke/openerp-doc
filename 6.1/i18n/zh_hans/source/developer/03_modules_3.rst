@@ -2493,8 +2493,8 @@ colours in a tree view.
 .. i18n: ++++++++++++++++++++++++
 ..
 
-Using the priority field
-++++++++++++++++++++++++
+使用优先级字段（priority field）
++++++++++++++++++++++++++++++++++
 
 .. i18n: This field is available in the view definition, and is 16 by default. By 
 .. i18n: default, OpenERP will display a model using the view with the highest priority
@@ -2547,6 +2547,7 @@ Using the priority field
         Here is the first view for the model 'client'.
         We don't specify a priority field, which means 
         by default 16.
+	dclient
     -->
     <record model="ir.ui.view" id="client_form_view_1">
         <field name="name">client.form.view1</field>
