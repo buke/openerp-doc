@@ -175,7 +175,7 @@
 .. i18n:         When you enter supplier names in the product form, you can set a name and a product code for each individual supplier. If you do that, OpenERP will then use those details instead of your own internal product names for that selected supplier.
 ..
 
-.. tip:: 产品命令及多形式编码
+.. tip:: 产品命名及多形式编码
 
         当你选择了供应商后, 系统还能将你录入的产品及产品编码替换为你单独为这个供应商指定的 供应商的产品名称以及供应商的产品代码.
 
@@ -462,10 +462,8 @@ OpenERP会自动处理发票相关的采购成本会计凭证分录.
 .. i18n: invoices for several receipts at one time) which enables you to modify it before confirming it.
 ..
 
-The storesperson can then receive different orders. If he wants to generate the draft invoice for a
-goods receipt, he can click the action :guilabel:`Create Invoice`. OpenERP then asks you for the
-journal for this invoice. It then opens that or the generated invoices (in the case of creating
-invoices for several receipts at one time) which enables you to modify it before confirming it.
+仓库管理员此时可以收/发货订单处理. 并且点单据 :guilabel:`创建发票(Create Invoice)` 按钮即可创建收货对应的草稿状态的供应商/客户发票.
+此时,你可以再次核对该草稿发票数据, 并选择一个适当的 :guilabel:`帐簿(Journal)` 并确认该笔或多笔收/发货产生的发票.
 
 .. i18n: This approach is useful when you receive the invoice at the same time as the item from the supplier.
 .. i18n: Usually, invoices are sent by post some days later. In this case, the storesperson leaves the item
