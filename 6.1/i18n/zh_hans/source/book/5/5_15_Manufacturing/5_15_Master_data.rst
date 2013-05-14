@@ -17,10 +17,11 @@
 .. i18n: manufacturing plan is given by the figure :ref:`fig-mrparm2`.
 ..
 
-物料清单(Bill of Materials)是用来列举制造一个成品(finished product)所需要的原材料(raw materials)列表。
+:guilabel:`物料清单(Bill of Materials)` 是用来列举制造一个成品(finished product)所需要的原材料(raw materials)列表。
 To illustrate the concept of specification, you will work on a shelf (or cabinet) where the
 manufacturing plan is given by the figure :ref:`fig-mrparm2`.
 (为了解释本章节的内容，你会生产一个生产计划指定的书架(或橱柜).)
+
 .. i18n: .. _fig-mrparm2:
 .. i18n: 
 .. i18n: .. figure:: images/mrp_armoire.png
@@ -823,7 +824,7 @@ Work centers represent units of production, capable of doing material transforma
 .. i18n:     that can be considered as a unit for the purpose of forecasting capacity and planning.
 ..
 
-.. note:: Work Center
+.. note:: 工作中心
 
     Work centers are units of production consisting of one or several people and/or machines
     that can be considered as a unit for the purpose of forecasting capacity and planning.
