@@ -2704,7 +2704,7 @@ Specify per-action view
 ..
 
 使用上下文 context
-"""""""""""“”“”""""""
+"""""""""""""""""""""
 
 .. i18n: The *view_id* method works very well for menus/actions, but how can you specify the view to use for a one2many
 .. i18n: field, for example? When you have a one2many field, two views are used, a tree view (**in blue**), and a form view when
@@ -2795,7 +2795,7 @@ view_id方法对于menus/actions效果很好，但是你如何为one2many字段�
 ..
 
 使用子视图
-“”“""""""""
+""""""""""""""
 
 .. i18n: In the case of relational fields, you can create a view directly inside a field :
 ..
