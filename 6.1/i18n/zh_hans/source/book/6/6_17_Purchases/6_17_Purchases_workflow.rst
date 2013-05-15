@@ -474,13 +474,9 @@ OpenERP会自动处理发票相关的采购成本会计凭证分录.
 .. i18n: the list of receipts that have not yet been invoiced.
 ..
 
-This approach is useful when you receive the invoice at the same time as the item from the supplier.
-Usually, invoices are sent by post some days later. In this case, the storesperson leaves the item
-unchanged without generating an invoice. Then, once per day or once per week the accountant will
-create the draft invoices based on all the receipts for the day. To do that, he uses the menu
-:menuselection:`Purchases --> Invoice Control --> Purchase Lines Not Invoiced`. 
-He clicks the action :guilabel:`Create invoices` to generate all draft invoices from
-the list of receipts that have not yet been invoiced.
+这种方式特别适合大部分供应商的货物与发票并不是同时送达的情况. 通常情况下, 发票总是迟于货物好几天送达. 在本范例中, 仓库管理员
+并不在收到货物时生成发票. 而是由会计每天或者每周统一将近期的收/发货生成草稿发票. 点击菜单 :menuselection:`采购(Purchase) --> 发票控制(Invoice Control) --> 待开发票明细(Purchase Lines Not Invoiced)`
+并点击 :guilabel:`创建发票(Create invoices)` 可以将列表中未开发票的收/发货生成草稿发票.
 
 .. i18n: .. index::
 .. i18n:    single: accountant
