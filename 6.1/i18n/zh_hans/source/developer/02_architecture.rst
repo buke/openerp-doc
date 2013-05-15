@@ -1089,7 +1089,7 @@ When initializing a module, the files in the init_xml list are evaluated in turn
 .. i18n: Objects may be inherited in some custom or specific modules. It is better to inherit an object to add/modify some fields.
 ..
 
-Objects may be inherited in some custom or specific modules. It is better to inherit an object to add/modify some fields.
+对象可能被继承自一些自定义或特殊模块，这可以添加/修改一些文件去继承一个对象。
 
 .. i18n: It is done with::
 .. i18n: 
@@ -1099,7 +1099,7 @@ Objects may be inherited in some custom or specific modules. It is better to inh
 .. i18n: ++++++++++++++++++++++
 ..
 
-It is done with::
+这样就可以了::
 
         _inherit='object.name'
         
