@@ -668,11 +668,8 @@ action, or upon workflow transitions).
 .. i18n: reached, or when they are untouched for some time).
 ..
 
-There are two different models. One is simply called 'model', and the second is
-called 'transient model'. The two models provide the same capabilities with a
-single difference: transient models are automatically cleared from the
-database (they can be cleaned when some limit on the number of records is
-reached, or when they are untouched for some time).
+有两个不同的模型. 一个简单地叫'model', 另一个叫 'transient model'. 这两个模型提供的功能基本一致，除了一点:
+transient models 会自动在数据库中清除数据 (当数值到达某个值，或是超过某个时间点的时候，数据会自动清除).
 
 .. i18n: To describe the data model per se, OpenERP offers a range of different kind of
 .. i18n: fields. There are basic fields such as integer, or text fields. There are
