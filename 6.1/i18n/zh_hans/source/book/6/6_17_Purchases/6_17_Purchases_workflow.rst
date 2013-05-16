@@ -489,8 +489,7 @@ OpenERP会自动处理发票相关的采购成本会计凭证分录.
 .. i18n: for the same partner into the same invoice.
 ..
 
-At that point, the accountant can decide if he wants to generate an invoice per item or group all items
-for the same partner into the same invoice.
+在这个时候, 会计可以决定是按收/发货明细产生多张发票或者按合作伙伴汇到一张发票上.
 
 .. i18n: Invoices are then handled just like those controlled from ``On Order``. Once the invoice arrives at
 .. i18n: the accounting service, he just compares it with the invoices waiting to control what the supplier
