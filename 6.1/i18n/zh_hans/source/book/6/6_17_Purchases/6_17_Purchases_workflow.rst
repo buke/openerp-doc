@@ -515,12 +515,10 @@ invoices you.
 .. i18n:    of the products delivered or ordered.
 ..
 
-.. tip:: Delivery Charges
+.. tip:: 相关物流费用
 
-   To manage delivery charges, install the module :mod:`delivery` using the :guilabel:`Reconfigure` wizard
-   and selecting :guilabel:`Delivery Costs` in :guilabel:`Sales Application Configuration` section.
-   This will automatically add delivery charges to the creation of the draft invoice as a function
-   of the products delivered or ordered.
+   要管理物流运输费用, 你需要安装 :mod:`delivery` 模块, 并在 :guilabel:`配置(Reconfigure)` 向导中 :guilabel:`销售配置(Sale Application Configuration)` 选择 :guilabel:`运输成本(Delivery Costs`.
+   安装完毕后, 在产品收/发货或者订单确认时产生的发票中, 会自动添加上相关的运输物流费用.
 
 .. i18n: .. index:: 
 .. i18n:    single: tender
