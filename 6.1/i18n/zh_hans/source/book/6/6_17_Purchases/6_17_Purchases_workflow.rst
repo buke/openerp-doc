@@ -550,8 +550,8 @@ invoices you.
 .. i18n: a new :menuselection:`Purchase Requisitions` menu in :menuselection:`Purchases --> Purchase Management`. You can then define the new tenders.
 ..
 
-To manage tenders, you should use the module :mod:`purchase_requisition`, installed via the
-:guilabel:`Purchase Requisition` option in the :guilabel:`Reconfigure` wizard.
+招标管理,你要安装 :mod:`purchase_requisition` 模块, 并在安装模块后的 :guilabel:`配置(Reconfigure)` 向导里选择
+:guilabel:`采购申请(Purchase Requistion)`.
 This lets you create several
 supplier price requests for a single supply requirement. Once the module is installed, OpenERP adds
 a new :menuselection:`Purchase Requisitions` menu in :menuselection:`Purchases --> Purchase Management`. You can then define the new tenders.
