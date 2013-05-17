@@ -1157,7 +1157,7 @@ Example 1::
 .. i18n: In this example, the 'custom_material' will add a new field 'manuf_warranty' to the object 'network.material'. New instances of this class will be visible by views or trees operating on the superclasses table 'network.material'.
 ..
 
-In this example, the 'custom_material' will add a new field 'manuf_warranty' to the object 'network.material'. New instances of this class will be visible by views or trees operating on the superclasses table 'network.material'.
+在这个例子中，"custom_material"对象会对"network_material"对象添加一个新的字段"manuf_warranty"， New instances of this class will be visible by views or trees operating on the superclasses table 'network.material'.
 
 .. i18n: This inheritancy is usually called "class inheritance" in Object oriented design. The child inherits data (fields) and behavior (functions) of his parent.
 ..
