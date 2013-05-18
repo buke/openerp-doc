@@ -552,9 +552,7 @@ invoices you.
 
 招标管理,你要安装 :mod:`purchase_requisition` 模块, 并在安装模块后的 :guilabel:`配置(Reconfigure)` 向导里选择
 :guilabel:`采购申请(Purchase Requistion)`.
-This lets you create several
-supplier price requests for a single supply requirement. Once the module is installed, OpenERP adds
-a new :menuselection:`Purchase Requisitions` menu in :menuselection:`Purchases --> Purchase Management`. You can then define the new tenders.
+这样你就可以向多个供应商发出询价,从其中选择一个. 模块安装后, 请求菜单项为: :menuselection:`采购(Purchase) --> 采购管理(Purchase management) --> 采购询价(Purchase Requisitions)`.
 
 .. i18n: .. figure:: images/purchase_tender.png
 .. i18n:    :scale: 75
