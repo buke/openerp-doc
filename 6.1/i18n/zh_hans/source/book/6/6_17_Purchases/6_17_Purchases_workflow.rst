@@ -565,7 +565,7 @@ invoices you.
    :scale: 75
    :align: center
 
-   *Defining a Tender*
+   *定义一个投标方*
 
 .. i18n: To enter data for a new tender, use the menu :menuselection:`Purchases --> Purchase Management -->
 .. i18n: Purchase Requisitions` and select :guilabel:`New`. OpenERP then opens a new blank tender form. The reference number
@@ -604,7 +604,7 @@ cancelled by OpenERP if you selected the Purchase Requisition (exclusive) type. 
 .. i18n: OpenERP supports several methods of calculating and automatically updating product costs:
 ..
 
-OpenERP supports several methods of calculating and automatically updating product costs:
+OpenERP有多种方法计算更新产品成本:
 
 .. i18n: * Standard Price: manually fixed, and
 .. i18n: 
@@ -613,17 +613,17 @@ OpenERP supports several methods of calculating and automatically updating produ
 .. i18n: * Average Price: updated at each receipt to the warehouse.
 ..
 
-* Standard Price: manually fixed, and
+* 标准价格(Standard Price): 手工更新产品标准价,
 
-* Standard Price: revalued automatically and periodically,
+* 标准价格(Standard Price): 定期自动更新产品标准价,
 
-* Average Price: updated at each receipt to the warehouse.
+* 平均价(Average Price): 每次收货时更新产品标准价.
 
 .. i18n: This cost is used to value your stock and represents your product costs. Included in that cost is
 .. i18n: everything directly related to the received cost. You could include such elements as:
 ..
 
-This cost is used to value your stock and represents your product costs. Included in that cost is
+产品成本价表示你库存产品的价值.Included in that cost is
 everything directly related to the received cost. You could include such elements as:
 
 .. i18n: * supplier price,
