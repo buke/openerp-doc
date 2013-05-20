@@ -623,8 +623,7 @@ OpenERP有多种方法计算更新产品成本:
 .. i18n: everything directly related to the received cost. You could include such elements as:
 ..
 
-产品成本价表示你库存产品的价值.Included in that cost is
-everything directly related to the received cost. You could include such elements as:
+产品成本价表示你库存产品的价值. 影响库存产品成本有很多因素, 大致包含有下面的几部分:
 
 .. i18n: * supplier price,
 .. i18n: 
@@ -635,13 +634,13 @@ everything directly related to the received cost. You could include such element
 .. i18n: * storage charges.
 ..
 
-* supplier price,
+* 采购价格,
 
-* delivery charges,
+* 运送费用,
 
-* manufacturing costs,
+* 制造成本,
 
-* storage charges.
+* 仓储费用.
 
 .. i18n: Standard Price
 .. i18n: ^^^^^^^^^^^^^^
