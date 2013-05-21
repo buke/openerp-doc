@@ -653,8 +653,8 @@ OpenERP有多种方法计算更新产品成本:
 .. i18n: On each individual product, you can select if you want to work in ``Standard Price`` or on weighted ``Average Price``.
 ..
 
-The mode of price management for the product is shown in the tab :guilabel:`Information` on the product form.
-On each individual product, you can select if you want to work in ``Standard Price`` or on weighted ``Average Price``.
+产品的标准价格可以在产品窗体的 :guilabel:`其他信息(Information)` 中看到, 每个产品的标准价可以单独设置.并且你可以在 ``标准价格``
+与 ``平均价格`` 间做出适当的选择.
 
 .. i18n: .. tip:: Simplified Interface
 .. i18n: 
@@ -662,7 +662,7 @@ On each individual product, you can select if you want to work in ``Standard Pri
 .. i18n:    manage the price calculation mode for a product. In that case, the default value is ``Standard Price``.
 ..
 
-.. tip:: Simplified Interface
+.. tip:: 简化界面
 
    If you work in the ``Simplified`` interface mode you will not see the field that lets you
    manage the price calculation mode for a product. In that case, the default value is ``Standard Price``.
