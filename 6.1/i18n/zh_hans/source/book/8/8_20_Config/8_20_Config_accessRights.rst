@@ -223,7 +223,7 @@ OpenERP 管理权限的方法非常灵活，每个用户可以属于一个或多
 .. i18n: enter the following:
 ..
 
-然后创建一个新用户关联到这里，使用 :menuselection:`设置 --> 用户 --> Users` ，输入如下：
+然后创建一个新用户关联到这里，使用 :menuselection:`设置(Administration) --> 用户(Users) --> 用户(Users)` ，输入如下：
 
 .. i18n: *  :guilabel:`User Name` : \ ``Stores Person`` \ ,
 .. i18n: 
@@ -558,7 +558,7 @@ Security --> Record Rules`. The fields in the ``ir.rule`` object describe:
             * 如果有多个测试在相同对象上面，他们将用 ``AND`` 操作符组合，根据规则得到满意结果。
 
             * 如果对象上有多个验证条件,可能根据需要设置关联方式为and的操作符组合如果有多个
-              规则在在相同对象上面，将使用``OR``  操作符组合
+              规则在在相同对象上面，将使用 ``OR``  操作符组合
 
     * :guilabel:`访问模式` : 读，写，创建，删除如前所述
 
