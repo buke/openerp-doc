@@ -411,7 +411,7 @@ by express delivery as specified in our contract reference 1234."
 .. i18n: the ``Draft`` filter.
 ..
 
-如果你的开票方式选择了 :guilable:`基于订单(Base on Order)` , 确认采购订单时, OpenERP 会自动产生相应的供应商发票. 点击菜单
+如果你的开票方式选择了 :guilabel:`基于订单(Base on Order)` , 确认采购订单时, OpenERP 会自动产生相应的供应商发票. 点击菜单
 :menuselection:`会计(Accounting) --> 供应商(Suppliers) --> 供应商发票(Supplier Invoices)` 打开列表后, 点击 ``草稿(Draft)`` 
 过滤,可以看到所有的 ``草稿(Draft)`` 状态的供应商发票.
 
