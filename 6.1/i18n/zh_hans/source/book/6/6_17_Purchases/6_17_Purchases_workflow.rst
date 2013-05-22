@@ -672,9 +672,7 @@ OpenERP有多种方法计算更新产品成本:
 .. i18n: or manufacturing costs.
 ..
 
-The ``Standard Price`` setting means that the product cost is fixed manually for each product in the field
-:guilabel:`Cost Price`. This is usually revalued once a year based on the average of purchase costs
-or manufacturing costs.
+``标准价格`` 的成本计算方式需要为每个产品单独设置 :guilabel:`成本价`. 通常都是每年根据采购平均成本或者制造平均成本来更新一次.
 
 .. i18n: You usually use standard costs to manage products where the price hardly changes over the course of
 .. i18n: the year. For example, the standard cost could be used to manage books, or the cost of bread.
