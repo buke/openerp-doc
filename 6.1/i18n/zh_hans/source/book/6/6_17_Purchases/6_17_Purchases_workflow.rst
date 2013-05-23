@@ -572,9 +572,8 @@ invoices you.
 .. i18n: is set by default and you can enter information about your tender in the other fields.
 ..
 
-To enter data for a new tender, use the menu :menuselection:`Purchases --> Purchase Management -->
-Purchase Requisitions` and select :guilabel:`New`. OpenERP then opens a new blank tender form. The reference number
-is set by default and you can enter information about your tender in the other fields.
+点击菜单 :menuselection:`采购(Purchase) --> 采购管理(Purchase Management) --> 采购询价(Purchase Requisitions)` 并 :guilabel:`新建(New)` 一个询价单.
+在新的询价单里, 你可以填写各个投标供应商的相关信息.
 
 .. i18n: If you want to enter a supplier's response to your tender request, add a new
 .. i18n: draft purchase order into the list on the :guilabel:`Quotation` tab of your tender document. 
