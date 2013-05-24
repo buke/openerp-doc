@@ -581,10 +581,8 @@ invoices you.
 .. i18n: appropriate purchase order that you have left in the draft state and link that to the tender. 
 ..
 
-If you want to enter a supplier's response to your tender request, add a new
-draft purchase order into the list on the :guilabel:`Quotation` tab of your tender document. 
-If you want to revise a supplier price in response to negotiations, edit any 
-appropriate purchase order that you have left in the draft state and link that to the tender. 
+当你的询价函有供应商回复时, 你可以将该供应商的回复在 :guilabel:`询价(Quotation)` 页签中新建采购单. 同时,
+你在同供应商的价格谈判期间, 都可以随时调出对应的草稿状态的采购订单进行价格调整.
 
 .. i18n: When one of the orders about a tender is confirmed, all of the other orders are automatically
 .. i18n: cancelled by OpenERP if you selected the Purchase Requisition (exclusive) type. That enables you to accept just one order for a particular tender. If you select Multiple requisitions, you can approve several purchase orders without cancelling other orders from this tender.
