@@ -93,9 +93,9 @@ Openerp中简明并易用的 `开票` 系统使你能跟踪您的账务，即使
 .. i18n: When you select the `Pay Directly` option, you have to enter the bank `Account`. The `Total` amount displays automatically with calculation of tax (if you select VAT to be added) when you click the `Compute Tax` button.
 ..
 
-When you create a new `Sales Receipt`, you have to enter the `Customer` for whom you want to create a voucher. You can also define `Sales Lines` in the `Sales Information` tab. Here you have to define `Account`, `Amount` and `Description`.
-At the bottom of the form, you will have two options for `Payment`: one is `Pay Directly` and another is `Pay Later or Group Funds`.
-When you select the `Pay Directly` option, you have to enter the bank `Account`. The `Total` amount displays automatically with calculation of tax (if you select VAT to be added) when you click the `Compute Tax` button.
+当您创建一张新的“销售收据”时，您必须录入“客户”——您想创建该凭证的对象。您可以在“销售信息”页签里面定义”销售明细行“，在这儿您必须定义“会计科目”，“金额”，“摘要”.
+在表单底部， 您有两个“支付”选项：一个是“直接支付”， 另一个是“稍后付款或集中付款“.
+当您选择”立即付款“选项，您必须录入银行“帐户”. 当您点击”计算税“按钮后，”总金额“会自动包含计算的税款（如果您添加了增值税信息）.
 
 .. i18n: When you purchase products from a supplier, you will receive a `Purchase Receipt` (a ticket),  which is also called `Notes Payable`
 .. i18n: in accounting terminology. When a purchase receipt is confirmed, it creates journal items automatically and you can record
