@@ -102,8 +102,7 @@ Openerp中简明并易用的 `开票` 系统使你能跟踪您的账务，即使
 .. i18n: the supplier payment related to this purchase receipt, just like for the sales receipts.
 ..
 
-When you purchase products from a supplier, you will receive a `Purchase Receipt` (a ticket),  which is also called `Notes Payable`
-in accounting terminology. When a purchase receipt is confirmed, it creates journal items automatically and you can record
+当您向Whe供应商采购商品后，您会收到”采购收据“（一张票据），它在会计术语里叫”付款单据“。 When a purchase receipt is confirmed, it creates journal items automatically and you can record
 the supplier payment related to this purchase receipt, just like for the sales receipts.
 
 .. i18n: You can create and modify the purchase receipt through the menu :menuselection:`Accounting --> Suppliers --> Purchase Receipt`.
