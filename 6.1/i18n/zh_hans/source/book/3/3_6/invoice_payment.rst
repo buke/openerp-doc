@@ -33,7 +33,7 @@ OpenERP 的开票流程也很简单,参见下面的工作流程图:
 .. i18n: Of course, companies often work together with an external accountant who keeps their books. In that case, you would like to know which invoices exist and have been paid.
 ..
 
-Of course, companies often work together with an external accountant who keeps their books. In that case, you would like to know which invoices exist and have been paid.
+当然，企业通常与记录这些信息的会计师一起工作。在这种情况下，你想知道哪些发票已经开具，并已支付。
 
 .. i18n: The specific and easy-to-use `Invoicing` system in OpenERP allows you to keep track of your accounting, even when you are not an accountant.
 .. i18n: It provides an easy way to follow up your suppliers and customers. You could use this simplified accounting in case you work with an (external) account to keep your books, and you still want to keep track of payments. The ``Invoicing`` system includes receipts and vouchers (an easy way to keep track of sales and purchases). It also offers you an easy method to register payments, without you having to encode complete abstracts of account.
