@@ -28,7 +28,7 @@ OpenERP 的开票流程也很简单,参见下面的工作流程图:
 .. i18n: An invoice can be generated from various documents, such as a `Sales Order` and a `Purchase Order`, or at the time of confirming a shipment. These methods will be proposed when you use OpenERP as a truely integrated system.
 ..
 
-发票可根据其他各种文件生成，如销售订单，采购订单，或在确认发货时间时生成。 These methods will be proposed when you use OpenERP as a truely integrated system.
+发票可根据其他各种文件生成，如销售订单，采购订单，或在确认发货时间时生成。 当您的OpenERP是一真正的集成系统时将提供这些方法.
 
 .. i18n: Of course, companies often work together with an external accountant who keeps their books. In that case, you would like to know which invoices exist and have been paid.
 ..
