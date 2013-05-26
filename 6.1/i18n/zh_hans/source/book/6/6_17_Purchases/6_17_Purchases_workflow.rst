@@ -681,7 +681,7 @@ the year. For example, the standard cost could be used to manage books, or the c
 .. i18n: Those costs that can be fixed for the whole year bring certain advantages:
 ..
 
-Those costs that can be fixed for the whole year bring certain advantages:
+你可以每个财年进行一次产品成本调整, 这样做的好处如下:
 
 .. i18n: * you can base the sale price on the product cost and then work with margins rather than 
 .. i18n:   a fixed price per product,
