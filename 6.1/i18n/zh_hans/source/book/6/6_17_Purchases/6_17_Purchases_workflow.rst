@@ -588,8 +588,8 @@ invoices you.
 .. i18n: cancelled by OpenERP if you selected the Purchase Requisition (exclusive) type. That enables you to accept just one order for a particular tender. If you select Multiple requisitions, you can approve several purchase orders without cancelling other orders from this tender.
 ..
 
-When one of the orders about a tender is confirmed, all of the other orders are automatically
-cancelled by OpenERP if you selected the Purchase Requisition (exclusive) type. That enables you to accept just one order for a particular tender. If you select Multiple requisitions, you can approve several purchase orders without cancelling other orders from this tender.
+当你的询价单类型选择的是 单独 竞标模式时, 你确认任何一家竞标方的定单后, 其他供应商的报价会自动取消. 当然, 如果你选择的是
+多家竞标模式, 你确认时,其他供应商的报价是不会被自动取消的.
 
 .. i18n: Price Revisions
 .. i18n: ---------------
