@@ -90,7 +90,7 @@ OpenERP的自动创建一个初始会计期间，让您录入您的上一财年�
 .. i18n: To close a financial period, for example when a tax declaration has been made, go to the menu :menuselection:`Accounting--> Configuration --> Financial Accounting --> Periods --> Periods`. Click the green arrow to close the period for which you want no more entries to be posted.
 ..
 
-To close a financial period, for example when a tax declaration has been made, go to the menu :menuselection:`Accounting--> Configuration --> Financial Accounting --> Periods --> Periods`. Click the green arrow to close the period for which you want no more entries to be posted.
+要关闭会计期间,，比方税收申报已经做好，到菜单 :menuselection:`Accounting--> Configuration --> Financial Accounting --> Periods --> Periods`. 点击绿色的箭头就可关闭已没有业务需要处理的会计期间。
 
 .. i18n: .. tip:: Opening Closed Periods
 .. i18n: 
