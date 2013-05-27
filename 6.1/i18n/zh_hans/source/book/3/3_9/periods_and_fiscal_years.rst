@@ -46,7 +46,7 @@ OpenERP's management of the fiscal year is flexible enough to enable you to work
 .. i18n: To define your fiscal year, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Fiscal Year`. You can create several years in advance to define long-term budgets.
 ..
 
-To define your fiscal year, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Fiscal Year`. You can create several years in advance to define long-term budgets.
+定义会计年度，使用菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Fiscal Year`. 您可以提前创建多年的会计年度以便定义长期的预算。
 
 .. i18n: .. figure::  images/account_period.png
 .. i18n:    :scale: 75
