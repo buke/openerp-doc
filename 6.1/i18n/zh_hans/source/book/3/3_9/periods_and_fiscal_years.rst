@@ -13,12 +13,12 @@
 .. i18n:         The financial year can be divided into monthly or three-monthly accounting periods (when you have a quarterly declaration).
 ..
 
-.. note:: Periods and Fiscal Years
+.. 注释:: 会计期间和会计年度
 
-        A fiscal year (or financial year) corresponds to twelve months for a company.
-        In many countries, the fiscal year corresponds to a calendar year. That may not be the case in other countries.
+        会计年度 (或财务年度) 对公司而言相当于12个月。
+        在许多国家，会计年度对应于一个日历年度。而另外一些国家不是这样。
 
-        The financial year can be divided into monthly or three-monthly accounting periods (when you have a quarterly declaration).
+        财政年度可分为每月或每3月的会计期间（当你需要一个季度报表时）。
 
 .. i18n: OpenERP's management of the fiscal year is flexible enough to enable you to work on several years at the same time. This gives you several advantages, such as the possibility to create three-year budgets.
 ..
