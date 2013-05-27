@@ -31,8 +31,8 @@
 .. i18n: You should be able to easily modify the accounting module to meet your own needs, so that you can optimise it for the way you want to use it.
 ..
 
-Good accounting software requires great usability and simplicity of data entry, as well as flexibility in configuring its different components.
-You should be able to easily modify the accounting module to meet your own needs, so that you can optimise it for the way you want to use it.
+良好的会计软件需要很大的实用性和简单的数据录入，以及灵活配置不同的组件。
+您应该能够很容易的修改会计模块来满足自己的需求，这样就可以按您想要的方式使用它。
 
 .. i18n: OpenERP lets you adapt and reconfigure many functions to ease the task of data entry:
 ..
