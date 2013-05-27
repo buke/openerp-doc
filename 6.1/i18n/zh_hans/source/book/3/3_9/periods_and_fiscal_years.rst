@@ -78,7 +78,7 @@ OpenERP的会计年度管理具有足够的灵活性，使您能够在一次创�
 .. i18n: OpenERP automatically creates an opening period to allow you to post your outstanding balances from the previous fiscal year. Notice the ``Opening/Closing Period`` checkbox for such a period.
 ..
 
-OpenERP automatically creates an opening period to allow you to post your outstanding balances from the previous fiscal year. Notice the ``Opening/Closing Period`` checkbox for such a period.
+OpenERP的自动创建一个初始会计期间，让您录入您的上一财年的余额。请注意了这样一段时间的``Opening/Closing Period``复选框。
 
 .. i18n: Closing a Period
 .. i18n: ----------------
