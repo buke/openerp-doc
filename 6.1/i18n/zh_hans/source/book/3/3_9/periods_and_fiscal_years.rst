@@ -23,7 +23,7 @@
 .. i18n: OpenERP's management of the fiscal year is flexible enough to enable you to work on several years at the same time. This gives you several advantages, such as the possibility to create three-year budgets.
 ..
 
-OpenERP's management of the fiscal year is flexible enough to enable you to work on several years at the same time. This gives you several advantages, such as the possibility to create three-year budgets.
+OpenERP的会计年度管理具有足够的灵活性，使您能够在一次创建几个会计年度。这给您一些优势，如可以建立为期三年的预算。
 
 .. i18n: .. index:: period
 .. i18n: .. index:: fiscal year
