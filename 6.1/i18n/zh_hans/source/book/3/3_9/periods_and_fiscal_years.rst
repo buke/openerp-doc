@@ -59,19 +59,19 @@ OpenERP's management of the fiscal year is flexible enough to enable you to work
    :scale: 75
    :align: center
 
-   *Defining a Financial Year and Periods*
+   *定义会计年度和会计期间*
 
 .. i18n: First enter the date of the first day and the last day of your fiscal year. Then, to create the periods, click one of the two buttons at the bottom depending on whether you want to create twelve 1-month or four 3-months periods:
 ..
 
-First enter the date of the first day and the last day of your fiscal year. Then, to create the periods, click one of the two buttons at the bottom depending on whether you want to create twelve 1-month or four 3-months periods:
+先输入会计年度的第一天和最后一天。然后，要创建会计期间, 单击两个底部的按钮中的一个，取决于您需要创建12个1个月还是4个3个月的会计期间:
 
 .. i18n: *  :guilabel:`Create Monthly Periods` ,
 .. i18n: 
 .. i18n: *  :guilabel:`Create 3 Months Periods` .
 ..
 
-*  :guilabel:`Create Monthly Periods` ,
+*  :guilabel:`Create Monthly Periods`,
 
 *  :guilabel:`Create 3 Months Periods` .
 
