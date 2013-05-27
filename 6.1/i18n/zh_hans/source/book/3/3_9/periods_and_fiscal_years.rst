@@ -97,7 +97,7 @@ OpenERP的自动创建一个初始会计期间，让您录入您的上一财年�
 .. i18n:     The system administrator can re-open a period should a period have been closed by mistake.
 ..
 
-.. tip:: Opening Closed Periods
+.. 提示:: 打开关已关闭的会计期间
 
     The system administrator can re-open a period should a period have been closed by mistake.
 
