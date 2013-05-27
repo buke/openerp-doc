@@ -37,7 +37,7 @@
 .. i18n: OpenERP lets you adapt and reconfigure many functions to ease the task of data entry:
 ..
 
-OpenERP lets you adapt and reconfigure many functions to ease the task of data entry:
+OpenERP让您适应和重新配置很多功能以方便您录入数据:
 
 .. i18n: * adding controls for data entry,
 .. i18n: 
@@ -46,11 +46,11 @@ OpenERP lets you adapt and reconfigure many functions to ease the task of data e
 .. i18n: * filling fields automatically during data entry with data that is already known to the system.
 ..
 
-* adding controls for data entry,
+* 为数据项增加控制,
 
-* customising the screens,
+* 自定义屏幕,
 
-* filling fields automatically during data entry with data that is already known to the system.
+* 系统通过已知数据的查询自动填充字段.
 
 .. i18n: .. raw:: html
 .. i18n: 
