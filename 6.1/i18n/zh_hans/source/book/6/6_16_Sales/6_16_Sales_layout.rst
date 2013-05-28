@@ -16,12 +16,12 @@
 ..
 
 安装模块 :mod:`sale_layout` 后, 选择 :guilabel:`自定义销售单格式(Sale Order Layout Improvement)` 并点击 :guilabel:`重配置(Reconfigure)` 向导.
-It enables you to have a more flexible template than the standard order forms. 
+本模块可以提供比标准订单更灵活的功能.
 
 .. i18n: For example, you could put the following in the order lines:
 ..
 
-For example, you could put the following in the order lines:
+例如, 你可以使用下面这些展现订单行:
 
 .. i18n: * a horizontal separator line,
 .. i18n: 
@@ -34,15 +34,15 @@ For example, you could put the following in the order lines:
 .. i18n: * a page break.
 ..
 
-* a horizontal separator line,
+* 水平分隔线,
 
-* titles and subtitles,
+* 标题与子标题,
 
-* subtotals at the end of the section,
+* 行小结,
 
-* comments,
+* 批注,
 
-* a page break.
+* 分页符.
 
 .. i18n: .. index::
 .. i18n:    single: module; account_invoice_layout
