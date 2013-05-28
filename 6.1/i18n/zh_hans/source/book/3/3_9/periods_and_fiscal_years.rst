@@ -13,7 +13,7 @@
 .. i18n:         The financial year can be divided into monthly or three-monthly accounting periods (when you have a quarterly declaration).
 ..
 
-.. 注释:: 会计期间和会计年度
+.. note:: 会计期间和会计年度
 
         会计年度 (或财务年度) 对公司而言相当于12个月。
         在许多国家，会计年度对应于一个日历年度。而另外一些国家不是这样。
@@ -46,7 +46,8 @@ OpenERP的会计年度管理具有足够的灵活性，使您能够在一次创�
 .. i18n: To define your fiscal year, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Fiscal Year`. You can create several years in advance to define long-term budgets.
 ..
 
-定义会计年度，使用菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Fiscal Year` . 您可以提前创建多年的会计年度以便定义长期的预算。
+定义会计年度，使用菜单 :menuselection:`会计(Accounting) --> 配置(Configuration) --> 财务(Financial Accounting) --> 会计期间(Periods) --> 会计年(Fiscal Year)` .
+您可以提前创建多年的会计年度以便定义长期的预算。
 
 .. i18n: .. figure::  images/account_period.png
 .. i18n:    :scale: 75
@@ -78,7 +79,7 @@ OpenERP的会计年度管理具有足够的灵活性，使您能够在一次创�
 .. i18n: OpenERP automatically creates an opening period to allow you to post your outstanding balances from the previous fiscal year. Notice the ``Opening/Closing Period`` checkbox for such a period.
 ..
 
-OpenERP的自动创建一个初始会计期间，让您录入您的上一财年的余额。请注意这个会计期间 ``Opening/Closing Period`` 复选框。
+OpenERP的自动创建一个初始会计期间，让您录入您的上一财年的余额。请注意这个会计期间 ``年初/年末 会计期间(Opening/Closing Period)`` 复选框。
 
 .. i18n: Closing a Period
 .. i18n: ----------------
@@ -90,14 +91,15 @@ OpenERP的自动创建一个初始会计期间，让您录入您的上一财年�
 .. i18n: To close a financial period, for example when a tax declaration has been made, go to the menu :menuselection:`Accounting--> Configuration --> Financial Accounting --> Periods --> Periods`. Click the green arrow to close the period for which you want no more entries to be posted.
 ..
 
-要关闭会计期间,，比方税收申报已经做好，到菜单 :menuselection:`Accounting--> Configuration --> Financial Accounting --> Periods --> Periods`. 点击绿色的箭头就可关闭已没有业务需要处理的会计期间。
+要关闭会计期间,，比方税收申报已经做好，到菜单 :menuselection:`会计(Accounting) --> 配置(Configuration) --> 财务(Financial Accounting) --> 会计期间(Periods) --> 会计期间(Periods)`. 
+点击绿色的箭头就可关闭已没有业务需要处理的会计期间。
 
 .. i18n: .. tip:: Opening Closed Periods
 .. i18n: 
 .. i18n:     The system administrator can re-open a period should a period have been closed by mistake.
 ..
 
-.. 提示:: 打开关已关闭的会计期间
+.. tip:: 打开关已关闭的会计期间
 
     The system administrator can re-open a period should a period have been closed by mistake.
 
