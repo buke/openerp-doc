@@ -15,7 +15,8 @@
 .. i18n: Install the :mod:`sale_layout` module by selecting :guilabel:`Sales Order Layout Improvement` and clicking :guilabel:`Configure` in the :guilabel:`Reconfigure` wizard. It enables you to have a more flexible template than the standard order forms. 
 ..
 
-Install the :mod:`sale_layout` module by selecting :guilabel:`Sales Order Layout Improvement` and clicking :guilabel:`Configure` in the :guilabel:`Reconfigure` wizard. It enables you to have a more flexible template than the standard order forms. 
+安装模块 :mod:`sale_layout` 后, 选择 :guilabel:`自定义销售单格式(Sale Order Layout Improvement)` 并点击 :guilabel:`重配置(Reconfigure)` 向导.
+It enables you to have a more flexible template than the standard order forms. 
 
 .. i18n: For example, you could put the following in the order lines:
 ..
