@@ -64,8 +64,7 @@ also gives you the same functionality for invoice templates.
 .. i18n: and the resulting printed invoice.
 ..
 
-The two figures :ref:`fig-invlayfrm` and :ref:`fig-invlayprin` show an invoice template in OpenERP 
-and the resulting printed invoice.
+下面两张图 :ref:`fig-invlayfrm` 与 :ref:`fig-invlayprin` 展示了发票模板与该模板最终打印结果.
 
 .. i18n: .. _fig-invlayfrm:
 .. i18n: 
@@ -82,7 +81,7 @@ and the resulting printed invoice.
    :scale: 75
    :align: center
 
-   *Invoice using Customizable Layout*
+   *自定义的发票打印模板*
 
 .. i18n: .. _fig-invlayprin:
 .. i18n: 
@@ -99,7 +98,7 @@ and the resulting printed invoice.
    :scale: 75
    :align: center
 
-   *Printed Invoice*
+   *最终打印输出效果*
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
