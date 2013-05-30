@@ -56,9 +56,8 @@
 .. i18n: also gives you the same functionality for invoice templates.
 ..
 
-This enables you to lay out a more elaborate, professional-looking quotation page. The
-module :mod:`account_invoice_layout` (installed automatically on installation of :mod:`sale_layout`),
-also gives you the same functionality for invoice templates.
+本模块可以让你设计出复杂,强大,专业的报价单. 模块 :mod:`account_invoice_layout` (安装 :mod:`sale_layout` 时会自动安装) 则类似
+是设计调整发票样式的, 功能与本模块类似.
 
 .. i18n: The two figures :ref:`fig-invlayfrm` and :ref:`fig-invlayprin` show an invoice template in OpenERP 
 .. i18n: and the resulting printed invoice.
