@@ -111,7 +111,7 @@ OpenERP的自动创建一个初始会计期间，让您录入您的上一财年�
 .. i18n: To close an accounting period you can also use the menu :menuselection:`Accounting--> Periodical Processing --> End of Period --> Close a Period`.
 ..
 
-要关闭会计期间您可以使用菜单 :menuselection:`Accounting--> Periodical Processing --> End of Period --> Close a Period`.
+要关闭会计期间您可以使用菜单 :menuselection:`会计(Accounting) --> 定期处理(Periodical Processing) --> 期间扎账(End of Period) --> 关闭期间(Close a Period)`.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
