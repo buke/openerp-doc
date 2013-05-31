@@ -72,9 +72,9 @@ OpenERP的会计年度管理具有足够的灵活性，使您能够在一次创�
 .. i18n: *  :guilabel:`Create 3 Months Periods` .
 ..
 
-*  :guilabel:`Create Monthly Periods`,
+*  :guilabel:`按月创建期间(Create Monthly Periods)`,
 
-*  :guilabel:`Create 3 Months Periods` .
+*  :guilabel:`按季创建期间(Create 3 Months Periods)` .
 
 .. i18n: OpenERP automatically creates an opening period to allow you to post your outstanding balances from the previous fiscal year. Notice the ``Opening/Closing Period`` checkbox for such a period.
 ..
