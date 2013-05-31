@@ -106,7 +106,7 @@ OpenERP的自动创建一个初始会计期间，让您录入您的上一财年�
 .. i18n: When a period is closed, you can no longer create or modify any transactions in that period. Closing a period is not obligatory, and you could easily leave periods open.
 ..
 
-When a period is closed, you can no longer create or modify any transactions in that period. Closing a period is not obligatory, and you could easily leave periods open.
+当一个会计期间处于关闭状态，在该期间您不能增加或修改任何业务。并不是必须要关闭会计期间，您可以简单地让会计期间一直保持打开状态。
 
 .. i18n: To close an accounting period you can also use the menu :menuselection:`Accounting--> Periodical Processing --> End of Period --> Close a Period`.
 ..
