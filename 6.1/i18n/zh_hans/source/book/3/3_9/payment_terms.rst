@@ -14,8 +14,7 @@
 .. i18n: for paying an invoice.
 ..
 
-You can define whatever payment terms you need in OpenERP. Payment terms determine the due dates
-for paying an invoice.
+您可以在OpenERP中根据您的需要定义付款条款。 付款条款确定发票的到期支付日期。
 
 .. i18n: To define new payment terms, use the menu :menuselection:`Accounting -->
 .. i18n: Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New`.
