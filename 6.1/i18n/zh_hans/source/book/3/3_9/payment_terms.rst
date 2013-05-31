@@ -27,7 +27,7 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 .. i18n: Remaining on 15th of next month.
 ..
 
-下图中付款条款后的数字代表天数: 5天内5000, 在本月内支付50%，剩下的再下月15日支付。
+下图中付款条款后的数字代表天数: 5天内5000, 在本月内支付50%，剩下的在下月15日支付。
 
 .. i18n: .. figure::  images/account_payment_term.png
 .. i18n:    :scale: 75
@@ -40,14 +40,14 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
    :scale: 75
    :align: center
 
-   *Configuring payment terms*
+   *配置付款条款*
 
 .. i18n: To configure new conditions, start by giving a name to the :guilabel:`Payment Term` field. Text that
 .. i18n: you put in the field :guilabel:`Description on invoices`, is used on invoices, so enter a clear description of
 .. i18n: the payment terms there.
 ..
 
-To configure new conditions, start by giving a name to the :guilabel:`Payment Term` field. Text that
+要配置新的条款，首先给付款条款一个名称 :guilabel:`Payment Term` field. Text that
 you put in the field :guilabel:`Description on invoices`, is used on invoices, so enter a clear description of
 the payment terms there.
 
