@@ -261,8 +261,8 @@ OpenERP同样允许根据你的需要定义合作伙伴视图。如果你要添�
 .. i18n: Address Book --> Addresses` menu and open any address in Form view. In the right menu bar, click `Manage Views`, then `Edit` because the corresponding view will already be preselected.
 ..
 
-在 `地址` 表单视图中给联系人添加一个 ``生日`` 字段。要这样做, 转到 :menuselection:`Sales -->
-Address Book --> Addresses`:menuselection:`销售 -->地址簿 --> 地址` 菜单并打开任意一张表单视图。 在右侧菜单栏，点击 `管理视图`, 然后 `编辑`,因为相应的视图已经被选定。
+在 `地址` 表单视图中给联系人添加一个 ``生日`` 字段。要这样做, 转到 :menuselection:`销售(Sales) -->
+地址簿(Address Book) --> 地址(Addresses)` 菜单并打开任意一张表单视图。 在右侧菜单栏，点击 `管理视图`, 然后 `编辑`,因为相应的视图已经被选定。
 
 .. i18n: Go to the last line of the view and click the blue plus (+) sign to add a field to the `Communication` group. Proceed as in the figure below, then click the `Update` button.
 ..
@@ -280,7 +280,7 @@ Go to the last line of the view and click the blue plus (+) sign to add a field 
    :scale: 75
    :align: center
 
-   *Add the Birthday Field for a Contact*
+   *联系人生日*
 
 .. i18n: In the `Properties` screen that appears, you can change the label to ``Birthday`` in the ``String`` field. To indicate that a new field can be used in the corresponding search view, make sure to select ``Always Searchable``. Click the `Update` button to confirm your changes. Click `Preview` to see your result. The ``Birthday`` field will now appear in your `Address` form view, ready to be used.
 ..
@@ -347,10 +347,9 @@ Another action enables you to quickly send an SMS message.
 .. i18n: 	in list view, then click the :guilabel:`SMS Send` Action icon.
 ..
 
-.. tip::  Send an SMS message
+.. tip::  发送手机短消息
 
-	To send an SMS message from standard Open ERP you will have to place an order with the bulk SMS
-	gateway operator Clickatell™ http://clickatell.com.
+	你可以在 Clickatell™ http://clickatell.com 网站上注册后, 就可以在OpenERP 中使用发送手机短消息的功能了.
 
 	To send an SMS message to a partner or a selection of several partners, first select the partners
 	in list view, then click the :guilabel:`SMS Send` Action icon.
