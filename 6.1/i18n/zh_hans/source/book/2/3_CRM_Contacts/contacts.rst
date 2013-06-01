@@ -351,8 +351,8 @@ Another action enables you to quickly send an SMS message.
 
 	你可以在 Clickatell™ http://clickatell.com 网站上注册后, 就可以在OpenERP 中使用发送手机短消息的功能了.
 
-	To send an SMS message to a partner or a selection of several partners, first select the partners
-	in list view, then click the :guilabel:`SMS Send` Action icon.
+	要给合作伙伴发送短消息, 需要先在合作伙们的列表页选择窿们,然后点击 :guilabel:`短消息发送(SMS Send)` 向导按钮
+	即可.
 
 .. i18n: .. index:: Filter
 ..
