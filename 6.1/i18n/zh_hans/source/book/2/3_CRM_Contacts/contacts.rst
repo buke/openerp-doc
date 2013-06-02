@@ -428,16 +428,15 @@ OpenERP uses categories to organize all of its partners according to their relat
    :scale: 100
    :align: center
 
-   *List of Partner Categories*
+   *合作伙伴分类列表*
 
 .. i18n: Click one of the categories in the partner category structure to get a list of the partners
 .. i18n: in that category. If you click a category that has subcategories, you will get a list of all of the
 .. i18n: partners in the main category and in all of its subcategories.
 ..
 
-Click one of the categories in the partner category structure to get a list of the partners
-in that category. If you click a category that has subcategories, you will get a list of all of the
-partners in the main category and in all of its subcategories.
+点击合作伙伴分类结构中的一个分类时,会列出属于该分类下面的所有合作伙伴.如果你点的分类还有下级子分类时,属于下级子分类的
+合作伙伴也会同样被列出来.
 
 .. i18n: .. note:: Categories
 .. i18n: 
