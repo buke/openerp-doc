@@ -29,8 +29,9 @@ OpenERP有两种不一样的报表类型:
 ..
 
 * 统计报表：这些计算数据，往往在列表或图表的表单中显示。这些报告是动态的，可以通过客户端界面浏览包括这些数字的数据。
-* 报表文件：它们被用来打印系统文档。结果通常是屏幕上生成一个PDF。此外，OpenERP使您在OpenOffice.org中打开这些报表进行编辑，在你发送他们给你客户之前，可以做任何你需要的变动。
-  因为 OpenERP 引擎的强大，这两种类型的报表无须任何开发就能建立和修改，并能在OpenERP客户端界面或者OpenOffice中 直接完成。
+* 报表文件：它们被用来打印系统文档。结果通常是屏幕上生成一个PDF。此外，OpenERP使您在OpenOffice.org中打开这些报表进行编辑，
+  在你发送他们给你客户之前，可以做任何你需要的变动。  因为 OpenERP 引擎的强大，这两种类型的报表无须任何开发就能建立和修
+  改，并能在OpenERP客户端界面或者OpenOffice中 直接完成。
 
 
 .. i18n: Because of the power of the OpenERP engine, these two types of report can be created or modified
@@ -81,22 +82,19 @@ Then as you configure the reporting tools, select :guilabel:`Query Builder` for 
 This enables you to create complex queries on the database, in a simple and visual way.
 
 OpenERP提供自行开发报表的功能，以满足你自己的特殊需要。要定义一个新的系统数据的分析，你
-需要安装一个模块:mod:`base_report_creator` 。你能使用 设置→设置→设置向导→设置向导，
+需要安装一个模块 :mod:`base_report_creator` 。你能使用 设置→设置→设置向导→设置向导，
 选择 “OpenERP 报表设计器安装程序”，点击“作为待办事项”→ 启动，然后把表设计器另存为 到一个目录中，待用。
 
   *译注：下面的内容在6.1没了*
 
 启动向导并安装 Advanced Reporting来做。然后你设置报表工具，选择安装Query Builder。这使得你能在一个简易和可视
 化的方案中建立复杂的数据库查询。
- 
-
 
 .. i18n: Once the module is installed, create a new report using the menu :menuselection:`Administration --> Customization -->
 .. i18n: Reporting --> Custom Reports`.
 ..
 
-一旦模块安装完成，要创建一个新的报表，使用菜单 设置→自定义→报表→自定义报表。
-
+一旦模块安装完成，要创建一个新的报表，使用菜单 :menuselection:`设置(Administration) --> 自定义(Customization) --> 报表(Reporting) --> 自定义报表(Custom Reports)`。
 
 .. i18n: Give a :guilabel:`Report Name` to your new report and select the objects that you are going to
 .. i18n: analyse. For example, select the :guilabel:`project.vs.hours` object (you have to install :guilabel:`Project Management` for this).
@@ -105,12 +103,9 @@ OpenERP提供自行开发报表的功能，以满足你自己的特殊需要。�
 Give a :guilabel:`Report Name` to your new report and select the objects that you are going to
 analyse. For example, select the :guilabel:`project.vs.hours` object (you have to install :guilabel:`Project Management` for this).
 
-
-给出一个新报表一个报表名称，然后选择一个你要分析的对象。例如 选择下面三个对象：“Partner”、“Sale Order”、“Sale Order line”。
+给出一个新报表一个 :guilabel:`报表名称`，然后选择一个你要分析的对象。例如 选择下面三个对象：“Partner”、“Sale Order”、“Sale Order line”。
 然后再打开第二个选项卡[视图参数],选择你报表所需的视图。在第一个视图选择 树，在第二个视图选择图。你能选择图显示的类型 使用 图形视图字
 段。您也可以选择日历作为视图，如果你要添加日期字段在您的报告中。
-
-
 
 .. i18n: Then turn to the second tab :guilabel:`View parameters` to select the views that you want in your
 .. i18n: report. Select \ ``Tree``\   in the :guilabel:`First View` and \ ``Graph``\   in the :guilabel:`Second
@@ -259,17 +254,13 @@ the right of the form on the :guilabel:`General Configuration` tab to get the re
 .. i18n: A dashboard is a selection of reports previously defined in OpenERP. You can choose from hundreds
 .. i18n: of predefined reports and, for each report, indicate its position on the dashboard.
 ..
-
  
 控制台可以选择之前定义的报表,并且可指定任何一个报表在控制台的位置.
-
-
 
 .. i18n: Just like fields on reports, the :guilabel:`Sequence` field determines the order in which views
 .. i18n: appear in the dashboard.
 ..
 
- 
 就像在报表中的字段，序列字段决定了在控制台上出现的顺序
 
 .. i18n: .. figure::  images/dashboard_config.png
@@ -291,7 +282,7 @@ the right of the form on the :guilabel:`General Configuration` tab to get the re
 .. i18n: entry for your dashboard anywhere in the menu system.
 ..
 
-一旦控制台被定义，通过菜单 设置→自定义→报表→控制台，你能用[创建菜单]按键在菜单系统的任何位
+一旦控制台被定义，通过菜单 :menuselection:`设置(Administration) --> 自定义(Customization) --> 报表(Reporting) --> 控制台(Dashboard Definition)`，你能用 :guilabel:`创建菜单` 按键在菜单系统的任何位
 置为你的控制板建立一个菜单项。
 
 .. i18n: Managing Document Templates with OpenOffice.org
@@ -333,10 +324,9 @@ the right of the form on the :guilabel:`General Configuration` tab to get the re
 .. i18n: OpenERP. You could create or modify reports directly from OpenOffice.org and then use them in
 .. i18n: OpenERP.
 ..
-
  
-这系统是简单和强大的，因为它给你所有OpenOffice.org Writer中提供的排版能力以
-及OpenERP提供的数据和计算的好处。 你可以直接从OpenOffice.org创建和修改报表，然后在OpenERP中使用
+这系统是简单和强大的，因为它给你所有OpenOffice.org Writer中提供的排版能力以及OpenERP提供的数据和计算的好处。
+你可以直接从OpenOffice.org创建和修改报表，然后在OpenERP中使用
 
 .. i18n: .. note:: Independence from OpenOffice.org
 .. i18n: 
@@ -423,7 +413,7 @@ There are two modes of using reports:
 .. i18n: modules.
 ..
 
-安装模块“base_report_designer”就像其它所有OpenERP模块一样。
+安装模块 :mod:`base_report_designer` 就像其它所有OpenERP模块一样。
 
 .. i18n: To install the OpenOffice.org extension, save the file \ ``openerp_report_designer.zip`` \ supplied during
 .. i18n: the OpenERP Report Designer Configuration. Check that OpenOffice.org is properly installed on your
@@ -433,7 +423,6 @@ There are two modes of using reports:
 要安装OpenERP的OpenOffice扩展，使用前面一节中 另存为的 插件：设置 openerp_report_designer.zip文件
 （译注：base_report_designer模块的安装目录的plugin子目录存有此文件）。检测OpenOffice.org 已经正确安
 装在你的计算机上面，并且你有管理员权限用于安装。
-
 
 .. i18n: .. figure::  images/tinyreport.png
 .. i18n:    :scale: 65
@@ -454,7 +443,7 @@ There are two modes of using reports:
 .. i18n: Report Designer`.
 ..
 
-启动 OpenOffice.org Writer，选择 工具-扩展管理器 打开扩展管理 对话框， 搜索openerp_report_designer.zip文件安装，然后关闭
+启动 OpenOffice.org Writer，选择菜单 :menuselection:`工具(Tools) --> 扩展管理器(Extension Manager...)` 打开扩展管理 对话框， 搜索openerp_report_designer.zip文件安装，然后关闭
 程序，重启Writer，一个新的菜单出现在菜单条上
 
 .. i18n: .. index::
@@ -479,7 +468,6 @@ There are two modes of using reports:
 
 在 OpenOffice.org Writer 顶部菜单 选择 OpenERP Report Designer → Server parameters 。 你能输入到OpenERP server 的连接参数。你
 必须选择一个 你已经安装了“采购”模块 的数据库。如果成功连接，一条信息会出现。
-
 
 .. i18n: .. index::
 .. i18n:    single: report; modify
@@ -545,8 +533,8 @@ OpenOffice.org 然后为你打开报表进入编辑模式，你能使用OpenOffi
 ..
 
 在你已经设置相应的言语模块的情况,一量英文版本被修改后,当你通过客户端界面使用它的时候，它将被OpenERP的翻译系统翻
-译。这样你只需要
-修改模版一次，即使你的系统使用了其它语言，如本章前面所述，如果你添加了字段，你将需要增加翻译 ，或者更改已经存在的。
+译。这样你只需要修改模版一次，即使你的系统使用了其它语言，如本章前面所述，如果你添加了字段，你将需要增加翻译，
+或者更改已经存在的。
 
 .. i18n: .. tip:: Older Reports
 .. i18n: 
@@ -723,7 +711,7 @@ OpenOffice.org Writer中进行编辑。要做到这点，在字段Select Rpt. Ty
 
 这个模块通过改变公司信息进行自定义 ，通过菜单 设置→公司→公司。你能从列表选择你的合作伙伴公司 ，然后在一般信息
 选项卡里面编辑报表页眉、报表页脚1、报表页脚2字段。如果你的公司有标记，你能让他显示在所有的报表，你能用 logo 字
-段加上它。你能通过编辑 页眉/页脚，和内部页眉/页脚 选项卡的XML代码改变页眉/页脚的外观，
+段加上它。你能通过编辑 页眉/页脚，和内部页眉/页脚 选项卡的XML代码改变页眉/页脚的外观。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
