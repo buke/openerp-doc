@@ -50,10 +50,8 @@
 .. i18n: are described later in this chapter).
 ..
 
-用通常的方式开始安装模块 :mod:`base_module_record` ，从菜单
-:menuselection:`设置 --> 模块 --> 模块`. 通过用户界面像往常一
-样手工使您的所有设置变化（例如：菜单管理，仪表台控制
-，屏幕设置，新报表和访问权限管理 – 一些细节将在本章后面说明）。
+用通常的方式开始安装模块 :mod:`base_module_record` ，从菜单 :menuselection:`设置(Administration) --> 模块(Modules) --> 模块(Modules)`. 
+通过用户界面像往常一样手工使您的所有设置变化（例如：菜单管理，仪表台控制，屏幕设置，新报表和访问权限管理 – 一些细节将在本章后面说明）。
 
 .. i18n: Then start recording
 .. i18n: your data using the menu :menuselection:`Administration --> Customization --> Module Creation -->
@@ -64,7 +62,7 @@
 .. i18n: the recorded module at a desired location.
 ..
 
-开始记录你的数据使用菜单 :menuselection:`设置 --> 自定义 --> 模块创建 -->导出自定义模块` 。
+开始记录你的数据使用菜单 :menuselection:`设置(Administration) --> 自定义(Customization) --> 模块创建(Module Creation) -->导出自定义模块(Export Customizations As a Module)` 。
 打开向导,选择要记录的数据，你可以选择录制日期,记录类型可以选择\ ``创建`` \, \ ``修改`` \或者\ ``创建和修改`` \.
 你必须选择记录对象,然后点击 :guilabel:`记录` 开始录制。录制操作完成后,你需要在弹出对话框中选择保存位置.
 
@@ -82,9 +80,7 @@ OpenERP会记录所有的设置工作并保存成为ZIP文件,你可以在其它
 .. i18n: Modules --> Import Module`.
 ..
 
-
-要安装一个保存在zip文件格式的模块，使用菜单  :menuselection:`设置 -->
-模块 --> 导入模块`.
+要安装一个保存在zip文件格式的模块，使用菜单  :menuselection:`设置(Administration) --> 模块(Modules) --> 导入模块(Import Module)`.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
