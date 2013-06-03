@@ -6,7 +6,7 @@
 
 .. _book-bi-link:
 
-BI(Business Intelligence)商业智能
+BI(Business Intelligence)商业智能化
 =================================
 
 .. i18n: Part 1 : Introduction
@@ -26,10 +26,9 @@ Part 1 : 简介
 
 .. sidebar:: Experimental Application
 
-    This chapter describes an experimental BI Application that is not part of the
-    current quality-certified distribution of OpenERP.
-    The BI modules can be found in `OpenERP Apps <http://apps.openerp.com>`_, but are
-    not yet suitable for production use.
+    本章介绍了一个测试商业智能化的应用，并不属于OPENERP质量认证的一部分。
+    这个商业智能化模块可以在OPENERP应用商店里找到： <http://apps.openerp.com>`_, 但是目前还不
+    符合实际生产使用。
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 2
