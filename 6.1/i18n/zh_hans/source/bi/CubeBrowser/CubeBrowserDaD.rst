@@ -20,7 +20,7 @@ Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 .. i18n: Queries can be created by Dragging a member on the on the Droppable Area marked with the box for the drop zone.
 ..
 
-Queries can be created by Dragging a member on the on the Droppable Area marked with the box for the drop zone.
+在标记有可以拖拉区域的下拉框里，你可以通过拖动一个选项来新建一个查询。
 
 .. i18n: Lets drop the All Product Category on the drop zone referred as grid afterward.
 .. i18n: As soon as the member is dropped the resultant query is formed and can be viewed using the toolbar.
