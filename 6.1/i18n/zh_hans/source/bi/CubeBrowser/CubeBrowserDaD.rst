@@ -26,10 +26,9 @@ Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 .. i18n: As soon as the member is dropped the resultant query is formed and can be viewed using the toolbar.
 .. i18n: Query is then executed giving the first output on the grid. The first drop is always on the rows. 
 ..
-
-Lets drop the All Product Category on the drop zone referred as grid afterward.
-As soon as the member is dropped the resultant query is formed and can be viewed using the toolbar.
-Query is then executed giving the first output on the grid. The first drop is always on the rows. 
+让我们在表格后面可拖动区域中移动所有的产品种类，
+一个类别被拖动后马上就会建立新的查询结果，就可以利用工具条来查……
+查询结果生成之后马上就会用表格显示出来，第一个被拖动的总是出现在行中。
 
 .. i18n: .. image::  images/d_browsr4.png
 .. i18n:    :scale: 65
@@ -41,7 +40,8 @@ Query is then executed giving the first output on the grid. The first drop is al
 .. i18n: The second axis can be added by dropping a member on blue zone. The output can be seen immediately. Each user action changes and executes the query and then shows the result. The cross or delete button beside each item in grid deletes the elements from the query and the resultant grid. On top we can see if any filters are applied on the query or not.
 ..
 
-The second axis can be added by dropping a member on blue zone. The output can be seen immediately. Each user action changes and executes the query and then shows the result. The cross or delete button beside each item in grid deletes the elements from the query and the resultant grid. On top we can see if any filters are applied on the query or not.
+ 当拖动一个选项到蓝色区域时将会添加第二个主干，马上就会看到结果的变化。每个用户改变动作或者执行查询后马上就会显示出结果。The cross or delete button beside each item in grid deletes the elements from the query and the resultant grid. On top we can see if any filters are applied on the query or not.
+
 
 .. i18n: .. image::  images/d_browsr5.png
 .. i18n:    :scale: 65
