@@ -27,7 +27,7 @@ Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 .. i18n: Query is then executed giving the first output on the grid. The first drop is always on the rows. 
 ..
 让我们在表格后面可拖动区域中移动所有的产品种类，
-一个类别被拖动后马上就会建立新的查询结果，就可以利用工具条来查……
+一个类别被拖动后马上就会建立新的查询结果，就可以利用工具条来查看。
 查询结果生成之后马上就会用表格显示出来，第一个被拖动的总是出现在行中。
 
 .. i18n: .. image::  images/d_browsr4.png
