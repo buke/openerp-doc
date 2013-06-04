@@ -40,7 +40,7 @@ Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 .. i18n: The second axis can be added by dropping a member on blue zone. The output can be seen immediately. Each user action changes and executes the query and then shows the result. The cross or delete button beside each item in grid deletes the elements from the query and the resultant grid. On top we can see if any filters are applied on the query or not.
 ..
 
- 当拖动一个选项到蓝色区域时将会添加第二个主干，马上就会看到结果的变化。每个用户改变动作或者执行查询后马上就会显示出结果。The cross or delete button beside each item in grid deletes the elements from the query and the resultant grid. On top we can see if any filters are applied on the query or not.
+ 当拖动一个选项到蓝色区域时将会添加第二个主干，马上就会看到结果的变化。每个用户改变动作或者执行查询后马上就会显示出结果。在项目表格旁边都有方向与删除键，我们可以从查询汇总表格中删除一个因素。在最上面我们还可以看到是否应用到哪些过滤条件。
 
 
 .. i18n: .. image::  images/d_browsr5.png
@@ -53,7 +53,7 @@ Measures 代表储存类别的值; Dimensions 代表OLAP类别的信息
 .. i18n: We can see the query by selecting the MDX button on the toolbar. This will open the pop up to show the mdx query for the current grid.
 ..
 
-We can see the query by selecting the MDX button on the toolbar. This will open the pop up to show the mdx query for the current grid.
+我们可以通过点选工具栏上的MDX按扭来查询，就会在当前表格中弹出显示MDX查询结果。
 
 .. i18n: .. image::  images/data_browser11.png
 .. i18n:    :scale: 65
