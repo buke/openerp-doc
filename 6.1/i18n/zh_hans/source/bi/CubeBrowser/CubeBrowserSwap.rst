@@ -1,20 +1,19 @@
-
 .. i18n: Swapping Rows and Columns
 .. i18n: =========================
 ..
 
-Swapping Rows and Columns
+行列互换
 =========================
 
 .. i18n: Once the report is generated in the cube browser we can swap it so rows move to the columns area and columns move to the rows area. This also swaps the query parts.
 ..
 
-Once the report is generated in the cube browser we can swap it so rows move to the columns area and columns move to the rows area. This also swaps the query parts.
+报告一旦在cube浏览器中生成，我们通过移动行到列的区域或者移动列到行的区域来交换行和列。这种操作同样适用于查询部分。
 
 .. i18n: We can form query by drag and drop which will form the report.
 ..
 
-We can form query by drag and drop which will form the report.
+我们可以通过拖拉建立查询生成报告。
 
 .. i18n: .. image::  images/data_browser8.png
 ..
@@ -28,6 +27,7 @@ We can form query by drag and drop which will form the report.
 
 .. i18n: Once the report is generated, we can swap which will form the report as shown below:
 ..
+
 
 Once the report is generated, we can swap which will form the report as shown below:
 
