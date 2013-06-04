@@ -1,20 +1,19 @@
-
 .. i18n: Graphs
 .. i18n: ======
 ..
 
-Graphs
+图表
 ======
 
 .. i18n: Graphs presents the grid output on the graphs or graphical way by plotting on the axis. 
 ..
 
-Graphs presents the grid output on the graphs or graphical way by plotting on the axis. 
+图表就是以图形化的方式通过表格呈现出来显示到绘制的轴线上。
 
 .. i18n: Lets take the case:
 ..
 
-Lets take the case:
+让我们举一个例子：
 
 .. i18n: .. image::  images/data_browser10.png
 .. i18n:    :scale: 65
