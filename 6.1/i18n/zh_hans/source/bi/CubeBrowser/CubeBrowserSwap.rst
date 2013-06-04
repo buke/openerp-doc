@@ -28,8 +28,7 @@
 .. i18n: Once the report is generated, we can swap which will form the report as shown below:
 ..
 
-
-Once the report is generated, we can swap which will form the report as shown below:
+报告一经生成，我们通过调换然后就建立了如下所示的报告：
 
 .. i18n: .. image::  images/data_browser9.png
 ..
