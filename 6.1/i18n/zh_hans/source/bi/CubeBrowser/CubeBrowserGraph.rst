@@ -8,7 +8,7 @@
 .. i18n: Graphs presents the grid output on the graphs or graphical way by plotting on the axis. 
 ..
 
-图表就是以图形化的方式通过表格呈现出来显示到绘制的轴线上。
+图表就把所呈现的表格结果以图形化的方式显示到绘制的轴线上。
 
 .. i18n: Lets take the case:
 ..
@@ -25,7 +25,7 @@
 .. i18n: For the above grid when we will generate graph it will be:
 ..
 
-For the above grid when we will generate graph it will be:
+针对上面的表格我们如果以图形化显示就变成如下效果：
 
 .. i18n: .. image::  images/data_browser12.png
 .. i18n:    :scale: 65
