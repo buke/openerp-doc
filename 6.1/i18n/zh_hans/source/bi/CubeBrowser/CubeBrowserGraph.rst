@@ -37,7 +37,7 @@
 .. i18n: When we have children expanded for the one element on the axis and the other is not drilled. There will be two graph to show the same
 ..
 
-When we have children expanded for the one element on the axis and the other is not drilled. There will be two graph to show the same
+当一个类别有子目录时，而另一个类别还没有生成结果时，将会有两个图形列表显示如下：
 
 .. i18n: .. image::  images/data_browser17.png
 .. i18n:    :scale: 65
