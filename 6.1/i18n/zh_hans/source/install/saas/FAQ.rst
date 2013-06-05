@@ -16,25 +16,25 @@
 .. i18n: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-What is the difference between OpenERP On-site and OpenERP Online?
+本地化OpenERP和在线式OpenErp究竟有什么不同呢？
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: There are no differences between OpenERP On-site and OpenERP Online. OpenERP Online always uses the latest official stable version of OpenERP. However, the OpenERP Online offer includes several additional services: hosting, database management, stable security update, backups, maintenance, bug fixing and migrations, etc.
 ..
 
-There are no differences between OpenERP On-site and OpenERP Online. OpenERP Online always uses the latest official stable version of OpenERP. However, the OpenERP Online offer includes several additional services: hosting, database management, stable security update, backups, maintenance, bug fixing and migrations, etc.
+本地化OpenERP和在线式OpenErp没有什么不同. 在线式OpenERP总是使用最新的官方稳定版.然而, 在线式OpenERP通常包含多种增值服务: 主机, 数据库管理, 稳定安全更新, 备份, 维护, 漏洞修复和迁移等.
 
 .. i18n: What are the Services included in the OpenERP Online Subscription?
 .. i18n: ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ..
 
-What are the Services included in the OpenERP Online Subscription?
+签约的在线式OpenERP包含哪些服务呢？
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. i18n: For every subscription, we provide the following hardware resources:
 ..
 
-For every subscription, we provide the following hardware resources:
+对于每份签约, 我们提供以下硬件资源:
 
 .. i18n:     * One application server for OpenERP, with web and GTK access,
 .. i18n:     * Two incremental backup servers,
@@ -76,7 +76,7 @@ It also includes the following services:
 .. i18n: ++++++++++++++++++++++++++++++++
 ..
 
-What is OpenERP's Pricing Model?
+什么是OpenERP的价格模式？
 ++++++++++++++++++++++++++++++++
 
 .. i18n: Our pricing model is simple. We charge $49 or €39 per user, per month. We bill each month according to the number of users registered at that time. If you add new users during the next 30 days they will only be charged with the next invoice.
