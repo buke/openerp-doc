@@ -218,7 +218,7 @@ the right of the form on the :guilabel:`General Configuration` tab to get the re
    :scale: 75
    :align: center
 
-   *Analysing task by project in tree view*
+   *按项目分组的任务列表统计*
 
 .. i18n: .. figure::  images/report_project_graph.png
 .. i18n:    :scale: 75
@@ -231,7 +231,7 @@ the right of the form on the :guilabel:`General Configuration` tab to get the re
    :scale: 75
    :align: center
 
-   *Analysing task by project in graph view*
+   *按项目分组的任务图形统计*
 
 .. i18n: .. index::
 .. i18n:    single: configuring; dashboard
@@ -517,7 +517,7 @@ dialog box, and then click :guilabel:`Open Report`.
    :scale: 65
    :align: center
 
-   *Modifying a document template*
+   *修改文档模板*
 
 .. i18n: OpenOffice.org then opens the report in edit mode for you. You can modify it using the standard word
 .. i18n: processing functions of OpenOffice.org Writer.
