@@ -520,7 +520,7 @@ PC2 电脑分两步来制造:
 .. i18n:     scrapped by clicking the little pencil at the left of the item.
 ..
 
-.. tip:: Scrap a product
+.. tip:: 报废产品
 
     废弃一件产品, 你必须编辑制造订单,然后选择产品，通过点击来取消左边有小铅笔在的项。
 
@@ -570,7 +570,7 @@ You get a blank form to enter a new production order as shown in the figure :ref
    :scale: 75
    :align: center
 
-   *New Production Order*
+   *新生产订单*
 
 .. i18n: The production order follows the process given by the figure :ref:`fig-mrpprdproc`.
 ..
