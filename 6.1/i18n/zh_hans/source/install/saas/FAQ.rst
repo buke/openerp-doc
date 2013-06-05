@@ -48,7 +48,7 @@
 .. i18n: It also includes the following services:
 ..
 
-It also includes the following services:
+也包括以下服务:
 
 .. i18n:     * Maintenance services
 .. i18n:           1. Bug fixes analyzed within 3 working days
@@ -58,10 +58,10 @@ It also includes the following services:
 .. i18n:     * Maintenance and 24/7 monitoring of your servers
 ..
 
-    * Maintenance services
-          1. Bug fixes analyzed within 3 working days
-          2. Migrations to each new version
-          3. Security updates
+    * 保养服务
+          1. 3个工作日内漏洞分析修复
+          2. 迁移至每个最新的版本
+          3. 安全升级
     * Hosting in our high-bandwidth European or U.S. data centers
     * Maintenance and 24/7 monitoring of your servers
 
