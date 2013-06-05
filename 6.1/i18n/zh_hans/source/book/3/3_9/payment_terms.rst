@@ -47,7 +47,7 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 .. i18n: the payment terms there.
 ..
 
-要配置新的条款，首先给付款条款一个名称 :guilabel:`Payment Term` field. Text that
+要配置新的条款，首先在 :guilabel:`Payment Term` 中给付款条款一个名称。 Text that
 you put in the field :guilabel:`Description on invoices`, is used on invoices, so enter a clear description of
 the payment terms there.
 
