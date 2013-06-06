@@ -65,7 +65,7 @@
 .. i18n: One can check all these options by typing
 ..
 
-你可以通过输入如下内容检查所以选项
+你可以通过输入如下内容核对所有参数
 
 .. i18n: *$python tinybi.py --help*
 ..
@@ -80,7 +80,7 @@ Usage: tinybi.py [options]
 .. i18n: Options:
 ..
 
-选项:
+参数:
 
 .. i18n: ::
 .. i18n: 
@@ -109,7 +109,7 @@ Usage: tinybi.py [options]
 
 ::
 
- 常用选项:
+ 常用参数:
    -c COMMAND, --command=COMMAND
                        The query to execute
    -s SCHEMA, --schema=SCHEMA
@@ -137,7 +137,7 @@ Usage: tinybi.py [options]
 
 ::
 
- Connection options:
+ 连接参数:
    -d DATABASE, --database=DATABASE
                        Database name
    -H HOSTNAME, --hostname=HOSTNAME
@@ -157,7 +157,7 @@ Usage: tinybi.py [options]
 .. i18n: :Example:
 ..
 
-:Example:
+:示例:
 
 .. i18n: ./tinybi.py -d "terp" -H localhost -U admin -W admin -p 8069 -s "tinyerp" -c "select {[user].[all]} on rows, {[measures].[credit_limit],[measures].[count]} on columns from res_partner"
 ..
@@ -167,7 +167,7 @@ Usage: tinybi.py [options]
 .. i18n: This will give output on CLI as:
 ..
 
-This will give output on CLI as:
+将会在命令行界面输出如下结果:
 
 .. i18n: .. csv-table:: 
 .. i18n:    :header: "\ ","credit_limit","count"
