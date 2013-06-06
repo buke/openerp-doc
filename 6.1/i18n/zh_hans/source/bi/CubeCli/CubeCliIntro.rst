@@ -50,12 +50,12 @@
 .. i18n: Currently we can use CLI to test different queries, it can also be used for running automated tests.
 ..
 
-Currently we can use CLI to test different queries, it can also be used for running automated tests.
+通常我们可以使用CLI测试不同的查询，它也可以被用来运行自动测试。
 
 .. i18n: The basic syntax for testing query is:
 ..
 
-The basic syntax for testing query is:
+基本的测试查询语法是:
 
 .. i18n: **./tinybi.py -d <<Database Name>> -H localhost -U <<User Name> -W <<Password>> -p <<Port Number>> -s <<Schema Name>> -c <<MDX Query>>**
 ..
@@ -65,7 +65,7 @@ The basic syntax for testing query is:
 .. i18n: One can check all these options by typing
 ..
 
-One can check all these options by typing
+你可以通过输入如下内容检查所以选项
 
 .. i18n: *$python tinybi.py --help*
 ..
@@ -80,7 +80,7 @@ Usage: tinybi.py [options]
 .. i18n: Options:
 ..
 
-Options:
+选项:
 
 .. i18n: ::
 .. i18n: 
@@ -109,7 +109,7 @@ Options:
 
 ::
 
- General options:
+ 常用选项:
    -c COMMAND, --command=COMMAND
                        The query to execute
    -s SCHEMA, --schema=SCHEMA
