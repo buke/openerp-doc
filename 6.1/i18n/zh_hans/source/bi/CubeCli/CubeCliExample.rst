@@ -10,6 +10,7 @@ Reports
 .. i18n:                   credit_limit       count
 .. i18n:   All user        [66700.0]          [21.0]
 ..
+::
 
 下面是一个测试查询生成的报告内容：
 
