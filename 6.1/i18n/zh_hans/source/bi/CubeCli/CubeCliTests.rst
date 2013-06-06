@@ -1,9 +1,8 @@
-
 .. i18n: Running Automated Test Cases
 .. i18n: ----------------------------
 ..
 
-Running Automated Test Cases
+运行一个自动分析案例
 ----------------------------
 
 .. i18n: We can check all the queries on :ref:`CLI <CLI-link>` by making a file with queries to be tested with the syntax given in :ref:`CLI <CLI-link>`
