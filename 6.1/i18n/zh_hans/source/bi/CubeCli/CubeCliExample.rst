@@ -1,4 +1,3 @@
-
 .. i18n: Reports
 .. i18n: -------
 ..
@@ -12,10 +11,10 @@ Reports
 .. i18n:   All user        [66700.0]          [21.0]
 ..
 
-The report generated for the *test_query*  file is::
+下面是一个测试查询生成的报告内容：
 
-                  credit_limit       count
-  All user        [66700.0]          [21.0]
+                     贷方限度           计数
+  所有的用户        [66700.0]          [21.0]
 
 .. i18n: .. 
 ..
@@ -32,10 +31,10 @@ The report generated for the *test_query*  file is::
 
 ::
 
-                   All user
+                   所有的用户
                                       Root               Administrator      Demo User
-  credit_limit     [66700.0]                             [2700.0]           [49000.0]
-  count            [21.0]                                [2.0]              [6.0]
+  贷方限度     [66700.0]                             [2700.0]           [49000.0]
+  计数            [21.0]                                [2.0]              [6.0]
 
 .. i18n: .. 
 ..
