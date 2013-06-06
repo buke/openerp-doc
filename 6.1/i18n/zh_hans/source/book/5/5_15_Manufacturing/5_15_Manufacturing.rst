@@ -277,7 +277,8 @@ PC2 电脑分两步来制造:
 .. i18n: You will see the production order for CPU_GEN, but not the one for PC2 because it depends on an intermediate product that has to be produced first. Return to the production order for CPU_GEN and click it. If there are several of them, select the one corresponding to your order using the source document that contains your order number (in this example ``SO007`` ).
 ..
 
-您将看到 CPU_GEN 的生产订单, 不是 PC2 的，因为PC2的生产依赖于中间产品 CPU_GEN ,中间产品要首先生产. 返回到 CPU_GEN 的生产订单点击它. 如果有一些其他订单的列表, 选择一个和你产品关联的订单号 (in this example ``SO007`` ).
+您将看到 CPU_GEN 的生产订单, 不是 PC2 的，因为PC2的生产依赖于中间产品 CPU_GEN ,中间产品要首先生产. 返回到 CPU_GEN 的生产订单
+点击它. 如果有一些其他订单的列表, 选择一个和你产品关联的订单号 (如本例中的 ``SO007`` ).
 
 .. i18n: .. figure:: images/mrp_production_form_new.png
 .. i18n:    :scale: 75
@@ -310,7 +311,9 @@ PC2 电脑分两步来制造:
 .. i18n: Click the ``Start Production`` button, then click the ``Edit`` button, and edit the line for the product MB1. Enter a lot number for it by putting the cursor in the field :guilabel:`Production Lot` and pressing :kbd:`<F1>` to create a new lot. Enter an internal reference, for example: ``MB1345678``. The system may then show you a warning because this lot is not in stock, but you can ignore this message.
 ..
 
-单击 ``Start Production`` 按钮, 然后单击 ``Edit`` 按钮, 然后编辑该行的产品 MB1. 把光标定位在域 :guilabel:`Production Lot` 输入批号，快捷键 :kbd:`<F1>` 创建一个新批号. 输入一个内部的参考，例如: ``MB1345678``. 系统可能给你一个警告，因为这一个批号没有库存, 你可以忽略此消息.
+单击 ``Start Production`` 按钮, 然后单击 ``Edit`` 按钮, 然后编辑该行的产品 MB1. 把光标定位在域 :guilabel:`Production Lot`
+输入批号，快捷键 :kbd:`<F1>` 创建一个新批号. 输入一个内部的参考，例如: ``MB1345678``. 系统可能给你一个警告，因为这一个批号
+没有库存, 你可以忽略此消息.
 
 .. i18n: Click the ``Produce`` button to manufacture the finished product.
 ..
@@ -350,7 +353,8 @@ PC2 电脑分两步来制造:
 .. i18n: of the computer PC2 using the order created earlier. Return to the Manufacturing Orders menu and look at the orders Ready to Produce through  :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
 ..
 
-经过中间产品 CPU_GEN 的制造, OpenERP 自动建议使用先前创建的 PC2 的订单制造. 返回到“生产订单”菜单 ，可以通过菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` 看到订单准备生产.
+经过中间产品 CPU_GEN 的制造, OpenERP 自动建议使用先前创建的 PC2 的订单制造. 返回到“生产订单”菜单 ，可以通过菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`
+看到订单准备生产.
 
 .. i18n: You will find computer PC2 which has been sold to the customer (source document SO007), as shown in the figure hereafter.
 ..
@@ -404,8 +408,8 @@ PC2 电脑分两步来制造:
 .. i18n: same finished product from raw materials (A + B > C). With Subproduct management, the manufacturing result can be to have both finished products and secondary products (A + B > C + D).
 ..
 
-如果您需要管理的子产品, 你应该安装的模块 :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-products). 生产的业务过程，在OpenERP您可以从原材料
-制造几个单位的成品 (A + B > C). 在子产品管理, 制造的结果可以是有两个成品和子产品 (A + B > C + D).
+如果您需要管理的子产品, 你应该安装的模块 :mod:`mrp_subproduct` (Reconfigure wizard, MRP Sub-products). 生产的业务过程，
+在OpenERP您可以从原材料制造几个单位的成品 (A + B > C). 在子产品管理, 制造的结果可以是有两个成品和子产品 (A + B > C + D).
 
 .. i18n: .. note:: Subproduct Material
 .. i18n: 
@@ -476,7 +480,7 @@ PC2 电脑分两步来制造:
 .. i18n:     or Produce.
 ..
 
-.. note:: Services in Manufacturing
+.. note:: 服务类的生产
 
     不同于大多数软件的生产管理, OpenERP 管理服务作为库存商品. 所以
     它可以把服务类型的产品放在BOM中. 这些不出现在生产订单，但他们的要求将被考虑到.
@@ -529,8 +533,8 @@ PC2 电脑分两步来制造:
 .. i18n: you have to scrap each component manually is that the production problem can come from one component.
 ..
 
-新产品由于以下的原因添加：当你要废弃一件你生产了的产品，你必须要生产另一件产品来代替这个被废弃的产品。这就是你为什么 The reason why 
-you have to scrap each component manually is that the production problem can come from one component.
+新产品由于以下的原因添加：当你要废弃一件你生产了的产品，你必须要生产另一件产品来代替这个被废弃的产品。这就是你为什么
+The reason why you have to scrap each component manually is that the production problem can come from one component.
 
 .. i18n: If the production process is finished and you see that you have to scrap the finished product, you will
 .. i18n: not have to scrap the different components. They are already *consumed*. They are not available anymore
@@ -552,8 +556,8 @@ for further manufacturing orders; they have been moved to the production Stock L
 .. i18n: You get a blank form to enter a new production order as shown in the figure :ref:`fig-mrpprdnew`.
 ..
 
-To open a Production Order, use the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` and click the `New` button.
-You get a blank form to enter a new production order as shown in the figure :ref:`fig-mrpprdnew`.
+菜单 :menuselection:`生产(Manufacturing) --> 生产(Manufacturing) --> 生产订单(Manufacturing Orders)` 列表页面点击 :guilabel:`新建(New)` 按钮
+得到如图 :ref:`fig-mrpprdnew` 所示的空白的生产订单表单.
 
 .. i18n: .. _fig-mrpprdnew:
 .. i18n: 
@@ -570,7 +574,7 @@ You get a blank form to enter a new production order as shown in the figure :ref
    :scale: 75
    :align: center
 
-   *新生产订单*
+   *新建生产订单*
 
 .. i18n: The production order follows the process given by the figure :ref:`fig-mrpprdproc`.
 ..
