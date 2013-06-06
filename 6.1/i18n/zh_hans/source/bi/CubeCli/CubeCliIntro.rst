@@ -1,4 +1,3 @@
-
 .. i18n: .. _CLI-link:
 .. i18n: 
 .. i18n: Command Line Interface
@@ -7,26 +6,26 @@
 
 .. _CLI-link:
 
-Command Line Interface
+命令行界面
 ======================
 
 .. i18n: Introduction to the cli
 .. i18n: -----------------------
 ..
 
-Introduction to the cli
+命令行界面引言
 -----------------------
 
 .. i18n: *The CLI - Command Line Interface*
 ..
 
-*The CLI - Command Line Interface*
+*CLI－命令行界面*
 
 .. i18n: Command Line Interface is similar to that of psql, but used for MDX queries on the cube.
 .. i18n: As
 ..
 
-Command Line Interface is similar to that of psql, but used for MDX queries on the cube.
+命令行界面类似于psql，但在cube上被用来MDX查询。
 As
 
 .. i18n: ::
