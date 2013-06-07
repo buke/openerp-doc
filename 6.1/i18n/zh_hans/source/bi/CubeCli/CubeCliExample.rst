@@ -2,7 +2,7 @@
 .. i18n: -------
 ..
 
-Reports
+报告
 -------
 
 .. i18n: The report generated for the *test_query*  file is::
