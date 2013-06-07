@@ -8,7 +8,7 @@
 .. i18n: Once the report is generated in the cube browser we can swap it so rows move to the columns area and columns move to the rows area. This also swaps the query parts.
 ..
 
-报告一旦在cube浏览器中生成，我们通过移动行到列的区域或者移动列到行的区域来交换行和列。这种操作同样适用于查询部分。
+报告一旦以多维方式生成，我们通过移动行到列的区域或者移动列到行的区域来交换行和列。这种操作同样适用于查询部分。
 
 .. i18n: We can form query by drag and drop which will form the report.
 ..
@@ -38,4 +38,4 @@
 .. i18n: **Now after swapping, we can move on with drag and drop to form queries and generate report.**
 ..
 
-**Now after swapping, we can move on with drag and drop to form queries and generate report.**
+**经过交换之后，我们可以拖入建立查询列表，并生成报告**
