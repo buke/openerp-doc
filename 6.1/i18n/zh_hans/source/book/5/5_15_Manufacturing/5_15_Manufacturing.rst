@@ -579,7 +579,7 @@ for further manufacturing orders; they have been moved to the production Stock L
 .. i18n: The production order follows the process given by the figure :ref:`fig-mrpprdproc`.
 ..
 
-The production order follows the process given by the figure :ref:`fig-mrpprdproc`.
+生产订单接下去会图 :ref:`fig-mrpprdproc` 的流程.
 
 .. i18n: .. _fig-mrpprdproc:
 .. i18n: 
@@ -596,16 +596,15 @@ The production order follows the process given by the figure :ref:`fig-mrpprdpro
    :scale: 75
    :align: center
 
-   *Process for Handling a Production Order*
+   *生产订单处理流程图*
 
 .. i18n: The `Scheduled date` , `Product Qty` and `Reference`, are automatically completed when the form is first opened.
 .. i18n: Enter the product that you want to produce, and the quantity required. The :guilabel:`Product UOM` by
 .. i18n: default is completed automatically by OpenERP when the product is first selected.
 ..
 
-The `Scheduled date` , `Product Qty` and `Reference`, are automatically completed when the form is first opened.
-Enter the product that you want to produce, and the quantity required. The :guilabel:`Product UOM` by
-default is completed automatically by OpenERP when the product is first selected.
+`计划生产日期`， `产品数量` 和 `摘要` 这些数据都在生产订单窗体打开时, 自动完成了. 输入你想要生产的产品以及需求的数量.
+The :guilabel:`Product UOM` by default is completed automatically by OpenERP when the product is first selected.
 
 .. i18n: You then have to set two locations:
 ..
