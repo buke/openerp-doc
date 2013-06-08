@@ -17,10 +17,8 @@
 .. i18n: manufacturing plan is given by the figure :ref:`fig-mrparm2`.
 ..
 
-:guilabel:`物料清单(Bill of Materials)` 是用来列举制造一个成品(finished product)所需要的原材料(raw materials)列表。
-To illustrate the concept of specification, you will work on a shelf (or cabinet) where the
-manufacturing plan is given by the figure :ref:`fig-mrparm2`.
-(为了解释本章节的内容，你会生产一个生产计划指定的书架(或橱柜).)
+物料清单(Bill of Materials)是用来列举制造一个成品所需要的原材料列表。
+为了解释本章节的内容，你会生产一个生产计划指定的书架(或橱柜)。 :ref:`fig-mrparm2`.
 
 .. i18n: .. _fig-mrparm2:
 .. i18n: 
@@ -42,8 +40,7 @@ manufacturing plan is given by the figure :ref:`fig-mrparm2`.
 .. i18n: The shelf is assembled from raw materials and intermediate assemblies. The Image Code refers to the picture, the Product Reference is the corresponding code in OpenERP.
 ..
 
-书架由原材料和中间件(intermediate assemblies)组成。
- The Image Code refers to the picture, the Product Reference is the corresponding code in OpenERP.
+书架由原材料和中间件(intermediate assemblies)组成。图片编码是指图片，产品参考号OpenERP的是相应的代码。
 
 .. i18n: Change the unit of the Wood Lintel 4m (LIN40) product to ``m`` instead of PCE.
 ..
@@ -69,7 +66,7 @@ Change the unit of the Wood Lintel 4m (LIN40) product to ``m`` instead of PCE.
 .. table:: Product Definitions before defining Bills of Materials (already defined)
 
    ========== ================= =========================
-   Image Code Product Reference Description
+   图片编号   产品参考号        描述
    ========== ================= =========================
    ARM100     SHE100            Shelf 100 cm
    PANLAT     SIDEPAN           Side Panel
