@@ -74,7 +74,7 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 
 * ``Fixed Amount`` : 这是一个给定在 :guilabel:`Value Amount` 中的固定金额.
 
-* ``Balance`` : 表明in本次付款金额是除去以前付款金额的余款.
+* ``Balance`` : 表明本次付款金额是除去以前付款金额的余款.
 
 .. i18n: Think carefully about setting the last line of the calculation to \ ``Balance`` \, to avoid rounding
 .. i18n: errors. The highest sequence number is evaluated last.
