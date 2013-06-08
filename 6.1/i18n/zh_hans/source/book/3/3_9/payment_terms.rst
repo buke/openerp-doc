@@ -60,7 +60,7 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 .. i18n: The :guilabel:`Valuation` field enables you to calculate the amount to pay for each line:
 ..
 
-The :guilabel:`Valuation` field enables you to calculate the amount to pay for each line:
+每行中 :guilabel:`Valuation` 字段能让您计算付款金额:
 
 .. i18n: * ``Percent`` : the line corresponds to a percentage of the total amount, the factor being
 .. i18n:   given in :guilabel:`Value Amount`. The number indicated in :guilabel:`Value Amount` must take a value between 0 and 1.
@@ -70,12 +70,11 @@ The :guilabel:`Valuation` field enables you to calculate the amount to pay for e
 .. i18n: * ``Balance`` : indicates the balance remaining after accounting for the other lines.
 ..
 
-* ``Percent`` : the line corresponds to a percentage of the total amount, the factor being
-  given in :guilabel:`Value Amount`. The number indicated in :guilabel:`Value Amount` must take a value between 0 and 1.
+* ``Percent`` : 本行表明th此次付款占总金额的百分比，百分比在 :guilabel:`Value Amount`字段中提供，  :guilabel:`Value Amount` 中的取值必须在0到1之间.
 
-* ``Fixed Amount`` : this is a fixed value given by the :guilabel:`Value Amount` box.
+* ``Fixed Amount`` : 这是一个给定在 :guilabel:`Value Amount` 中的固定金额.
 
-* ``Balance`` : indicates the balance remaining after accounting for the other lines.
+* ``Balance`` : 表明in本次付款金额是除去以前付款金额的余款.
 
 .. i18n: Think carefully about setting the last line of the calculation to \ ``Balance`` \, to avoid rounding
 .. i18n: errors. The highest sequence number is evaluated last.
