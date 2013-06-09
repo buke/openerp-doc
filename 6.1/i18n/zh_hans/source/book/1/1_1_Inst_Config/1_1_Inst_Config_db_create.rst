@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    single: database; create
 .. i18n:    single: database
@@ -40,7 +41,6 @@
 .. i18n: 
 .. i18n:    Anyone who knows the super-administrator password has complete access to the data on the server
 .. i18n:    – able to read, change and delete any of the data in any of the databases there.
-.. i18n: 
 .. i18n:    After first installation, the password is ``admin``. This is the hard-coded default, and
 .. i18n:    is used if there is no accessible server configuration file. If your system has been 
 .. i18n:    set up so that the server configuration file can be written to by the server, then
