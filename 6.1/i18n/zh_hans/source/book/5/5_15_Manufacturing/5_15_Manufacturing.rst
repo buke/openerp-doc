@@ -579,7 +579,7 @@ for further manufacturing orders; they have been moved to the production Stock L
 .. i18n: The production order follows the process given by the figure :ref:`fig-mrpprdproc`.
 ..
 
-生产订单接下去会图 :ref:`fig-mrpprdproc` 的流程.
+生产订单接下去走图 :ref:`fig-mrpprdproc` 的流程.
 
 .. i18n: .. _fig-mrpprdproc:
 .. i18n: 
