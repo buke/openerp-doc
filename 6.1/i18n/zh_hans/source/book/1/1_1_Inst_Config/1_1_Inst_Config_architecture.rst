@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    single: architecture; OpenERP
 ..
@@ -137,17 +138,12 @@ OpenERP 系统是由2部分组成:
 
 ..  © Open Object Press. 版权所有，保留所有权利。
 
-.. i18n: .. You may take electronic copy of this publication and distribute it if you don't
-.. i18n: .. change the content. You can also print a copy to be read by yourself only.
+.. i18n: .. You may take electronic copy of this publication and distribute it if you don't change the content. You can also print a copy to be read by yourself only.
 ..
 
 .. 你可以拿这份刊物的电子档打印出来供自己阅读使用，或是如果你不修改任何内容，你也可以转发给其他人。
 
-.. i18n: .. We have contracts with different publishers in different countries to sell and
-.. i18n: .. distribute paper or electronic based versions of this book (translated or not)
-.. i18n: .. in bookstores. This helps to distribute and promote the OpenERP product. It
-.. i18n: .. also helps us to create incentives to pay contributors and authors using author
-.. i18n: .. rights of these sales.
+.. i18n: .. We have contracts with different publishers in different countries to sell and distribute paper or electronic based versions of this book (translated or not) in bookstores. This helps to distribute and promote the OpenERP product. It also helps us to create incentives to pay contributors and authors using author rights of these sales.
 ..
 
 .. 我们有与许多不同国家的不同出版社签约，来发行及销售这本书的纸本或电子版本，包含原文版和翻译文的版本。
@@ -160,17 +156,12 @@ OpenERP 系统是由2部分组成:
 
 .. 因此，除非获得 Tiny SPRL (代表开源物件出版社，Open Object Press) 的书面授权，翻译补助金，修改或是贩卖这本书是被严格禁止的。
 
-.. i18n: .. Many of the designations used by manufacturers and suppliers to distinguish their
-.. i18n: .. products are claimed as trademarks. Where those designations appear in this book,
-.. i18n: .. and Open Object Press was aware of a trademark claim, the designations have been
-.. i18n: .. printed in initial capitals.
+.. i18n: .. Many of the designations used by manufacturers and suppliers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and Open Object Press was aware of a trademark claim, the designations have been printed in initial capitals.
 ..
 
 .. 许多制造商或供应商用于辨识他们产品的代号被称为 注册商标。在本书里出现的这些代号，如果开源物件出版社知道是注册商标的，会使用大写字母开头。
 
-.. i18n: .. While every precaution has been taken in the preparation of this book, the publisher
-.. i18n: .. and the authors assume no responsibility for errors or omissions, or for damages
-.. i18n: .. resulting from the use of the information contained herein.
+.. i18n: .. While every precaution has been taken in the preparation of this book, the publisher and the authors assume no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.
 ..
 
 .. 出版商及作者已经尽最大努力准备这本书，所以不对内容的错误和疏漏承担责任；出版商及作者也不对采用书中讯息造成的损害承担任何责任。
