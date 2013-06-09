@@ -55,7 +55,7 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 .. i18n: the rules are evaluated.
 ..
 
-在 :guilabel:`Payment Term` 部分新增单独的一行以创建新付款条款。您必须给每行提供一个名称(:guilabel:`Line Name`). 这些信息并不会对付款条款的实际计算产生影响。  :guilabel:`Sequence` 字段允许您定义计算规则的顺序。
+在 :guilabel:`Payment Term` 部分新增单独的一行以创建新付款条款。您必须给每行提供一个名称 :guilabel:`Line Name` . 这些信息并不会对付款条款的实际计算产生影响。  :guilabel:`Sequence` 字段允许您定义计算规则的顺序。
 
 .. i18n: The :guilabel:`Valuation` field enables you to calculate the amount to pay for each line:
 ..
