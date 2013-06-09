@@ -24,7 +24,7 @@ The scheduler uses all the relevant parameters defined for products, suppliers a
 .. i18n:         You can set the starting time of the scheduler by modifying the corresponding action in the menu :menuselection:`Administration --> Configuration --> Scheduler --> Scheduled Actions`. Modify the ``Run mrp Scheduler`` configuration document.
 ..
 
-.. note:: Starting Time
+.. note:: 起始时间
 
         You can set the starting time of the scheduler by modifying the corresponding action in the menu :menuselection:`Administration --> Configuration --> Scheduler --> Scheduled Actions`. Modify the ``Run mrp Scheduler`` configuration document.
 
@@ -39,7 +39,7 @@ The scheduler uses all the relevant parameters defined for products, suppliers a
    :scale: 75
    :align: center
 
-   *Configuring the Start Time to Calculate Requirements*
+   *配置计算需求的起始时间*
 
 .. i18n: .. tip::  Calculating Requirements / Scheduling
 .. i18n: 
