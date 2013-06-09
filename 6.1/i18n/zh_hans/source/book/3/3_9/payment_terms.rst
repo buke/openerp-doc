@@ -80,16 +80,14 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 .. i18n: errors. The highest sequence number is evaluated last.
 ..
 
-Think carefully about setting the last line of the calculation to \ ``Balance`` \, to avoid rounding
-errors. The highest sequence number is evaluated last.
+仔细思考为何设置最后一行为\ ``Balance`` \， 可以避免舍入误差。顺序号最大的最后计算。
 
 .. i18n: The two last fields, :guilabel:`Number of Days` and :guilabel:`Day of the Month`, enable the calculation of
 .. i18n: the delay in payment for each line. The delay :guilabel:`Day of the Month` can be set to \ ``-1`` \, \ ``0`` \
 .. i18n: or any positive number. For example, if today is 20th December 2010, and if you want to set payment terms like this:
 ..
 
-The two last fields, :guilabel:`Number of Days` and :guilabel:`Day of the Month`, enable the calculation of
-the delay in payment for each line. The delay :guilabel:`Day of the Month` can be set to \ ``-1`` \, \ ``0`` \
+最后两个字段, :guilabel:`Number of Days` 和 :guilabel:`Day of the Month`, 能为每一行提供计算延期处理方法。 The delay :guilabel:`Day of the Month` can be set to \ ``-1`` \, \ ``0`` \
 or any positive number. For example, if today is 20th December 2010, and if you want to set payment terms like this:
 
 .. i18n: * :guilabel:`5000 within 5 days`: set `Valuation` ``Fixed Amount``, `Number of Days` ``5`` and `Day of the Month` ``0``. That creates journal entry for date 25th December 2010.
