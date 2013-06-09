@@ -70,8 +70,7 @@ Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New
 .. i18n: * ``Balance`` : indicates the balance remaining after accounting for the other lines.
 ..
 
-* ``Percent`` : 本行表明th此次付款占总金额的百分比，百分比在 :guilabel:`Value Amount`字段中提供，
-                :guilabel:`Value Amount` 中的取值必须在0到1之间.
+* ``Percent`` : 本行表明此次付款占总金额的百分比，百分比在 :guilabel:`Value Amount`字段中提供， :guilabel:`Value Amount` 中的取值必须在0到1之间.
 
 * ``Fixed Amount`` : 这是一个给定在 :guilabel:`Value Amount` 中的固定金额.
 
