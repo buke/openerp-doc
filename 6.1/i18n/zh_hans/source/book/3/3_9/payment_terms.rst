@@ -102,7 +102,7 @@ or any positive number. For example, if today is 20th December 2010, and if you 
 .. i18n: You can then add payment terms to a Partner through the tab :guilabel:`Accounting` on the partner form.
 ..
 
-You can then add payment terms to a Partner through the tab :guilabel:`Accounting` on the partner form.
+您可以在合作伙伴的 :guilabel:`Accounting` 页签将付款条款指定给合作伙伴.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
