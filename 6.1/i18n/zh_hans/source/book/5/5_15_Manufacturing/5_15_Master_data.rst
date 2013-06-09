@@ -45,7 +45,7 @@
 .. i18n: Change the unit of the Wood Lintel 4m (LIN40) product to ``m`` instead of PCE.
 ..
 
-Change the unit of the Wood Lintel 4m (LIN40) product to ``m`` instead of PCE.
+用 ``m`` 代替木门楣4m(LIN40)的单位PCE 
 
 .. i18n: .. table:: Product Definitions before defining Bills of Materials (already defined)
 .. i18n: 
