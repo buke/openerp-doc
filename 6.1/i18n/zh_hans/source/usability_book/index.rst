@@ -28,10 +28,10 @@
     :maxdepth: 4
 
     Introduction/index
-    Business Applications/index
-    OpenERP's Views/index
+    Business_Applications/index
+    OpenERPs_Views/index
     Configuration/index
     Reporting/index
-    Development of web modules/index
+    Development_of_web modules/index
     Guidelines/index
     Buttons/index
