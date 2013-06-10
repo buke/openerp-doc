@@ -47,7 +47,7 @@ That is what you will use ``Budgetary Positions`` for, from the menu :menuselect
 .. i18n: To define your budgets, go to the menu :menuselection:`Accounting --> Budgets --> Budgets`. Define a new budget by clicking the `New` button.
 ..
 
-To define your budgets, go to the menu :menuselection:`Accounting --> Budgets --> Budgets`. Define a new budget by clicking the `New` button.
+要开始预算, 点击菜单 :menuselection:`会计(Accounting) --> 预算(Budgets) --> 预算(Budgets)`, 点击 `新建(New)` 按钮可以创建一张预算单据.
 
 .. i18n: .. figure::  images/account_budget_form.png
 .. i18n:    :scale: 75
