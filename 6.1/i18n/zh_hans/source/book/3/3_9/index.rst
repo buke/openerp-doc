@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    single: Configuring Accounts
 ..
@@ -15,7 +16,7 @@
 .. _ch-configacct:
 
 ********************************
-从 A 到 Z 配置会计
+一步一步配置会计
 ********************************
 
 .. i18n:  *Accounts have be configured to meet your company's needs.
