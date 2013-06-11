@@ -1,3 +1,4 @@
+
 .. i18n: Business Example
 .. i18n: ================
 ..
@@ -180,11 +181,11 @@ because they both contain demonstration data.
 使用 帐号 \ ``admin`` \  以及前面创建帐套时你设置的密码 登陆帐套 \ ``openerp_ch03`` \ 后, 会弹出帐套配置向导,你可以有两个选择:
 
 .. i18n: 1. If you click the `Start Configuration` button, OpenERP guides you through a series of steps to: :guilabel:`Configure Your Interface` - proceed with the default ``Simplified`` (the other option is ``Extended``); and :guilabel:`Configure Your Company Information` - enter a :guilabel:`Company Name` and select a :guilabel:`Currency` for your company.
-.. i18n: Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
+.. i18n:    Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
 ..
 
 1. If you click the `Start Configuration` button, OpenERP guides you through a series of steps to: :guilabel:`Configure Your Interface` - proceed with the default ``Simplified`` (the other option is ``Extended``); and :guilabel:`Configure Your Company Information` - enter a :guilabel:`Company Name` and select a :guilabel:`Currency` for your company.
-Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
+   Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
 
 .. i18n: .. _fig-oech03cfg:
 .. i18n: 
@@ -206,7 +207,7 @@ Then OpenERP helps you to install various applications with different functional
 .. i18n: - OR -
 .. i18n: 
 .. i18n: 2. When you click the button `Skip Configuration Wizards`, you can have the screen as shown in screenshot :ref:`fig-oech03st`. Then you
-.. i18n: can start working with this minimal database (we will not use this option here).
+.. i18n:    can start working with this minimal database (we will not use this option here).
 ..
 
 - 或者 -
