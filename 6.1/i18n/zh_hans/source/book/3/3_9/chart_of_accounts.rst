@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    single: accounts; chart
 .. i18n:    single: chart of accounts
