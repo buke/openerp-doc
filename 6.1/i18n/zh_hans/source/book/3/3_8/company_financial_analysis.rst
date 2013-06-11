@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: budgeting
 ..
@@ -127,7 +126,7 @@ A budget has various stages:
 .. i18n: You can cancel a budget and reset it to draft for the two preceding steps.
 ..
 
-You can cancel a budget and reset it to draft for the two preceding steps.
+如果觉得不合适,你随时可以在前面两种状态下, `取消(Cancel)` 该预算单后再将其 `置为草稿`.
 
 .. i18n: * *Done*: the budget is fully approved and no changes will be allowed. You can no longer cancel the budget and reset it to draft.
 ..
