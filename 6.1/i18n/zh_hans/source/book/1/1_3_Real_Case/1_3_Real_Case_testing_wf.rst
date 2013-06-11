@@ -1,3 +1,4 @@
+
 .. i18n: Driving a Purchase / Sales Flow
 .. i18n: ===============================
 ..
@@ -342,7 +343,7 @@ difference, it is possible to change the order lines to, for example, add a deli
 ..
 
 选择菜单 :menuselection:`Accounting --> Suppliers --> Supplier Invoices` and click on the :guilabel:`Unpaid` button
-  for a list of supplier invoices that have not yet been paid. 写PO00001在源文档文本本身发现发票。在实践中,你将会寻找发票通过订单号,或更普遍而言,他们的付款日期为发票接近。
+for a list of supplier invoices that have not yet been paid. 写PO00001在源文档文本本身发现发票。在实践中,你将会寻找发票通过订单号,或更普遍而言,他们的付款日期为发票接近。
 
 .. i18n: Click on :guilabel:`Pay Invoice` button in the supplier invoice form. It opens the
 .. i18n: :guilabel:`Pay Invoice` window in new tab with a description of the payment.
@@ -367,6 +368,7 @@ difference, it is possible to change the order lines to, for example, add a deli
 .. i18n: 
 .. i18n: 	The method described here is for companies that do not use their accounting system to pay bills –
 .. i18n: 	just to record them.
+.. i18n:
 .. i18n: 	If you are using the :mod:`account` module with all its features, other, more efficient, methods let you manage payments,
 .. i18n: 	such as entering account statements, reconciling paperwork, using tools for preparing payments,
 .. i18n: 	interfacing with banks.
@@ -377,9 +379,9 @@ difference, it is possible to change the order lines to, for example, add a deli
         这里描述的方法是为企业,不使用他们的会计系统付账单——
         只是来记录他们
 
-	If you are using the :mod:`account` module with all its features, other, more efficient, methods let you manage payments,
-	such as entering account statements, reconciling paperwork, using tools for preparing payments,
-	interfacing with banks.
+        If you are using the :mod:`account` module with all its features, other, more efficient, methods let you manage payments,
+        such as entering account statements, reconciling paperwork, using tools for preparing payments,
+        interfacing with banks.
 
 .. i18n: You can monitor the accounting impact of paying the invoice through the chart of accounts available
 .. i18n: from the menu :menuselection:`Accounting --> Charts --> Chart of Accounts`. OpenERP
