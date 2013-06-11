@@ -60,7 +60,7 @@ That is what you will use ``Budgetary Positions`` for, from the menu :menuselect
    :scale: 75
    :align: center
 
-   *Optimistic Budget*
+   *乐观预算*
 
 .. i18n: .. index::
 .. i18n:    single: budget revisions
@@ -76,16 +76,16 @@ That is what you will use ``Budgetary Positions`` for, from the menu :menuselect
 .. i18n:     Rather than edit an existing budget, make a new version so that you can keep your original estimates safe for comparison. This lets you analyse your changing perspectives of the company from revision to revision.
 ..
 
-.. tip:: Budget Revisions
+.. tip:: 预算的版本管理
 
-    Even though you *can* modify a budget at any time to make a revision, we recommend you to create a new budget, because otherwise you will have no history of changes.
+    虽然你 *可以* 在任何时间进行预算的修改,但我们还是推荐只是做创建一个新的预算,这样才可以很明了地看到预算的整个修改历史.
 
     Rather than edit an existing budget, make a new version so that you can keep your original estimates safe for comparison. This lets you analyse your changing perspectives of the company from revision to revision.
 
 .. i18n: To define your budgets, start by entering a :guilabel:`Name`, a :guilabel:`Code`, a :guilabel:`Start Date` and an :guilabel:`End Date` for your new budget. Then you can define the budgeted amounts for each analytic account within a specified period, one by one (enter negative amounts for purchases, positive amounts for sales). For each, you define:
 ..
 
-To define your budgets, start by entering a :guilabel:`Name`, a :guilabel:`Code`, a :guilabel:`Start Date` and an :guilabel:`End Date` for your new budget. Then you can define the budgeted amounts for each analytic account within a specified period, one by one (enter negative amounts for purchases, positive amounts for sales). For each, you define:
+创建一张预算单后,输入 :guilabel:`摘要(Name)`, :guilabel:`编码(Code)`, :guilabel:`起始日期(Start Date)`, :guilabel:`终止日期(End Date)` . 然后将你要纳入预算管理的某个会计期间的辅助核算科目及预算金额全部一条条地填写进去(注意: 采购类的需要输入一个负数金额):
 
 .. i18n: * an :guilabel:`Analytic Account`
 .. i18n: 
