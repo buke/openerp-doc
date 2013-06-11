@@ -1,3 +1,4 @@
+
 .. i18n: .. index:: payment terms
 ..
 
@@ -20,8 +21,7 @@
 .. i18n: Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New`.
 ..
 
-要定义付款条款，使用菜单 :menuselection:`Accounting -->
-Configuration --> Miscellaneous --> Payment Terms` and then click :guilabel:`New`.
+要定义付款条款，使用菜单 :menuselection:`会计(Accounting) --> 配置(Configuration) --> 其它(Miscellaneous) --> 付款条件(Payment Terms)` 再点击 :guilabel:`新建(New)`.
 
 .. i18n: The figure below represents the following payment term: 5000 within 5 days, 50% payment at the last day of current month,
 .. i18n: Remaining on 15th of next month.
