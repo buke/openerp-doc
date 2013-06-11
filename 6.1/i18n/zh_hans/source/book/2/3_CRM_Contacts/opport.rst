@@ -1,3 +1,4 @@
+
 .. i18n: .. _part2-crm-opport:
 .. i18n: 
 .. i18n: Optimizing your Sales Cycle through Opportunities
