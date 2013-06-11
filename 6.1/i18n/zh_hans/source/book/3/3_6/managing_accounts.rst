@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    single: payable
 .. i18n:    single: receivable
