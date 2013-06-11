@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
