@@ -1,3 +1,4 @@
+
 .. i18n: .. _tax:
 .. i18n: 
 .. i18n: Managing your Tax Structure
