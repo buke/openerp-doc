@@ -112,14 +112,14 @@ That is what you will use ``Budgetary Positions`` for, from the menu :menuselect
 .. i18n: A budget has various stages:
 ..
 
-A budget has various stages:
+预算各阶段的流程:
 
 .. i18n: * *Confirmed*: the budget is to be reviewed, but it can still be changed before actual approval;
 .. i18n: 
 .. i18n: * *Approved*: the budget is approved by the budget holder; the name of the user approving the budget will be displayed in the ``Validate User`` field.
 ..
 
-* *Confirmed*: the budget is to be reviewed, but it can still be changed before actual approval;
+* *确认(Confirmed)*: 表示预算已审核通过,但还是可以随时进行预算修改.
 
 * *Approved*: the budget is approved by the budget holder; the name of the user approving the budget will be displayed in the ``Validate User`` field.
 
