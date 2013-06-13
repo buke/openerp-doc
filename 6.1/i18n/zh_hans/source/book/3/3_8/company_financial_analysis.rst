@@ -107,7 +107,7 @@ That is what you will use ``Budgetary Positions`` for, from the menu :menuselect
 .. i18n: Once this information is completed, save your budget.
 ..
 
-Once this information is completed, save your budget.
+上述信息完成后, 保存该预算单.
 
 .. i18n: A budget has various stages:
 ..
