@@ -1,4 +1,3 @@
-
 .. i18n: .. index:: payment terms
 ..
 
@@ -87,8 +86,8 @@
 .. i18n: or any positive number. For example, if today is 20th December 2010, and if you want to set payment terms like this:
 ..
 
-最后两个字段, :guilabel:`Number of Days` 和 :guilabel:`Day of the Month`, 能为每一行提供计算延期处理方法。 The delay :guilabel:`Day of the Month` can be set to \ ``-1`` \, \ ``0`` \
-or any positive number. For example, if today is 20th December 2010, and if you want to set payment terms like this:
+最后两个字段, :guilabel:`Number of Days` 和 :guilabel:`Day of the Month`, 能为每一行提供计算延期处理方法。 延期的 :guilabel:`Day of the Month` 可设置成 \ ``-1`` \, \ ``0`` \
+或其他正数。比如，如果今天是2010年12月20日，并且您希望像以下所示设置付款条款：
 
 .. i18n: * :guilabel:`5000 within 5 days`: set `Valuation` ``Fixed Amount``, `Number of Days` ``5`` and `Day of the Month` ``0``. That creates journal entry for date 25th December 2010.
 .. i18n: * :guilabel:`50% payment at the last day of current month`: set `Valuation` ``Percent``, `Number of Days` ``0`` and  `Day of the Month` ``-1``. That creates journal entry for date 31st December 2010.
