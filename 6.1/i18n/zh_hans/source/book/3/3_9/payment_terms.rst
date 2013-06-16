@@ -93,9 +93,9 @@
 .. i18n: * :guilabel:`Remaining on 15th of next month`: set `Valuation` ``Balance``, `Number of Days` ``0`` and  `Day of the Month` ``15``. That creates journal entry for date 15th January 2011.
 ..
 
-* :guilabel:`5天内5000`: 设置 `Valuation` 为 ``Fixed Amount``, `Number of Days` 设置为 ``5`` and `Day of the Month` 设置成 ``0``. That creates journal entry for date 25th December 2010.
-* :guilabel:`50% payment at the last day of current month`: set `Valuation` ``Percent``, `Number of Days` ``0`` and  `Day of the Month` ``-1``. That creates journal entry for date 31st December 2010.
-* :guilabel:`Remaining on 15th of next month`: set `Valuation` ``Balance``, `Number of Days` ``0`` and  `Day of the Month` ``15``. That creates journal entry for date 15th January 2011.
+* :guilabel:`5天内5000`: 设置 `Valuation` 为 ``Fixed Amount``, `Number of Days` 设置为 ``5`` 并且 `Day of the Month` 设置成 ``0``。 则将在2010年12月25日创建一条会计分录。
+* :guilabel:`50% payment at the last day of current month`: 设置 `Valuation` 为 ``Percent``, `Number of Days` 为 ``0`` 并且设置  `Day of the Month` 为 ``-1``。 则将在2010年12月31日创建一条会计分录。
+* :guilabel:`Remaining on 15th of next month`: 设置 `Valuation` 为 ``Balance``, `Number of Days` 设置成 ``0`` 并且  `Day of the Month` 设置成 ``15``。  则将在2011年1月15日创建一条会计分录。
 
 .. i18n: You can then add payment terms to a Partner through the tab :guilabel:`Accounting` on the partner form.
 ..
