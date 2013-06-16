@@ -40,7 +40,7 @@
 ..
 
 在安装时，软件可以让您从一个许多的预定义好的科目表中选择一个默认的会计科目表。 To install the chart of accounts as well as the tax definitions for your own country (in most cases), select the chart corresponding to your country from the ``Installation Wizard``.
-The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts which can be used as a basic chart in any country. The ``Chart of Accounts`` list also includes a lot of localised charts of accounts.
+The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts which can be used as a basic chart in any country.   ``Chart of Accounts`` 列表中还包括了很多本地化的会计科目表。
 
 .. i18n: .. figure::  images/account_chart.png
 .. i18n:    :scale: 75
