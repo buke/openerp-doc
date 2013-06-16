@@ -26,7 +26,7 @@
 .. i18n: When configuring the software, OpenERP allows you to choose predefined charts of accounts, which include all basic configuration, such as tax codes and fiscal positions. Of course, you can also define your own chart of accounts.
 ..
 
-When configuring the software, OpenERP allows you to choose predefined charts of accounts, which include all basic configuration, such as tax codes and fiscal positions. Of course, you can also define your own chart of accounts.
+配置软件时，OpenERP允许您选择预定义的会计科目表，其中包括所有的基本配置，如税收法规和财政状况。当然，你也可以定义自己的会计科目表。
 
 .. i18n: Using a Preconfigured Chart of Accounts
 .. i18n: ---------------------------------------
