@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    single: budgeting
 ..
@@ -131,7 +132,7 @@ That is what you will use ``Budgetary Positions`` for, from the menu :menuselect
 .. i18n: * *Done*: the budget is fully approved and no changes will be allowed. You can no longer cancel the budget and reset it to draft.
 ..
 
-* *Done*: the budget is fully approved and no changes will be allowed. You can no longer cancel the budget and reset it to draft.
+* *完成(Done)*: 完成状态的预算单就不允许再做任何修改了. 而且也不能再取消后置为草稿了.
 
 .. i18n: The :guilabel:`Theoretical Amount` indicates the actual amount that might have been realised for the budget concerned according to the current date. When your budget is 1200 for 12 months, and today is the 30 October, the theoretical amount will be 1000, since this is the actual amount that could have been realised to date.
 ..
