@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: accounts; chart
 .. i18n:    single: chart of accounts
@@ -40,7 +39,7 @@ When configuring the software, OpenERP allows you to choose predefined charts of
 .. i18n: The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts which can be used as a basic chart in any country. The ``Chart of Accounts`` list also includes a lot of localised charts of accounts.
 ..
 
-On installation, the software allows you to select a default chart of accounts from a huge list of predefined charts. To install the chart of accounts as well as the tax definitions for your own country (in most cases), select the chart corresponding to your country from the ``Installation Wizard``.
+在安装时，软件可以让您从一个许多的预定义好的科目表中选择一个默认的会计科目表。 To install the chart of accounts as well as the tax definitions for your own country (in most cases), select the chart corresponding to your country from the ``Installation Wizard``.
 The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts which can be used as a basic chart in any country. The ``Chart of Accounts`` list also includes a lot of localised charts of accounts.
 
 .. i18n: .. figure::  images/account_chart.png
