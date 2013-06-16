@@ -76,7 +76,7 @@ The wizard will change a bit according to the chart of accounts you select. For 
 .. i18n: Please keep in mind that even when you use a default chart of accounts, you can still modify it to fit your needs.
 ..
 
-Please keep in mind that even when you use a default chart of accounts, you can still modify it to fit your needs.
+请记住，即使您使用默认的会计科目表，您仍然可以修改它以满足您的需求。
 
 .. i18n: .. note:: Modules
 .. i18n: 
