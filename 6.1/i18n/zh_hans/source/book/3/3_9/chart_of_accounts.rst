@@ -173,7 +173,7 @@ Use the :guilabel:`View` type for accounts that make up the structure of the cha
 .. i18n: To add, modify or delete existing accounts, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts`.
 ..
 
-To add, modify or delete existing accounts, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts`.
+要增加，修改或删除已存在的会计科目得通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts`.
 
 .. i18n: .. figure::  images/account_form.png
 .. i18n:    :scale: 75
@@ -186,12 +186,12 @@ To add, modify or delete existing accounts, use the menu :menuselection:`Account
    :scale: 75
    :align: center
 
-   *Defining Accounts*
+   *定义会计科目*
 
 .. i18n: The main account fields are:
 ..
 
-The main account fields are:
+科目涉及的主要的字段:
 
 .. i18n: *  :guilabel:`Name`: the account name.
 .. i18n: 
@@ -220,9 +220,9 @@ The main account fields are:
 .. i18n: *  :guilabel:`Default Taxes`: this is the default tax applied to purchases or sales using this account. It enables the system to propose tax entries automatically when entering data in a journal manually.
 ..
 
-*  :guilabel:`Name`: the account name.
+*  :guilabel:`Name`: 科目名称。
 
-*  :guilabel:`Code`: the code length is not limited to a specific number of digits. Use code 0 to indicate the root account.
+*  :guilabel:`Code`: 科目编码数字的位数不受限制. 0为顶级科目的编码。
 
 *  :guilabel:`Parent`: determines which account is the parent of this one, to create the tree structure of
    the chart of accounts.
