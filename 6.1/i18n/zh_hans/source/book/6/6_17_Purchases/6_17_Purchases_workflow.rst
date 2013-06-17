@@ -755,18 +755,18 @@ into the warehouse. The deliveries (exit from stock) have no impact on the produ
 
 .. tip:: Calculating the Price
 
-   At each goods receipt, the product price is recalculated using the following accounting formula:
-   NP = (OP * QS + PP * QR) / (QS + QR), where the following notation is used:
+   每次收货, 都会引发产品成本价的重新计算 计算公式如下:
+   NP = (OP * QS + PP * QR) / (QS + QR), 各缩写意义为:
 
-   * NP: New Price,
+   * NP: 更新后的最新成本,
 
-   * OP: Old Price,
+   * OP: 原成本价,
 
-   * QS: Quantity actually in Stock,
+   * QS: 现库存数量,
 
-   * PP: Price Paid for the quantity received,
+   * PP: 本次收货的产品的支付价,
 
-   * QR: Quantity Received.
+   * QR: 本次收货数量.
 
 .. i18n: If the products are managed as a weighted average, OpenERP will open a
 .. i18n: window that lets you specify the price of the product received at each goods receipt. 
