@@ -224,11 +224,9 @@ Use the :guilabel:`View` type for accounts that make up the structure of the cha
 
 *  :guilabel:`Code`: 科目编码数字的位数不受限制. 0为顶级科目的编码。
 
-*  :guilabel:`Parent`: determines which account is the parent of this one, to create the tree structure of
-   the chart of accounts.
+*  :guilabel:`Parent`: 确定哪个科目是本科目的上级科目， 这样可创建树型科目表。
 
-*  :guilabel:`Internal Type`: internal types have special effects in OpenERP.
-   By default, the following types are available:
+*  :guilabel:`Internal Type`: OpenERP中有特殊作用的内部类型。正常情况下，有如下类型可选：
    ``View`` can be used to create a hierarchical structure for your accounts (grouping),
    ``Regular`` any account that does not fit into one of the other types; most of the accounts will have this type,
    ``Receivable`` - ``Payable``: these types are used to indicate the centralisation accounts (for customers and suppliers) that will be set for each partner,
