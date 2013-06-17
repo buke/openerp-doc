@@ -132,7 +132,7 @@ Start by creating :guilabel:`Account Types`, which determine the kind of account
 .. i18n: The fields used to define an account type are the following:
 ..
 
-The fields used to define an account type are the following:
+用于定义科目类型的字段如下：
 
 .. i18n: *  :guilabel:`Account Type`: the name of the account type.
 .. i18n: 
@@ -150,9 +150,9 @@ The fields used to define an account type are the following:
 .. i18n: *  :guilabel:`Sign on Reports`: this field allows you to reverse the sign of accounts, such as Income accounts being printed positive instead of the default negative. Use ``Reverse balance sign`` to accomplish this.
 ..
 
-*  :guilabel:`Account Type`: the name of the account type.
+*  :guilabel:`Account Type`: 科目类型名称。
 
-*  :guilabel:`Code`: the code of the account type.
+*  :guilabel:`Code`: 科目类型编码。
 
 *  :guilabel:`PL/BS Category`: this category determines where in a report the account will be printed (i.e. Balance Sheet and Profit and Loss). There are five types you can use: No type at all (/), Balance Sheet (Assets Accounts = active), Balance Sheet (Liabilities Accounts = passive), Profit & Loss (Income) and Profit & Loss (Expense).
 
