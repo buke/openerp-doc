@@ -156,7 +156,7 @@ Start by creating :guilabel:`Account Types`, which determine the kind of account
 
 *  :guilabel:`PL/BS Category`: this category determines where in a report the account will be printed (i.e. Balance Sheet and Profit and Loss). There are five types you can use: No type at all (/), Balance Sheet (Assets Accounts = active), Balance Sheet (Liabilities Accounts = passive), Profit & Loss (Income) and Profit & Loss (Expense).
 
-*  :guilabel:`Deferral Method`: this field indicates how and whether the account will be transferred at financial year closing.
+*  :guilabel:`Deferral Method`: 这个字段表明在年度结转时如何及是否结转科目余额。
 
     - ``None`` means that the account will not be transferred. Typically used for profit and loss accounts.
     - ``Balance`` means that the account balance will be transferred at year closing. Typically used for balance sheet accounts.
