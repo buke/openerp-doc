@@ -114,7 +114,7 @@ Start by creating :guilabel:`Account Types`, which determine the kind of account
 .. i18n: To add, modify or delete existing account types, go to the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Account Types`.
 ..
 
-To add, modify or delete existing account types, go to the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Account Types`.
+要增加，修改或删除已存在的科目类型得通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Account Types`.
 
 .. i18n: .. figure::  images/account_type.png
 .. i18n:    :scale: 75
@@ -127,7 +127,7 @@ To add, modify or delete existing account types, go to the menu :menuselection:`
    :scale: 75
    :align: center
 
-   *Defining Account Types*
+   *定义科目类型*
 
 .. i18n: The fields used to define an account type are the following:
 ..
