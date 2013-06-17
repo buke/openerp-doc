@@ -753,7 +753,7 @@ into the warehouse. The deliveries (exit from stock) have no impact on the produ
 .. i18n:    * QR: Quantity Received.
 ..
 
-.. tip:: Calculating the Price
+.. tip:: 成本价计算
 
    每次收货, 都会引发产品成本价的重新计算 计算公式如下:
    NP = (OP * QS + PP * QR) / (QS + QR), 各缩写意义为:
@@ -792,14 +792,13 @@ delivery to the various received products, for example.
    :scale: 75
    :align: center
 
-   *Goods Receipt of Products managed in Weighted Average*
+   *基于收货的加权平均价*
 
 .. i18n: Once the receipt has been confirmed, the price is automatically recalculated and entered on the
 .. i18n: product form.
 ..
 
-Once the receipt has been confirmed, the price is automatically recalculated and entered on the
-product form.
+每次收货确认后, 产品会重新计算成本价,并更新到相应的产品上.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
