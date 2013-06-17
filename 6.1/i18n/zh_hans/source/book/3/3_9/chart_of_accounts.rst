@@ -85,7 +85,7 @@ The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts
 
 .. note:: 模块
 
-    您也可以从模块列表中安装一个科目表，要这样在此只需要简单地跳过安装向导。 模块名会类似 :mod:`l10n_XX` where XX represents your country code in two letters. For example, to get the chart of accounts for Belgium, go to :menuselection:`Settings --> Modules --> Modules` and install the module :mod:`l10n_be`. This will propose the exact same chart from the wizard (``Belgium - Plan Comptable Minimum Normalise``).
+    您也可以从模块列表中安装一个科目表，要这样在此只需要简单地跳过安装向导。 模块名会类似 :mod:`l10n_XX` where XX represents your country code in two letters. 例如,要得到比利时科目表, 通过 :menuselection:`Settings --> Modules --> Modules` 安装模块 :mod:`l10n_be`。 结果和通过向导 (``Belgium - Plan Comptable Minimum Normalise``) 可取得同样的科目表。
 
 .. i18n: Some of these pre-defined charts of accounts are comprehensive and accurate, others rather have a more tentative status and are simply indicators of the possibilities. You can modify these, or build your own accounts onto the default chart, or replace it entirely with a custom chart.
 ..
