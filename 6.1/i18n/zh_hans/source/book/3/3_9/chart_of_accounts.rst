@@ -90,7 +90,7 @@ The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts
 .. i18n: Some of these pre-defined charts of accounts are comprehensive and accurate, others rather have a more tentative status and are simply indicators of the possibilities. You can modify these, or build your own accounts onto the default chart, or replace it entirely with a custom chart.
 ..
 
-Some of these pre-defined charts of accounts are comprehensive and accurate, others rather have a more tentative status and are simply indicators of the possibilities. You can modify these, or build your own accounts onto the default chart, or replace it entirely with a custom chart.
+许多预定义的科目表是完整且准确的，但也有一些处于试验状态和仅仅显示其可能性如此定义。 您可以修改它们，或在默认科目表上定义自己的科目， 或根据自定义的科目表修改其中项目。
 
 .. i18n: Creating a Chart of Accounts
 .. i18n: ----------------------------
