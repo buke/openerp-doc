@@ -496,9 +496,8 @@ OpenERP会自动处理发票相关的采购成本会计凭证分录.
 .. i18n: invoices you.
 ..
 
-Invoices are then handled just like those controlled from ``On Order``. Once the invoice arrives at
-the accounting service, he just compares it with the invoices waiting to control what the supplier
-invoices you.
+``基于收/发货`` 的发票处理与 ``基于订单`` 的发票处理流程类似. 一但相应财务人员收到发票,只需要将发票与系统内生成的该供应
+商发票进行比对.比对正确无误后在系统中确认该发票即可.
 
 .. i18n: .. index::
 .. i18n:    single: module; delivery
