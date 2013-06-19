@@ -674,8 +674,7 @@ OpenERP有多种方法计算更新产品成本:
 .. i18n: the year. For example, the standard cost could be used to manage books, or the cost of bread.
 ..
 
-You usually use standard costs to manage products where the price hardly changes over the course of
-the year. For example, the standard cost could be used to manage books, or the cost of bread.
+如果产品的价格在一年中的变化幅度不大时, 通常使用标准价的成本计价法. 如书籍,面包这类的产品, 通常就使用标准计价法.
 
 .. i18n: Those costs that can be fixed for the whole year bring certain advantages:
 ..
