@@ -660,8 +660,7 @@ OpenERP有多种方法计算更新产品成本:
 
 .. tip:: 简化界面
 
-   If you work in the ``Simplified`` interface mode you will not see the field that lets you
-   manage the price calculation mode for a product. In that case, the default value is ``Standard Price``.
+   在简化界面时,你可能在产品页找不到更改产品成本计算方法的字段. 在本例中, 默认值是 ``标准成本价``.
 
 .. i18n: The ``Standard Price`` setting means that the product cost is fixed manually for each product in the field
 .. i18n: :guilabel:`Cost Price`. This is usually revalued once a year based on the average of purchase costs
