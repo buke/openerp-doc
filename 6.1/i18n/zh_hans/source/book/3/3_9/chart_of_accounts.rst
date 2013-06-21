@@ -39,8 +39,8 @@
 .. i18n: The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts which can be used as a basic chart in any country. The ``Chart of Accounts`` list also includes a lot of localised charts of accounts.
 ..
 
-在安装时，软件可以让您从一个许多的预定义好的科目表中选择一个默认的会计科目表。 要安装（大多数情况下）贵国的会计科目表以及税种定义，需从 ``Installation Wizard`` 中选择符合贵国的列表。
-The ``Generic Chart of Accounts`` offers a default (but limited) set of accounts which can be used as a basic chart in any country.   ``Chart of Accounts`` 列表中还包括了很多本地化的会计科目表。
+在安装时，软件可以让您从许多的预定义好的科目表中选择一个默认的会计科目表。 要安装（大多数情况下）贵国的会计科目表以及税种定义，需从 ``Installation Wizard`` 中选择符合贵国的列表。
+ ``Generic Chart of Accounts`` 提供一个默认（但有限）的科目表，可作为任何国家科目表的基础。 ``Chart of Accounts`` 列表中还包括了很多本地化的会计科目表。
 
 .. i18n: .. figure::  images/account_chart.png
 .. i18n:    :scale: 75
