@@ -2,7 +2,7 @@
 .. i18n: =============
 ..
 
-Adding Slicer
+添加切片机
 =============
 
 .. i18n: A Slicer is filtering on the data fetched by a MDX Query.
