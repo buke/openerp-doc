@@ -2,13 +2,13 @@
 .. i18n: ============
 ..
 
-Cube 浏览
+多维浏览
 ============
 
 .. i18n: Cube Browser of Open Object-BI Platform lets users design their own reports through a clean and effective Web-based environment. 
 ..
 
-Cube Browser是一个可以让用户通过基于WEB环境自己设计报表的Open Object-BI平台.
+多维度浏览是一个可以让用户通过基于WEB环境自己设计报表的Open Object-BI平台.
 
 .. i18n: It provides users with a friendly layer to create MDX Query on previously designed OLAP Cubes with a few mouse clicks, and retrieve the desired information in a comprehensible tabular layout. They can reformat the layout, to drill to fetch further fine information and easily analyze it to understand business currents and causes. 
 ..
@@ -24,7 +24,7 @@ Cube Browser是一个可以让用户通过基于WEB环境自己设计报表的Op
 .. i18n: ------------------------
 ..
 
-Goal behind Cube Browser
+多维浏览背后的目标
 ------------------------
 
 .. i18n: Provide user with a thin client to make reporting far more efficient. 
