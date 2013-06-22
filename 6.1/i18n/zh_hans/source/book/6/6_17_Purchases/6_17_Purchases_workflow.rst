@@ -687,8 +687,7 @@ OpenERP有多种方法计算更新产品成本:
 .. i18n:   number of items received.
 ..
 
-* you can base the sale price on the product cost and then work with margins rather than 
-  a fixed price per product,
+* 你可以按产品的成本价来指导制定销售价, 这样每个产品就基本上可以保证一个比较固定的利润率.
 
 * accounting is simplified because there is a direct relationship between the value of stock and the
   number of items received.
