@@ -771,9 +771,8 @@ energy.
 .. i18n: delivery to the various received products, for example.
 ..
 
-If the products are managed as a weighted average, OpenERP will open a
-window that lets you specify the price of the product received at each goods receipt. 
-The purchase price is, by default,
+如果你的产品使用的是加权平均成本计算法,OpenERP 则会在产品收货时弹出窗体让你指定该批次产品的成本价. 默认为该次采购的
+采购单价.
 set from the purchase order, but you can change the price to add the cost of
 delivery to the various received products, for example.
 
