@@ -730,8 +730,8 @@ energy.
 .. i18n: into the warehouse. The deliveries (exit from stock) have no impact on the product price.
 ..
 
-In this case, you would want OpenERP to automatically set the price in response to each goods receipt movement
-into the warehouse. The deliveries (exit from stock) have no impact on the product price.
+在本例中, OpenERP 会自动将求出仓库中该产品的所有的收货单的平均价格做为该产品的成本价. 发货单(出库类)则不会参与计算,
+不影响产品成本.
 
 .. i18n: .. tip:: Calculating the Price
 .. i18n: 
