@@ -772,9 +772,7 @@ energy.
 ..
 
 如果你的产品使用的是加权平均成本计算法,OpenERP 则会在产品收货时弹出窗体让你指定该批次产品的成本价. 默认为该次采购的
-采购单价.
-set from the purchase order, but you can change the price to add the cost of
-delivery to the various received products, for example.
+采购单价. 你还可以在收货时对个别货物的采购价进行单独的调整. 如下图所示:
 
 .. i18n: .. figure:: images/purchase_pmp.png
 .. i18n:    :scale: 75
