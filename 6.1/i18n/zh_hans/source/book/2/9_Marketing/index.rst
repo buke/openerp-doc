@@ -1,4 +1,3 @@
-
 .. i18n: .. _part3-crm-market:
 .. i18n: 
 .. i18n: ################################
@@ -858,9 +857,6 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
 
 .. i18n: *Python example*
 ..
-
-*Python 代码示例*
-
 .. i18n:         import xmlrpclib
 .. i18n:         # ... define HOST, PORT, DB, USER, PASS
 .. i18n:         url = 'http://%s:%d/xmlrpc/common' % (HOST,PORT)
@@ -878,6 +874,8 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
 .. i18n:         lead_id = sock.execute(DB,uid,PASS,'crm.lead','create',args)
 ..
 
+*Python 代码示例* ::
+
         import xmlrpclib
         # ... define HOST, PORT, DB, USER, PASS
         url = 'http://%s:%d/xmlrpc/common' % (HOST,PORT)
@@ -894,11 +892,9 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
         }
         lead_id = sock.execute(DB,uid,PASS,'crm.lead','create',args)
 
+
 .. i18n: *PHP Example*
 ..
-
-*PHP 代码示例*
-
 .. i18n:         <?
 .. i18n:         include('xmlrpc.inc'); // Use phpxmlrpc library, available on sourceforge
 .. i18n:         // ... define $HOST, $PORT, $DB, $USER, $PASS
@@ -911,6 +907,25 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
 .. i18n:         uid = $resp->value()->scalarval()
 .. i18n:         echo "Logged in as $USER (uid:$uid)"
 ..
+.. i18n:         // Create a new lead
+.. i18n:         $arrayVal = array(
+.. i18n:         'name'=>new xmlrpcval("A New Lead", "string") ,
+.. i18n:         'description'=>new xmlrpcval("This is a new lead from the web contact form" , "string"),
+.. i18n:         'inventor_id'=>new xmlrpcval($uid, "int"),
+.. i18n:         );
+..
+.. i18n:         $msg = new xmlrpcmsg('execute');
+.. i18n:         $msg->addParam(new xmlrpcval($DB, "string"));
+.. i18n:         $msg->addParam(new xmlrpcval($uid, "int"));
+.. i18n:         $msg->addParam(new xmlrpcval($PASS, "string"));
+.. i18n:         $msg->addParam(new xmlrpcval("crm.lead", "string"));
+.. i18n:         $msg->addParam(new xmlrpcval("create", "string"));
+.. i18n:         $msg->addParam(new xmlrpcval($arrayVal, "struct"));
+.. i18n:         $resp = $client->send($msg);
+.. i18n:         ?>
+..
+
+*PHP 代码示例* ::
 
         <?
         include('xmlrpc.inc'); // Use phpxmlrpc library, available on sourceforge
@@ -924,31 +939,12 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
         uid = $resp->value()->scalarval()
         echo "Logged in as $USER (uid:$uid)"
 
-.. i18n:         // Create a new lead
-.. i18n:         $arrayVal = array(
-.. i18n:         'name'=>new xmlrpcval("A New Lead", "string") ,
-.. i18n:         'description'=>new xmlrpcval("This is a new lead from the web contact form" , "string"),
-.. i18n:         'inventor_id'=>new xmlrpcval($uid, "int"),
-.. i18n:         );
-..
-
         // Create a new lead
         $arrayVal = array(
         'name'=>new xmlrpcval("A New Lead", "string") ,
         'description'=>new xmlrpcval("This is a new lead from the web contact form" , "string"),
         'inventor_id'=>new xmlrpcval($uid, "int"),
         );
-
-.. i18n:         $msg = new xmlrpcmsg('execute');
-.. i18n:         $msg->addParam(new xmlrpcval($DB, "string"));
-.. i18n:         $msg->addParam(new xmlrpcval($uid, "int"));
-.. i18n:         $msg->addParam(new xmlrpcval($PASS, "string"));
-.. i18n:         $msg->addParam(new xmlrpcval("crm.lead", "string"));
-.. i18n:         $msg->addParam(new xmlrpcval("create", "string"));
-.. i18n:         $msg->addParam(new xmlrpcval($arrayVal, "struct"));
-.. i18n:         $resp = $client->send($msg);
-.. i18n:         ?>
-..
 
         $msg = new xmlrpcmsg('execute');
         $msg->addParam(new xmlrpcval($DB, "string"));
@@ -959,6 +955,7 @@ OpenERP is accessible through XML-RPC interfaces, for which libraries exist in m
         $msg->addParam(new xmlrpcval($arrayVal, "struct"));
         $resp = $client->send($msg);
         ?>
+
 
 .. i18n: .. tip:: How to Link a Web Contact Form to OpenERP?
 .. i18n: 
