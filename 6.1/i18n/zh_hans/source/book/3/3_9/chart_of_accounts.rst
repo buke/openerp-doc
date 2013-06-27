@@ -52,7 +52,7 @@
    :scale: 75
    :align: center
 
-   *Starting from a Generic Chart of Accounts*
+   *采用通用会计科目表*
 
 .. i18n: The wizard will change a bit according to the chart of accounts you select. For the Generic Chart you will be able to add a tax percentage, which will not be the case when you install, for instance, the chart named ``Belgium - Plan Comptable Minimum Normalise``. Here OpenERP will automatically install the tax configuration for Belgium too. You will, however, be able to select the default sales and purchase tax to be added when you create a new product.
 ..
@@ -70,7 +70,7 @@
    :scale: 75
    :align: center
 
-   *Starting from a Belgian Chart of Accounts*
+   *采用比利时科目表*
 
 .. i18n: Please keep in mind that even when you use a default chart of accounts, you can still modify it to fit your needs.
 ..
@@ -108,7 +108,7 @@
 .. i18n: Start by creating :guilabel:`Account Types`, which determine the kind of account and the way in which accounts will be treated at financial year closing.
 ..
 
-Start by creating :guilabel:`Account Types`, which determine the kind of account and the way in which accounts will be treated at financial year closing.
+通过菜单 :guilabel:`Account Types`, 创建科目类型来确定年底结帐时科目余额的处理方式。
 
 .. i18n: To add, modify or delete existing account types, go to the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Account Types`.
 ..
