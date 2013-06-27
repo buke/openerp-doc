@@ -108,8 +108,7 @@ single delivery for any such order.
 .. i18n: order has been confirmed.
 ..
 
-If the storesperson wants to do so, the delivery mode can be modified on each picking list even after the
-order has been confirmed.
+只要仓库管理员愿意, 每个发货单的发货方式都可以修改. 甚至在订单被确认后都还可以继续修改.
 
 .. i18n: In the case of invoicing from picking, the cost of delivering the products will be
 .. i18n: calculated according to multiple deliveries. This risks incurring a higher cost because of
