@@ -116,8 +116,8 @@ single delivery for any such order.
 .. i18n: once for the whole delivery, even if the delivery of several items has already been made.
 ..
 
-In the case of invoicing from picking, the cost of delivering the products will be
-calculated according to multiple deliveries. This risks incurring a higher cost because of
+本例开票方式是 ``来自订单`` , 产品的成本可以根据多次交付而多次调整.
+This risks incurring a higher cost because of
 the separate deliveries. If invoicing is done from the order, the customer will only be invoiced
 once for the whole delivery, even if the delivery of several items has already been made.
 
