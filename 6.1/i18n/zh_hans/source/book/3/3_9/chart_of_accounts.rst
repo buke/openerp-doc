@@ -157,10 +157,10 @@
 
 *  :guilabel:`Deferral Method`: 这个字段表明在年度结转时如何及是否结转科目余额。
 
-    - ``None`` means that the account will not be transferred. Typically used for profit and loss accounts.
-    - ``Balance`` means that the account balance will be transferred at year closing. Typically used for balance sheet accounts.
-    - ``Detail`` means that every single entry will be transferred to the next financial year.
-    - ``Unreconciled`` means that only unreconciled (outstanding) entries will be transferred to the next financial year. Typically used for centralisation accounts.
+    - ``None`` 意味本科目余额不会被结转. 通常用于损益类科目.
+    - ``Balance`` 表明年底科目余额会被结转。通常用于资产负债表科目。
+    - ``Detail`` 表明每一条分录都会被结转到下年。
+    - ``Unreconciled`` 表明只有未核销净的（仍有余额）的分录会结转到下年。 通常用于往来类科目。
 
 *  :guilabel:`Sign on Reports`: this field allows you to reverse the sign of accounts, such as Income accounts being printed positive instead of the default negative. Use ``Reverse balance sign`` to accomplish this.
 
