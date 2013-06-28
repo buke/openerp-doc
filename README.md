@@ -8,7 +8,7 @@ OpenERP 中文文档翻译计划
 
 文档预览：http://oedoc601.mrshelly.com/
 
-官方中文文档：http://doc.openerp.com/v6.1/zh_hans/index.html 
+官方中文文档：https://doc.openerp.com/6.1/zh_CN/
 
 
 参与说明
