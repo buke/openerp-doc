@@ -116,9 +116,8 @@ single delivery for any such order.
 .. i18n: once for the whole delivery, even if the delivery of several items has already been made.
 ..
 
-本例开票方式是 ``来自订单`` , 产品的成本可以根据多次交付而多次调整.
-This risks incurring a higher cost because of
-the separate deliveries. If invoicing is done from the order, the customer will only be invoiced
+本例开票方式是 ``来自订单`` , 产品的成本可以根据多次交付而多次调整.但是这样带来的结果是,处理多次收货较单次
+收货的风险成本增加.If invoicing is done from the order, the customer will only be invoiced
 once for the whole delivery, even if the delivery of several items has already been made.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
