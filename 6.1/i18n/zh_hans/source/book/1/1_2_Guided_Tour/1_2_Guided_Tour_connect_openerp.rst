@@ -1,4 +1,3 @@
-
 .. i18n: To Connect to OpenERP
 .. i18n: =====================
 ..
@@ -56,8 +55,7 @@
 .. i18n: as shown in screenshot :ref:`fig-oech2-main`:
 ..
 
-Once you are displaying the main menu, you are able to see the following screen items, 
-as shown in screenshot :ref:`fig-oech2-main`:
+第一屏显示的是下图所示的主菜单 :ref:`fig-oech2-main`:
 
 .. i18n: * the name of the database you are logged into and, just below it, the current user name,
 .. i18n: 
