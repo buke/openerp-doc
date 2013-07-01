@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: journal; configuring
 ..
@@ -16,7 +15,7 @@
 .. i18n: All your accounting entries need to appear in an accounting journal. So you should create a Sales Journal for customer invoices, a Sales Refund journal for customer credit notes, a Purchase Journal for supplier invoices, a Purchase Refund journal for supplier credit notes and a Bank Journal for bank transactions.
 ..
 
-All your accounting entries need to appear in an accounting journal. So you should create a Sales Journal for customer invoices, a Sales Refund journal for customer credit notes, a Purchase Journal for supplier invoices, a Purchase Refund journal for supplier credit notes and a Bank Journal for bank transactions.
+所有的会计分录需要由会计帐簿来显示。因此您应该为销售发票创建销售分类帐， a Sales Refund journal for customer credit notes, 为供应商发票创建采购分类帐， a Purchase Refund journal for supplier credit notes and a Bank Journal for bank transactions.
 
 .. i18n: Configuring a Journal
 .. i18n: ---------------------
@@ -28,7 +27,7 @@ All your accounting entries need to appear in an accounting journal. So you shou
 .. i18n: To view, edit or create new journals use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
 ..
 
-To view, edit or create new journals use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
+要查看，编辑或创建新分类帐，使用菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
 
 .. i18n: .. figure::  images/account_journal_form.png
 .. i18n:    :scale: 75
