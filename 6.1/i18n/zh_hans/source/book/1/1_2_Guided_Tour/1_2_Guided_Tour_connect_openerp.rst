@@ -71,7 +71,7 @@
 .. i18n: * a collection of interesting and useful widgets are available on the right of the home page beside the main menu.
 ..
 
-* the name of the database you are logged into and, just below it, the current user name,
+* 在登陆的帐套名提示下面是你当前的登陆用户.
 
 * the :guilabel:`ONLINE SUPPORT` button, which gives you an overview of the support services provided by OpenERP
   which is available for subscription,
