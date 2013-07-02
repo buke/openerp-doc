@@ -1,4 +1,3 @@
-
 .. i18n: Invoices
 .. i18n: ========
 ..
@@ -9,7 +8,7 @@
 .. i18n: In OpenERP, the concept of “invoice” includes the following documents:
 ..
 
-In OpenERP, the concept of “invoice” includes the following documents:
+OpenERP中, 发票管理包含以下部分:
 
 .. i18n: * The Customer Invoice
 .. i18n: 
@@ -20,13 +19,13 @@ In OpenERP, the concept of “invoice” includes the following documents:
 .. i18n: * A Supplier Credit Note or Supplier Refund
 ..
 
-* The Customer Invoice
+* 客户发票
 
-* The Supplier Invoice
+* 供应商发票
 
-* A Customer Credit Note or Customer Refund
+* 客户红字发票
 
-* A Supplier Credit Note or Supplier Refund
+* 供应商红字发票
 
 .. i18n: Only the invoice type and the representation mode differ for each of the four documents. But they are
 .. i18n: all stored in the same object type in the system.
