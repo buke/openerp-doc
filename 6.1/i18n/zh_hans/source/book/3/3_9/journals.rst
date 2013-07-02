@@ -128,7 +128,7 @@ This functionality is useful for limiting possible data entry errors by restrict
 .. i18n:         transferring payments from one bank to another, reducing your risks.
 ..
 
-.. tip:: Control of Data Entry
+.. 提示 :: 数据录入控制
 
         In accounting it is not a good idea to allow a data entry directly from bank account A to bank
         account B.
