@@ -68,7 +68,7 @@ You can create a sequence for each journal. This sequence determines the automat
 .. i18n:     By default, OpenERP has only one sequence in the journal definition. If you need two separate sequences to be kept for the journal, you can install the module :mod:`account_sequence`.
 ..
 
-.. tip:: Sequences
+.. tip:: 序号编码
 
     Sequences can also be created from the :menuselection:`Settings --> Configuration --> Sequences & Identifiers --> Sequences`.
     By default, OpenERP has only one sequence in the journal definition. If you need two separate sequences to be kept for the journal, you can install the module :mod:`account_sequence`.
@@ -128,7 +128,7 @@ This functionality is useful for limiting possible data entry errors by restrict
 .. i18n:         transferring payments from one bank to another, reducing your risks.
 ..
 
-.. 提示 :: 数据录入控制
+.. tip:: 数据录入控制
 
         In accounting it is not a good idea to allow a data entry directly from bank account A to bank
         account B.
