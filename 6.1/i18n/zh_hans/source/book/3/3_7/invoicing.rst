@@ -31,8 +31,7 @@ OpenERP中, 发票管理包含以下部分:
 .. i18n: all stored in the same object type in the system.
 ..
 
-Only the invoice type and the representation mode differ for each of the four documents. But they are
-all stored in the same object type in the system.
+这四类发票在系统是中同一对象, 仅仅只是发票类型与界面展现方式不一样.
 
 .. i18n: You get the correct form for each of the four types of invoice from the menu you use to open it. The
 .. i18n: name of the tab enables you to tell the invoice types apart when you are working on them.
