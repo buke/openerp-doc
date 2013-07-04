@@ -37,8 +37,7 @@ OpenERP中, 发票管理包含以下部分:
 .. i18n: name of the tab enables you to tell the invoice types apart when you are working on them.
 ..
 
-You get the correct form for each of the four types of invoice from the menu you use to open it. The
-name of the tab enables you to tell the invoice types apart when you are working on them.
+OpenERP 为这四种类型的发票对应设置了四个菜单项,不同的菜单项会打开对应的发票表单, 从表单名就可以区分开.
 
 .. i18n: .. index::
 .. i18n:    single: invoices; types
