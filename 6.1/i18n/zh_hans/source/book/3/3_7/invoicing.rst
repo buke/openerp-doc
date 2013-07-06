@@ -59,13 +59,12 @@ OpenERP 为这四种类型的发票对应设置了四个菜单项,不同的菜�
 .. i18n:           as credit notes.
 ..
 
-.. note::  Types of Invoice
+.. note::  发票类型
 
         There are many advantages in deriving the different types of invoice from the same object. Two of the
         most important are:
 
-        * In a multi-company environment with inter-company invoicing, a customer invoice in one company
-          becomes a supplier invoice for the other,
+        * 多公司环境时公司间的发票,一个公司的客户发票则转为另一个公司的供应商发票.
 
         * This enables you to work and search for all invoices from the same menu. If you are looking for an
           invoicing history, OpenERP provides both supplier and customer invoices in the same list, as well
