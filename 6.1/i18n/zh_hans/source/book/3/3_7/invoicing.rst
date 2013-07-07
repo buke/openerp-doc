@@ -61,8 +61,7 @@ OpenERP 为这四种类型的发票对应设置了四个菜单项,不同的菜�
 
 .. note::  发票类型
 
-        There are many advantages in deriving the different types of invoice from the same object. Two of the
-        most important are:
+        多类型发票使用同一对象有很多方便之处,典型的优势如以下两点:
 
         * 多公司环境时公司间的发票,一个公司的客户发票则转为另一个公司的供应商发票.
 
