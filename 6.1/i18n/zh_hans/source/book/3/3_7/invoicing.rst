@@ -65,9 +65,7 @@ OpenERP 为这四种类型的发票对应设置了四个菜单项,不同的菜�
 
         * 多公司环境时公司间的发票,一个公司的客户发票则转为另一个公司的供应商发票.
 
-        * This enables you to work and search for all invoices from the same menu. If you are looking for an
-          invoicing history, OpenERP provides both supplier and customer invoices in the same list, as well
-          as credit notes.
+        * 在同一个界面下, 你可以检索和处理各种类型的发票.在处理合作伙伴的应收/付帐时,你可以很清楚在这个列表中列出.
 
 .. i18n: .. index::
 .. i18n:    single: credit note
