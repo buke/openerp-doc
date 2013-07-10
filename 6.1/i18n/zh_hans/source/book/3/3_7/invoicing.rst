@@ -88,9 +88,8 @@ OpenERP 为这四种类型的发票对应设置了四个菜单项,不同的菜�
 .. i18n: Suppliers --> Supplier Invoices`.
 ..
 
-To access customer invoices in OpenERP, use the menu :menuselection:`Accounting -->
-Customers --> Customer Invoices`, and for supplier invoices, use the menu :menuselection:`Accounting -->
-Suppliers --> Supplier Invoices`.
+点击菜单 :menuselection:`会计(Accounting) --> 客户(Customers) --> 客户发票(Customer Invoices)` 进入客户发票列表.
+点击菜单 :menuselection:`会计(Accounting) --> 供应商(Suppliers) --> 供应商发票(Supplier Invoices)` 进入供应商发票列表.
 
 .. i18n: Most of the time, invoices are generated automatically by OpenERP as they are generated from other
 .. i18n: processes in the system. So it is not usually necessary to create them manually, but simply approve
