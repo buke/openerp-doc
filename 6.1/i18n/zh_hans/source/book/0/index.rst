@@ -241,9 +241,8 @@ an advanced management system into place.
 ..
 
 本书由两个非常成功的CEO撰写，他们的成功得益于新技术的运用。这本书的目标读者是希望改进整个公司管理团队的主管和经理们。
-他们可能已经有重要的
-They are likely to already have significant responsibilities and possess the influence to get
-things done in their company.
+他们可能已经有重要的责任，并且在公司里有重要的影响力。
+
 
 .. i18n: It is likely that most readers will come from small- and medium-sized enterprises (up to a few
 .. i18n: hundred staff), and independent companies, because of the breadth of functions that need to be
