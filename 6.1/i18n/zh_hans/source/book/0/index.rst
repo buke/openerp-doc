@@ -1,4 +1,3 @@
-
 .. i18n: ########
 .. i18n: Foreword
 .. i18n: ########
@@ -241,9 +240,9 @@ an advanced management system into place.
 .. i18n: things done in their company.
 ..
 
-Written by two CEOs who have been successful with new technologies, this book is aimed at directors
-and managers who have an ambition to improve the performance of their whole company's management
-team. They are likely to already have significant responsibilities and possess the influence to get
+本书由两个非常成功的CEO撰写，他们的成功得益于新技术的运用。这本书的目标读者是希望改进整个公司管理团队的主管和经理们。
+他们可能已经有重要的
+They are likely to already have significant responsibilities and possess the influence to get
 things done in their company.
 
 .. i18n: It is likely that most readers will come from small- and medium-sized enterprises (up to a few
