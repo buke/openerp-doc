@@ -264,7 +264,7 @@ could achieve that in OpenERP.
 .. i18n: the :ref:`part2-crm` part, to start with details of OpenERP's functional modules.
 ..
 
-第一章：安装， 从OpenERP的安装开始。如果你已经安装了OpenERP，你可以直接从ch-guided`节开始。如果你已经非常熟悉OpenERP或者
+第一章，安装：从OpenERP的安装开始。如果你已经安装了OpenERP，你可以直接从ch-guided`节开始。如果你已经非常熟悉OpenERP或者
 Tiny ERP，你可以从`ch-real`节找到如何快速的在一个空数据库中创建一个新的工作流。或者你可以直接略过本章从第二章CRM开始了解
 OpenERP中具体的功能模块。
 
@@ -273,14 +273,14 @@ OpenERP中具体的功能模块。
 .. i18n: performance.
 ..
 
-Part Two, :ref:`part2-crm`, deals with Supplier and Customer Relationship Management (SRM & CRM). You will find the
-elements necessary for managing an efficient sales department there, and automating tasks to monitor
-performance.
+第二章，CRM：供应商和客户关系管理（SRM & CRM），你可以在这里找到管理一个高效的销售部门所需要的要素， 自动化处理可以监视任务的执行情况。
+
 
 .. i18n: Part Three, :ref:`part-genacct`, is devoted to general accounting and its key role in the management of the whole
 .. i18n: enterprise.
 ..
 
+第三章，general accounting：
 Part Three, :ref:`part-genacct`, is devoted to general accounting and its key role in the management of the whole
 enterprise.
 
