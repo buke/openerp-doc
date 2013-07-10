@@ -248,9 +248,7 @@ could achieve that in OpenERP.
 .. i18n: analyzed and involved in change. The same principles also apply to larger companies, however.
 ..
 
-It is likely that most readers will come from small- and medium-sized enterprises (up to a few
-hundred staff), and independent companies, because of the breadth of functions that need to be
-analyzed and involved in change. The same principles also apply to larger companies, however.
+从功能需求上来看，多数读者可能来自中小型企业（100多人）和独立的公司（independent companies）。但是它也适用于较大的公司。
 
 .. i18n: Structure of this book
 .. i18n: ======================
@@ -266,11 +264,9 @@ analyzed and involved in change. The same principles also apply to larger compan
 .. i18n: the :ref:`part2-crm` part, to start with details of OpenERP's functional modules.
 ..
 
-Part One, :ref:`part1-steps`, starts with the installation of OpenERP. If you have already installed OpenERP you
-can directly take your first steps on a guided tour in the :ref:`ch-guided` chapter. If you are already familiar
-with OpenERP or Tiny ERP you can use the :ref:`ch-real` chapter to find out how to create a new workflow from
-scratch in an empty database with nothing to distract you. Or you can skip directly to the :ref:`ch-crm` chapter in
-the :ref:`part2-crm` part, to start with details of OpenERP's functional modules.
+第一章：安装， 从OpenERP的安装开始。如果你已经安装了OpenERP，你可以直接从ch-guided`节开始。如果你已经非常熟悉OpenERP或者
+Tiny ERP，你可以从`ch-real`节找到如何快速的在一个空数据库中创建一个新的工作流。或者你可以直接略过本章从第二章CRM开始了解
+OpenERP中具体的功能模块。
 
 .. i18n: Part Two, :ref:`part2-crm`, deals with Supplier and Customer Relationship Management (SRM & CRM). You will find the
 .. i18n: elements necessary for managing an efficient sales department there, and automating tasks to monitor
