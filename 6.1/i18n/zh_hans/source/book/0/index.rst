@@ -214,11 +214,8 @@ OpenERP 解决方案
 .. i18n: could achieve that in OpenERP.
 ..
 
-Having restructured and reorganized many businesses, we wanted our management experience to generate
-a work that is both instructive and practical. It was important for us not to write a manual about
-OpenERP, but instead a work that deals with advanced management techniques realized through these
-IT tools. You will see what management practices might be useful, what is possible, and then how you
-could achieve that in OpenERP.
+我们已经帮助很多企业进行了改建和重组，我们希望我们的管理经验可以在理论和实践上都给读者带来改进。我们并不是要写一本OpenERP
+的手册，而是通过这种IT工具来介绍一种先进的管理技术。你会看到什么样的管理实践是有效的，具备可能性的，还有如何用OpenERP来实现他们。
 
 .. i18n: This is what we will consider OpenERP to be: not an end in itself but just the tool you use to put
 .. i18n: an advanced management system into place.
@@ -314,7 +311,7 @@ OpenERP中具体的功能模块。
 .. i18n: Finally Part Eight, :ref:`part-config`, structured in two chapters, explains first how to administer and configure OpenERP, then provides a methodology for implementing OpenERP in your enterprise.
 ..
 
-第八章，:ref:`part-config`: structured in two chapters, explains first how to administer and configure OpenERP, then provides a methodology for implementing OpenERP in your enterprise.
+第八章，:ref:`part-config`: 本章包含两节，首先解释如何管理和配置OpenERP，接下来提供一套在您的企业中实施OpenERP的方法。
 
 .. i18n: 	.. note::  *About the authors*
 .. i18n: 
@@ -395,11 +392,9 @@ OpenERP中具体的功能模块。
 			Fabien Pinckaers 18岁开始创业。10年后的今天，他已经创立并管理着几个高科技公司，
                         都是关于免费/开源软件的。
 
-			He originated Tiny ERP, now OpenERP, and is the director of two companies including Tiny sprl,
-			the editor of OpenERP. In three years he has grown the Tiny group from one to sixty-five
-			employees
-			without loans or external fund-raising, and while making a profit.
-
+			他组建了Tiny ERP，现在叫OpenERP。他是包括Tiny sprl在内的两家公司的董事，OpenERP的校订者。
+			三年来他从一个人发展到65人的Tiny团队。在此过程中，没有任何贷款和外部募捐，并且实现了盈利。
+			
 			He has also developed several large scale projects, such as Auction-in-Europe.com,
 			which become the leader in the art market in Belgium.
 			Even today people sell more art works there than on ebay.be.
