@@ -488,7 +488,7 @@ Thanks also to my family for their encouragement, their tolerance and their cons
 .. i18n:         *From Els Van Vossel*
 ..
 
-        *From Els Van Vossel*
+        *Els Van Vossel*
 
 .. i18n: Thank you Fabien, for offering me the opportunity to work with OpenERP.
 .. i18n: Thanks to my documentation team for helping me to get a first V6.0.0 version of the documentation!
@@ -496,10 +496,8 @@ Thanks also to my family for their encouragement, their tolerance and their cons
 .. i18n: get a real Business-oriented version. For that, already in advance I thank the OpenERP team for their support.
 ..
 
-Thank you Fabien, for offering me the opportunity to work with OpenERP.
-Thanks to my documentation team for helping me to get a first V6.0.0 version of the documentation!
-In the near future, I dedicate myself to restructuring the documentation completely and manage to
-get a real Business-oriented version. For that, already in advance I thank the OpenERP team for their support.
+Fabien，感谢你给我一个与OpenERP共事的机会。感谢我的文档团队帮助我拿到第一份OpenERP 6.0的文档。 
+在不久的将来，我会致力于重新组织这些文档，使其成为一个真正可以用于实际业务的版本。在这里我预先感谢OpenERP团队的支持。
 
 .. i18n:         *From Fabien Pinckaers*
 ..
