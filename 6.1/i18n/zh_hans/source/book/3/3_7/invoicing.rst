@@ -177,8 +177,8 @@ if needed.
 .. i18n: Customers --> Customer Invoices` and click on `New` button for this.
 ..
 
-Start by manually entering a customer invoice. Use :menuselection:`Accounting -->
-Customers --> Customer Invoices` and click on `New` button for this.
+点击菜单 :menuselection:`会计(Accounting) --> 客户(Customers) --> 客户发票(Customer Invoices)` 进入客户发票列表, 再点击 `新建(New)` 按钮
+即可创建一张新的客户发票.
 
 .. i18n: A new invoice form opens for entering information.
 ..
