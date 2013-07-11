@@ -111,13 +111,13 @@ or validate them. OpenERP uses the following different ways of generating invoic
 .. i18n: * from fee charges or other rechargeable expenses (see :ref:`ch-services`).
 ..
 
-* from Supplier or Customer Orders,
+* 来自供应商与客户的订单,
 
 * from receipt or dispatch of goods,
 
-* from work carried out (timesheets, see :ref:`ch-hr`),
+* 来自员工工单(timesheets, 参阅 :ref:`ch-hr`),
 
-* from closed tasks (see :ref:`ch-projects`),
+* 来自完成的项目工作 (see :ref:`ch-projects`),
 
 * from fee charges or other rechargeable expenses (see :ref:`ch-services`).
 
