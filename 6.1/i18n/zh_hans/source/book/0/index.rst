@@ -395,9 +395,8 @@ OpenERP中具体的功能模块。
 			他组建了Tiny ERP，现在叫OpenERP。他是包括Tiny sprl在内的两家公司的董事，OpenERP的校订者。
 			三年来他从一个人发展到65人的Tiny团队。在此过程中，没有任何贷款和外部募捐，并且实现了盈利。
 			
-			He has also developed several large scale projects, such as Auction-in-Europe.com,
-			which become the leader in the art market in Belgium.
-			Even today people sell more art works there than on ebay.be.
+			他已经开发了多个大型的项目，例如：Auction-in-Europe.com，它已经是比利时艺术品市场的领导者了。
+			每天在这上面成交的艺术品甚至超过了ebay.be。
 
 			He is also the founder of the LUG (Linux User Group) of Louvain-la-Neuve,
 			and of several free projects like OpenReport, OpenStuff and Tiny Report.
