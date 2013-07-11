@@ -264,7 +264,7 @@ could achieve that in OpenERP.
 .. i18n: the :ref:`part2-crm` part, to start with details of OpenERP's functional modules.
 ..
 
-第一章， :ref:`part1-steps` 安装：从OpenERP的安装开始。如果你已经安装了OpenERP，你可以直接从 :ref:`ch-guided` 节开始。如果你已经非常熟悉OpenERP或者
+第一章，:ref:`part1-steps` 安装：从OpenERP的安装开始。如果你已经安装了OpenERP，你可以直接从 :ref:`ch-guided` 节开始。如果你已经非常熟悉OpenERP或者
 Tiny ERP，你可以从 :ref:`ch-real` 节找到如何快速的在一个空数据库中创建一个新的工作流。或者你可以直接略过 :ref:`ch-crm` 从 :ref:`part2-crm` 开始了解
 OpenERP中具体的功能模块。
 
@@ -273,16 +273,15 @@ OpenERP中具体的功能模块。
 .. i18n: performance.
 ..
 
-第二章， :ref:`part2-crm` CRM：供应商和客户关系管理（SRM & CRM），你可以在这里找到管理一个高效的销售部门所需要的要素， 自动化处理可以监视任务的执行情况。
+第二章，:ref:`part2-crm` CRM：供应商和客户关系管理（SRM & CRM），你可以在这里找到管理一个高效的销售部门所需要的要素， 自动化处理可以监视任务的执行情况。
 
 
 .. i18n: Part Three, :ref:`part-genacct`, is devoted to general accounting and its key role in the management of the whole
 .. i18n: enterprise.
 ..
 
-第三章，general accounting：
-Part Three, :ref:`part-genacct`, is devoted to general accounting and its key role in the management of the whole
-enterprise.
+第三章，:ref:`part-genacct` 一般会计：讲解一般会计和一般会计在企业管理中的主要规则。
+
 
 .. i18n: Part Four, :ref:`part-ops`, handles all the operational functions of enterprise management:
 .. i18n: Human Resources for managing projects,
@@ -290,34 +289,32 @@ enterprise.
 .. i18n: can help you optimize your leadership of an enterprise.
 ..
 
-Part Four, :ref:`part-ops`, handles all the operational functions of enterprise management:
-Human Resources for managing projects,
-through financial analyses supplied by analytic (or cost) accounts. You will see how using OpenERP
-can help you optimize your leadership of an enterprise.
+第四章，:ref:`part-ops`：处理企业管理中所有的营运职能：通过在analytic(or cost) accounts基础上进行财务上的分析，
+以进行项目中的人力资源管理，你可以看到使用了OpenERP后，它是如何帮助你的公司保持领先地位的。
+
 
 .. i18n: Part Five, :ref:`part-phys`, describes the physical movement of Stocks and their Manufacturing
 .. i18n: (the transformation or products and services into other products).
 ..
 
-Part Five, :ref:`part-phys`, describes the physical movement of Stocks and their Manufacturing
-(the transformation or products and services into other products).
+第五章，:ref:`part-phys`：描述了库存和生产过程中物料的移动过程，包括物料和作为服务的人力等转变为产品的过程。
 
 .. i18n: Part Six, :ref:`part-trade`, deals with Purchasing and Selling goods and services.
 ..
 
-Part Six, :ref:`part-trade`, deals with Purchasing and Selling goods and services.
+第六章，:ref:`part-trade`：处理商品和服务的购买与销售。
 
 .. i18n: Part Seven, :ref:`part-qual`, is focused on the Process description and Documentation & Knowledge handling that OpenERP
 .. i18n: manages.
 ..
 
-Part Seven, :ref:`part-qual`, is focused on the Process description and Documentation & Knowledge handling that OpenERP
-manages.
+第七章，:ref:`part-qual`： 本章专注于OpenERP所管理的过程描述和文档、知识管理。
+
 
 .. i18n: Finally Part Eight, :ref:`part-config`, structured in two chapters, explains first how to administer and configure OpenERP, then provides a methodology for implementing OpenERP in your enterprise.
 ..
 
-Finally Part Eight, :ref:`part-config`, structured in two chapters, explains first how to administer and configure OpenERP, then provides a methodology for implementing OpenERP in your enterprise.
+第八章，:ref:`part-config`: structured in two chapters, explains first how to administer and configure OpenERP, then provides a methodology for implementing OpenERP in your enterprise.
 
 .. i18n: 	.. note::  *About the authors*
 .. i18n: 
