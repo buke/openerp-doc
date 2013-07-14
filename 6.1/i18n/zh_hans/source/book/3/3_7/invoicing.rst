@@ -169,9 +169,7 @@ kept up-to-date all the time as orders are placed and received, and their taxes 
 .. i18n: if needed.
 ..
 
-At the same time, it allows people who have more accounting knowledge to keep full control over the
-accounting entries that are being generated. Each value proposed by OpenERP can be modified later
-if needed.
+同时,具有会计权限的员工可以完成后续的凭证分录的处理.并且分录中的数据还可以继续修改确认.
 
 .. i18n: Start by manually entering a customer invoice. Use :menuselection:`Accounting -->
 .. i18n: Customers --> Customer Invoices` and click on `New` button for this.
