@@ -183,7 +183,7 @@ if needed.
 .. i18n: A new invoice form opens for entering information.
 ..
 
-A new invoice form opens for entering information.
+在新打开的发票窗体中,输入下面的信息.
 
 .. i18n: .. figure::  images/account_invoice_new.png
 .. i18n:    :scale: 75
@@ -196,7 +196,7 @@ A new invoice form opens for entering information.
    :scale: 75
    :align: center
 
-   *Entering a New Invoice*
+   *输入新发票*
 
 .. i18n: The document is composed of three parts:
 ..
