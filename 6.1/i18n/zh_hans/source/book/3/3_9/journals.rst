@@ -45,7 +45,7 @@
 .. i18n: Blue fields are mandatory fields. When you select a journal type, some configuration parameters will be preset. The journal type will tell the system where the journal concerned can be used.
 ..
 
-蓝色字段均为必填字段。当您选择了分类帐类型，将被预置一些配置参数。 The journal type will tell the system where the journal concerned can be used.
+蓝色字段均为必填字段。当您选择了分类帐类型，将被预置一些配置参数。 分类帐类型告诉系统有关分类帐可用于何处。
 
 .. i18n: Each journal has a specific way of displaying data. The type of journal determines the journal view, which indicates the fields that need to be visible and are required to enter accounting data in that journal. The view determines both the order of the fields and the properties of each field. For example, the field :guilabel:`Statement` has to appear when entering data in the bank journal, but not in the other journals.
 ..
