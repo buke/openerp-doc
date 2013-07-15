@@ -208,11 +208,11 @@ The document is composed of three parts:
 .. i18n: * the bottom of the page, with detail about the taxes, and the totals.
 ..
 
-* the top of the invoice, with customer information,
+* 发票的抬头,是客户相关信息,
 
-* the main body of the invoice, with detailed invoice lines,
+* 发票主体部分,则是发票的明细行,
 
-* the bottom of the page, with detail about the taxes, and the totals.
+* 发票的下面部分,则是关于所缴税行明细以及发票的汇总.
 
 .. i18n: To enter a document in OpenERP, you should always fill in fields in the order they appear on
 .. i18n: screen. Doing it this way means that some of the later fields are filled in automatically from the
