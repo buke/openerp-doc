@@ -50,7 +50,7 @@
 .. i18n: Each journal has a specific way of displaying data. The type of journal determines the journal view, which indicates the fields that need to be visible and are required to enter accounting data in that journal. The view determines both the order of the fields and the properties of each field. For example, the field :guilabel:`Statement` has to appear when entering data in the bank journal, but not in the other journals.
 ..
 
-每一分类帐都有显示数据的特殊方式。 分类帐类型决定分类帐视图，也就是表明哪些字段需要显示出来和输入会计数据。视图确定字段的顺序和每个字段的属性。 比如, 字段 :guilabel:`Statement` 在银行分类帐录入数据时会出现，但不会出现在别的分类帐中。
+每一分类帐都有显示数据的特殊方式。 分类帐类型决定分类帐视图，也就是表明哪些字段需要显示出来和输入会计数据。视图确定字段的顺序和每个字段的属性。 比如, 字段  :guilabel:`Statement`  在银行分类帐录入数据时会出现，但不会出现在别的分类帐中。
 
 .. i18n: You can also create your own journal views. However, before creating a new view for a journal, check whether there is nothing similar already defined. You should only create a new view for new types of journals.
 ..
