@@ -55,7 +55,7 @@
 .. i18n: You can also create your own journal views. However, before creating a new view for a journal, check whether there is nothing similar already defined. You should only create a new view for new types of journals.
 ..
 
-您还可以创建自己的分类帐视图。 然而，在创建新的视图前，最好检查一下是否已经定义过一点也不相似的视图。您应该仅为新分类帐类型创建新的视图。
+您还可以创建自己的分类帐视图。 然而，在创建新的视图前，最好检查一下有没有已经定义的类似的视图。您应该仅为新分类帐类型创建新的视图。
 
 .. i18n: You can create a sequence for each journal. This sequence determines the automatic numbering for accounting entries. Several journals can use the same sequence if you want to define one for them all, and if your legislation allows this.
 ..
