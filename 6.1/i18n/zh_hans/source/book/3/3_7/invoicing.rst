@@ -117,7 +117,7 @@ or validate them. OpenERP uses the following different ways of generating invoic
 
 * 来自员工工单(timesheets, 参阅 :ref:`ch-hr`),
 
-* 来自完成的项目工作 (see :ref:`ch-projects`),
+* 来自完成的项目工作 (参阅 :ref:`ch-projects`),
 
 * from fee charges or other rechargeable expenses (see :ref:`ch-services`).
 
@@ -262,13 +262,11 @@ completed automatically:
 .. i18n:         accounts. Asset and liability accounts for a partner depend on the company that the user works for.
 ..
 
-.. note:: Properties Fields
+.. note:: Properties 字段
 
-        The Properties fields on the Partner form or the Product form are multi-company fields. The value
-        that the user sees in these fields depends on the company that the user works for.
+        ``合作伙伴`` 或者 ``产品`` 上的 `Property` 字段是多公司类型的. 该字段的值取决于当前用户所属公司.
 
-        If you work in a multi-company environment that is using one database, you have several charts of
-        accounts. Asset and liability accounts for a partner depend on the company that the user works for.
+        在一个账套上使用多公司配置,你可能需要为每个公司配置财务报表. 而且合作伙伴的 `资产` 与 `负债` 科目是也按公司分开的.
 
 .. i18n: .. index::
 .. i18n:    single: navigating relationships
