@@ -398,17 +398,17 @@ OpenERP中具体的功能模块。
 			他已经开发了多个大型的项目，例如：Auction-in-Europe.com，它已经是比利时艺术品市场的领导者了。
 			每天在这上面成交的艺术品甚至超过了ebay.be。
 
-			He is also the founder of the LUG (Linux User Group) of Louvain-la-Neuve,
-			and of several free projects like OpenReport, OpenStuff and Tiny Report.
-			Educated as a civil engineer (polytechnic), he has won several IT prizes in Europe such as Wired
-			and l'Inscene.
+			他也是Louvain-la-Neuve上LUG（Linux User Group）和多个免费项目（如：OpenReport, OpenStuff and Tiny Report）的建立者
+			Educated as a civil engineer (polytechnic), 他在IT方面已经多次获得欧洲的奖项，例如Wired
+			and l'Inscene。
+			
 
 			A fierce defender of free software in the enterprise,
 			he is in constant demand as a conference speaker and
-			he is the author of numerous articles dealing with free software in the management of the
-			enterprise.
+			他写了很多的文章介绍企业如何使用免费软件进行管理。
+			
 
-			Follow Fabien on his blog http://fptiny.blogspot.com/ or on twitter fpopenerp.
+			如果您对他感兴趣，可以访问他的博客http://fptiny.blogspot.com/或者twitter账号fpopenerp。
 
                         **Geoff Gardiner**
 
@@ -417,11 +417,10 @@ OpenERP中具体的功能模块。
 			He was Senior Industrial Research Fellow at Cambridge University's Institute for Manufacturing
 			where he focused on innovation processes.
 
-			He founded Seath Solutions Ltd (http://www.seathsolutions.com/) to provide services
-			in the use of Open Source software, particularly OpenERP, for business management.
+			他建立了Seath公司（http://www.seathsolutions.com/）来为提供开源软件的使用提供服务， particularly OpenERP, for business management.
 
 			Author of articles and books focusing on the processes and technology of innovation,
-			Geoff is also an active contributor to the OpenERP project.
+			Geoff也是OpenERP项目的贡献者。
 			He holds an MBA from Cranfield School of Management and
 			an MA in Engineering and Electrical Sciences from Trinity Hall, Cambridge.
 			He is a member of the Institution of Engineering and Technology and of the Society of Authors.
@@ -476,14 +475,13 @@ developing Tiny ERP and OpenERP, and the team at OpenERP for its excellent work 
 .. i18n: appreciated.
 ..
 
-OpenERP relies on a philosophy of Open Source and on the technologies that have been
-developed and tuned over the years by numerous talented people. Their efforts are greatly
-appreciated.
+OpenERP依靠的是开源的philosophy和技术，这些技术已经由大批的天才开发出来and tuned over多年。非常感谢他们的努力。
 
 .. i18n: Thanks also to my family for their encouragement, their tolerance and their constant presence.
 ..
 
-Thanks also to my family for their encouragement, their tolerance and their constant presence.
+也感谢家人对我的鼓励，tolerance 和 constant presence.
+
 
 .. i18n:         *From Els Van Vossel*
 ..
@@ -502,16 +500,15 @@ Fabien，感谢你给我一个与OpenERP共事的机会。感谢我的文档团�
 .. i18n:         *From Fabien Pinckaers*
 ..
 
-        *From Fabien Pinckaers*
+        *Fabien Pinckaers*
 
 .. i18n: I address my thanks to all of the team at OpenERP for their hard work in preparing, translating and
 .. i18n: re-reading the book in its various forms.
 .. i18n: My particular thanks to Laurence Henrion and my family for supporting me throughout all this effort.
 ..
 
-I address my thanks to all of the team at OpenERP for their hard work in preparing, translating and
-re-reading the book in its various forms.
-My particular thanks to Laurence Henrion and my family for supporting me throughout all this effort.
+我要对OpenERP团队的全体成员表达我的感谢。感谢他们在准备，翻译和各种形式的校对工作中辛勤的付出。
+我要特别感谢Laurence Henrion和我的家人，for supporting me throughout all this effort.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
