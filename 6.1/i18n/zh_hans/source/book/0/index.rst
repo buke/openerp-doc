@@ -400,11 +400,10 @@ OpenERP中具体的功能模块。
 
 			他也是Louvain-la-Neuve上LUG（Linux User Group）和多个免费项目（如：OpenReport, OpenStuff and Tiny Report）的建立者
 			Educated as a civil engineer (polytechnic), 他在IT方面已经多次获得欧洲的奖项，例如Wired
-			and l'Inscene。
+			和 l'Inscene。
 			
 
-			A fierce defender of free software in the enterprise,
-			he is in constant demand as a conference speaker and
+			作为一个对于在企业中使用免费软件的狂热拥护者，他长期在各种讨论中作为演讲人宣传免费软件，不仅如此，
 			他写了很多的文章介绍企业如何使用免费软件进行管理。
 			
 
@@ -417,7 +416,7 @@ OpenERP中具体的功能模块。
 			He was Senior Industrial Research Fellow at Cambridge University's Institute for Manufacturing
 			where he focused on innovation processes.
 
-			他建立了Seath公司（http://www.seathsolutions.com/）来为提供开源软件的使用提供服务， particularly OpenERP, for business management.
+			他建立了Seath公司（http://www.seathsolutions.com/）来为开源软件的使用提供服务， 特别是OpenERP在企业中的应用.
 
 			Author of articles and books focusing on the processes and technology of innovation,
 			Geoff也是OpenERP项目的贡献者。
