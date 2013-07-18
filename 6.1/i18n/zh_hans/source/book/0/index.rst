@@ -411,8 +411,8 @@ OpenERP中具体的功能模块。
 
                         **Geoff Gardiner**
 
-			Geoff has held posts as director of services and of IT systems for
-			international companies and in manufacturing.
+			Geoff曾在国际性的制造类公司担任服务和IT系统总监职位。
+			
 			He was Senior Industrial Research Fellow at Cambridge University's Institute for Manufacturing
 			where he focused on innovation processes.
 
