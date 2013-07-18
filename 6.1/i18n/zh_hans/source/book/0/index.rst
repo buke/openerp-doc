@@ -407,7 +407,7 @@ OpenERP中具体的功能模块。
 			他写了很多的文章介绍企业如何使用免费软件进行管理。
 			
 
-			如果您对他感兴趣，可以访问他的博客http://fptiny.blogspot.com/或者twitter账号fpopenerp。
+			如果您对他感兴趣，可以访问他的博客http://fptiny.blogspot.com/ 或者twitter账号fpopenerp。
 
                         **Geoff Gardiner**
 
@@ -434,19 +434,17 @@ OpenERP中具体的功能模块。
 
 			毕业于安特卫普的专业翻译，她的工作是作为一个独立翻译将主流ERP软件本地化。 通过这些工作Els获得了ERP知识，
 			她决定开始作一名ERP顾问和ERP软件的技术交流者。
+			因此开源软件的世界变的越来越有吸引力。她开始利用业余时间从事OpenERP方面的工作，Els真的很想
+			与Fabien Pinckaers见一面，以告诉他她对于有关文档和培训策略的想法。
+			在合作者大会上，她听到Fabien正在找人来管理培训和文档。
 			
-			As such, the world of OpenSource software became more and more attractive.
-			She started working with OpenERP software in her free time and doing so, Els really wanted to
-			meet Fabien Pinckaers to share thoughts about documentation and training strategy.
-			At a Partner Meeting she heard Fabien was looking for someone to manage training & documentation.
-			This was absolutely an opportunity to be qualified, and now Els is the OpenERP Training Program Manager
-			and responsible for the worldwide training and certification program of OpenERP.
+			这绝对是一个证明自己的机会，现在Els是OpenERP的培训计划经理,负责全球OpenERP的培训和认证计划。
 
 			Being an author of several Software Manuals, it is a great challenge to work on the
 			OpenERP documentation and continuously take it to a higher level. Please note that this is a hell of a job,
 			but Els finds great pleasure in doing it!
 
-			Follow Els on her blog http://training-openerp.blogspot.com/ or on twitter elsvanvossel.
+			如果您对她感兴趣，可以访问她的博客http://training-openerp.blogspot.com/ 或者twitter账号elsvanvossel
 
 .. i18n: Dedication
 .. i18n: ==========
@@ -458,14 +456,13 @@ OpenERP中具体的功能模块。
 .. i18n:         *From Geoff Gardiner*
 ..
 
-        *From Geoff Gardiner*
+        *Geoff Gardiner*
 
 .. i18n: My gratitude goes to my co-author, Fabien Pinckaers, for his vision and tenacity in
 .. i18n: developing Tiny ERP and OpenERP, and the team at OpenERP for its excellent work on this.
 ..
 
-My gratitude goes to my co-author, Fabien Pinckaers, for his vision and tenacity in
-developing Tiny ERP and OpenERP, and the team at OpenERP for its excellent work on this.
+我还要感谢我的合著者，Fabien Pinckaers，为了他在发展Tiny ERP和OpenERP方面的远见和坚韧，同时感谢OpenERP团队出色的工作。
 
 .. i18n: OpenERP relies on a philosophy of Open Source and on the technologies that have been
 .. i18n: developed and tuned over the years by numerous talented people. Their efforts are greatly
