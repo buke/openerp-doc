@@ -440,9 +440,7 @@ OpenERP中具体的功能模块。
 			
 			这绝对是一个证明自己的机会，现在Els是OpenERP的培训计划经理,负责全球OpenERP的培训和认证计划。
 
-			Being an author of several Software Manuals, it is a great challenge to work on the
-			OpenERP documentation and continuously take it to a higher level. Please note that this is a hell of a job,
-			but Els finds great pleasure in doing it!
+			做个多个软件手册的作者，要从事于OpenERP文档的工作和不断的把它带到一个更高的水平是非常有挑战的。请注意，这是一个苦差事，但Els认为做的很高兴！
 
 			如果您对她感兴趣，可以访问她的博客http://training-openerp.blogspot.com/ 或者twitter账号elsvanvossel
 
