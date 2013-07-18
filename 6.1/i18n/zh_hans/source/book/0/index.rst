@@ -430,8 +430,7 @@ OpenERP中具体的功能模块。
 
 	                **Els Van Vossel**
 
-			Els Van Vossel always had a dedication to both written and spoken word.
-			Clear and explicit communication is crucial.
+			Els Van Vossel始终致力于口头和书面的宣传。在他看来清楚、明确的交流是最关键的。
 
 			Educated as a Professional Translator in Antwerp, she worked as an independent translator
 			on the localization of major ERP software. Els acquired ERP knowledge and decided
