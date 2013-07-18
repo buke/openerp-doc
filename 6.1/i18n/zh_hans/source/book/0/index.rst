@@ -472,7 +472,7 @@ developing Tiny ERP and OpenERP, and the team at OpenERP for its excellent work 
 .. i18n: appreciated.
 ..
 
-OpenERP依靠的是开源的philosophy和技术，这些技术已经由大批的天才开发出来and tuned over多年。非常感谢他们的努力。
+OpenERP依靠的是开源哲学和技术，这些技术已经由大批的天才开发出来并且多年来不断完善。非常感谢他们的努力。
 
 .. i18n: Thanks also to my family for their encouragement, their tolerance and their constant presence.
 ..
