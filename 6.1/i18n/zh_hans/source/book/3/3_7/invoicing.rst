@@ -1,3 +1,4 @@
+
 .. i18n: Invoices
 .. i18n: ========
 ..
@@ -199,7 +200,7 @@ kept up-to-date all the time as orders are placed and received, and their taxes 
 .. i18n: The document is composed of three parts:
 ..
 
-The document is composed of three parts:
+发票包含以下三部分:
 
 .. i18n: * the top of the invoice, with customer information,
 .. i18n: 
@@ -322,7 +323,7 @@ completed automatically:
 
    * CRM requests,
 
-   * open invoices,
+   * 草稿状态发票,
 
    * accounts records,
 
