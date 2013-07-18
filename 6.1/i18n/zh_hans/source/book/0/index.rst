@@ -430,12 +430,11 @@ OpenERP中具体的功能模块。
 
 	                **Els Van Vossel**
 
-			Els Van Vossel始终致力于口头和书面的宣传。在他看来清楚、明确的交流是最关键的。
+			Els Van Vossel始终致力于语言方面的工作，包括口头的和书面的。在她看来清楚、明确的交流是最关键的。
 
-			Educated as a Professional Translator in Antwerp, she worked as an independent translator
-			on the localization of major ERP software. Els acquired ERP knowledge and decided
-			to start working as a functional ERP consultant and a Technical Communicator for ERP software.
-
+			毕业于安特卫普的专业翻译，她的工作是作为一个独立翻译将主流ERP软件本地化。 通过这些工作Els获得了ERP知识，
+			她决定开始作一名ERP顾问和ERP软件的技术交流者。
+			
 			As such, the world of OpenSource software became more and more attractive.
 			She started working with OpenERP software in her free time and doing so, Els really wanted to
 			meet Fabien Pinckaers to share thoughts about documentation and training strategy.
