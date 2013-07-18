@@ -477,7 +477,7 @@ OpenERP依靠的是开源的philosophy和技术，这些技术已经由大批的
 .. i18n: Thanks also to my family for their encouragement, their tolerance and their constant presence.
 ..
 
-也感谢家人对我的鼓励，tolerance 和 constant presence.
+也感谢家人对我的鼓励，包容和一直以来对我的支持。
 
 
 .. i18n:         *From Els Van Vossel*
@@ -505,7 +505,7 @@ Fabien，感谢你给我一个与OpenERP共事的机会。感谢我的文档团�
 ..
 
 我要对OpenERP团队的全体成员表达我的感谢。感谢他们在准备，翻译和各种形式的校对工作中辛勤的付出。
-我要特别感谢Laurence Henrion和我的家人，for supporting me throughout all this effort.
+我要特别感谢Laurence Henrion和我的家人，感谢他们自始至终对我的支持。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
