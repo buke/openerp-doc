@@ -160,9 +160,8 @@ before validating it.
 .. i18n: kept up-to-date all the time as orders are placed and received, and their taxes are calculated.
 ..
 
-The principle of entering data for invoices in OpenERP is very simple, as it enables non-
-accountant users to create their own invoices. This means that your accounting information can be
-kept up-to-date all the time as orders are placed and received, and their taxes are calculated.
+OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的发票信息.这意味着发票在生成到收款期间,随时可以保证
+发票数据及相应税额计算的更新.
 
 .. i18n: At the same time, it allows people who have more accounting knowledge to keep full control over the
 .. i18n: accounting entries that are being generated. Each value proposed by OpenERP can be modified later
