@@ -1,4 +1,3 @@
-
 .. i18n: Invoices
 .. i18n: ========
 ..
@@ -327,7 +326,7 @@ completed automatically:
 
    * accounts records,
 
-   * payable and receivable accounts.
+   * 应收/应付科目.
 
 .. i18n: You can add more detailed additional information to the invoice and select the currency that you want to invoice in.
 ..
@@ -338,17 +337,16 @@ You can add more detailed additional information to the invoice and select the c
 .. i18n: of the two techniques:
 ..
 
-Once the invoice heading is saved, you must enter the different invoice lines. You could use either
-of the two techniques:
+发票表头输入完成后, 输入表体部分时, 你可以用下面两种方式来输入:
 
 .. i18n: * enter the whole field manually,
 .. i18n: 
 .. i18n: * use a product to complete the different fields automatically.
 ..
 
-* enter the whole field manually,
+* 表体各字段手工输入,
 
-* use a product to complete the different fields automatically.
+* 选择一个产品, 让产品相关数据自动完成相关字段的输入.
 
 .. i18n: .. tip:: Invoice Line Description
 .. i18n: 
