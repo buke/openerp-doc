@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Subscribe Start
 ..
@@ -104,14 +103,14 @@ OpenERP 在线使用
 .. i18n: OpenERP's Online offer includes several services: hosting at high bandwidth, database management, stable security update, backups, maintenance (24/7 server monitoring), bug fixing and migrations.
 ..
 
-OpenERP's Online offer includes several services: hosting at high bandwidth, database management, stable security update, backups, maintenance (24/7 server monitoring), bug fixing and migrations.
+OpenERP的在线版本包括以下几种服务：高带宽的主机，数据库管理，稳定的安全更新，备份，7x24小时的维护，错误修复和迁移。
+
 
 .. i18n: OpenERP guarantees that the software running on OpenERP Online is exactly the same as the Open Source official
 .. i18n: version of OpenERP. Any improvement made on OpenERP will be available online. This allows you to easily switch from the online version to the local version anytime.
 ..
 
-OpenERP guarantees that the software running on OpenERP Online is exactly the same as the Open Source official
-version of OpenERP. Any improvement made on OpenERP will be available online. This allows you to easily switch from the online version to the local version anytime.
+OpenERP保证在线版本同官方的开源版本完全一致。在线版本包含OpenERP的任何改进，这对用户从在线版顺利切换到本地版非常有好处。
 
 .. i18n: So even if the OpenERP Online solution best suits your needs today, you can easily switch to an installation on your own servers according to your company's changing requirements or growth. You can also change your service provider
 .. i18n: anytime, while continuing to use the exact same system. Hence, you do not depend on your host. In addition, OpenERP works with standard and open formats and programming languages which allow
