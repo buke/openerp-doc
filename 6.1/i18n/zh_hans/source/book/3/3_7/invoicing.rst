@@ -353,10 +353,10 @@ You can add more detailed additional information to the invoice and select the c
 .. i18n:         comments you can use the field in the second tab `Notes`.
 ..
 
-.. tip:: Invoice Line Description
+.. tip:: 发票明细备注
 
-        The invoice line description is more of a title than a comment. If you want to add more detailed
-        comments you can use the field in the second tab `Notes`.
+        发票明细备注是对于明细摘要的补充.如果你对于发票明细添加更多的说明时,你只需要在明细窗体中的 `备注(notes)` 
+        字段中输入即可.
 
 .. i18n: So select the product \ ``Basic PC`` \ in the product field in an invoice line. The
 .. i18n: following fields are then completed automatically:
