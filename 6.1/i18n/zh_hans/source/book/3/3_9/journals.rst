@@ -128,7 +128,7 @@ This functionality is useful for limiting possible data entry errors by restrict
 .. i18n:         transferring payments from one bank to another, reducing your risks.
 ..
 
-.. 提示:: 数据录入控制
+.. tip:: 数据录入控制
 
         在帐务处理过程中，允许直接从银行A到银行B的会计分录不是一个好主意。如果您录入了银行A直接到银行B的会计分录，则这个分录会被记账两次。  
 
