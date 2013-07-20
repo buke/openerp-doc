@@ -117,14 +117,14 @@ OpenERP保证在线版本同官方的开源版本完全一致。在线版本包�
 .. i18n: you to export your data and use them in any other software.
 ..
 
-So even if the OpenERP Online solution best suits your needs today, you can easily switch to an installation on your own servers according to your company's changing requirements or growth. You can also change your service provider
-anytime, while continuing to use the exact same system. Hence, you do not depend on your host. In addition, OpenERP works with standard and open formats and programming languages which allow
-you to export your data and use them in any other software.
+所以即使今天OpenERP在线方案可以非常好的满足您的需要，如果以后你的公司变大了或者需求改变了，
+你也可以在任何时候很容易的切换到本地安装版本，你也可以在需要时更换服务商而继续使用相同的系统。
+因此你不必依靠你的主机。而且，OpenERP以标准和开放的方式运行，所使用的优秀的编程语言允许你导出数据并在任何软件中使用。
+
 
 .. i18n: These advantages give you total control over your data, your software, your platform.
 ..
-
-These advantages give you total control over your data, your software, your platform.
+这些好处可以让用户完全控制自己的数据，软件和平台。
 
 .. i18n: .. figure:: images/start_saas.jpeg
 .. i18n:    :align: center
@@ -148,7 +148,8 @@ If you want to start working with the online platform, you can navigate to http:
 .. i18n: You can find the details of current pricing and payment options at http://www.openerp.com/online.
 ..
 
-OpenERP Online - Software as a Service - is hosted by OpenERP and paid in the form of a monthly subscription. The pricing model is extremely simple. OpenERP charges a fixed fee per month per user. You will get an invoice each month according to the number of users registered in the system at that time. If you add new users during the next 30 days, they will only be charged with the next invoice.
+OpenERP在线——软件及服务——由OpenERP提供服务，按月subscription. The pricing model非常简单。OpenERP按每月每用户收取固定的费用。
+You will get an invoice each month according to the number of users registered in the system at that time. If you add new users during the next 30 days, they will only be charged with the next invoice.
 You can find the details of current pricing and payment options at http://www.openerp.com/online.
 
 .. i18n: .. tip:: Free Trial
