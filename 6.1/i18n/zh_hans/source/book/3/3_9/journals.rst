@@ -60,7 +60,7 @@
 .. i18n: You can create a sequence for each journal. This sequence determines the automatic numbering for accounting entries. Several journals can use the same sequence if you want to define one for them all, and if your legislation allows this.
 ..
 
-You can create a sequence for each journal. This sequence determines the automatic numbering for accounting entries. Several journals can use the same sequence if you want to define one for them all, and if your legislation allows this.
+您可为每一分类帐创建序号。 这个序号为会计分录自动设定号码。 如果您想定义为多个分类帐定义一个序号，它们可以使用同一套序号, and if your legislation allows this.
 
 .. i18n: .. tip:: Sequences
 .. i18n: 
