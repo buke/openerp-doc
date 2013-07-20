@@ -134,7 +134,7 @@ This functionality is useful for limiting possible data entry errors by restrict
 
         要避免这个问题，通过中间科目C，在数据录入时，系统检查银行分类帐中可接受的科目类型: 只有非 ``Bank`` 类型的科目才会被接受。
 
-        如果您的财务人员定义了这种特性，则非会计人员不可从一个银行帐户转到另一银行帐户，这可降低风险。
+        如果您的财务人员定义了这种特性，则非会计人员不可从一个银行帐户划款到另一银行帐户，这可降低风险。
         
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
