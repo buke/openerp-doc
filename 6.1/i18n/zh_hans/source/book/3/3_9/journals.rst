@@ -128,18 +128,14 @@ This functionality is useful for limiting possible data entry errors by restrict
 .. i18n:         transferring payments from one bank to another, reducing your risks.
 ..
 
-.. tip:: 数据录入控制
+.. 提示:: 数据录入控制
 
-        In accounting it is not a good idea to allow a data entry directly from bank account A to bank
-        account B.
-        If you enter a transaction from bank A to bank B, the transaction will be accounted for twice.
+        在帐务处理过程中，允许直接从银行A到银行B的会计分录不是一个好主意。如果您录入了银行A直接到银行B的会计分录，则这个分录会被记账两次。  
 
-        To prevent this problem, pass the transaction through intermediate account C.
-        At the time of data entry, the system checks the type of account that is accepted in the bank
-        journal: only accounts that are not of type ``Bank`` are accepted.
+        要避免这个问题，通过中间科目C，在数据录入时，系统检查银行分类帐中可接受的科目类型: 只有非 ``Bank`` 类型的科目才会被接受。
 
-        If your accountant defines this control properly, non-accounting users are prevented from
-        transferring payments from one bank to another, reducing your risks.
+        如果您的财务人员定义了这种特性，则非会计人员不可从一个银行帐户转到另一银行帐户，这可降低风险。
+        
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
