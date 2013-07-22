@@ -430,7 +430,7 @@ following fields are then completed automatically:
 .. i18n:         * location of the product in your warehouses.
 ..
 
-.. note:: Information about the Product
+.. note:: 产品相关信息
 
         When you are entering invoice data, it can sometimes be useful to get hold of more information about
         the product you are invoicing.
@@ -439,11 +439,11 @@ following fields are then completed automatically:
         (in both the web and the GTK clients).
         Then select the available reports. OpenERP provides three standard reports about the product:
 
-        * forecasts of future stock,
+        * 库存预测,
 
-        * product cost structure,
+        * 产品成本结构,
 
-        * location of the product in your warehouses.
+        * 仓库产品库位.
 
 .. i18n: You can enter several invoice lines and modify the values that are automatically completed
 .. i18n: by OpenERP.
