@@ -399,7 +399,7 @@ OpenERP中具体的功能模块。
 			每天在这上面成交的艺术品甚至超过了ebay.be。
 
 			他也是Louvain-la-Neuve上LUG（Linux User Group）和多个免费项目（如：OpenReport, OpenStuff and Tiny Report）的建立者
-			Educated as a civil engineer (polytechnic), 他在IT方面已经多次获得欧洲的奖项，例如Wired
+			，土木工程师专业(综合技术), 他在IT方面已经多次获得欧洲的奖项，例如Wired
 			和 l'Inscene。
 			
 
@@ -412,21 +412,16 @@ OpenERP中具体的功能模块。
                         **Geoff Gardiner**
 
 			Geoff曾在国际性的制造类公司担任服务和IT系统总监职位。
-			
-			He was Senior Industrial Research Fellow at Cambridge University's Institute for Manufacturing
-			where he focused on innovation processes.
+			他是英国剑桥大学制造研究所高级工业研究院研究员，他专注于过程创新。
 
 			他建立了Seath公司（http://www.seathsolutions.com/）来为开源软件的使用提供服务， 特别是OpenERP在企业中的应用.
-
-			Author of articles and books focusing on the processes and technology of innovation,
+			他是文章和书籍的作者，专注于流程和技术的创新，
 			Geoff也是OpenERP项目的贡献者。
-			He holds an MBA from Cranfield School of Management and
-			an MA in Engineering and Electrical Sciences from Trinity Hall, Cambridge.
-			He is a member of the Institution of Engineering and Technology and of the Society of Authors.
+			他持有克兰菲尔德管理学院的MBA证书和剑桥大学圣三一堂的工程和电子科学硕士学位。
+			他同时是工程及科技学会和作家协会的会员。
+			
+			经过观察，亲身感受，和领导各种组织的流程实施项目，他有很多关于如何成功地通过采用一个管理自动化工具有效的进行管理的想法与大家分享。
 
-			Having observed, suffered, and led process implementation projects in various organizations,
-			he has many thoughts to share on the successful adoption of an effective management automation
-			tool.
 
 	                **Els Van Vossel**
 
