@@ -137,29 +137,33 @@ OpenERP保证在线版本同官方的开源版本完全一致。在线版本包�
    :align: center
    :scale: 90
 
-   *Subscribe and Start with OpenERP Online*
+   *订购并开始使用在线服务*
 
 .. i18n: If you want to start working with the online platform, you can navigate to http://www.openerp.com/online. After successful registration, you will be able to configure and use OpenERP online. To log in to your OpenERP Online account, you will receive a username and password. You can build the software to fit your needs, at your own pace! 
 ..
 
-If you want to start working with the online platform, you can navigate to http://www.openerp.com/online. After successful registration, you will be able to configure and use OpenERP online. To log in to your OpenERP Online account, you will receive a username and password. You can build the software to fit your needs, at your own pace! 
+如果你希望从在线平台开始，你可以访问这个网址 http://www.openerp.com/online。在成功注册后，你就可以配置和使用OpenERP在线版了。
+登录进你的OpenERP在线账户后，你会收到你的用户名密码。你可以按照自己的步调来建立适合自己的软件。
+
 
 .. i18n: OpenERP Online - Software as a Service - is hosted by OpenERP and paid in the form of a monthly subscription. The pricing model is extremely simple. OpenERP charges a fixed fee per month per user. You will get an invoice each month according to the number of users registered in the system at that time. If you add new users during the next 30 days, they will only be charged with the next invoice.
 .. i18n: You can find the details of current pricing and payment options at http://www.openerp.com/online.
 ..
 
-OpenERP在线——软件及服务——由OpenERP提供服务，按月subscription. The pricing model非常简单。OpenERP按每月每用户收取固定的费用。
-You will get an invoice each month according to the number of users registered in the system at that time. If you add new users during the next 30 days, they will only be charged with the next invoice.
-You can find the details of current pricing and payment options at http://www.openerp.com/online.
+OpenERP在线——软件及服务——由OpenERP提供服务，按月订购. 定价模型非常简单。OpenERP按每月每用户收取固定的费用。
+根据这段时间你的系统中的注册用户数，你每个月会收到一个发票。如果你在今后的30天内添加了新用户，他们会被算在下次的发票中。
+你可以在 http://www.openerp.com/online 找到现行的价格和支付选项的明细。
+
 
 .. i18n: .. tip:: Free Trial
 .. i18n: 
 .. i18n:        For a month's free trial, check out OpenERP's http://www.openerp.com/online, which enables you to get started quickly without incurring costs for integration or for buying computer systems. After the free trial expires, you can easily continue using OpenERP Online.
 ..
 
-.. tip:: Free Trial
-
-       For a month's free trial, check out OpenERP's http://www.openerp.com/online, which enables you to get started quickly without incurring costs for integration or for buying computer systems. After the free trial expires, you can easily continue using OpenERP Online.
+.. 小窍门:: 免费试用
+       访问 http://www.openerp.com/online 获得一个月的试用版，这可以让你在零成本或无系统的情况下快速的体验OpenERP。
+        这样做的好处是在免费试用期后，当你继续使用OpenERP在线版会感到非常轻松。
+        
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
