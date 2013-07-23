@@ -96,9 +96,8 @@ OpenERP 为这四种类型的发票对应设置了四个菜单项,不同的菜�
 .. i18n: or validate them. OpenERP uses the following different ways of generating invoices:
 ..
 
-Most of the time, invoices are generated automatically by OpenERP as they are generated from other
-processes in the system. So it is not usually necessary to create them manually, but simply approve
-or validate them. OpenERP uses the following different ways of generating invoices:
+通常情况,OpenERP中的发票都是由业务系统自动生成出来的.所以,一般不需要手工创建发票,只需要轻轻一点确认或审核即可.
+OpenERP中一般有下面的几种途径去生成发票:
 
 .. i18n: * from Supplier or Customer Orders,
 .. i18n: 
