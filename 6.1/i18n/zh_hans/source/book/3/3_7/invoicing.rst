@@ -234,8 +234,7 @@ completed automatically:
 .. i18n:   the invoice. For example: 50% in 21 days and 50% in 60 days from the end of the month.
 ..
 
-* the invoice address corresponds to the customer contact that was given the address type of
-  `Invoice` in the partner form (or otherwise the address type of `Default`),
+* 发票地址则默认使用了该客户联系人的发票地址,如果没有发票地址,则使用该客户联系人的默认地址,
 
 * the partner account corresponds to the account given in the `Accounting` which is found in a
   tab of the partner form,
