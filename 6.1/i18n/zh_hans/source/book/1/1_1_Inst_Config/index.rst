@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: Installation
 .. i18n:    single: Initial Setup
@@ -95,7 +94,7 @@
 
 .. note:: The SaaS, or “on-demand”, offer
 
-   SaaS (Software as a Service) is delivered by a hosting supplier and paid in the form of a monthly
+   SaaS (subscription ) is delivered by a hosting supplier and paid in the form of a monthly
    subscription that
    includes hardware (servers), system maintenance, provision of hosting services, and support.
 
@@ -115,8 +114,8 @@
 .. i18n: points:
 ..
 
-Whether you want to test OpenERP or to put it into full production, you have at least three starting
-points:
+无论你是想测试OpenERP还是想把它投入正式生产，至少需要三starting点：
+
 
 .. i18n: * no need to install OpenERP, you can test it through http://demo.openerp.com,
 .. i18n: 
@@ -150,8 +149,7 @@ of server you are using.
 
 .. note:: Linux, Windows, Mac
 
-   Although this book deals only with installation on Windows and Linux systems, the same versions
-   are also available for Macintosh on the official website of OpenERP.
+   虽然这本书只涉及在Windows和Linux系统上安装，但是OpenERP的官方网站上相同的版本也可用于Macintosh。
 
 .. i18n: .. note:: Websites for OpenERP
 .. i18n: 
@@ -167,13 +165,13 @@ of server you are using.
 
 .. note:: Websites for OpenERP
 
-   * Main Site: http://www.openerp.com,
+   * 主站: http://www.openerp.com,
 
-   * SaaS or OpenERP OnLine Site: http://www.openerp.com/online,
+   * SaaS 或 OpenERP在线: http://www.openerp.com/online,
 
-   * Documentation Site: http://doc.openerp.com/,
+   * 文档站: http://doc.openerp.com/,
 
-   * Community discussion forum where you can often receive informed assistance:
+   * 社区论坛，在那里你可以经常得到其他人的帮助:
      http://www.openobject.com/forum.
 
 .. i18n: .. tip:: Current documentation
