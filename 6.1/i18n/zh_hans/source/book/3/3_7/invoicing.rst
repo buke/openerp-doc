@@ -328,7 +328,7 @@ completed automatically:
 .. i18n: You can add more detailed additional information to the invoice and select the currency that you want to invoice in.
 ..
 
-You can add more detailed additional information to the invoice and select the currency that you want to invoice in.
+录入发票其他相关内容并选择适当的发票币种.
 
 .. i18n: Once the invoice heading is saved, you must enter the different invoice lines. You could use either
 .. i18n: of the two techniques:
