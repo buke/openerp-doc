@@ -360,8 +360,7 @@ completed automatically:
 .. i18n: following fields are then completed automatically:
 ..
 
-So select the product \ ``Basic PC`` \ in the product field in an invoice line. The
-following fields are then completed automatically:
+接下去, 发票行选择 \ ``电脑兼容主机`` \ 产品, 下面的字段会自动带出:
 
 .. i18n: *  `Description` : this comes from the product, in the language of the partner,
 .. i18n: 
