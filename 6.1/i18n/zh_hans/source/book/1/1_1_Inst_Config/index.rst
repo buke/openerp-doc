@@ -98,13 +98,11 @@
    subscription that
    includes hardware (servers), system maintenance, provision of hosting services, and support.
 
-   You can get a month's free trial on OpenERP's http://www.openerp.com/online, which enables you to get
-   started quickly
-   without incurring costs for integration or for buying computer systems.
-   Many of OpenERP's partner companies will access this, and some may offer their own similar service.
+   在你这里你可以获得OpenERP一个月的免费试用 http://www.openerp.com/online，它可以让你在不增加系统费用投入的情况下快速的开始试用。
+   很多OpenERP的合作伙伴都是用它，其中有一些还提供类似的服务。
 
-   This service should be particularly useful to small companies that just want to get going quickly
-   and at low cost.
+   这项服务对于小公司特别有用，他们往往希望用尽量少的花费，最快的将系统运行起来。
+   
    It gives you immediate access to an integrated management system that has been built on the type
    of enterprise architecture
    used in banks and other large organizations.
@@ -125,7 +123,7 @@
 .. i18n: * install it on your own computers to test it in your company's system environment.
 ..
 
-* no need to install OpenERP, you can test it through http://demo.openerp.com,
+* 无需安装，可通过这里进行测试 http://demo.openerp.com,
 
 * evaluate it on line at http://www.openerp.com and ask OpenERP for a SaaS trial hosted at
   http://ondemand.openerp.com, or the equivalent service at any of OpenERP's partner companies,
