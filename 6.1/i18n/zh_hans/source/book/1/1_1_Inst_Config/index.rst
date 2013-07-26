@@ -125,19 +125,19 @@
 
 * 无需安装，可通过这里进行测试 http://demo.openerp.com,
 
-* evaluate it on line at http://www.openerp.com and ask OpenERP for a SaaS trial hosted at
-  http://ondemand.openerp.com, or the equivalent service at any of OpenERP's partner companies,
+* 在线评估地址 http://www.openerp.com OpenERP SaaS 测试地址 http://ondemand.openerp.com，
+  或者在OpenERP合作伙伴处体验这些内容，
+ 
 
-* install it on your own computers to test it in your company's system environment.
+* 在你自己的电脑上安装测试。
 
 .. i18n: There are some differences between installing OpenERP on Windows and on Linux systems, but once
 .. i18n: installed, both systems offer the same functionality so you will not generally be able to tell which type
 .. i18n: of server you are using.
 ..
 
-There are some differences between installing OpenERP on Windows and on Linux systems, but once
-installed, both systems offer the same functionality so you will not generally be able to tell which type
-of server you are using.
+在Windows上安装OpenERP和在Linux上安装略有不同，但是一旦安装上，系统提供的功能都是一样的，所以你不必在意你用的是那种服务器。
+
 
 .. i18n: .. note:: Linux, Windows, Mac
 .. i18n: 
@@ -161,7 +161,7 @@ of server you are using.
 .. i18n:      http://www.openobject.com/forum.
 ..
 
-.. note:: Websites for OpenERP
+.. note:: OpenERP的网站
 
    * 主站: http://www.openerp.com,
 
@@ -179,7 +179,7 @@ of server you are using.
 .. i18n:    the release and on the website – for exact installation procedures.
 ..
 
-.. tip:: Current documentation
+.. tip:: 当前文档
 
    The procedure for installing OpenERP will change and improve with
    each new version, so you should always check each release's documentation – both packaged with
