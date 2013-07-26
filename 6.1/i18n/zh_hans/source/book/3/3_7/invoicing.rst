@@ -218,10 +218,8 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 .. i18n: completed automatically:
 ..
 
-To enter a document in OpenERP, you should always fill in fields in the order they appear on
-screen. Doing it this way means that some of the later fields are filled in automatically from the
-selections made in earlier fields. So select the `Customer`, and the following fields are
-completed automatically:
+在填写发票信息的时候,你最好按OpenERP表单上的顺序填定数据.这样的目的是为了让你在录入一些数据后,能自动带出
+其他字段的值.如,你选择一个客户后,下面的这些字段会被自动带出来:
 
 .. i18n: * the invoice address corresponds to the customer contact that was given the address type of
 .. i18n:   `Invoice` in the partner form (or otherwise the address type of `Default`),
@@ -234,7 +232,7 @@ completed automatically:
 .. i18n:   the invoice. For example: 50% in 21 days and 50% in 60 days from the end of the month.
 ..
 
-* 发票地址则默认使用了该客户联系人的发票地址,如果没有发票地址,则使用该客户联系人的默认地址,
+* 发票地址 默认使用了该客户联系人的发票地址,如果没有发票地址,则使用该客户联系人的默认地址,
 
 * the partner account corresponds to the account given in the `Accounting` which is found in a
   tab of the partner form,
