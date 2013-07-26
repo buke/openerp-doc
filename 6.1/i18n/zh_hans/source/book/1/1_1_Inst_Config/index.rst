@@ -189,8 +189,7 @@
 .. i18n: OpenERP installation is working. You can follow earlier chapters in this part of the book to achieve this.
 ..
 
-Once you have completed this installation, create and set up a database to confirm that your
-OpenERP installation is working. You can follow earlier chapters in this part of the book to achieve this.
+一旦你已经安装完成，就可以创建数据库了，并确认您的OpenERP的进程在运行。您可以按照本书前面的章节来实现。
 
 .. i18n: .. raw:: html
 .. i18n: 
