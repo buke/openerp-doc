@@ -92,11 +92,9 @@
 .. i18n:    OpenERP is that system, and is described in detail throughout this book.
 ..
 
-.. note:: The SaaS, or “on-demand”, offer
+.. note:: SaaS或按需提供
 
-   SaaS (subscription ) is delivered by a hosting supplier and paid in the form of a monthly
-   subscription that
-   includes hardware (servers), system maintenance, provision of hosting services, and support.
+   SaaS (软件即服务 ) 由托管服务商提供服务，客户按月缴纳服务费的形式使用。包括硬件（服务器），系统维护，提供托管服务和支持。
 
    在你这里你可以获得OpenERP一个月的免费试用 http://www.openerp.com/online，它可以让你在不增加系统费用投入的情况下快速的开始试用。
    很多OpenERP的合作伙伴都是用它，其中有一些还提供类似的服务。
