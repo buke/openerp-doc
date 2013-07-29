@@ -102,12 +102,12 @@ A journal can be marked as being centralised. When you do this, the counterpart 
 .. i18n: You can carry out two types of control on journals in OpenERP – controls over the accounts and access controls for groups of users. In addition to these controls, you can also apply all of the standard user rights management.
 ..
 
-You can carry out two types of control on journals in OpenERP – controls over the accounts and access controls for groups of users. In addition to these controls, you can also apply all of the standard user rights management.
+在OpenERP中您有两种方式可以控制分类帐————科目控制和组用户权限控制。除了这些控制之外，您也可启用所有的标准用户权限管理。
 
 .. i18n: To avoid entering account data in wrong accounts, you can put conditions on the general accounts about which journal can use a given account. To do this, you have to list all the accounts or valid account types in the second tab, :guilabel:`Entry Controls`. If you have not added any accounts there, OpenERP applies no restriction on the accounts for that journal. If you list accounts and/or the types of accounts that can be used in a journal, OpenERP prevents you from using any account or account type not in that list. This verification step starts from the moment you enter data. You can only select allowed accounts or account types.
 ..
 
-To avoid entering account data in wrong accounts, you can put conditions on the general accounts about which journal can use a given account. To do this, you have to list all the accounts or valid account types in the second tab, :guilabel:`Entry Controls`. If you have not added any accounts there, OpenERP applies no restriction on the accounts for that journal. If you list accounts and/or the types of accounts that can be used in a journal, OpenERP prevents you from using any account or account type not in that list. This verification step starts from the moment you enter data. You can only select allowed accounts or account types.
+为避免在错误的科目中录入会计数据，您可以在总帐科目中设置哪些分类帐可以使用给定的会计科目的条件。 要做到这一点，你必须列出所有帐户或有效账户类型中的第二个选项卡, :guilabel:`Entry Controls`。 If you have not added any accounts there, OpenERP applies no restriction on the accounts for that journal. If you list accounts and/or the types of accounts that can be used in a journal, OpenERP prevents you from using any account or account type not in that list. This verification step starts from the moment you enter data. You can only select allowed accounts or account types.
 
 .. i18n: This functionality is useful for limiting possible data entry errors by restricting the accounts to be used in a journal.
 ..
