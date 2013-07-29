@@ -177,6 +177,7 @@
 .. tip:: 当前文档
 
 OpenERP的每个新版本的程序安装都会有所改进，所以你应该经常检查文档 - 包括打包的和发布在网站上的 - 以保证能够正确的安装。
+
 .. i18n: Once you have completed this installation, create and set up a database to confirm that your
 .. i18n: OpenERP installation is working. You can follow earlier chapters in this part of the book to achieve this.
 ..
