@@ -100,11 +100,8 @@
    很多OpenERP的合作伙伴都是用它，其中有一些还提供类似的服务。
 
    这项服务对于小公司特别有用，他们往往希望用尽量少的花费，最快的将系统运行起来。
-   
-   It gives you immediate access to an integrated management system that has been built on the type
-   of enterprise architecture
-   used in banks and other large organizations.
-   OpenERP is that system, and is described in detail throughout this book.
+   SaaS让你可以快捷的访问一个集成的管理系统，该系统是以银行和其它大型组织的企业架构建立起来的。
+   OpenERP就是这样的系统，本书会详细介绍具体功能。
 
 .. i18n: Whether you want to test OpenERP or to put it into full production, you have at least three starting
 .. i18n: points:
@@ -179,10 +176,7 @@
 
 .. tip:: 当前文档
 
-   The procedure for installing OpenERP will change and improve with
-   each new version, so you should always check each release's documentation – both packaged with
-   the release and on the website – for exact installation procedures.
-
+OpenERP的每个新版本的程序安装都会有所改进，所以你应该经常检查文档 - 包括打包的和发布在网站上的 - 以保证能够正确的安装。
 .. i18n: Once you have completed this installation, create and set up a database to confirm that your
 .. i18n: OpenERP installation is working. You can follow earlier chapters in this part of the book to achieve this.
 ..
