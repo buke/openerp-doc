@@ -71,7 +71,7 @@
 .. tip:: 序号编码
 
     序号可通过 :menuselection:`Settings --> Configuration --> Sequences & Identifiers --> Sequences` 创建。
-    By default, OpenERP has only one sequence in the journal definition. If you need two separate sequences to be kept for the journal, you can install the module :mod:`account_sequence`.
+    默认情况下， OpenERP 的分类帐定义中仅有一个序号。 如果您需要在分类帐中保存两个不同的序号，您可安装 :mod:`account_sequence` 模块。
 
 .. i18n: The default credit and debit account allow the software to automatically generate counterpart entries when you are entering data through :guilabel:`Journal Items`. In some journals, debit and credit accounts are mandatory. For example, in a bank journal you should put an associated bank account, so that you do not have to create counterparts for each transaction manually.
 ..
