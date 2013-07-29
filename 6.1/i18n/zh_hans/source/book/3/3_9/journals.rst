@@ -88,9 +88,9 @@ A journal can be marked as being centralised. When you do this, the counterpart 
 .. i18n:     A bank journal can automatically be created from the bank account(s) you define for your company. Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Setup your Bank Accounts`. Here you create the bank account or IBAN number of your company's bank account(s). Fill in the Bank Name, and when you save the entry, your Bank Journal will automatically be created with the Bank Name and the Account Number. The general ledger account for this bank will also be created for you.
 ..
 
-.. note:: Bank Journal, Easy Configuration
+.. note:: 银行日记帐，容易配置
 
-    A bank journal can automatically be created from the bank account(s) you define for your company. Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Setup your Bank Accounts`. Here you create the bank account or IBAN number of your company's bank account(s). Fill in the Bank Name, and when you save the entry, your Bank Journal will automatically be created with the Bank Name and the Account Number. The general ledger account for this bank will also be created for you.
+    在您定义您公司的银行帐户事可自动创建银行日记帐。到 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Setup your Bank Accounts`， 这里您可创建您公司银行帐户的银行帐号或IBAN号。 录入银行名称，那么当您保存时，您的银行日记帐会连同银行名称和科目代码一起自动创建，  这家银行的总帐帐户也会创建。
 
 .. i18n: Controls and Tips for Data Entry
 .. i18n: --------------------------------
