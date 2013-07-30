@@ -315,10 +315,9 @@
 ..
 
 .. tip:: 备份（复制数据库）
+	要复制数据库，可以在网页的 :guilabel:`Login` 界面上点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Backup` 按钮，
+        选择你想要备份的数据库，然后输入超级管理员密码。点击 :guilabel:`Backup` 确认。
 
-        To make a copy of a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
-        Then click the :guilabel:`Backup` button, select the database you want to copy and enter the super-administrator
-	password. Click the :guilabel:`Backup` button to confirm that you want to copy the database.
 
 .. i18n: .. index::
 .. i18n:    single: database; drop
@@ -334,11 +333,10 @@
 .. i18n: 	password. Click the :guilabel:`Drop` button to confirm that you want to delete the database.
 ..
 
-.. tip:: Drop (delete) a Database
+.. tip:: 删除数据库
 
-        To delete a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
-        Then click the :guilabel:`Drop` button, select the database you want to delete and enter the super-administrator
-	password. Click the :guilabel:`Drop` button to confirm that you want to delete the database.
+	要删除数据库，可以在网页上的 :guilabel:`Login`界面点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Drop` 按钮，选择你想要删除的数据库，
+	然后输入超级管理员密码。点击 :guilabel:`Drop` 确认删除。
 
 .. i18n: .. index::
 .. i18n:    single: database; restore
@@ -356,8 +354,11 @@
 .. i18n: 	To restore a database, you need to have an existing copy, of course.
 ..
 
-.. tip:: Restore a Database
+.. tip:: 恢复数据库
 
+	要恢复数据库，可以在网页上的 :guilabel:`Login` 界面上点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Restore` 
+	按钮，点击 :guilabel:`Choose File` 选择一个要恢复的数据库。给数据库起个名字然后输入超级管理员密码。
+	点击 :guilabel:`Restore` 按钮确认。当然，要恢复一个数据库，你需要有一个已经存在的拷贝。
         To restore a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
         Then click the :guilabel:`Restore` button, click the :guilabel:`Choose File` button to select the database
         you want to restore. Give the database a name and enter the super-administrator	password.
@@ -391,8 +392,7 @@
 
         #. restore this database from the backup file on your PC, and give it a new name.
 
-	This can be a useful way of making a test database from a production database. You can try out the
-	operation of a new configuration, new modules, or just the import of new data.
+	这对于从一个生产数据库建立一个测试库是很有用的。你可以尝试重新配置，新建模块或者仅仅导入新的数据，
 
 .. i18n: .. index::
 .. i18n:    single: access
@@ -404,8 +404,7 @@
 .. i18n: A system administrator can configure OpenERP to restrict access to some of these database functions
 .. i18n: so that your security is enhanced in normal production use.
 ..
-
-A system administrator can configure OpenERP to restrict access to some of these database functions
+一个系统管理员可以配置OpenERP to restrict access to some of these database functions
 so that your security is enhanced in normal production use.
 
 .. i18n: You are now ready to use databases from your installation to familiarize yourself with the
