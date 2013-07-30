@@ -81,7 +81,7 @@
 .. i18n: A journal can be marked as being centralised. When you do this, the counterpart entries will not be owned by each entry, but will be global for the given journal and period. You will then have a credit line and a debit line centralized for each entry in one of these journals, meaning that both credit and debit appear on the same line. This option is used when posting opening entries in a situation journal.
 ..
 
-一个分类账可以标记为集中式的。当您这样做时，相匹配的分录不仅被每张凭证拥有，而且会被给定的分类账和会计期间全局使用。You will then have a credit line and a debit line centralized for each entry in one of these journals, meaning that both credit and debit appear on the same line. This option is used when posting opening entries in a situation journal.
+一个分类账可以标记为集中式的。当您这样做时，相匹配的分录不仅被每张凭证拥有，而且针对给定的分类账和会计期间是全局性的。当您在其中一个分类账中将贷方行和借方行做了集中式标记后，这意味着贷方和借方会在同一行上显示。这个选项常用于开账分录。
 
 .. i18n: .. note:: Bank Journal, Easy Configuration
 .. i18n: 
