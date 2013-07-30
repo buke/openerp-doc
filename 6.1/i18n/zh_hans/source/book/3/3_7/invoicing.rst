@@ -371,13 +371,13 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 .. i18n: *  `Taxes` : provided by the product form and the partner form.
 ..
 
-*  `Description` : this comes from the product, in the language of the partner,
+*  `摘要(Description)` : 默认由合作伙伴的产品名称带出,
 
 *  `Account` : determined by the purchase or sales account defined in the
    product properties. If no account is specified in the product form, OpenERP uses the properties of
    the category that the product is associated with.
 
-*  `Unit of Measure` : this is defined by default in the product form,
+*  `计量单位(Unit of Measure)` : 默认由选择的产品的计量单位带出,
 
 *  `Unit Price` : this is given by the sales price in the product form and is expressed
    without taxes,
