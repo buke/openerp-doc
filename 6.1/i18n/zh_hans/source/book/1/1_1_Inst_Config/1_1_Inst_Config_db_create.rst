@@ -360,11 +360,7 @@
 	要恢复数据库，可以在网页上的 :guilabel:`Login` 界面上点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Restore` 
 	按钮，点击 :guilabel:`Choose File` 选择一个要恢复的数据库。给数据库起个名字然后输入超级管理员密码。
 	点击 :guilabel:`Restore` 按钮确认。当然，要恢复一个数据库，你需要有一个已经存在的拷贝。
-        To restore a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
-        Then click the :guilabel:`Restore` button, click the :guilabel:`Choose File` button to select the database
-        you want to restore. Give the database a name and enter the super-administrator	password.
-	Click the :guilabel:`Restore` button to confirm that you want to install a new copy of the selected database.
-	To restore a database, you need to have an existing copy, of course.
+
 
 .. i18n: .. index::
 .. i18n:    single: database; duplicate
