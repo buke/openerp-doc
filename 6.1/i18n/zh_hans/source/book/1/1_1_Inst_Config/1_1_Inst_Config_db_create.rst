@@ -315,6 +315,7 @@
 ..
 
 .. tip:: 备份（复制数据库）
+
 	要复制数据库，可以在网页的 :guilabel:`Login` 界面上点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Backup` 按钮，
         选择你想要备份的数据库，然后输入超级管理员密码。点击 :guilabel:`Backup` 确认。
 
@@ -335,7 +336,7 @@
 
 .. tip:: 删除数据库
 
-	要删除数据库，可以在网页上的 :guilabel:`Login`界面点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Drop` 按钮，选择你想要删除的数据库，
+	要删除数据库，可以在网页上的 :guilabel:`Login` 界面点击 :guilabel:`Databases` 按钮。然后点击 :guilabel:`Drop` 按钮，选择你想要删除的数据库，
 	然后输入超级管理员密码。点击 :guilabel:`Drop` 确认删除。
 
 .. i18n: .. index::
