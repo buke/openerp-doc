@@ -15,7 +15,7 @@
 .. i18n: All your accounting entries need to appear in an accounting journal. So you should create a Sales Journal for customer invoices, a Sales Refund journal for customer credit notes, a Purchase Journal for supplier invoices, a Purchase Refund journal for supplier credit notes and a Bank Journal for bank transactions.
 ..
 
-所有的会计分录需要由会计帐簿来显示。因此您应该为销售发票创建销售分类帐， 为客户欠款创建销售红字分类账, 为供应商发票创建采购分类帐， 为供应商欠条创建采购红字分类账以及为银行业务创建一个银行分类账。
+所有的会计分录需要由会计帐簿来显示。因此您应该为销售发票创建销售分类帐， 为客户退货创建销售红字分类账, 为供应商发票创建采购分类帐， 为供应商欠条创建采购红字分类账以及为银行业务创建一个银行分类账。
 
 .. i18n: Configuring a Journal
 .. i18n: ---------------------
