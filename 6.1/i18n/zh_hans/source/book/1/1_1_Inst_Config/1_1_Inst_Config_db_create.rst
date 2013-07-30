@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: database; create
 .. i18n:    single: database
@@ -217,7 +216,7 @@
 .. i18n: following steps:
 ..
 
-既然这是你第一次连结到这个数据库，系统会问你一系列的问题来确认数据库的参数。你可以选择 :guilabel:`跳过配置向导` 或
+如果这是你第一次连结到这个数据库，系统会问你一系列的问题来确认数据库的参数。你可以选择 :guilabel:`跳过配置向导` 或
 :guilabel:`开始配置` 。如果你选择设定应用程序的组态，可以依照以下步奏进行:
 
 .. i18n: 	#.  :guilabel:`Configure Your Interface` : select \ ``Simplified`` \ and click :guilabel:`Next`.
@@ -279,8 +278,8 @@
 
 .. i18n: As a super-administrator, you do not only have rights to create new databases, but also to:
 ..
+作为超级管理员，你不仅有权利创建数据库，还可以：
 
-As a super-administrator, you do not only have rights to create new databases, but also to:
 
 .. i18n: * backup databases,
 .. i18n: 
@@ -289,20 +288,17 @@ As a super-administrator, you do not only have rights to create new databases, b
 .. i18n: * restore databases.
 ..
 
-* backup databases,
+* 备份数据库
 
-* delete databases,
+* 删除数据库
 
-* restore databases.
+* 恢复数据库
 
 .. i18n: All of these operations can be carried out from the menu :menuselection:`File --> Databases...`
 .. i18n: in the GTK client, or from the :guilabel:`Databases` button in the web client's 
 .. i18n: :guilabel:`Login` screen.
 ..
-
-All of these operations can be carried out from the menu :menuselection:`File --> Databases...`
-in the GTK client, or from the :guilabel:`Databases` button in the web client's 
-:guilabel:`Login` screen.
+在GTK客户端中，所有这些操作都可以在:menuselection:`File --> Databases...`中实现，在网页客户端中通过:guilabel:`Login`界面的:guilabel:`Databases` 按钮实现。
 
 .. i18n: .. index::
 .. i18n:    single: database; backup
@@ -318,7 +314,7 @@ in the GTK client, or from the :guilabel:`Databases` button in the web client's
 .. i18n: 	password. Click the :guilabel:`Backup` button to confirm that you want to copy the database.
 ..
 
-.. tip:: Backup (copy) a Database
+.. tip:: 备份（复制数据库）
 
         To make a copy of a database, go to the web :guilabel:`Login` screen and click the :guilabel:`Databases` button.
         Then click the :guilabel:`Backup` button, select the database you want to copy and enter the super-administrator
