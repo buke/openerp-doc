@@ -298,7 +298,7 @@
 .. i18n: in the GTK client, or from the :guilabel:`Databases` button in the web client's 
 .. i18n: :guilabel:`Login` screen.
 ..
-在GTK客户端中，所有这些操作都可以在 :menuselection:`File --> Databases...`中实现，在网页客户端中通过 :guilabel:`Login`界面的 :guilabel:`Databases` 按钮实现。
+在GTK客户端中，所有这些操作都可以在 :menuselection:`File --> Databases...` 中实现，在网页客户端中通过 :guilabel:`Login` 界面的 :guilabel:`Databases` 按钮实现。
 
 .. i18n: .. index::
 .. i18n:    single: database; backup
