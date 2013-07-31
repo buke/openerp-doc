@@ -381,13 +381,13 @@
 .. i18n: 	operation of a new configuration, new modules, or just the import of new data.
 ..
 
-.. tip::   Duplicating a Database
+.. tip::   建立数据库复本
 
-	To duplicate a database, you can:
+	要建立一个数据库副本，你可以：
 
-        #. make a backup file on your PC from this database.
+        #. 从原数据库生成一个备份文件。
 
-        #. restore this database from the backup file on your PC, and give it a new name.
+        #. 恢复这个备份文件，并且重新命名。
 
 	这对于从一个生产数据库建立一个测试库是很有用的。你可以尝试重新配置，新建模块或者仅仅导入新的数据，
 
@@ -401,15 +401,14 @@
 .. i18n: A system administrator can configure OpenERP to restrict access to some of these database functions
 .. i18n: so that your security is enhanced in normal production use.
 ..
-一个系统管理员可以配置OpenERP to restrict access to some of these database functions
-so that your security is enhanced in normal production use.
+在正常生产使用中，系统管理员可以通过配置OpenERP来限制访问这些数据库中的某些功能以提高安全性。
 
 .. i18n: You are now ready to use databases from your installation to familiarize yourself with the
 .. i18n: administration and use of OpenERP.
 ..
 
-You are now ready to use databases from your installation to familiarize yourself with the
-administration and use of OpenERP.
+现在你可以利用安装的数据库来熟悉OpenERP的管理和使用了。
+
 
 .. i18n: New OpenERP Functionality
 .. i18n: =========================
