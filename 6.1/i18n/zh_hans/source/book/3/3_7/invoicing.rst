@@ -740,8 +740,8 @@ entries.
 .. i18n: to the \ ``Draft`` \ state to modify it and regenerate it.
 ..
 
-To be able to cancel invoices, you should install the module :mod:`account_cancel`. You can cancel an invoice if the :guilabel:`Allow Cancelling Entries` function has been activated in the journal and the entries have not yet been reconciled. You could then move it from \ ``Cancelled`` \
-to the \ ``Draft`` \ state to modify it and regenerate it.
+要能取消发票, 你需要安装 :mod:`account_cancel` 模块, 并在你可以取消发票的账簿里配置 :guilabel:`允许取消发票(Allow Cancelling Entries)` 勾选项.
+这时,只要未核销的发票均可以取消该发票, 并重置该发票到 `草稿(Draft)` 状态.
 
 .. i18n: .. tip::  Numbering Invoices
 .. i18n: 
