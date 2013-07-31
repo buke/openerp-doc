@@ -302,8 +302,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
    * In the web client in read-only mode, a relation is commonly a hyperlink
      - it takes you to the main form for that entity, with all of the actions and links.
 
-   * In the web client in edit mode you can right-click in the field to get a
-     context menu with links and other options.
+   * 使用浏览器访问时,在编辑模式下,你可以在字段上使用鼠标右键得到相关的功能菜单.
 
    * And in the GTK client you can right-click the field to get that same
      context menu.
