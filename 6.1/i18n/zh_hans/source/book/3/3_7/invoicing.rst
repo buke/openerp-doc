@@ -297,7 +297,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 
 .. tip:: Seeing Partner Relationships
 
-   You can reach more information from certain relation fields in OpenERP.
+   在OpenERP中, 你很多数据是相互关联的. 从某一个字段,可以引出相关的很多其他数据信息.
 
    * In the web client in read-only mode, a relation is commonly a hyperlink
      - it takes you to the main form for that entity, with all of the actions and links.
