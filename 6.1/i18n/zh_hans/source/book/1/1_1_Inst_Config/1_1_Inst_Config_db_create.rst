@@ -422,12 +422,12 @@
 .. i18n: only installed into an OpenERP database as you require it, as is described in the next chapter, :ref:`ch-guided`.
 ..
 
-The database you have created and managed so far is based on the core OpenERP functionality that you
-installed. The core system is installed in the file system of your OpenERP application server, but
-only installed into an OpenERP database as you require it, as is described in the next chapter, :ref:`ch-guided`.
+你创建和管理的数据库是建立在OpenERP核心功能至上的。核心系统安装在OpenERP应用服务器的文件系统上。只有当你要求的时候，
+才会安装到OpenERP数据库中，详情参考下一章节， :ref:`ch-guided`。
 
 .. i18n: What if you want to update what is there, or extend what is there with additional modules?
 ..
+
 
 What if you want to update what is there, or extend what is there with additional modules?
 
