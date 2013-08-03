@@ -1,3 +1,4 @@
+
 .. i18n: Invoices
 .. i18n: ========
 ..
@@ -304,8 +305,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 
    * 使用浏览器访问时,在编辑模式下,你可以在字段上使用鼠标右键得到相关的功能菜单.
 
-   * And in the GTK client you can right-click the field to get that same
-     context menu.
+   * 在GTK客户端里,右键点击字段,可以得到一样的结果.
 
    So one way or another you can rapidly reach the partner's:
 
