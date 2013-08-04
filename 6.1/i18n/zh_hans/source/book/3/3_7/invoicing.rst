@@ -1,4 +1,3 @@
-
 .. i18n: Invoices
 .. i18n: ========
 ..
@@ -378,8 +377,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 
 *  `计量单位(Unit of Measure)` : 默认由选择的产品的计量单位带出,
 
-*  `Unit Price` : this is given by the sales price in the product form and is expressed
-   without taxes,
+*  `单位价格(Unit Price)` : 默认使用所选产品上的销售价格(不含税),
 
 *  `Taxes` : provided by the product form and the partner form.
 
