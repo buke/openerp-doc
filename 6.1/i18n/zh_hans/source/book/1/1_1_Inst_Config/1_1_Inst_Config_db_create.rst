@@ -428,8 +428,7 @@
 .. i18n: What if you want to update what is there, or extend what is there with additional modules?
 ..
 
-
-What if you want to update what is there, or extend what is there with additional modules?
+如果你想更新或扩展额外的模块该怎么做？
 
 .. i18n: * To update what you have, you would install a new instance of OpenERP using the same techniques as
 .. i18n:   described earlier in this section, :ref:`sect-dbcreate`.
@@ -438,11 +437,9 @@ What if you want to update what is there, or extend what is there with additiona
 .. i18n:   OpenERP installation. There are several ways of doing that.
 ..
 
-* To update what you have, you would install a new instance of OpenERP using the same techniques as
-  described earlier in this section, :ref:`sect-dbcreate`.
+* 要进行更新，你的使用本部分前面提到的技术重新安装一个新的OpenERP实例，参照 :ref:`sect-dbcreate`。
 
-* To extend what you have, you would install new modules in the ``addons`` directory of your current
-  OpenERP installation. There are several ways of doing that.
+* 要进行扩展，你得安装新模块到你现有的OpenERP系统的 ``addons`` 目录下，具体操作可以有多种方式。
 
 .. i18n: .. index::
 .. i18n:    pair:  system; administrator
@@ -455,8 +452,7 @@ What if you want to update what is there, or extend what is there with additiona
 .. i18n: OpenERP application server.
 ..
 
-In both cases you will need to be a \ ``root`` \ user or \ ``Administrator`` \ of your
-OpenERP application server.
+在这两种情况下你都需要你的OpenERP应用服务器的 \ ``root`` \ 用户或者 \ ``Administrator`` \ 用户权限。
 
 .. i18n: Extending OpenERP
 .. i18n: -----------------
