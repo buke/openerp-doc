@@ -1,4 +1,3 @@
-
 .. i18n: The Importance of Good Document Management
 .. i18n: ==========================================
 ..
@@ -78,9 +77,7 @@
 .. i18n: that:
 ..
 
-Even worse than the loss of time, perhaps, the lack of good document management is bad for the
-quality of your organization and the service provided by your company. In such a company it is likely
-that:
+比浪费时间更糟的是缺乏良好的文档管理，这可能影响你的公司的组织和提供的服务质量。在这样的公司通常是：
 
 .. i18n: * sets of documents do not follow a standard layout,
 .. i18n: 
