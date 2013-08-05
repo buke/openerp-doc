@@ -466,9 +466,9 @@
 .. i18n: various Linux distributions and not available at all in the Windows all-in-one installer).
 ..
 
-To extend OpenERP you will need to copy modules into the \ ``addons`` \ directory. That is in
-your server's \ ``openerp-server`` \ directory (which differs between Windows, Mac and some of the
-various Linux distributions and not available at all in the Windows all-in-one installer).
+要扩展OpenERP，你需要把模块复制到 \ ``addons`` \ 目录。它在你的服务器 \ ``openerp-server`` \ 目录（这个目录
+在Windows，Mac和不同版本的Linux版本之间会略有不同，在Windows all-in-one版本中则完全不同（not available at all））下。
+
 
 .. i18n: .. index::
 .. i18n:    single: module; product
