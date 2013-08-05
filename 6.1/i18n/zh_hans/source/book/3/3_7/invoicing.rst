@@ -379,7 +379,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 
 *  `单位价格(Unit Price)` : 默认使用所选产品上的销售价格(不含税),
 
-*  `Taxes` : provided by the product form and the partner form.
+*  `税(Taxes)` : 默认使用产品及合作伙伴窗体上定义的各种税.
 
 .. i18n: .. index::
 .. i18n:    single: module; account_tax_include
