@@ -533,19 +533,19 @@
 
 .. tip:: Changing Permissions
 
-	A very simple way of changing permissions on the Linux system you are using to develop an OpenERP
-	application is to execute the command sudo chmod 777 <path_to_addons> (where <path_to_addons> is
-	the full path to the addons directory, a location like /usr/lib/python2.5/site-packages/openerp-
-	server/addons).
+	在安装OpenERP系统的Linux服务器上修改权限的最简单的办法是执行命令 sudo chmod 777 <addons文件夹路径>
+	(<addons文件夹路径>需要使用完整路径，例如： /usr/lib/python2.5/site-packages/openerp-
+	server/addons)。
+	
 
 .. i18n: Any user of OpenERP who has access to the relevant administration menus can then upload any new
 .. i18n: functionality, so you would certainly disable this capability for production use. You will see examples of
 .. i18n: this uploading as you make your way through this book.
 ..
 
-Any user of OpenERP who has access to the relevant administration menus can then upload any new
-functionality, so you would certainly disable this capability for production use. You will see examples of
-this uploading as you make your way through this book.
+OpenERP的所有用户只要进入了管理菜单就可以上传任何新功能，所以在生产环境中你必须慎重考虑该功能。你会在本书
+后面的内容中看到上传文件的事例。
+
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
