@@ -89,12 +89,10 @@ OpenERP的安装
 
 .. note::  Stable Versions and Development Versions
 
-	OpenERP development proceeds in two parallel tracks: stable versions and development versions.
+	OpenERP的发展采取两个平行的轨道，稳定的版本和开发版本。
 
-	New functionality is integrated into the development branch. This branch is more advanced than the
-	stable branch, but it can contain undiscovered and unfixed faults. A new development release is
-	made every month or so, and OpenERP has made the code repository available so you can download the
-	very latest revisions if you want.
+	新功能被集成到开发分支中。这个分支比稳定版更加先进，但是它里面包含了一些未被发现的和没有修复的错误。
+	几乎每个月都会发布一个新的开发版本，OpenERP建立了一个代码仓库，如果需要你可以下载很老的版本。
 
 	The stable branch is designed for production environments. Releases of new functionality there are
 	made only about once a year after a long period of testing and validation. Only bug fixes are
