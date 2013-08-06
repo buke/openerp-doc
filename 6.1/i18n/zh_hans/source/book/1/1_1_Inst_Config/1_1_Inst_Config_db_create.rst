@@ -531,7 +531,7 @@
 .. i18n: 	server/addons).
 ..
 
-.. tip:: Changing Permissions
+.. tip:: 修改权限
 
 	在安装OpenERP系统的Linux服务器上修改权限的最简单的办法是执行命令 sudo chmod 777 <addons文件夹路径>
 	(<addons文件夹路径>需要使用完整路径，例如： /usr/lib/python2.5/site-packages/openerp-
