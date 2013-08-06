@@ -90,7 +90,7 @@
 .. i18n: * version management is chaotic or even non-existent.
 ..
 
-* sets of documents do not follow a standard layout,
+* 文件归类没有遵循一套标准,
 
 * all the salespeople prepare quotations in their own way and gradually change the way they do it
   for themselves but not for the group,
