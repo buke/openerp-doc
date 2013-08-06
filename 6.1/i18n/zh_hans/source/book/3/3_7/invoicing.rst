@@ -396,9 +396,9 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 .. i18n:         the tax.
 ..
 
-.. tip::  Managing the Price with Tax Included
+.. tip::  使用含税价
 
-        By default, OpenERP invoices and processes the price without taxes – they are managed as a
+        通常情况下, OpenERP 发票等价格是使用的不含税价 – they are managed as a
         separate amount.
         OpenERP can manage tax inclusive prices when you check the `Tax Included in Price` field true when configuring
         the tax.
