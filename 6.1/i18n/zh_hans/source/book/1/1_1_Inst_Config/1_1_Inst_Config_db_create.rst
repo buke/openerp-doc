@@ -484,14 +484,13 @@
 .. i18n: that same directory structure.
 ..
 
-If you look there you will see existing modules such as :mod:`product` and :mod:`purchase`. A
-module can be provided in the form of files within a directory or a a zip-format file containing
-that same directory structure.
+在哪个目录下你会看到现有系统中已经安装的模块，比如： :mod:`product` and :mod:`purchase`。一个模块可以以
+文件、文件夹的形式或者是zip包的形式存在。如果是zip包，那里面的文件结构也是和文件、文件夹类型相同的。
 
 .. i18n: You can add modules in two main ways – through the server, or through the client.
 ..
 
-You can add modules in two main ways – through the server, or through the client.
+基本上，你可以通过两种方式添加模块 —— 通过服务器或者通过客户端。
 
 .. i18n: .. index::
 .. i18n:    pair:  system; administration
@@ -505,9 +504,8 @@ You can add modules in two main ways – through the server, or through the clie
 .. i18n: permissions to match those of the other modules.
 ..
 
-To add new modules through the server is a conventional system administration task. As \ ``root`` \
-user or another suitable user, you would put the module in the \ ``addons`` \ directory and change its
-permissions to match those of the other modules.
+通过服务器添加模块是一个传统的系统管理任务。 以 \ ``root`` \ 用户或者其他合适的用户，你可以把模块放到 \ ``addons`` \ 
+目录下并且修改权限以便可以和其它模块一样正确执行。
 
 .. i18n: To add new modules through the client you must first change the permissions of the \ ``addons`` \
 .. i18n: directory of the server, so that it is writeable by the server. That will enable you to install
@@ -515,10 +513,8 @@ permissions to match those of the other modules.
 .. i18n: server by the server software).
 ..
 
-To add new modules through the client you must first change the permissions of the \ ``addons`` \
-directory of the server, so that it is writeable by the server. That will enable you to install
-OpenERP modules using the OpenERP client (a task ultimately carried out on the application
-server by the server software).
+通过客户端添加模块，你必须首先修改服务器上 \ ``addons`` \ 目录的权限，将此目录设为可写。只有这样才可以通过OpenERP客户端安装模块。
+（应用服务器上的服务软件最终将执行一个任务来完成该操作）
 
 .. i18n: .. index::
 .. i18n:    pair:  filesystem; permissions
