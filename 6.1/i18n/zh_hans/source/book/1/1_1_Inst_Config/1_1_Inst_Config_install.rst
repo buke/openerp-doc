@@ -63,9 +63,8 @@ OpenERP的安装
 .. i18n: into production we strongly advise you to choose the stable version.
 ..
 
-The first step is to download the OpenERP installer. At this stage you must choose which version
-to install – the stable version or the development version. If you are planning to put it straight
-into production we strongly advise you to choose the stable version.
+第一步是下载OpenERP安装文件。在这个阶段你需要确定选择哪个版本——稳定版还是开发板。如果你打算直接把它用在生产
+环境中，我们强烈建议你选择稳定版。
 
 .. i18n: .. index::
 .. i18n:    single: stable versions
