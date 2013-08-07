@@ -94,21 +94,21 @@ OpenERP的安装
 	新功能被集成到开发分支中。这个分支比稳定版更加先进，但是它里面包含了一些未被发现的和没有修复的错误。
 	几乎每个月都会发布一个新的开发版本，OpenERP建立了一个代码仓库，如果需要你可以下载很老的版本。
 
-	The stable branch is designed for production environments. Releases of new functionality there are
-	made only about once a year after a long period of testing and validation. Only bug fixes are
-	released through the year on the stable branch.
+	稳定分支是为生产环境设计的。基本上每年发布一次新版本，新版本中的功能都是经过长期测试和确认正确的。
+	但是稳定分支中的错误修复仍然会在第一时间发布，不用等到第二年的发布版本。
+
 
 .. i18n: .. index::
 .. i18n:    single: installation; Windows (all-in-one)
 ..
 
 .. index::
-   single: installation; Windows (all-in-one)
+   single: 安装; Windows (all-in-one)
 
 .. i18n: To download the version of OpenERP for Windows, follow these steps:
 ..
 
-To download the version of OpenERP for Windows, follow these steps:
+通过以下步骤下载OpenERP Windows版：
 
 .. i18n: #. Navigate to the site http://openerp.com.
 .. i18n: 
