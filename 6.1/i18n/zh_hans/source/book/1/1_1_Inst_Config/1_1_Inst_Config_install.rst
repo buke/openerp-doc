@@ -87,7 +87,7 @@ OpenERP的安装
 .. i18n: 	released through the year on the stable branch.
 ..
 
-.. note::  Stable Versions and Development Versions
+.. note::  稳定版和开发版
 
 	OpenERP的发展采取两个平行的轨道，稳定的版本和开发版本。
 
