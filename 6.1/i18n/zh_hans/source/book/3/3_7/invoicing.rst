@@ -436,8 +436,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 .. i18n: by OpenERP.
 ..
 
-You can enter several invoice lines and modify the values that are automatically completed
-by OpenERP.
+输入完发票明细后, 你还可以继续修改自动带出的相关的信息.
 
 .. i18n: Once the invoice lines have been entered, you can click `Compute Taxes` on the invoice to get
 .. i18n: the following information:
