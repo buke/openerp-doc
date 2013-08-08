@@ -71,7 +71,7 @@ OpenERP的安装
 ..
 
 .. index::
-   single: stable versions
+   single: 稳定版
 
 .. i18n: .. note::  Stable Versions and Development Versions
 .. i18n: 
@@ -122,30 +122,27 @@ OpenERP的安装
 .. i18n:    the PostgreSQL database system, so it will take some time.
 ..
 
-#. Navigate to the site http://openerp.com.
+#. 打开以下网址 http://openerp.com.
 
-#. Click the :menuselection:`Downloads` button at the right, then, under :guilabel:`Windows Auto-Installer`, select
-   :menuselection:`All-in-One`.
+#. 点击右边的 :menuselection:`Downloads` 按钮，然后在 :guilabel:`Windows Auto-Installer` 下选择 :menuselection:`All-in-One`。
 
-#. This brings up the demonstration version Windows installer, 
-   currently :program:`openerp-allinone-setup-6.0.0`.
+#. 你会看到Windows安装版的示范样例，当前版本为 :program:`openerp-allinone-setup-6.0.0`.
 
-#. Save the file on your PC - it is quite a substantial size because it downloads everything including
-   the PostgreSQL database system, so it will take some time.
+#. 将这个文件保存到你的电脑上 —— 文件可能比较大，因为它里面包含了PostgreSQL数据库系统，所以下载所需的时间可能会比较长。
+
 
 .. i18n: .. index::
 .. i18n:    single:  installation; administrator
 ..
 
 .. index::
-   single:  installation; administrator
+   single:  安装; 管理
 
 .. i18n: To install OpenERP and its database, you must be signed in as an Administrator on your PC. Double-
 .. i18n: click the installer file to install it and accept the default parameters on each dialog box as you go. 
 ..
 
-To install OpenERP and its database, you must be signed in as an Administrator on your PC. Double-
-click the installer file to install it and accept the default parameters on each dialog box as you go. 
+安装OpenERP和它的数据库，你必须以管理员用户登录到你的电脑。双击安装文件后，一路默认安装即可。
 
 .. i18n: If you had previously tried to install the all-in-one version of OpenERP, you will have to uninstall
 .. i18n: that first, because various elements of a previous installation could interfere with your new installation.
