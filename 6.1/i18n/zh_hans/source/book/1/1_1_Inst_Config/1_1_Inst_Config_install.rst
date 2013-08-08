@@ -150,26 +150,23 @@ OpenERP的安装
 .. i18n: you are likely to have to restart your PC to finish removing all traces of them.
 ..
 
-If you had previously tried to install the all-in-one version of OpenERP, you will have to uninstall
-that first, because various elements of a previous installation could interfere with your new installation.
-Make sure that all Tiny ERP, OpenERP and PostgreSQL applications are removed:
-you are likely to have to restart your PC to finish removing all traces of them.
+如果你以前曾经尝试安装过OpenERP的all-in-one版本，你必选首先卸载它，因为之前的安装可能会影响到你新的安装。
+确认所有的Tiny ERP，OpenERP和PostgreSQL程序都卸载掉，这个过程可能需你要重启电脑。
 
 .. i18n: The OpenERP client can be opened, ready to use the OpenERP system, once you have completed 
 .. i18n: the all-in-one installation. The next step consists
 .. i18n: of setting up the database, and is covered in the final section of this chapter :ref:`sect-creatingdb`.
 ..
 
-The OpenERP client can be opened, ready to use the OpenERP system, once you have completed 
-the all-in-one installation. The next step consists
-of setting up the database, and is covered in the final section of this chapter :ref:`sect-creatingdb`.
+OpenERP客户端可以保持打开状态，一旦你完成了 all-in-one的安装，就可以连接并使用OpenERP系统了。下一步是安装数据库，
+将会在本章的最后部分 :ref:`sect-creatingdb` 中介绍。
 
 .. i18n: .. index::
 .. i18n:    single: installation; Windows (independent)
 ..
 
 .. index::
-   single: installation; Windows (independent)
+   single: 安装; Windows (独立安装)
 
 .. i18n: Independent Installation on Windows
 .. i18n: -----------------------------------
