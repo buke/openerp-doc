@@ -94,8 +94,7 @@
 
 * 每个销售人员都用自己的格式来组织报价单并且所有更改的都只对个人而不是以组为单位,
 
-* a correction to a type of contract stays with a small group of people and does not percolate back
-  into the rest of the company to benefit other users,
+* 某部分人在纠正合同的内容，但没有传达到公司的其他人使他们受益,
 
 * version management is chaotic or even non-existent.
 
