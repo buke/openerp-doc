@@ -421,10 +421,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 
         When you are entering invoice data, it can sometimes be useful to get hold of more information about
         the product you are invoicing.
-        Since you are already in edit mode, you would use a right mouse-click
-        on the `Product` field
-        (in both the web and the GTK clients).
-        Then select the available reports. OpenERP provides three standard reports about the product:
+        在 Web 客户端或者 Gtk 客户端 的 `产品(Product)` 字段编辑模式下点右键,可以看到关于产品的如下的一些信息:
 
         * 库存预测,
 
