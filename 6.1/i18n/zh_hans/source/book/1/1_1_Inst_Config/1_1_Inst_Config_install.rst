@@ -182,29 +182,25 @@ Windows 独立安装
 .. i18n: separate hardware units.
 ..
 
-System administrators can have very good reasons for wanting to install the various components of a
-Windows installation separately. For example, your company may not support the version of PostgreSQL
-or Python that is installed automatically, or you may already have PostgreSQL installed on the server
-you are using, or you may want to install the database server and application server on
-separate hardware units.
+系统管理员非常有理由想要单独安装某个组件。比如，你的公司可能不支持自动安装的PostgreSQL或者Python，
+或者你可能已经在服务器上安装了PostgreSQL，或者你想将数据库服务器和应用服务器分开安装到不同的硬件设备上。
+
 
 .. i18n: For this situation, you can get a separate installer for the OpenERP server from the same
 .. i18n: location as the all-in-one auto-installer. You will also have to download and install a suitable
 .. i18n: version of PostgreSQL independently.
 ..
 
-For this situation, you can get a separate installer for the OpenERP server from the same
-location as the all-in-one auto-installer. You will also have to download and install a suitable
-version of PostgreSQL independently.
+这种情况下，你可以从相同的地址下载一个 all-in-one 自动安装程序，它里面只包含了OpenERP服务器的内容。你还需要单独
+下载安装一个合适版本的PostgreSQL数据库。
+
 
 .. i18n: You must install PostgreSQL before the OpenERP server, and you must also set it up with a user
 .. i18n: and password so that the OpenERP server can connect to it. OpenERP's web-based documentation gives
 .. i18n: full and current details.
 ..
 
-You must install PostgreSQL before the OpenERP server, and you must also set it up with a user
-and password so that the OpenERP server can connect to it. OpenERP's web-based documentation gives
-full and current details.
+你必须在安装OpenERP服务器之前安装PostgreSQL，必须设置好用户和密码，这样OpenERP服务器才能连接它。OpenERP的网络文档给出了详细说明。
 
 .. i18n: Connecting Users on Other PCs to the OpenERP Server
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
