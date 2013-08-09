@@ -96,7 +96,7 @@
 
 * 某部分人在纠正合同的内容，但没有传达到公司的其他人使他们受益,
 
-* version management is chaotic or even non-existent.
+* 版本管理混乱，甚至没有。
 
 .. i18n: So a good integrated document management system can be a powerful tool to help in day-to-day company
 .. i18n: management. With it you could also easily:
