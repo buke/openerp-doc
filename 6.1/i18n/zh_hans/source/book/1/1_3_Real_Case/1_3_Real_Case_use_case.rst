@@ -1,4 +1,3 @@
-
 .. i18n: Business Example
 .. i18n: ================
 ..
@@ -184,8 +183,8 @@ because they both contain demonstration data.
 .. i18n:    Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
 ..
 
-1. If you click the `Start Configuration` button, OpenERP guides you through a series of steps to: :guilabel:`Configure Your Interface` - proceed with the default ``Simplified`` (the other option is ``Extended``); and :guilabel:`Configure Your Company Information` - enter a :guilabel:`Company Name` and select a :guilabel:`Currency` for your company.
-   Then OpenERP helps you to install various applications with different functionalities through the following wizard as shown in figure :ref:`fig-oech03cfg` :
+1. 如果你点击开始设置按键, OpenERP将会让你操作以下几步: :guilabel:`设置你的界面` -这一步选择默认的 ``简单`` (另外一个选项是``拓展``); and :guilabel:`设置公司信息` - 输入 :guilabel:`公司名` 选择一个适合你公司的 :guilabel:`币种`.
+   接下来OpenERP将会根据设置中选项的功能，相应安装一些程序 :ref:`fig-oech03cfg` :
 
 .. i18n: .. _fig-oech03cfg:
 .. i18n: 
