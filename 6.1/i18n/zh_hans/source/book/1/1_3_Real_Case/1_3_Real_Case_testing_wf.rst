@@ -1,4 +1,3 @@
-
 .. i18n: Driving a Purchase / Sales Flow
 .. i18n: ===============================
 ..
@@ -664,17 +663,17 @@ the new revenue line from the invoice.
 ..
 
 Registering an invoice payment by a customer is essentially the same as the process of paying a
-supplier. From the menu :menuselection:`Accounting --> Customers --> Customer Invoices`,
-click the name of the invoice that you want to mark as paid:
+supplier. 在菜单中 :menuselection:`账户 --> 客户 --> 客户发票`,
+点击你想要设置为已付的发票名字:
 
 .. i18n: 	#. Use the :guilabel:`Payment` button which opens a new window `Pay Invoice`.
 .. i18n: 
 .. i18n: 	#. Select the :guilabel:`Payment Method`, for this example select ``Cash`` then validate the entry.
 ..
 
-	#. Use the :guilabel:`Payment` button which opens a new window `Pay Invoice`.
+	#. 使用 :guilabel:`Payment` 按键打开一个`Pay Invoice`新窗口.
 
-	#. Select the :guilabel:`Payment Method`, for this example select ``Cash`` then validate the entry.
+	#. 选择 :guilabel:`Payment Method`, 在这个例子中使用 ``现金`` then validate the entry.
 
 .. i18n: .. _fig_ch03faminv:
 .. i18n: 
@@ -691,7 +690,7 @@ click the name of the invoice that you want to mark as paid:
    :scale: 75
    :align: center
 
-   *Invoice Form*
+   *发票表单*
 
 .. i18n: Check your Chart of Accounts as before to see that you now have a healthy bank balance in the \
 .. i18n: ``Cash``\   account.
