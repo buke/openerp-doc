@@ -476,9 +476,9 @@ calculated for different tax rates used in the invoice.
 .. i18n:         enables you to manage the declaration in OpenERP automatically.
 ..
 
-.. tip::  Tax Calculations
+.. tip::  计算税额
 
-        You can double-click one of the lines in the tax summary areas in the invoice.
+        在发票税项区里双击明细行就可以查看相关税的详细信息.
 
         OpenERP then shows you the detail of the tax charges which will form your tax
         declaration at the end of the period.
