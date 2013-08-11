@@ -439,8 +439,7 @@ OpenERP 的发票录入相当方便,而且支持非财务人员录入相应的�
 .. i18n: the following information:
 ..
 
-Once the invoice lines have been entered, you can click `Compute Taxes` on the invoice to get
-the following information:
+输入完发票明细后,你可能点击 `计算税额(Compute Taxes)` 按钮, 发票会自动产生下面的相关税项:
 
 .. i18n: * details of tax calculated,
 .. i18n: 
