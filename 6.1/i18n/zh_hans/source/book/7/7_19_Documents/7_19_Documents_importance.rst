@@ -125,8 +125,7 @@
 .. i18n:   document type or a procedure.
 ..
 
-* Continue the work started by a colleague if she has gone on vacation, and respond to her customers
-  if needed,
+* 如果同事去了度假，你也可以继续她的工作，有需要还可以回复她的客户,
 
 * Get hold of examples of all document types with just a few clicks, so that you can follow company
   standards in such areas as order confirmation, price requests, meeting minutes, customer
