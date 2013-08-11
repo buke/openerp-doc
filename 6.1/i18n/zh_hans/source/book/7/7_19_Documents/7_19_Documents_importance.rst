@@ -102,8 +102,7 @@
 .. i18n: management. With it you could also easily:
 ..
 
-So a good integrated document management system can be a powerful tool to help in day-to-day company
-management. With it you could also easily:
+良好的综合文档管理系统是有助于公司日常管理的强大的工具，有了它，你可能就很容易做到：
 
 .. i18n: * Continue the work started by a colleague if she has gone on vacation, and respond to her customers
 .. i18n:   if needed,
