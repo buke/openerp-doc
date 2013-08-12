@@ -213,8 +213,7 @@ Windows 独立安装
 .. i18n: visible to the other PCs, and install a GTK client on each of those PCs:
 ..
 
-To connect other computers to the OpenERP server, you must set the server up so that it is
-visible to the other PCs, and install a GTK client on each of those PCs:
+要让其他电脑连接到OpenERP服务器，你必须安装好服务，以便其他电脑可以发现它，可以再每个电脑上安装一个GTK客户端：
 
 .. i18n: #. Make your OpenERP server visible to other PCs by opening the Windows Firewall in the Control
 .. i18n:    Panel, then ask the firewall to make an exception of the OpenERP server. In the
@@ -226,14 +225,11 @@ visible to the other PCs, and install a GTK client on each of those PCs:
 .. i18n:    same way as you downloaded the other OpenERP software, onto the other PCs.
 ..
 
-#. Make your OpenERP server visible to other PCs by opening the Windows Firewall in the Control
-   Panel, then ask the firewall to make an exception of the OpenERP server. In the
-   :guilabel:`Exceptions` tab of Windows Firewall click :guilabel:`Add a program...` and choose
-   :guilabel:`OpenERP Server` in the list provided. This step enables other computers to see the
-   OpenERP application on this server.
+#. 打开OpenERP所在服务器的Windows防火墙，可以在控制面板中找到它，然后设置一条例外，以允许别的电脑访问此服务器上的OpernERP服务。在Windows防火墙
+的 :guilabel:`Exceptions` 页中点击  click :guilabel:`Add a program...` 然后在列表中选择 :guilabel:`OpenERP Server` 即可。
 
-#. Install the OpenERP client (:program:`openerp-client-6.X.exe`), which you can download in the
-   same way as you downloaded the other OpenERP software, onto the other PCs.
+#. 安装OpenERP客户端(:program:`openerp-client-6.X.exe`), 你可以和下载其它OpenERP软件一样下载这个程序，然后在所有需要使用
+OpenERP的电脑上安装
 
 .. i18n: .. tip:: Version Matching
 .. i18n: 
@@ -242,7 +238,7 @@ visible to the other PCs, and install a GTK client on each of those PCs:
 .. i18n: 	revisions of client and server will function together, there is no certainty about that.
 ..
 
-.. tip:: Version Matching
+.. tip:: 版本匹配
 
 	You must make sure that the version of the client matches that of the server. The version number is
 	given as part of the name of the downloaded file. Although it is possible that some different
