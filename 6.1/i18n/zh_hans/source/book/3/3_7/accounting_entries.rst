@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
@@ -191,7 +190,7 @@ which your payment will have to be reconciled. Click OK to confirm your selectio
    :scale: 75
    :align: center
 
-   *Reconciliation from Data Entry of the Bank Statement*
+   *与银行帐单间的核销*
 
 .. i18n: .. note::  Reconciliation
 .. i18n: 
@@ -201,7 +200,7 @@ which your payment will have to be reconciled. Click OK to confirm your selectio
 .. i18n:         You can carry out either a full or a partial reconciliation.
 ..
 
-.. note::  Reconciliation
+.. note::  核销
 
         Other methods of reconciliation are possible: from accounting entries, when saving the payment
         directly on an invoice, or using the automatic reconciliation tool.
