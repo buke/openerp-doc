@@ -127,9 +127,8 @@
 
 * 如果同事去了度假，你也可以继续她的工作，有需要还可以回复她的客户,
 
-* Get hold of examples of all document types with just a few clicks, so that you can follow company
-  standards in such areas as order confirmation, price requests, meeting minutes, customer
-  deliverables, contract examples, and models for faxes and letters,
+* 只需点击几下获取所有文件类型的样板。因此当你制作询价单,
+  会议纪要，客户交付单，合同，传真和信件的样板可以按照公司的标准。
 
 * Retrieve procedures and other associated documents if you do not know how to do a certain task –
   such as things you should do when hiring a new employee, organizing a conference, or
