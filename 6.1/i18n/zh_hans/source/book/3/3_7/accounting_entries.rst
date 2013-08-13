@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
@@ -176,8 +177,7 @@ entry or entries to be paid.
 
 导入发票
 ---------------
-Click the `Import Invoices` button, then click Add to select the invoices for
-which your payment will have to be reconciled. Click OK to confirm your selection; the statement line will automatically be added with the corresponding reconciliation.
+点击 `导入发票(Import Invoices)` 按钮, 选择你要与付款相核销的发票行,并点击 `添加(Add)` 按钮. Click OK to confirm your selection; the statement line will automatically be added with the corresponding reconciliation.
 
 .. i18n: .. figure::  images/account_statement_reconcile.png
 .. i18n:    :scale: 75
