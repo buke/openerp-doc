@@ -1,3 +1,4 @@
+
 .. i18n: The Installation of OpenERP
 .. i18n: ===========================
 ..
@@ -71,7 +72,7 @@ OpenERP的安装
 ..
 
 .. index::
-   single: 稳定版
+   single: stable versions
 
 .. i18n: .. note::  Stable Versions and Development Versions
 .. i18n: 
@@ -96,7 +97,6 @@ OpenERP的安装
 
 	稳定分支是为生产环境设计的。基本上每年发布一次新版本，新版本中的功能都是经过长期测试和确认正确的。
 	但是稳定分支中的错误修复仍然会在第一时间发布，不用等到第二年的发布版本。
-
 
 .. i18n: .. index::
 .. i18n:    single: installation; Windows (all-in-one)
@@ -130,13 +130,12 @@ OpenERP的安装
 
 #. 将这个文件保存到你的电脑上 —— 文件可能比较大，因为它里面包含了PostgreSQL数据库系统，所以下载所需的时间可能会比较长。
 
-
 .. i18n: .. index::
 .. i18n:    single:  installation; administrator
 ..
 
 .. index::
-   single:  安装; 管理
+   single:  installation; administrator
 
 .. i18n: To install OpenERP and its database, you must be signed in as an Administrator on your PC. Double-
 .. i18n: click the installer file to install it and accept the default parameters on each dialog box as you go. 
@@ -166,7 +165,7 @@ OpenERP客户端可以保持打开状态，一旦你完成了 all-in-one的安�
 ..
 
 .. index::
-   single: 安装; Windows (独立安装)
+   single: installation; Windows (independent)
 
 .. i18n: Independent Installation on Windows
 .. i18n: -----------------------------------
@@ -193,7 +192,6 @@ Windows 独立安装
 
 这种情况下，你可以从相同的地址下载一个 all-in-one 自动安装程序，它里面只包含了OpenERP服务器的内容。你还需要单独
 下载安装一个合适版本的PostgreSQL数据库。
-
 
 .. i18n: You must install PostgreSQL before the OpenERP server, and you must also set it up with a user
 .. i18n: and password so that the OpenERP server can connect to it. OpenERP's web-based documentation gives
@@ -241,14 +239,13 @@ OpenERP的电脑上安装
 .. tip:: 版本匹配
 	你必须保证客户端的版本与服务器匹配。版本号在下载的文件名中有所体现。虽然不同版本的客户端和服务器可能可以
 	配合工作，但是这个并不是必然的，如果出现这种情况，请更新客户端版本，使之与服务器匹配。
-	
 
 .. i18n: .. index::
 .. i18n:    single:  administrator
 ..
 
 .. index::
-   single:  管理员
+   single:  administrator
 
 .. i18n: To run the client installer on every other PC you will need to have administrator rights there. The
 .. i18n: installation is automated, so you just need follow the different installation steps.
@@ -256,13 +253,11 @@ OpenERP的电脑上安装
 
 你需要管理员权限才能在PC上安装客户端。安装过程是自动的，你只需要关注各个安装步骤即可。
 
-
 .. i18n: To test your installation, start by connecting through the OpenERP client on the server machine
 .. i18n: while you are still logged in as administrator.
 ..
 
 在服务器上打开OpenERP的客户端测试安装是否成功，需要注意的是这个时候你仍然以管理员身份在运行。
-
 
 .. i18n: .. note:: Why sign in as a PC Administrator?
 .. i18n: 
