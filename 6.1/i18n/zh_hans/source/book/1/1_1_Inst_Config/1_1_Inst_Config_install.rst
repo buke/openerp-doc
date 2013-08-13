@@ -239,31 +239,30 @@ OpenERP的电脑上安装
 ..
 
 .. tip:: 版本匹配
-
-	You must make sure that the version of the client matches that of the server. The version number is
-	given as part of the name of the downloaded file. Although it is possible that some different
-	revisions of client and server will function together, there is no certainty about that.
+	你必须保证客户端的版本与服务器匹配。版本号在下载的文件名中有所体现。虽然不同版本的客户端和服务器可能可以
+	配合工作，但是这个并不是必然的，如果出现这种情况，请更新客户端版本，使之与服务器匹配。
+	
 
 .. i18n: .. index::
 .. i18n:    single:  administrator
 ..
 
 .. index::
-   single:  administrator
+   single:  管理员
 
 .. i18n: To run the client installer on every other PC you will need to have administrator rights there. The
 .. i18n: installation is automated, so you just need follow the different installation steps.
 ..
 
-To run the client installer on every other PC you will need to have administrator rights there. The
-installation is automated, so you just need follow the different installation steps.
+你需要管理员权限才能在PC上安装客户端。安装过程是自动的，你只需要关注各个安装步骤即可。
+
 
 .. i18n: To test your installation, start by connecting through the OpenERP client on the server machine
 .. i18n: while you are still logged in as administrator.
 ..
 
-To test your installation, start by connecting through the OpenERP client on the server machine
-while you are still logged in as administrator.
+在服务器上打开OpenERP的客户端测试安装是否成功，需要注意的是这个时候你仍然以管理员身份在运行。
+
 
 .. i18n: .. note:: Why sign in as a PC Administrator?
 .. i18n: 
