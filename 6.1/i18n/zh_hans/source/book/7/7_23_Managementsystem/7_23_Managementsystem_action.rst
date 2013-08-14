@@ -23,8 +23,8 @@
 .. i18n: :menuselection:`Management System --> Management System --> Actions`.
 ..
 
-You can create actions directly from the nonconformity or from the menu 
-:menuselection:`Management System --> Management System --> Actions`.
+You can create actions directly from the nonconformity 或者从菜单 
+:menuselection:`Management System --> 管理系统 --> 动作`.
 
 .. i18n: .. figure::  images/mgmtsystem_action.png
 .. i18n:    :scale: 75
