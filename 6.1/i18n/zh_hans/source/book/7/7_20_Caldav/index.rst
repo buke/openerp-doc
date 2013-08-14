@@ -14,9 +14,7 @@
 .. i18n: The same applies to the Android phones, of course.
 ..
 
-As from OpenERP Version 6.0, :mod:`document_webdav` v2.2, the iPhone has been thoroughly
-tested and is now supported as a Calendaring client for the OpenERP CalDAV module.
-The same applies to the Android phones, of course.
+自从OpenERP 6.0版本后, :mod:`document_webdav` v2.2, OpenERP CalDAV模块就开始iphone的日历客户端.当然android也同样的支持。
 
 .. i18n: However, keep in mind that OpenERP is not a straightforward calendaring
 .. i18n: server, but an ERP application (with more data + structure) which exposes
