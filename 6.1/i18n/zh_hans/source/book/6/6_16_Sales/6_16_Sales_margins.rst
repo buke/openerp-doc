@@ -8,7 +8,7 @@
 .. i18n: For every company, keeping a clear sight on and a good control of margins is crucial. Even if you have a good sales level, it will not guarantee company profitability if margins are not high enough. OpenERP provides a number of methods allowing you to monitor your sales margins. The main ones are:
 ..
 
-For every company, keeping a clear sight on and a good control of margins is crucial. Even if you have a good sales level, it will not guarantee company profitability if margins are not high enough. OpenERP provides a number of methods allowing you to monitor your sales margins. The main ones are:
+对于每一个公司, 保持一个清晰的景象和 a good control of margins is crucial. 即使你有一个很好的销售层次, it will not guarantee company profitability if margins are not high enough. OpenERP provides a number of methods allowing you to monitor your sales margins. The main ones are:
 
 .. i18n: * Margins on a sales order,
 .. i18n: 
