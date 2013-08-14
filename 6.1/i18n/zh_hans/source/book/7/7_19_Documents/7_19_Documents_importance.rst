@@ -133,8 +133,7 @@
 * 在招聘新员工、组织会议或者整理会议纪要时，如果你不知道相关的文档结构，
   你可以通过系统检索相关文件，
 
-* Reuse work done by a colleague to meet similar needs and build on all the individual
-  work done in your own company,
+* 在面对类似的需求的时候复用同事的记录，并在公司建立你的个人工作档案,
 
 * Find all the orders for a customer or from a supplier in just a few seconds to answer questions or
   to continue a discussion when the initial contact point in your company is not available,
