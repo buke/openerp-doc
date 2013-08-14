@@ -140,7 +140,7 @@ bank statement. This amount will be used to control the operations before approv
 .. i18n: Then you must enter all the lines on the statement. Each line corresponds to a banking transaction.
 ..
 
-Then you must enter all the lines on the statement. Each line corresponds to a banking transaction.
+接着就是按银行的回单逐行输入进银行对帐单明细中.
 
 .. i18n: Enter the transaction line.
 .. i18n: You have two ways of entering financial transactions: manually or through the :guilabel:`Import Invoices` button.
