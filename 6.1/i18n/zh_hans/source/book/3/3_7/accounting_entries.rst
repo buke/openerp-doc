@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
@@ -102,9 +101,8 @@ OpenERP提供了一个可视化的工具来管理银行对账单，简化了账�
 .. i18n: the journal corresponding to the bank account whose statement you are handling.
 ..
 
-Then select the correct :guilabel:`Journal`. Ideally, when you are configuring your company, you would create at
-least one journal for each bank account and one journal for petty cash in your company. So select
-the journal corresponding to the bank account whose statement you are handling.
+接着选择 :guilabel:`账簿(Journal)`. 一般来讲,在期初建立账套的时候,最好为公司的每一个银行账户及现金户各建立一个对应的
+:guilabel:`账簿(Journal)`. 然后在这里,你选择与本次银行对账相应的账簿即可.
 
 .. i18n: The currency that you are using for the statement line is that of the selected journal. If you are
 .. i18n: entering statement lines for an account in American Dollars (USD), the amounts must be entered in
