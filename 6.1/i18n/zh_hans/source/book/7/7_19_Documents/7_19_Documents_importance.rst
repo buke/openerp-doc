@@ -135,8 +135,8 @@
 
 * 在面对类似的需求的时候复用同事的记录，并在公司建立你的个人工作档案,
 
-* Find all the orders for a customer or from a supplier in just a few seconds to answer questions or
-  to continue a discussion when the initial contact point in your company is not available,
+* 几秒钟内就可以找到客户或者供应商在公司的所有订单并回答他们的问题，如果是没有初次记录
+  也可以通过继续沟通在系统里建立初次接触的记录,
 
 * Build on your working methods and enable your colleagues to benefit from each improvement in a
   document type or a procedure.
