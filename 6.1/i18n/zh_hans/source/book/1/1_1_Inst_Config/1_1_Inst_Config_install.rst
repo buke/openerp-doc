@@ -1,4 +1,3 @@
-
 .. i18n: The Installation of OpenERP
 .. i18n: ===========================
 ..
@@ -320,14 +319,12 @@ OpenERP的电脑上安装
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-.. note:: Connection Modes
+.. note:: 连接方式
 
-	In its default configuration at the time of writing, 
-	the OpenERP client connects to port 8069 on the server using the
-	XML-RPC protocol (from Linux) or port 8070 using the NET-RPC protocol instead (from Windows).
-	You can use any protocol from either operating system.
-	NET-RPC is quite a bit quicker, although you may not notice that on the GTK client in normal use.
-	OpenERP can run XML-RPC, but not NET-RPC, as a secure connection.
+	在默认情况下，Linux下的当前版本（写作时）的OpenERP客户端会使用XML-RPC协议连接服务器的8069端口而Windows下的则
+	使用NET-RPC协议连接8070端口。无论从哪个操作系统你都可以使用任何协议。虽然在使用GTK客户端时你可能没有注意到，但是
+	使用NET-RPC会快一些。OpenERP可以使用XML-RPC，而不是NET-RPC，作为安全连接。
+
 	
 解决 Windows 安装中的错误
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -336,8 +333,8 @@ OpenERP的电脑上安装
 .. i18n: resolving this below:
 ..
 
-If you cannot get OpenERP to work after installing your Windows system you will find some ideas for
-resolving this below:
+如果你在Windows上安装完OpenERP，它却不能工作，下面的内容对你会有帮助：
+
 
 .. i18n: #. Is the OpenERP Server working? Signed in to the server as an administrator, stop and
 .. i18n:    restart the service using :guilabel:`Stop Service` and :guilabel:`Start Service` from the menu
