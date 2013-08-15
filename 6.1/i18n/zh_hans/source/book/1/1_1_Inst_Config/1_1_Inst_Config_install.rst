@@ -1,3 +1,4 @@
+
 .. i18n: The Installation of OpenERP
 .. i18n: ===========================
 ..
@@ -267,9 +268,9 @@ OpenERP的电脑上安装
 ..
 
 .. note:: 为什么需要以管理员身份登录?
+
 	平时使用OpenERP客户端时无需使用管理员身份，但是在安装过程中如果有任何问题，使用管理员来进行必要的修改比
 	切换到测试用户或者软件安装用户要容易和方便的多。
-	
 
 .. i18n: Start the GTK client on the server through the Windows Start menu there. The main client window
 .. i18n: appears, identifying the server you are connected to (which is \ ``localhost``\   – your own server
@@ -279,7 +280,6 @@ OpenERP的电脑上安装
 
 在服务器上点击Windows开始菜单，选择GTK客户端后出现客户端的主界面，确定你要连接的服务器（默认情况下它是 \ ``localhost``\  ——你自己的电脑）
 。如果出现 :guilabel:`No database found, you must create one` 消息和你已经 **成功连接** 到OpenERP服务器，说明没有数据库。
-
 
 .. i18n: .. figure:: images/new_login_dlg.png
 .. i18n:    :align: center
