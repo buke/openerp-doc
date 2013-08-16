@@ -398,21 +398,14 @@ OpenERP的电脑上安装
 .. i18n:    help identify the reason.
 ..
 
-#. Is your PostgreSQL running? Signed in as administrator, select :guilabel:`Stop Service`
-   from the menu :menuselection:`Start --> Programs --> PostgreSQL`.  If after a couple of seconds,
-   you read :guilabel:`The PostgreSQL4OpenERP service has stopped` then you can be reasonably sure
-   that the database server was working. Restart PostgreSQL.
-	   
-#. Is the database accessible? Still in the PostgreSQL menu, start
-   the pgAdmin III application which you can use to explore the database. Double-click the \
-   ``PostgreSQL4OpenERP``\  connection. 
-   You can find the password in the OpenERP server configuration file.
-   If the database server is accessible
-   you will be able to see some information about the empty database. If it is not, an error message
-   will appear.
+#. PostgreSQL在运行吗？以管理员用户登录，通过开始菜单 :menuselection:`Start --> Programs --> PostgreSQL` 选择 :guilabel:`Stop Service`。
+   如果几秒钟后你读到 :guilabel:`The PostgreSQL4OpenERP service has stopped` 则你可以确定数据库服务器在工作。请重启PostgreSQL。
 
-#. Are your client programs correctly installed? If your OpenERP GTK clients have not started,
-   the swiftest approach is to reinstall them.
+#. 数据库可以访问吗？还是在PostgreSQL菜单中，启动pgAdmin III 程序，你可以用这个程序查看数据库。双击 \
+   ``PostgreSQL4OpenERP``\  连接。你可以看到OpenERP服务器配置文件中记录的密码。如果可以访问数据库，你就可以看到这个空数据库
+   中的一些信息。如果不能，系统会显示一个错误信息。
+
+#. 你的客户端程序安装是否正确？如果你的GTK客户端没有启动，最简单的方法就是重新安装它。
 
 #. Can remote client computers see the server computer at all? Check this by opening a command prompt
    window (enter \ ``cmd``\  in the window :menuselection:`Start --> Run...` ) and enter \ ``ping
