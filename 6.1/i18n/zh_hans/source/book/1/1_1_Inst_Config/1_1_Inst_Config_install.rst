@@ -348,16 +348,11 @@ OpenERP的电脑上安装
 .. i18n:    happening.
 ..
 
-#. Is the OpenERP Server working? Signed in to the server as an administrator, stop and
-   restart the service using :guilabel:`Stop Service` and :guilabel:`Start Service` from the menu
-   :menuselection:`Start --> Programs --> OpenERP Server` .
+#. OpenERP服务器是否工作？以管理员身份登录到服务器，在菜单 :menuselection:`Start --> Programs --> OpenERP Server` 中
+使用 :guilabel:`Stop Service` 停止服务，然后 :guilabel:`Start Service` 重新启动服务。
 
-#. Is the OpenERP Server set up correctly? Signed in to the server as
-   Administrator, open the file \ ``openerp-server.conf``\  in \
-   ``C:\Program Files\OpenERP AllInOne``\  and check its content. This file is generated during
-   installation with information derived from the database. If you see something strange it is best to
-   entirely reinstall the server from the demonstration installer rather than try to work out what is
-   happening.
+#.OpenERP安装是否正确？以管理员身份登录到服务器，打开 \ ``C:\Program Files\OpenERP AllInOne``\ 下的文件\ ``openerp-server.conf``\ 
+检查它的内容。这个文件实在安装时产生的，它里面包含了数据库相关的信息。如果你看到比较奇怪的内容，最好重新安装服务而不是尝试去修改。
 
 .. i18n: 	.. figure:: images/terp_server_conf.png
 .. i18n: 	   :align: center
