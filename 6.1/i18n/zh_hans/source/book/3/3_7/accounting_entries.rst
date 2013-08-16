@@ -111,9 +111,8 @@ OpenERP提供了一个可视化的工具来管理银行对账单，简化了账�
 .. i18n: currency conversion rates to be created first. Go to :menuselection:`Accounting --> Configuration --> Miscellaneous --> Currencies` menu.)
 ..
 
-The currency that you are using for the statement line is that of the selected journal. If you are
-entering statement lines for an account in American Dollars (USD), the amounts must be entered in
-\ ``USD`` \. The currency is automatically converted into the company's main currency when you confirm
+银行对账单明细行上的币种会沿用对账单所属账簿的币种设置. 如你的银行对帐单明细是 `美元(USD)`, 则你对应应该输入
+`美元(USD)` 的金额. The currency is automatically converted into the company's main currency when you confirm
 the entry, using the rates in effect at the date of entry. (This means that you would need valid
 currency conversion rates to be created first. Go to :menuselection:`Accounting --> Configuration --> Miscellaneous --> Currencies` menu.)
 
