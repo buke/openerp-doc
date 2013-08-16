@@ -138,8 +138,7 @@
 * 几秒钟内就可以找到客户或者供应商在公司的所有订单并回答他们的问题，如果是没有初次记录
   也可以通过继续沟通在系统里建立初次接触的记录,
 
-* Build on your working methods and enable your colleagues to benefit from each improvement in a
-  document type or a procedure.
+* 通过建立你的工作方法让你的同事从文件和流程的改良中获益。
 
 .. i18n: From these examples you can see the importance of a good document management system, and what it
 .. i18n: might contribute to the improvement of productivity and the quality of the output from each
