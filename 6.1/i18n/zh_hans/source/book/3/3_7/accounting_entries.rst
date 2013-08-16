@@ -156,7 +156,7 @@ You have two ways of entering financial transactions: manually or through the :g
 
 手工分录
 ------------
-When you type the Partner name, OpenERP automatically proposes the corresponding centralisation account. The total amount due for the customer or supplier is pre-completed (:guilabel:`Amount`). This gives you a simple indication of the effective payment. You
+当你输入一个合作者的名字, OpenERP 自动调用相应的中央集权的帐户. The total amount due for the customer or supplier is pre-completed (:guilabel:`Amount`). This gives you a simple indication of the effective payment. You
 must then enter the amount that appears on your statement line: a negative sign for a withdrawal and
 a positive sign for a cash payment or deposit.
 
