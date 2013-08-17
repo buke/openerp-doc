@@ -145,9 +145,7 @@
 .. i18n: employee.
 ..
 
-From these examples you can see the importance of a good document management system, and what it
-might contribute to the improvement of productivity and the quality of the output from each
-employee.
+从这些例子你看可以看出一个良好的文档管理系统的重要性，它有助于提高每个员工的工作效率和质量。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
