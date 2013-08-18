@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
@@ -298,8 +299,7 @@ accounts to use and must have mastered the ideas of credit and debit.
 ..
 
 要进入现金管理, 请点击菜单 :menuselection:`会计 -->
-银行和现金 --> 现金记录` :menuselection:`Accounting -->
-Bank and Cash --> Cash Registers`. At the start of the day you set the opening amount of cash in the entry (:guilabel:`Opening Balance`). Then open the cashbox to start making entries from the :guilabel:`Cash Transactions` tab.
+银行和现金 --> 现金记录`. 然后每天在 :guilabel:`初始余额(Opening Balance)` 处输入当前的现金期初盘点.Then open the cashbox to start making entries from the :guilabel:`Cash Transactions` tab.
 
 .. i18n: .. figure::  images/account_cash_registers.png
 .. i18n:    :scale: 75
@@ -312,7 +312,7 @@ Bank and Cash --> Cash Registers`. At the start of the day you set the opening a
    :scale: 75
    :align: center
 
-   *Defining the Cash Register*
+   *定义现金记录(Cash Registers)*
 
 .. i18n: All the transactions throughout the day are then entered in this statement. When you close the cashbox, generally at the end of the day, enter the amounts on the :guilabel:`CashBox` tab, in the
 .. i18n: :guilabel:`Closing Balance` section. Then confirm the statement to close the day's cash statement and automatically
@@ -330,7 +330,7 @@ generate the corresponding accounting entries. Note that the :guilabel:`Calculat
 .. i18n:         cash), partner payments will not have been deducted from their corresponding account.
 ..
 
-.. tip::  Confirming the Statement
+.. tip::  确认对账单
 
         Accounting entries are only generated when the cash statement is confirmed.
         So if the total statement has not been approved (that is to say during the day, in the case of petty
