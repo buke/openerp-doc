@@ -10,15 +10,15 @@
 .. i18n: systems dedicated to arbitrary documents.
 ..
 
-面对需要整理的文件，企业寻找文档管理的解决方案，从简单的邮件归档发展成完整的电子文档管理系统。
+面对需要整理的文件，企业一直在寻找文档管理的解决方案，从简单的邮件归档发展成完整的电子文档管理系统。
 
 .. i18n: Unfortunately, these solutions have not always been very useful because they are too little integrated
 .. i18n: in companies' management systems. Most solutions that we have come across, are underused by the
 .. i18n: employees – often used by some of them but not by all.
 ..
 
-不幸的是大多数解决方案并不是非常有用，因为他们与公司的管理系统集成度太低。我遇到的大多数文档解决方案的结果是
-只有少部分人使用，而不是全部人。
+不幸的是大多数解决方案并不是非常实用，因为他们与公司的管理系统集成度太低。我遇到的大多数解决方案的结果是
+只有少部分人使用系统，而不是全部人。
 
 .. i18n: The primary reason for this is that a document management system that is not integrated imposes extra
 .. i18n: work on an employee. For example, a salesperson should ideally save each customer confirmation in the
