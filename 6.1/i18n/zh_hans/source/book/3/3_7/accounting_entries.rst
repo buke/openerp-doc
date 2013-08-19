@@ -144,8 +144,8 @@ bank statement. This amount will be used to control the operations before approv
 .. i18n: You have two ways of entering financial transactions: manually or through the :guilabel:`Import Invoices` button.
 ..
 
-Enter the transaction line.
-You have two ways of entering financial transactions: manually or through the :guilabel:`Import Invoices` button.
+输入本次对账的所有交易明细行.
+你可以手工录入这些交易明细,你也可以点击 :guilabel:`导入发票(Import Invoices)` 按钮来自动生成交易明细.
 
 .. i18n: Manual Entry
 .. i18n: ------------
