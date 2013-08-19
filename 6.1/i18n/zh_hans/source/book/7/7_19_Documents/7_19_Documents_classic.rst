@@ -2,7 +2,7 @@
 .. i18n: =====================================
 ..
 
-典型的文档管理方案
+传统的文档管理方案
 =====================================
 
 .. i18n: Faced with the need to organize documents, companies have looked at a number of document management
@@ -10,9 +10,7 @@
 .. i18n: systems dedicated to arbitrary documents.
 ..
 
-Faced with the need to organize documents, companies have looked at a number of document management
-solutions that are promoted today, from simple email archiving to complete electronic management
-systems dedicated to arbitrary documents.
+面对需要整理的文件，企业寻找文档管理的解决方案，从简单的邮件归档发展成完整的电子文档管理系统。
 
 .. i18n: Unfortunately, these solutions have not always been very useful because they are too little integrated
 .. i18n: in companies' management systems. Most solutions that we have come across, are underused by the
