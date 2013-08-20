@@ -18,7 +18,7 @@
 .. i18n: project team, and set out the detailed stages that will have to be carried out.
 ..
 
-Requirements analysis and planning are the keys to the success of an implementation. At this stage,
+需求分析和规划是成功实施的关键. At this stage,
 you should set up a management team to define the costs and benefits of the project, select a
 project team, and set out the detailed stages that will have to be carried out.
 
