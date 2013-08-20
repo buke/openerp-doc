@@ -113,7 +113,7 @@ OpenERP提供了一个可视化的工具来管理银行对账单，简化了账�
 
 银行对账单明细行上的币种会沿用对账单所属账簿的币种设置. 如你的银行对帐单明细是 `美元(USD)`, 则你对应应该输入
 `美元(USD)` 的金额. 在确认单据时,非公司本币位的币种会自动按当时有效汇率转换为公司本币位币种. (所以,您必须
-首先在 :menuselection:`会计(Accounting) --> 配置(Configuration) --> 其它(Miscellaneous) --> 货币(Currencies)` 处建立相关币种的汇率.
+首先在 :menuselection:`会计(Accounting) --> 配置(Configuration) --> 其它(Miscellaneous) --> 货币(Currencies)` 处建立相关币种的汇率)
 
 .. i18n: OpenERP automatically completes the initial balance based on the closing balance of the
 .. i18n: preceding statement. You can modify this value and force another value. This lets you enter
