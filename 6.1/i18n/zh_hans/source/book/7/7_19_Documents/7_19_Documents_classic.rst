@@ -26,10 +26,9 @@
 .. i18n: confirmation:
 ..
 
-The primary reason for this is that a document management system that is not integrated imposes extra
-work on an employee. For example, a salesperson should ideally save each customer confirmation in the
-document management system. Only that means quite a heavy additional workload just for an order
-confirmation:
+这其中最主要的原因是一个文档管理系统没有把雇员额外的工作也集成了。
+例如：销售人员最好可以将客户每次的确认都存档到系统里面，这意味着仅仅为这些确认就多了
+相当沉重的额外工作量：
 
 .. i18n: #. Receive and read the email from the customer,
 .. i18n: 
