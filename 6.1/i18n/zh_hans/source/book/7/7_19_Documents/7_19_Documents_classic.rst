@@ -45,17 +45,17 @@
 .. i18n: #. Copy the files from the desktop to the right place in the document management system.
 ..
 
-#. 查收/查阅来自客户的邮件,
+#. 查收/查阅来自客户的邮件，
 
-#. 桌面操作发送邮件及邮件附件,
+#. 桌面操作发送邮件及邮件附件，
 
-#. 直接连接ERP系统进行单据流程管理,
+#. 直接连接ERP系统进行单据流程管理，
 
-#. 连接文档管理系统,
+#. 连接文档管理系统，
 
-#. 优化文档存储位置,
+#. 优化文档存储位置，
 
-#. Create a directory for the customer and the order if it does not yet exist,
+#. 如果订单不存在就为客户创建一个目录，
 
 #. Copy the files from the desktop to the right place in the document management system.
 
