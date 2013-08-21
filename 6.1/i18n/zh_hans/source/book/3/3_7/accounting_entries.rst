@@ -89,7 +89,7 @@ OpenERP提供了一个可视化的工具来管理银行对账单，简化了账�
    :scale: 75
    :align: center
 
-   *Data Entry Form for a Bank Statement*
+   *银行对账单录入界面*
 
 .. i18n: The statement reference :guilabel:`Name` and the :guilabel:`Date` are automatically suggested by OpenERP. The :guilabel:`Name` will be filled with the statement number at confirmation of the bank statement. You can configure your own reference by managing sequences in the :menuselection:`Administration --> Configuration --> Sequences` menu.
 ..
@@ -121,8 +121,8 @@ OpenERP提供了一个可视化的工具来管理银行对账单，简化了账�
 .. i18n: the following ones immediately and you are not forced to wait for a duplicate from the bank.
 ..
 
-OpenERP automatically completes the initial balance based on the closing balance of the
-preceding statement. You can modify this value and force another value. This lets you enter
+OpenERP 会自动将上一次对账的余额处理到本次对账单的期初余额中. 
+You can modify this value and force another value. This lets you enter
 statements in the order of your choice. Also if you have lost a page of your statement, you can enter
 the following ones immediately and you are not forced to wait for a duplicate from the bank.
 
