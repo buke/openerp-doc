@@ -57,7 +57,7 @@
 
 #. 如果订单不存在就为客户创建一个目录，
 
-#. Copy the files from the desktop to the right place in the document management system.
+#. 从桌面复制文件到文档管理系统。
 
 .. i18n: This is obviously a lot of operations just to handle a simple order confirmation. You can understand
 .. i18n: why many companies hardly use their document management system even if they have gone to the cost and
