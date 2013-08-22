@@ -440,9 +440,8 @@ Linux (Ubuntu) 安装
 .. i18n: with its graphical user interface on a desktop or laptop PC.
 ..
 
-This section guides you through installing the OpenERP server and client on Ubuntu, one of the
-most popular Linux distributions. It assumes that you are using a recent release of Desktop Ubuntu
-with its graphical user interface on a desktop or laptop PC.
+这一部分知道你如何在Ubuntu上安装OpenERP服务器和客户端，Ubuntu是Linux最流行的版本之一。后面的操作均建立在假设你已经在
+台式机或笔记本上安装了较新的带有图形界面的Ubuntu桌面版
 
 .. i18n: .. note:: Other Linux Distributions
 .. i18n: 
