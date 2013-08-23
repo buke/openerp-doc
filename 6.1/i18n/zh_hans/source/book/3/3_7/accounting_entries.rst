@@ -198,10 +198,10 @@ entry or entries to be paid.
 
 .. note::  核销
 
-        Other methods of reconciliation are possible: from accounting entries, when saving the payment
-        directly on an invoice, or using the automatic reconciliation tool.
+        OpenERP 有很多种核销方式: 你可以在支付发票时, 直接选择与之对应的发票相关的凭证行进行核销.也可以
+        使用 `自动核销` 工具进行自动核销.
 
-        You can carry out either a full or a partial reconciliation.
+        你可以将相关金额全额核销,也可以仅核销一部分.
 
 .. i18n: .. index::
 .. i18n:    single: adjustment
