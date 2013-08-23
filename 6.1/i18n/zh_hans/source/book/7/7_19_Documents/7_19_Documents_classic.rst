@@ -64,9 +64,8 @@
 .. i18n: effort of purchasing and installing one.
 ..
 
-This is obviously a lot of operations just to handle a simple order confirmation. You can understand
-why many companies hardly use their document management system even if they have gone to the cost and
-effort of purchasing and installing one.
+为了处理一个简单的订单确认操作竟要如此繁复的步骤。你就可以理解为什么企业在为文档管理系统上付出那么多的努力
+和成本但是系统还是难以用起来的原因。
 
 .. i18n: .. tip::  Free Document Management Systems
 .. i18n: 
