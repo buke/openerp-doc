@@ -163,8 +163,7 @@ a positive sign for a cash payment or deposit.
 .. i18n: entry or entries to be paid.
 ..
 
-In the :guilabel:`Payment` press :kbd:`F1` to reconcile your payment directly with the corresponding accounting
-entry or entries to be paid.
+在 :guilabel:`收/付款(Payment)` 界面按下键 :kbd:`F1` 会自动将需要核销的凭证行与本次付款对应起来.
 
 .. i18n: Import Invoices
 .. i18n: ---------------
