@@ -1,3 +1,4 @@
+
 .. i18n: .. index::
 .. i18n:    pair: accounting; entry
 ..
@@ -215,9 +216,8 @@ entry or entries to be paid.
 .. i18n: You have to set an account for the adjustment. The main reasons explaining the difference are usually:
 ..
 
-If you see a difference between the payment and the invoices to reconcile,
-you can enter the difference in the second part of the form :guilabel:`Write-off`.
-You have to set an account for the adjustment. The main reasons explaining the difference are usually:
+如果在你的收付款与发票的核销金额不一致时,OpenERP 会进入 :guilabel:`销账(Write-off)` 向导, 允许你将核销不平衡
+余额调账到一个指定的会计科目中去. The main reasons explaining the difference are usually:
 
 .. i18n: * profit or loss,
 .. i18n: 
