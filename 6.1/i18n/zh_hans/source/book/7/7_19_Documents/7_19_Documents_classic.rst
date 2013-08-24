@@ -78,7 +78,7 @@
 
 .. tip::  Free Document Management Systems
 
-    A number of free document management applications exist. The most well known are:
+    有很多的免费的文件管理系统，其中比较最有名的有：:
 
     * Alfresco: http://www.alfresco.com
 
