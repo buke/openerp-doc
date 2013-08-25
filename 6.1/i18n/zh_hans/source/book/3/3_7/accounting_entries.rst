@@ -186,7 +186,7 @@ a positive sign for a cash payment or deposit.
    :scale: 75
    :align: center
 
-   *与银行帐单间的核销*
+   *与银行对帐单的核销*
 
 .. i18n: .. note::  Reconciliation
 .. i18n: 
