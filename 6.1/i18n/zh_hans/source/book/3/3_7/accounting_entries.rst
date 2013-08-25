@@ -216,7 +216,7 @@ a positive sign for a cash payment or deposit.
 ..
 
 如果在你的收付款与发票的核销金额不一致时,OpenERP 会进入 :guilabel:`销账(Write-off)` 向导, 允许你将核销不平衡
-余额调账到一个指定的会计科目中去. The main reasons explaining the difference are usually:
+余额调账到一个指定的会计科目中去. 通常使用下面的方式去调整余额:
 
 .. i18n: * profit or loss,
 .. i18n: 
@@ -225,11 +225,11 @@ a positive sign for a cash payment or deposit.
 .. i18n: * discounts given for fast payment.
 ..
 
-* profit or loss,
+* 记入利润或者亏损,
 
-* exchange differences,
+* 记入汇兑损益,
 
-* discounts given for fast payment.
+* 关于收/付款方面的优惠.
 
 .. i18n: When the reconciliation is complete - that is, the payment is equal to the sum of the due
 .. i18n: payments and the adjustments - you can close the reconciliation form.
