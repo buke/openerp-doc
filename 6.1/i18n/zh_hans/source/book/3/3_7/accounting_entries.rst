@@ -229,7 +229,7 @@ a positive sign for a cash payment or deposit.
 
 * 记入汇兑损益,
 
-* 关于收/付款方面的优惠.
+* 记入销售折扣/回扣/佣金/返利等相关科目.
 
 .. i18n: When the reconciliation is complete - that is, the payment is equal to the sum of the due
 .. i18n: payments and the adjustments - you can close the reconciliation form.
