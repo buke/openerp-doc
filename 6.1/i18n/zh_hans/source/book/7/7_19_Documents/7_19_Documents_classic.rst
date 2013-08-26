@@ -100,9 +100,8 @@
 .. i18n: documents?
 ..
 
-Furthermore, since users should create the same storage structure in both systems, you quickly find
-after only a few months that the information in the document management system is quite disconnected
-from that in the company's management system, if the two are separate. For example, how do you know
+此外如果这两个系统是相互独立的，那么用户必须在两个储存结构相同的系统添加相同数据，
+在几个月以后你很快就发现文档管理系统脱离了公司的管理系统了。For example, how do you know
 where to store your least-frequently used documents such as (perhaps) employee car-leasing
 documents?
 
