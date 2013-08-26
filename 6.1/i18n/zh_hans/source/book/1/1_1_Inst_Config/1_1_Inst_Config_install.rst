@@ -450,11 +450,9 @@ Linux (Ubuntu) 安装
 .. i18n: 	the forums for your specific needs on another distribution.
 ..
 
-.. note:: Other Linux Distributions
+.. note:: 其它Linux发行版
 
-	Installation on other distributions of Linux is fairly similar to installation on Ubuntu. Read this
-	section of the book so that you understand the principles, then use the online documentation and
-	the forums for your specific needs on another distribution.
+	在其它Linux发行版上安装和在Ubuntu上类似。阅读本部分并理解相关原则，使用在线文档和论坛来了解在其它发行版上安装的相关事项。
 
 .. i18n: For information about installation on other distributions, visit the documentation section by
 .. i18n: following :menuselection:`Services --> Documentation` on http://www.openerp.com. Detailed instructions
@@ -462,10 +460,8 @@ Linux (Ubuntu) 安装
 .. i18n: more up to date instructions for the Ubuntu distribution as well.
 ..
 
-For information about installation on other distributions, visit the documentation section by
-following :menuselection:`Services --> Documentation` on http://www.openerp.com. Detailed instructions
-are given there for different distributions and releases, and you should also check if there are
-more up to date instructions for the Ubuntu distribution as well.
+要了解在其它发行版上安装的相关信息，访问OpenERP网站http://www.openerp.com的以下文档 :menuselection:`Services --> Documentation` 。
+这里有针对不同发行版的具体指导，你最好也检查一下是否有关于Ubuntu版本的最新指导。
 
 .. i18n: .. To Check
 ..
