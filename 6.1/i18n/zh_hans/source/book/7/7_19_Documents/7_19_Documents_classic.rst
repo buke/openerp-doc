@@ -90,10 +90,8 @@
 .. i18n: system.
 ..
 
-It is very difficult to keep information in the company's management system synchronized
-with that in the document management system. For example, when a customer changes his address, users
-will modify the details in the management software, but usually, not in the document management
-system.
+将公司的文档和文档管理系统保持同步是非常困难的。例如，当客户改变了他的住址，
+用户需要在管理软件里修改相关的资料，但是通常情况并没有在文档管理系统更改。
 
 .. i18n: Furthermore, since users should create the same storage structure in both systems, you quickly find
 .. i18n: after only a few months that the information in the document management system is quite disconnected
