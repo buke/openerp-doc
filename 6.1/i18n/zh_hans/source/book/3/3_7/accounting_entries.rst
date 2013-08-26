@@ -235,8 +235,7 @@ a positive sign for a cash payment or deposit.
 .. i18n: payments and the adjustments - you can close the reconciliation form.
 ..
 
-When the reconciliation is complete - that is, the payment is equal to the sum of the due
-payments and the adjustments - you can close the reconciliation form.
+当付款金额与待付款项和调整科目项之和的金额相符时,就可以完成本次核销.
 
 .. i18n: The reconciliation operation is optional – you could very well do it later or not do it at all.
 .. i18n: However, reconciliation has got two significant effects:
