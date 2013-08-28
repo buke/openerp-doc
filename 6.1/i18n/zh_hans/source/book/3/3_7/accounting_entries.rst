@@ -241,8 +241,7 @@ a positive sign for a cash payment or deposit.
 .. i18n: However, reconciliation has got two significant effects:
 ..
 
-The reconciliation operation is optional – you could very well do it later or not do it at all.
-However, reconciliation has got two significant effects:
+你还可以选择后面再处理本次核销余额.核销操作会处理两件事:
 
 .. i18n: * marking that the invoices have been paid,
 .. i18n: 
@@ -251,7 +250,7 @@ However, reconciliation has got two significant effects:
 .. i18n:   (which will not alter the balance due since they will just cancel each other out).
 ..
 
-* marking that the invoices have been paid,
+* 标记发票已核销,
 
 * preventing the payment and invoice amounts from appearing on customer reminder letters. Unless
   you have reconciled them, a customer will see the invoice and payment amounts on his reminder letter
