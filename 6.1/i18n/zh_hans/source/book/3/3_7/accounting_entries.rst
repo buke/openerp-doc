@@ -72,7 +72,7 @@ OpenERP提供了一个可视化的工具来管理银行对账单，简化了账�
 .. i18n: A data entry form for bank statements then opens as shown in figure :ref:`fig-accstate`.
 ..
 
-记录一张银行对账单， 转到菜单 :menuselection:`Accounting --> Bank and Cash --> Bank Statements` :menuselection:`会计 -->银行和现金 --> 银行对账单`。
+记录一张银行对账单， 转到菜单 :menuselection:`会计(Accounting) --> 银行和现金(Bank and Cash) --> 银行对账单(Bank Statements)` 。
 输入数据到银行对账单的表单然后打开如图所示 :ref:`fig-accstate`.
 
 .. i18n: .. _fig-accstate:
@@ -252,9 +252,8 @@ a positive sign for a cash payment or deposit.
 
 * 标记发票已核销,
 
-* preventing the payment and invoice amounts from appearing on customer reminder letters. Unless
-  you have reconciled them, a customer will see the invoice and payment amounts on his reminder letter
-  (which will not alter the balance due since they will just cancel each other out).
+* 防止已清账的支付信息与发票信息的客户提醒支付邮件重复发送, 客户收到的仅是未核销的支付与发票信息. 如果与
+  客户相互达成一致对某些欠款或者不明款项进行销账,也可以在核销中处理.
 
 .. i18n: Finally, once you have entered the complete bank statement, you can validate it.
 .. i18n: OpenERP then automatically generates the corresponding accounting entries if the calculated balance equals the final balance, indicated in the Closing Balance field. The reconciled invoices are marked as paid at that point.
