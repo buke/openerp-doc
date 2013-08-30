@@ -489,7 +489,7 @@ Linux (Ubuntu) 安装
 .. i18n:     $ sudo apt-get install openerp-server openerp-client pgadmin3
 ..
 
-Upgrade of Ubuntu packages and installation of OpenERP and pgadmin::
+升级Ubuntu包与OpenERP和pgadmin的安装::
 
     $ sudo apt-get update
 
@@ -502,7 +502,7 @@ Upgrade of Ubuntu packages and installation of OpenERP and pgadmin::
 .. i18n:     $ sudo apt-get install language-pack-gnome-es-base
 ..
 
-To avoid having some of the labels untranslated in the GTK client, install the language-pack-gnome-YOURLANG-base package. The following command installs the Spanish language pack::
+安装language-pack-gnome-YOURLANG-base包可以避免GTK客户端里出现翻译的标签。
 
     $ sudo apt-get install language-pack-gnome-es-base
 
@@ -512,8 +512,7 @@ To avoid having some of the labels untranslated in the GTK client, install the l
 .. i18n:     $ sudo vi /etc/postgresql/8.4/main/pg_hba.conf
 ..
 
-PostgreSQL version 8.4 has been used at the time of writing. You may have to replace the version number in the
-commands below with your own PostgreSQL version number if it differs. Postgres Database configuration::
+写作本书时PostgreSQL采用的是8.4版。如果你使用不同的版本，可能需要替换命令中的版本号以适合你使用的PosttreSQL版本。Postgres数据库配置::
 
     $ sudo vi /etc/postgresql/8.4/main/pg_hba.conf
 
@@ -523,7 +522,7 @@ commands below with your own PostgreSQL version number if it differs. Postgres D
 .. i18n:     local all all ident
 ..
 
-Replace the following line::
+替换下面的行::
 
     # “local” is for Unix domain socket connections only
     local all all ident
@@ -534,7 +533,7 @@ Replace the following line::
 .. i18n:     local all all md5
 ..
 
-with::
+为::
 
     #”local” is for Unix domain socket connections only
     local all all md5
@@ -546,7 +545,7 @@ with::
 .. i18n:     * Restarting PostgreSQL 8.4 database server [ OK ]
 ..
 
-Restart Postgres::
+重启 Postgres::
 
     $ sudo /etc/init.d/postgresql-8.4 restart
 
@@ -559,7 +558,7 @@ Restart Postgres::
 .. i18n:     $ sudo chown openerp.nogroup /home/openerp
 ..
 
-The following two commands will avoid problems with /etc/init.d/openerp-web INIT script::
+下面的两个命令可以避免/etc/init.d/openerp-web 初始化脚本中的问题::
 
     $ sudo mkdir /home/openerp
 
