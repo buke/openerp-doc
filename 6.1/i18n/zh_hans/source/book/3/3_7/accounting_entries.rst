@@ -259,8 +259,7 @@ a positive sign for a cash payment or deposit.
 .. i18n: OpenERP then automatically generates the corresponding accounting entries if the calculated balance equals the final balance, indicated in the Closing Balance field. The reconciled invoices are marked as paid at that point.
 ..
 
-Finally, once you have entered the complete bank statement, you can validate it.
-OpenERP then automatically generates the corresponding accounting entries if the calculated balance equals the final balance, indicated in the Closing Balance field. The reconciled invoices are marked as paid at that point.
+然后,你再确认一下. 只要余额平衡OpenERP 会自动生成对应的凭证分录. 对应的相关发票也会自动标记为已支付.
 
 .. i18n: You can also enter general accounting entries, for example, banking costs. In such cases, you can enter the amounts directly in the corresponding general accounts.
 ..
