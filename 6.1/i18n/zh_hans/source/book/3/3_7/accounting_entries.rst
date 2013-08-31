@@ -313,7 +313,7 @@ accounts to use and must have mastered the ideas of credit and debit.
 ..
 
 All the transactions throughout the day are then entered in this statement. When you close the cashbox, generally at the end of the day, enter the amounts on the :guilabel:`CashBox` tab, in the
-:guilabel:`Closing Balance` section. Then confirm the statement to close the day's cash statement and automatically
+:guilabel:`销账(Closing Balance)` section. Then confirm the statement to close the day's cash statement and automatically
 generate the corresponding accounting entries. Note that the :guilabel:`Calculated Balance` and the :guilabel:`CashBox Balance` need to be equal before you can close the cashbox.
 
 .. i18n: .. tip::  Confirming the Statement
@@ -349,8 +349,7 @@ often used for miscellaneous entries.
 .. i18n: Journal Items`. In the :guilabel:`Journal` field from the filter, select the journal in which you want to post, then click :guilabel:`Find`. When you select a journal in this filter, you do not have to fill in the journal when posting new entries.
 ..
 
-To make manual entries, go to the following menu :menuselection:`Accounting --> Journal Entries -->
-Journal Items`. In the :guilabel:`Journal` field from the filter, select the journal in which you want to post, then click :guilabel:`Find`. When you select a journal in this filter, you do not have to fill in the journal when posting new entries.
+手工录入凭证时,进菜单 :menuselection:`会计(Accounting) --> 会计凭证(Journal Entries) --> 会计凭证明细(Journal Items)`.In the :guilabel:`Journal` field from the filter, select the journal in which you want to post, then click :guilabel:`Find`. When you select a journal in this filter, you do not have to fill in the journal when posting new entries.
 
 .. i18n: Let us give the example of a purchase invoice. Note, however, that these entries are usually generated automatically by OpenERP.
 ..
