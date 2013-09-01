@@ -354,7 +354,7 @@ often used for miscellaneous entries.
 .. i18n: Let us give the example of a purchase invoice. Note, however, that these entries are usually generated automatically by OpenERP.
 ..
 
-Let us give the example of a purchase invoice. Note, however, that these entries are usually generated automatically by OpenERP.
+下面看一下采购发票的例子,在OpenERP中自动生成会计凭证分录.
 
 .. i18n: Click the :guilabel:`New` button. Fill these fields manually in the following order:
 ..
