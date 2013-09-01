@@ -359,7 +359,7 @@ often used for miscellaneous entries.
 .. i18n: Click the :guilabel:`New` button. Fill these fields manually in the following order:
 ..
 
-Click the :guilabel:`New` button. Fill these fields manually in the following order:
+点击 :guilabel:`新建(New)` 按钮, 并按下面的内容填写:
 
 .. i18n: *  :guilabel:`Reference`: reference from the invoice or entry,
 .. i18n: 
