@@ -581,7 +581,7 @@ Linux (Ubuntu) 安装
 .. i18n:     Shall the new role be allowed to create more new roles? (y/n) n
 ..
 
-Create a user account called openerp with password “openerp” and with privileges to create Postgres databases::
+建立一个用户账户叫做“openerp”，密码设置为“openerp”,让它有权利创建Postgres数据库::
 
     $ sudo su postgres
 
@@ -604,7 +604,7 @@ Create a user account called openerp with password “openerp” and with privil
 .. i18n:     exit
 ..
 
-Quit from user postgres::
+从postgres用户退出::
 
     $ exit
 
@@ -615,7 +615,7 @@ Quit from user postgres::
 .. i18n:     $ sudo vi /etc/openerp-server.conf
 ..
 
-Edit OpenERP configuration file::
+编辑OpenERP配置文件::
 
     $ sudo vi /etc/openerp-server.conf
 
@@ -628,7 +628,7 @@ Edit OpenERP configuration file::
 .. i18n:     db_password = openerp
 ..
 
-Replace the following two lines (we don’t force to use a specific database and we add the required password to gain access to postgres)::
+替换掉下面的两行(我们不必设定特定的数据库，但是需要输入登录postgres的用户和密码)::
 
     db_name =
 
@@ -643,7 +643,7 @@ Replace the following two lines (we don’t force to use a specific database and
 .. i18n:     Restarting openerp-server: openerp-server.
 ..
 
-We can now restart openerp-server::
+现在我们可以重启openerp-server::
 
     $ sudo /etc/init.d/openerp-server restart
 
@@ -672,7 +672,7 @@ We can now restart openerp-server::
 .. i18n:     [2009-06-14 21:06:39,502] INFO:web-services:the server is running, waiting for connections…
 ..
 
-Check out the logs::
+检查log文件::
 
     $ sudo cat /var/log/openerp.log
 
@@ -697,7 +697,7 @@ Check out the logs::
 .. i18n: OpenERP is now up and running, connected to Postgres database on port 5432 and listening on ports 8069 and 8070
 ..
 
-OpenERP is now up and running, connected to Postgres database on port 5432 and listening on ports 8069 and 8070
+现在OpenERP已经启动并运行，连接到Postgres数据库的5432端口，监听8069和8070端口
 
 .. i18n: ::
 .. i18n: 
