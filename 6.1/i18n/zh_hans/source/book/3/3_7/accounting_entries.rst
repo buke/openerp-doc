@@ -349,7 +349,7 @@ often used for miscellaneous entries.
 .. i18n: Journal Items`. In the :guilabel:`Journal` field from the filter, select the journal in which you want to post, then click :guilabel:`Find`. When you select a journal in this filter, you do not have to fill in the journal when posting new entries.
 ..
 
-手工录入凭证时,进菜单 :menuselection:`会计(Accounting) --> 会计凭证(Journal Entries) --> 会计凭证明细(Journal Items)`.In the :guilabel:`Journal` field from the filter, select the journal in which you want to post, then click :guilabel:`Find`. When you select a journal in this filter, you do not have to fill in the journal when posting new entries.
+手工录入凭证时,进菜单 :menuselection:`会计(Accounting) --> 会计凭证(Journal Entries) --> 会计凭证明细(Journal Items)`. 在 凭证明细列表页 选择适当的 :guilabel:`账簿(Journal)` 再点击 :guilabel:`搜索(Find)` 进行过滤. 这时如果你新建凭证行时, 新的凭证行则默认会记账到你过滤选择的账簿.
 
 .. i18n: Let us give the example of a purchase invoice. Note, however, that these entries are usually generated automatically by OpenERP.
 ..
