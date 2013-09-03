@@ -752,19 +752,16 @@ Linux (Ubuntu) 安装
 .. i18n: should open and show the message :guilabel:`No database found you must create one!`.
 ..
 
-Start the OpenERP GTK client by clicking its icon in the :menuselection:`Applications --> Internet
---> OpenERP Client`  menu,
-or by opening a terminal window and typing \ ``openerp-client``\  . The OpenERP login dialog box
-should open and show the message :guilabel:`No database found you must create one!`.
+点击:menuselection:`Applications --> Internet--> OpenERP Client` 菜单中的OpenERP GTK客户端图标，
+或者打开一个终端窗口，输入 \ ``openerp-client``\  。OpenERP登录窗口就会打开，并且显示消息 :guilabel:`No database found you must create one!` 。
 
 .. i18n: Although this installation method is simple and therefore an attractive option, it is better to
 .. i18n: install OpenERP using a version downloaded from http://openerp.com. The downloaded revision is
 .. i18n: likely to be far more up to date than that available from a Linux distribution.
 ..
 
-Although this installation method is simple and therefore an attractive option, it is better to
-install OpenERP using a version downloaded from http://openerp.com. The downloaded revision is
-likely to be far more up to date than that available from a Linux distribution.
+虽然这个安装方法很简单,却是一个很有吸引力的选择，它比从http://openerp.com下载一个OpenERP版本进行安装要好的多。
+下载的版本可能无法直接运行在你的Linux发行版上。
 
 .. i18n: .. note:: Package Versions
 .. i18n: 
@@ -780,7 +777,7 @@ likely to be far more up to date than that available from a Linux distribution.
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ..
 
-.. note:: Package Versions
+.. note:: 包版本
 
 	Maintaining packages is a process of development, testing and publication that takes time. The
 	releases in OpenERP packages are therefore not always the latest available. Check
