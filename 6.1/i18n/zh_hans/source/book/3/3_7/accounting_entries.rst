@@ -17,7 +17,7 @@
 .. i18n: creates its own entries, for example.
 ..
 
-创建会计分录有多种方法。 比如，你已经清楚的发票怎么来创建它的分录。
+创建会计分录有多种方法。 比如，你已经清楚地了解了发票是怎么来创建它的分录。
 
 
 .. i18n: This section deals with
@@ -380,11 +380,11 @@ often used for miscellaneous entries.
 .. i18n: *  :guilabel:`Credit`: here you type the credit amount, e.g. \ ``1196``\  .
 ..
 
-*  :guilabel:`Reference`: reference from the invoice or entry,
+*  :guilabel:`摘要(Reference)`: 默认取自发票的摘要,
 
 *  :guilabel:`Effective date`: effective date of the entry, will be preset with today's date
 
-*  :guilabel:`Period`: financial period, will be preset with the current period
+*  :guilabel:`会计期间(Period)`: 业务发生时的会计期间, 通常情况下应该是当前的会计期间,
 
 *  :guilabel:`Partner`: partner concerned,
 
