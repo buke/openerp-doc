@@ -752,7 +752,7 @@ Linux (Ubuntu) 安装
 .. i18n: should open and show the message :guilabel:`No database found you must create one!`.
 ..
 
-点击:menuselection:`Applications --> Internet--> OpenERP Client` 菜单中的OpenERP GTK客户端图标，
+点击 :menuselection:`Applications --> Internet--> OpenERP Client` 菜单中的OpenERP GTK客户端图标，
 或者打开一个终端窗口，输入 \ ``openerp-client``\  。OpenERP登录窗口就会打开，并且显示消息 :guilabel:`No database found you must create one!` 。
 
 .. i18n: Although this installation method is simple and therefore an attractive option, it is better to
@@ -760,7 +760,7 @@ Linux (Ubuntu) 安装
 .. i18n: likely to be far more up to date than that available from a Linux distribution.
 ..
 
-虽然这个安装方法很简单,却是一个很有吸引力的选择，它比从http://openerp.com下载一个OpenERP版本进行安装要好的多。
+虽然这个安装方法很简单,却是一个很有吸引力的选择，它比从http://openerp.com 下载一个OpenERP版本进行安装要好的多。
 下载的版本可能无法直接运行在你的Linux发行版上。
 
 .. i18n: .. note:: Package Versions
@@ -779,14 +779,11 @@ Linux (Ubuntu) 安装
 
 .. note:: 包版本
 
-	Maintaining packages is a process of development, testing and publication that takes time. The
-	releases in OpenERP packages are therefore not always the latest available. Check
-	the version number from the information on the website before installing a package. If only the
-	third digit group differs (for example 6.0.1 instead of 6.0.2) then you may decide to install it because
-	the differences may be minor – bug fixes rather than functionality changes between the package
-	and the latest version.
+	包维护是一个开发，测试和发布的过程，整个过程需要时间。所以OpenERP发布包并不总是包含最新的可用包。
+	在安装一个包之前首先要从网站上检查它的版本号。如果只有第三级版本号（比如：用6.0.2代替6.0.1）不同你就
+	可以考虑安装，因为区别可能很小——两个包之间不太可能是功能上的修改，更可能的是修复Bug。
 	
-	
+
 手动安装 OpenERP Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -795,9 +792,8 @@ Linux (Ubuntu) 安装
 .. i18n: desktop version of Ubuntu. Here is a summary of the procedure:
 ..
 
-In this section you will see how to install OpenERP by downloading it from the site
-http://openerp.com, and how to install the libraries and packages that OpenERP depends on, onto a
-desktop version of Ubuntu. Here is a summary of the procedure:
+这一部分你会看到如果从http://openerp.com 下载并安装OpenERP和它所依赖的库和包。安装平台是Ubuntu桌面版。
+这里是整个过程的一个总结：
 
 .. i18n: #. Navigate to the page http://openerp.com with your web browser,
 .. i18n: 
@@ -807,17 +803,17 @@ desktop version of Ubuntu. Here is a summary of the procedure:
 .. i18n:    (or some other location if you have defined a different download area).
 ..
 
-#. Navigate to the page http://openerp.com with your web browser,
+#. 在浏览器中打开页面 http://openerp.com ，
 
-#. Click the :menuselection:`Download` button on the right side,
+#. 点击右侧的 :menuselection:`Download` 按钮，
 
-#. Download the client and server files from the *Sources* section into your home directory
-   (or some other location if you have defined a different download area).
+#. 从 *Sources* 部分下载客户端和服务器文件到你的 home 目录
+   (或者其它你已经定义的下载目录)。
 
 .. i18n: To download the PostgreSQL database and all of the other dependencies for OpenERP from packages:
 ..
 
-To download the PostgreSQL database and all of the other dependencies for OpenERP from packages:
+下载PostgreSQL数据库和其它OpenERP所依赖的包：
 
 .. i18n: #. Start Synaptic Package Manager, and enter the root password as required.
 .. i18n: 
@@ -831,7 +827,7 @@ To download the PostgreSQL database and all of the other dependencies for OpenER
 .. i18n:    then click :guilabel:`Apply` to install them.
 ..
 
-#. Start Synaptic Package Manager, and enter the root password as required.
+#. 打开 Synaptic包管理器，按照提示输入root用户密码。
 
 #. Check that the repositories \ ``main`` \, \ ``universe`` \ and \ ``restricted`` \  are enabled.
 
