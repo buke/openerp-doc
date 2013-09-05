@@ -382,7 +382,7 @@ often used for miscellaneous entries.
 
 *  :guilabel:`摘要(Reference)`: 默认取自发票的摘要,
 
-*  :guilabel:`Effective date`: effective date of the entry, will be preset with today's date
+*  :guilabel:`发生日期(Effective date)`: 记账的日期,通常使用操作当天的日期,
 
 *  :guilabel:`会计期间(Period)`: 业务发生时的会计期间, 通常情况下应该是当前的会计期间,
 
