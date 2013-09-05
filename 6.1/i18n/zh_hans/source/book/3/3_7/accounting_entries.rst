@@ -566,7 +566,7 @@ Note that you can also choose a maximum write-off amount, if you allow payment d
    :scale: 75
    :align: center
 
-   *Form for Automatic Reconciliation*
+   *自动核销界面*
 
 .. i18n: To start the reconciliation tool, click :menuselection:`Accounting --> Periodical Processing --> Reconciliation --> Automatic Reconciliation`.
 ..
@@ -576,7 +576,7 @@ To start the reconciliation tool, click :menuselection:`Accounting --> Periodica
 .. i18n: A form opens, asking you for the following information:
 ..
 
-A form opens, asking you for the following information:
+自动核销弹出窗口后, 填写如下数据:
 
 .. i18n: * :guilabel:`Accounts to Reconcile` : you can select one, several or all reconcilable accounts,
 .. i18n: 
