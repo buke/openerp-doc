@@ -41,8 +41,8 @@
 .. i18n: Note that the data you see when creating an analytic account will depend upon the business applications installed.
 ..
 
-Start by choosing the most suitable analytic representation for your company before entering it into OpenERP. To create the different analytic accounts, use the menu :menuselection:`Accounting--> Configuration --> Analytic Accounting --> Analytic Accounts` and click the :guilabel:`Create` button.
-Note that the data you see when creating an analytic account will depend upon the business applications installed.
+开始进入OpenERP之前请选择最时候贵公司的辅助核算方案。要创建不同的辅助核算项，使用菜单 :menuselection:`Accounting--> Configuration --> Analytic Accounting --> Analytic Accounts` 并点击 :guilabel:`Create` 按钮。
+注意您创建辅助核算项时看到数据依赖于您已经安装的模块。
 
 .. i18n: .. figure::  images/account_analytic_form.png
 .. i18n:    :scale: 75
