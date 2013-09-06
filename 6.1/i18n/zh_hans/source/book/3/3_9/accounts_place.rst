@@ -60,7 +60,7 @@
 .. i18n: To create an analytic account, you have to complete the main fields:
 ..
 
-To create an analytic account, you have to complete the main fields:
+要创建一个辅助核算项，您必须完成如下字段：
 
 .. i18n: * the :guilabel:`Account Name`,
 .. i18n: 
@@ -71,9 +71,9 @@ To create an analytic account, you have to complete the main fields:
 .. i18n: * the :guilabel:`Account Type`: just like general accounts, the \ ``View``\ type is used for virtual accounts which are used only to create a hierarchical structure and for subtotals, and not to store accounting entries. The \ ``Normal``\ type will be used for analytic accounts containing entries.
 ..
 
-* the :guilabel:`Account Name`,
+*  :guilabel:`（辅助核算项）名称`,
 
-* the :guilabel:`Code/Reference`: used as a shortcut for selecting the account,
+*  :guilabel:`Code/Reference`: used as a shortcut for selecting the account,
 
 * the :guilabel:`Parent Analytic Account`: use this field to define the hierarchy between the accounts.
 
