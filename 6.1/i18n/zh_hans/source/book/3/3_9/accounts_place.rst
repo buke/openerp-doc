@@ -1,4 +1,3 @@
-
 .. i18n: .. index::
 .. i18n:    single: analytic; accounts
 ..
@@ -16,7 +15,7 @@
 .. i18n: For the initial setup of good analytic accounts you should:
 ..
 
-For the initial setup of good analytic accounts you should:
+为能更好的初始化辅助核算您应该做到:
 
 .. i18n: * set up the chart of accounts,
 .. i18n: 
@@ -25,11 +24,11 @@ For the initial setup of good analytic accounts you should:
 .. i18n: * link the analytic journals to your accounting journals.
 ..
 
-* set up the chart of accounts,
+* 设置会计科目表,
 
-* create the different journals,
+* 创建不同的分类帐,
 
-* link the analytic journals to your accounting journals.
+* 将辅助核算关联到分类帐上.
 
 .. i18n: Setting up the Chart of Accounts
 .. i18n: --------------------------------
