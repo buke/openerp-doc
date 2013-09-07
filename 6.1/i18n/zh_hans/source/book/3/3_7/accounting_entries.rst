@@ -386,9 +386,9 @@ often used for miscellaneous entries.
 
 *  :guilabel:`会计期间(Period)`: 业务发生时的会计期间, 通常情况下应该是当前的会计期间,
 
-*  :guilabel:`Partner`: partner concerned,
+*  :guilabel:`合作伙伴(Partner)`: 与本次业务相关的合作伙伴,
 
-*  :guilabel:`Account`: general account (e.g. purchase account \ ``Products Purchase``\  ),
+*  :guilabel:`科目(Account)`: 记账科目 (如采购科目 \ ``材料采购(Products Purchase)``\  ),
 
 *  :guilabel:`Name`: description of the invoice line (e.g. ``PC2`` ),
 
