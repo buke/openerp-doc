@@ -589,7 +589,7 @@ To start the reconciliation tool, click :menuselection:`Accounting --> Periodica
 .. i18n: * information needed for the adjustment (details for the :guilabel:`Write-Off Move`).
 ..
 
-* :guilabel:`Accounts to Reconcile` : you can select one, several or all reconcilable accounts,
+* :guilabel:`核销科目(Accounts to Reconcile)` : 选你将要核销的一个,几个甚至全部可以允许核销的科目,
 
 * the dates to take into consideration (:guilabel:`Starting Date` / :guilabel:`Ending Date`),
 
