@@ -380,7 +380,7 @@ often used for miscellaneous entries.
 .. i18n: *  :guilabel:`Credit`: here you type the credit amount, e.g. \ ``1196``\  .
 ..
 
-*  :guilabel:`摘要(Reference)`: 默认取自发票的摘要,
+*  :guilabel:`参考(Reference)`: 发票及凭证相关的参考信息,
 
 *  :guilabel:`发生日期(Effective date)`: 记账的日期,通常使用操作当天的日期,
 
@@ -390,7 +390,7 @@ often used for miscellaneous entries.
 
 *  :guilabel:`科目(Account)`: 记账科目 (如采购科目 \ ``材料采购(Products Purchase)``\  ),
 
-*  :guilabel:`Name`: description of the invoice line (e.g. ``PC2`` ),
+*  :guilabel:`摘要(Name)`: 发票行的摘要(如: ``PC2`` ),
 
 *  :guilabel:`Debit`: here you type the debit amount.
 
