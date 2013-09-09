@@ -330,7 +330,7 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 .. i18n: The most interesting thing about virtual charts of accounts is that they can be used in the same way as the default chart of accounts for the whole organization. For example, you can establish budgets from your consolidated accounts or from the accounts from one of your companies.
 ..
 
-The most interesting thing about virtual charts of accounts is that they can be used in the same way as the default chart of accounts for the whole organization. For example, you can establish budgets from your consolidated accounts or from the accounts from one of your companies.
+虚拟会计科目最有趣的情况是，它能够被用来为整个组织与默认的会计科目拥有相同的方式。例如，您可以从您的合并科目或从您的某个公司的科目来创建预算。
 
 .. i18n: .. tip:: Virtual Accounts
 .. i18n: 
@@ -355,7 +355,7 @@ The most interesting thing about virtual charts of accounts is that they can be 
 .. i18n:         So there are good reasons for viewing the impact of financial transactions through virtual charts, such as budgets and financial indicators based on special views of the company.
 ..
 
-.. tip:: Virtual Accounts
+.. 提示:: 虚拟科目
 
         Virtual accounts enable you to provide different representations of one or several existing charts of accounts.
         Creating and restructuring virtual accounts has no impact on the accounting entries.
