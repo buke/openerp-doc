@@ -361,17 +361,17 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
         
         因为他们是被用作相同记录的不同表达方式，他们将非常有用:
 
-        * consolidating several companies in real time,
+        * 实时合并多个公司数据,
 
         * reporting to a holding according to their chart of accounts,
 
-        * depreciation calculations,
+        * 折旧计算,
 
-        * cash-flow views,
+        * 现金流视图,
 
-        * getting more useful views than those imposed,
+        * 获得比那些基于法定的报告更有用的视图,
 
-        * presenting summary charts to other users that are appropriate to their general system rights.
+        * 为其他用户根据他们权限展示汇总图表.
 
         So there are good reasons for viewing the impact of financial transactions through virtual charts, such as budgets and financial indicators based on special views of the company.
 
