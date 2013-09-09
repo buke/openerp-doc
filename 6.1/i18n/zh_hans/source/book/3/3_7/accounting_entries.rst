@@ -392,9 +392,9 @@ often used for miscellaneous entries.
 
 *  :guilabel:`摘要(Name)`: 发票行的摘要(如: ``PC2`` ),
 
-*  :guilabel:`Debit`: here you type the debit amount.
+*  :guilabel:`借方(Debit)`: 借方的金额.
 
-*  :guilabel:`Journal`: here you select the journal in which you want to post.
+*  :guilabel:`账簿(Journal)`: 选择要记入的账簿.
 
 *  :guilabel:`Credit`: here you type the credit amount, e.g. \ ``1196``\  .
 
