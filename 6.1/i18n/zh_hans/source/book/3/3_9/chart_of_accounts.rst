@@ -57,7 +57,7 @@
 .. i18n: The wizard will change a bit according to the chart of accounts you select. For the Generic Chart you will be able to add a tax percentage, which will not be the case when you install, for instance, the chart named ``Belgium - Plan Comptable Minimum Normalise``. Here OpenERP will automatically install the tax configuration for Belgium too. You will, however, be able to select the default sales and purchase tax to be added when you create a new product.
 ..
 
-该向导将根据您所选择的科目表而有所不同。 For the Generic Chart you will be able to add a tax percentage, which will not be the case when you install, for instance, the chart named ``Belgium - Plan Comptable Minimum Normalise``. 这里的OpenERP也会自动安装比利时税务定义。您也许希望，当增加一个新的产品时可以选择默认的销售和采购税种。
+该向导将根据您所选择的科目表而有所不同。 您如果使用 *Generic Chart*  将可以添加一个税率，但不适合您安装以下以下案例时，举例说，名字为 ``Belgium - Plan Comptable Minimum Normalise``. 这里的OpenERP也会自动安装比利时税务定义。您也许希望，当增加一个新的产品时可以选择默认的销售和采购税种。
 
 .. i18n: .. figure::  images/account_chart_be.png
 .. i18n:    :scale: 75
