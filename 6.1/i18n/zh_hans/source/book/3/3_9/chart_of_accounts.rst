@@ -406,7 +406,7 @@ You can then run reports such as :guilabel:`Trial Balance` and :guilabel:`Genera
 .. i18n: Finally, you can also make virtual charts of accounts from other virtual charts. That can give an additional dimension for financial analysis. You can create an unlimited number of virtual (consolidation) charts of accounts.
 ..
 
-Finally, you can also make virtual charts of accounts from other virtual charts. That can give an additional dimension for financial analysis. You can create an unlimited number of virtual (consolidation) charts of accounts.
+最后，您还可以基于另外一个虚拟科目创建一个虚拟会计科目。这样能够提供一个附加的财务分析维度。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
