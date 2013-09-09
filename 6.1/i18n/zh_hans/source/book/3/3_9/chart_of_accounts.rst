@@ -320,12 +320,12 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 .. i18n: In OpenERP, you can use the concept of virtual charts of accounts to manage several representations of the same accounts simultaneously. These representations can be shown in real time with no additional data entry.
 ..
 
-In OpenERP, you can use the concept of virtual charts of accounts to manage several representations of the same accounts simultaneously. These representations can be shown in real time with no additional data entry.
+在OpenERP中，您可以在使用相同的会计科目的同时使用虚拟会计科目的概念来管理一些不同的数据展示形式。这些展示可以实时的反映而不需要额外的数据录入。
 
 .. i18n: So your general chart of accounts can be the one imposed by the statutes of your country, and your CEO can then have other virtual charts as necessary, based on the accounts in the general chart. For example, you can create a view per department, a cash-flow and liquidity view, or consolidated accounts for different companies.
 ..
 
-So your general chart of accounts can be the one imposed by the statutes of your country, and your CEO can then have other virtual charts as necessary, based on the accounts in the general chart. For example, you can create a view per department, a cash-flow and liquidity view, or consolidated accounts for different companies.
+因此普通会计科目表能够遵守您的国家的制度章程，同时您公司的CEO可以根据需要使用基于一般会计科目的其他虚拟科目。例如，CEO能够为每一个部门创建1个视图，1个现金流和流动资产视图，或者合并不同公司的科目。  
 
 .. i18n: The most interesting thing about virtual charts of accounts is that they can be used in the same way as the default chart of accounts for the whole organization. For example, you can establish budgets from your consolidated accounts or from the accounts from one of your companies.
 ..
