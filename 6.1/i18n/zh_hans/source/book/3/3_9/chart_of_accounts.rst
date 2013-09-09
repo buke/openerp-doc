@@ -315,7 +315,7 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 .. i18n: The structure of a chart of accounts is imposed by the legislation in effect in the country concerned. Unfortunately, that structure does not always correspond to the view that a company needs.
 ..
 
-The structure of a chart of accounts is imposed by the legislation in effect in the country concerned. Unfortunately, that structure does not always correspond to the view that a company needs.
+会计科目的结构是受国家相关的法律制度制约的。不幸的是，这种结构不总是符合公司的需要。
 
 .. i18n: In OpenERP, you can use the concept of virtual charts of accounts to manage several representations of the same accounts simultaneously. These representations can be shown in real time with no additional data entry.
 ..
