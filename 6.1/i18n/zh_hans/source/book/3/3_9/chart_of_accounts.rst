@@ -357,11 +357,9 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 
 .. tip:: 虚拟科目
 
-        Virtual accounts enable you to provide different representations of one or several existing charts of accounts.
-        Creating and restructuring virtual accounts has no impact on the accounting entries.
-        You can then use the virtual charts with no risk of altering the general chart of accounts or future accounting entries.
-
-        Because they are used only to get a different representation of the same entries, they are very useful for:
+        虚拟科目能够让您提供一个或多个已存在的会计科目的不同展示格式。创建或重组虚拟科目不影响会计凭证。您可以无风险的使用虚拟科目在修改普通会计科目或未来的会计凭证。
+        
+        因为他们是被用作相同记录的不同表达方式，他们将非常有用:
 
         * consolidating several companies in real time,
 
