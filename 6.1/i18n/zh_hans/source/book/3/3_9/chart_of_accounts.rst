@@ -355,7 +355,7 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 .. i18n:         So there are good reasons for viewing the impact of financial transactions through virtual charts, such as budgets and financial indicators based on special views of the company.
 ..
 
-.. 提示:: 虚拟科目
+.. tip:: 虚拟科目
 
         Virtual accounts enable you to provide different representations of one or several existing charts of accounts.
         Creating and restructuring virtual accounts has no impact on the accounting entries.
