@@ -373,7 +373,7 @@ Displaying the chart of accounts can take several seconds, because OpenERP calcu
 
         * 为其他用户根据他们权限展示汇总图表.
 
-        So there are good reasons for viewing the impact of financial transactions through virtual charts, such as budgets and financial indicators based on special views of the company.
+        因此这是一个重要的原因，即通过虚拟的科目展示财务交易的执行，诸如预算和基于公司的特殊视图的财务指标。
 
 .. i18n: To create a new chart of accounts you should create a root account using the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts`. Your top level account should have a name, a code (different from any other code in your current chart), an :guilabel:`Internal Type` and :guilabel:`Account Type`  \ ``View``\. Then you can choose your structure by creating other accounts of :guilabel:`Account Type` \ ``View``\ as necessary. The :guilabel:`Internal Type` should be of the ``Consolidation`` type if you want to map accounts. Check your virtual structure using the menu :menuselection:`Financial Management --> Charts --> Charts of Accounts` and select the corresponding chart in the drop-down list at the top of the screen.
 ..
