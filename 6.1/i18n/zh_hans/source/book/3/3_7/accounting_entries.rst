@@ -396,7 +396,7 @@ often used for miscellaneous entries.
 
 *  :guilabel:`账簿(Journal)`: 选择要记入的账簿.
 
-*  :guilabel:`Credit`: here you type the credit amount, e.g. \ ``1196``\  .
+*  :guilabel:`贷方(Credit)`: 贷方的金额.
 
 .. i18n: Press the :guilabel:`Enter` key on your keyboard to validate the first line. The next draft move number is
 .. i18n: assigned to your accounting entry. Your line is then colored red and takes the \ ``Unbalanced``\   state.
@@ -405,7 +405,7 @@ often used for miscellaneous entries.
 .. i18n: amounts for that set of entries).
 ..
 
-Press the :guilabel:`Enter` key on your keyboard to validate the first line. The next draft move number is
+按 :guilabel:`回车(Enter)` 键保存. The next draft move number is
 assigned to your accounting entry. Your line is then colored red and takes the \ ``Unbalanced``\   state.
 When a line is in the draft state, it is not yet reflected in the accounts. OpenERP will not
 validate that line until the balancing entry is made (so the credit amounts must balance the debit
