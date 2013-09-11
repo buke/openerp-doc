@@ -540,9 +540,7 @@ here.
 .. i18n: correspond.
 ..
 
-For automatic reconciliation, you will be asking OpenERP to search for entries to
-reconcile in a series of accounts. OpenERP tries to find entries for each partner where the amounts
-correspond.
+自动核销是让OpenERP自动从凭证行中按每个合作伙伴检索出金额相符的对应的双向凭证并标记为已核销.
 
 .. i18n: Depending on the level of complexity that you choose (= power) when you start running the tool, the software
 .. i18n: could reconcile from two to nine entries at the same time. For example, if you select level 5,
