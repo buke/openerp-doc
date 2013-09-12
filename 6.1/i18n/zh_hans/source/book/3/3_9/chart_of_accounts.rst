@@ -153,7 +153,7 @@
 
 *  :guilabel:`Code`: 科目类型编码。
 
-*  :guilabel:`PL/BS Category`: this category determines where in a report the account will be printed (i.e. Balance Sheet and Profit and Loss). There are five types you can use: No type at all (/), Balance Sheet (Assets Accounts = active), Balance Sheet (Liabilities Accounts = passive), Profit & Loss (Income) and Profit & Loss (Expense).
+*  :guilabel:`PL/BS Category`: 这个类型确定科目将打印在在何种报表中 (比如资产负债表和利润表)。 共有五种类型可选: 无类型 (/), 平衡表 (资产科目 = active), 平衡表 (负债科目 = passive), 损益类 (收入) 和 损益类 (成本)。
 
 *  :guilabel:`Deferral Method`: 这个字段表明在年度结转时如何及是否结转科目余额。
 
