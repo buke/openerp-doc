@@ -405,11 +405,9 @@ often used for miscellaneous entries.
 .. i18n: amounts for that set of entries).
 ..
 
-按 :guilabel:`回车(Enter)` 键保存. The next draft move number is
-assigned to your accounting entry. Your line is then colored red and takes the \ ``Unbalanced``\   state.
-When a line is in the draft state, it is not yet reflected in the accounts. OpenERP will not
-validate that line until the balancing entry is made (so the credit amounts must balance the debit
-amounts for that set of entries).
+按 :guilabel:`回车(Enter)` 键保存. 凭证会有一个简单的自动编号.因为凭证借贷方并不平衡,所以录入的数据行都是红色的状态.并且
+默认情况下录入的发票行都处于草稿状态,还不会直接影响财务报表数据.因此,你需要将该凭证记账.注意凭证中的凭证行的借贷方的金额
+必须平衡.
 
 .. i18n: OpenERP now proposes the balancing accounting line to be filled in. If the account used (in this
 .. i18n: case account \ ``600000``\  ) includes taxes by default OpenERP automatically
