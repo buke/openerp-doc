@@ -167,7 +167,7 @@
 .. i18n: Use the :guilabel:`View` type for accounts that make up the structure of the charts and have no account data inputs of their own.
 ..
 
-Use the :guilabel:`View` type for accounts that make up the structure of the charts and have no account data inputs of their own.
+使用 :guilabel:`View` 类型来创建科目层次结构，不能用于数据录入。
 
 .. i18n: To add, modify or delete existing accounts, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts`.
 ..
