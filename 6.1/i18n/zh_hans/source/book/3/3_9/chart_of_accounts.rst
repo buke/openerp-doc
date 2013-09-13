@@ -234,7 +234,7 @@
    ``Consolidation`` to create a virtual (or consolidation) chart of accounts,
    ``Closed`` to indicate accounts that are no longer used.
 
-*  :guilabel:`Account Type`: it is important to select the corresponding account type, as explained above. This will have an impact at year closing and also when printing reports.
+*  :guilabel:`Account Type`: 选择如上所述相应的科目类型是很关键的。 这会对年底结转和生成报表时产生影响。
 
 *  :guilabel:`Secondary Currency`: forces all the moves for this account to have this secondary currency. Note that you can also define exchange rates from the menu :menuselection:`Accounting --> Configuration --> Miscellaneous --> Currencies`.
 
