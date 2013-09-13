@@ -438,7 +438,7 @@ entries to you, based on the credit entries.
 .. i18n:         In such a case the whole line stays Draft until the whole set balances to zero.
 ..
 
-.. tip:: Completing a Balancing Entry
+.. tip:: 关于借贷平衡
 
         When an accounting entry is matched, OpenERP moves it to the ``Valid`` state automatically and
         prepares to enter the next data. Do not forget to definitely post the valid entries by clicking the Action
@@ -587,7 +587,7 @@ To start the reconciliation tool, click :menuselection:`Accounting --> Periodica
 
 * :guilabel:`核销科目(Accounts to Reconcile)` : 选你将要核销的一个,几个甚至全部可以允许核销的科目,
 
-* the dates to take into consideration (:guilabel:`Starting Date` / :guilabel:`Ending Date`),
+* 需要核销的数据时间范围 (:guilabel:`起始日期(Starting Date)` / :guilabel:`结束日期(Ending Date)`),
 
 * the Reconciliation :guilabel:`Power`  (from \ ``2``\   to \ ``9``\  ),
 
