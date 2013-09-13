@@ -73,21 +73,21 @@
 
 *  :guilabel:`（辅助核算项）名称`,
 
-*  :guilabel:`Code/Reference`: used as a shortcut for selecting the account,
+*  :guilabel:`Code/Reference`: 用于选择辅助核算项的快捷方式,
 
-* the :guilabel:`Parent Analytic Account`: use this field to define the hierarchy between the accounts.
+*  :guilabel:`Parent Analytic Account`: 使用这个字段来定义不同辅助核算项的层次结构。
 
-* the :guilabel:`Account Type`: just like general accounts, the \ ``View``\ type is used for virtual accounts which are used only to create a hierarchical structure and for subtotals, and not to store accounting entries. The \ ``Normal``\ type will be used for analytic accounts containing entries.
+*  :guilabel:`Account Type`: 就像通用科目表一样,  \ ``View``\ 类型仅用于创建用于层次结构和数据汇总的虚拟项目，不能用来录入数据。  \ ``Normal``\ 类型用于包含数据的辅助核算项。
 
 .. i18n: If an analytic account (e.g. a project) is for a limited time, you can define a start and end date here.
 ..
 
-If an analytic account (e.g. a project) is for a limited time, you can define a start and end date here.
+如果一个辅助核算项（特别是一个项目）有时间限制，您可以在此定义一个开始时间和结束时间。
 
 .. i18n: The :guilabel:`Maximum Time` can be used for contracts with a fixed limit of hours to use.
 ..
 
-The :guilabel:`Maximum Time` can be used for contracts with a fixed limit of hours to use.
+ :guilabel:`Maximum Time` 可用于一个有固定持续时间的合同。
 
 .. i18n: .. index::
 .. i18n:    single: invoicing
