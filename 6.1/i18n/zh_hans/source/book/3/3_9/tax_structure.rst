@@ -1,4 +1,3 @@
-
 .. i18n: .. _tax:
 .. i18n: 
 .. i18n: Managing your Tax Structure
@@ -28,7 +27,7 @@ This section deals with statutory taxes and accounts which are legally required 
 .. i18n: You can attach taxes to transactions so that you can:
 ..
 
-You can attach taxes to transactions so that you can:
+您可以在交易中增加税款，那样您就能:
 
 .. i18n: * add taxes to the amount you pay or receive,
 .. i18n: 
@@ -39,11 +38,11 @@ You can attach taxes to transactions so that you can:
 .. i18n: * manage the payment and refund of taxes using the same mechanisms OpenERP uses for other monetary transactions.
 ..
 
-* add taxes to the amount you pay or receive,
+* 在付款或收款金额中包含税款,
 
-* report on the taxes in various categories that you should pay the tax authorities,
+* 生成您应向税务机关缴纳的各种税收报告,
 
-* track taxes in your general accounts,
+* 在总帐中跟踪税收情况,
 
 * manage the payment and refund of taxes using the same mechanisms OpenERP uses for other monetary transactions.
 
