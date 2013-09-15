@@ -651,7 +651,7 @@ off account.
 .. i18n:         This means that you will not have to retype all the fields each time.
 ..
 
-.. note:: Default Values
+.. note:: 默认值
 
         If you run the automatic reconciliation tool regularly, you should set default values for each
         field by using the right-click mouse button in the web client (in edit mode) or the GTK client.
