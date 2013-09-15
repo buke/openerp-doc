@@ -591,7 +591,7 @@ To start the reconciliation tool, click :menuselection:`Accounting --> Periodica
 
 * the Reconciliation :guilabel:`Power`  (from \ ``2``\   to \ ``9``\  ),
 
-* checkbox :guilabel:`Allow write off` to determine whether you will allow for payment differences.
+* :guilabel:`允许销账(Allow write off)` 是否将核销借贷方的差异进行销账处理.
 
 * information needed for the adjustment (details for the :guilabel:`Write-Off Move`).
 
