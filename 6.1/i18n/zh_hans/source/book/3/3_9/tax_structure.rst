@@ -44,8 +44,7 @@ This section deals with statutory taxes and accounts which are legally required 
 
 * 在总帐中跟踪税收情况,
 
-* manage the payment and refund of taxes using the same mechanisms OpenERP uses for other monetary transactions.
-
+* 用OpenERP处理其他货币交易一样的机制来管理付款和退税.
 .. i18n: Since the detailed tax structure is a mechanism for carrying out governments' policies, and the collection of taxes so critical to their authorities, tax requirements and reporting can be complex. OpenERP has a flexible mechanism for handling taxation that can be configured to meet the requirements of many tax jurisdictions.
 ..
 
