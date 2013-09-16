@@ -43,22 +43,22 @@
 .. i18n: Before generating the opening balance for your various accounts, you have to go through several steps.
 ..
 
-Before generating the opening balance for your various accounts, you have to go through several steps.
+在为您的每个科目生成期初余额之前，您需要经过多个步骤。
 
 .. i18n: 1. Create the new Financial Year
 ..
 
-1. Create the new Financial Year
+1. 创建新的财务年度
 
 .. i18n: Create the new financial year as explained in :ref:`financialyear`.
 ..
 
-Create the new financial year as explained in :ref:`financialyear`.
+创建新的会计年度在 :ref:`financialyear` 中有详细解释。
 
 .. i18n: 2. Define an Opening Period
 ..
 
-2. Define an Opening Period
+2. 定义一个打开的会计期间
 
 .. i18n: Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Periods` and create a new period for the financial year you wish to open (in case it has not been generated automatically). Make sure to link the period to the newly defined financial year. Select the :guilabel:`Opening/Closing Period` checkbox to indicate that this period should be used for opening entries. Both dates typically match the first day of your financial year (e.g. 01/01/YYYY).
 ..
