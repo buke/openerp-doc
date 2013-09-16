@@ -820,7 +820,7 @@ The *Reporting* menu is at the bottom of the list, use a sequence=50.
 .. i18n:     - Bad: Tree of Category, Tree of Bill of Materials
 ..
 
-  * All Tree of resources are called *XXX's Structure*, unless a dedicated term exist for the concept
+  * 记录的树形列表应该被称为“XXX的结构”，除非有个特定的称谓已经存在
 
-    - Good: Location' Structure, Chart of Accounts, Categories' Structure
-    - Bad: Tree of Category, Tree of Bill of Materials
+    - 推荐: 库位结构，科目表，类型结构
+    - 不推荐: 分类树，物料清单树
