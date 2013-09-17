@@ -1,3 +1,4 @@
+
 .. i18n: Estimating Delivery Dates
 .. i18n: =========================
 ..
@@ -20,7 +21,7 @@ In order to define the delivery time, you have to know three things:
 .. i18n: * Customer Lead Time : 
 ..
 
-* Customer Lead Time : 
+* 客户交付时间 : 
 
 .. i18n:   That is the time you promise to your customer for a delivery. It corresponds to the average delay
 .. i18n:   between the confirmation of the customer order and the delivery of the finished goods. It can be
@@ -37,7 +38,7 @@ In order to define the delivery time, you have to know three things:
   
   This time will be influenced by the Manufacturing Lead Time and the Delivery Lead Time.
   
-* Manufacturing Lead Time :
+* 生产交付时间 :
 
 .. i18n:   This is the time you need to produce one unit of a product. If this product needs other sub-products,
 .. i18n:   the different manufacturing times will be summed. It can also be defined in the product form, in the 
@@ -50,7 +51,7 @@ In order to define the delivery time, you have to know three things:
   the different manufacturing times will be summed. It can also be defined in the product form, in the 
   :guilabel:`Procurement and Locations` tab.
   
-* Delivery Lead Time :
+* 运送交付时间 :
 
 .. i18n:   This is the time your supplier needs to deliver the goods. This delay can be defined in the product form
 .. i18n:   in the :guilabel:`Suppliers` tab.
