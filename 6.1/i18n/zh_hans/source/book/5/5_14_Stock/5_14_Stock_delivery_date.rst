@@ -16,7 +16,7 @@
 .. i18n: In order to define the delivery time, you have to know three things:
 ..
 
-In order to define the delivery time, you have to know three things:
+在订单中的标准交付时间,有下面三种含义:
 
 .. i18n: * Customer Lead Time : 
 ..
@@ -32,7 +32,7 @@ In order to define the delivery time, you have to know three things:
 .. i18n: * Manufacturing Lead Time :
 ..
 
-  That is the time you promise to your customer for a delivery. It corresponds to the average delay
+  即你向客户承诺的交货时间. It corresponds to the average delay
   between the confirmation of the customer order and the delivery of the finished goods. It can be
   defined in the product form, in the :guilabel:`Procurement and Locations` tab.
   
