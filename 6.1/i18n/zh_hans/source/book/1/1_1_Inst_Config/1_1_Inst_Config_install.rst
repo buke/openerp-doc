@@ -856,15 +856,12 @@ Linux (Ubuntu) 安装
 .. i18n: 	For more information on Python, explore http://www.python.org.
 ..
 
-.. note::  Python Programming Language
+.. note::  Python 编程语言
 
-	Python is the programming language that has been used to develop OpenERP. It is a dynamic, non-typed
-	language that is object-oriented, procedural and functional. It comes with numerous libraries that
-	provide interfaces to other languages and has the great advantage that it can be learnt in only a
-	few days. It is the language of choice for large parts of NASA's, Google's and many other
-	enterprises' code.
+	Python是用来开发OpenERP的编程语言。它是一种动态的，无类型的面相对象的语言，优点是可以在很短的时间内被掌握。
+	不仅NASA的大量使用Python，Google和其它很多公司的代码也是用它写的。
 
-	For more information on Python, explore http://www.python.org.
+	要了解Python的更多信息，请访问 http://www.python.org。
 
 .. i18n: Once all these dependencies and the database are installed, install the server itself using the
 .. i18n: instructions on the website.
