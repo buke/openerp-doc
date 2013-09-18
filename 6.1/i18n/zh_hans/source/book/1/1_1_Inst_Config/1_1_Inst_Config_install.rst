@@ -867,8 +867,7 @@ Linux (Ubuntu) 安装
 .. i18n: instructions on the website.
 ..
 
-Once all these dependencies and the database are installed, install the server itself using the
-instructions on the website.
+一旦所有这些依赖和数据库安装完毕，就可以使用网站上的指令安装服务器程序了。
 
 .. i18n: Open a terminal window to start the server with the command :command:`openerp-server`, which
 .. i18n: should result in a series of log messages as the server starts up. If the server
@@ -876,10 +875,8 @@ instructions on the website.
 .. i18n: seconds or so, which indicates that the server is waiting for a client to connect to it.
 ..
 
-Open a terminal window to start the server with the command :command:`openerp-server`, which
-should result in a series of log messages as the server starts up. If the server
-is correctly installed, the message :guilabel:`[...] waiting for connections...` should show within 30
-seconds or so, which indicates that the server is waiting for a client to connect to it.
+打开一个终端使用命令 :command:`openerp-server` 启动服务器，当服务起来后会出现一些log消息。如果服务被正确安装，30秒内
+会出现消息 :guilabel:`[...] waiting for connections...` 或者类似消息，用来提示服务器正在等待客户端连接。
 
 .. i18n: .. figure:: images/terps_startup_log.png
 .. i18n:    :align: center
