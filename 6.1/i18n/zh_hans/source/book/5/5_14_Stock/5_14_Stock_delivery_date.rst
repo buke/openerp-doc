@@ -297,10 +297,10 @@ This newly added section allows you to define for your new report:
 .. i18n:    		
 ..
 
-* The security
+* 安全项
   
-  The security tab is used to select the groups that are able to display the report.
-  
+  安全页签用于控制哪些用户组可以显示报表.
+
 .. tip:: Create Report with OpenOffice
    
    You can also create or edit reports with OpenOffice using the :guilabel:`base_report_designer`
