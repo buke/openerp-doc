@@ -911,8 +911,7 @@ Linux (Ubuntu) 安装
 .. i18n: your particular operating system.
 ..
 
-To install an OpenERP GTK client, follow the steps outlined in the website installation document for
-your particular operating system.
+跟据你的操作系统，按照网站上的安装文档介绍的步骤安装0penERP GTK客户端。
 
 .. i18n: .. figure:: images/terp_client_startup.png
 .. i18n:    :align: center
@@ -952,9 +951,8 @@ database on the server.
 .. i18n: ``mycomputer.mycompany.net``\  ) or its IP address (such as \ ``192.168.0.123``\  ).
 ..
 
-You can connect other GTK clients over the network to your Linux server. Before you leave your
-server, make sure you know its network address – either by its name (such as \
-``mycomputer.mycompany.net``\  ) or its IP address (such as \ ``192.168.0.123``\  ).
+你可以使用其它的GTK客户端连接到你的Linux服务器。在你离开服务器时，确认你知道它的网络地址——无论是服务器名
+ (例如 \``mycomputer.mycompany.net``\  ) 还是IP地址(例如 \ ``192.168.0.123``\  )。
 
 .. i18n: .. index::
 .. i18n:    single: port (network)
@@ -970,7 +968,7 @@ server, make sure you know its network address – either by its name (such as \
 .. i18n: 	versions of OpenERP – you can connect Windows and Linux clients and servers to them.
 ..
 
-.. note:: Different Networks
+.. note:: 不同的网络
 
 	Communications between an OpenERP client and server are based on standard protocols. You can
 	connect Windows clients to a Linux server, or vice versa, without problems. It is the same for Mac
