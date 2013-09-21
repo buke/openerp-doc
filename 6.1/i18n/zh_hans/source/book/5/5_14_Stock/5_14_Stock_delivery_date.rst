@@ -47,8 +47,7 @@
 .. i18n: * Delivery Lead Time :
 ..
 
-  指你生产一个生产单位的产品所需的时间. If this product needs other sub-products,
-  the different manufacturing times will be summed. It can also be defined in the product form, in the 
+  指你生产一个生产单位的产品所需的时间. 如果产品由多个半成品组成,则需要加上各个半成品的生产时间. It can also be defined in the product form, in the 
   :guilabel:`Procurement and Locations` tab.
   
 * 运送交付时间 :
