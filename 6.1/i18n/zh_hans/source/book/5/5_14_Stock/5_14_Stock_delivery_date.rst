@@ -131,7 +131,7 @@ Thanks to this module, you will be able to calculate a planning of the stock for
 .. i18n: move lines for the packing.
 ..
 
-Planned dates on a packing order are put in each stock move line. If you have a packing order 
+Picking单的交付日期会传递到单据明细上面去. If you have a packing order 
 containing several products, not all of the lines necessarily need to be delivered the same day. 
 The minimum and maximum dates in a packing order show the earliest and latest dates on the stock 
 move lines for the packing.
