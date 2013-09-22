@@ -970,9 +970,8 @@ database on the server.
 
 .. note:: 不同的网络
 
-	Communications between an OpenERP client and server are based on standard protocols. You can
-	connect Windows clients to a Linux server, or vice versa, without problems. It is the same for Mac
-	versions of OpenERP – you can connect Windows and Linux clients and servers to them.
+	OpenERP客户端和服务器之间的通信是建立在标准协议至上的。你可以用Windows上的客户端连接一个Linux服务器，或者
+	反过来都没有问题。OpenERP的Mac版本也一样——你用Windows和Linux的客户端或者服务器都可以连接它。
 
 .. i18n: To install an OpenERP client on a computer under Linux, repeat the procedure shown earlier in this
 .. i18n: section. You can connect different clients to the OpenERP server by modifying the connection
@@ -980,10 +979,8 @@ database on the server.
 .. i18n: and set the following fields as needed:
 ..
 
-To install an OpenERP client on a computer under Linux, repeat the procedure shown earlier in this
-section. You can connect different clients to the OpenERP server by modifying the connection
-parameters on each client. To do that, click the :guilabel:`Change` button in the connection dialog
-and set the following fields as needed:
+在Linux下安装OpenERP客户端，参照本部分之前的过程。你可以通过修改连接参数使不同的客户端连接到OpenERP服务器。
+要修改参数，请在连接对话框中点击 :guilabel:`Change` 按钮，并且启用下面的内容：
 
 .. i18n: *  :guilabel:`Server` : \ ``name``\   or  \ ``IP address``\   of the server over the network,
 .. i18n: 
@@ -992,11 +989,11 @@ and set the following fields as needed:
 .. i18n: *  :guilabel:`Connection protocol` : \ ``XML-RPC``\   or  \ ``NET-RPC``\  .
 ..
 
-*  :guilabel:`Server` : \ ``name``\   or  \ ``IP address``\   of the server over the network,
+* 服务器上的 :guilabel:`Server` : \ ``name``\   或者  \ ``IP address``\   ，
 
-*  :guilabel:`Port` : the port, whose default is \ ``8069``\   or  \ ``8070``\ ,
+* 端口 :guilabel:`Port` : , 默认是 \ ``8069``\   或者  \ ``8070``\ ，
 
-*  :guilabel:`Connection protocol` : \ ``XML-RPC``\   or  \ ``NET-RPC``\  .
+*  :guilabel:`Connection protocol` : \ ``XML-RPC``\   或者  \ ``NET-RPC``\  ，
 
 .. i18n: .. figure:: images/terp_client_server.png
 .. i18n:    :align: center
