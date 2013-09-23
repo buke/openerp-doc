@@ -56,7 +56,7 @@ OpenERP 用户手册
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
 
-.. Copyright © Open Object Press. All rights reserved.
+.. Copyright © Open Object Press. 版权所有.
 
 .. i18n: .. You may take electronic copy of this publication and distribute it if you don't
 .. i18n: .. change the content. You can also print a copy to be read by yourself only.
@@ -88,8 +88,9 @@ OpenERP 用户手册
 .. i18n: .. printed in initial capitals.
 ..
 
-.. 许多设计使用了生产商或者供应商的产品商标的声明。如果这些设计出现在了这本书的哪儿，或者
-.. Open Object Press意识到了这个商标的声明，则这个设计会被打印在本书的开头。
+.. 许多被生产商和经销商用来区分自己与他人产品的产品名称被称为商标，如果这些商品名称出现在
+.. 这本书的某个地方，而且 Open Object Press也明白商标认可的时候，这些商品名称已经被冠以大写
+.. 字母印刷。
 
 .. i18n: .. While every precaution has been taken in the preparation of this book, the publisher
 .. i18n: .. and the authors assume no responsibility for errors or omissions, or for damages
