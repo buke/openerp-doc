@@ -177,7 +177,7 @@ operations.
 .. i18n: ==================================
 ..
 
-Building Reports to Track Activity 
+物料追溯报表
 ==================================
 
 .. i18n: With OpenERP, you can build your own reports in order to track the different activities in your warehouses.
@@ -200,7 +200,7 @@ submenu in :menuselection:`Administration --> Customization --> Reporting`.
 	:scale: 75
 	:align: center
 	
-	*Create your Own Reports*
+	*创建自定义报表*
 
 .. i18n: This newly added section allows you to define for your new report:
 ..
@@ -210,7 +210,7 @@ This newly added section allows you to define for your new report:
 .. i18n: * The general configuration:
 ..
 
-* The general configuration:
+* 常规配置:
 
 .. i18n:   The aim of this tab is to choose the models your report will rely on.
 ..
