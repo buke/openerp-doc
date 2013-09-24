@@ -41,9 +41,9 @@
 .. i18n:     * An access to the control center, backup and monitoring system.
 ..
 
-    * One application server for OpenERP, with web and GTK access,
-    * Two incremental backup servers,
-    * An access to the control center, backup and monitoring system.
+    * 一个用于WEB和GTK数据的OpenERP应用服务器，
+    * 两个增量备份服务器，
+    * 一个用于备份和监控系统的控制中心
 
 .. i18n: It also includes the following services:
 ..
