@@ -43,7 +43,7 @@
 
     * 一个用于WEB和GTK数据的OpenERP应用服务器，
     * 两个增量备份服务器，
-    * 一个用于备份和监控系统的控制中心
+    * 一个用于备份和监控系统的控制中心。
 
 .. i18n: It also includes the following services:
 ..
@@ -62,8 +62,8 @@
           1. 3个工作日内漏洞分析修复
           2. 迁移至每个最新的版本
           3. 安全升级
-    * Hosting in our high-bandwidth European or U.S. data centers
-    * Maintenance and 24/7 monitoring of your servers
+    * 位于欧洲或美国的高速宽带数据中心
+    * 7*24小时的监控和维护您的服务器
 
 .. i18n: Pricing and Payments
 .. i18n: --------------------
