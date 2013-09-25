@@ -185,15 +185,15 @@
 .. i18n: * sales.
 ..
 
-* services,
+* 服务，
 
-* expense reimbursements,
+* 费用报销，
 
-* purchases of materials,
+* 材料采购，
 
-* miscellaneous expenditure,
+* 其他指出，
 
-* sales.
+* 销售。
 
 .. i18n: .. index::
 .. i18n:    single: journal; minimal journals
@@ -209,12 +209,10 @@
 .. i18n:         because it would not be able to create an analytic accounting entry automatically.
 ..
 
-.. note::  Minimal Journals
+.. note::  最小分类帐
 
-        At a minimum, you have to create one analytic journal for Sales and one for Purchases.
-        If you do not create these two, OpenERP will not validate invoices linked to an analytic account,
-        because it would not be able to create an analytic accounting entry automatically.
-
+        至少，您必须分别创建一个销售和采购辅助核算帐簿。如果您没有创建这两个帐簿，OpenERP不会验证关联到辅助核算的发票，因为它不能自动创建一个辅助核算分录。
+        
 .. i18n: .. figure::  images/account_analytic_journal.png
 .. i18n:    :scale: 85
 .. i18n:    :align: center
