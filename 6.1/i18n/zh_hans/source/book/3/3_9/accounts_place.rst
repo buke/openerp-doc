@@ -159,7 +159,7 @@
 
         辅助核算项设置画面可因安装在帐套中的模块而有很大不同。例如仅当您安装了 :mod:`hr_timesheet_invoice` 模块后才能看到有关收取服务成本费用的信息。
 
-        Some of these modules add helpful management statistics to the analytic account. The most useful is probably the module :mod:`account_analytic_analysis`, which adds such information as indicators about your margins, invoicing amounts, and latest service dates and invoice dates.
+        这些模块增加了一些对管理有用的针对辅助核算项的统计表。最有用的可能是模块 :mod:`account_analytic_analysis` ，它增加了利润率、发票金额和最新的服务日期和发票日期等信息。
 
 .. i18n: Creating Journals
 .. i18n: -----------------
@@ -172,8 +172,7 @@
 .. i18n: These journals enable you to categorise the different accounting entries by their type, such as:
 ..
 
-Once the analytic chart has been created for your company, you have to create the different journals.
-These journals enable you to categorise the different accounting entries by their type, such as:
+一旦为您的公司创建了辅助核算一览表那么您必须建立不同的帐簿。这谢帐簿可使您按不同类型的会计分录进行分录，比如：
 
 .. i18n: * services,
 .. i18n: 
