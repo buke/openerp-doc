@@ -123,7 +123,7 @@
 .. i18n: Once you have defined the different analytic accounts, you can view your chart through the menu :menuselection:`Accounting --> Charts --> Chart of Analytic Accounts`. You can display analytic accounts for one or more periods or for an entire financial year.
 ..
 
-一旦您定义了不同的辅助核算，您就可以通过菜单 :menuselection:`Accounting --> Charts --> Chart of Analytic Accounts`查看清单。 您You can display analytic accounts for one or more periods or for an entire financial year.
+一旦您定义了不同的辅助核算，您就可以通过菜单 :menuselection:`Accounting --> Charts --> Chart of Analytic Accounts` 查看清单。 您可以一个会计年度中一个或多个会计期间的辅助核算项目。
 
 .. i18n: .. figure::  images/account_analytic_chart.png
 .. i18n:    :scale: 85
@@ -136,7 +136,7 @@
    :scale: 85
    :align: center
 
-   *Analytic Chart of Accounts*
+   *辅助核算表*
 
 .. i18n: .. index::
 .. i18n:    single: module; hr_timesheet_invoice
@@ -155,7 +155,7 @@
 .. i18n:         Some of these modules add helpful management statistics to the analytic account. The most useful is probably the module :mod:`account_analytic_analysis`, which adds such information as indicators about your margins, invoicing amounts, and latest service dates and invoice dates.
 ..
 
-.. tip:: Setting up an Analytic Account
+.. tip:: 设置辅助核算项
 
         The setup screen for an analytic account can vary according to the modules installed in your database.
         For example, you will see information about recharging services only if you have the module :mod:`hr_timesheet_invoice` installed.
