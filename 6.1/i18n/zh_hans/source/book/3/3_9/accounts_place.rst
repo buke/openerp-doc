@@ -118,12 +118,12 @@
         * 制造业或贸易企业经常因发货或客户采购订单而开具发票。
           orders.
 
-        For more information about invoicing from projects, we refer to the book (soon to be released) about Project and Services Management.
+        如需要项目发票的更多信息，请参阅有关项目和服务管理的书（即将发布）。
 
 .. i18n: Once you have defined the different analytic accounts, you can view your chart through the menu :menuselection:`Accounting --> Charts --> Chart of Analytic Accounts`. You can display analytic accounts for one or more periods or for an entire financial year.
 ..
 
-Once you have defined the different analytic accounts, you can view your chart through the menu :menuselection:`Accounting --> Charts --> Chart of Analytic Accounts`. You can display analytic accounts for one or more periods or for an entire financial year.
+一旦您定义了不同的辅助核算，您就可以通过菜单 :menuselection:`Accounting --> Charts --> Chart of Analytic Accounts`查看清单。 您You can display analytic accounts for one or more periods or for an entire financial year.
 
 .. i18n: .. figure::  images/account_analytic_chart.png
 .. i18n:    :scale: 85
