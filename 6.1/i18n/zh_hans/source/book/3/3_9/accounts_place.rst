@@ -157,8 +157,7 @@
 
 .. tip:: 设置辅助核算项
 
-        The setup screen for an analytic account can vary according to the modules installed in your database.
-        For example, you will see information about recharging services only if you have the module :mod:`hr_timesheet_invoice` installed.
+        辅助核算项设置画面可因安装在帐套中的模块而有很大不同。例如仅当您安装了 :mod:`hr_timesheet_invoice` 模块后才能看到有关收取服务成本费用的信息。
 
         Some of these modules add helpful management statistics to the analytic account. The most useful is probably the module :mod:`account_analytic_analysis`, which adds such information as indicators about your margins, invoicing amounts, and latest service dates and invoice dates.
 
