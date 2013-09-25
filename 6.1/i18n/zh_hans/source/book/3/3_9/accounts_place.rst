@@ -109,14 +109,13 @@
 .. i18n:         For more information about invoicing from projects, we refer to the book (soon to be released) about Project and Services Management.
 ..
 
-.. tip:: Invoicing
+.. tip:: 发票
 
-        You have several methods available to you in OpenERP for automated invoicing:
+        在OpenERP中你有几种方法可用于自动发票：
 
-        * Service companies usually use invoicing from purchase orders, analytic accounts or
-          project management tasks.
+        * 服务型公司通常因采购订单，辅助核算项或项目管理任务而开具发票。
 
-        * Manufacturing and trading companies more often use invoicing from deliveries or customer purchase
+        * 制造业或贸易企业经常因发货或客户采购订单而开具发票。
           orders.
 
         For more information about invoicing from projects, we refer to the book (soon to be released) about Project and Services Management.
