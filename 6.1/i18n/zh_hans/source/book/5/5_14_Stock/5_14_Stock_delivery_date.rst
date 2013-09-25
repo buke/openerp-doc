@@ -116,12 +116,12 @@ To be able to plan incoming and outgoing shipments of products, 你要安装模�
 	:scale: 75
 	:align: center
 	
-	*Planning the Deliveries of Customer Products*
+	*预计送货日期*
 
 .. i18n: Thanks to this module, you will be able to calculate a planning of the stock for a product.
 ..
 
-Thanks to this module, you will be able to calculate a planning of the stock for a product.
+使用本模块,你可以大致估算出产品的预计送货日期.
 
 .. i18n: Planned dates on a packing order are put in each stock move line. If you have a packing order 
 .. i18n: containing several products, not all of the lines necessarily need to be delivered the same day. 
@@ -129,10 +129,8 @@ Thanks to this module, you will be able to calculate a planning of the stock for
 .. i18n: move lines for the packing.
 ..
 
-Picking单的交付日期会传递到单据明细上面去. If you have a packing order 
-containing several products, not all of the lines necessarily need to be delivered the same day. 
-The minimum and maximum dates in a packing order show the earliest and latest dates on the stock 
-move lines for the packing.
+Picking单的交付日期会传递到单据明细上面去. 由于一次收/发货可能会有多个产品,所以,根据每个产品可以出的送货日期可以得到该
+收/发货的最早及最迟日期.
 
 .. i18n: If you move a packing order in the calendar view, the planned date in the stock move lines will 
 .. i18n: automatically be moved as a result.
