@@ -229,14 +229,13 @@
 .. i18n: To define your analytic journals, use the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` then click the :guilabel:`Create` button.
 ..
 
-要定义辅助核算，使用菜单 :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` 然后点击 :guilabel:`Create` 按钮。
+要定义辅助核算分类账，使用菜单 :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` 然后点击 :guilabel:`Create` 按钮。
 
 .. i18n: It is easy to create an analytic journal. Just give it a :guilabel:`Journal Name`, a :guilabel:`Journal Code` and a :guilabel:`Type`. The
 .. i18n: types available are:
 ..
 
-It is easy to create an analytic journal. Just give it a :guilabel:`Journal Name`, a :guilabel:`Journal Code` and a :guilabel:`Type`. The
-types available are:
+很容易创建辅助核算分类账，进需给一个 :guilabel:`Journal Name`, 一个 :guilabel:`Journal Code` 和一个 :guilabel:`Type`. 可用类型有：
 
 .. i18n: * \ ``Sale``\, for sales to customers and for credit notes,
 .. i18n: 
@@ -249,15 +248,15 @@ types available are:
 .. i18n: * \ ``General``\, for all other entries.
 ..
 
-* \ ``Sale``\, for sales to customers and for credit notes,
+* \ ``Sale``\, 适用于销售给客户和欠款，
 
-* \ ``Purchase``\, for purchases and expenses,
+* \ ``Purchase``\, 适用于采购和费用,
 
-* \ ``Cash``\, for financial entries,
+* \ ``Cash``\, 适用于凭证分录,
 
-* \ ``Situation``\, to adjust accounts when starting an activity, or at the end of the financial year,
+* \ ``Situation``\, 开始运作时的调整科目, 或在本会计年度结束时,
 
-* \ ``General``\, for all other entries.
+* \ ``General``\, 其他分录。
 
 .. i18n: The analytic journal now has to be linked to your general journals to allow OpenERP to post the analytic entries. For example, if you enter an invoice for a customer, OpenERP will automatically search for the analytic journal of type \ ``Sales``\ linked to your Sales Journal.
 .. i18n: Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> Journals --> Journals` and select for instance the Sales journal. In the :guilabel:`Analytic Journal` select the analytic sales journal.
@@ -277,7 +276,7 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
    :scale: 85
    :align: center
 
-   *Linking an Analytic Journal to a Journal*
+   *关联辅助核算分类账到分类账*
 
 .. i18n: Working with Analytic Defaults
 .. i18n: ------------------------------
