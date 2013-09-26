@@ -103,7 +103,7 @@ the final products in each period.
 .. i18n: :guilabel:`stock_planning`. 
 ..
 
-To be able to plan incoming and outgoing shipments of products, 你要安装模块: :guilabel:`stock_planning`. 
+要控制管理好收/发货时间计划, 你要安装模块: :guilabel:`stock_planning`. 
 
 .. i18n: .. figure:: images/stock_forecast.png
 .. i18n: 	:scale: 75
