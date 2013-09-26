@@ -229,7 +229,7 @@
 .. i18n: To define your analytic journals, use the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` then click the :guilabel:`Create` button.
 ..
 
-To define your analytic journals, use the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` then click the :guilabel:`Create` button.
+要定义辅助核算，使用菜单 :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Journals` 然后点击 :guilabel:`Create` 按钮。
 
 .. i18n: It is easy to create an analytic journal. Just give it a :guilabel:`Journal Name`, a :guilabel:`Journal Code` and a :guilabel:`Type`. The
 .. i18n: types available are:
