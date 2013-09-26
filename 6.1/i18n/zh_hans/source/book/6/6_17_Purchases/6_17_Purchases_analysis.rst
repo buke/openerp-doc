@@ -164,23 +164,20 @@ When re-invoicing based on costs you would get the following workflow:
 .. i18n: accounts, or cost accounts, as they are also called) in OpenERP.
 ..
 
-You need a common way of referring to each user, service, or document to integrate all your
-company's processes effectively. Such a common basis is provided by analytic accounts (or management
-accounts, or cost accounts, as they are also called) in OpenERP.
+你需要一种基本的方法涉及到每一个用户，每一项服务，或是有效整合公司流程的手册. Openerp中的分析会计（也会称作管理会计，成本会计）
+就能够提供这样一种基本的方法.
 
 .. i18n: Analytic accounts are often presented as a foundation for strategic enterprise decisions. But
 .. i18n: because of all the information they pull together, OpenERP's analytic accounts can be a useful
 .. i18n: management tool, at the center of most system processes.
 ..
 
-Analytic accounts are often presented as a foundation for strategic enterprise decisions. But
-because of all the information they pull together, OpenERP's analytic accounts can be a useful
-management tool, at the center of most system processes.
-
+分析会计通常作为公司的战略决策基础. 因为它整合了所有信息, OpenERP的分析会计是一个非常实用的管理工具，
+是大多数系统流程的核心。
 .. i18n: There are several reasons for this:
 ..
 
-There are several reasons for this:
+原因如下:
 
 .. i18n: * they reflect your entire management activity,
 .. i18n: 
@@ -188,10 +185,9 @@ There are several reasons for this:
 .. i18n:   obligations, so each company can adapt it to its needs.
 ..
 
-* they reflect your entire management activity,
+* 它反映了整个管理活动,
 
-* unlike the general accounts, the structure of the analytic accounts is not regulated by legal
-  obligations, so each company can adapt it to its needs.
+* 不同于总账会计.分析会计的结构是不受法律约束的，所以每个公司可以按需配置。
 
 .. i18n: .. note:: Independence from General Accounts
 .. i18n: 
@@ -204,7 +200,7 @@ There are several reasons for this:
 .. i18n: 	financial accounts.
 ..
 
-.. note:: Independence from General Accounts
+.. note:: 独立于总账之外
 
 	In some software packages, analytic accounts are managed as an extension of general accounts –
 	for example, by using the two last digits of the account code to represent analytic accounts.
