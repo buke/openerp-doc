@@ -60,7 +60,7 @@
 .. i18n: A wizard is a succession of steps. A step is composed of several actions;
 ..
 
-向导具有一连串的步骤，每一个步骤又多个动作组成;
+向导具有一连串的步骤，每一个步骤由多个动作组成;
 
 .. i18n: #. send a form to the client and some buttons
 .. i18n: #. get the form result and the button pressed from the client
