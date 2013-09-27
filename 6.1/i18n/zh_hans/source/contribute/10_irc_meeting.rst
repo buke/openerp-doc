@@ -90,7 +90,7 @@ at least:
 .. i18n: The meeting is organized at the official OpenERP IRC channel:
 ..
 
-The meeting is organized at the official OpenERP IRC channel:
+OpenERP会议的官方IRC频道:
 
 .. i18n: * http://openobject.com/irc/
 ..
