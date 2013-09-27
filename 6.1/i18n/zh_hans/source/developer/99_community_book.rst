@@ -643,7 +643,7 @@ This is the official and proposed way to contribute on OpenERP and OpenObject.
 .. i18n: -------------
 ..
 
-How to commit
+如何提交
 -------------
 
 .. i18n: If you want to contribute on OpenERP or OpenObject, here is the proposed method:
@@ -823,7 +823,7 @@ Once quality team finish merging, they change the status to "Fix Released".
 .. i18n: -----------
 ..
 
-Translation
+翻译
 -----------
 
 .. i18n: Translations are managed by 
