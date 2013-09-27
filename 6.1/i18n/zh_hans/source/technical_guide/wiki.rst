@@ -1,4 +1,3 @@
-
 .. i18n: .. module:: wiki
 .. i18n:     :synopsis: Document Management - Wiki (Official, Quality Certified)
 .. i18n:     :noindex:
@@ -27,10 +26,9 @@
 .. i18n:   `OpenERP <http://openerp.com>`_ directly.
 ..
 
-.. tip:: This module is part of the OpenERP software, the leading Open Source 
-  enterprise management system. If you want to discover OpenERP, check our 
-  `screencasts <http://openerp.tv>`_ or download 
-  `OpenERP <http://openerp.com>`_ directly.
+.. tip:: 本模块是业界领先的开源企业管理系统OpenERP的一部分。如果你想探索OpenERP，请查看我们的 
+  `截屏 <http://openerp.tv>`_ 或直接下载 
+  `OpenERP <http://openerp.com>`_ .
 
 .. i18n: .. raw:: html
 .. i18n: 
