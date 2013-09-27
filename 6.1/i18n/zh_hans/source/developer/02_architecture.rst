@@ -61,11 +61,6 @@ OpenERP MVC 模型
 .. i18n:     * controller : The objects of OpenERP. 
 ..
 
-    * model : The PostgreSQL tables.
-    * view : views are defined in XML files in OpenERP.
-    * controller : The objects of OpenERP. 
-
-
     * Model : PostGreSQL数据表
     * View : 在OpenERP中定义XML文件 
     * Controller : OpenERP的对象
