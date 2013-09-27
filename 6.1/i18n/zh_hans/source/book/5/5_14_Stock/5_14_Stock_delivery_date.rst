@@ -297,11 +297,10 @@ This newly added section allows you to define for your new report:
   
   安全页签用于控制哪些用户组可以显示报表.
 
-.. tip:: Create Report with OpenOffice
+.. tip:: 用 OpenOffice 创建报表
    
-   You can also create or edit reports with OpenOffice using the :guilabel:`base_report_designer`
-   module.
-   
+   安装模块 :guilabel:`base_report_designer` 后,你就可以利用 OpenOffice 方便地创建与修改报表.
+
    In order to add the extension to OpenOffice, load this module and start the configuration. A new 
    window will ask you to *Save As* a file that contains the extension. 
    
