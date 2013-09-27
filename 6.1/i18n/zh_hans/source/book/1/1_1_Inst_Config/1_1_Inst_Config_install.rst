@@ -1006,21 +1006,19 @@ database on the server.
    :align: center
    :scale: 75
 
-   *Dialog box for defining connection parameters to the server*
+   *定义连接服务器参数对话框*
 
 .. i18n: It is possible to connect the server to the client using a secure protocol to prevent other network
 .. i18n: users from listening in, but the installation described here is for direct unencrypted connection.
 ..
 
-It is possible to connect the server to the client using a secure protocol to prevent other network
-users from listening in, but the installation described here is for direct unencrypted connection.
+在从客户端连接到服务器时有可能需要使用安全协议以防止网络上其他用户的侦听，但是这里描述的仅是无加密的直接链接。
 
 .. i18n: If your Linux server is protected by a firewall you will have to provide access to port 
 .. i18n:  \ ``8069`` \ or \ ``8070`` \ for users on other computers with OpenERP GTK clients.
 ..
 
-If your Linux server is protected by a firewall you will have to provide access to port 
- \ ``8069`` \ or \ ``8070`` \ for users on other computers with OpenERP GTK clients.
+如果你的Linux服务器有防火墙保护，你需要打开 \ ``8069`` \ or \ ``8070`` \ 端口以便其它电脑上的用户使用OpenERP GTK客户端访问。
 
 .. i18n: .. _fig-webwel:
 .. i18n: 
@@ -1037,7 +1035,7 @@ If your Linux server is protected by a firewall you will have to provide access 
    :scale: 70
    :align: center
 
-   *OpenERP web client at startup*
+   *使用OpenERP Web客户端*
 
 .. i18n: You can verify the installation by opening a web browser on the server and navigating to
 .. i18n: http://localhost:8069 to connect to the OpenERP web version as shown in the figure :ref:`fig-webwel`. 
