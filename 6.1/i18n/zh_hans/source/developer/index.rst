@@ -102,7 +102,7 @@ OpenERP Web Client v6.0
 .. i18n: ------------
 ..
 
-Other Topics
+其他主题
 ------------
 
 .. i18n: .. toctree::
