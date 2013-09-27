@@ -51,9 +51,7 @@ or the organisation of the project.
 .. i18n: date conversion for your country here:
 ..
 
-The community meeting should be planned in the calendar of the OpenERP
-website, the first Tuesday of each month, at 1pm, UTC. You can check the exact
-date conversion for your country here:
+在OpenERP网站日历上有社区会议计划，在每个月的第一个星期二下午1点(UTC时间)进行，你可以点击下面的这个网址查看你所在位置的当地时间:
 
 .. i18n: http://www.timeanddate.com/worldclock/fixedtime.html?hour=14&min=0&sec=0&p1=48
 ..
