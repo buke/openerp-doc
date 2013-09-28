@@ -1065,9 +1065,7 @@ Linux (Ubuntu) 安装
 .. i18n: the following points provide some indicators about how you can set up your installation.
 ..
 
-You have used default parameters so far during the installation of the various components.
-If you have had problems, or you just want to set this up differently,
-the following points provide some indicators about how you can set up your installation.
+你在安装各组件过程中已经使用了默认参数。如果你有问题或者你想进行不同的设置，下面的部分会指导你进行相应的安装。
 
 .. i18n: .. tip:: **psql** and **pgAdmin** tools
 .. i18n: 
@@ -1079,10 +1077,9 @@ the following points provide some indicators about how you can set up your insta
 .. i18n: 	found at \ ``http://www.pgadmin.org/`` \ ).
 ..
 
-.. tip:: **psql** and **pgAdmin** tools
+.. tip:: **psql** and **pgAdmin** 工具
 
-	psql is a simple client, executed from the command line, that is delivered with PostgreSQL. It
-	enables you to execute SQL commands on your OpenERP database.
+	psql是一个简单的客户端，从命令行执行，它由PostgreSQL提供。它允许你执行SQL命令在你的OpenERP数据库上。
 
 	If you prefer a graphical utility to manipulate your database directly you can install pgAdmin III
 	(it is commonly installed automatically with PostgreSQL on a windowing system, but can also be
