@@ -319,14 +319,14 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
 .. i18n:    :scale: 85
 .. i18n:    :align: center
 .. i18n: 
-.. i18n:    *提供标准以自动选择辅助核算项*
+.. i18n:    *Specify Criteria to Automatically Select Analytic Account*
 ..
 
 .. figure::  images/account_analytic_default.png
    :scale: 85
    :align: center
 
-   *Specify Criteria to Automatically Select Analytic Account*
+   *提供标准以自动选择辅助核算项*
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
