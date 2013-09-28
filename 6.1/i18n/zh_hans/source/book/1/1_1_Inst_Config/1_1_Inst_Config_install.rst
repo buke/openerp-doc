@@ -933,7 +933,7 @@ Linux (Ubuntu) 安装
 .. i18n: database on the server.
 ..
 
-打开一个终端窗口使用命令 :command:`openerp-client`启动客户端。当你在Linux服务器上启动客户端时你会发现不需要修改任何连接参数
+打开一个终端窗口使用命令 :command:`openerp-client` 启动客户端。当你在Linux服务器上启动客户端时你会发现不需要修改任何连接参数
 客户端就可以正常工作。消息 :guilabel:`No database found, you must create one!` 可以告诉你已经成功连接到服务器，你需要在服务器
 上创建一个数据库。
 
@@ -1042,11 +1042,9 @@ Linux (Ubuntu) 安装
 .. i18n: the network – your browser should be set to http://<server_address>:8069 for this.
 ..
 
-You can verify the installation by opening a web browser on the server and navigating to
-http://localhost:8069 to connect to the OpenERP web version as shown in the figure :ref:`fig-webwel`. 
-You can also test this from
-another computer connected to the same network if you know the name or IP address of the server over
-the network – your browser should be set to http://<server_address>:8069 for this.
+你可以通过在浏览器中打开http://localhost:8069来修改OpenERP Web版的安装，如图 :ref:`fig-webwel`。
+你也可以通过另一台电脑连接到相同的网络来测试如果你知道服务器名或者IP地址——你应该在浏览器中输入类似于http://<server_address>:8069
+的地址来访问。
 
 .. i18n: Verifying your Linux Installation
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
