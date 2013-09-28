@@ -50,7 +50,7 @@
   指你生产一个生产单位的产品所需的时间. 如果产品由多个半成品组成,则需要加上各个半成品的生产时间. 
   这个时间需要在产品页面的 guilabel:`生产与库位(Procurement and Locations)` 页签中去设置.
   
-* 运送交付时间 :
+* 运送间隔时间 :
 
 .. i18n:   This is the time your supplier needs to deliver the goods. This delay can be defined in the product form
 .. i18n:   in the :guilabel:`Suppliers` tab.
@@ -60,8 +60,7 @@
 .. i18n: the raw materials within 3 days.
 ..
 
-  This is the time your supplier needs to deliver the goods. This delay can be defined in the product form
-  in the :guilabel:`Suppliers` tab.
+  指你的供应商需要的送货时间. 在产品页的 :guilabel:`供应商(Suppliers)` 页签中去设置.
   
 For example, if we have to deliver some products to a customer in a month (in 30 days). You promise to deliver
 the goods to the customer within 10 days, the manufacturing time is equal to 4 days and our suppliers deliver 
