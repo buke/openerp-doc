@@ -933,11 +933,9 @@ Linux (Ubuntu) 安装
 .. i18n: database on the server.
 ..
 
-Open a terminal window to start the client using the command :command:`openerp-client`. When you start the
-client on the same Linux PC as the server you will find that the default connection parameters will
-just work without needing any change. The message :guilabel:`No database found, you must create
-one!`  shows you that the connection to the server has been successful and you need to create a
-database on the server.
+打开一个终端窗口使用命令 :command:`openerp-client`启动客户端。当你在Linux服务器上启动客户端时你会发现不需要修改任何连接参数
+客户端就可以正常工作。消息 :guilabel:`No database found, you must create one!` 可以告诉你已经成功连接到服务器，你需要在服务器
+上创建一个数据库。
 
 .. i18n: Creating the Database
 .. i18n: ^^^^^^^^^^^^^^^^^^^^^
