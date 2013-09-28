@@ -73,8 +73,7 @@
 
 * 在登陆的帐套名提示下面是你当前的登陆用户.
 
-* the :guilabel:`ONLINE SUPPORT` button, which gives you an overview of the support services provided by OpenERP
-  which is available for subscription,
+*  :guilabel:`ONLINE SUPPORT` 按钮， 给你一个OpenERP提供的支持服务的总览，他对会员开放，
 
 * the :guilabel:`Preferences` toolbar to the top right, showing the links to the :guilabel:`HOME` page,
   :guilabel:`EDIT PREFERENCES` page, :guilabel:`ABOUT`, :guilabel:`HELP`
