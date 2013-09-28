@@ -889,7 +889,7 @@ Linux (Ubuntu) 安装
    :align: center
    :scale: 75
    
-   *OpenERP startup log in the console*
+   *控制台上的OpenERP开始日志*
 
 .. i18n: .. index::
 .. i18n:    single: client; GTK
@@ -924,7 +924,7 @@ Linux (Ubuntu) 安装
    :align: center
    :scale: 75
    
-   *OpenERP client at startup*
+   *启动时的OpenERP客户端*
 
 .. i18n: Open a terminal window to start the client using the command :command:`openerp-client`. When you start the
 .. i18n: client on the same Linux PC as the server you will find that the default connection parameters will
