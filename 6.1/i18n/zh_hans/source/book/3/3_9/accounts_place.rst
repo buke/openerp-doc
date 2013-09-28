@@ -293,7 +293,7 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
 .. i18n: The system will automatically select analytic accounts according to the following criteria:
 ..
 
-系统会根据以下标准选择辅助核算项:
+系统会根据以下条件选择辅助核算项:
 
 .. i18n: * Product
 .. i18n: * Partner
@@ -313,7 +313,7 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
 ..
 
 您可以通过菜单 :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Defaults` 并点击 `Create` 按钮创建这些标准。
-根据您在此定义的标准，当创建订单或发票时系统将推荐正确的辅助核算项。
+根据您在此定义的条件，当创建订单或发票时系统将推荐正确的辅助核算项。
 
 .. i18n: .. figure::  images/account_analytic_default.png
 .. i18n:    :scale: 85
@@ -326,7 +326,7 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
    :scale: 85
    :align: center
 
-   *提供标准以自动选择辅助核算项*
+   *提供条件以自动选择辅助核算项*
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
