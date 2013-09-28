@@ -107,9 +107,7 @@ Example 1
 .. i18n: If you want to write the same thing in traditional SQL development, it will be in python: (we suppose cr is the cursor on the database, with psycopg)
 ..
 
-If you want to write the same thing in traditional SQL development, 
-it will be in python: (we suppose cr is the cursor on the database, with psycopg)
-如果你要用传统的SQL开发写相同情况的代码，用 python 是这样的：（假设我们用 cr 作为数据库的游标，使用psycopg）
+如果你要用传统的SQL开发写相同情况的代码，用 python 是这样的：（cr 是系统中数据库的游标(cursor)）
 
 .. i18n: .. code-block:: python
 .. i18n: 
