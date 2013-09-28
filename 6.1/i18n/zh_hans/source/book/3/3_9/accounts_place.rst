@@ -288,12 +288,12 @@ Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> J
 .. i18n: You can work with analytic default accounts in OpenERP by installing the :mod:`account_analytic_default` module. Notice that this module is also linked with the :mod:`sale`, :mod:`stock` and :mod:`procurement` modules.
 ..
 
-You can work with analytic default accounts in OpenERP by installing the :mod:`account_analytic_default` module. Notice that this module is also linked with the :mod:`sale`, :mod:`stock` and :mod:`procurement` modules.
+安装 :mod:`account_analytic_default` 模块后您可以在OpenERP中使用默认辅助核算项。 注意这个模块和 :mod:`sale`, :mod:`stock` 以及 :mod:`procurement` 模块有关联。
 
 .. i18n: The system will automatically select analytic accounts according to the following criteria:
 ..
 
-The system will automatically select analytic accounts according to the following criteria:
+系统会根据以下标准选择辅助核算项:
 
 .. i18n: * Product
 .. i18n: * Partner
@@ -312,14 +312,14 @@ The system will automatically select analytic accounts according to the followin
 .. i18n: According to the criteria you define here, the correct analytic account will be proposed when creating an order or an invoice.
 ..
 
-You can configure these criteria using the menu :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Defaults` and clicking the `Create` button.
-According to the criteria you define here, the correct analytic account will be proposed when creating an order or an invoice.
+您可以通过菜单 :menuselection:`Accounting --> Configuration --> Analytic Accounting --> Analytic Defaults` 并点击 `Create` 按钮创建这些标准。
+根据您在此定义的标准，当创建订单或发票时系统将推荐正确的辅助核算项。
 
 .. i18n: .. figure::  images/account_analytic_default.png
 .. i18n:    :scale: 85
 .. i18n:    :align: center
 .. i18n: 
-.. i18n:    *Specify Criteria to Automatically Select Analytic Account*
+.. i18n:    *提供标准以自动选择辅助核算项*
 ..
 
 .. figure::  images/account_analytic_default.png
