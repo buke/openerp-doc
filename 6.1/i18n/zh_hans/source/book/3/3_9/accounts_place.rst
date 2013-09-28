@@ -262,8 +262,8 @@
 .. i18n: Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> Journals --> Journals` and select for instance the Sales journal. In the :guilabel:`Analytic Journal` select the analytic sales journal.
 ..
 
-The analytic journal now has to be linked to your general journals to allow OpenERP to post the analytic entries. For example, if you enter an invoice for a customer, OpenERP will automatically search for the analytic journal of type \ ``Sales``\ linked to your Sales Journal.
-Go to :menuselection:`Accounting--> Configuration --> Financial Accounting --> Journals --> Journals` and select for instance the Sales journal. In the :guilabel:`Analytic Journal` select the analytic sales journal.
+辅助核算现在已链接到您的通用分类帐以便OpenERP放置辅助核算分录。比如，如果您在为客户录入发票，OpenERP 会自动搜索类型为 \ ``Sales``\ 的辅助核算关联到销售分类帐上。
+通过菜单 :menuselection:`Accounting--> Configuration --> Financial Accounting --> Journals --> Journals` 并选择比方销售分类帐。 在 :guilabel:`Analytic Journal` 中也选择销售辅助分类帐。
 
 .. i18n: .. figure::  images/account_general_journal.png
 .. i18n:    :scale: 85
