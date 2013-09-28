@@ -180,7 +180,7 @@ To create a new Tax, use the menu :menuselection:`Accounting --> Configuration -
 .. i18n: You define the following fields:
 ..
 
-You define the following fields:
+您定义如下字段:
 
 .. i18n: *  :guilabel:`Tax Name`: a unique name required for this tax (such as \ ``21% Purchase VAT``\  ),
 .. i18n: 
@@ -238,7 +238,7 @@ You define the following fields:
 .. i18n:     You can use child taxes when you have a complex tax situation requiring several tax codes to be used.
 ..
 
-.. tip:: Using Child Taxes
+.. tip:: 使用子税
 
     You can use child taxes when you have a complex tax situation requiring several tax codes to be used.
 
@@ -276,11 +276,10 @@ When you have created a tax structure consisting of taxe codes and taxes, you ca
 .. i18n:     than a tax-exclusive price plus tax.
 ..
 
-.. tip:: Retail Customers
+.. tip:: 零售客户
 
-    When you are retailing to end users rather than selling to a business,
-    you may want to (or be required to) show tax-inclusive prices on your invoicing documents rather
-    than a tax-exclusive price plus tax.
+    当您零售给最终用户而非销售给公司时，您也许希望（或必须）在您的发票上显示含税价格而非不含税价格再加税。
+    
 
 .. i18n: You can assign multiple taxes to a Product. Assuming you have set up the appropriate taxes, you would use the menu :menuselection:`Sales --> Products --> Products` to open and edit a :guilabel:`Product` definition, then:
 ..
