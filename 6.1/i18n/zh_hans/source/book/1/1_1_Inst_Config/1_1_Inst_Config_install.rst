@@ -291,7 +291,7 @@ OpenERP的电脑上安装
    :align: center
    :scale: 75
 
-   *Dialog box on connecting a GTK client to a new OpenERP server*
+   *GKT客户端连接到OpenERP服务器时的对话框*
 
 .. i18n: .. index::
 .. i18n:    single: protocol; XML-RPC
@@ -365,7 +365,7 @@ OpenERP的电脑上安装
 	   :align: center
 	   :scale: 80
 	          
-	   *Typical OpenERP configuration file*
+	   *典型的OpenERP设置文件*
 
 .. i18n: #. Is your PostgreSQL running? Signed in as administrator, select :guilabel:`Stop Service`
 .. i18n:    from the menu :menuselection:`Start --> Programs --> PostgreSQL`.  If after a couple of seconds,
