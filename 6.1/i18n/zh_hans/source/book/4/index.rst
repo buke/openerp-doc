@@ -17,10 +17,8 @@
 .. i18n:  Isolated spots of poor management can disturb the whole value-added chain.
 ..
 
- Your company is a closely interlinked jumble of people and processes that form the whole system.
- If you want it to be efficient, and to be able manage it effectively, you have to organize it,
- make it systematic, and optimize its major operations. 
- Isolated spots of poor management can disturb the whole value-added chain.
+ 公司的管理是一个关于人力资源和工作流程的协调的过程，如果你希望公司能更高效，就必须有一个卓有成效的管理。
+ 你必须组织它，使它系统化，并优化这些主要的流程。一些管理不善的隔离点会影响整个公司的价值链。
 
 .. i18n:  This part presents an approach to greater efficiency, showing concrete solutions by applying
 .. i18n:  OpenERP to different problems in a services company.
