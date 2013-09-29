@@ -15,7 +15,7 @@
 ..
 
 近些年来，提高企业的竞争力，信息系统日益发挥着显著的作用。
-作为处理企业复杂的重复性的任务的工具，它们被用来指导并促进
+作为处理企业复杂的重复性任务的工具，它们被用来指导并促进
 企业的日常业务活动。现在集成的管理软件是具有显著竞争优势的主要来源。
 
 .. i18n: The standard response to a need for responsiveness, reliability, and rapidly
