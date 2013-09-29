@@ -135,8 +135,7 @@ Picking单的交付日期会传递到单据明细上面去. 由于一次收/发�
 .. i18n: automatically be moved as a result.
 ..
 
-If you move a packing order in the calendar view, the planned date in the stock move lines will 
-automatically be moved as a result.
+在日历视图上, 直接拖动单据, 可以直接修改相应数据的计划日期.
 
 .. i18n: Managing Inventory Reconciliation
 .. i18n: =================================
