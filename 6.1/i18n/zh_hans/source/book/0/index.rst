@@ -25,9 +25,9 @@
 .. i18n: everyone else you should have a common understanding of your problems.
 ..
 
-建立一个具有清晰的线性部门组织结构，快速反应作为反应的标准是必须的，
-可靠的, 快速增长的预期，集成了你企业的运作流程。为了提高效率，包括销
-售人员，会计人员，后勤人员和其他人，应该有一个共同的认识问题的平台。
+创建一个基于部门的、具有清晰结构的组织，需要有一套系统化的响应流程，而且必须具有响应性
+（译者注：指提供服务的自发性）、可靠性和快速增长的预期。提高效率需要包括销售部，财务部，
+后勤部等所有部门对你的问题有普遍一致的认识。
 
 .. i18n: For this you need a common language for shared references, policies and communication.
 .. i18n: An ERP (Enterprise Resource Planning) system provides the ideal platform for this common reference
