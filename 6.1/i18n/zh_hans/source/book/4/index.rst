@@ -26,10 +26,8 @@
 .. i18n:  complex processes, simplify the transmission of information and control all your operations.
 ..
 
- This part presents an approach to greater efficiency, showing concrete solutions by applying
- OpenERP to different problems in a services company.
- For each enterprise function, OpenERP enables you to automate the recurring tasks, systematize
- complex processes, simplify the transmission of information and control all your operations.
+ 这部分内容介绍了一些可以提高公司效率的途径，也提供了一些使用OpenERP解决具体的问题的方案。对于每一个企业，
+ OpenERP都可以自动归集任务，系统的解决复杂的工作流程，并且简化了信息的传输和控制成本。
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 1
