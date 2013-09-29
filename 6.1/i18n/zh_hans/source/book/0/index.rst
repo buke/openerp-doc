@@ -14,8 +14,8 @@
 .. i18n: key source of significant competitive advantage.
 ..
 
-近些年来，信息系统在提高企业竞争力中发挥着显著的作用。
-它们经常被用到指导和推进企业的日常活动，而不只是运用在处理简单的重复性任务。
+近些年来，信息系统在提高企业竞争力中日益发挥着显著的作用。
+它们经常被用到指导和推进企业的日常活动，而不只是运用在处理简单的重复性任务中。
 要形成一个有效的竞争优势，集成的企业管理软件是一个非常关键的企业资源。
 
 .. i18n: The standard response to a need for responsiveness, reliability, and rapidly
