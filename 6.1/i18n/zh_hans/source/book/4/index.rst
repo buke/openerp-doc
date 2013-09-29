@@ -18,7 +18,7 @@
 ..
 
  公司的管理是一个关于人力资源和工作流程的协调的过程，如果你希望公司能更高效，就必须有一个卓有成效的管理。
- 你必须组织它，使它系统化，并优化这些主要的流程。一些管理因不善造成的信息孤岛会影响整个公司的价值链。
+ 你必须组织它，使它系统化，并优化这些主要的流程。一些因管理不善造成的信息孤岛会影响整个公司的价值链。
 
 .. i18n:  This part presents an approach to greater efficiency, showing concrete solutions by applying
 .. i18n:  OpenERP to different problems in a services company.
