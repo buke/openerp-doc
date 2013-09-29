@@ -14,7 +14,9 @@
 .. i18n: key source of significant competitive advantage.
 ..
 
-近些年来，提高企业的竞争力，信息系统日益发挥着显著的作用。作为处理企业复杂的重复性任务的工具，它们被用来指导并促进企业的日常业务活动。现在集成的管理软件是具有显著竞争优势的主要来源。
+近些年来，提高企业的竞争力，信息系统日益发挥着显著的作用。
+作为处理企业复杂的重复性任务的工具，它们被用来指导并促进企业的日常业务活动。
+现在集成的管理软件是具有显著竞争优势的主要来源。
 
 .. i18n: The standard response to a need for responsiveness, reliability, and rapidly
 .. i18n: increasing expectations is to create an organization based on departments with
@@ -23,14 +25,17 @@
 .. i18n: everyone else you should have a common understanding of your problems.
 ..
 
-创建一个基于部门的、具有清晰结构的组织，需要有一套系统化的响应流程，而且必须具有响应性（译者注：指提供服务的自发性）、可靠性和快速增长的预期。提高效率需要包括销售部，财务部，后勤部等所有部门对你的问题有普遍一致的认识。
+创建一个基于部门的、具有清晰结构的组织，需要有一套系统化的响应流程，
+而且必须具有响应性（译者注：指提供服务的自发性）、可靠性和快速增长的预期。
+提高效率需要包括销售部，财务部，后勤部等所有部门对你的问题有普遍一致的认识。
 
 .. i18n: For this you need a common language for shared references, policies and communication.
 .. i18n: An ERP (Enterprise Resource Planning) system provides the ideal platform for this common reference
 .. i18n: point.
 ..
 
-关于这一点，你需要有一个普遍的沟通语言用来共享资讯，策略和通讯。ERP（企业资源规划）系统是提供这种沟通语言的理想平台。
+关于这一点，你需要有一个普遍的沟通语言用来共享资讯，策略和通讯。
+ERP（企业资源规划）系统是提供这种沟通语言的理想平台。
 
 .. i18n: Open Source software at the Service of Management
 .. i18n: =================================================
