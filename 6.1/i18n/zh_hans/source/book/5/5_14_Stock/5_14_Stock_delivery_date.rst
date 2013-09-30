@@ -181,9 +181,8 @@ operations.
 .. i18n: submenu in :menuselection:`Administration --> Customization --> Reporting`.
 ..
 
-With OpenERP, you can build your own reports in order to track the different activities in your warehouses.
-To create your own reports, you have to install the :guilabel:`base_report_creator`. It will add a 
-submenu in :menuselection:`Administration --> Customization --> Reporting`.
+OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilabel:`base_report_creator` 模块,并在菜单
+:menuselection:`设置(Administration) --> 自定义(Customization) --> 报表(Reporting)` 中去新建.
 
 .. i18n: .. figure:: images/report_creation.png
 .. i18n: 	:scale: 75
