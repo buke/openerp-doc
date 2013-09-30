@@ -1077,13 +1077,12 @@ Linux (Ubuntu) 安装
 .. i18n: 	found at \ ``http://www.pgadmin.org/`` \ ).
 ..
 
-.. tip:: **psql** and **pgAdmin** 工具
+.. tip:: **psql** 和 **pgAdmin** 工具
 
 	psql是一个简单的客户端，从命令行执行，它由PostgreSQL提供。它允许你执行SQL命令在你的OpenERP数据库上。
 
-	If you prefer a graphical utility to manipulate your database directly you can install pgAdmin III
-	(it is commonly installed automatically with PostgreSQL on a windowing system, but can also be
-	found at \ ``http://www.pgadmin.org/`` \ ).
+	如果你习惯使用图形工具操作你的数据库你可以安装pgAdmin III（在Windows系统上，它通常会随着PostgreSQL自动安装，
+	你也可以从这里 \ ``http://www.pgadmin.org/`` \ 自行下载）。
 
 .. i18n: .. To check pts 4 and 7
 ..
