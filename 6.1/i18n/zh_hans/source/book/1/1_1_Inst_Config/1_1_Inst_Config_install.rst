@@ -1137,12 +1137,10 @@ Linux (Ubuntu) 安装
 .. i18n: 	problem is either with the NET-RPC port or with the web server itself, and not with the OpenERP server.
 ..
 
-#.	The PostgreSQL database starts automatically and listens locally on port 5432 as standard: check
-	this by entering \ ``sudo netstat -anpt``\  at a terminal to see if port 5432 is visible there.
+#.	PostgreSQL数据库启动启动并且默认监听本地的5432端口: 你可以在终端中输入 \ ``sudo netstat -anpt``\  检查5432端口是否可见。
 
-#.	The database system has a default role of \ ``postgres``\   accessible by running under the Linux
-	postgres user: check this by entering \ ``sudo su postgres -c psql``\  at a terminal to see the psql
-	startup message – then type \ ``\q``\  to quit the program.
+#.	数据库系统有一个默认规则 \ ``postgres``\  ，它是运行在Linux postgres 用户下的: 在终端中输入 \ ``sudo su postgres -c psql``\  
+	查看psql的启动消息——然后输入 \ ``\q``\  退出程序。
 
 #.	If you try to start the OpenERP server from a terminal but get the message ``socket.error: (98,
 	'Address already in use')`` then you might be trying to start OpenERP while an instance of
