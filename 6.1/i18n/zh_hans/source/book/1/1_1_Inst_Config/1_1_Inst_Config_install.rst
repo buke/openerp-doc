@@ -1144,13 +1144,10 @@ Linux (Ubuntu) 安装
 
 #.	如果你要从终端启动OpenERP，但是收到消息 ``socket.error: (98,
 	'Address already in use')`` 可能是已经有一个OpenERP的实例在运行并且使用了你已经定义的接口
-	（默认为8069和8070）。你需要首先停止并卸载掉OpenERP或者Tiny ERP，或者其它占用了这两个端口的程序。
+	（默认为8069和8070）。你需要首先停止并卸载掉之前安装的OpenERP或者Tiny ERP，或者其它占用了这两个端口的程序。
 
-	Type \ ``sudo netstat -anpt``\  to
-	discover what is running there, and record the PID. You can check that the PID corresponds to a
-	program you can dispense with by typing \ ``ps aux | grep <PID>``\   and you can then stop the
-	program from running by typing \ ``sudo kill <PID>``\ .  You need additional measures to stop it from
-	restarting when you restart the server.
+	输入 \ ``sudo netstat -anpt``\  以查看当前运行的进程，记录下PID。通过输入 \ ``ps aux | grep <PID>``\ 你可以看到这个PID对应的程序，
+	然后你可以通过输入 \ ``sudo kill <PID>``\ 来停止它。当你重启服务器时你需要通过其它方式停止它。
 
 #.	The OpenERP server has a large number of configuration options. You can see what they are by
 	starting the server with the argument \ ``–help``\ .   By default the server configuration is stored
