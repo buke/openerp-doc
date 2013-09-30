@@ -1142,12 +1142,10 @@ Linux (Ubuntu) 安装
 #.	数据库系统有一个默认规则 \ ``postgres``\  ，它是运行在Linux postgres 用户下的: 在终端中输入 \ ``sudo su postgres -c psql``\  
 	查看psql的启动消息——然后输入 \ ``\q``\  退出程序。
 
-#.	If you try to start the OpenERP server from a terminal but get the message ``socket.error: (98,
-	'Address already in use')`` then you might be trying to start OpenERP while an instance of
-	OpenERP is already running and using the sockets that you have defined (by default 8069 and 8070).
-	If that is a surprise to you then you may be coming up against a previous installation of OpenERP
-	or Tiny ERP, or something else using one or both of those ports. 
-	
+#.	如果你要从终端启动OpenERP，但是收到消息 ``socket.error: (98,
+	'Address already in use')`` 可能是已经有一个OpenERP的实例在运行并且使用了你已经定义的接口
+	（默认为8069和8070）。你需要首先停止并卸载掉OpenERP或者Tiny ERP，或者其它占用了这两个端口的程序。
+
 	Type \ ``sudo netstat -anpt``\  to
 	discover what is running there, and record the PID. You can check that the PID corresponds to a
 	program you can dispense with by typing \ ``ps aux | grep <PID>``\   and you can then stop the
