@@ -147,16 +147,14 @@ Picking单的交付日期会传递到单据明细上面去. 由于一次收/发�
 .. i18n: Inventory reconciliation involves two steps: physical and accounting.
 ..
 
-Inventory reconciliation involves two steps: physical and accounting.
+盘点要控制两个点: 实物与账务.
 
 .. i18n: Physical inventory steps include taking a written inventory record and comparing it to the actual 
 .. i18n: goods in the company’s warehouses. Counting obsolete and damaged products is also a reconciliation 
 .. i18n: activity. 
 ..
 
-Physical inventory steps include taking a written inventory record and comparing it to the actual 
-goods in the company’s warehouses. Counting obsolete and damaged products is also a reconciliation 
-activity. 
+实物盘点则是通过对实际的物理库位上的产品进行纸质盘点,并且数量含过期与损坏的产品.
 
 .. i18n: Reconciliation steps on the accounting side include verification that all inventory purchases are 
 .. i18n: posted, entering adjustments from the physical count and analysing the dollar differences between months.
