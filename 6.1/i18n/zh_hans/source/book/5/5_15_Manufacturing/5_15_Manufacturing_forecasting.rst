@@ -47,17 +47,16 @@
 .. i18n:     will themselves start production, tasks or purchases depending on the configuration of the requested product.
 ..
 
-.. tip::  Calculating Requirements / Scheduling
+.. tip::  计算需求/排程
 
-    Scheduling only validates procurements that are confirmed but not yet started. These procurement reservations
-    will themselves start production, tasks or purchases depending on the configuration of the requested product.
+
+    排程计划只考虑那些已经被确认但却还没有开始的获取需求，这些预定需求将根据所需求产品的配置自行开始生产/任务或者采购。
 
 .. i18n: You take into account the priority of operations when starting reservations and procurements.
 .. i18n: Urgent requests, those with a date in the past, or requests with a date earlier than the others will be started first. In case there are not enough products in stock to satisfy all the requests, you can be sure that the most urgent requests will be produced first.
 ..
 
-You take into account the priority of operations when starting reservations and procurements.
-Urgent requests, those with a date in the past, or requests with a date earlier than the others will be started first. In case there are not enough products in stock to satisfy all the requests, you can be sure that the most urgent requests will be produced first.
+在开始进行保留和获取的时候，你需要考虑到操作的优先顺序。那些需求日期已经超期的紧急需求，或者比其他产品的需求日期更早的产品，将最先启动。如果库存里有足够的产品能满足所有需求的话，你可以肯定的是，那些最紧急的需求产品将最先被生产。
 
 .. i18n: Planning
 .. i18n: ++++++++
