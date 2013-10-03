@@ -52,8 +52,8 @@ ERP（企业资源规划）系统是提供这种沟通语言的理想平台。
 .. i18n: But this is exactly what small and medium enterprises are looking for.
 ..
 
-风险与整合的成本是企业从ERP系统中获利的重要的障碍。这就是为什么今天中小型企业很少使用ERP的原因。
-另外，像SAP、微软和Oracle这样的大型ERP软件供应商也还不能解决ERP软件强大的处理能力与用户对ERP系统的简单性和
+风险与整合的成本是企业从ERP系统中获利的重要的障碍。这就是现在的中小型企业很少使用ERP的原因。
+另外，像SAP、微软和Oracle这样的大型ERP软件供应商仍然不能解决ERP软件强大的处理能力与用户对ERP系统的简单性和
 灵活性的普遍需求。但这却正是中小型企业所需要的。
 
 
