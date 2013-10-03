@@ -218,12 +218,12 @@ This newly added section allows you to define for your new report:
 .. i18n: * The fields to display
 ..
 
-* The view parameters
+* 视图参数
   
   This tab will define the display of your report. You can choose between the traditional available views
   (Tree/List, Form, Graph and Calendar) and you can define three different ways to display your report.
 
-* The fields to display
+* 显示字段
 
 .. i18n:   The fields available to display will depend on the models you choose in the :guilabel:`General Configuration`
 .. i18n:   tab.
@@ -255,7 +255,7 @@ This newly added section allows you to define for your new report:
 .. i18n: * The filters on fields
 ..
 
-* The filters on fields
+* 过滤项
 
 .. i18n:   This tab will let you choose which data to display according to the value of a field. It is possible to 
 .. i18n:   manually modify or add new filters according to your needs.
