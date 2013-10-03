@@ -26,7 +26,7 @@
 
 .. note:: 起始时间
 
-        You can set the starting time of the scheduler by modifying the corresponding action in the menu :menuselection:`Administration --> Configuration --> Scheduler --> Scheduled Actions`. Modify the ``Run mrp Scheduler`` configuration document.
+        你可以同过修改菜单 :menuselection:`Administration --> Configuration --> Scheduler --> Scheduled Actions` 来设置计划的起始时间。修改“运行MRP计划”配置文件。（此处原文是两句单独的话，有点看不懂，只能直译）
 
 .. i18n: .. figure:: images/stock_cron.png
 .. i18n:    :scale: 75
