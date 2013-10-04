@@ -198,7 +198,7 @@ OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilab
 .. i18n: This newly added section allows you to define for your new report:
 ..
 
-This newly added section allows you to define for your new report:
+您可以打开最近使用过的报表:
 
 .. i18n: * The general configuration:
 ..
