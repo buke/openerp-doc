@@ -91,7 +91,7 @@
 .. i18n: When you click in a day in the Calendar view, an empty manufacturing order window will open and let you choose which product you want to produce.
 ..
 
-When you click in a day in the Calendar view, an empty manufacturing order window will open and let you choose which product you want to produce.
+你在日历视图里点击一个日期，将会打开一个空白的生产订单窗口，允许你选择你想要生产的产品。
 
 .. i18n: .. figure:: images/newmo_plan.png
 .. i18n:     :scale: 75
@@ -104,7 +104,7 @@ When you click in a day in the Calendar view, an empty manufacturing order windo
     :scale: 75
     :align: center
     
-    *New Manufacturing Order*    
+    *新的生产订单*    
 
 .. i18n: Scheduler and Just in Time
 .. i18n: --------------------------
@@ -116,7 +116,7 @@ When you click in a day in the Calendar view, an empty manufacturing order windo
 .. i18n: When you want to work according to the *Just in Time* way, you should install the module :mod:`mrp_jit`.
 ..
 
-When you want to work according to the *Just in Time* way, you should install the module :mod:`mrp_jit`.
+如果你想采用 *精益生产（JIT）* 的方式，你需要安装模块 :mod:`mrp_jit`.
 
 .. i18n: If you install this module, you will not have to run the regular procurement scheduler anymore (but you still need to run the minimum order point rule scheduler, or for example let it run daily.) 
 ..
