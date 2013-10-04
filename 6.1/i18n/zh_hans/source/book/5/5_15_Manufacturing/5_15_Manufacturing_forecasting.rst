@@ -68,12 +68,12 @@
 .. i18n: In OpenERP, you can plan the production in an easy way. Simply by going to :menuselection:`Manufacturing --> Planning`, you can plan manufacturing orders, work orders and/or work centers.
 ..
 
-In OpenERP, you can plan the production in an easy way. Simply by going to :menuselection:`Manufacturing --> Planning`, you can plan manufacturing orders, work orders and/or work centers.
+使用OpenERP，你可以以简单的方法来计划生产。只需进入菜单 :menuselection:`Manufacturing --> Planning`，就可以计划制造订单，工单，以及/或者工作中心。
 
 .. i18n: By clicking ``Manufacturing Orders`` in the *Planning* menu, a calendar view will open in which you can select a day to create the order whenever you want. You will also see the already planned orders. By dragging and dropping a manufacturing order in Calendar view, you can change the starting date of the order.
 ..
 
-By clicking ``Manufacturing Orders`` in the *Planning* menu, a calendar view will open in which you can select a day to create the order whenever you want. You will also see the already planned orders. By dragging and dropping a manufacturing order in Calendar view, you can change the starting date of the order.
+点击 *计划* 菜单里的 ``制造订单`` ，将会打开一个日历视图。在这里，你可以选择一个你需要的日期来创建订单。你也可以看到那些已经计划好的订单。在日历视图里拖动一个制单订单，你可以更改这个订单的起始日期。
 
 .. i18n: .. figure:: images/mo_plan.png
 .. i18n:     :scale: 75
@@ -86,7 +86,7 @@ By clicking ``Manufacturing Orders`` in the *Planning* menu, a calendar view wil
     :scale: 75
     :align: center
     
-    *Planning Manufacturing Orders*
+    *计划制造订单*
 
 .. i18n: When you click in a day in the Calendar view, an empty manufacturing order window will open and let you choose which product you want to produce.
 ..
