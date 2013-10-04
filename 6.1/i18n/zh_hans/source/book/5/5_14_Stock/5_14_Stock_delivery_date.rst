@@ -220,6 +220,7 @@ OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilab
 
 * 视图参数
   
+  视图页签用于定义报表需要显示的元素.
   This tab will define the display of your report. You can choose between the traditional available views
   (Tree/List, Form, Graph and Calendar) and you can define three different ways to display your report.
 
