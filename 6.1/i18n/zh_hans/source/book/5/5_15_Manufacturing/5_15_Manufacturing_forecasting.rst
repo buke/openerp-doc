@@ -121,17 +121,17 @@
 .. i18n: If you install this module, you will not have to run the regular procurement scheduler anymore (but you still need to run the minimum order point rule scheduler, or for example let it run daily.) 
 ..
 
-If you install this module, you will not have to run the regular procurement scheduler anymore (but you still need to run the minimum order point rule scheduler, or for example let it run daily.) 
+如果你安装了这个模块，你将不再需要运行常规的采购计划排程（但仍然需要运行最小库存采购点计划，或者比如说，每天运行一次。） 
 
 .. i18n: All procurement orders will be processed immediately, which could in some cases entail a small performance impact. 
 ..
 
-All procurement orders will be processed immediately, which could in some cases entail a small performance impact. 
+所有的需求订单都将立即运行，这在某些情况下可能会引起轻微的性能影响。 
 
 .. i18n: It may also increase your stock size because products are reserved as soon as possible and the scheduler time range is not taken into account anymore. In that case, you can no longer use priorities for the different picking orders. 
 ..
 
-It may also increase your stock size because products are reserved as soon as possible and the scheduler time range is not taken into account anymore. In that case, you can no longer use priorities for the different picking orders. 
+这也可能会增加你的库存量，因为产品会尽快地被保存占用而且计划的时间范围却不再被考虑进去。在这种情况下，你没有办法再对不同的分拣订单使用优先顺序。
 
 .. i18n: Lead times
 .. i18n: ----------
