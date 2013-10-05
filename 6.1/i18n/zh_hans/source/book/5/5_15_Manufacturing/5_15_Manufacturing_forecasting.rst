@@ -143,7 +143,7 @@
 .. i18n: All procurement operations (that is, the requirement for both production orders and purchase orders) are automatically calculated by the scheduler. But more than just creating each order, OpenERP plans the timing of each step. A planned date calculated by the system can be found on each order document.
 ..
 
-All procurement operations (that is, the requirement for both production orders and purchase orders) are automatically calculated by the scheduler. But more than just creating each order, OpenERP plans the timing of each step. A planned date calculated by the system can be found on each order document.
+所有的资源获取操作（也就是包括生产订单的需求和采购订单的需求）都会被计划排程所计算。但是OpenERP不只是生成每一个订单，还能够计划每一个步骤的时间安排。在每个订单文件上你都能找到一个由系统计算出来的计划时间。
 
 .. i18n: To organize the whole chain of manufacturing and procurement, OpenERP bases everything on the delivery date promised to the customer. This is given by the date of the confirmation in the order and the lead times shown in each product line of the order. This lead time is itself proposed automatically in the field :guilabel:`Customer Lead Time` shown in the product form. This Customer Lead Time is the difference between the time on an order and that of the delivery.
 ..
