@@ -227,7 +227,7 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: A customer order placed on the 1st January will set up the following operations and lead times:
 ..
 
-A customer order placed on the 1st January will set up the following operations and lead times:
+一个下单日期在1月1日的客户订单，将会安排下列操作和提前期：
 
 .. i18n: * Delivery SHE100: 31 January (=1st January + 30 days),
 .. i18n: 
@@ -240,15 +240,15 @@ A customer order placed on the 1st January will set up the following operations 
 .. i18n: * Purchase WOOD002 (for SIDEPAN): 11 January (=16 January – 5 days).
 ..
 
-* Delivery SHE100: 31 January (=1st January + 30 days),
+* SHE100发货: 1月31日 （=1月1日 + 30天），
 
-* Manufacture SHE100: 26 January (=31 January – 5 days),
+* 生产SHE100: 1月26日（=1月31日 - 5天），
 
-* Manufacture SIDEPAN: 16 January (=26 January – 10 days),
+* 生产SIDEPAN: 1月16日（=1月26日 - 10天），
 
-* Purchase WOOD002 (for SHE100): 21 January (=26 January – 5 days),
+* 采购WOOD002 （生产SHE100用）： 1月21日（=1月26日 - 5天），
 
-* Purchase WOOD002 (for SIDEPAN): 11 January (=16 January – 5 days).
+* 采购WOOD002 （生产SIDEPAN用）：1月11日（=1月16日 - 5天）。
 
 .. i18n: In this example, OpenERP will propose placing two orders with the supplier of product WOOD002. Each of these orders can be for a different planned date. Before confirming these orders, the purchasing manager could group (merge) these orders into a single order.
 ..
