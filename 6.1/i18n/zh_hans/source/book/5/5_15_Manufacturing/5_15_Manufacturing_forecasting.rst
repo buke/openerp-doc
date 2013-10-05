@@ -148,12 +148,12 @@
 .. i18n: To organize the whole chain of manufacturing and procurement, OpenERP bases everything on the delivery date promised to the customer. This is given by the date of the confirmation in the order and the lead times shown in each product line of the order. This lead time is itself proposed automatically in the field :guilabel:`Customer Lead Time` shown in the product form. This Customer Lead Time is the difference between the time on an order and that of the delivery.
 ..
 
-To organize the whole chain of manufacturing and procurement, OpenERP bases everything on the delivery date promised to the customer. This is given by the date of the confirmation in the order and the lead times shown in each product line of the order. This lead time is itself proposed automatically in the field :guilabel:`Customer Lead Time` shown in the product form. This Customer Lead Time is the difference between the time on an order and that of the delivery.
+OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。这些数据是由订单里确认的日期和订单行里所列的产品的提前期决定的。这个提前期是自动从字段 :guilabel:`Customer Lead Time` 获取的，你可以在产品表单里看到。客户的提前期则和产品的提前期以及交货期是有区别的。
 
 .. i18n: To see a calculation of the lead times, take the example of the cabinet above. Suppose that the cabinet is assembled in two steps, using the two following bills of materials.
 ..
 
-To see a calculation of the lead times, take the example of the cabinet above. Suppose that the cabinet is assembled in two steps, using the two following bills of materials.
+要知道提前期的计算方法，我们以下面要生产一款柜子为例。假设这个柜子的组装过程分为2个工序，使用下面的两个物料清单（Bill of Materials）。
 
 .. i18n: .. table:: Bill of Materials for 1 SHE100 Unit
 .. i18n: 
