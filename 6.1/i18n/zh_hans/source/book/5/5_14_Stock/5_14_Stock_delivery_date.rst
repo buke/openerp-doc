@@ -220,8 +220,7 @@ OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilab
 
 * 视图参数
   
-  视图页签用于定义报表需要显示的元素.
-  This tab will define the display of your report. You can choose between the traditional available views
+  视图页签用于定义报表需要显示的元素. You can choose between the traditional available views
   (Tree/List, Form, Graph and Calendar) and you can define three different ways to display your report.
 
 * 显示字段
@@ -240,9 +239,8 @@ OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilab
 .. i18n:     *Delay*, *End Date*, *Unique Colours*)
 ..
 
-  The fields available to display will depend on the models you choose in the :guilabel:`General Configuration`
-  tab.
-  
+  在 :guilabel:`常规配置(General Configuration)` 页签中,可以找到可用于显示对象的字段.
+
   When you add a new field to your report, different fields have to be specified:
   
   * Sequence - defines the order in which the fields will be displayed in the report
