@@ -168,10 +168,10 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n:    ============  ========  ===============
 ..
 
-.. table:: Bill of Materials for 1 SHE100 Unit
+.. table:: 1 SHE100 Unit的物料清单
 
    ============  ========  ===============
-   Product Code  Quantity  Unit of Measure
+   产品编码      数量      单位
    ============  ========  ===============
    SIDEPAN       2         PCE
    WOOD002       0.25      m
@@ -189,10 +189,10 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n:    ============  ========  ===============
 ..
 
-.. table:: Bill of Materials for 2 SIDEPAN Units
+.. table:: 2 SIDEPAN Units的物料清单
 
    ============  ========  ===============
-   Product Code  Quantity  Unit of Measure
+   产品编码      数量      单位
    ============  ========  ===============
    WOOD002       0.17      m
    ============  ========  ===============
@@ -201,8 +201,7 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: Product WOOD002 is used in the production of both SHE100 and SIDEPAN. Set the lead times on the product forms to the following:
 ..
 
-The SIDEPAN is made from an order using the workflow shown. The WOOD002 is purchased on order and the other products are all found in stock. An order for the product SHE100 will then generate two production orders (SHE100 and SIDEPAN) then produce two purchase orders for the product WOOD002.
-Product WOOD002 is used in the production of both SHE100 and SIDEPAN. Set the lead times on the product forms to the following:
+这里，SIDEPAN是由所示的流程按订单生产， WOOD002则是按订单采购，而其他的产品都有库存。这样一个SHE100的产品，会生成2张生产订单（SHE100和SIDEPAN），并且生成2张采购WOOD002的采购订单。产品WOOD002会用在SHE100和SIDEPAN的生产过程中。我们在产品表单里设置提前期如下： 
 
 .. i18n: .. table:: Lead Times
 .. i18n: 
@@ -215,10 +214,10 @@ Product WOOD002 is used in the production of both SHE100 and SIDEPAN. Set the le
 .. i18n:    ============ ================== ======================= ==================
 ..
 
-.. table:: Lead Times
+.. table:: 提前期
 
    ============ ================== ======================= ==================
-   Product Code Customer Lead Time Manufacturing Lead Time Supplier Lead Time
+   产品编码     客户提前期         生产提前期              供应商提前期
    ============ ================== ======================= ==================
    SHE100       30 days            5 days
    SIDEPAN                         10 days
