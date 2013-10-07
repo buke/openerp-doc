@@ -253,7 +253,7 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: In this example, OpenERP will propose placing two orders with the supplier of product WOOD002. Each of these orders can be for a different planned date. Before confirming these orders, the purchasing manager could group (merge) these orders into a single order.
 ..
 
-In this example, OpenERP will propose placing two orders with the supplier of product WOOD002. Each of these orders can be for a different planned date. Before confirming these orders, the purchasing manager could group (merge) these orders into a single order.
+在这个例子里，OpenERP将拟向产品WOOD002的供应商下2个订单，这两个订单可以有不同的需求日期。 在确认订单前，采购经理可以把这两个订单合并成一个单独的订单。
 
 .. i18n: Security Days
 .. i18n: -------------
