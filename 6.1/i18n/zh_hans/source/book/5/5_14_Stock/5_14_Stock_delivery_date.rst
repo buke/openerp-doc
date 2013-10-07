@@ -243,7 +243,7 @@ OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilab
 
   如果你需要在报表中使用新的字段,你需要遵循以下要求:
 
-  * Sequence - defines the order in which the fields will be displayed in the report
+  * 顺序(Sequence) - 定义各个字段在报表中的显示顺序.
   * Field - the information you want to display in your report
   * Grouping method - affects the way the field is displayed. You can choose between *Grouped*, *Sum*,
     *Minimum*, *Count*, *Maximum* and *Average*
