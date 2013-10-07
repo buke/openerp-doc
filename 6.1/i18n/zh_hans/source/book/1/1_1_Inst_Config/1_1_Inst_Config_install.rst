@@ -1149,13 +1149,11 @@ Linux (Ubuntu) 安装
 	输入 \ ``sudo netstat -anpt``\  以查看当前运行的进程，记录下PID。通过输入 \ ``ps aux | grep <PID>``\ 你可以看到这个PID对应的程序，
 	然后你可以通过输入 \ ``sudo kill <PID>``\ 来停止它。当你重启服务器时你需要通过其它方式停止它。
 
-#.	The OpenERP server has a large number of configuration options. You can see what they are by
-	starting the server with the argument \ ``–help``\ .   By default the server configuration is stored
-	in the file \ ``.terp_serverrc``\  in the user's home directory (and for the postgres user that
-	directory is \ ``/var/lib/postgresql``\  .
+#.	OpenERP服务器有大量的配置选项。 你可以在启动服务器时输入 \ ``–help``\ 进行查看。默认情况下，服务器的配置文件
+	保存在用户的home目录下的 \ ``.terp_serverrc``\ 文件中（对于postgres用户来说目录是 \ ``/var/lib/postgresql``\ ）
 
-#.	You can delete the configuration file to be quite sure that the OpenERP server is starting with
-	just the default options. It is quite common for an upgraded system to behave badly because a new
+#.	你可以删除配置文件使OpenERP以默认方式启动。
+	It is quite common for an upgraded system to behave badly because a new
 	version server cannot work with options from a previous version. When the server starts without a
 	configuration file it will write a new one once there is something non-default to write to it – it
 	will operate using defaults until then.
