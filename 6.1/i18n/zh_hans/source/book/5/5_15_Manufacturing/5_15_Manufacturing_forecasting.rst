@@ -266,8 +266,7 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: :guilabel:`Configuration` tab, you find the following parameters:
 ..
 
-The scheduler will plan all operations as a function of the time configured on the products. But it is also possible to configure these factors in the company. These factors are then global to the company, whatever the product concerned may be. In the description of the company, on the
-:guilabel:`Configuration` tab, you find the following parameters:
+排程会计划所有设置了时间参数的产品。但是直接在公司范围设置这些参数也是可能的。这样这些参数就在整个公司范围内发挥作用，而不去考虑具体产品。在公司说明的标签页 :guilabel:`Configuration` ，你会发现下面的参数：
 
 .. i18n: * `Scheduler Range Days`: all the procurement requests that are not between today and today plus the number of days specified here are not taken into account by the scheduler.
 .. i18n:   
