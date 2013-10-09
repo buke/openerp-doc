@@ -245,8 +245,8 @@ OpenERP可以创建灵活的物料追溯报表. 创建报表请先安装 :guilab
 
   * 顺序(Sequence) - 定义各个字段在报表中的显示顺序.
   * 字段(Field) - 定义需要在报表中显示的信息.
-  * Grouping method - affects the way the field is displayed. You can choose between *Grouped*, *Sum*,
-    *Minimum*, *Count*, *Maximum* and *Average*
+  * 分组统计方法(Grouping method) - 这里可以配置字段的分组统计方式, 可选有 *分组(Grouped)*, *合计(Sum)*, *最小值(Minimum)*, *计数(Count)*,
+    *最大值(Maximum)* 与 *平均值(Average)* .
   * Graph mode - defines which axe of the graph the field will represent
   * Calendar mode - defines the meaning of the field for the calendar (*Starting or Ending date*,
     *Delay*, *End Date*, *Unique Colours*)
