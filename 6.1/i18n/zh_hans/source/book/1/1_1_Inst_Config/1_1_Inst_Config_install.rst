@@ -1152,11 +1152,8 @@ Linux (Ubuntu) 安装
 #.	OpenERP服务器有大量的配置选项。 你可以在启动服务器时输入 \ ``–help``\ 进行查看。默认情况下，服务器的配置文件
 	保存在用户的home目录下的 \ ``.terp_serverrc``\ 文件中（对于postgres用户来说目录是 \ ``/var/lib/postgresql``\ ）
 
-#.	你可以删除配置文件使OpenERP以默认方式启动。
-	It is quite common for an upgraded system to behave badly because a new
-	version server cannot work with options from a previous version. When the server starts without a
-	configuration file it will write a new one once there is something non-default to write to it – it
-	will operate using defaults until then.
+#.	你可以删除配置文件使OpenERP以默认方式启动。升级后的系统经常会因为新版本的服务端程序不能和旧版本的参数配合工作而表现不佳。
+	当采用无配置文件启动服务时，它会自动创建一个默认配置文件——除非采用了非默认方式这个配置文件才会被重写。
 
 #.	To verify that the system works, without becoming entangled in firewall problems, you can start
 	the OpenERP client from a second terminal window on the server computer (which does not pass
