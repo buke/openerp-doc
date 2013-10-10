@@ -277,8 +277,8 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: * `Security Days`: number of days to deduct from a system order to cope with any problems of procurement,
 ..
 
-* `Scheduler Range Days`: all the procurement requests that are not between today and today plus the number of days specified here are not taken into account by the scheduler.
-  
+* `排程期间`: 程对需求的计算是有时间限制的。如果需求时间的范围是在过去或者是从今天算起晚于你所设置的天数之后的话，排程是不做计划的。
+
 * `Manufacturing Lead Time`: number of additional days needed for manufacturing,
 
 * `Purchase Lead Time`: additional days to include for all purchase orders with this supplier,
