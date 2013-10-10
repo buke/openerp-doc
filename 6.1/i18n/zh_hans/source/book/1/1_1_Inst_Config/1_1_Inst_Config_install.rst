@@ -1161,16 +1161,14 @@ Linux (Ubuntu) 安装
 	server can use both ports simultaneously. The window displays the log file when the client is
 	started this way.
 
-#.	The client setup is stored in the file \ ``.terprc``\  in the user's home directory.
-	Since a GTK client can be started by any user, each user would have their setup defined in a
-	configuration file in their own home directory.
+#.	客户端安装在用户的home目录下的 \ ``.terprc``\ 文件里。因为任何用户都可以启动GTK客户端，所以每个用户
+	都会在他们的目录中保存一份配置文件。
 
-#.	You can delete the configuration file to be quite sure that the OpenERP client is starting with
-	just the default options. When the client starts without a configuration file it will write a new
-	one for itself.
+#.	你可以删除配置文件使OpenERP客户端只使用默认选项启动。当客户端发现没有配置文件它会自动创建一个。
 
-#.	The web server uses the NET-RPC protocol. If a GTK client works but the web server does not, then the
-	problem is either with the NET-RPC port or with the web server itself, and not with the OpenERP server.
+#.	Web服务器使用 NET-RPC 协议。如果GTK客户端工作正常，但是Web服务却不行，问题可能出在NET-RPC端口上也可能是Web服务器自身
+	的问题，但不是OpenERP服务器的问题。
+
 
 .. i18n: .. 	hint:: One Server for Several Companies
 .. i18n: 
