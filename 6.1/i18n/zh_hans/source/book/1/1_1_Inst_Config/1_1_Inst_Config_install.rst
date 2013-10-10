@@ -1155,11 +1155,8 @@ Linux (Ubuntu) 安装
 #.	你可以删除配置文件使OpenERP以默认方式启动。升级后的系统经常会因为新版本的服务端程序不能和旧版本的参数配合工作而表现不佳。
 	当采用无配置文件启动服务时，它会自动创建一个默认配置文件——除非采用了非默认方式这个配置文件才会被重写。
 
-#.	To verify that the system works, without becoming entangled in firewall problems, you can start
-	the OpenERP client from a second terminal window on the server computer (which does not pass
-	through the firewall). Connect using the XML-RPC protocol on port 8069 or NET-RPC on port 8070. The
-	server can use both ports simultaneously. The window displays the log file when the client is
-	started this way.
+#.	判断系统工作是否正常，抛开防火墙的问题，你可以在服务器上再开一个终端窗口，打开OpenERP客户端（这样可以避免防火墙过滤）。
+	在端口8069上使用XML-RPC协议或者在8070端口上使用NET-RPC协议进行连接。服务器可以同时使用这两个端口。当以这种形式启动时窗口会显示日志文件。
 
 #.	客户端安装在用户的home目录下的 \ ``.terprc``\ 文件里。因为任何用户都可以启动GTK客户端，所以每个用户
 	都会在他们的目录中保存一份配置文件。
@@ -1178,12 +1175,10 @@ Linux (Ubuntu) 安装
 .. i18n: 	physical server at one time.
 ..
 
-.. 	hint:: One Server for Several Companies
+.. 	hint:: 多公司使用同一服务器
 
-	You can start several OpenERP application servers on one physical computer server by using
-	different ports. If you have defined multiple database roles in PostgreSQL, each connected through
-	an OpenERP instance to a different port, you can simultaneously serve many companies from one
-	physical server at one time.
+	你可以在一台物理机上启动多个OpenERP服务端，但它们要使用不同的端口。如果你已经在PostgreSQL中定义了多个数据库角色，
+	每一个通过一个OpenERP实例连接到不同的端口，你就可以使用一台物理服务器同时为多个公司提供服务。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
