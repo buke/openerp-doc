@@ -1,3 +1,4 @@
+
 .. i18n: Manufacturing Orders
 .. i18n: ====================
 ..
@@ -31,7 +32,7 @@
 .. i18n: Of course, you can also start production manually by clicking the button :guilabel:`New` in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`.
 ..
 
-当然, 你也可以在菜单 :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders` , 点击 :guilabel:`New` 按钮手动建立生产订单 .
+当然, 你也可以在菜单 :menuselection:`生产(Manufacturing) --> 生产(Manufacturing) --> 生产计划(Manufacturing Orders)` , 点击 :guilabel:`新建(New)` 按钮手动建立生产订单 .
 
 .. i18n: .. figure:: images/mrp_manual.png
 .. i18n:    :scale: 75
@@ -101,7 +102,7 @@
 
 * 交付产品给客户,
 
-* Invoicing at the end of the month,
+* 月末开据发票,
 
 * 可追溯性的售后服务.
 
@@ -143,7 +144,7 @@
 .. i18n: Begin by encoding a sales (or customer) order through the menu :menuselection:`Sales --> Sales Orders -> New Quotation`. Enter the following information:
 ..
 
-通过菜单 :menuselection:`Sales --> Sales Orders -> New Quotation` 来开始创建一个销售(或客户)订单. 键入下面的信息:
+通过菜单 :menuselection:`销售(Sales) --> 销售订单(Sales Orders) -> 销售报价(New Quotation)` 来开始创建一个销售(或客户)订单. 键入下面的信息:
 
 .. i18n: * :guilabel:`Customer` : Agrolait,
 .. i18n: 
@@ -160,9 +161,9 @@
 .. i18n:   * :guilabel:`Procurement Method` : on order.
 ..
 
-* :guilabel:`Customer` : Agrolait,
+* :guilabel:`客户(Customer)` : 选择客户 ``Agrolait``,
 
-* :guilabel:`Shipping Policy` : Invoice from the picking (``Other Information`` tab),
+* :guilabel:`开票方式(Shipping Policy)` : 在 ``其他信息`` 页签中 选择 基于送货单开票,
 
 * :guilabel:`Sales Order Lines`, click `New`:
 
