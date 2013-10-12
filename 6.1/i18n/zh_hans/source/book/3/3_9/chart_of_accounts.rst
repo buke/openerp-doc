@@ -227,8 +227,8 @@
 
 *  :guilabel:`Internal Type`: OpenERP中有特殊作用的内部类型。正常情况下，有如下类型可选：
 
-   ``View`` can be used to create a hierarchical structure for your accounts (grouping),
-   ``Regular`` any account that does not fit into one of the other types; most of the accounts will have this type,
+   ``View`` 可用于创建科目（组）的层次结构（译注：非末级科目）,
+   ``Regular`` 不适合别的类型的科目; 大部分科目用于此类型（译注：一般是末级科目）,
    ``Receivable`` - ``Payable``: these types are used to indicate the centralisation accounts (for customers and suppliers) that will be set for each partner,
    ``Liquidity`` used to indicate financial accounts (bank and cash accounts),
    ``Consolidation`` to create a virtual (or consolidation) chart of accounts,
