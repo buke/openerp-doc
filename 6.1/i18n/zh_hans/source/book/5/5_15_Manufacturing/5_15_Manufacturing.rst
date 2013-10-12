@@ -161,19 +161,19 @@
 .. i18n:   * :guilabel:`Procurement Method` : on order.
 ..
 
-* :guilabel:`客户(Customer)` : 选择客户 ``Agrolait``,
+  * :guilabel:`客户(Customer)` : 选择客户 ``Agrolait``,
 
-* :guilabel:`开票方式(Shipping Policy)` : 在 ``其他信息`` 页签中 选择 基于送货单开票,
+  * :guilabel:`开票方式(Shipping Policy)` : 在 ``其他信息`` 页签中 选择 基于送货单开票,
 
-* :guilabel:`Sales Order Lines`, click `New`:
+  * :guilabel:`销售明细(Sales Order Lines)`, 点击 `新建(New)`:
 
-  * :guilabel:`Product` : PC2 – Basic PC (assembly on order),
+  * :guilabel:`产品(Product)` : 选择产品 PC2 – Basic PC (assembly on order),
 
-  * :guilabel:`Quantity (UoM)` : 1,
+  * :guilabel:`数量(Quantity (UoM))` : 输入数量 1,
 
-  * :guilabel:`Product UoM` : PCE,
+  * :guilabel:`单位(Product UoM)` : 选择单位 `个(PCE)`,
 
-  * :guilabel:`Procurement Method` : on order.
+  * :guilabel:`供货方式(Procurement Method)` : 按单生产.
 
 .. i18n: Once the quotation has been entered, you can confirm it immediately by clicking the button
 .. i18n: :guilabel:`Confirm Order` at the bottom to the right. Keep note of the order reference because this
