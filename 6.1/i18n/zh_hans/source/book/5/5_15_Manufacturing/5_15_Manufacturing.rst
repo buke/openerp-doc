@@ -182,7 +182,7 @@
 ..
 
 报价单建好后, 你可以通过按钮 :guilabel:`Confirm Order` 来立即确认订单. 单据右下方,有一个备注栏可以在订单处理的全程中用
-于录入相关销售的参考信息 Usually, in a new database, this will be ``SO007`` . At this stage,
+于录入相关销售的参考信息, 通常情况下,最初的备注信息是 ``SO007``. 可以点击 :guilabel:`Question Mark` 按钮
 you can look at the process linked to your order using the :guilabel:`Question Mark` button next to the ``Sales Orders`` title.
 
 .. i18n: .. figure:: images/mrp_sales_process_new.png
