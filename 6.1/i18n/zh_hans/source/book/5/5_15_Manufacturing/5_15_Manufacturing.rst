@@ -395,7 +395,7 @@ PC2 电脑分两步来制造:
     
     * 增加库存,
     * 为装配人员自动生成操作,
-    * 自动创建财务相关分录以及分析.
+    * 自动创建财务辅助核算项.
 
 .. i18n: Subproduct Production
 .. i18n: +++++++++++++++++++++
@@ -429,8 +429,7 @@ PC2 电脑分两步来制造:
 .. i18n: that lets you set secondary products resulting from the manufacturing of the finished product.
 ..
 
-如果模块 :mod:`mrp_subproduct` 已经安装, 你将在 BOM上看到一个新的标签页，
-在这里你可以设置子产品的制造成品.
+如果模块 :mod:`mrp_subproduct` 已经安装, 你将在 BOM上看到一个新的标签页，在这里你可以设置子产品的制造成品.
 
 .. i18n: .. figure:: images/mrp_bom_subproduct.png
 .. i18n:     :scale: 75
@@ -455,8 +454,7 @@ PC2 电脑分两步来制造:
 .. i18n:     *Production Order producing Several Finished Products*
 ..
 
-当 OpenERP 基于物料清单生成生产订单使用辅助产品时, 你可以在产品订单的 ``Finished Products``
-标签页中看到所有完成产品的列表.
+当 OpenERP 基于物料清单生成生产订单使用辅助产品时, 你可以在产品订单的 ``Finished Products`` 标签页中看到所有完成产品的列表.
     
 .. figure:: images/mrp_production.png
     :scale: 75
@@ -610,7 +608,7 @@ The :guilabel:`Product UOM` by default is completed automatically by OpenERP whe
 .. i18n: You then have to set two locations:
 ..
 
-You then have to set two locations:
+你需要设置以下两个库位:
 
 .. i18n: 	* The location from which the required raw materials should be found, and
 .. i18n: 
