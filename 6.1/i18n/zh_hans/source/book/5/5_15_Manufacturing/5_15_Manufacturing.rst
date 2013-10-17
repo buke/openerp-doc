@@ -615,9 +615,9 @@ The :guilabel:`Product UOM` by default is completed automatically by OpenERP whe
 .. i18n: 	* The location for depositing the finished products.
 ..
 
-	* The location from which the required raw materials should be found, and
+	* 原材料的库位
 
-	* The location for depositing the finished products.
+	* 产成品库位
 
 .. i18n: For simplicity, put the ``Stock`` location in both places. The field :guilabel:`Bill of Materials` will
 .. i18n: automatically be completed by OpenERP when you select the product. You can then overwrite it with another BoM to specify something else to use for this specific manufacturing, then click the button :guilabel:`Compute Data`.
