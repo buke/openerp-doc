@@ -638,7 +638,8 @@ You will find the raw materials there that are required for the production and t
 .. i18n: If you want to start production, click the button :guilabel:`Confirm Production`, and OpenERP automatically completes the :guilabel:`Products to Consume` field in the :guilabel:`Consumed Products` tab and :guilabel:`Products to Finish` field in :guilabel:`Finished Products` tab.
 ..
 
-If you want to start production, click the button :guilabel:`Confirm Production`, and OpenERP automatically completes the :guilabel:`Products to Consume` field in the :guilabel:`Consumed Products` tab and :guilabel:`Products to Finish` field in :guilabel:`Finished Products` tab.
+如果你要开始生产, 点击按钮 :guilabel:`确认生产(Confirm Production)`, OpenERP 则会自动在 :guilabel:`耗用(Consumed Product)` 页签 中产生相应的 :guilabel:`物料耗用(Products to Consume)` 
+以及 在 :guilabel:`产成品(Finished Products)` 页签中产生 :guilabel:`完工产品(Products to Finish)`.
 
 .. i18n: The information in the :guilabel:`Consumed Products` tab can be changed if:
 ..
