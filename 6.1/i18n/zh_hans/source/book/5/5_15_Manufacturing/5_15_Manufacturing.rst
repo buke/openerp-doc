@@ -602,8 +602,8 @@ for further manufacturing orders; they have been moved to the production Stock L
 .. i18n: default is completed automatically by OpenERP when the product is first selected.
 ..
 
-`计划生产日期`， `产品数量` 和 `摘要` 这些数据都在生产订单窗体打开时, 自动完成了. 输入你想要生产的产品以及需求的数量.
-The :guilabel:`Product UOM` by default is completed automatically by OpenERP when the product is first selected.
+`计划生产日期`， `产品数量` 和 `摘要` 这些数据都在生产订单窗体打开时, 自动完成了. 输入你想要生产的产品以及
+需求的数量. 在选择产品后,  产品相关的计量单位也能自动完成输入.
 
 .. i18n: You then have to set two locations:
 ..
