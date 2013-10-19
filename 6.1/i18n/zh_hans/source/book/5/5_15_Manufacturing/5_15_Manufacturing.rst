@@ -644,7 +644,7 @@ You will find the raw materials there that are required for the production and t
 .. i18n: The information in the :guilabel:`Consumed Products` tab can be changed if:
 ..
 
-The information in the :guilabel:`Consumed Products` tab can be changed if:
+在下面这些情形时, 你需要修改 :guilabel:`耗用(Consumed Products)`:
 
 .. i18n: * you want to enter a serial number for raw materials,
 .. i18n: 
