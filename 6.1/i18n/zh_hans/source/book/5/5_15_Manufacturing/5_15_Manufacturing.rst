@@ -651,9 +651,9 @@ You will find the raw materials there that are required for the production and t
 .. i18n: * you want to change the quantities consumed (lost during production).
 ..
 
-* you want to enter a serial number for raw materials,
+* 耗用的原材料需要序列(批次)号管理,
 
-* you want to change the quantities consumed (lost during production).
+* 耗用的材料异常耗用(如生产中有异常损失).
 
 .. i18n: For traceability, you can set lot numbers on the raw materials used, or on the finished
 .. i18n: products.
