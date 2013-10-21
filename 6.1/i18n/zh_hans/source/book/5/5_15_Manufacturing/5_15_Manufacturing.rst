@@ -660,9 +660,7 @@ You will find the raw materials there that are required for the production and t
 .. i18n: Note the :guilabel:`Production Lot` and :guilabel:`Pack` numbers.
 ..
 
-For traceability, you can set lot numbers on the raw materials used, or on the finished
-products.
-Note the :guilabel:`Production Lot` and :guilabel:`Pack` numbers.
+为了跟踪,你需要在原材料投料以及产成品完工时,录入相应的批次号. 相应为 :guilabel:`生产批次(Production Lot)` 和 :guilabel:`托盘(Pack)`.
 
 .. i18n: Once the order is confirmed, you should force the reservation of materials
 .. i18n: using the :guilabel:`Force Reservation` button. This means that you do not have
