@@ -681,12 +681,12 @@ If you do not want to change the priorities, just leave the production order in 
 .. i18n: To start the production of products, click :guilabel:`Start Production`. The raw materials are then consumed automatically from stock, which means that the draft ( ``Waiting`` ) movements become ``Done``.
 ..
 
-要制造一个产品, 点击 :guilabel:`开始生产`. 原料自动地从仓库中消耗, which means that the draft ( ``Waiting`` ) movements become ``Done``.
+要制造一个产品, 点击 :guilabel:`开始生产`. 原料自动地从仓库中消耗, 即原材料的领料单由 ``待料`` 状态转变为 ``已领料`` 状态.
 
 .. i18n: Once the production is complete, click :guilabel:`Produce`. The finished products are now moved into stock.
 ..
 
-当产品制造完成时, 点击 :guilabel:`生产`. 已经完成的产品就已经移动不仓库中了.
+当产品制造完成时, 点击 :guilabel:`生产`. 将已完工产成品入库.
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
