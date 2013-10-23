@@ -75,13 +75,13 @@
 
 *  :guilabel:`ONLINE SUPPORT` 按钮， 给你一个OpenERP提供的支持服务的总览，他对会员开放，
 
-* the :guilabel:`Preferences` toolbar to the top right, showing the links to the :guilabel:`HOME` page,
-  :guilabel:`EDIT PREFERENCES` page, :guilabel:`ABOUT`, :guilabel:`HELP`
-  and :guilabel:`LOGOUT` button,
+* 右上角的 :guilabel:`Preferences` 工具栏，用来显示 :guilabel:`HOME` 页的链接，
+  :guilabel:`EDIT PREFERENCES` 页, :guilabel:`ABOUT`, :guilabel:`HELP`
+  和 :guilabel:`LOGOUT` 按钮,
 
-* just below, you will find shortcuts (which the user can customize) and links to the menu items of installed applications,
+* 下面就是所安装程序的菜单条目的链接图标（用户可以自定义），
 
-* a collection of interesting and useful widgets are available on the right of the home page beside the main menu.
+* 在主页的右侧，主菜单的旁边是一组小工具的快捷菜单。
 
 .. i18n: .. _fig-oech2-main:
 .. i18n: 
