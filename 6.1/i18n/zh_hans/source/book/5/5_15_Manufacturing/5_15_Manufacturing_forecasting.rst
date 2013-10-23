@@ -1,3 +1,4 @@
+
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -277,11 +278,11 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: * `Security Days`: number of days to deduct from a system order to cope with any problems of procurement,
 ..
 
-* `排程期间`: 程对需求的计算是有时间限制的。如果需求时间的范围是在过去或者是从今天算起晚于你所设置的天数之后的话，排程是不做计划的。
+* `排程期间(Scheduler Range Days)`: 程对需求的计算是有时间限制的。如果需求时间的范围是在过去或者是从今天算起晚于你所设置的天数之后的话，排程是不做计划的。
 
-* `Manufacturing Lead Time`: number of additional days needed for manufacturing,
+* `生产提前期(Manufacturing Lead Time)`: 生产所需要耗用的时间(天数),
 
-* `Purchase Lead Time`: additional days to include for all purchase orders with this supplier,
+* `采购提前期(Purchase Lead Time)`: 所需原材料半成品采购备齐所需耗用的时间(天数),
 
 * `Security Days`: number of days to deduct from a system order to cope with any problems of procurement,
 
