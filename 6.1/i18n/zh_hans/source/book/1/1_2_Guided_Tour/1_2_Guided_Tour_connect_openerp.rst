@@ -81,7 +81,7 @@
 
 * 下面就是所安装程序的菜单条目的链接图标（用户可以自定义），
 
-* 在主页的右侧，主菜单的旁边是一组小工具的快捷菜单。
+* 在主页的右侧，主菜单的旁边是一组小工具（widgets）的快捷菜单。
 
 .. i18n: .. _fig-oech2-main:
 .. i18n: 
@@ -103,7 +103,7 @@
 .. i18n: Two menus are available at the moment:
 ..
 
-Two menus are available at the moment:
+当前有两个可用菜单:
 
 .. i18n: * :menuselection:`Sales`
 .. i18n: 
@@ -133,9 +133,8 @@ Two menus are available at the moment:
 .. i18n: user and it is reflecting the name of that user instead).
 ..
 
-When you are connected to OpenERP, the topmost toolbar indicates which user you are connected as.
-So it should currently be showing :guilabel:`Administrator` (unless you logged in as another
-user and it is reflecting the name of that user instead).
+当你连接到OpenERP，最上面的工具栏指出你是使用哪一个用户进行的连接。所以当前它显示 :guilabel:`Administrator` 
+（如果你使用另一个用户登录，它会相应的显示另一个用户名）。
 
 .. i18n: You will find the Preferences toolbar to its right containing a set of useful links.
 .. i18n: First, you will find a link to the :guilabel:`HOME` page. This takes you to either the
