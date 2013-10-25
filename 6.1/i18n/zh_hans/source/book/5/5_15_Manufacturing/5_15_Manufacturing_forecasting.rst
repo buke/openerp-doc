@@ -284,7 +284,7 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 
 * `采购提前期(Purchase Lead Time)`: 所需原材料半成品采购备齐所需耗用的时间(天数),
 
-* `Security Days`: number of days to deduct from a system order to cope with any problems of procurement,
+* `预留提前期(Security Days)`: 为其他异常情况提供的预留的耗用时间(天数),
 
 .. i18n: .. note:: Purchase Lead Time
 .. i18n: 
