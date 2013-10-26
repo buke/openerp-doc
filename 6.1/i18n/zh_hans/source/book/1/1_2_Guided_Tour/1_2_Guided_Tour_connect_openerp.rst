@@ -146,7 +146,7 @@
 .. i18n: assign dashboards to different users in a later chapter, :ref:`ch-config`.
 ..
 
-You will find the Preferences toolbar to its right containing a set of useful links.
+你能看到顶端工具栏右侧包含了一组有用的链接。
 First, you will find a link to the :guilabel:`HOME` page. This takes you to either the
 Home page containing links to the available menus or to another window or dashboard, depending on the
 user configuration. In the case of the \ ``openerp_ch02`` \ database, so far the Home page
