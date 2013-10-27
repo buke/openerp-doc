@@ -311,16 +311,16 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: * `Security Days` : 2.
 ..
 
-* `Manufacturing Lead Time` : 1,
+* `生产提前期(Manufacturing Lead Time)` : 1,
 
-* `Purchase Lead Time` : 3,
+* `采购提前期(Purchase Lead Time)` : 3,
 
-* `Security Days` : 2.
+* `预留提前(Security Days)` : 2.
 
 .. i18n: The example above will then be given the following lead times:
 ..
 
-The example above will then be given the following lead times:
+这样,由上面的数据就可以计算出下面的这些时间:
 
 .. i18n: * Delivery SHE100: 29 January (= 1st January + 30 days – 2 days),
 .. i18n: 
