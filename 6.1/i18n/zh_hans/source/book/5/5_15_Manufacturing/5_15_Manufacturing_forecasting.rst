@@ -333,15 +333,15 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: * Purchase WOOD002 (for SIDEPAN): 4 January (= 12 January – 5 days – 3 days).
 ..
 
-* Delivery SHE100: 29 January (= 1st January + 30 days – 2 days),
+* 送货时间 SHE100: 29 January (= 1st January + 30 days – 2 days),
 
-* Manufacture SHE100: 23 January (= 29 January – 5 days – 1 day),
+* 生产时间 SHE100: 23 January (= 29 January – 5 days – 1 day),
 
-* Manufacture SIDEPAN: 12 January (= 26 January – 10 days – 1 day),
+* 生产时间 SIDEPAN: 12 January (= 26 January – 10 days – 1 day),
 
-* Purchase WOOD002 (for SHE100): 15 January (= 26 January – 5 days – 3 days),
+* 采购时间 WOOD002 (for SHE100): 15 January (= 26 January – 5 days – 3 days),
 
-* Purchase WOOD002 (for SIDEPAN): 4 January (= 12 January – 5 days – 3 days).
+* 采购时间 WOOD002 (for SIDEPAN): 4 January (= 12 January – 5 days – 3 days).
 
 .. i18n: Procurement
 .. i18n: +++++++++++
