@@ -370,7 +370,7 @@ But if there are configuration problems, the system can remain blocked by a proc
 .. i18n: In the ``Product`` form view, you can choose between two procurement methods:
 ..
 
-In the ``Product`` form view, you can choose between two procurement methods:
+在 ``产品`` 视图页,需要设置下面两个有关生产的参数:
 
 .. i18n:     * Make to Stock (MTS)
 .. i18n:     * Make to Order (MTO)
