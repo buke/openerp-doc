@@ -12,12 +12,12 @@
 .. i18n: This section deals with statutory taxes and accounts which are legally required from the company:
 ..
 
-This section deals with statutory taxes and accounts which are legally required from the company:
+本章节处理法定税收和公司通用会计科目的有关问题:
 
 .. i18n: * the taxation structure provided by Open ERP,
 ..
 
-* the taxation structure provided by Open ERP,
+* OpenERP中提供的税制结构，
 
 .. i18n: .. index:: tax
 ..
