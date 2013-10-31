@@ -384,7 +384,8 @@ But if there are configuration problems, the system can remain blocked by a proc
 .. i18n: order is confirmed.
 ..
 
-这两个参数直接影响自动采购与自动补货的方式. For the MTS method, you will have to define Minimum Stock Rules to order products when the minimum threshold has been reached, as well as a supplier to define where to order the products. 
+这两个参数直接影响自动采购与自动补货的方式.
+使用MTS方式时, 你需要在对应产品上设置最小库存规则来触发补货或者采购动作. 并且你还应该给产品设置合适的供应商.
 For the MTO method, you have to define a supplier for the product in order to buy new products when a sales order or a manufacturing 
 order is confirmed.
 
