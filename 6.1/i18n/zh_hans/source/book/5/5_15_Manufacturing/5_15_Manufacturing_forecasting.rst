@@ -384,7 +384,7 @@ But if there are configuration problems, the system can remain blocked by a proc
 .. i18n: order is confirmed.
 ..
 
-These two methods will impact the way you have to configure your automatic purchasing and replenishment. For the MTS method, you will have to define Minimum Stock Rules to order products when the minimum threshold has been reached, as well as a supplier to define where to order the products. 
+这两个参数直接影响自动采购与自动补货的方式. For the MTS method, you will have to define Minimum Stock Rules to order products when the minimum threshold has been reached, as well as a supplier to define where to order the products. 
 For the MTO method, you have to define a supplier for the product in order to buy new products when a sales order or a manufacturing 
 order is confirmed.
 
