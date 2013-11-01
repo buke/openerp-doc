@@ -1,4 +1,3 @@
-
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -404,7 +403,7 @@ In OpenERP, you can have different procurement exceptions. An exception appears 
 .. i18n: There are four types of exceptions:
 ..
 
-There are four types of exceptions:
+通常会有如下几种异常情况:
 
 .. i18n:     * No bill of materials defined for production: in this case you have got to create a BoM or indicate that the product can be purchased instead (change the ``Supply Method``).
 .. i18n: 
