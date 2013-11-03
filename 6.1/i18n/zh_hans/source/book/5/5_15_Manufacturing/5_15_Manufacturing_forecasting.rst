@@ -1,3 +1,4 @@
+
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -398,7 +399,7 @@ order is confirmed.
 .. i18n: In OpenERP, you can have different procurement exceptions. An exception appears in the ``Procurement Exception`` view when the system does not know what to do with an object, such as a Manufacturing Order or a Purchase Order.
 ..
 
-In OpenERP, you can have different procurement exceptions. An exception appears in the ``Procurement Exception`` view when the system does not know what to do with an object, such as a Manufacturing Order or a Purchase Order.
+你可能会在生产过程中遇到各种各样的异常情况. An exception appears in the ``Procurement Exception`` view when the system does not know what to do with an object, such as a Manufacturing Order or a Purchase Order.
 
 .. i18n: There are four types of exceptions:
 ..
