@@ -415,13 +415,13 @@ order is confirmed.
 .. i18n:     * Not enough stock: you have to create a rule for automatic procurement (for example, a minimum stock rule), or manually procure it.
 ..
 
-    * No bill of materials defined for production: in this case you have got to create a BoM or indicate that the product can be purchased instead (change the ``Supply Method``).
+    * 产成品未定义BOM单(Bill Of Materials): in this case you have got to create a BoM or indicate that the product can be purchased instead (change the ``Supply Method``).
 
-    * No supplier available for a purchase: you have to define a supplier in the ``Supplier`` tab of the product form.
+    * 相关采购未定义供应商: you have to define a supplier in the ``Supplier`` tab of the product form.
 
-    * No address defined on the supplier partner: you have to complete an address for the supplier for the product in consideration.
+    * 供应商未定义地址联系人: you have to complete an address for the supplier for the product in consideration.
 
-    * Not enough stock: you have to create a rule for automatic procurement (for example, a minimum stock rule), or manually procure it.
+    * 原材料库存不足: you have to create a rule for automatic procurement (for example, a minimum stock rule), or manually procure it.
 
 .. i18n: .. figure:: images/procurement_exception.png
 .. i18n:     :align: center
