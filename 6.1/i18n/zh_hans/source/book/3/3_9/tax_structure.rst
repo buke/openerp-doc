@@ -58,12 +58,12 @@ The taxation mechanism can also be used to handle other tax-like financial trans
 .. i18n: From the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes` you can define your tax structure. Note that when you use a predefined (localised) chart of accounts, taxes will be configured as well in most cases.
 ..
 
-From the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes` you can define your tax structure. Note that when you use a predefined (localised) chart of accounts, taxes will be configured as well in most cases.
+通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes` 您可以定义您的税收结构。 注意如果您使用预定义（本地化）科目表，多数情况下都已经定义好了税收。
 
 .. i18n: OpenERP's tax system runs around three major concepts:
 ..
 
-OpenERP's tax system runs around three major concepts:
+OpenERP的税制运行围绕三大概念:
 
 .. i18n: * :guilabel:`Tax Code` (or :guilabel:`Tax Case`), used for tax reporting, can be set up in a hierarchical
 .. i18n:   structure so that multiple codes can be formed into trees in the same way as a ``Chart of Accounts``. The Tax Codes structure is used to define your VAT return; it can be numeric and alphanumeric. You can define tax codes from the menu :menuselection: `Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes`.
