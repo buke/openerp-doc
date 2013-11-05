@@ -53,7 +53,7 @@ Since the detailed tax structure is a mechanism for carrying out governments' po
 .. i18n: The taxation mechanism can also be used to handle other tax-like financial transactions, such as royalties to authors based on the value of transactions through an account.
 ..
 
-The taxation mechanism can also be used to handle other tax-like financial transactions, such as royalties to authors based on the value of transactions through an account.
+税收机制也可以用于处理类似税收的交易，比如通过一个科目基于交易额的作者的版税。
 
 .. i18n: From the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes` you can define your tax structure. Note that when you use a predefined (localised) chart of accounts, taxes will be configured as well in most cases.
 ..
@@ -73,7 +73,7 @@ OpenERP的税制运行围绕三大概念:
 .. i18n: * the :guilabel:`General Accounts`, which record the taxes owing and paid. Since the general accounts are discussed elsewhere in this part of the book and are not tax-specific, they will not be detailed in this section.
 ..
 
-* :guilabel:`Tax Code` (or :guilabel:`Tax Case`), used for tax reporting, can be set up in a hierarchical
+* :guilabel:`Tax Code` (or :guilabel:`Tax Case`), 用于纳税申报， can be set up in a hierarchical
   structure so that multiple codes can be formed into trees in the same way as a ``Chart of Accounts``. The Tax Codes structure is used to define your VAT return; it can be numeric and alphanumeric. You can define tax codes from the menu :menuselection: `Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes`.
 
 * :guilabel:`Taxes`, the basic tax object that contains the rules for calculating tax on the transaction it is attached to, linked to the General Accounts and to the Tax Codes. A tax can contain multiple child taxes and base its calculation on those taxes rather than on the base transaction, providing considerable flexibility.
