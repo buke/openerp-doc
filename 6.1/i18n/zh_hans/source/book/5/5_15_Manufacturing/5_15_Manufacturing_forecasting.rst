@@ -519,7 +519,7 @@ depending on the product configuration.
     :scale: 75
     :align: center
     
-    *Procurement Flow*
+    *需求流程*
 
 .. i18n: It is better to encode a procurement order rather than direct purchasing or production. The procurement method has the following advantages:
 ..
@@ -544,7 +544,7 @@ calculated from order date, default supplier, raw materials needs, selection of 
 .. i18n:         
 ..
 
-.. tip:: Shortcuts
+.. tip:: 快捷方式
 
     On the Product form you have an **action** shortcut button :guilabel:`Procurement Request` that lets you quickly 
     create a new procurement order.
