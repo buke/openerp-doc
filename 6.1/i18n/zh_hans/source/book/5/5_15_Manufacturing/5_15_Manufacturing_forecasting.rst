@@ -436,7 +436,7 @@ order is confirmed.
     :align: center
     :scale: 75
     
-    *Procurement Exceptions*
+    *需求异常*
     
 Some problems are just timing issues and can be automatically corrected by the system (this will be temporary exceptions).
 
@@ -463,7 +463,7 @@ can choose to relaunch the scheduler or you can retry to execute the action by s
     :scale: 75
     :align: center
     
-    *Correct a Procurement Exception*
+    *需求异常处理*
 
 .. i18n: The exception related to the BoM definition comes from the fact that a product with a supply method set to *Produce* has no
 .. i18n: Bill of Materials. The system does not know how to produce this product and then raises an exception.    
