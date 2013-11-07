@@ -1,4 +1,3 @@
-
 .. i18n: .. _terminologies-link:
 .. i18n: 
 .. i18n: Terminologies
@@ -7,13 +6,13 @@
 
 .. _terminologies-link:
 
-Terminologies
+术语
 =============
 
 .. i18n: This page defines all terminologies. Objects in the OLAP cube use this convention. 
 ..
 
-This page defines all terminologies. Objects in the OLAP cube use this convention. 
+本页对所有术语进行定义。 在OLAP多维数据集的对象使用本约定。
 
 .. i18n: .. _schema-link:
 .. i18n: 
