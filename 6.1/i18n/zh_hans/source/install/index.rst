@@ -36,7 +36,7 @@ Python (多数平台内置)以及之后的 OpenERP 自身的安装。
 .. i18n: .. note:: For those familiar with earlier OpenERP versions, the 6.1 series has a different architecture, and only requires the installation of a single OpenERP package.
 ..
 
-.. note:: 对于熟悉OpenERP早期版本的用户而言，6.1 系列有了一个不一样的框架，并且只需要安装单个OpenERP安装包。
+.. note:: 对于熟悉OpenERP早期版本的用户而言，6.1 系列有了一个不一样的框架，和只需要安装单个OpenERP安装包的安装过程。
 
 .. i18n: .. toctree::
 .. i18n:     :glob:
