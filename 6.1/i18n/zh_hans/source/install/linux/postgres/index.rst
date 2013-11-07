@@ -59,7 +59,7 @@ Ubuntu 上的例子
 .. i18n:   sudo apt-get install pgadmin3
 ..
 
-对于 **postgresql** GUI用户 , 使用下面的命令: ::
+对于 **postgresql** GUI用户界面 , 使用下面的命令: ::
 
   sudo apt-get install pgadmin3
 
@@ -94,7 +94,7 @@ Ubuntu 上的例子
 .. i18n: -----------------------------------
 ..
 
-为Openerp设置一个 PostgreSQL 用户
+为OpenERP设置一个 PostgreSQL 用户
 -----------------------------------
 
 .. i18n: When the installations of the required software are done, you must create a
@@ -102,7 +102,7 @@ Ubuntu 上的例子
 .. i18n: connect to PostgreSQL.
 ..
 
-当需要的软件安装完成后，你必须创建一个PostgreSQL用户。这个用户必须和你的系统用户同名. OpenERP 将使用这个用户来链接PostgreSQL.
+当所需的软件完成安装后，你必须创建一个PostgreSQL用户。这个用户必须和你的系统用户同名。 OpenERP 将使用这个用户来连接PostgreSQL.
 
 .. i18n: .. figure:: ../../img/openerp_postgresql.png
 .. i18n:    :scale: 75
@@ -124,7 +124,7 @@ Ubuntu 上的例子
 
 .. tip:: Database
 
-        如果没有按如下所述为openerp创建和配置一个 PostgreSQL 用户, 你就不能用openerp客户端创建数据库。
+        如果没有按如下所述方式为 OpenERP 创建和配置一个 PostgreSQL 用户, 你就不能用 OpenERP 客户端来创建数据库。
 
 .. i18n: First Method
 .. i18n: ++++++++++++
@@ -161,7 +161,7 @@ PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户�
 .. i18n: of all the tables created by OpenERP Client.
 ..
 
-使新用户为超级用户。这样你才能用OpenERP客户端创建数据库.
+确保新用户成为超级用户。这样你才能用OpenERP客户端创建数据库。
 总之, **openerp** 是一个在PostgreSQL中为OpenERP创建的新用户。这个用户将是OpenERP客户端创建的全部表的所有者。
 
 .. i18n: Now check the list of databases created in PostgreSQL using the following command: ::
@@ -266,7 +266,7 @@ PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户�
 .. i18n: located in ``~/.openerprc``.
 ..
 
-你能启动你的 OpenERP 服务器.你可能要根据你的需要修改OpenERP 配置文件，该文件通常在 ``~/.openerprc``.
+现在，你可以启动 OpenERP 服务器了。根据你的需求，你可能还要修改OpenERP的配置文件，该文件通常在 ``~/.openerprc``。
 
 .. i18n: .. tip:: Developer Book
 .. i18n: 
@@ -276,3 +276,4 @@ PostgreSQL的默认超级用户叫做 **postgres**. 你首先要用这个用户�
 .. tip:: 开发手册
 
         你能在开发手册找到配置文件有关的信息, 章节 :ref:`Configuration <configuration-files-link>`
+        
