@@ -38,7 +38,7 @@
 .. i18n: itself. These steps are described in the following sections:
 ..
 
-对于**其它的 Linux 发行版** ，以及那些更喜欢**手工安装**的人们，在linux上面部署Openerp 也只需两个步骤 : 安装 OpenERP 使用的数据库引擎PostgreSQL, 然后安装 OpenERP 自身。 接下来的章节中将介绍这些步骤:
+对于**其它的 Linux 发行版** ，以及那些更喜欢**手工安装**的人们，在linux上面部署Openerp 也只需两个步骤：安装 OpenERP 使用的数据库引擎PostgreSQL， 然后安装 OpenERP 自身。 接下来的章节中将介绍这些步骤:
 
 .. i18n: .. toctree::
 .. i18n:     :glob:
