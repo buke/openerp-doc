@@ -13,7 +13,7 @@ Open Object Business Intelligence系统的目标是成为一个全功能的用Py
 .. i18n: Comparing to most current business intelligence software in the market, our goal is to produce a BI for the mid market. It has to be:
 ..
 
-Comparing to most current business intelligence software in the market, our goal is to produce a BI for the mid market. It has to be:
+相对当前市面上大多数的business intelligence 软件, 我们的目的是生产一个针对中端市场的BI。 它意味着:
 
 .. i18n: For the end-user:
 .. i18n: -----------------
@@ -28,16 +28,15 @@ Comparing to most current business intelligence software in the market, our goal
 .. i18n: * Integrated and independent from OpenERP. 
 ..
 
-* Easy and fast to use: a simple web-interface that has no dependencies and can be integrated in proprietary
-  software. It should have an OpenOffice interface for complex dashboards creation.
-* Easy to install: auto-installation on Windows and Linux, with few dependencies.
-* Integrated and independent from OpenERP. 
+* 使用起来方便及快捷: 简单的web界面，不需依赖其它软件，并且可以集成到所有软件中。它应该保留一个OpenOffice接口以创建复杂的报表。
+* 容易安装: 在Windows和Linux中都可自动化安装，极少依赖其它软件。
+* 在OpenERP中集成，但并不被依赖。
 
 .. i18n: For the administrator user:
 .. i18n: ---------------------------
 ..
 
-For the administrator user:
+对管理员用户而言:
 ---------------------------
 
 .. i18n: * A cube designer within OpenERP
@@ -47,25 +46,25 @@ For the administrator user:
 .. i18n: * No intervention from developers: everything achievable through interfaces for end-user.
 ..
 
-* A cube designer within OpenERP
-* Easy to configure: Automatic cube definition (5 clicks, using introspection on database),
-* Easy to maintain: The application must be sufficiently intelligent that it requires no fine tuning in cube definition,
+* OpenERP内部的全方面设计器
+* 容易配置: Automatic cube definition (5 clicks, using introspection on database),
+* 容易维护: The application must be sufficiently intelligent that it requires no fine tuning in cube definition,
   runs well on bad indices, with no need for explicitly defined aggregated tables, or defined axes.
-* No intervention from developers: everything achievable through interfaces for end-user.
+* 无需开发者干预: 最终用户可以通过界面完成所有事情。
 
 .. i18n: For the developer:
 .. i18n: ------------------
 ..
 
-For the developer:
+对开发者而言:
 ------------------
 
 .. i18n: * Everything (dimensions, ) must be object oriented with a module system to allow to add your own code to extend the software, like in OpenERP.
 .. i18n: * It must support main database engine and aggregation of multiple database: PostgreSQL, MySQL, Oracle, MSSQL etc... to do reporting for any application.
 ..
 
-* Everything (dimensions, ) must be object oriented with a module system to allow to add your own code to extend the software, like in OpenERP.
-* It must support main database engine and aggregation of multiple database: PostgreSQL, MySQL, Oracle, MSSQL etc... to do reporting for any application.
+* 就像OpenERP一样，所有东西 (dimensions, ) 必须是一个模块中面向对象的，允许你自己增加代码来扩展软件。
+* 它必须支持主流的数据库引擎并且可集合多个数据库: PostgreSQL, MySQL, Oracle, MSSQL 等等... 使任意应用都能取得数据以生成报表。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
