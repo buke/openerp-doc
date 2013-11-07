@@ -26,7 +26,7 @@ Part 1 : 简介
 
 .. sidebar:: Experimental Application
 
-    本章介绍了一个测试商业智能化的应用，并不属于OPENERP质量认证的一部分。
+    本章介绍了一个体检性的商业智能化应用，它并不在OpenERP当前通过质量认证发行版中。
     这个商业智能化模块可以在OPENERP应用商店里找到： <http://apps.openerp.com>`_, 但是目前还不
     符合实际生产使用。
 
