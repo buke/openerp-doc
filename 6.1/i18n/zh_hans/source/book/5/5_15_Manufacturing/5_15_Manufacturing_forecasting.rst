@@ -565,7 +565,7 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 .. i18n: Configure a location dedicated to this supplier with the following data:
 ..
 
-Configure a location dedicated to this supplier with the following data:
+按以下数据配置一个供应商库位:
 
 .. i18n: * :guilabel:`Location Type`: Supplier,
 .. i18n: 
