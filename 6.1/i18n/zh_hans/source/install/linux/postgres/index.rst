@@ -33,7 +33,7 @@ PostgreSQL 数据库安装和配置
 .. i18n: -----------------
 ..
 
-Ubuntu 上的列子
+Ubuntu 上的例子
 -----------------
 
 .. i18n: Use the following command at your system's command prompt to install the **postgresql** package: ::
