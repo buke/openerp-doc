@@ -76,7 +76,7 @@
 .. i18n:     * Quotero: http://www.quotero.com
 ..
 
-.. tip::  Free Document Management Systems
+.. tip::  免费文档管理系统
 
     有很多的免费的文件管理系统，其中比较最有名的有：:
 
