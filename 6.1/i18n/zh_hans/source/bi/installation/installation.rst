@@ -20,5 +20,5 @@ BI 需要安装 OpenERP Server 并且最好使用 OpenERP GTK 客户端。
 .. toctree::
 	:maxdepth: 2
 
-	Installing OpenERP Server and OLAP module <install_olap>
+	安装 OpenERP 服务器及 OLAP 模块 <install_olap>
 	install_web
