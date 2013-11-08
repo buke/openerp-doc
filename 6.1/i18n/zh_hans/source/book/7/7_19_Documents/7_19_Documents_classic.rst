@@ -101,9 +101,8 @@
 ..
 
 此外如果这两个系统是相互独立的，那么用户必须在两个储存结构相同的系统添加相同数据，
-在几个月以后你很快就发现文档管理系统脱离了公司的管理系统了。For example, how do you know
-where to store your least-frequently used documents such as (perhaps) employee car-leasing
-documents?
+在几个月以后你很快就发现文档管理系统脱离了公司的管理系统了。例如你将很难知道最近经常使用的文件，例如员工汽车
+租赁文档存放在哪里。
 
 .. i18n: .. index::
 .. i18n:    single: access; user
