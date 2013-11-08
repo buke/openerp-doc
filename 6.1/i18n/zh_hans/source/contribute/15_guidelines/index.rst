@@ -8,7 +8,7 @@
 .. _contribution_guidelines-link:
 
 ********************
- OpenERP 指南
+ OpenERP 指引
 ********************
 
 .. i18n: The following list of guidelines constitutes a key reference for everyone
@@ -17,10 +17,8 @@
 .. i18n: maintain the high level of quality improvement in OpenERP.
 ..
 
-The following list of guidelines constitutes a key reference for everyone
-involved in the OpenERP community. Every new contributor must
-read it before starting the contribution process, in order to
-maintain the high level of quality improvement in OpenERP.
+下列指引主要是给新参与到OpenERP社区的人提供一个参考。为了让OpenERP能保持
+高水平的质量改进，希望每一个新贡献者在开始贡献前都阅读本章节。
 
 .. i18n: It is also important for developers to periodically refresh their
 .. i18n: skills and coding habits by having a quick read of these best-practices.
