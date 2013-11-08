@@ -483,8 +483,8 @@ Bill of Materials. The system does not know how to produce this product and then
 .. i18n: Procurement Exceptions` and click the New button to do this.
 ..
 
-To procure internally, you can create a procurement order manually. Use the menu :menuselection:`Warehouse --> Schedulers -->
-Procurement Exceptions` and click the New button to do this.
+对于内部采购,则可以手工创建一张需求单. 打开菜单 :menuselection:`仓库(Warehouse) --> 排程(Schedulers) -->
+需求异常(Procurement Exceptions)` 并点击 ``新建`` 按钮即可.
 
 .. i18n: .. figure:: images/mrp_procurement.png
 .. i18n:     :scale: 75
