@@ -720,7 +720,7 @@ Once the bills of materials have been defined, you could associate the correspon
 .. i18n:         Note that the properties are only visible in the Bills of Materials and Sales Management if you are working in the ``Extended`` view mode. If you cannot see it on your screen, add the group ``Useability /Extended View`` to your user.
 ..
 
-.. note:: Extended View
+.. note:: 扩展视图
 
         Note that the properties are only visible in the Bills of Materials and Sales Management if you are working in the ``Extended`` view mode. If you cannot see it on your screen, add the group ``Useability /Extended View`` to your user.
 
@@ -740,7 +740,7 @@ Once the bills of materials have been defined, you could associate the correspon
 .. i18n: *Example: Manufacturing in a Batch or on a Production Line*
 ..
 
-*Example: Manufacturing in a Batch or on a Production Line*
+*例如: 生产单明细上的制造批次号*
 
 .. i18n: As an example, take the manufacturing of the shelf presented above. You can imagine that the company has two methods of manufacturing for this cabinet:
 ..
