@@ -624,16 +624,17 @@ Once the delivery of raw materials has been confirmed, OpenERP activates the pro
 .. i18n: Production orders can be found in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`. A production order is always carried out in two stages:
 ..
 
-Production orders can be found in the menu :menuselection:`Manufacturing --> Manufacturing --> Manufacturing Orders`. A production order is always carried out in two stages:
+进入菜单 :menuselection:`生产(Manufacturing) --> 生产(Manufacturing) --> 生产计划(Manufacturing Orders)` 可以查看到相应的生产计划单.
+生产计划通常需要按下面两个阶段生产:
 
 .. i18n: #. Consumption of raw materials,
 .. i18n: 
 .. i18n: #. Production of finished products.
 ..
 
-#. Consumption of raw materials,
+#. 耗用原材料,
 
-#. Production of finished products.
+#. 完工产成品.
 
 .. i18n: Depending on the company's needs, you can specify that the first step is confirmed at the acknowledgement of the manufacturing supplier, and the second at the receipt of finished goods in the warehouse.
 ..
