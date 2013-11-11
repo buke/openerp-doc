@@ -24,8 +24,7 @@
 .. i18n: skills and coding habits by having a quick read of these best-practices.
 ..
 
-It is also important for developers to periodically refresh their
-skills and coding habits by having a quick read of these best-practices.
+对于程序员浏览以下的最佳实践对于更新他们技巧和编程习惯也是相当重要的。
 
 .. i18n: As part of the Quality Review Process, everyone is invited to refer
 .. i18n: to these guidelines when providing feedback on contributions (code,
