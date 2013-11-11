@@ -33,7 +33,7 @@
 .. i18n: pattern, please feel free to contribute.
 ..
 
-作为质量审查的一个步骤，希望大家在对贡献（代码、文档、任何东西）的提交反馈的时候都按照以下指引。
+作为质量审查的一个步骤，希望大家在对贡献（代码、文档、任何东西）提交反馈的时候都按照以下指引。
 If a specific guideline seems to be missing
 from the list, or if you have found a perfect example of a good (or bad)
 pattern, please feel free to contribute.
