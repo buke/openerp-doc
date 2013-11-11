@@ -33,9 +33,8 @@
 .. i18n: pattern, please feel free to contribute.
 ..
 
-As part of the Quality Review Process, everyone is invited to refer
-to these guidelines when providing feedback on contributions (code,
-documentation, anything.). If a specific guideline seems to be missing
+作为质量审查的一个步骤，希望大家在对贡献（代码、文档、任何东西）的提交反馈的时候都按照以下指引。
+If a specific guideline seems to be missing
 from the list, or if you have found a perfect example of a good (or bad)
 pattern, please feel free to contribute.
 
