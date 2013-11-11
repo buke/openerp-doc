@@ -34,9 +34,8 @@
 ..
 
 作为质量审查的一个步骤，希望大家在对贡献（代码、文档、任何东西）提交反馈的时候都按照以下指引。
-If a specific guideline seems to be missing
-from the list, or if you have found a perfect example of a good (or bad)
-pattern, please feel free to contribute.
+如果你发现列表中缺少某个指引或者发现里面有好（或坏的）的例子，请随时贡献。
+
 
 .. i18n: The comments system can be used for this purpose, but it would be even
 .. i18n: better to directly update the source of this documentation
