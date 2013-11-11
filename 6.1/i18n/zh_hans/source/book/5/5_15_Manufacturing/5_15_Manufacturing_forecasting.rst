@@ -449,7 +449,7 @@ If a product has to be ‘in stock’ but is not available in your stores, OpenE
 .. i18n: can choose to relaunch the scheduler or you can retry to execute the action by selecting the line, and clicking the :guilabel:`Retry` button, then click :guilabel:`Run procurement`.
 ..
 
-When an exception is raised, you can check the configuration of your product in order to correct the misconfiguration. Then you
+当需求异常时, 你要去确认一下产品的各项配置是否正确. Then you
 can choose to relaunch the scheduler or you can retry to execute the action by selecting the line, and clicking the :guilabel:`Retry` button, then click :guilabel:`Run procurement`.
 
 .. i18n: .. figure:: images/procurement_fix.png
