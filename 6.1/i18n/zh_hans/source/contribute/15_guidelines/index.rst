@@ -33,7 +33,7 @@
 .. i18n: pattern, please feel free to contribute.
 ..
 
-作为质量审查的一个步骤，希望大家在对贡献（代码、文档、任何东西）提交反馈的时候都按照以下指引。
+作为质量审查的一个重要步骤，希望大家在对贡献（代码、文档、任何东西）提交反馈的时候都按照以下指引。
 如果你发现列表中缺少某个指引或者发现里面有好（或坏的）的例子，请随时贡献。
 
 
@@ -42,9 +42,7 @@
 .. i18n: (see the contribution guide).
 ..
 
-The comments system can be used for this purpose, but it would be even
-better to directly update the source of this documentation
-(see the contribution guide).
+评论系统可以用来达到这个目的，不过直接更新本文档的源码就更好了。（请看贡献指引）
 
 .. i18n: .. toctree::
 .. i18n:     :maxdepth: 2
