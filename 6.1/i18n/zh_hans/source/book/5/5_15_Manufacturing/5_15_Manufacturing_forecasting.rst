@@ -449,8 +449,8 @@ If a product has to be ‘in stock’ but is not available in your stores, OpenE
 .. i18n: can choose to relaunch the scheduler or you can retry to execute the action by selecting the line, and clicking the :guilabel:`Retry` button, then click :guilabel:`Run procurement`.
 ..
 
-当需求异常时, 你要去确认一下产品的各项配置是否正确. Then you
-can choose to relaunch the scheduler or you can retry to execute the action by selecting the line, and clicking the :guilabel:`Retry` button, then click :guilabel:`Run procurement`.
+当需求异常时, 你要去确认一下产品的各项配置是否正确. 然后去重新运行一下MRP计算也可以在明细行上点击 :guilabel:`重试(Retry)` 按钮并
+点击 :guilabel:`计算需求(Run procurement`).
 
 .. i18n: .. figure:: images/procurement_fix.png
 .. i18n:     :scale: 75
