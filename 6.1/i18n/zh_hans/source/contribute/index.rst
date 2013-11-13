@@ -6,7 +6,7 @@
 
 .. _how-to-contribute-link:
 
-如何回赠社区
+如何回馈社区
 =================
 
 .. i18n: .. toctree::
