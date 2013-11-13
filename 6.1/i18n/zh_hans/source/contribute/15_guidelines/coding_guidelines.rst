@@ -12,9 +12,9 @@
 .. _coding-guidelines-link:
 
 =================
-编码指南
+编码指引
 =================
-This list is populated incrementally by the OpenERP Quality Team as part of the code review process.
+以下条目由OpenERP质量团队维护并且作为质量审查的一部分。
 It contains a set of OpenERP specific
 good/bad practices, as well as a selection of more generic Python coding
 recommendations.
