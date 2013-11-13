@@ -546,9 +546,7 @@ calculated from order date, default supplier, raw materials needs, selection of 
 
 .. tip:: 快捷方式
 
-    On the Product form you have an **action** shortcut button :guilabel:`Procurement Request` that lets you quickly 
-    create a new procurement order.
-        
+    在产品窗体中可以使用 :guilabel:`需求申请(Procurement Request)` **action** 按钮的快捷方式 去创建新的需求申请单.
 
 .. i18n: Working with Subcontractors
 .. i18n: ===========================
