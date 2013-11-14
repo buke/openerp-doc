@@ -12,12 +12,11 @@
 .. _coding-guidelines-link:
 
 =================
-编码指引
+编程指引
 =================
 以下条目由OpenERP质量团队维护并且作为质量审查的一部分。
-It contains a set of OpenERP specific
-good/bad practices, as well as a selection of more generic Python coding
-recommendations.
+包含了OpenERP的推荐的/不推荐的实现方式，以及通用的Python编程建议。
+
 
 .. i18n: Both sections are a MUST READ for every OpenERP developer and contributor.
 ..
