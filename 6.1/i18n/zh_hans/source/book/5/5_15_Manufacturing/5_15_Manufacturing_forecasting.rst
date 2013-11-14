@@ -386,8 +386,7 @@ But if there are configuration problems, the system can remain blocked by a proc
 
 这两个参数直接影响自动采购与自动补货的方式.
 使用MTS方式时, 你需要在对应产品上设置最小库存规则来触发补货或者采购动作. 并且你还应该给产品设置合适的供应商.
-For the MTO method, you have to define a supplier for the product in order to buy new products when a sales order or a manufacturing 
-order is confirmed.
+使用MTO方式时, 你必须要给相应产品设置对应的供应商,以便在生产单及销售单确认时能自动产生相应的采购.
 
 .. i18n: Managing Scheduler Exceptions
 .. i18n: -----------------------------
