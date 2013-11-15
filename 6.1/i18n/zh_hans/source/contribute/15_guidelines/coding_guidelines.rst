@@ -21,7 +21,7 @@
 .. i18n: Both sections are a MUST READ for every OpenERP developer and contributor.
 ..
 
-Both sections are a MUST READ for every OpenERP developer and contributor.
+这两部分是每一个OpenERP的开发、贡献者都必须阅读的。
 
 .. i18n: As an introductory rule, you should always keep in mind the following:
 ..
