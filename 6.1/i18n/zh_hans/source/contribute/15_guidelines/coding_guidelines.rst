@@ -32,8 +32,7 @@
 .. i18n:   by others (including yourself)**
 ..
 
-  **Every line you write will be written only once, but read many times
-  by others (including yourself)**
+  **你写的每一行代码将会被别人（包括你自己）读多次**
 
 .. i18n: At the risk of stating the obvious, this means that while following the
 .. i18n: other guidelines, you should always use your best judgement in order to
