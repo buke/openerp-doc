@@ -26,7 +26,7 @@
 .. i18n: As an introductory rule, you should always keep in mind the following:
 ..
 
-As an introductory rule, you should always keep in mind the following:
+请谨记以下几点普遍的规则：
 
 .. i18n:   **Every line you write will be written only once, but read many times
 .. i18n:   by others (including yourself)**
