@@ -497,7 +497,7 @@ Bill of Materials. The system does not know how to produce this product and then
     :scale: 75
     :align: center
     
-    *Manual Procurement*
+    *手工需求*
 
 .. i18n: The procurement order will then be responsible for calculating a proposal for automatic procurement for the
 .. i18n: product concerned. This procurement will start a task, a purchase order for the supplier or a production
