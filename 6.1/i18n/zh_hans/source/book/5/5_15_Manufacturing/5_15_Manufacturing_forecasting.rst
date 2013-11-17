@@ -438,7 +438,7 @@ But if there are configuration problems, the system can remain blocked by a proc
     
     *需求异常*
     
-Some problems are just timing issues and can be automatically corrected by the system (this will be temporary exceptions).
+有时候的一些异常只是系统的临时异常. 系统会自动修复.
 
 .. i18n: If a product has to be ‘in stock’ but is not available in your stores, OpenERP will make the exception as ‘temporary’ or ‘to be corrected’. The exception is temporary if the system can procure it automatically, for example, when a procurement rule has been defined for minimum stock.
 ..
