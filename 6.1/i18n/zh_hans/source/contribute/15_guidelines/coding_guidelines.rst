@@ -32,7 +32,7 @@
 .. i18n:   by others (including yourself)**
 ..
 
-  **你写的每一行代码将会被别人（包括你自己）读多次**
+  **你写的每一行代码将会被别人（包括你自己）读很多次**
 
 .. i18n: At the risk of stating the obvious, this means that while following the
 .. i18n: other guidelines, you should always use your best judgement in order to
@@ -40,9 +40,9 @@
 .. i18n: additional effort, it's worth it a thousand times.
 ..
 
-At the risk of stating the obvious, this means that while following the
-other guidelines, you should always use your best judgement in order to
-achieve the best readability. And if writing readable code requires an
+相信大家都知道以上的风险，意味着你在按照其他指引的时候，
+必须依靠自己准确的判断以实现最好的代码可读性。
+And if writing readable code requires an
 additional effort, it's worth it a thousand times.
 
 .. i18n: .. Be careful if you change the following, you don't want to mess up the
