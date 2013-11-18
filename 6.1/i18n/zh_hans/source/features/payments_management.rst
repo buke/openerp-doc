@@ -10,9 +10,8 @@
 .. i18n: so that you can assign different responsibilities in the process.
 ..
 
-为了帮助你管理资金和支付供应商款项，OpenERP所提供的工具可以帮助您准备付款，他们支持工作流，
-所以在这个准备付款的过程中你可以分配不同的职责。
-
+* 为了帮助你管理资金和支付供应商款项，OpenERP所提供的工具可以帮助您准备付款，他们支持工作流，
+* 所以在这个准备付款的过程中你可以分配不同的职责。
 
 .. i18n: .. raw:: html
 .. i18n:  
@@ -36,10 +35,10 @@
 .. i18n: * Support electronic bank formats and check printing
 ..
 
-不同角色完成付款编码，审批支付并且转到银行
-通过不同的银行账户来管理你的资金
-便捷的多货币管理
-支持电子银行格式及支票打印
+* 不同角色完成付款编码，审批支付并且转到银行
+* 通过不同的银行账户来管理你的资金
+* 便捷的多货币管理
+* 支持电子银行格式及支票打印
 
 .. i18n: Integration Benefits:
 .. i18n: ---------------------
@@ -52,10 +51,8 @@
 .. i18n: * Import and automatic reconciliation when encoding bank statements.
 ..
 
-完全集成的会计系统，以避免双重编码
-当录入银行对账单后，自动生余额调节表
-
-
+* 完全集成的会计系统，以避免双重编码
+* 当录入银行对账单后，自动生余额调节表
 .. i18n: Links:
 .. i18n: ------
 ..
