@@ -504,9 +504,7 @@ Bill of Materials. The system does not know how to produce this product and then
 .. i18n: depending on the product configuration.
 ..
 
-The procurement order will then be responsible for calculating a proposal for automatic procurement for the
-product concerned. This procurement will start a task, a purchase order for the supplier or a production
-depending on the product configuration.
+需求单可以自动计算出相关原材料的需求单. 这些需求单根据相应产品的配置情况又可以生成相应的生产计划以及相应的采购订单.
 
 .. i18n: .. figure:: images/mrp_procurement_flow.png
 .. i18n:     :scale: 75
