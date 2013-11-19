@@ -24,7 +24,7 @@ OpenERP GTK 客户端安装
 .. i18n: The native GTK client is available as a legacy interface for users who still require it, but the recommended way to access OpenERP 6.1 is the built-in web interface.
 ..
 
-原生GTK 客户端作为遗留界面，留给任然需要的用户, 但是访问OpenERP的推荐方法是内置的WEB 界面.
+原生的GTK客户端是历史遗留物，会继续为仍有需要的用户服务，但推荐用内置的web界面来访问OpenERP 6.1。
 
 .. i18n: Installing the required packages
 .. i18n: --------------------------------
@@ -37,7 +37,7 @@ OpenERP GTK 客户端安装
 .. i18n: A few Python libraries are also required, as listed below.
 ..
  
-OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上. 还需有几个Python库，已经列表于下.
+OpenERP 6.1要求Python 2.6 或以上版本。 在Ubuntu 10.04 及以上版本系统已自带。 还有几个Python库是需要的，下面会列举出来。
 
 .. i18n: On a Debian-based Linux distribution you can install all required dependencies with this single
 .. i18n: command::
@@ -46,7 +46,7 @@ OpenERP 6.1要求Python 2.6 或更新. 这已经内建在 Ubuntu 10.04 及之上
 .. i18n:         python-lxml python-tz python-hippocanvas python-pydot
 ..
 
-在基于 Debian的Linux 发行版中，能用下面的单个命令安装所有的要求的依赖::
+在基于 Debian 的 Linux 发行版中，可能用这样的单个命令来安装所有要求的依赖包::
 
     apt-get install python-gtk2 python-glade2 python-matplotlib python-dateutil \
         python-lxml python-tz python-hippocanvas python-pydot
