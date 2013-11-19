@@ -443,7 +443,7 @@ But if there are configuration problems, the system can remain blocked by a proc
 .. i18n: If a product has to be ‘in stock’ but is not available in your stores, OpenERP will make the exception as ‘temporary’ or ‘to be corrected’. The exception is temporary if the system can procure it automatically, for example, when a procurement rule has been defined for minimum stock.
 ..
 
-If a product has to be ‘in stock’ but is not available in your stores, OpenERP will make the exception as ‘temporary’ or ‘to be corrected’. The exception is temporary if the system can procure it automatically, for example, when a procurement rule has been defined for minimum stock.
+如果产品的需求方式是 `来自库存(in stock)` 而产品的库存数量又不足的情况下, OpenERP will make the exception as ‘temporary’ or ‘to be corrected’. The exception is temporary if the system can procure it automatically, for example, when a procurement rule has been defined for minimum stock.
 
 .. i18n: When an exception is raised, you can check the configuration of your product in order to correct the misconfiguration. Then you
 .. i18n: can choose to relaunch the scheduler or you can retry to execute the action by selecting the line, and clicking the :guilabel:`Retry` button, then click :guilabel:`Run procurement`.
