@@ -42,8 +42,7 @@
 
 相信大家都知道以上的风险，意味着你在按照其他指引的时候，
 必须依靠自己准确的判断以实现最好的代码可读性。
-And if writing readable code requires an
-additional effort, it's worth it a thousand times.
+为写出可读性高的代码而努力是非常值得的。
 
 .. i18n: .. Be careful if you change the following, you don't want to mess up the
 .. i18n:    guidelines numbering -- see the sectnum:: directives !!
