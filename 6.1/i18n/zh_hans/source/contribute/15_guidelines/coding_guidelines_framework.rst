@@ -19,9 +19,9 @@ OpenERP 特别指引
 .. i18n: the file history.
 ..
 
-Bazaar 是你的历史信息
+Bazaar 是你的历史学家
 ------------------------
-Do not comment out code if you want to disable it. The code is versioned in
+不要通过注视来禁用代码。 The code is versioned in
 Bazaar, and regardless of your opinion about Bazaar, it does not lose
 the file history.
 
