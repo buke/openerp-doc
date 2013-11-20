@@ -1,4 +1,3 @@
-
 .. i18n: .. raw:: latex
 .. i18n: 
 .. i18n:     \afterpage{\clearpage}
@@ -148,27 +147,27 @@ The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, c
 .. i18n: It is surprising to see that in the 21st century, most companies still process quotations & invoices manually, mostly by post or email. The trend is clearly for personal communication to disregard these legacy media, and replace them with instant messaging, social networks, etc. The *Electronic Data Interchange* (EDI) platform is here to try and open OpenERP to more modern communication systems, where electronic documents are exchanged and synchronised between business partners in real-time.
 ..
 
-It is surprising to see that in the 21st century, most companies still process quotations & invoices manually, mostly by post or email. The trend is clearly for personal communication to disregard these legacy media, and replace them with instant messaging, social networks, etc. The *Electronic Data Interchange* (EDI) platform is here to try and open OpenERP to more modern communication systems, where electronic documents are exchanged and synchronised between business partners in real-time.
+很惊讶地看到在21世纪今天，大多数公司仍然采用手工处理报价单及发票，几乎都是通过邮寄或电子邮件的方式。但目前的明显趋势是这类传统媒体将会被即时通讯、社交网络等取代。电子数据交换（简称：EDI）平台在OpenERP中尝试与更多现代通讯系统相连接，在这个平台上，实现与合伙伙伴实时交换和同步电子文件。
 
 .. i18n: Initially, OpenERP will support a simple EDI mechanism for certain OpenERP documents, such as Sales Orders, Purchase Orders and Invoices.
 ..
 
-Initially, OpenERP will support a simple EDI mechanism for certain OpenERP documents, such as Sales Orders, Purchase Orders and Invoices.
+最初的OpenERP支持某些特定的OpenERP的文件，如销售订单，采购订单和发票进行简单的电子数据交换（EDI)机制。
 
 .. i18n: Indeed, the integrated email and invoicing system in OpenERP allows you to create an invoice and automatically send an email with the invoice link to the customer.
 ..
 
-Indeed, the integrated email and invoicing system in OpenERP allows you to create an invoice and automatically send an email with the invoice link to the customer.
+事实上，在OpenERP的集成电子邮件和发票系统允许您创建发票，并自动发送一封此发票的电子邮件链接给客户。
 
 .. i18n: The customer then has several options. If your customer also has an OpenERP instance, he can easily import the invoice you have sent him, simply by clicking the link.
 ..
 
-The customer then has several options. If your customer also has an OpenERP instance, he can easily import the invoice you have sent him, simply by clicking the link.
+然后客户有几个选项。如果你的客户也有一个OpenERP的系统，只需通过点击你发送的链接，他可以很容易地导入此发票。
 
 .. i18n: Below, you find an example of such an EDI flow:
 ..
 
-Below, you find an example of such an EDI flow:
+下面为你介绍一个EDI流程的例子：:
 
 .. i18n: 1. Your company issues a Sales Order, a Purchase Order or an Invoice for a specific partner, let's say Camptocamp.
 .. i18n: 
@@ -177,48 +176,47 @@ Below, you find an example of such an EDI flow:
 .. i18n: 3. In the online preview of the document, Camptocamp can read the document, download or print the PDF version, and then choose between a couple of options:
 ..
 
-1. Your company issues a Sales Order, a Purchase Order or an Invoice for a specific partner, let's say Camptocamp.
+1. 贵公司发出销售订单，采购订单或发票给一个特定的合作伙伴，我们称呼为Camptocamp。
 
-2. Partner Camptocamp receives an email with a link to an online preview of the document.
+2. 合作伙伴Camptocamp收到一封可链接到在线预览文件的电子邮件。
 
-3. In the online preview of the document, Camptocamp can read the document, download or print the PDF version, and then choose between a couple of options:
+3. 点击在线预览的文件，Camptocamp可以读取，下载或打印的PDF版本，然后选择几个选项：
 
 .. i18n:   a. import this document in his own OpenERP instance, simply by providing the instance address;
 ..
 
-  a. import this document in his own OpenERP instance, simply by providing the instance address;
+  a. 导入此文件在他自己的OpenERP的系统，只需通过提供系统地址;
 
 .. i18n:   b. ask to create a new OpenERP online instance, where the document will be pre-imported;
 ..
 
-  b. ask to create a new OpenERP online instance, where the document will be pre-imported;
+  b. 如需导入该文件，要求建立一个新的OpenERP的在线系统;
 
 .. i18n:   c. ask for the raw EDI document, which the partner can then import in his own third-party software through a corresponding EDI import system.
 ..
 
-  c. ask for the raw EDI document, which the partner can then import in his own third-party software through a corresponding EDI import system.
+  c. 合作伙伴可以通过相应的EDI导入系统，将原EDI文件导入到他自己的第三方软件.
 
 .. i18n: 4. Partner Camptocamp can also choose to directly pay online through Paypal or any other mechanism provided by your company.
 ..
 
-4. Partner Camptocamp can also choose to directly pay online through Paypal or any other mechanism provided by your company.
+4. 合作伙伴Camptocamp可以选择直接通过Paypal在线支付或任何其他贵公司提供的方式来会款.
 
 .. i18n: The email notification is freely customisable as an Email Template from the :menuselection:`Settings --> Configuration --> Email --> Templates`.
 ..
 
-The email notification is freely customisable as an Email Template from the :menuselection:`Settings --> Configuration --> Email --> Templates`.
+自由定制的电子邮件模板：菜单选择：设置 - >配置 - >电子邮件 >模板.
 
 .. i18n: To get the EDI and automatic emailing of orders and invoices to work, you need the :mod:`EDI` module, which is installed by default.
 .. i18n: You need to add an email adress to the partner and make sure the "Opt-out" checkbox is not selected. Ask your system administrator to configure an Outgoing Mail Server. Note that email notifications will be added to a mail queue and processed once in a while, but you can force emails to be send directly from the :menuselection:`Settings --> Email --> Messages`.
 ..
 
-To get the EDI and automatic emailing of orders and invoices to work, you need the :mod:`EDI` module, which is installed by default.
-You need to add an email adress to the partner and make sure the "Opt-out" checkbox is not selected. Ask your system administrator to configure an Outgoing Mail Server. Note that email notifications will be added to a mail queue and processed once in a while, but you can force emails to be send directly from the :menuselection:`Settings --> Email --> Messages`.
+要获得EDI和自动发送订单和发票电子邮件，你需要EDI模块，这里是默认安装的。你需要添加一个合作伙伴的电子邮件地址，并确保“选择退出”复选框未选中。请询问您的系统管理员配置发送邮件服务器。注意电子邮件通知将被添加到一个邮件队列中，在一段时间内处理，但你可以强制邮件直接发送：菜单选择：设置 - >电子邮件 - >信息.
 
 .. i18n: The email your customer will receive, will look like the image displayed.
 ..
 
-The email your customer will receive, will look like the image displayed.
+您客户将收到的电子邮件，如图所示。.
 
 .. i18n: .. figure::  images/account_edi_mail.png
 .. i18n:    :scale: 75
