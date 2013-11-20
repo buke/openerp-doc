@@ -1,3 +1,4 @@
+
 .. i18n: .. raw:: latex
 .. i18n: 
 .. i18n:     \afterpage{\clearpage}
@@ -205,7 +206,7 @@ The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, c
 .. i18n: The email notification is freely customisable as an Email Template from the :menuselection:`Settings --> Configuration --> Email --> Templates`.
 ..
 
-自由定制的电子邮件模板：菜单选择：设置 - >配置 - >电子邮件 >模板.
+自由定制的电子邮件模板 菜单 :menuselection:`设置(Settings) --> 配置(Configuration) --> 电子邮件(Email) --> 模板(Templates)`.
 
 .. i18n: To get the EDI and automatic emailing of orders and invoices to work, you need the :mod:`EDI` module, which is installed by default.
 .. i18n: You need to add an email adress to the partner and make sure the "Opt-out" checkbox is not selected. Ask your system administrator to configure an Outgoing Mail Server. Note that email notifications will be added to a mail queue and processed once in a while, but you can force emails to be send directly from the :menuselection:`Settings --> Email --> Messages`.
