@@ -200,7 +200,7 @@ The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, c
 .. i18n: 4. Partner Camptocamp can also choose to directly pay online through Paypal or any other mechanism provided by your company.
 ..
 
-4. 合作伙伴Camptocamp可以选择直接通过Paypal在线支付或任何其他贵公司提供的方式来会款.
+4. 合作伙伴Camptocamp可以选择直接通过Paypal在线支付或任何其他贵公司提供的方式来付款.
 
 .. i18n: The email notification is freely customisable as an Email Template from the :menuselection:`Settings --> Configuration --> Email --> Templates`.
 ..
