@@ -1,4 +1,3 @@
-
 .. i18n: .. raw:: latex
 .. i18n: 
 .. i18n:     \afterpage{\clearpage}
@@ -244,19 +243,18 @@ The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, c
 .. i18n: It is important to efficiently keep track of payments of your customers and suppliers. People who have no accounting knowledge and just want to use OpenERP to keep an eye on their payments, can set the ``Invoicing & Payments`` access rights from the ``User`` form.
 ..
 
-It is important to efficiently keep track of payments of your customers and suppliers. People who have no accounting knowledge and just want to use OpenERP to keep an eye on their payments, can set the ``Invoicing & Payments`` access rights from the ``User`` form.
+有效跟踪客户和供应商的付款是很重要的事，通过设定用户(User)表单中发票和付款（Invoicing & Payments）的访问权限，无论这个人员是否具备会计知识，都可以留意这些付款。
 
 .. i18n: :guilabel:`Customer Payment` allows you to register the payments you receive from your customers.
 .. i18n: In order to record a payment, you have to enter the customer, the payment method (= the journal) and the payment amount. OpenERP will automatically propose the reconciliation of this payment with any open invoices or sales receipts, credit notes and (advance) payments.
 ..
 
-:guilabel:`Customer Payment` allows you to register the payments you receive from your customers.
-In order to record a payment, you have to enter the customer, the payment method (= the journal) and the payment amount. OpenERP will automatically propose the reconciliation of this payment with any open invoices or sales receipts, credit notes and (advance) payments.
+:guilabel:`客户付款(Customer Payment)允许您登记客户支付的款项。为了记录客户付款，你必须输入客户，付款方式（=日记账）及付款金额。 OpenERP的会自动匹配核销未清的发票、销售单据、信用票据和（预付）款项。
 
 .. i18n: You can register Customer payments in OpenERP from the menu :menuselection:`Accounting --> Customers --> Customer Payment`; click `New` to register a payment.
 ..
 
-You can register Customer payments in OpenERP from the menu :menuselection:`Accounting --> Customers --> Customer Payment`; click `New` to register a payment.
+你可以登记客户支付款项，从OpenERP菜单menuselection：会计(Accounting) - >客户(Customers) - >客户付款(Customer Payment），点击新建登记付款。
 
 .. i18n: .. figure::  images/account_cust_payment.png
 .. i18n:    :scale: 75
