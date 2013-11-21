@@ -21,9 +21,7 @@ OpenERP 特别指引
 
 Bazaar 是你的历史学家
 ------------------------
-不要通过注视来禁用代码。 The code is versioned in
-Bazaar, and regardless of your opinion about Bazaar, it does not lose
-the file history.
+不要通过注释来禁用代码。代码的各个版本会记录在Bazaar里面，把你的意见写到里面，它不会丢失这些文件的记录的。
 
 .. i18n: Leaving comments just makes the code messier and harder to read. And don't
 .. i18n: worry about making your changes obvious, that's the purpose of ``diff``::
