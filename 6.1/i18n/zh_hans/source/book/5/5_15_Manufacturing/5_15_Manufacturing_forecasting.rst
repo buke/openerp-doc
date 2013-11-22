@@ -1,4 +1,3 @@
-
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
