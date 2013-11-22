@@ -29,8 +29,7 @@ Bazaar 是你的历史档案
 .. i18n:     # no example for this one, code was really removed ;-)
 ..
 
-Leaving comments just makes the code messier and harder to read. And don't
-worry about making your changes obvious, that's the purpose of ``diff``::
+留下注释只会让代码更加难以阅读。``diff`` 的目的就是让你不用担心直接更改代码::
 
     # no example for this one, code was really removed ;-)
 
