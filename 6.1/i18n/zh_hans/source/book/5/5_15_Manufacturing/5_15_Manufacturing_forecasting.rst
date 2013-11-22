@@ -1,3 +1,4 @@
+
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -571,9 +572,9 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 .. i18n: * :guilabel:`Chaining Lead Time`: number of days before receipt of the finished product.
 ..
 
-* :guilabel:`Location Type`: Supplier,
+* :guilabel:`库位类型(Location Type)`: 供应商库位,
 
-* :guilabel:`Location Address`: Select an address of the subcontracting partner,
+* :guilabel:`地址(Location Address)`: Select an address of the subcontracting partner,
 
 * :guilabel:`Chained Location Type`: Fixed,
 
