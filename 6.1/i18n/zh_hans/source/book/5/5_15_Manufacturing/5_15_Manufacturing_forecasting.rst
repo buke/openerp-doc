@@ -578,7 +578,7 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 
 * :guilabel:`库位链类型(Chained Location Type)`: 固定,
 
-* :guilabel:`Chained Location if Fixed`: your Stock,
+* :guilabel:`固定库位(Chained Location if Fixed)`: 库存库位,
 
 * :guilabel:`Chaining Lead Time`: number of days before receipt of the finished product.
 
