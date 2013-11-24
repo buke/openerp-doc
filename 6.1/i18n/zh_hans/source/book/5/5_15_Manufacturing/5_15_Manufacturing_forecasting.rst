@@ -574,9 +574,9 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 
 * :guilabel:`库位类型(Location Type)`: 供应商库位,
 
-* :guilabel:`地址(Location Address)`: Select an address of the subcontracting partner,
+* :guilabel:`地址(Location Address)`: 选择供应商的发货地址,
 
-* :guilabel:`Chained Location Type`: Fixed,
+* :guilabel:`库位链类型(Chained Location Type)`: 固定,
 
 * :guilabel:`Chained Location if Fixed`: your Stock,
 
