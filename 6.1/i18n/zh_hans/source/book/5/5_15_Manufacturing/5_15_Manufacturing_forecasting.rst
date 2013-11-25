@@ -585,7 +585,7 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 .. i18n: Then once the manufacturing has been planned for the product concerned, OpenERP will generate the following steps:
 ..
 
-Then once the manufacturing has been planned for the product concerned, OpenERP will generate the following steps:
+一但相关的产品的生产计划被确认, OpenERP 会生成下面的这些:
 
 .. i18n: * Delivery of raw materials to the stores for the supplier,
 .. i18n: 
