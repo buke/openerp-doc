@@ -52,11 +52,10 @@ Bazaar 是你的历史档案
 
 命名要言之有物
 ---------------------
-变量命名的时候总是需要意思的名称。
+变量的名字需要有其含义。
 你现在可能知道他的意思，但是2个月后或者别人就不知道了。
-One-letter variables are acceptable only in lambda 
-expressions and loop indices, or perhaps in pure maths expressions
-(and even there it doesn't hurt to use a real name)::
+单个字母的变量只允许在lambda表达式、循环的索引又或者是数学表达式里出现
+（而且给它一个真正的名字也不会有什么坏处）::
 
     # unclear and misleading
     a = {}
