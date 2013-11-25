@@ -52,7 +52,7 @@ Bazaar 是你的历史档案
 
 命名要言之有物
 ---------------------
-Always give your variables a meaningful name.
+变量命名的时候总是需要意思的名称。
 You may know what it is referring to now, but you won't in 2 months, and
 others don't either. One-letter variables are acceptable only in lambda 
 expressions and loop indices, or perhaps in pure maths expressions
