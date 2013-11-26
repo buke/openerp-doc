@@ -592,7 +592,7 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 .. i18n: * Production order for the products at the supplier's and receipt of the finished products in the stores.
 ..
 
-* Delivery of raw materials to the stores for the supplier,
+* 原材料由库存库位向供应商库位的送货,
 
 * Production order for the products at the supplier's and receipt of the finished products in the stores.
 
