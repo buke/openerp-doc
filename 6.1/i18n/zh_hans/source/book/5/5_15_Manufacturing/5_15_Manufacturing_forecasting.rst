@@ -845,7 +845,7 @@ To illustrate this process, follow the next example:
 .. i18n:    
 ..
 
-First, you have to create a project to which you want to link the service. We will call this project *Consulting*. After creating the project, we have to create a new product. Here are the characteristics of this product:
+首先, 您需要创建一个项目用于关联本次服务. We will call this project *Consulting*. After creating the project, we have to create a new product. Here are the characteristics of this product:
    
 
 .. i18n: .. table:: Configure a New Service
@@ -865,10 +865,10 @@ First, you have to create a project to which you want to link the service. We wi
 .. i18n: Once you have configured your project and your product, you can create a Sales Order to order hours of consultancy. When you confirm the Sales Order, a task will be created.
 ..
 
-.. table:: Configure a New Service
+.. table:: 服务配置
 
    ================== ==============
-   Field              Value
+   字段               值
    ================== ==============
    Name               Consulting
    Reference          CSLT
