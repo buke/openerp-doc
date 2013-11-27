@@ -57,11 +57,11 @@ Bazaar 是你的历史档案
 单个字母的变量只允许在lambda表达式、循环的索引又或者是数学表达式里出现
 （而且给它一个真正的名字也不会有什么坏处）::
 
-    # unclear and misleading
+    # 不清楚，具误导性
     a = {}
     ffields = {}
 
-    # better
+    # 更好
     results = {}
     selected_fields = {}
 
