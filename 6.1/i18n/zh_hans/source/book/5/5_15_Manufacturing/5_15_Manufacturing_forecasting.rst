@@ -845,8 +845,7 @@ To illustrate this process, follow the next example:
 .. i18n:    
 ..
 
-首先, 您需要创建一个项目用于关联本次服务. We will call this project *Consulting*. After creating the project, we have to create a new product. Here are the characteristics of this product:
-   
+首先, 您需要创建一个项目用于关联本次服务. 我们将项目叫做 *咨询服务项目(Consulting)*, 然后我们还需要按下面的信息创建一个相应的服务产品:
 
 .. i18n: .. table:: Configure a New Service
 .. i18n: 
