@@ -74,8 +74,7 @@ Bazaar 是你的历史档案
 
 不要绕过ORM
 ---------------------
-You should never use the database cursor directly when the ORM can do the
-same thing! By doing so you are bypassing all the ORM features,
+如果ORM能实现的就不要通过直接写数据库语句！ By doing so you are bypassing all the ORM features,
 possibly the transactions, access rights and so on.
 
 .. i18n: And chances are that you are also making the code harder to read and
