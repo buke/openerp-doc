@@ -74,8 +74,7 @@ Bazaar 是你的历史档案
 
 不要绕过ORM
 ---------------------
-如果ORM能实现的就不要通过直接写数据库语句！ By doing so you are bypassing all the ORM features,
-possibly the transactions, access rights and so on.
+如果ORM能实现的就不要通过直接写数据库语句！ 这样你会绕过ORM的权限控制等功能来进行操作。
 
 .. i18n: And chances are that you are also making the code harder to read and
 .. i18n: probably less secure (see also next guideline)::
