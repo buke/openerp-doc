@@ -633,7 +633,7 @@ Once the delivery of raw materials has been confirmed, OpenERP activates the pro
 .. i18n: Depending on the company's needs, you can specify that the first step is confirmed at the acknowledgement of the manufacturing supplier, and the second at the receipt of finished goods in the warehouse.
 ..
 
-Depending on the company's needs, you can specify that the first step is confirmed at the acknowledgement of the manufacturing supplier, and the second at the receipt of finished goods in the warehouse.
+视公司管理需求,可以认为第一步即是在制供应商的确认.第二步则是仓库操作者的确认.
 
 .. i18n: Matching Sales Orders and Bills of Materials
 .. i18n: ============================================
