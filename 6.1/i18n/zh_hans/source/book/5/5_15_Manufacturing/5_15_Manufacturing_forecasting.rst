@@ -592,14 +592,15 @@ In OpenERP, you can also subcontract production operations (for example, paintin
 .. i18n: * Production order for the products at the supplier's and receipt of the finished products in the stores.
 ..
 
-* 原材料由供应商库位向库存库位的送货,
+* 原材料由库存库位向供应商库位的送货,
 
 * 相应产成品向库存库位的产成品入库.
 
 .. i18n: Once the production order has been confirmed, OpenERP automatically generates a delivery order to send to the raw materials supplier. The storesperson can access this delivery order from the menu :menuselection:`Warehouse --> Warehouse Management --> Internal Moves`. The raw materials will then be placed in stock at the supplier's stores.
 ..
 
-一但生产计划单被确认, OpenERP automatically generates a delivery order to send to the raw materials supplier. The storesperson can access this delivery order from the menu :menuselection:`Warehouse --> Warehouse Management --> Internal Moves`. The raw materials will then be placed in stock at the supplier's stores.
+一但生产计划单被确认, OpenERP 会自动生成向供应商发货的单据.仓库保管员可以在 :menuselection:`仓库(Warehouse) --> 仓库管理(Warehouse Management) --> 内部调拨(Internal Moves)`
+菜单去处理这些单据以完成向供应商的发货.
 
 .. i18n: Once the delivery of raw materials has been confirmed, OpenERP activates the production order. The supplier uses the raw materials to produce the finished goods which will automatically be put in your own stores. This manufacturing is confirmed when you receive the products from your supplier. Then you will indicate the quantities consumed by your supplier.
 ..
