@@ -892,8 +892,9 @@ Once you have configured your project and your product, you can create a Sales O
 .. figure:: images/soprj_tip.png
     :scale: 100
     :align: center
-    
-If you go to :menuselection:`Project --> Project --> Tasks`, you will find a new task called: :guilabel:`SO011:[CSLT] Consulting`. This task is linked to the project :guilabel`Consulting`. Note that the Sales Order number may be different in your database.
+
+进入菜单 :menuselection:`项目(Project) --> 项目(Project) --> 任务(Tasks)`, 会有一个 :guilabel:`SO011:[CSLT] Consulting` 新的任务.
+ Note that the Sales Order number may be different in your database.
 
 .. i18n: .. figure:: images/prj_so.png
 .. i18n:     :scale: 75
