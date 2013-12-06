@@ -894,7 +894,7 @@ Once you have configured your project and your product, you can create a Sales O
     :align: center
 
 进入菜单 :menuselection:`项目(Project) --> 项目(Project) --> 任务(Tasks)`, 会有一个 :guilabel:`SO011:[CSLT] Consulting` 新的任务.
- Note that the Sales Order number may be different in your database.
+任务会有不同的销售单号.
 
 .. i18n: .. figure:: images/prj_so.png
 .. i18n:     :scale: 75
