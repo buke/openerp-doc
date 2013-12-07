@@ -681,7 +681,7 @@ The menu :menuselection:`Manufacturing --> Configuration --> Master Bill of Mate
 .. i18n: For example, you can define the following property groups and properties:
 ..
 
-For example, you can define the following property groups and properties:
+例如你可以按下面的表格数据定义属性组以及属性:
 
 .. i18n: .. table:: Properties
 .. i18n: 
