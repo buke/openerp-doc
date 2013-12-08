@@ -131,16 +131,15 @@ OpenERP的税收机制围绕三大概念运行:
 .. i18n: You can also see two read-only fields:
 ..
 
-You can also see two read-only fields:
+您会看到两个只读字段：
 
 .. i18n: *  :guilabel:`Period Sum`: a single figure showing the total accumulated on this case for the current financial period.
 .. i18n: 
 .. i18n: *  :guilabel:`Year Sum`: a single figure showing the total accumulated on this case for the financial year.
 ..
 
-*  :guilabel:`Period Sum`: a single figure showing the total accumulated on this case for the current financial period.
-
-*  :guilabel:`Year Sum`: a single figure showing the total accumulated on this case for the financial year.
+*  :guilabel:`Period Sum`: 显示本会计期间本税目税款合计数。
+*  :guilabel:`Year Sum`： 显示本会计年度本税目税款合计数。
 
 .. i18n: You will probably need to create two tax codes for each different tax rate that you have to define, one for the tax itself and one for the invoice amount (the so-called base code) the tax is computed from. And you will create tax codes that you will not link to any tax objects (similar to General Account \ ``View``\   types) just to organise the tree (or hierarchical) structure.
 ..
