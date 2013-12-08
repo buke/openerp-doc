@@ -17,7 +17,7 @@
 .. i18n: The scheduler uses all the relevant parameters defined for products, suppliers and the company to determine the priorities between the different production orders, deliveries and supplier purchases.
 ..
 
-需求计划是根据定义在产品部分的规则，自动计划/优化生产和采购的计算引擎。该计划默认设定为每天运行一次（OpenERP为此自动完成一个既定动作）。你也可以使用菜单 :menuselection:`Warehouse --> Schedulers --> Compute Schedulers`. 来运行计划。
+需求计划是根据定义在产品部分的规则，自动计划/优化生产和采购的计算引擎。该计划默认设定为每天运行一次（OpenERP为此自动完成一个既定动作）。你也可以使用菜单 :menuselection:`仓库(Warehouse) --> 生产计划(Schedulers) --> 运行计划(Compute Schedulers)`. 来运行计划。
 该需求计划依据定义在产品、供应商及公司上的所有相关参数来决定不同生产订单、发货以及供应商采购的优先次序。
 
 .. i18n: .. note:: Starting Time
