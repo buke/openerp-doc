@@ -658,8 +658,7 @@ Once several bills of materials have been defined for a particular product, you 
 .. i18n: The menu :menuselection:`Manufacturing --> Configuration --> Master Bill of Materials --> Properties` enables you to define properties, which can be set up arbitrarily to help you select a bill of materials when you have a choice of BoMs.
 ..
 
-To gain more control over the process during selling or procuring, you can use **Properties**.
-菜单: :menuselection:`生产(Manufacturing) --> 配置(Configuration) --> 主数据(Master Bill of Materials) --> 属性(Properties)` enables you to define properties, which can be set up arbitrarily to help you select a bill of materials when you have a choice of BoMs.
+使用 **属性** 还可以更灵活地控制采购与销售. 进入菜单: :menuselection:`生产(Manufacturing) --> 配置(Configuration) --> 主数据(Master Bill of Materials) --> 属性(Properties)` 以定义BOM单属性, which can be set up arbitrarily to help you select a bill of materials when you have a choice of BoMs.
 
 .. i18n: .. note:: Properties
 .. i18n: 
