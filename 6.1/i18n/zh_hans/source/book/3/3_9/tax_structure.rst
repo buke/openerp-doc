@@ -63,7 +63,7 @@ Since the detailed tax structure is a mechanism for carrying out governments' po
 .. i18n: OpenERP's tax system runs around three major concepts:
 ..
 
-OpenERP的税制运行围绕三大概念:
+OpenERP的税收机制围绕三大概念运行:
 
 .. i18n: * :guilabel:`Tax Code` (or :guilabel:`Tax Case`), used for tax reporting, can be set up in a hierarchical
 .. i18n:   structure so that multiple codes can be formed into trees in the same way as a ``Chart of Accounts``. The Tax Codes structure is used to define your VAT return; it can be numeric and alphanumeric. You can define tax codes from the menu :menuselection: `Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes`.
@@ -83,7 +83,7 @@ OpenERP的税制运行围绕三大概念:
 .. i18n: You can attach zero or more :guilabel:`Purchase Taxes` and :guilabel:`Sale Taxes` items to products, so that you can account separately for purchase and sales taxes (or Input and Output VAT – where VAT is Value Added Tax). Because you can attach more than one tax, you can handle a VAT or Sales Tax separately from an Eco Tax on the same product.
 ..
 
-You can attach zero or more :guilabel:`Purchase Taxes` and :guilabel:`Sale Taxes` items to products, so that you can account separately for purchase and sales taxes (or Input and Output VAT – where VAT is Value Added Tax). Because you can attach more than one tax, you can handle a VAT or Sales Tax separately from an Eco Tax on the same product.
+您可以为商品设置0至多个 :guilabel:`Purchase Taxes` 和 :guilabel:`Sale Taxes` ，这样您可以分别统计采购税和销售税（增值税进项税和销项税，增值税是商品流通环节价值增加而产生的税收）。由于可以设置多个税种，所以您可以对同一商品分别同时处理增值税和消费税。
 
 .. i18n: To create a new :guilabel:`Tax Code`, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes`. You should define the following fields:
 ..
