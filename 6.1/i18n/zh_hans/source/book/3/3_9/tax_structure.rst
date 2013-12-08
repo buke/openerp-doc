@@ -239,7 +239,7 @@ To create a new Tax, use the menu :menuselection:`Accounting --> Configuration -
 
 .. tip:: 使用子税
 
-    You can use child taxes when you have a complex tax situation requiring several tax codes to be used.
+    当您有一个复杂的You can use child taxes when you have a complex tax situation requiring several tax codes to be used.
 
 .. i18n: The fields above apply the taxes that you specify and record them in the general accounts, but do not provide you with the information that your tax authorities might need. Use the :guilabel:`Tax Definition` tab, parts Tax Declaration: Invoices and Credit Notes to define to which tax codes the tax should be assigned:
 ..
