@@ -1,4 +1,3 @@
-
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -528,10 +527,9 @@ Bill of Materials. The system does not know how to produce this product and then
 .. i18n: 2. The calculation of requirements prioritises the procurements. If you encode a purchase directly, you short-circuit the planning of different procurements.
 ..
 
-1. The form is simpler, because OpenERP calculates the different values according to other values and defined rules: purchase date 
-calculated from order date, default supplier, raw materials needs, selection of the most suitable bill of materials, etc.
+1. 界面更简单，因为OpenERP根据预定义的规则和相关数据得到需求计算结果，例如：采购日期的计算依据是，需求日期、默认供应商、需要的原材料及所选BOM等。
 
-2. The calculation of requirements prioritises the procurements. If you encode a purchase directly, you short-circuit the planning of different procurements.
+2. 需求单会考虑需求的优先次序。如果直接输入采购订单，就打破了这种优先次序。
 
 .. i18n: .. tip:: Shortcuts
 .. i18n: 
