@@ -520,7 +520,7 @@ Bill of Materials. The system does not know how to produce this product and then
 .. i18n: It is better to encode a procurement order rather than direct purchasing or production. The procurement method has the following advantages:
 ..
 
-It is better to encode a procurement order rather than direct purchasing or production. The procurement method has the following advantages:
+在产品库存不足时,直接产生采购或者生产是不太好的.最好是先生成一张需求单, 主要有以下的一些优点:
 
 .. i18n: 1. The form is simpler, because OpenERP calculates the different values according to other values and defined rules: purchase date 
 .. i18n: calculated from order date, default supplier, raw materials needs, selection of the most suitable bill of materials, etc.
