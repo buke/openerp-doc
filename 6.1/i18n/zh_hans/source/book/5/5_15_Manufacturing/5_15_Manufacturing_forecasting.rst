@@ -1,3 +1,4 @@
+
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -546,13 +547,13 @@ Bill of Materials. The system does not know how to produce this product and then
 .. i18n: ===========================
 ..
 
-使用分包商
+使用分包商(外协件)
 ===========================
 
 .. i18n: In OpenERP, you can also subcontract production operations (for example, painting and item assembly) at a supplier's. To do this, you should indicate on the relevant routing document a supplier location for stock management.
 ..
 
-In OpenERP, you can also subcontract production operations (for example, painting and item assembly) at a supplier's. To do this, you should indicate on the relevant routing document a supplier location for stock management.
+在OpenERP中,还可以处理供应商生产外包(外协)(如 标识喷印, 外加工件等), 在仓库中定相关的供应商外加工库位路径即可.
 
 .. i18n: Configure a location dedicated to this supplier with the following data:
 ..
