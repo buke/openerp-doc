@@ -813,10 +813,9 @@ For this last category, OpenERP can react in two different ways. Once a manufact
 .. i18n:    requires the installation of the module :mod:`project`.
 ..
 
-.. note:: Tasks
+.. note:: 任务
 
-   In order to automatically generate a task, you have to install the module :mod:`project_mrp` which
-   requires the installation of the module :mod:`project`.
+   要自动产生相关任务, 你需要安装 :mod:`project_mrp` 以及 :mod:`project` 模块.
 
 .. i18n: By default, the generated task is not linked to any project. You can change this behaviour by creating a project and link the service to this project. This can be done in the ``Product`` form, on the tab :guilabel:`Procurement & Locations` in the :guilabel:`Miscellaneous` section. Select the project to be linked in the ``Project`` field.
 ..
