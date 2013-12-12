@@ -146,12 +146,12 @@ OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录�
 .. i18n: In the wizard, enter the financial year for which you want to transfer the balances (:guilabel:`Fiscal Year to close`). Select the :guilabel:`New Fiscal Year` (the year in which you want to generate the opening entry). You also have to select the journal and the period to post the opening entries. The description for the opening entry is proposed by default, but of course you can enter your own description, such as *Opening Entry for financial year YYYY*. Then you click the :guilabel:`Create` button to generate the opening entry according to the settings defined.
 ..
 
-在向导中，输入您想结转余额的会计年度 (:guilabel:`Fiscal Year to close`)。 然后选择 :guilabel:`New Fiscal Year` (您要生成期初分录的会计年度)。 您还必须选择提交期初分录的帐簿和会计期间。会生成默认的期初分录摘要，当然您也可以输入您自己的摘要，比如 *Opening Entry for financial year YYYY*. 最后您点击 :guilabel:`Create` 按钮即可根据您的设置生成期初分录。
+在向导中，输入您想结转余额的会计年度 (:guilabel:`Fiscal Year to close`)。 然后选择 :guilabel:`New Fiscal Year` (您要生成期初分录的会计年度)。 您还必须选择提交期初分录的帐簿和会计期间。会生成默认的期初分录摘要，当然您也可以输入您自己的摘要，比如 *"YYYY年期初分录"* 。 最后您点击 :guilabel:`Create` 按钮即可根据您的设置生成期初分录。
 
 .. i18n: To have a look at the draft opening entry that has been generated, go to :menuselection:`Accounting --> Journal Entries --> Journal Entries`. Click the :guilabel:`Unposted` button to filter only draft entries. Open the corresponding entry and verify the data. Click the :guilabel:`Post` button to confirm the entry.
 ..
 
-要检查自动生成的草稿状态的期初分录，通过菜单 :menuselection:`Accounting --> Journal Entries --> Journal Entries`。 点击 :guilabel:`Unposted` 按钮可过滤出仅草稿状态的分录。打开相应的分录并校验数据。点击 :guilabel:`Post` 按钮确认分录。
+要检查自动生成的草稿状态的期初分录，通过菜单 :menuselection:`Accounting --> Journal Entries --> Journal Entries` . 点击 :guilabel:`Unposted` 按钮可过滤出仅草稿状态的分录。打开相应的分录并校验数据。点击 :guilabel:`Post` 按钮确认分录。
 
 .. i18n: .. note:: Changes in Previous Financial Year
 .. i18n: 
