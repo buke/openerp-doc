@@ -160,7 +160,7 @@ OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录�
 .. i18n:     To update the balances to show the correct results, you should run the :guilabel:`Generate Opening Entries:guilabel:` wizard again. The new opening entry will contain the correct balances. This way, you can generate your opening entry as many times as required.
 ..
 
-.. note:: 上以年度有变化
+.. note:: 上一年度有变化
 
     只要审计工作还在进行，就有可能在已关闭的会计年度中增加额外的分录。要自动获得正确的余额，OpenERP允许您使用 `Cancel Opening Entries` 向导，这个向导会自动取消已经存在的期初分录。
 
@@ -177,15 +177,14 @@ OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录�
 .. i18n: A wizard opens asking you for the financial year to close.
 ..
 
-To close a financial year, use the menu :menuselection:`Accounting--> Periodical Processing --> End of Period --> Close a Fiscal Year`.
-A wizard opens asking you for the financial year to close.
+要关闭一个会计年度，使用菜单 :menuselection:`Accounting--> Periodical Processing --> End of Period --> Close a Fiscal Year`.
+一个向导会询问您将关闭的会计年度的信息。
 
 .. i18n: When the year is closed, you can no longer create or modify any transactions in that year.
 .. i18n: So you should always make a backup of the database before closing the fiscal year. Closing a year is not mandatory, and you could easily do that sometime in the following year, when your accounts are finally sent to the statutory authorities, and no further modifications are permitted.
 ..
 
-When the year is closed, you can no longer create or modify any transactions in that year.
-So you should always make a backup of the database before closing the fiscal year. Closing a year is not mandatory, and you could easily do that sometime in the following year, when your accounts are finally sent to the statutory authorities, and no further modifications are permitted.
+一旦关闭了一个会计年度，您将不能在该年度中新增或修改任何业务。因此切记务必在关闭会计年度前备份数据库。关闭会计年度并非强制性需要，并且当您的会计报表已经交给法定当局，而且不再做任何修改后，您可以在下一年度中任何时候做这件事情。
 
 .. i18n: .. figure::  images/account_fy_close.png
 .. i18n:    :scale: 75
@@ -198,7 +197,7 @@ So you should always make a backup of the database before closing the fiscal yea
    :scale: 75
    :align: center
 
-   *Closing a Financial Year*
+   *关闭会计年度*
 
 .. i18n: Steps to Start your Financial Year
 .. i18n: ==================================
