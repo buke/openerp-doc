@@ -160,11 +160,11 @@ OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录�
 .. i18n:     To update the balances to show the correct results, you should run the :guilabel:`Generate Opening Entries:guilabel:` wizard again. The new opening entry will contain the correct balances. This way, you can generate your opening entry as many times as required.
 ..
 
-.. note:: Changes in Previous Financial Year
+.. note:: 上以年度有变化
 
-    As long as the audit is ongoing, extra entries may be added to the financial year to close. To automatically have the correct balances, OpenERP allows you to use the `Cancel Opening Entries` wizard. This wizard will automatically cancel the existing opening entry.
+    只要审计工作还在进行，就有可能在已关闭的会计年度中增加额外的分录。要自动获得正确的余额，OpenERP允许您使用 `Cancel Opening Entries` 向导，这个向导会自动取消已经存在的期初分录。
 
-    To update the balances to show the correct results, you should run the :guilabel:`Generate Opening Entries:guilabel:` wizard again. The new opening entry will contain the correct balances. This way, you can generate your opening entry as many times as required.
+    要更新余额显示正确的结果，需要您再次运行 :guilabel:`Generate Opening Entries:guilabel:` 向导，新的期初分录将包含正确的余额。这样，您可根据需要多次生成期初分录。
 
 .. i18n: Closing a Financial Year
 .. i18n: ------------------------
