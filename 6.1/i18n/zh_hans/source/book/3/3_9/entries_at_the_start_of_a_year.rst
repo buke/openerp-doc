@@ -141,12 +141,12 @@ Create a new journal to post your opening entries. Make sure to respect the foll
 .. i18n: To automatically generate the opening entries based on your actual books, OpenERP provides a wizard. Go to :menuselection:`Accounting --> Periodical Processing --> End of Period --> Generate Opening Entries`.
 ..
 
-To automatically generate the opening entries based on your actual books, OpenERP provides a wizard. Go to :menuselection:`Accounting --> Periodical Processing --> End of Period --> Generate Opening Entries`.
+OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录。在菜单 :menuselection:`Accounting --> Periodical Processing --> End of Period --> Generate Opening Entries`。
 
 .. i18n: In the wizard, enter the financial year for which you want to transfer the balances (:guilabel:`Fiscal Year to close`). Select the :guilabel:`New Fiscal Year` (the year in which you want to generate the opening entry). You also have to select the journal and the period to post the opening entries. The description for the opening entry is proposed by default, but of course you can enter your own description, such as *Opening Entry for financial year YYYY*. Then you click the :guilabel:`Create` button to generate the opening entry according to the settings defined.
 ..
 
-In the wizard, enter the financial year for which you want to transfer the balances (:guilabel:`Fiscal Year to close`). Select the :guilabel:`New Fiscal Year` (the year in which you want to generate the opening entry). You also have to select the journal and the period to post the opening entries. The description for the opening entry is proposed by default, but of course you can enter your own description, such as *Opening Entry for financial year YYYY*. Then you click the :guilabel:`Create` button to generate the opening entry according to the settings defined.
+在向导中，输入您想结转余额的会计年度 (:guilabel:`Fiscal Year to close`)。 然后选择 :guilabel:`New Fiscal Year` (您要生成期初分录的会计年度)。 您还必须选择提交期初分录的帐簿和会计期间。会生成默认的期初分录摘要，当然您也可以输入您自己的摘要，比如 *Opening Entry for financial year YYYY*. 最后您点击 :guilabel:`Create` 按钮即可根据您的设置生成期初分录。
 
 .. i18n: To have a look at the draft opening entry that has been generated, go to :menuselection:`Accounting --> Journal Entries --> Journal Entries`. Click the :guilabel:`Unposted` button to filter only draft entries. Open the corresponding entry and verify the data. Click the :guilabel:`Post` button to confirm the entry.
 ..
@@ -270,7 +270,7 @@ Unreconciled    Only entries that are not reconciled on the first day of the new
 .. i18n: 4. Define Accounts
 ..
 
-4. Define Accounts
+4. 定义科目表
 
 .. i18n: Check whether each account with an opening balance has been defined in the Chart of Accounts and is linked to the correct account type.
 .. i18n: We recommend you to define one or more suspense accounts to post your outstanding entries from the previous financial year. Check the :guilabel:`Reconcile` for such suspense accounts, because their balance will be zero.
