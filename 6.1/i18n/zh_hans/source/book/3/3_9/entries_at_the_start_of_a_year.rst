@@ -22,9 +22,9 @@
 .. i18n:     The procedure below is valid if you already have a financial year with entries in OpenERP.
 ..
 
-.. note:: OpenERP Accounting
+.. note:: OpenERP会计
 
-    The procedure below is valid if you already have a financial year with entries in OpenERP.
+    以下步骤对您已经在OpenERP中具有一个有会计凭证的会计年度有效。
 
 .. i18n: Steps to Open a New Financial Year in an Existing OpenERP Configuration
 .. i18n: -----------------------------------------------------------------------
@@ -151,7 +151,7 @@ OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录�
 .. i18n: To have a look at the draft opening entry that has been generated, go to :menuselection:`Accounting --> Journal Entries --> Journal Entries`. Click the :guilabel:`Unposted` button to filter only draft entries. Open the corresponding entry and verify the data. Click the :guilabel:`Post` button to confirm the entry.
 ..
 
-To have a look at the draft opening entry that has been generated, go to :menuselection:`Accounting --> Journal Entries --> Journal Entries`. Click the :guilabel:`Unposted` button to filter only draft entries. Open the corresponding entry and verify the data. Click the :guilabel:`Post` button to confirm the entry.
+要检查自动生成的草稿状态的期初分录，通过菜单 :menuselection:`Accounting --> Journal Entries --> Journal Entries`。 点击 :guilabel:`Unposted` 按钮可过滤出仅草稿状态的分录。打开相应的分录并校验数据。点击 :guilabel:`Post` 按钮确认分录。
 
 .. i18n: .. note:: Changes in Previous Financial Year
 .. i18n: 
