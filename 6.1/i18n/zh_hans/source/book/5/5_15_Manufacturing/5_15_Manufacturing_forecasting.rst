@@ -904,7 +904,7 @@ Once you have configured your project and your product, you can create a Sales O
     :scale: 75
     :align: center
     
-    *A Product linked to a Task and a Project*    
+    *产品与任务,项目关联*
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
