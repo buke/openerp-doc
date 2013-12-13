@@ -48,7 +48,7 @@
 .. i18n: 1. Create the new Financial Year
 ..
 
-1. 创建新的财务年度
+1. 创建新的会计年度
 
 .. i18n: Create the new financial year as explained in :ref:`financialyear`.
 ..
@@ -63,12 +63,12 @@
 .. i18n: Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Periods` and create a new period for the financial year you wish to open (in case it has not been generated automatically). Make sure to link the period to the newly defined financial year. Select the :guilabel:`Opening/Closing Period` checkbox to indicate that this period should be used for opening entries. Both dates typically match the first day of your financial year (e.g. 01/01/YYYY).
 ..
 
-Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Periods` and create a new period for the financial year you wish to open (in case it has not been generated automatically). Make sure to link the period to the newly defined financial year. Select the :guilabel:`Opening/Closing Period` checkbox to indicate that this period should be used for opening entries. Both dates typically match the first day of your financial year (e.g. 01/01/YYYY).
+通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Periods --> Periods` 为一个您想打开的会计年度创建新的会计期间 (假设会计期间没有自动生成)。确保会计期间联系上了新定义的会计年度。 选择 :guilabel:`Opening/Closing Period` 选项框标明 该会计期间用于期初分录。两个日期通常和您的会计年度的第一天相同(比如 01/01/YYYY).
 
 .. i18n: 3. Check the Account Types
 ..
 
-3. Check the Account Types
+3. 检查科目类型
 
 .. i18n: Before generating the opening entries, make sure to check the defined account types, more specifically the :guilabel:`Deferral Method`.
 .. i18n: The deferral method determines whether and how account entries will be transferred to the new financial year. There are four possible deferral methods: None, Balance, Detail, Unreconciled.
