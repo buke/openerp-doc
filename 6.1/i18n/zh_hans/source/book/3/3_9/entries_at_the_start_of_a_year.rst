@@ -15,7 +15,7 @@
 .. i18n: At the end of a financial year, you will have to transfer the closing balance of that year as an opening balance to the new financial year. OpenERP allows you to automatically post such an entry. You can transfer the new opening balance numerous times, because it is impossible to close a year at once. Correction entries will have to be made, due to which balances will change. The new balance can easily be transferred through a wizard, so you do not have to keep track of each correction entry made in the previous financial year.
 ..
 
-在会计年度结束时，您必须将该年度的期末余额转换成新的会计年度的期初余额。 OpenERP允许您自动生成该分录。You can transfer the new opening balance numerous times, because it is impossible to close a year at once. Correction entries will have to be made, due to which balances will change. The new balance can easily be transferred through a wizard, so you do not have to keep track of each correction entry made in the previous financial year.
+在会计年度结束时，您必须将该年度的期末余额结转成新的会计年度的期初余额。 OpenERP允许您自动生成该分录。您可以多次结转期初余额，因为一次就关闭一个会计年度是不可能的。由于余额会变化因此需要相应修改开账分录。新的余额可很容易第通过一个想到结转，因此您不必记住在以前会计年度中的每一次修改。
 
 .. i18n: .. note:: OpenERP Accounting
 .. i18n: 
