@@ -100,24 +100,24 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: 4. Check the Link between Account and Account Type.
 ..
 
-4. Check the Link between Account and Account Type.
+4. 检查科目与科目类型之间的联系
 
 .. i18n: Check whether each account is linked to the correct account type to avoid generating an incorrect opening entry.
 ..
 
-Check whether each account is linked to the correct account type to avoid generating an incorrect opening entry.
+检查是否每个科目都设置成了正确的科目类型以避免生成错误的期初分录。
 
 .. i18n: 5. Create an Opening/Closing Journal
 ..
 
-5. Create an Opening/Closing Journal
+5. 创建一个 Opening/Closing Journal
 
 .. i18n: Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
 .. i18n: Create a new journal to post your opening entries. Make sure to respect the following settings:
 ..
 
-Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
-Create a new journal to post your opening entries. Make sure to respect the following settings:
+通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
+创建一个新的分类账来存放期初分录。 请务必遵守以下规则:
 
 .. i18n:     1. :guilabel:`Type` should be :guilabel:`Opening/Closing Situation`.
 .. i18n:     2. :guilabel:`Standard debit/credit account` could be something like 140000 Benefits.
@@ -125,8 +125,8 @@ Create a new journal to post your opening entries. Make sure to respect the foll
 .. i18n:     4. The :guilabel:`Entry Sequence` will also be created automatically on save.
 ..
 
-    1. :guilabel:`Type` should be :guilabel:`Opening/Closing Situation`.
-    2. :guilabel:`Standard debit/credit account` could be something like 140000 Benefits.
+    1. :guilabel:`Type` 应为 :guilabel:`Opening/Closing Situation`。
+    2. :guilabel:`Standard debit/credit account` 应为类似“140000 Benefits"。
     3. :guilabel:`Centralised counterpart` will be checked automatically when select the journal type, to avoid a counterpart on each line, and instead have one debit and one credit entry on the corresponding opening account.
     4. The :guilabel:`Entry Sequence` will also be created automatically on save.
 
