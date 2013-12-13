@@ -229,10 +229,10 @@
 
    ``View`` 可用于创建科目（组）的层次结构（译注：非末级科目）,
    ``Regular`` 不适合别的类型的科目; 大部分科目用于此类型（译注：一般是末级科目）,
-   ``Receivable`` - ``Payable``: these types are used to indicate the centralisation accounts (for customers and suppliers) that will be set for each partner,
-   ``Liquidity`` used to indicate financial accounts (bank and cash accounts),
-   ``Consolidation`` to create a virtual (or consolidation) chart of accounts,
-   ``Closed`` to indicate accounts that are no longer used.
+   ``Receivable`` - ``Payable``: 这些类型用于标明汇总科目（用于客户和供应商）会被设置成明细到每一业务伙伴,
+   ``Liquidity`` 用于标明资金类科目(银行存款和现金科目),
+   ``Consolidation`` 用于创建虚拟 (或合并) 科目表,
+   ``Closed`` 标明不再使用的科目。
 
 *  :guilabel:`Account Type`: 选择如上所述相应的科目类型是很关键的。 这会对年底结转和生成报表时产生影响。
 
