@@ -162,7 +162,7 @@
     - ``Detail`` 表明每一条分录都会被结转到下年。
     - ``Unreconciled`` 表明只有未核销净的（仍有余额）的分录会结转到下年。 通常用于往来类科目。
 
-*  :guilabel:`Sign on Reports`: this field allows you to reverse the sign of accounts, such as Income accounts being printed positive instead of the default negative. Use ``Reverse balance sign`` to accomplish this.
+*  :guilabel:`Sign on Reports`: 这个字段允许您保留科目的符号，比方收入科目会被显示为正数而非默认的负数，使用 ``Reverse balance sign`` 来完成这个。（译注：收入类科目默认发生方向为贷方，国外软件常常在余额表中显示成借正贷负，这个选项类似与国产财务软件中的借贷方向选项）
 
 .. i18n: Use the :guilabel:`View` type for accounts that make up the structure of the charts and have no account data inputs of their own.
 ..
