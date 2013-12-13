@@ -127,8 +127,8 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 
     1. :guilabel:`Type` 应为 :guilabel:`Opening/Closing Situation`。
     2. :guilabel:`Standard debit/credit account` 应为类似“140000 Benefits"。
-    3. :guilabel:`Centralised counterpart` will be checked automatically when select the journal type, to avoid a counterpart on each line, and instead have one debit and one credit entry on the corresponding opening account.
-    4. The :guilabel:`Entry Sequence` will also be created automatically on save.
+    3. :guilabel:`Centralised counterpart` 当你选择分类账类型时会自动选上，以避免在每一行上有副本，并代替相应的开账科目的一个解放和贷方分录。
+    4. 在保存时会自动创建 :guilabel:`Entry Sequence` 。
 
 .. i18n: Generating the Opening Entry
 .. i18n: ----------------------------
