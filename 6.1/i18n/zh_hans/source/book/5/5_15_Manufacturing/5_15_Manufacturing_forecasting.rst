@@ -820,7 +820,8 @@ For this last category, OpenERP can react in two different ways. Once a manufact
 .. i18n: By default, the generated task is not linked to any project. You can change this behaviour by creating a project and link the service to this project. This can be done in the ``Product`` form, on the tab :guilabel:`Procurement & Locations` in the :guilabel:`Miscellaneous` section. Select the project to be linked in the ``Project`` field.
 ..
 
-By default, the generated task is not linked to any project. You can change this behaviour by creating a project and link the service to this project. This can be done in the ``Product`` form, on the tab :guilabel:`Procurement & Locations` in the :guilabel:`Miscellaneous` section. Select the project to be linked in the ``Project`` field.
+通常, 任务不会与项目关联. 你可以创建一个项目, 并在对应的服务 ``产品`` 页的 :guilabel:`需求与库们(Procurement & Locations)`
+页签 :guilabel:`Miscellaneous` ``项目(Project)`` 字段选择该项目进行关联. 
 
 .. i18n: .. figure:: images/service_prj.png
 .. i18n:     :scale: 75
