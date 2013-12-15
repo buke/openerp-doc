@@ -834,7 +834,7 @@ For this last category, OpenERP can react in two different ways. Once a manufact
     :scale: 75
     :align: center
     
-    *Link a Service Product to a Project*
+    *为服务类产品关联一个项目*
 
 .. i18n: To illustrate this process, follow the next example:
 ..
