@@ -98,8 +98,7 @@ Bazaar 是你的历史档案
 .. i18n:                                     ('obj_price','>',0)])
 ..
 
-And chances are that you are also making the code harder to read and
-probably less secure (see also next guideline)::
+代码不仅更难读，还有可能有安全的问题（请看下一个指引）::
 
     # very very wrong
     cr.execute('select id from auction_lots where auction_id in (' +
