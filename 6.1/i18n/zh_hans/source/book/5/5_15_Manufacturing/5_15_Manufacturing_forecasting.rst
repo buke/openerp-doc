@@ -668,7 +668,7 @@ Once several bills of materials have been defined for a particular product, you 
 .. i18n:    of Materials.
 ..
 
-.. note:: Properties
+.. note:: 属性
 
    Properties is a concept that enables the selection of a method to manufacture a product.
    Properties define a common language between salespeople and technical people,
@@ -693,10 +693,10 @@ Once several bills of materials have been defined for a particular product, you 
 .. i18n:    =====================  ============
 ..
 
-.. table:: Properties
+.. table:: 属性
 
    =====================  ============
-   Property Group         Property
+   属性分组               属性
    =====================  ============
    Warranty               3 years
    Warranty               1 year
