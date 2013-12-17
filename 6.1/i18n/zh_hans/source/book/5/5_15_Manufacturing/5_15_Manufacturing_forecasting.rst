@@ -780,7 +780,7 @@ depending on the quantities and the lead time requested by the customer.
 .. i18n:     a bill of materials.
 ..
 
-.. note:: 原材料清单及半成品
+.. note:: 原材料清单及代用品
 
     In some software, you use the term ``substitute`` for this principle of configurable properties in
     a bill of materials.
