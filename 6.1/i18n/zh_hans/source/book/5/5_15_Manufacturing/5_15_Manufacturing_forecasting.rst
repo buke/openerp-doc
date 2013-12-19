@@ -729,7 +729,7 @@ Once the bills of materials have been defined, you could associate the correspon
    :scale: 75
    :align: center
 
-   *Properties in a Customer Order Line*
+   *销售单明细上定义属性*
 
 .. i18n: *Example: Manufacturing in a Batch or on a Production Line*
 ..
