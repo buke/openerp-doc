@@ -100,19 +100,19 @@ Bazaar 是你的历史档案
 
 代码不仅更难读，还有可能有安全的问题（请看下一个指引）::
 
-    # very very wrong
+    # 非常、非常不推荐
     cr.execute('select id from auction_lots where auction_id in (' +
                ','.join(map(str,ids))+') and state=%s and obj_price>0',
                ('draft',))
     auction_lots_ids = [x[0] for x in cr.fetchall()]
 
-    # no injection, but still wrong
+    # 没注入不过仍然不推荐
     cr.execute('select id from auction_lots where auction_id in %s '\
                'and state=%s and obj_price>0',
                (tuple(ids),'draft',))
     auction_lots_ids = [x[0] for x in cr.fetchall()]
 
-    # better
+    # 更好
     auction_lots_ids = self.search(cr,uid,
                                    [('auction_id','in',ids),
                                     ('state','=','draft'),
