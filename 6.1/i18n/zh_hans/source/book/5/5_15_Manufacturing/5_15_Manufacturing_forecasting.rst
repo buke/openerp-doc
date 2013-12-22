@@ -467,8 +467,8 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: Bill of Materials. The system does not know how to produce this product and then raises an exception.    
 ..
 
-The exception related to the BoM definition comes from the fact that a product with a supply method set to *Produce* has no
-Bill of Materials. 计算机系统并不知道如何生产该产品, 因此处于异常状态.
+异常中相关产品的生产方法定义为 *生产(Produce)* 又未为其定义相应的 *原材料清单(Bill of Materials)*, 所以计算机系统并不知道如何生产
+该产品, 因此处于异常状态.
 
 .. i18n: Manual Procurement
 .. i18n: ------------------
