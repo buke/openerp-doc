@@ -77,7 +77,7 @@ OpenERP的税收机制围绕三大概念运行:
 
 * :guilabel:`Taxes`, the basic tax object that contains the rules for calculating tax on the transaction it is attached to, linked to the General Accounts and to the Tax Codes. A tax can contain multiple child taxes and base its calculation on those taxes rather than on the base transaction, providing considerable flexibility.
 
-* the :guilabel:`General Accounts`, which record the taxes owing and paid. Since the general accounts are discussed elsewhere in this part of the book and are not tax-specific, they will not be detailed in this section.
+*  :guilabel:`General Accounts`, 用于记录缴纳的税款。由于总帐科目并非是税收特有的，在本书中其他章节也有说明，所以本节不再详细阐述。
 
 .. i18n: You can attach zero or more :guilabel:`Purchase Taxes` and :guilabel:`Sale Taxes` items to products, so that you can account separately for purchase and sales taxes (or Input and Output VAT – where VAT is Value Added Tax). Because you can attach more than one tax, you can handle a VAT or Sales Tax separately from an Eco Tax on the same product.
 ..
@@ -115,11 +115,11 @@ OpenERP的税收机制围绕三大概念运行:
 .. i18n: *  :guilabel:`Description`: a free text field for documentation purposes.
 ..
 
-*  :guilabel:`Tax Case Name`: a unique name required to identify the tax case, usually taken from your VAT return,
+*  :guilabel:`Tax Case Name`: 用于区分税目的唯一名称，通常来自于增值税申报表，
 
-*  :guilabel:`Case Code`: an optional short code for the case,
+*  :guilabel:`Case Code`: 用于该税目的一个可选的短的代码,
 
-*  :guilabel:`Parent Code`: a link to a parent Tax Code to create a tree structure which can be displayed from the menu :menuselection:`Accounting --> Charts --> Cgart of Taxes`,
+*  :guilabel:`Parent Code`: 关联到上级税目的代码，用于树状结构，可通过菜单 :menuselection:`Accounting --> Charts --> Chart of Taxes` 显示
 
 *  :guilabel:`Not Printable in Invoice`: a checkbox allowing you to indicate that any taxes linked to the tax code concerned should not be printed on the invoice,
 
