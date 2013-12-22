@@ -256,13 +256,12 @@ Below we explain the minimal configuration required to post your opening balance
 ..
 
 =============== ======================================================================
-Deferral Method Action
+结转方式        动作
 =============== ======================================================================
-None            Nothing will be transferred (typically P&L accounts)
-Balance         Account balance will be transferred (typically Balance Sheet accounts)
-Detail          All entries are transferred, also reconciled entries
-Unreconciled    Only entries that are not reconciled on the first day of the new
-                financial year will be transferred (typically receivable and payable)
+None            不结转 (常用于损益类科目)
+Balance         仅结转科目余额(通常是有余额的科目)
+Detail          所以分录都结转，包括已核销分录
+Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如应收应付科目)
 =============== ======================================================================
 
 .. i18n: 4. Define Accounts
