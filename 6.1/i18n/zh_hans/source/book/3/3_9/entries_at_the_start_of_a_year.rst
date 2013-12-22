@@ -334,12 +334,12 @@ Go to the menu :menuselection:`Accounting --> Customers --> Customer Invoices` t
 .. i18n: We recommend you to use suspense accounts instead of expense or income accounts. Indeed, your expense and income accounts have already been posted in the previous financial year, and there is no need to transfer these balances. The outstanding entries from previous financial years should not contain any VAT entries; they only get the balance the customer still has to pay you, or the balance you have to pay to the supplier.
 ..
 
-We recommend you to use suspense accounts instead of expense or income accounts. Indeed, your expense and income accounts have already been posted in the previous financial year, and there is no need to transfer these balances. The outstanding entries from previous financial years should not contain any VAT entries; they only get the balance the customer still has to pay you, or the balance you have to pay to the supplier.
+我们建议您使用临时科目来代替费用或收入科目。实际上，您的费用和收入科目在上以年度末已经被结转过了，没有必要结转它们的余额到下一年。上一年度的未清分录应该不会包含VAT（增值税）分录；仅包含客户应付给您的余额，或是您应该支付给供应商的余额。
 
 .. i18n: 7. Enter the Opening Balance (Miscellaneous Entry)
 ..
 
-7. Enter the Opening Balance (Miscellaneous Entry)
+7. 录入期初余额 (其他分录)
 
 .. i18n: For each account that needs to be reopened, enter account data (debit or credit) in the journal. For this operation, go to the menu :menuselection:`Accounting --> Journal Entries --> Journal Entries` and select a miscellaneous journal.
 ..
