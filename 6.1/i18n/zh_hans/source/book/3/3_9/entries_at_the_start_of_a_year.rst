@@ -318,13 +318,13 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n:     2. The :guilabel:`Entry Sequence` will also be created automatically on save.
 ..
 
-    1. :guilabel:`Type` should be :guilabel:`Purchase` or `Sales`.
-    2. The :guilabel:`Entry Sequence` will also be created automatically on save.
+    1. :guilabel:`Type` 应为 :guilabel:`Purchase` or :guilabel:`Sales`.
+    2. :guilabel:`Entry Sequence` 会在保存时自动生成。
 
 .. i18n: Now you can start entering your outstanding customer and supplier entries according to your list of open entries at the end of the year.
 ..
 
-Now you can start entering your outstanding customer and supplier entries according to your list of open entries at the end of the year.
+现在您可以根据自己在年末的未清分录录入客户和供应商往来。
 
 .. i18n: Go to the menu :menuselection:`Accounting --> Customers --> Customer Invoices` to post your outstanding sales entries. To post your outstanding purchase entries, go to Go to the menu :menuselection:`Accounting --> Suppliers --> Supplier Invoices`.
 ..
