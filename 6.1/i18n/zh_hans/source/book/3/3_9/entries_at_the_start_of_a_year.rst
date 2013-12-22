@@ -235,14 +235,14 @@ Below we explain the minimal configuration required to post your opening balance
 .. i18n: 3. Check the Account Types
 ..
 
-3. Check the Account Types
+3. 检查科目类型
 
 .. i18n: Before generating the opening entries, make sure to check the defined account types, more specifically the :guilabel:`Deferral Method`.
 .. i18n: The deferral method determines whether and how account entries will be transferred to the new financial year. There are four possible deferral methods: None, Balance, Detail, Unreconciled.
 ..
 
-Before generating the opening entries, make sure to check the defined account types, more specifically the :guilabel:`Deferral Method`.
-The deferral method determines whether and how account entries will be transferred to the new financial year. There are four possible deferral methods: None, Balance, Detail, Unreconciled.
+生成期初分录之前，确认检查过定义的科目类型，具体说是科目的结转方式， :guilabel:`Deferral Method`。
+结转方式决定了是否和如何将余额结转到新的会计年度。有四种可能的结转方法：不结转, 余额结转, 明细结转, 未核销部分结转。
 
 .. i18n: =============== ======================================================================
 .. i18n: Deferral Method Action
