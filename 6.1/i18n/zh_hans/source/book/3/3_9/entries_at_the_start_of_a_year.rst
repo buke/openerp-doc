@@ -209,8 +209,7 @@ OpenERP提供了一个向导以根据您实际的帐簿自动生成期初分录�
 .. i18n: Below we explain the minimal configuration required to post your opening balance and outstanding entries.
 ..
 
-When you decide to do your accounting in OpenERP, and you already have an accounting system, you should enter your opening balance and outstanding entries in OpenERP. Make sure you configure your accounting system as explained in the Configuration chapter.
-Below we explain the minimal configuration required to post your opening balance and outstanding entries.
+一旦您决定使用OpenERP中的会计模块，您就拥有了一个会计系统，您应该输入您的期初余额和未结分录到OpenERP中。请确保您按配置一章所言初始化好您的会计模块。下面我们简单讲解有关起初余额和未结分录的配置。
 
 .. i18n: 1. Create the new Financial Year
 ..
@@ -353,9 +352,9 @@ For each account that needs to be reopened, enter account data (debit or credit)
 .. i18n:     You can also use OpenERP's generic import tool if you load the balance of each of your accounts from other accounting software.
 ..
 
-.. tip:: Import
+.. tip:: 导入
 
-    You can also use OpenERP's generic import tool if you load the balance of each of your accounts from other accounting software.
+    如果您从其他会计软件中转出科目余额表的话，您还可以使用的OpenERP的通用导入工具。
 
 .. i18n: .. Copyright © Open Object Press. All rights reserved.
 ..
