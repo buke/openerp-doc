@@ -305,14 +305,14 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: We recommend you to create separate purchase and sales journals to post the outstanding entries from your previous accounting system. This will allow you to easily keep track of your opening entries.
 ..
 
-We recommend you to create separate purchase and sales journals to post the outstanding entries from your previous accounting system. This will allow you to easily keep track of your opening entries.
+我们建议您分别创建采购和销售分类帐以便存入您以前的会计系统中未清分录，这江有助于您轻松跟踪您的期初分录。
 
 .. i18n: Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
 .. i18n: Create a new purchase and sales journal to post your outstanding entries. Make sure to respect the following settings:
 ..
 
-Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
-Create a new purchase and sales journal to post your outstanding entries. Make sure to respect the following settings:
+通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
+创建一个新的采购和销售分类帐类记录未清分录，请务必遵守以下设定：
 
 .. i18n:     1. :guilabel:`Type` should be :guilabel:`Purchase` or `Sales`.
 .. i18n:     2. The :guilabel:`Entry Sequence` will also be created automatically on save.
