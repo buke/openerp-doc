@@ -698,8 +698,8 @@ Once several bills of materials have been defined for a particular product, you 
    =====================  ============
    属性分组               属性
    =====================  ============
-   Warranty               3 years
-   Warranty               1 year
+   质保                   3 年
+   质保                   1 年
    Method of Manufacture  Serial
    Method of Manufacture  Batch
    =====================  ============
