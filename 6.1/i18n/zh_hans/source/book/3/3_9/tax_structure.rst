@@ -48,7 +48,7 @@
 .. i18n: Since the detailed tax structure is a mechanism for carrying out governments' policies, and the collection of taxes so critical to their authorities, tax requirements and reporting can be complex. OpenERP has a flexible mechanism for handling taxation that can be configured to meet the requirements of many tax jurisdictions.
 ..
 
-Since the detailed tax structure is a mechanism for carrying out governments' policies, and the collection of taxes so critical to their authorities, tax requirements and reporting can be complex. OpenERP has a flexible mechanism for handling taxation that can be configured to meet the requirements of many tax jurisdictions.
+由于税收机制的细节是执行政府政策、为国家积聚税款的一种机制，因此税收规定和税务报表可能很复杂。OpenERP有灵活的机制来满足不同地区的税务要求。
 
 .. i18n: The taxation mechanism can also be used to handle other tax-like financial transactions, such as royalties to authors based on the value of transactions through an account.
 ..
