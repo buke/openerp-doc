@@ -215,12 +215,12 @@ Below we explain the minimal configuration required to post your opening balance
 .. i18n: 1. Create the new Financial Year
 ..
 
-1. Create the new Financial Year
+1. 创建新的会计年度
 
 .. i18n: Create the new financial year as explained in :ref:`financialyear`.
 ..
 
-Create the new financial year as explained in :ref:`financialyear`.
+创建新的会计年度在 :ref:`financialyear` 中有详细解释。
 
 .. i18n: 2. Define an Opening Period
 ..
