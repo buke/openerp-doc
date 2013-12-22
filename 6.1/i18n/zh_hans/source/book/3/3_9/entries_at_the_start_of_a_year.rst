@@ -272,7 +272,7 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: We recommend you to define one or more suspense accounts to post your outstanding entries from the previous financial year. Check the :guilabel:`Reconcile` for such suspense accounts, because their balance will be zero.
 ..
 
-检查科目表中的每一个有余额的科目是否设置成正确的科目类型。We recommend you to define one or more suspense accounts to post your outstanding entries from the previous financial year. Check the :guilabel:`Reconcile` for such suspense accounts, because their balance will be zero.
+检查科目表中的每一个有余额的科目是否设置成正确的科目类型。我们建议您定义一个或多个临时科目来结转上以会计年度的未清分录。为每一临时科目勾选 :guilabel:`Reconcile` ，因为他们的余额将为0。
 
 .. i18n: 5. Create an Opening/Closing Journal
 ..
@@ -344,7 +344,7 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: For each account that needs to be reopened, enter account data (debit or credit) in the journal. For this operation, go to the menu :menuselection:`Accounting --> Journal Entries --> Journal Entries` and select a miscellaneous journal.
 ..
 
-For each account that needs to be reopened, enter account data (debit or credit) in the journal. For this operation, go to the menu :menuselection:`Accounting --> Journal Entries --> Journal Entries` and select a miscellaneous journal.
+对每一个需要重新打开的科目在分类帐中录入科目数字（借方或贷方），要这样做，得通过菜单 :menuselection:`Accounting --> Journal Entries --> Journal Entries` 并选择其他分类帐。
 
 .. i18n: .. tip:: Import
 .. i18n: 
