@@ -272,8 +272,7 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: We recommend you to define one or more suspense accounts to post your outstanding entries from the previous financial year. Check the :guilabel:`Reconcile` for such suspense accounts, because their balance will be zero.
 ..
 
-Check whether each account with an opening balance has been defined in the Chart of Accounts and is linked to the correct account type.
-We recommend you to define one or more suspense accounts to post your outstanding entries from the previous financial year. Check the :guilabel:`Reconcile` for such suspense accounts, because their balance will be zero.
+检查科目表中的每一个有余额的科目是否设置成正确的科目类型。We recommend you to define one or more suspense accounts to post your outstanding entries from the previous financial year. Check the :guilabel:`Reconcile` for such suspense accounts, because their balance will be zero.
 
 .. i18n: 5. Create an Opening/Closing Journal
 ..
