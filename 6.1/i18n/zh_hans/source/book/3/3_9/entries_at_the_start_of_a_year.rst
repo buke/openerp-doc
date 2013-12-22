@@ -116,7 +116,7 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: Create a new journal to post your opening entries. Make sure to respect the following settings:
 ..
 
-通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
+通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`。
 创建一个新的分类账来存放期初分录。 请务必遵守以下规则:
 
 .. i18n:     1. :guilabel:`Type` should be :guilabel:`Opening/Closing Situation`.
@@ -279,14 +279,14 @@ We recommend you to define one or more suspense accounts to post your outstandin
 .. i18n: 5. Create an Opening/Closing Journal
 ..
 
-5. Create an Opening/Closing Journal
+5. 创建一个 Opening/Closing Journal
 
 .. i18n: Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
 .. i18n: Create a new journal to post your opening entries. Make sure to respect the following settings:
 ..
 
-Go to :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`.
-Create a new journal to post your opening entries. Make sure to respect the following settings:
+通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Journals --> Journals`。
+创建一个新的分类账来存放期初分录。 请务必遵守以下规则:
 
 .. i18n:     1. :guilabel:`Type` should be :guilabel:`Opening/Closing Situation`.
 .. i18n:     2. :guilabel:`Standard debit/credit account` could be something like 140000 Benefits.
@@ -296,12 +296,13 @@ Create a new journal to post your opening entries. Make sure to respect the foll
 .. i18n: 6. Create a Purchase and/or Sales Journal for Outstanding Entries
 ..
 
-    1. :guilabel:`Type` should be :guilabel:`Opening/Closing Situation`.
-    2. :guilabel:`Standard debit/credit account` could be something like 140000 Benefits.
-    3. :guilabel:`Centralised counterpart` will be checked automatically when select the journal type, to avoid a counterpart on each line, and instead have one debit and one credit entry on the corresponding opening account.
-    4. The :guilabel:`Entry Sequence` will also be created automatically on save.
+    1. :guilabel:`Type` 应为 :guilabel:`Opening/Closing Situation`。
+    2. :guilabel:`Standard debit/credit account` 应为类似“140000 Benefits"。
+    3. :guilabel:`Centralised counterpart` 当你选择分类账类型时会自动选上，以避免在每一行上有副本，并代替相应的开账科目的一个解放和贷方分录。
+    4. 在保存时会自动创建 :guilabel:`Entry Sequence` 。
 
-6. Create a Purchase and/or Sales Journal for Outstanding Entries
+
+6. 为未结分录创建一个采购和/或销售帐薄
 
 .. i18n: We recommend you to create separate purchase and sales journals to post the outstanding entries from your previous accounting system. This will allow you to easily keep track of your opening entries.
 ..
