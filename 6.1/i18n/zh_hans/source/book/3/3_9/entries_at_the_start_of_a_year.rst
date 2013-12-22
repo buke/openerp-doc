@@ -329,7 +329,7 @@ Unreconciled    仅结转在新会计年度第一天核销后余额(典型的如
 .. i18n: Go to the menu :menuselection:`Accounting --> Customers --> Customer Invoices` to post your outstanding sales entries. To post your outstanding purchase entries, go to Go to the menu :menuselection:`Accounting --> Suppliers --> Supplier Invoices`.
 ..
 
-Go to the menu :menuselection:`Accounting --> Customers --> Customer Invoices` to post your outstanding sales entries. To post your outstanding purchase entries, go to Go to the menu :menuselection:`Accounting --> Suppliers --> Supplier Invoices`.
+通过菜单 :menuselection:`Accounting --> Customers --> Customer Invoices` 录入您的未清销售分录。要录入您的未清的采购分录，通过菜单 :menuselection:`Accounting --> Suppliers --> Supplier Invoices`.
 
 .. i18n: We recommend you to use suspense accounts instead of expense or income accounts. Indeed, your expense and income accounts have already been posted in the previous financial year, and there is no need to transfer these balances. The outstanding entries from previous financial years should not contain any VAT entries; they only get the balance the customer still has to pay you, or the balance you have to pay to the supplier.
 ..
