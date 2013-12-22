@@ -282,7 +282,7 @@ When you have created a tax structure consisting of taxe codes and taxes, you ca
 .. i18n: You can assign multiple taxes to a Product. Assuming you have set up the appropriate taxes, you would use the menu :menuselection:`Sales --> Products --> Products` to open and edit a :guilabel:`Product` definition, then:
 ..
 
-You can assign multiple taxes to a Product. Assuming you have set up the appropriate taxes, you would use the menu :menuselection:`Sales --> Products --> Products` to open and edit a :guilabel:`Product` definition, then:
+您可以为一种商品制定多个税，假定您已经创建了适当的税，您可以使用菜单 :menuselection:`Sales --> Products --> Products` 打开并编辑 :guilabel:`Product` 定义，然后:
 
 .. i18n: * select one or more :guilabel:`Sale Taxes` for any products that you might sell, which may
 .. i18n:   include a \ ``Sales Tax``\   or \ ``Output VAT``\  and a \ ``Sales Eco Tax``\  ,
@@ -291,21 +291,19 @@ You can assign multiple taxes to a Product. Assuming you have set up the appropr
 .. i18n:   include a \ ``Purchase Tax``\   or \ ``Input VAT``\  and a \ ``Purchase Eco Tax``\  .
 ..
 
-* select one or more :guilabel:`Sale Taxes` for any products that you might sell, which may
-  include a \ ``Sales Tax``\   or \ ``Output VAT``\  and a \ ``Sales Eco Tax``\  ,
+* 为您将销售的商品选择一个或多个 :guilabel:`Sale Taxes` ,它可能包含 \ ``Sales Tax``\   or \ ``Output VAT``\  and a \ ``Sales Eco Tax``\  ,
 
-* select one or more :guilabel:`Purchase Taxes` for any products that you might purchase, which may
-  include a \ ``Purchase Tax``\   or \ ``Input VAT``\  and a \ ``Purchase Eco Tax``\  .
+* 为您将采购的商品选择一个或多个 :guilabel:`Purchase Taxes` ，它可能包含 \ ``Purchase Tax``\   or \ ``Input VAT``\  and a \ ``Purchase Eco Tax``\  .
 
 .. i18n: Generally, when you make a purchase or sales, the taxes assigned to the product are used to calculate the taxes owing or owed.
 ..
 
-Generally, when you make a purchase or sales, the taxes assigned to the product are used to calculate the taxes owing or owed.
+通常您采购或销售时，会自动计算该分配给该商品的税种的应缴税额或抵扣金额（如进项税）。
 
 .. i18n: You can also assign multiple taxes to an account, so that when you transfer money through the account you attract a tax amount. This principle can easily be used when posting purchase invoices for which no products are required.
 ..
 
-You can also assign multiple taxes to an account, so that when you transfer money through the account you attract a tax amount. This principle can easily be used when posting purchase invoices for which no products are required.
+您也可以指派多个税种到一个会计科目，这样这个会计科目发生业务时您可以自动计算指派的税收金额。 This principle can easily be used when posting purchase invoices for which no products are required.
 
 .. i18n: .. index:: fiscal position
 ..
