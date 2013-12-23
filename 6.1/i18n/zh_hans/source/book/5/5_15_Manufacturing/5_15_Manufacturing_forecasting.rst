@@ -782,8 +782,7 @@ depending on the quantities and the lead time requested by the customer.
 
 .. note:: 原材料清单及代用品
 
-    In some software, you use the term ``substitute`` for this principle of configurable properties in
-    a bill of materials.
+    在一些ERP软件里, 也将原材料清单叫做 ``替代品``.
 
 .. i18n: By putting a bill of materials on its own line, you can also implement substitute products. You set the bill of materials to type ``Sets/Phantom`` to make the substitution transparent and to prevent OpenERP from proposing an intermediate production order.
 ..
