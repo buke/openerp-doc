@@ -75,7 +75,7 @@ OpenERP的税收机制围绕三大概念运行:
 
 * :guilabel:`Tax Code` (or :guilabel:`Tax Case`), 用于纳税申报， 可以设置成具有树状结构，这样多个税务代码可以像 ``Chart of Accounts``（会计科目表）一样显示。 税务代码用来定义您的VAT统计表，可以为数字或字母，您可以通过菜单 :menuselection: `Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes` 定义税务代码。
 
-* :guilabel:`Taxes`, 在业务中包含计税规则的基本税务概念，它和总帐科目和税务登记号有关。税种下面包含多个税目，不同大的税目使用不同的计税规则，因而具有很好的灵活性。
+* :guilabel:`Taxes`, 在业务中包含计税规则的基本税务概念，它和总帐科目和税务登记号有关。税种下面包含多个税目，不同的税目使用不同的计税规则，因而具有很好的灵活性。
 
 *  :guilabel:`General Accounts`, 用于记录缴纳的税款。由于总帐科目并非是税收特有的，在本书中其他章节也有说明，所以本节不再详细阐述。
 
