@@ -1,3 +1,4 @@
+
 .. i18n: Logistics and Manufacturing
 .. i18n: ===========================
 ..
@@ -61,7 +62,7 @@ You can select the production lot in the :guilabel:`Manufacturing Order` form on
     :scale: 75
     :align: center
     
-    *Tracking a Manufacturing Order*
+    *制程中的物料跟踪*
 
 .. i18n: When you have linked some manufacturing orders to production lots, you can trace them from the menu :menuselection:`Warehouse --> Traceability --> Production Lots`. In this view, you see the different production lots linked to a product. If you select one lot, you will have the possibility to choose between :guilabel:`Upstream Traceability` or :guilabel:`Downstream Traceability`.
 ..
@@ -113,7 +114,7 @@ When you have linked some manufacturing orders to production lots, you can trace
     :scale: 75
     :align: center
     
-    *Upstream Traceability*
+    *向上追溯跟踪*
 
 .. i18n: The different lines show the stock moves attached to the production of the product. There are several
 .. i18n: stock moves that are traced due to the Bill of Materials attached to the product *[PC1] Basic PC*.
@@ -134,7 +135,7 @@ stock moves that are traced due to the Bill of Materials attached to the product
     :scale: 75
     :align: center
     
-    *Downstream Traceability*        
+    *向下追溯跟踪*        
 
 .. i18n: In this window, you only see the move for the finished product. This is related to the definition of the  concept of Downstream Traceability, which only shows the flow from the customer to the supplier of raw materials.
 ..
