@@ -236,11 +236,11 @@
 
 *  :guilabel:`Account Type`: 选择如上所述相应的科目类型是很关键的。 这会对年底结转和生成报表时产生影响。
 
-*  :guilabel:`Secondary Currency`: forces all the moves for this account to have this secondary currency. Note that you can also define exchange rates from the menu :menuselection:`Accounting --> Configuration --> Miscellaneous --> Currencies`.
+*  :guilabel:`Secondary Currency`: 这个科目上的发生数强制使用这种外币。 注意您也可通过菜单 :menuselection:`Accounting --> Configuration --> Miscellaneous --> Currencies` 定义汇率。
 
 *  :guilabel:`Outgoing Currencies Rate`: to be selected only when you add a secondary currency. You have two options for outgoing transactions: ``At Date`` or ``Average Rate``. Incoming transactions are always calculated ``At Date``, according to the date of the transaction.
 
-*  :guilabel:`Allow Reconciliation`: determines if you can reconcile the entries in this account. Activate this field for receivable and payable accounts and any other account that need to be reconciled other than by bank statements.
+*  :guilabel:`Allow Reconciliation`: 决定可否核销这个科目的分录。 Activate this field for receivable and payable accounts and any other account that need to be reconciled other than by bank statements.
 
 *  :guilabel:`Default Taxes`: this is the default tax applied to purchases or sales using this account. It enables the system to propose tax entries automatically when entering data in a journal manually.
 
