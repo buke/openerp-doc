@@ -21,7 +21,8 @@ OpenERP 中为了跟踪生产过程中的物料,你可以定义一种特殊的�
 .. i18n: To get an overview of all stock moves, go to :menuselection:`Warehouse --> Traceability --> Stock Moves`. You can enter your Production location in the ``Location`` search field and then group by Source or Destination according to the moves you would like to check.
 ..
 
-To get an overview of all stock moves, go to :menuselection:`Warehouse --> Traceability --> Stock Moves`. You can enter your Production location in the ``Location`` search field and then group by Source or Destination according to the moves you would like to check.
+要查看所有的移库明细可以进菜单 :menuselection:`仓库(Warehouse) --> 可追溯的(Traceability) --> 库存调拨(Stock Moves)`. 在右上角的搜索框内输入 ``库位`` 名称可以按源库位
+以及目标库位进行过滤及分组.
 
 .. i18n: Traceability
 .. i18n: ++++++++++++
