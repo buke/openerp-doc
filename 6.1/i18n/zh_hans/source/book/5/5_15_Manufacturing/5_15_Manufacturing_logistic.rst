@@ -36,9 +36,7 @@ OpenERP 中为了跟踪生产过程中的物料,你可以定义一种特殊的�
 .. i18n: number of lot to each product to be able to track it in the system.
 ..
 
-With traceability you can easily track your production lots in the software. With this functionality you can
-quickly find where your products are in your warehouse. In counterpart, you will be forced to mention a
-number of lot to each product to be able to track it in the system.
+在OpenERP中可以很方便地追溯产品. 你只需要在追溯系统中为每一个产品批次指定一个批次号,便可以很容易地在仓库中追溯到某批次的产品.
 
 .. i18n: To enable traceability in the manufacturing process, go to :menuselection:`Warehouse --> Product --> Products`. In the ``Product`` form, you have to select the box :guilabel:`Track Manufacturing Lots` in the :guilabel:`Lots` section on the ``Information`` tab.
 ..
