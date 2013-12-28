@@ -3,7 +3,7 @@
 .. i18n: ===========================
 ..
 
-物流和生成制造
+物流和生产制造
 ===========================
 
 .. i18n: Manufacturing Stock Locations
@@ -41,7 +41,8 @@ OpenERP 中为了跟踪生产过程中的物料,你可以定义一种特殊的�
 .. i18n: To enable traceability in the manufacturing process, go to :menuselection:`Warehouse --> Product --> Products`. In the ``Product`` form, you have to select the box :guilabel:`Track Manufacturing Lots` in the :guilabel:`Lots` section on the ``Information`` tab.
 ..
 
-To enable traceability in the manufacturing process, go to :menuselection:`Warehouse --> Product --> Products`. In the ``Product`` form, you have to select the box :guilabel:`Track Manufacturing Lots` in the :guilabel:`Lots` section on the ``Information`` tab.
+要在生产中启用物料追踪, 点击菜单 :menuselection:`仓库(Warehouse) --> 产品(Product) --> 产品(Product)` 在 ``产品`` 界面的 ``信息(Information)``
+页签的 :guilabel:`跟踪生产批次(Track Manufacturing Lots)` 选项中选择 :guilabel:`批次(Lots)` 选项.
 
 .. i18n: In the manufacturing order, you have to mention a production lot number in order to continue the process.
 .. i18n: You can select the production lot in the :guilabel:`Manufacturing Order` form on the second tab, called :guilabel:`Finished Products`. You have to click the Products to Finish you want to trace, a new window will open. In the :guilabel:`Production Lot` field, click to link the manufacturing order to a production lot.
