@@ -114,7 +114,7 @@ When you have linked some manufacturing orders to production lots, you can trace
     :scale: 75
     :align: center
     
-    *向上追溯跟踪*
+    *推式物料跟踪*
 
 .. i18n: The different lines show the stock moves attached to the production of the product. There are several
 .. i18n: stock moves that are traced due to the Bill of Materials attached to the product *[PC1] Basic PC*.
@@ -135,7 +135,7 @@ stock moves that are traced due to the Bill of Materials attached to the product
     :scale: 75
     :align: center
     
-    *向下追溯跟踪*        
+    *拉式物流跟踪*        
 
 .. i18n: In this window, you only see the move for the finished product. This is related to the definition of the  concept of Downstream Traceability, which only shows the flow from the customer to the supplier of raw materials.
 ..
@@ -166,7 +166,7 @@ The management of repairs is carried out through the module :mod:`mrp_repair`. O
 .. i18n:         To install this module, you can also use the ``Reconfigure`` wizard. In the *MRP Application Configuration* screen, check the ``Repairs`` option.
 ..
 
-.. tip:: Repairs
+.. tip:: 维修
 
         To install this module, you can also use the ``Reconfigure`` wizard. In the *MRP Application Configuration* screen, check the ``Repairs`` option.
 
