@@ -97,9 +97,9 @@ When you have linked some manufacturing orders to production lots, you can trace
     :scale: 75
     :align: center
     
-    *Choosing between Upstream and Downstream Traceability*
+    *选择 推式/拉式物流追溯*
     
-.. tip:: Traceability
+.. tip:: 物料追溯
     
     **Upstream Traceability**: It starts from the raw materials received from the supplier and follows 
     the chain to the finished products delivered to customers. Note that the name is confusing - this 
