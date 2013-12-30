@@ -173,7 +173,7 @@ The management of repairs is carried out through the module :mod:`mrp_repair`. O
 .. i18n: In OpenERP, a repair will have the following effects:
 ..
 
-In OpenERP, a repair will have the following effects:
+在OpenERP中,维修会有如下的影响:
 
 .. i18n: * Use of materials: items for replacement,
 .. i18n: 
@@ -190,11 +190,11 @@ In OpenERP, a repair will have the following effects:
 .. i18n: * Invoicing items used and/or free for repairs.
 ..
 
-* Use of materials: items for replacement,
+* 使用原材料: 维修更换的部件,
 
 * Production of products: items replaced from reserved stock,
 
-* Quality control: tracking the reasons for repair,
+* 质量管理: 跟踪物料故障原因,
 
 * Accounting entries: following stock moves,
 
