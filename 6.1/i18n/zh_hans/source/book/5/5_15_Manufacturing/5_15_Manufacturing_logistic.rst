@@ -101,11 +101,11 @@ When you have linked some manufacturing orders to production lots, you can trace
     
 .. tip:: 物料追溯
     
-    **Upstream Traceability**: It starts from the raw materials received from the supplier and follows 
+    **推式物流追溯**: It starts from the raw materials received from the supplier and follows 
     the chain to the finished products delivered to customers. Note that the name is confusing - this 
     would often be considered a downstream direction. Think of it as **Where Used**.
     
-    **Downstream Traceability**: It follows the product in the other direction, from customer to the different 
+    **拉式物流追溯**: It follows the product in the other direction, from customer to the different 
     suppliers of raw material. Note that the name is confusing - this would often be considered an upstream 
     direction. Think of it as **Where Supplied**.
 
@@ -192,11 +192,11 @@ The management of repairs is carried out through the module :mod:`mrp_repair`. O
 
 * 使用原材料: 维修更换的部件,
 
-* Production of products: items replaced from reserved stock,
+* 待产产品: items replaced from reserved stock,
 
 * 质量管理: 跟踪物料故障原因,
 
-* Accounting entries: following stock moves,
+* 会计分录: following stock moves,
 
 * Receipt and delivery of product from and to the end user,
 
@@ -233,7 +233,7 @@ the system. You will see a blank form for the repair data, as shown in the figur
    :scale: 75
    :align: center
 
-   *Entering a New Repair*
+   *创建报修单*
 
 .. i18n: First enter the product to repair, then identify the product that will be repaired using the *product lot number*. OpenERP then automatically completes fields from the selected lot – the partner fields, address, delivery location and stock move.
 ..
