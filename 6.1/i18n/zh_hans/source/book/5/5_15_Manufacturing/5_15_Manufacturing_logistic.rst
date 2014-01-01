@@ -101,12 +101,10 @@ When you have linked some manufacturing orders to production lots, you can trace
     
 .. tip:: 物料追溯
     
-    **推式物流追溯**: It starts from the raw materials received from the supplier and follows 
-    the chain to the finished products delivered to customers. Note that the name is confusing - this 
+    **推式物流追溯**: 推式物流从供应商获得原材料然后经过各种库位链形成最终产品到达客户. Note that the name is confusing - this 
     would often be considered a downstream direction. Think of it as **Where Used**.
     
-    **拉式物流追溯**: It follows the product in the other direction, from customer to the different 
-    suppliers of raw material. Note that the name is confusing - this would often be considered an upstream 
+    **拉式物流追溯**: 拉式物流则刚好相反,它是由客户的产品订单进行驱动,然后最终形成对供应商的原材料采购. Note that the name is confusing - this would often be considered an upstream 
     direction. Think of it as **Where Supplied**.
 
         
