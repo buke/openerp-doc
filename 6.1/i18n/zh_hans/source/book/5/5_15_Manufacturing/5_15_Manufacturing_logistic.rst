@@ -264,15 +264,15 @@ Add or remove a component of the finished product:
 .. i18n: * `To Invoice` or not.
 ..
 
-* `Product`,
+* `产品`,
 
-* `Qty`,
+* `数量`,
 
-* `UoM`,
+* `单位`,
 
-* `Unit Price`,
+* `单价`,
 
-* `To Invoice` or not.
+* `开票` 或者 不开票.
 
 .. i18n: Once the component has been selected, OpenERP automatically completes most of the fields:
 ..
