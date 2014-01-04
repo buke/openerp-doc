@@ -290,15 +290,15 @@ Once the component has been selected, OpenERP automatically completes most of th
 .. i18n: * :guilabel:`To Invoice`: depends on the actual date and the guarantee period.
 ..
 
-* :guilabel:`Qty`: 1,
+* :guilabel:`数量(Qty)`: 1,
 
-* :guilabel:`UoM`: unit for managing stock defined in the product form,
+* :guilabel:`单位(UoM)`: unit for managing stock defined in the product form,
 
-* :guilabel:`Unit Price`: calculated from the customer list price,
+* :guilabel:`单价(Unit Price)`: calculated from the customer list price,
 
-* :guilabel:`Source Location`: given by the stock management,
+* :guilabel:`源库位(Source Location)`: given by the stock management,
 
-* :guilabel:`To Invoice`: depends on the actual date and the guarantee period.
+* :guilabel:`开票方式(To Invoice)`: depends on the actual date and the guarantee period.
 
 .. i18n: This information is automatically proposed by the system, but you can modify it all yourself.
 ..
