@@ -308,7 +308,8 @@ This information is automatically proposed by the system, but you can modify it 
 .. i18n: On the second tab of the ``Repair`` form, ``Invoicing``, you can select whether the repair has to be invoiced or not, and if invoiced whether it should be before or after the repair. You can also select the applicable list price, a specific address and encode additional charges that need to be added to the repair invoice.
 ..
 
-On the second tab of the ``Repair`` form, ``Invoicing``, you can select whether the repair has to be invoiced or not, and if invoiced whether it should be before or after the repair. You can also select the applicable list price, a specific address and encode additional charges that need to be added to the repair invoice.
+``维修单`` 的第二个标签页的 ``开票方式`` ,你可以选择此次维修是否需要开票,
+and if invoiced whether it should be before or after the repair. You can also select the applicable list price, a specific address and encode additional charges that need to be added to the repair invoice.
 
 .. i18n: .. figure:: images/mrp_repair_tab2.png
 .. i18n:    :scale: 75
