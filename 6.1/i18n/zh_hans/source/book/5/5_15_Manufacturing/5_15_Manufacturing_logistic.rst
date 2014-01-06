@@ -366,7 +366,7 @@ Once a repair has been entered in the system, it is in the ``Quotation`` state. 
 .. i18n: On the second tab, you can specify the `Invoice Method`:
 ..
 
-On the second tab, you can specify the `Invoice Method`:
+在第二个页签,你可以选择不同的 `开票方式`:
 
 .. i18n: * ``No Invoice``,
 .. i18n: 
