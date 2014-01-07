@@ -375,11 +375,11 @@ Once a repair has been entered in the system, it is in the ``Quotation`` state. 
 .. i18n: * ``After Repair``.
 ..
 
-* ``No Invoice``,
+* ``不开票``,
 
-* ``Before Repair``,
+* ``维修前开票``,
 
-* ``After Repair``.
+* ``维修后开票``.
 
 .. i18n: You can then confirm the repair operation or create an invoice for the customer depending on the Invoice Method.
 ..
