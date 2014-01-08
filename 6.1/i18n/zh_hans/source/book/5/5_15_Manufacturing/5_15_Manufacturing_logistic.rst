@@ -420,7 +420,7 @@ If the product to be repaired is still under guarantee, OpenERP automatically su
 .. i18n:         The link to the generated invoice is shown on the ``Extra Info``tab of the repair document. To open the invoice, simply click the ``Invoice`` field.
 ..
 
-.. note:: Extra Info
+.. note:: 扩展信息
 
         The link to the generated invoice is shown on the ``Extra Info``tab of the repair document. To open the invoice, simply click the ``Invoice`` field.
 
@@ -489,7 +489,7 @@ When the repair is ready to be confirmed, OpenERP will generate the following st
 
 * Put faulty SIDEPAN into suitable stock location *Default Production > Scrapped*,
 
-* Consume SIDEPAN: *Stock > Production*.
+* Consume SIDEPAN: *库存库位(Stock) > 生产库位(Production)*.
 
 .. i18n: If you analyze the traceability of this lot number, you will see all the repair operations in the
 .. i18n: upstream and downstream traceability lists of the products concerned.
