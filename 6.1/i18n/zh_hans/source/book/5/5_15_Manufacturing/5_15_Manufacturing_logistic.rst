@@ -166,7 +166,7 @@ The management of repairs is carried out through the module :mod:`mrp_repair`. O
 
 .. tip:: 维修
 
-        To install this module, you can also use the ``Reconfigure`` wizard. In the *MRP Application Configuration* screen, check the ``Repairs`` option.
+        安装维修模块,你也可以在 ``重新配置(Reconfigure)`` 向导. 在 *MRP 应用配置* 屏, 勾选 ``维修(Repairs)`` 选项.
 
 .. i18n: In OpenERP, a repair will have the following effects:
 ..
