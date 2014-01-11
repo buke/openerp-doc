@@ -38,12 +38,9 @@ Launchpad站点及 bazaar工具
 .. i18n: tracker <bug-tracker-link>` system.
 ..
 
-Any contributor who is interested to become a committer must show his interest
-on working for openerp project and ability to do it properly as
-selection is based on merit. It can be by proposing bug
-fixes, features requested on our :ref:`bug tracker <bug-tracker-link>` system.
-You can even suggest additional modules and/or functionality on our :ref:`bug
-tracker <bug-tracker-link>` system.
+每个希望成为提交者的贡献者必须先证明他对OpenERP项目的热情和能力。可以通过以下
+活动来证明：在我们的 :ref:`bug tracker <bug-tracker-link>`系统上提交bug或新功
+能，甚至新的模块。
 
 .. i18n: You can contribute or join OpenERP team, : https://help.launchpad.net/Teams/Joining
 ..
