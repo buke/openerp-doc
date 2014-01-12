@@ -327,7 +327,8 @@ You can also select the applicable list price, a specific address and encode add
 .. i18n: The third tab, ``Extra Info`` shows information about linked invoice and picking. You receive information about the current location, and you can change the ``Delivery Location``. The ``Notes`` tab allows you to register internal notes and information that should be written on the Quotation.
 ..
 
-The third tab, ``Extra Info`` shows information about linked invoice and picking. You receive information about the current location, and you can change the ``Delivery Location``. The ``Notes`` tab allows you to register internal notes and information that should be written on the Quotation.
+在第三个页签, ``额外信息`` 显示了相关的 调拨单以及发票.
+You receive information about the current location, and you can change the ``Delivery Location``. The ``Notes`` tab allows you to register internal notes and information that should be written on the Quotation.
 
 .. i18n: Repair Workflow
 .. i18n: +++++++++++++++
