@@ -138,7 +138,8 @@ stock moves that are traced due to the Bill of Materials attached to the product
 .. i18n: In this window, you only see the move for the finished product. This is related to the definition of the  concept of Downstream Traceability, which only shows the flow from the customer to the supplier of raw materials.
 ..
 
-In this window, you only see the move for the finished product. This is related to the definition of the  concept of Downstream Traceability, which only shows the flow from the customer to the supplier of raw materials.
+在这个窗口中, 你能看到产品完工的调拨记录.
+This is related to the definition of the  concept of Downstream Traceability, which only shows the flow from the customer to the supplier of raw materials.
 
 .. i18n: Managing Repairs: from Repair to Invoicing and Stock Movements
 .. i18n: ==============================================================
