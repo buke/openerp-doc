@@ -214,8 +214,8 @@ The management of repairs is carried out through the module :mod:`mrp_repair`. O
 .. i18n: the system. You will see a blank form for the repair data, as shown in the figure :ref:`fig-mrprepnew2` below.
 ..
 
-Use the menu :menuselection:`Manufacturing --> Manufacturing --> Repair Orders` to enter a new repair into
-the system. You will see a blank form for the repair data, as shown in the figure :ref:`fig-mrprepnew2` below.
+要创建维修单,进入菜单 :menuselection:`生产(Manufacturing) --> 生产(Manufacturing) --> 维修单(Repair Order)`. 点击 `创建(Create)` 可以看到一张空的维修单,
+如下图: :ref:`fig-mrprepnew2`
 
 .. i18n: .. _fig-mrprepnew2:
 .. i18n: 
