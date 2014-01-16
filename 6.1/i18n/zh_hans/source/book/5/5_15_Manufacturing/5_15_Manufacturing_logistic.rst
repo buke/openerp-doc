@@ -363,7 +363,7 @@ A defined process handles a repair order – both the repair itself and the cust
 .. i18n: Once a repair has been entered in the system, it is in the ``Quotation`` state. In this state, a repair order has no impact on the rest of the system. You can print a quotation through the action `Quotation / Order`.
 ..
 
-Once a repair has been entered in the system, it is in the ``Quotation`` state. In this state, a repair order has no impact on the rest of the system. You can print a quotation through the action `Quotation / Order`.
+最初的维修单状态是 ``询价(Quotation)`` 状态. 这种状态的维修单不会影响系统中的其他数据. 而且你可以通用 `询价(Quotation)/订单(Order)` 来打印这个询价的维修单.
 
 .. i18n: On the second tab, you can specify the `Invoice Method`:
 ..
