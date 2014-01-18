@@ -304,7 +304,7 @@ Once the component has been selected, OpenERP automatically completes most of th
 .. i18n: This information is automatically proposed by the system, but you can modify it all yourself.
 ..
 
-This information is automatically proposed by the system, but you can modify it all yourself.
+这些数据都是系统自动产生的, 你还可以再修改它们.
 
 .. i18n: On the second tab of the ``Repair`` form, ``Invoicing``, you can select whether the repair has to be invoiced or not, and if invoiced whether it should be before or after the repair. You can also select the applicable list price, a specific address and encode additional charges that need to be added to the repair invoice.
 ..
