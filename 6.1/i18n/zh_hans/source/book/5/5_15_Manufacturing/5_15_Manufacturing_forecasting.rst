@@ -1,4 +1,3 @@
-
 .. i18n: Forecasting and Supplying
 .. i18n: =========================
 ..
@@ -598,13 +597,13 @@ OpenERP基于承诺给客户的交货日期来组织整个生产和采购链。�
 .. i18n: Once the production order has been confirmed, OpenERP automatically generates a delivery order to send to the raw materials supplier. The storesperson can access this delivery order from the menu :menuselection:`Warehouse --> Warehouse Management --> Internal Moves`. The raw materials will then be placed in stock at the supplier's stores.
 ..
 
-一但生产计划单被确认, OpenERP 会自动生成向供应商发货的单据.仓库保管员可以在 :menuselection:`仓库(Warehouse) --> 仓库管理(Warehouse Management) --> 内部调拨(Internal Moves)`
+一旦生产计划单被确认, OpenERP 会自动生成向供应商发货的单据.仓库保管员可以在 :menuselection:`仓库(Warehouse) --> 仓库管理(Warehouse Management) --> 内部调拨(Internal Moves)`
 菜单去处理这些单据以完成向供应商的发货.
 
 .. i18n: Once the delivery of raw materials has been confirmed, OpenERP activates the production order. The supplier uses the raw materials to produce the finished goods which will automatically be put in your own stores. This manufacturing is confirmed when you receive the products from your supplier. Then you will indicate the quantities consumed by your supplier.
 ..
 
-Once the delivery of raw materials has been confirmed, OpenERP activates the production order. The supplier uses the raw materials to produce the finished goods which will automatically be put in your own stores. This manufacturing is confirmed when you receive the products from your supplier. Then you will indicate the quantities consumed by your supplier.
+如果原材料确认到货，OpenERP就会激活生产订单，供应商使用原材料来生产成成品后，将会自动被放入您的仓库。从供应商处收到产品的时候，生产就会确认。这时你需要标明供应商消耗的物料的数量。
 
 .. i18n: .. tip:: Subcontract without Routing
 .. i18n: 
