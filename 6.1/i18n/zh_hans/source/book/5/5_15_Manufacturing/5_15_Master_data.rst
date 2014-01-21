@@ -130,7 +130,7 @@ BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成�
 .. table:: Bill of Materials for 1 SHE100 Unit (already defined)
 
    ============  ========  ===============
-   Product Ref.  Quantity  Unit of Measure
+   物料编码      数量      计量单位
    ============  ========  ===============
    PROFIL         4        PCE
    SIDEPAN        2        PCE
@@ -152,7 +152,7 @@ BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成�
 .. table:: Bill of Materials for 1 RCK100 PCE
 
    ============  ========  ===============
-   Product Code  Quantity  Unit of Measure
+   物料编码      数量      计量单位
    ============  ========  ===============
    SPAN100       1         PCE
    METC000       4         PCE
@@ -170,7 +170,7 @@ BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成�
 .. table:: Bill of Materials for 1 SPAN100 PCE
 
    ============  ========  ===============
-   Product Code  Quantity  Unit of Measure
+   物料编码      数量      计量单位
    ============  ========  ===============
    WOOD010       0.083     m
    ============  ========  ===============
@@ -249,7 +249,7 @@ BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成�
 .. table:: Total Quantities per Shelf
 
    ============  =========================  ===============
-   Product Code  Quantity                   Unit of Measure
+   物料编码      数量                       计量单位
    ============  =========================  ===============
    WOOD002       0.416 (2 * 0.083 + 0.25)   m
    LIN40         1 (4 * 0.25)               m
@@ -263,7 +263,7 @@ BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成�
 .. i18n:    Master Data --> Bill of Materials` then select the product and click the action `BOM Structure`.
 ..
 
-.. tip:: Bill of Materials
+.. tip:: 原材料清单(BOM Bill Of Materials)
 
    To see the bill of materials in tree view, use the menu :menuselection:`Manufacturing -->
    Master Data --> Bill of Materials` then select the product and click the action `BOM Structure`.
