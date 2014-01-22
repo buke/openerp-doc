@@ -316,7 +316,7 @@ and click the `New` button to define a new bill of materials.
    :scale: 75
    :align: center
 
-   *Defining a Bill of Materials (Extended view)*
+   *定义BOM清单(Bill of Materials)*
 
 .. i18n: In the ``Product`` field of the bill of materials, you should set the finished product, which will be
 .. i18n: manufactured or assembled. Once the product has been selected, OpenERP automatically completes the
@@ -357,7 +357,7 @@ The quantities are set out based on the quantities of finished product and the q
 .. i18n:    (which means that the user should belong to the group ``Useability / Extended View`` .
 ..
 
-.. note:: Simplified View
+.. note:: 简洁界面
 
    The `Revisions` tab is only visible if the user works in the ``Extended`` view mode
    (which means that the user should belong to the group ``Useability / Extended View`` .
