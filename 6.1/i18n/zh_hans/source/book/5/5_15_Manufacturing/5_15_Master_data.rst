@@ -64,7 +64,7 @@
 .. i18n:    ========== ================= =========================
 ..
 
-.. table:: Product Definitions before defining Bills of Materials (already defined)
+.. table:: 定义BOM(Bills of Materials)前需要定义的产品
 
    ========== ================= =========================
    图片编号   产品参考号        描述
@@ -103,9 +103,9 @@
 .. i18n:         To create the above products, duplicate existing ones, such as Side Panel and Wood 2mm, from the Purchase or Sales menu :menuselection:`Purchases --> Products --> Products`.
 ..
 
-.. tip:: Copy
+.. tip:: 复制
 
-        To create the above products, duplicate existing ones, such as Side Panel and Wood 2mm, from the Purchase or Sales menu :menuselection:`Purchases --> Products --> Products`.
+        如上面的两种产品我们可以找一个类似的产品复制,以便快速地创建.
 
 .. i18n: To describe how this shelf should be assembled, you define a bill of materials for each intermediate product and for the final shelf assembly. These are shown in the tables below. You can start from the demo data and complete them according to the specifications. To create or change a bill of materials, go to :menuselection:`Manufacturing --> Master Data --> Bill of Materials`.
 ..
