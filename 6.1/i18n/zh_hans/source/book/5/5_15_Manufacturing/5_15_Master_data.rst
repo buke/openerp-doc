@@ -265,8 +265,7 @@ BOM内容在下表中显示。你可以由DEMO数据开始，根据指令完成�
 
 .. tip:: 原材料清单(BOM Bill Of Materials)
 
-   To see the bill of materials in tree view, use the menu :menuselection:`Manufacturing -->
-   Master Data --> Bill of Materials` then select the product and click the action `BOM Structure`.
+   要查看产品的原材料清单列表, 点击菜单: :menuselection:`生产(Manufacturing) --> 主数据(Master Data) --> 原材料清单(Bill of Materials)` 选择产品后点击 `BOM 结构(BOM Structure)`.
 
 .. i18n: .. figure:: images/mrp_bom_tree_new.png
 .. i18n:    :scale: 65
