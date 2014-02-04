@@ -102,13 +102,13 @@ Openerp中简明并易用的 `开票` 系统使你能跟踪您的账务，即使
 .. i18n: the supplier payment related to this purchase receipt, just like for the sales receipts.
 ..
 
-当您向Whe供应商采购商品后，您会收到”采购收据“（一张票据），它在会计术语里叫”付款单据“。 When a purchase receipt is confirmed, it creates journal items automatically and you can record
+当您向供应商采购商品后，您会收到”采购收据“（一张票据），它在会计术语里叫”付款单据“。 When a purchase receipt is confirmed, it creates journal items automatically and you can record
 the supplier payment related to this purchase receipt, just like for the sales receipts.
 
 .. i18n: You can create and modify the purchase receipt through the menu :menuselection:`Accounting --> Suppliers --> Purchase Receipt`.
 ..
 
-You can create and modify the purchase receipt through the menu :menuselection:`Accounting --> Suppliers --> Purchase Receipt`.
+您可通过菜单 :menuselection:`Accounting --> Suppliers --> Purchase Receipt`创建或修改采购收据。
 
 .. i18n: .. figure::  images/account_supplier_voucher2.png
 .. i18n:    :scale: 75
@@ -126,7 +126,7 @@ You can create and modify the purchase receipt through the menu :menuselection:`
 .. i18n: The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, carefully select the journal.
 ..
 
-The `Purchase Receipt` form looks like the `Sales Receipt` form. In this form, carefully select the journal.
+ `Purchase Receipt` 表单和 `Sales Receipt` 表单看起来很象。在这个表单中，请仔细选择分类帐。
 
 .. i18n: .. raw:: latex
 .. i18n: 
