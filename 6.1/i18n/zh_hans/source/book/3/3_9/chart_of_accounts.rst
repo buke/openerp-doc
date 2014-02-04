@@ -240,9 +240,9 @@
 
 *  :guilabel:`Outgoing Currencies Rate`: to be selected only when you add a secondary currency. You have two options for outgoing transactions: ``At Date`` or ``Average Rate``. Incoming transactions are always calculated ``At Date``, according to the date of the transaction.
 
-*  :guilabel:`Allow Reconciliation`: 决定可否核销这个科目的分录。 Activate this field for receivable and payable accounts and any other account that need to be reconciled other than by bank statements.
+*  :guilabel:`Allow Reconciliation`: 决定可否核销这个科目的分录。 为应收应付科目以及其他需要核销（不包括银行对账单）的科目激活这个字段。
 
-*  :guilabel:`Default Taxes`: this is the default tax applied to purchases or sales using this account. It enables the system to propose tax entries automatically when entering data in a journal manually.
+*  :guilabel:`Default Taxes`: 使用这个科目用于采购和销售的默认税,它使得在手工录入会计分录时系统可以自动给出税金分录。
 
 .. i18n: The tree structure of the accounts can be altered as often and as much as you wish without recalculating any of the individual entries. So you can easily restructure your account during the year to reflect the reality of the company better.
 ..
