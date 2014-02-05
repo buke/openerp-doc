@@ -268,9 +268,9 @@ You can have a look at active charts of accounts using the menu :menuselection:`
 .. i18n:         * it is flexible because you can easily restructure them.
 ..
 
-.. note:: Hierarchical Charts
+.. note:: 分层图表
 
-        Most accounting software packages represent their charts of accounts in the form of a list. You can
+        大多数财务软件都是以列表的Most accounting software packages represent their charts of accounts in the form of a list. You can
         do this in OpenERP as well if you want to, but its tree view offers several advantages:
 
         * it lets you show in detail only the accounts that interest you,
