@@ -253,13 +253,13 @@ The fields above apply the taxes that you specify and record them in the general
 .. i18n: *  :guilabel:`Refund Tax Code`: tax code to record the refund tax amount.
 ..
 
-*  :guilabel:`Account Base Code`: tax code to record the invoiced amount (exclusive of taxes) the tax is calculated on,
+*  :guilabel:`Account Base Code`: 记录计税基数（不含税）的税收代码，
 
-*  :guilabel:`Account Tax Code`: tax code to record the calculated tax amount,
+*  :guilabel:`Account Tax Code`: 记录计算出来的税收金额的税收代码，
 
-*  :guilabel:`Refund Base Code`: tax code to record the refund amount (exclusive of taxes) the tax is calculated on,
+*  :guilabel:`Refund Base Code`: 记录计税基数（不含税）退回数的税收代码，
 
-*  :guilabel:`Refund Tax Code`: tax code to record the refund tax amount.
+*  :guilabel:`Refund Tax Code`: 记录退回税额的税收代码
 
 .. i18n: When you have created a tax structure consisting of taxe codes and taxes, you can use the taxes in your various business objects so that transactions can be associated with taxes and tax-like charges, such as Eco Taxes (Recupel and Bebat, for instance).
 ..
