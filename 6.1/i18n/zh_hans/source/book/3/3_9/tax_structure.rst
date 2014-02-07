@@ -240,9 +240,8 @@ OpenERP的税收机制围绕三大概念运行:
     当您有一个复杂的税收情况有多个税收代码时您可以使用子税。
 
 .. i18n: The fields above apply the taxes that you specify and record them in the general accounts, but do not provide you with the information that your tax authorities might need. Use the :guilabel:`Tax Definition` tab, parts Tax Declaration: Invoices and Credit Notes to define to which tax codes the tax should be assigned:
-..
 
-The fields above apply the taxes that you specify and record them in the general accounts, but do not provide you with the information that your tax authorities might need. Use the :guilabel:`Tax Definition` tab, parts Tax Declaration: Invoices and Credit Notes to define to which tax codes the tax should be assigned:
+以上您提供的税务字段可在总帐中反映，但并不能提供税务机关可能需要的信息。使用 :guilabel:`Tax Definition` 页, 部分税务申报: Invoices and Credit Notes to define to which tax codes the tax should be assigned:
 
 .. i18n: *  :guilabel:`Account Base Code`: tax code to record the invoiced amount (exclusive of taxes) the tax is calculated on,
 .. i18n: 
