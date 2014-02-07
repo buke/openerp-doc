@@ -58,7 +58,7 @@
 .. i18n: From the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes` you can define your tax structure. Note that when you use a predefined (localised) chart of accounts, taxes will be configured as well in most cases.
 ..
 
-通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes` 您可以定义您的税收结构。 注意如果您使用预定义（本地化）科目表，多数情况下都已经定义好了税收。
+通过菜单  :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes`  您可以定义您的税收结构。 注意如果您使用预定义（本地化）科目表，多数情况下都已经定义好了税收。
 
 .. i18n: OpenERP's tax system runs around three major concepts:
 ..
@@ -117,9 +117,9 @@ OpenERP的税收机制围绕三大概念运行:
 
 *  :guilabel:`Tax Case Name`: 用于区分税目的唯一名称，通常来自于增值税申报表，
 
-*  :guilabel:`Case Code`: 用于该税目的一个可选的短的代码,
+*  :guilabel:`Case Code`: 用于该税目的一个可选的短的编码,
 
-*  :guilabel:`Parent Code`: 关联到上级税目的代码，用于树状结构，可通过菜单 :menuselection:`Accounting --> Charts --> Chart of Taxes` 显示
+*  :guilabel:`Parent Code`: 关联到上级税目的代码，用于树状结构，可通过菜单  :menuselection:`Accounting --> Charts --> Chart of Taxes`  显示
 
 *  :guilabel:`Not Printable in Invoice`: a checkbox allowing you to indicate that any taxes linked to the tax code concerned should not be printed on the invoice,
 
