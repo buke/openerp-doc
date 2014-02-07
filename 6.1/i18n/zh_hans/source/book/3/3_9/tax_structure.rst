@@ -208,15 +208,15 @@ The :guilabel:`Taxes` defined are used to compute taxes on the transactions they
 
 *  :guilabel:`Tax Name`: 本税需要的唯一名称（比如 \ ``21% Purchase VAT``\  ），
 
-*  :guilabel:`Tax Code`: an optional code for this tax (such as \ ``VAT IN IC``\  ),
+*  :guilabel:`Tax Code`: 这个税的可选的代码（比如 \ ``VAT IN IC``\  ），
 
-*  :guilabel:`Tax Application`: defines whether the tax is applicable to ``Sale``, ``Purchase`` or ``All`` transactions,
+*  :guilabel:`Tax Application`: 定义税种是否适用于 ``Sale``, ``Purchase`` or ``All`` 业务，
 
-*  :guilabel:`Tax Included in Price`: when checked, the price shown in the product or invoice is inclusive of this tax,
+*  :guilabel:`Tax Included in Price`: 当选中，显示在商品或发票上的价格将包含这个税，
 
-*  :guilabel:`Tax Type`: a required field indicating how tax should be calculated: ``Percentage``,
-   ``Fixed Amount``, ``None``, ``Balance`` or ``Python Code``, (the latter is found in the :guilabel:`Compute Code`
-   field in the :guilabel:`Special Computation` tab),
+*  :guilabel:`Tax Type`: 一个必需字段，表明如何计算此税的税额: ``Percentage``,
+   ``Fixed Amount``, ``None``, ``Balance`` or ``Python Code``, (您可从 :guilabel:`Special Computation` 页签中找到 :guilabel:`Compute Code` ）
+   field in the  tab),
 
 *  :guilabel:`Amount`: a required field whose meaning depends on the Tax Type, being a multiplier of the base amount when the :guilabel:`Tax
    Type` is \ ``Percentage``\ and a fixed amount added to the base amount when the :guilabel:`Tax Type` is \ ``Fixed Amount``\,
