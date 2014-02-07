@@ -123,9 +123,9 @@ OpenERP的税收机制围绕三大概念运行:
 
 *  :guilabel:`Not Printable in Invoice`: a checkbox allowing you to indicate that any taxes linked to the tax code concerned should not be printed on the invoice,
 
-*  :guilabel:`Coefficient for parent`: choose ``1.00`` to add the total to the parent account or ``-1.00`` to subtract it,
+*  :guilabel:`Coefficient for parent`: 选择 ``1.00`` 用于增加到上级科目或选择 ``-1.00`` 以从上级科目减少，
 
-*  :guilabel:`Description`: a free text field for documentation purposes.
+*  :guilabel:`Description`: 用于说明的一段文本。
 
 .. i18n: You can also see two read-only fields:
 ..
