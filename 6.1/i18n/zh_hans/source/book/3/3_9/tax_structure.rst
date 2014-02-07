@@ -173,7 +173,7 @@ The :guilabel:`Taxes` defined are used to compute taxes on the transactions they
    :scale: 75
    :align: center
 
-   *Defining Taxes*
+   *定义税种*
 
 .. i18n: You define the following fields:
 ..
@@ -206,7 +206,7 @@ The :guilabel:`Taxes` defined are used to compute taxes on the transactions they
 .. i18n: *  :guilabel:`Child Tax Accounts`: other taxes that can be used to supply the figure for taxation.
 ..
 
-*  :guilabel:`Tax Name`: a unique name required for this tax (such as \ ``21% Purchase VAT``\  ),
+*  :guilabel:`Tax Name`: 本税需要的唯一名称（比如 \ ``21% Purchase VAT``\  ），
 
 *  :guilabel:`Tax Code`: an optional code for this tax (such as \ ``VAT IN IC``\  ),
 
