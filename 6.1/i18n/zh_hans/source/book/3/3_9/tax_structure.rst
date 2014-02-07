@@ -121,7 +121,7 @@ OpenERP的税收机制围绕三大概念运行:
 
 *  :guilabel:`Parent Code`: 关联到上级税目的代码，用于树状结构，可通过菜单  :menuselection:`Accounting --> Charts --> Chart of Taxes`  显示
 
-*  :guilabel:`Not Printable in Invoice`: a checkbox allowing you to indicate that any taxes linked to the tax code concerned should not be printed on the invoice,
+*  :guilabel:`Not Printable in Invoice`: 一个复选框，允许您以表明链接到有关税务代码的任何税项不应该被打印在发票上，
 
 *  :guilabel:`Coefficient for parent`: 选择 ``1.00`` 用于增加到上级科目或选择 ``-1.00`` 以从上级科目减少，
 
@@ -143,7 +143,7 @@ OpenERP的税收机制围绕三大概念运行:
 .. i18n: You will probably need to create two tax codes for each different tax rate that you have to define, one for the tax itself and one for the invoice amount (the so-called base code) the tax is computed from. And you will create tax codes that you will not link to any tax objects (similar to General Account \ ``View``\   types) just to organise the tree (or hierarchical) structure.
 ..
 
-You will probably need to create two tax codes for each different tax rate that you have to define, one for the tax itself and one for the invoice amount (the so-called base code) the tax is computed from. And you will create tax codes that you will not link to any tax objects (similar to General Account \ ``View``\   types) just to organise the tree (or hierarchical) structure.
+您可能需要为已经定义的每种税率定义两个税务代码，一个用于税收本身，另一个作为发票的计税依据 (the so-called base code) the tax is computed from. 而且您也可以创建不关联到任何税的税务代码 (类似于总帐科目中的 \ ``View``\   类型) 仅用于组织树行（或层次）结构。
 
 .. i18n: To have a look at the structure you have constructed, you can use the menu :menuselection:`Accounting --> Charts --> Chart of Taxes`.
 .. i18n: This tree view reflects the structure of the :guilabel:`Tax Codes` and shows the current tax situation for the selected period, or for the complete financial year.
