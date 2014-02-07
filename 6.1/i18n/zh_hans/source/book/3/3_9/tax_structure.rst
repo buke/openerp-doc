@@ -264,7 +264,7 @@ The fields above apply the taxes that you specify and record them in the general
 .. i18n: When you have created a tax structure consisting of taxe codes and taxes, you can use the taxes in your various business objects so that transactions can be associated with taxes and tax-like charges, such as Eco Taxes (Recupel and Bebat, for instance).
 ..
 
-When you have created a tax structure consisting of taxe codes and taxes, you can use the taxes in your various business objects so that transactions can be associated with taxes and tax-like charges, such as Eco Taxes (Recupel and Bebat, for instance).
+当您创建了一个由税务代码和税组成的税务体系后，您可以在各种与税关联或类似税务业务中使用税， 比如生态税（比如回收处理和Bebat）。
 
 .. i18n: .. tip:: Retail Customers
 .. i18n: 
@@ -302,7 +302,7 @@ When you have created a tax structure consisting of taxe codes and taxes, you ca
 .. i18n: You can also assign multiple taxes to an account, so that when you transfer money through the account you attract a tax amount. This principle can easily be used when posting purchase invoices for which no products are required.
 ..
 
-您也可以指派多个税种到一个会计科目，这样这个会计科目发生业务时您可以自动计算指派的税收金额。 This principle can easily be used when posting purchase invoices for which no products are required.
+您也可以指派多个税种到一个会计科目，这样这个会计科目发生业务时您可以自动计算指派的税收金额。 这个概念可以很容易的应用于邮寄没有商品的采购发票时。
 
 .. i18n: .. index:: fiscal position
 ..
