@@ -87,7 +87,7 @@ OpenERP的税收机制围绕三大概念运行:
 .. i18n: To create a new :guilabel:`Tax Code`, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes`. You should define the following fields:
 ..
 
-创建新 :guilabel:`Tax Code`，使用菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes`。 您应当定义如下字段：
+创建新 :guilabel:`Tax Code`，使用菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Tax Codes` 。 您应当定义如下字段：
 
 .. i18n: .. figure::  images/account_def_tax_code_form.png
 .. i18n:    :scale: 75
