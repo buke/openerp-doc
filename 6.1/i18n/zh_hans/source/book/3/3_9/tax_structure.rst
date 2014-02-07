@@ -220,15 +220,15 @@ OpenERP的税收机制围绕三大概念运行:
 *  :guilabel:`Amount`: 一个必需字段，意思是根据税收计算类型，若 :guilabel:`Tax
    Type` 是 \ ``Percentage``\ 则税款额为纳税基数乘上税率，当 :guilabel:`Tax Type` 是 \ ``Fixed Amount``\则以固定金额增加到纳税基数上。
 
-*  :guilabel:`Invoice Tax Account`: a General Account used to record invoiced tax amounts, which may be the same for several taxes or split according to percentage so that one tax is allocated to one account,
+*  :guilabel:`Invoice Tax Account`: 一个用于记录发票上税额的总帐科目， 这可能是多个税使用同一个科目，或按比例分割以便每一税种分配一个科目，
 
-*  :guilabel:`Refund Tax Account`: a General Account used to record invoiced tax refunds, which may be the same as the Invoice Tax Account or, in some tax jurisdictions, has to be separated,
+*  :guilabel:`Refund Tax Account`: 一个用于记录发票上退回税额的总帐科目， 其可以是同一个发票税科目，或按不同的税务管辖区分拆成不同的科目，
 
-*  :guilabel:`Tax on Children`: when checked, the tax calculation is applied to the output from other tax calculations specified in the :guilabel:`Child Tax Accounts` field (so you can have taxes on taxes), otherwise the calculation is applied to the base amount of the transaction,
+*  :guilabel:`Tax on Children`: 当选择时税额计算是根据 :guilabel:`Child Tax Accounts` 的计算结果决定的 （因此您可以有税上税），否则是根据业务金额计算的，
 
-*  :guilabel:`Include in base amount`: when checked, the tax is added to the base amount and not shown separately, such as Eco taxes,
+*  :guilabel:`Include in base amount`: 当选上时，税收是加在计税基数上而非单独显示，比方Eco税，
 
-*  :guilabel:`Child Tax Accounts`: other taxes that can be used to supply the figure for taxation.
+*  :guilabel:`Child Tax Accounts`: 可用于计算税额的其他税项。
 
 .. i18n: .. tip:: Using Child Taxes
 .. i18n: 
