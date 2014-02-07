@@ -149,7 +149,7 @@ You will probably need to create two tax codes for each different tax rate that 
 .. i18n: This tree view reflects the structure of the :guilabel:`Tax Codes` and shows the current tax situation for the selected period, or for the complete financial year.
 ..
 
-To have a look at the structure you have constructed, you can use the menu :menuselection:`Accounting --> Charts --> Chart of Taxes`.
+要查看您创建的结构，您可以使用菜单 :menuselection:`Accounting --> Charts --> Chart of Taxes`.
 This tree view reflects the structure of the :guilabel:`Tax Codes` and shows the current tax situation for the selected period, or for the complete financial year.
 
 .. i18n: The :guilabel:`Taxes` defined are used to compute taxes on the transactions they are attached to, and they are linked to the corresponding General Accounts (usually VAT accounts) and to Tax Codes, both for the base amount and the tax amount.
