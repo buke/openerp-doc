@@ -130,7 +130,7 @@ OpenERP的税收机制围绕三大概念运行:
 .. i18n: You can also see two read-only fields:
 ..
 
-您会看到两个只读字段：
+您还会看到两个只读字段：
 
 .. i18n: *  :guilabel:`Period Sum`: a single figure showing the total accumulated on this case for the current financial period.
 .. i18n: 
