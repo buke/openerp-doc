@@ -143,7 +143,7 @@ OpenERP的税收机制围绕三大概念运行:
 .. i18n: You will probably need to create two tax codes for each different tax rate that you have to define, one for the tax itself and one for the invoice amount (the so-called base code) the tax is computed from. And you will create tax codes that you will not link to any tax objects (similar to General Account \ ``View``\   types) just to organise the tree (or hierarchical) structure.
 ..
 
-您可能需要为已经定义的每种税率定义两个税务代码，一个用于税收本身，另一个作为发票的计税依据 (the so-called base code) the tax is computed from. 而且您也可以创建不关联到任何税的税务代码 (类似于总帐科目中的 \ ``View``\   类型) 仅用于组织树行（或层次）结构。
+您可能需要为已经定义的每种税率定义两个税务代码，一个用于税收本身，另一个作为发票的计税依据 (the so-called base code) the tax is computed from. 而且您也可以创建不关联到任何税的税务代码 (类似于总帐科目中的 \ ``View``\   类型) 仅用于组织树形行（或层次）结构。
 
 .. i18n: To have a look at the structure you have constructed, you can use the menu :menuselection:`Accounting --> Charts --> Chart of Taxes`.
 .. i18n: This tree view reflects the structure of the :guilabel:`Tax Codes` and shows the current tax situation for the selected period, or for the complete financial year.
@@ -160,7 +160,7 @@ The :guilabel:`Taxes` defined are used to compute taxes on the transactions they
 .. i18n: To create a new Tax, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Taxes`.
 ..
 
-To create a new Tax, use the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Taxes`.
+要创建一个新的税，使用菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Taxes --> Taxes`.
 
 .. i18n: .. figure::  images/account_define_tax_form.png
 .. i18n:    :scale: 75
