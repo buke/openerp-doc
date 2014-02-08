@@ -382,7 +382,7 @@ You can have a look at active charts of accounts using the menu :menuselection:`
 .. i18n: To be able to map your virtual chart of accounts to your general chart of accounts, you have to set :guilabel:`Internal Type` as ``Consolidation``. From the :guilabel:`Consolidated Children` you can then map accounts or make accounts consolidate. In the :guilabel:`Consolidated Children`, you can add ``View`` accounts or normal accounts. If you add a ``View`` account to the consolidated children, OpenERP will automatically include all existing and future linked accounts.
 ..
 
-To be able to map your virtual chart of accounts to your general chart of accounts, you have to set :guilabel:`Internal Type` as ``Consolidation``. From the :guilabel:`Consolidated Children` you can then map accounts or make accounts consolidate. In the :guilabel:`Consolidated Children`, you can add ``View`` accounts or normal accounts. If you add a ``View`` account to the consolidated children, OpenERP will automatically include all existing and future linked accounts.
+要映射您的虚拟科目表到您的总帐科目，您必须将 :guilabel:`Internal Type` 设置成 ``Consolidation`` 。 From the :guilabel:`Consolidated Children` you can then map accounts or make accounts consolidate. 在 :guilabel:`Consolidated Children`, 您可以增加 ``View`` 类科目或末级科目，如果您增加了一个 ``View`` 科目成合成类科目的子科目， OpenERP 会自动包括该总帐科目中已经存在的和未来增加的子科目。
 
 .. i18n: .. figure::  images/account_virtual.png
 .. i18n:    :scale: 75
