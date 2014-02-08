@@ -288,12 +288,12 @@ You can have a look at active charts of accounts using the menu :menuselection:`
 .. i18n: To get the details of the account entries that are important to you, all you need to do is click the account's code or name.
 ..
 
-To get the details of the account entries that are important to you, all you need to do is click the account's code or name.
+要获得科目的明细数据对您是非常重要的，您要做的就是点击科目代码或是名称。
 
 .. i18n: Displaying the chart of accounts can take several seconds, because OpenERP calculates the debits, credits and balance for each account in real time. 
 ..
 
-Displaying the chart of accounts can take several seconds, because OpenERP calculates the debits, credits and balance for each account in real time. 
+显示会计科目表可能需要好几分钟，因为OpenERP是实时计算每个科目的借方、贷方和余额的。 
 
 .. i18n: .. index::
 .. i18n:    single: consolidation (accounting)
