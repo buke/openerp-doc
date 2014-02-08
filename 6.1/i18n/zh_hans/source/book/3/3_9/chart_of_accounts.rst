@@ -362,7 +362,7 @@
 
         * 实时合并多个公司数据,
 
-        * reporting to a holding according to their chart of accounts,
+        * 根据企业投资者的科目表生成报表,
 
         * 折旧计算,
 
@@ -377,12 +377,12 @@
 .. i18n: To create a new chart of accounts you should create a root account using the menu :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts`. Your top level account should have a name, a code (different from any other code in your current chart), an :guilabel:`Internal Type` and :guilabel:`Account Type`  \ ``View``\. Then you can choose your structure by creating other accounts of :guilabel:`Account Type` \ ``View``\ as necessary. The :guilabel:`Internal Type` should be of the ``Consolidation`` type if you want to map accounts. Check your virtual structure using the menu :menuselection:`Financial Management --> Charts --> Charts of Accounts` and select the corresponding chart in the drop-down list at the top of the screen.
 ..
 
-创建一个新的会计科目表，您需要通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts` 创建一个根科目。您的顶级帐户应该有一个名字，一个代码（不同于当前科目表中任何其他科目代码，一个 :guilabel:`Internal Type` 和 :guilabel:`Account Type`  \ ``View``\。 然后您可以通过创建其他可选择您需要的科目结构 :guilabel:`Account Type` \ ``View``\ as necessary. The :guilabel:`Internal Type` should be of the ``Consolidation`` type if you want to map accounts. Check your virtual structure using the menu :menuselection:`Financial Management --> Charts --> Charts of Accounts` and select the corresponding chart in the drop-down list at the top of the screen.
+创建一个新的会计科目表，您需要通过菜单 :menuselection:`Accounting --> Configuration --> Financial Accounting --> Accounts --> Accounts` 创建一个根科目。您的顶级帐户应该有一个名字，一个代码（不同于当前科目表中任何其他科目代码，一个 :guilabel:`Internal Type` 和 :guilabel:`Account Type`  \ ``View``\。 然后您可以根据自己的需要创建其他科目， :guilabel:`Account Type` \ ``View``\ 是必须的。如果您想从其他科目映射过来，则 :guilabel:`Internal Type` 应设为 ``Consolidation``  。检查您的虚拟结构通过裁断 :menuselection:`Financial Management --> Charts --> Charts of Accounts` 并从屏幕顶部的下拉框中选择相应的科目表
 
 .. i18n: To be able to map your virtual chart of accounts to your general chart of accounts, you have to set :guilabel:`Internal Type` as ``Consolidation``. From the :guilabel:`Consolidated Children` you can then map accounts or make accounts consolidate. In the :guilabel:`Consolidated Children`, you can add ``View`` accounts or normal accounts. If you add a ``View`` account to the consolidated children, OpenERP will automatically include all existing and future linked accounts.
 ..
 
-要映射您的虚拟科目表到您的总帐科目，您必须将 :guilabel:`Internal Type` 设置成 ``Consolidation`` 。 From the :guilabel:`Consolidated Children` you can then map accounts or make accounts consolidate. 在 :guilabel:`Consolidated Children`, 您可以增加 ``View`` 类科目或末级科目，如果您增加了一个 ``View`` 科目成合成类科目的子科目， OpenERP 会自动包括该总帐科目中已经存在的和未来增加的子科目。
+要映射您的虚拟科目表到您的总帐科目，您必须将 :guilabel:`Internal Type` 设置成 ``Consolidation`` 。 通过 :guilabel:`Consolidated Children` 您可映射科目或创建合成类科目。 在 :guilabel:`Consolidated Children`, 您可以增加 ``View`` 类科目或末级科目，如果您增加了一个 ``View`` 科目成合成类科目的子科目， OpenERP 会自动包括该总帐科目中已经存在的和未来增加的子科目。
 
 .. i18n: .. figure::  images/account_virtual.png
 .. i18n:    :scale: 75
