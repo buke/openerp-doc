@@ -270,8 +270,7 @@ You can have a look at active charts of accounts using the menu :menuselection:`
 
 .. note:: 分层图表
 
-        大多数财务软件都是以列表的Most accounting software packages represent their charts of accounts in the form of a list. You can
-        do this in OpenERP as well if you want to, but its tree view offers several advantages:
+        大多数财务软件都是以列表的形式显示会计科目表，在OpenERP中当然也可这样做，但它的树形图具有如下优点：
 
         * 它能让您只显示您感兴趣的科目的细节，
 
@@ -284,7 +283,7 @@ You can have a look at active charts of accounts using the menu :menuselection:`
 .. i18n: The structure of the chart of accounts is hierarchical, with account subtotals calculated from the ``View`` accounts. You can develop a set of view accounts to contain only those elements that interest you.
 ..
 
-The structure of the chart of accounts is hierarchical, with account subtotals calculated from the ``View`` accounts. You can develop a set of view accounts to contain only those elements that interest you.
+会计科目的结构是分层的，还有被称为 ``View`` 的拥有小计功能科目（译注：有子科目的非末级科目），您可以配置一套只包含您感兴趣的会计科目表。
 
 .. i18n: To get the details of the account entries that are important to you, all you need to do is click the account's code or name.
 ..
