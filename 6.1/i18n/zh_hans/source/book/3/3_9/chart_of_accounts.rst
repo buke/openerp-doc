@@ -238,7 +238,7 @@
 
 *  :guilabel:`Secondary Currency`: 这个科目上的发生数强制使用这种外币。 注意您也可通过菜单 :menuselection:`Accounting --> Configuration --> Miscellaneous --> Currencies` 定义汇率。
 
-*  :guilabel:`Outgoing Currencies Rate`: 仅当您增加了一个外币时选择。您卖出外汇时有两个选项： ``At Date`` 或 ``Average Rate``。买入外汇总是按业务日期 ``At Date``计算。
+*  :guilabel:`Outgoing Currencies Rate`: 仅当您增加了一个外币时选择。您卖出外汇时有两个选项： ``At Date`` 或 ``Average Rate``。买入外汇总是按业务日期 ``At Date`` 计算。
 
 *  :guilabel:`Allow Reconciliation`: 决定可否核销这个科目的分录。 为应收应付科目以及其他需要核销（不包括银行对账单）的科目激活这个字段。
 
