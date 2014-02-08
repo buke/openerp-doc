@@ -273,13 +273,13 @@ You can have a look at active charts of accounts using the menu :menuselection:`
         大多数财务软件都是以列表的Most accounting software packages represent their charts of accounts in the form of a list. You can
         do this in OpenERP as well if you want to, but its tree view offers several advantages:
 
-        * it lets you show in detail only the accounts that interest you,
+        * 它能让您只显示您感兴趣的科目的细节，
 
-        * it enables you to get a global view of accounts (when you show only summary accounts),
+        * 它能够让您获得一个全局的科目视图（当您只显示各科目的汇总时），
 
-        * it is more intuitive, because you can search for accounts on the basis of their classification,
+        * 它更加直观，因您能够基于分类进行查询，
 
-        * it is flexible because you can easily restructure them.
+        * 它更加灵活，因您能更容易对他们重新构建。
 
 .. i18n: The structure of the chart of accounts is hierarchical, with account subtotals calculated from the ``View`` accounts. You can develop a set of view accounts to contain only those elements that interest you.
 ..
