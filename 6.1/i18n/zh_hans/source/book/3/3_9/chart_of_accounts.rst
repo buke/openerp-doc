@@ -247,12 +247,12 @@
 .. i18n: The tree structure of the accounts can be altered as often and as much as you wish without recalculating any of the individual entries. So you can easily restructure your account during the year to reflect the reality of the company better.
 ..
 
-The tree structure of the accounts can be altered as often and as much as you wish without recalculating any of the individual entries. So you can easily restructure your account during the year to reflect the reality of the company better.
+科目的树形结构可以随时按需更改，而无需重新计算其中的任何分录。因此，为更好的反映公司财务状况，您可以在一个会计年度中轻松更改科目结构。
 
 .. i18n: You can have a look at active charts of accounts using the menu :menuselection:`Accounting --> Charts --> Chart of Accounts`, and :guilabel:`Open Charts` for the selected year, account moves and periods. Click an account to drill down to its details. 
 ..
 
-You can have a look at active charts of accounts using the menu :menuselection:`Accounting --> Charts --> Chart of Accounts`, and :guilabel:`Open Charts` for the selected year, account moves and periods. Click an account to drill down to its details. 
+您可以通过菜单 :menuselection:`Accounting --> Charts --> Chart of Accounts` ，选择会计年度，会计凭证，会计期间，并点击 :guilabel:`Open Charts` 查看科目一览表， 点击一个科目可下钻到该科目的明细帐。 
 
 .. i18n: .. note:: Hierarchical Charts
 .. i18n: 
