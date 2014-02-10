@@ -10,6 +10,9 @@ OpenERP 中文文档翻译计划
 
 官方中文文档：https://doc.openerp.com/6.1/zh_CN/
 
+文档翻译全成转移至 官网7.0 翻译平台: https://translations.launchpad.net/openobject-doc/7.0/+lang/zh_CN
+请本项目51位贡献者与 [mrshelly] 联系获取项目编译PDF中文文档.谢谢大家.散会.
+
 
 参与说明
 -----------
