@@ -54,7 +54,7 @@ Openerp中简明并易用的 `开票` 系统使你能跟踪您的账务，即使
 .. i18n: Sales Receipts are merely a kind of sales ticket and not a real invoice.
 ..
 
-您你卖产品给客户时，您可以给他一个真正的发票或销售收据，这也被称为客户收据。销售收据仅仅是一种销售小票，而不是一个真正的发票。
+当您卖产品给客户时，您可以给他一个真正的发票或销售收据，这也被称为客户收据。销售收据仅仅是一种销售小票，而不是一个真正的发票。
 
 .. i18n: When the sales receipt is confirmed, OpenERP creates journal items automatically and you can record the customer payment related to this sales receipt. The easy invoicing system does not require extensive accounting setup, so you will be up and running quickly!
 ..
