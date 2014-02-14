@@ -84,7 +84,7 @@ Openerp中简明并易用的 `开票` 系统使你能跟踪您的账务，即使
 .. i18n:     To display Sales and Purchase Receipts in the Customers / Suppliers menu, you need to use the ``Extended`` view. The view can be changed with the user ``Preferences`` button next to the ``Home`` button in the main toolbar.
 ..
 
-.. 注释:: 扩展试图
+.. 注释:: 扩展视图
 
     要显示销售或采购收据，通过 Customers / Suppliers 菜单, 如果需要您可以使用 ``扩展`` 视图. The view can be changed with the user ``Preferences`` button next to the ``Home`` button in the main toolbar.
 
@@ -230,7 +230,7 @@ the supplier payment related to this purchase receipt, just like for the sales r
    :scale: 75
    :align: center
 
-   *Mail to Your Customer*
+   *发邮件给您的客户*
  
 
 .. i18n: Keep Track of your Customer's Payments
@@ -267,18 +267,18 @@ the supplier payment related to this purchase receipt, just like for the sales r
    :scale: 75
    :align: center
 
-   *Customer Payment*
+   *客户付款*
 
 .. i18n: Suppose you have an invoice of 3000 EUR; the amount you actually receive from the customer is 2995 EUR. You would consider the invoice as entirely paid. How would you proceed?
 ..
 
-Suppose you have an invoice of 3000 EUR; the amount you actually receive from the customer is 2995 EUR. You would consider the invoice as entirely paid. How would you proceed?
+假设您有张3000 EUR的发票，然而您从客户那里收到的是2995 EUR。 您可以认为该发票已经结清，您将如何处理呢？
 
 .. i18n: To create a new `Customer Payment`, select the customer, key in the `Paid Amount`, e.g. 2995 and select the `Payment Method`, i.e. your bank journal. Any open invoices, credit notes or advances for this partner will be displayed on the ``Payment Information`` tab.
 .. i18n: In this example, the 3000 EUR invoice will be proposed.
 ..
 
-To create a new `Customer Payment`, select the customer, key in the `Paid Amount`, e.g. 2995 and select the `Payment Method`, i.e. your bank journal. Any open invoices, credit notes or advances for this partner will be displayed on the ``Payment Information`` tab.
+创建一张新的 `Customer Payment`, 选择客户，输入 `Paid Amount`, 比如 2995 并选择 `Payment Method`, 也就是您的银行分类账。所有的未结清发票，Any open invoices, credit notes or advances for this partner will be displayed on the ``Payment Information`` tab.
 In this example, the 3000 EUR invoice will be proposed.
 
 .. i18n: Now you have to tell OpenERP that you want to consider the invoice as fully paid. Simply click the invoice line on the ``Payment Information`` tab to make it editable. Now select the :guilabel:`Full Reconcile` checkbox, and notice that the amount changes to the full amount of the invoice.
